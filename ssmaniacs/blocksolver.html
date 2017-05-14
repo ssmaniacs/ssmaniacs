@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Block Solver</title>
+<script type="text/javascript">
+var BLOCKSIZE = 30;
+var MARGINWIDTH = 5;
+var BORDERWIDTH = 20;
+var LINEWIDTH = 2;
+
+var language = ((window.navigator.languages && window.navigator.languages[0]) ||
+            window.navigator.language ||
+            window.navigator.userLanguage ||
+            window.navigator.browserLanguage).toLowerCase().substr(0,2);
+
+/*
+	Block type
+	0: empty
+	1: target left
+	2: 2 horizontal left
+	3: 3 horizontal left most
+	4: 2 vertical top
+	5: 3 vertical top most
+	6: right, middle and bottom blocks
+*/
+var initialboard = [
+	[0, 0, 0, 0, 0, 0],
+	[0, 0, 0, 0, 0, 0],
+	[1, 6, 0, 0, 0, 0],
+	[0, 0, 0, 0, 0, 0],
+	[0, 0, 0, 0, 0, 0],
+	[0, 0, 0, 0, 0, 0]
+];
+
+// High Explorer, Academician, Magister and Professor Puzzles from
+// http://the-secret-society.wikia.com/wiki/Blocks
+var predefined = [
+	[
+		[0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0],
+		[1, 6, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0]
+	],
+	[
+		[3, 6, 6, 0, 4, 4],
+		[2, 6, 0, 0, 6, 6],
+		[4, 1, 6, 0, 4, 4],
+		[6, 0, 4, 0, 6, 6],
+		[0, 4, 6, 2, 6, 0],
+		[0, 6, 2, 6, 2, 6]
+	],
+	[
+		[3, 6, 6, 4, 0, 0],
+		[0, 0, 5, 6, 2, 6],
+		[1, 6, 6, 0, 0, 4],
+		[4, 0, 6, 2, 6, 6],
+		[6, 3, 6, 6, 4, 4],
+		[2, 6, 2, 6, 6, 6]
+	],
+	[
+		[0, 4, 2, 6, 0, 4],
+		[4, 6, 2, 6, 0, 6],
+		[6, 1, 6, 4, 0, 0],
+		[4, 0, 5, 6, 2, 6],
+		[6, 0, 6, 2, 6, 4],
+		[0, 0, 6, 0, 0, 6]
+	],
+	[
+		[0, 4, 2, 6, 2, 6],
+		[0, 6, 5, 3, 6, 6],
+		[1, 6, 6, 0, 0, 4],
+		[4, 0, 6, 4, 4, 6],
+		[6, 2, 6, 6, 6, 4],
+		[3, 6, 6, 0, 0, 6]
+	],
+	[
+		[5, 0, 0, 3, 6, 6],
+		[6, 0, 0, 4, 0, 5],
+		[6, 1, 6, 6, 0, 6],
+		[3, 6, 6, 4, 0, 6],
+		[0, 0, 4, 6, 0, 0],
+		[0, 0, 6, 2, 6, 0]
+	],
+	[
+		[0, 0, 0, 5, 4, 0],
+		[3, 6, 6, 6, 6, 0],
+		[1, 6, 0, 6, 4, 0],
+		[4, 0, 2, 6, 6, 0],
+		[6, 0, 4, 2, 6, 0],
+		[2, 6, 6, 0, 0, 0]
+	],
+	[
+		[4, 2, 6, 0, 4, 5],
+		[6, 0, 5, 5, 6, 6],
+		[1, 6, 6, 6, 0, 6],
+		[0, 0, 6, 6, 2, 6],
+		[0, 0, 0, 0, 4, 0],
+		[0, 2, 6, 0, 6, 0]
+	],
+	[
+		[0, 0, 4, 3, 6, 6],
+		[5, 0, 6, 4, 0, 0],
+		[6, 1, 6, 6, 0, 0],
+		[6, 2, 6, 2, 6, 5],
+		[0, 0, 4, 0, 0, 6],
+		[2, 6, 6, 0, 0, 6]
+	],
+	[
+		[2, 6, 0, 5, 4, 0],
+		[3, 6, 6, 6, 6, 4],
+		[1, 6, 0, 6, 4, 6],
+		[4, 0, 2, 6, 6, 4],
+		[6, 0, 4, 2, 6, 6],
+		[2, 6, 6, 0, 0, 0]
+	]
+];
+var current_pattern = 0;
+
+function Block(x, y, horz, size, kind) {
+	this._x = x;
+	this._y = y;
+	this._horz = horz;
+	this._size = size;
+	this._kind = kind;
+}
+
+function Move(blockid, direction, distance) {
+	this._blockid = blockid;
+	this._direction = direction;
+	this._distance = distance;
+}
+
+function drawboard(cvname, title, board) {
+	var cv = document.getElementById(cvname);
+	var ctx = cv.getContext("2d");
+
+	// draw outer frame
+	ctx.beginPath();
+	ctx.strokeStyle = "#000000";
+	ctx.fillStyle = "#F4A460";
+	ctx.lineWidth = LINEWIDTH;
+
+	var x = MARGINWIDTH, y = MARGINWIDTH; ctx.moveTo(x, y);
+	x += BLOCKSIZE * 6 + BORDERWIDTH * 2 + LINEWIDTH * 2; ctx.lineTo(x, y);
+	y += BLOCKSIZE * 2 + BORDERWIDTH; ctx.lineTo(x, y);
+	x -= BORDERWIDTH; ctx.lineTo(x, y);
+	y -= BLOCKSIZE * 2; ctx.lineTo(x, y);
+	x -= BLOCKSIZE * 6 + LINEWIDTH * 2; ctx.lineTo(x, y);
+	y += BLOCKSIZE * 6 + LINEWIDTH * 2; ctx.lineTo(x, y);
+	x += BLOCKSIZE * 6 + LINEWIDTH * 2; ctx.lineTo(x, y);
+	y -= BLOCKSIZE * 3; ctx.lineTo(x, y);
+	x += BORDERWIDTH; ctx.lineTo(x, y);
+	y += BLOCKSIZE * 3 + BORDERWIDTH; ctx.lineTo(x, y);
+	x -= BLOCKSIZE * 6 + BORDERWIDTH * 2 + LINEWIDTH * 2; ctx.lineTo(x, y);
+	ctx.closePath();
+	ctx.stroke();
+	ctx.fill()
+
+	// clear board interior
+	ctx.beginPath();
+	ctx.fillStyle = "#FFFFFF";
+	ctx.fillRect(MARGINWIDTH + BORDERWIDTH + LINEWIDTH, MARGINWIDTH + BORDERWIDTH + LINEWIDTH, BLOCKSIZE * 6, BLOCKSIZE * 6);
+
+
+	// draw blocks
+	for (var y = 0; y < 6; y++) {
+		for (var x = 0; x < 6; x++) {
+			var width = 0;
+			var height = 0;
+
+			switch (board[y * 6 + x]) {
+			case "1": color = "#FFA500"; width = 2; height = 1; break;
+			case "2": color = "#8B4513"; width = 2; height = 1; break;
+			case "3": color = "#8B4513"; width = 3; height = 1; break;
+			case "4": color = "#8B4513"; width = 1; height = 2; break;
+			case "5": color = "#8B4513"; width = 1; height = 3; break;
+			case "<": color = "#FF0000"; width = 1; height = 1; break;
+			case ">": color = "#FF0000"; width = 1; height = 1; break;
+			case "^": color = "#FF0000"; width = 1; height = 1; break;
+			case "_": color = "#FF0000"; width = 1; height = 1; break;
+			}
+
+			if (width > 1 || height > 1) {
+				ctx.beginPath();
+				ctx.strokeStyle = "#000000";
+				ctx.fillStyle = color;
+				ctx.lineWidth = LINEWIDTH;
+				ctx.rect(MARGINWIDTH + BORDERWIDTH + BLOCKSIZE * x + LINEWIDTH * 2, MARGINWIDTH + BORDERWIDTH + BLOCKSIZE * y + LINEWIDTH * 2,
+					BLOCKSIZE * width - LINEWIDTH * 2, BLOCKSIZE * height - LINEWIDTH * 2);
+				ctx.stroke();
+				ctx.fill();
+			}
+			else if (width == 1 && height == 1) {
+				var xpos = MARGINWIDTH + BORDERWIDTH + BLOCKSIZE * x + LINEWIDTH;
+				var ypos = MARGINWIDTH + BORDERWIDTH + BLOCKSIZE * y + LINEWIDTH;
+
+				ctx.strokeStyle = color;
+				ctx.linewidth = 5;
+				if (board[y * 6 + x] == "<" || board[y * 6 + x] == ">") {
+					ctx.beginPath();
+					ctx.moveTo(xpos + LINEWIDTH, ypos + BLOCKSIZE / 2);
+					ctx.lineTo(xpos + BLOCKSIZE - LINEWIDTH, ypos + BLOCKSIZE / 2);
+					ctx.stroke();
+
+					ctx.beginPath();
+					ctx.moveTo(xpos + BLOCKSIZE / 2, ypos + LINEWIDTH * 2);
+					if (board[y * 6 + x] == "<") {
+						ctx.lineTo(xpos + LINEWIDTH, ypos + BLOCKSIZE / 2);
+					}
+					else {
+						ctx.lineTo(xpos + BLOCKSIZE - LINEWIDTH, ypos + BLOCKSIZE / 2);
+					}
+					ctx.lineTo(xpos + BLOCKSIZE / 2, ypos + BLOCKSIZE - LINEWIDTH * 2);
+					ctx.stroke();
+				}
+				else {
+					ctx.beginPath();
+					ctx.moveTo(xpos + BLOCKSIZE / 2, ypos + LINEWIDTH);
+					ctx.lineTo(xpos + BLOCKSIZE / 2, ypos + BLOCKSIZE - LINEWIDTH);
+					ctx.stroke();
+
+					ctx.beginPath();
+					ctx.moveTo(xpos + LINEWIDTH * 2, ypos + BLOCKSIZE / 2);
+					if (board[y * 6 + x] == "^") {
+						ctx.lineTo(xpos + BLOCKSIZE / 2, ypos + LINEWIDTH);
+					}
+					else {
+						ctx.lineTo(xpos + BLOCKSIZE / 2, ypos + BLOCKSIZE - LINEWIDTH);
+					}
+					ctx.lineTo(xpos + BLOCKSIZE - LINEWIDTH * 2, ypos + BLOCKSIZE / 2);
+					ctx.stroke();
+				}
+			}
+		}
+	}
+
+	ctx.strokeStyle = "#000000";
+	ctx.strokeText(title, 10, 18);
+
+}
+
+function drawresult(index, board) {
+	// draw result (1 step)
+	var cv = document.createElement("canvas");
+	cv.id = "cv" + index;
+	cv.height = MARGINWIDTH * 2 + BORDERWIDTH * 2 + BLOCKSIZE * 6 + LINEWIDTH * 2;
+	cv.width = MARGINWIDTH * 2 + BORDERWIDTH * 2 + BLOCKSIZE * 6 + LINEWIDTH * 2;
+
+	var div = document.getElementById("result");
+	div.appendChild(cv);
+
+	drawboard("cv" + index, "" + index, board);
+}
+
+function drawinitial(board) {
+	var cv = document.createElement("canvas");
+	cv.id = "cv";
+	cv.height = MARGINWIDTH * 2 + BORDERWIDTH * 2 + BLOCKSIZE * 6 + LINEWIDTH * 2;
+	cv.width = (MARGINWIDTH * 2 + BORDERWIDTH * 2 + BLOCKSIZE * 6 + LINEWIDTH * 2) * 2;
+
+	var div = document.getElementById("initial");
+	div.appendChild(cv);
+
+	cv.addEventListener("click", canvasclick, false);
+
+	drawboard("cv", "START", board);
+}
+
+function copyblocks(blocks) {
+	// deep copy a block list
+	var newblocks = [];
+	for (var i = 0; i < blocks.length; i++) {
+		newblocks.push(new Block(blocks[i]._x, blocks[i]._y, blocks[i]._horz, blocks[i]._size, blocks[i]._kind));
+	}
+	return newblocks;
+}
+
+function blocks2board(blocks) {
+	var board = [
+		[ 0, 0, 0, 0, 0, 0],
+		[ 0, 0, 0, 0, 0, 0],
+		[ 0, 0, 0, 0, 0, 0],
+		[ 0, 0, 0, 0, 0, 0],
+		[ 0, 0, 0, 0, 0, 0],
+		[ 0, 0, 0, 0, 0, 0],
+	];
+
+	for (var i = 0; i < blocks.length; i++) {
+		board[blocks[i]._y][blocks[i]._x] = blocks[i]._kind;
+		if (blocks[i]._horz) {
+			for (var w = 1; w < blocks[i]._size; w++) {
+				board[blocks[i]._y][blocks[i]._x + w] = 6;
+			}
+		}
+		else {
+			for (var h = 1; h < blocks[i]._size; h++) {
+				board[blocks[i]._y + h][blocks[i]._x] = 6;
+			}
+		}
+	}
+
+	return board;
+}
+
+function board2str(board) {
+	return "" + 
+		board[0][0] + board[0][1] + board[0][2] + board[0][3] + board[0][4] + board[0][5] + 
+		board[1][0] + board[1][1] + board[1][2] + board[1][3] + board[1][4] + board[1][5] + 
+		board[2][0] + board[2][1] + board[2][2] + board[2][3] + board[2][4] + board[2][5] + 
+		board[3][0] + board[3][1] + board[3][2] + board[3][3] + board[3][4] + board[3][5] + 
+		board[4][0] + board[4][1] + board[4][2] + board[4][3] + board[4][4] + board[4][5] + 
+		board[5][0] + board[5][1] + board[5][2] + board[5][3] + board[5][4] + board[5][5];
+}
+
+
+function solve(initboard) {
+	// solve the puzzle
+	var visited = {};
+	var queue = [];
+	var blocks = [];
+
+	for (var y = 0; y < 6; y++) {
+		for (var x = 0; x < 6; x++) {
+			// Block(x, y, horz, size, kind)
+			switch (initboard[y][x]) {
+			case 1: blocks.push(new Block(x, y, true, 2, initboard[y][x])); break;
+			case 2: blocks.push(new Block(x, y, true, 2, initboard[y][x])); break;
+			case 3: blocks.push(new Block(x, y, true, 3, initboard[y][x])); break;
+			case 4: blocks.push(new Block(x, y, false, 2, initboard[y][x])); break;
+			case 5: blocks.push(new Block(x, y, false, 3, initboard[y][x])); break;
+			}
+		}
+	}
+
+	// push the initial state into the queue
+	queue.push([new Move(-1, -1, -1), blocks]);
+
+	// process states in the queue
+	while (queue.length > 0) {
+		var state = queue.shift();
+		var move = state[0];
+		var blocks = state[1];
+
+		// generate board status from block list
+		var board = blocks2board(blocks);
+		var boardstate = board2str(board);
+
+		// already checked state?
+		if (boardstate in visited) {
+			continue;
+		}
+
+		// "move" causing the current boardstate
+		visited[boardstate] = move;
+
+		// puzzle solved?
+		if (board[2][4] == 1) {
+			// move the target block to the right (1 step)
+			blocks[move._blockid]._x += 1;
+			move._distance += 1;
+			board[2][4] = 0;
+			board[2][5] = 1;
+
+			var solution = [];
+
+			while (true) {
+				switch (move._direction) {
+				case 1:	
+					for (var x = 0; x < move._distance; x++) {
+						board[blocks[move._blockid]._y][blocks[move._blockid]._x + blocks[move._blockid]._size + x] ="<";
+					}
+					break;
+				case 2:	
+					for (var x = 1; x <= move._distance; x++) {
+						board[blocks[move._blockid]._y][blocks[move._blockid]._x - x] =">";
+					}
+					break;
+				case 3:	
+					for (var y = 0; y < move._distance; y++) {
+						board[blocks[move._blockid]._y + blocks[move._blockid]._size + y][blocks[move._blockid]._x] ="^";
+					}
+					break;
+				case 4:	
+					for (var y = 1; y <= move._distance; y++) {
+						board[blocks[move._blockid]._y - y][blocks[move._blockid]._x] ="_";
+					}
+					break;
+				}
+
+				boardstate = board2str(board);
+				solution.push(boardstate);
+				console.log(boardstate);
+
+				if (move._blockid < 0) {
+					break;
+				}
+
+				switch (move._direction) {
+				case 1: blocks[move._blockid]._x += move._distance; break;
+				case 2: blocks[move._blockid]._x -= move._distance; break;
+				case 3: blocks[move._blockid]._y += move._distance; break;
+				case 4: blocks[move._blockid]._y -= move._distance; break;
+				}
+
+				board = blocks2board(blocks);
+				move = visited[board2str(board)];
+			}
+
+			if (language == "ja") {
+				document.getElementById("message").innerHTML = (solution.length - 1) + " ステップでクリア！( *｀ω´)ドヤァ";
+			}
+			else {
+				document.getElementById("message").innerHTML = "Solved in " + (solution.length - 1) + " steps :)";
+			}
+
+			var index = 0;
+			while (solution.length > 0) {
+				boardstate = solution.pop();
+				drawresult(index, boardstate);
+				index += 1;
+			}
+
+			return;
+		}
+
+		for (var i = 0; i < blocks.length; i++) {
+			if (blocks[i]._horz) {
+				// can move to the left?
+				for (var dist = 1; dist < 6; dist++) {
+					var x = blocks[i]._x - dist;
+					if (x >= 0 && board[blocks[i]._y][x] == 0) {
+						newblocks = copyblocks(blocks);
+						newblocks[i]._x = x;
+						queue.push([new Move(i, 1, dist), newblocks]);
+					}
+					else {
+						break;
+					}
+				}
+				// can move to the right?
+				for (var dist = 1; dist < 6; dist++) {
+					var x = blocks[i]._x + blocks[i]._size + dist - 1;
+					if (x < 6 && board[blocks[i]._y][x] == 0) {
+						newblocks = copyblocks(blocks);
+						newblocks[i]._x += dist;
+						queue.push([new Move(i, 2, dist), newblocks]);
+					}
+					else {
+						break;
+					}
+				}
+			}
+			else{
+				// can move upward?
+				for (var dist = 1; dist < 6; dist++) {
+					var y = blocks[i]._y - dist;
+					if (y >= 0 && board[y][blocks[i]._x] == 0) {
+						newblocks = copyblocks(blocks);
+						newblocks[i]._y = y;
+						queue.push([new Move(i, 3, dist), newblocks]);
+					}
+					else {
+						break;
+					}
+				}
+				// can move downward?
+				for (var dist = 1; dist < 6; dist++) {
+					var y = blocks[i]._y + blocks[i]._size + dist - 1;
+					if (y < 6 && board[y][blocks[i]._x] == 0) {
+						newblocks = copyblocks(blocks);
+						newblocks[i]._y += dist;
+						queue.push([new Move(i, 4, dist), newblocks]);
+					}
+					else {
+						break;
+					}
+				}
+			}
+		}
+	}
+
+	if (language == "ja") {
+		document.getElementById("message").innerHTML = "クリアできんがな (´・ω・｀)";
+	}
+	else {
+		document.getElementById("message").innerHTML = "Cannot solve :(";
+	}
+}
+
+function clearboard(pattern) {
+	if (pattern < 0) {
+		pattern = predefined.length - 1;
+	}
+	else if (pattern >= predefined.length) {
+		pattern = 0;
+	}
+	current_pattern = pattern;
+
+	initialboard = predefined[pattern].concat();
+	drawboard("cv", "PATTERN " + pattern, board2str(initialboard));
+
+	document.getElementById("message").innerHTML = "";
+
+	var div = document.getElementById("result");
+	while (div.lastChild) {
+    	div.removeChild(div.lastChild);
+	}
+}
+
+function startsolve() {
+	var div = document.getElementById("result");
+	while (div.lastChild) {
+    	div.removeChild(div.lastChild);
+	}
+	solve(initialboard);
+}
+
+var selected = 0;	// 現在配置中のブロック
+var selectrect = [
+	[0, 0, 0, 0],
+	[0, 0, 0, 0],
+	[0, 0, 0, 0],
+	[0, 0, 0, 0],
+	[0, 0, 0, 0]
+]
+
+function drawselection() {
+	var cv = document.getElementById("cv");
+	var ctx = cv.getContext("2d");
+	var pos = [
+		[0, 1, 2, 1, "#FFA500", "#FFD280"],
+		[0, 3, 2, 1, "#8B4513", "#C5A289"],
+		[0, 5, 3, 1, "#8B4513", "#C5A289"],
+		[3, 0, 1, 2, "#8B4513", "#C5A289"],
+		[5, 0, 1, 3, "#8B4513", "#C5A289"]
+	];
+	var basex = MARGINWIDTH * 2 + BORDERWIDTH * 2 + BLOCKSIZE * 7;
+	var basey = MARGINWIDTH + BORDERWIDTH;
+
+	for (var i = 0; i < pos.length; i++) {
+		if (selected == i + 1) {
+			color = pos[i][4];
+			border = "#80FFFF";
+		}
+		else {
+			color = pos[i][5];
+			border = "#000000";
+		}
+
+		var x = basex + BLOCKSIZE * pos[i][0] + LINEWIDTH * 2;
+		var y = basey + BLOCKSIZE * pos[i][1] + LINEWIDTH * 2;
+		var w = BLOCKSIZE * pos[i][2] - LINEWIDTH * 2;
+		var h = BLOCKSIZE * pos[i][3] - LINEWIDTH * 2;
+		selectrect[i] = [x, y, w, h];
+
+		ctx.beginPath();
+		ctx.strokeStyle = border;
+		ctx.fillStyle = color;
+		ctx.lineWidth = LINEWIDTH * 2;
+		ctx.rect(x, y, w, h);
+		ctx.stroke();
+		ctx.fill();
+	}
+}
+
+function canvasclick(e) {
+	var rect = e.target.getBoundingClientRect();
+	var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top;
+
+	// 配置用ブロック？
+	for (var i = 0; i < selectrect.length; i++) {
+		if (x > selectrect[i][0] && x < selectrect[i][0] + selectrect[i][2] &&
+			y > selectrect[i][1] && y < selectrect[i][1] + selectrect[i][3]) {
+			selected = i + 1;
+			drawselection();
+			return;
+		}
+	}
+
+	// 配置済みまたは配置可能ブロック？
+	for (var y1 = 0; y1 < 6; y1++) {
+		for (var x1 = 0; x1 < 6; x1++) {
+			var w = 0;
+			var h = 0;
+			switch (initialboard[y1][x1]) {
+			case 0: w = 1; h = 1; break;
+			case 1: w = 2; h = 1; break;
+			case 2: w = 2; h = 1; break;
+			case 3: w = 3; h = 1; break;
+			case 4: w = 1; h = 2; break;
+			case 5: w = 1; h = 3; break;
+			case 6: w = 0; h = 0; break;
+			}
+			if (w == 0 && h == 0) {
+				continue;
+			}
+			var l = MARGINWIDTH + BORDERWIDTH + BLOCKSIZE * x1 + LINEWIDTH * 2;
+			var t = MARGINWIDTH + BORDERWIDTH + BLOCKSIZE * y1 + LINEWIDTH * 2;
+			var r = l + BLOCKSIZE * w - LINEWIDTH * 2;
+			var b = t + BLOCKSIZE * h - LINEWIDTH * 2;
+
+			if (x < l || x > r || y < t || y > b) {
+				continue;
+			}
+
+			if (w > 1 || h > 1) {	// 配置済みブロック => 削除する
+				for (var h1 = 0; h1 < h; h1++) {
+					for (var w1 = 0; w1 < w; w1++) {
+						initialboard[y1 + h1][x1 + w1] = 0;
+					}
+				}
+			}
+			else {	// 開き領域：ブロックを置けるかどうかを判定
+				if (selected < 1) {	// 配置ブロック未選択
+					return;
+				}
+
+				switch (selected) {		// 選択済みブロックのサイズ
+				case 1: w = 2; h = 1; break;
+				case 2: w = 2; h = 1; break;
+				case 3: w = 3; h = 1; break;
+				case 4: w = 1; h = 2; break;
+				case 5: w = 1; h = 3; break;
+				}
+
+				for (var h1 = 0; h1 < h; h1++) {
+					for (var w1 = 0; w1 < w; w1++) {
+						if (initialboard[y1 + h1][x1 + w1] != 0) {	// すでにブロックがある
+							return;
+						}
+					}
+				}
+
+				initialboard[y1][x1] = selected;
+				for (var h1 = 1; h1 < h; h1++) {
+					initialboard[y1 + h1][x1] = 6;
+				}
+				for (var w1 = 1; w1 < w; w1++) {
+					initialboard[y1][x1 + w1] = 6;
+				}
+			}
+
+			drawboard("cv", "START", board2str(initialboard));
+			return;
+		}
+	}
+}
+
+function drawdirection() {
+	if (language == "ja") {
+		direction = "<ul>" +
+			"<li>[←][→]ボタンで基本パターンを選択してください。" +
+			"<li>ブロックを追加するには、右側からブロックを選択して置きたい位置の一番左または一番上のマスをクリックします。" +
+			"<li>ブロックを削除するには、ボードエリア内の配置済みブロックをクリックします。" +
+			"</ul>";
+		buttons = 
+			"<input type='button' value='←前パターン' onclick='clearboard(current_pattern - 1);'>&nbsp;" +
+			"<input type='button' value='次パターン→' onclick='clearboard(current_pattern + 1);'>&nbsp;" +
+			"<input type='button' value='空パターン' onclick='clearboard(0);'>&nbsp;" +
+			"<input type='button' value='解答' onclick='startsolve();'><br>" +
+			"（SecretSocietyの上級９パターンを登録済み）";
+	}
+	else {
+		direction = "<ul>" +
+			"<li>Select the initial pattern with [<-] and [->] buttons." +
+			"<li>To add a block, select a block from the right and click the left-most/upper-most location in the board area." +
+			"<li>To remove a block, click a block already placed in the board area." +
+			"</ul>";
+		buttons =
+			"<input type='button' value='<- Prev pattern' onclick='clearboard(current_pattern - 1);'>&nbsp;" +
+			"<input type='button' value='Next pattern ->' onclick='clearboard(current_pattern + 1);'>&nbsp;" +
+			"<input type='button' value='Empty pattern' onclick='clearboard(0);'>&nbsp;" +
+			"<input type='button' value='Solve' onclick='startsolve();'><br>" +
+			"(9 patterns appear in Secret Society advanced levels are preset.)";
+	}
+
+	document.getElementById("direction").innerHTML = direction;
+	document.getElementById("buttons").innerHTML = buttons;
+}
+
+document.addEventListener("DOMContentLoaded", function() { drawdirection(); drawinitial(board2str(initialboard)); drawselection();}, false);
+</script>
+</head>
+<body>
+<h1>Block Solver</h1>
+<div id="direction"></div>
+<div id="initial"></div>
+<div id="buttons"></div>
+<div id="message"></div>
+<div id="result"></div>
+</body>
+</html>

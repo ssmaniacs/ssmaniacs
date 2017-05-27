@@ -1,7 +1,7 @@
 #!/bin/bash
 # vim: ts=4
 
-SRCDIR=$(cd ../ssmaniacs; pwd)
+SRCDIR=$(cd ../docs; pwd)
 
 upload() {
 	HOST=$1

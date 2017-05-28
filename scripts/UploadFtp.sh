@@ -46,12 +46,12 @@ upload() {
 }
 
 if [[ $# -lt 1 ]]; then
-	echo "Usage $0 ftp-site [sync|nosync|check] {webhost|epizy|byethost} [...]"
+	echo "Usage $0 [sync|nosync|check] {webhost|epizy|byethost} [...]"
 	exit 2
 fi
 
 echo Generating local file list
-(cd ${SRCDIR}; find -L . -type f -printf "%p %s\n" | sort) > list-local.txt
+(cd ${SRCDIR}; find -L . -type f ! -name '*p.json' -printf "%p %s\n" | sort) > list-local.txt
 
 SYNC=nosync
 

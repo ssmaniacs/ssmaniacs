@@ -4,6 +4,7 @@
 import sys
 import os
 import json
+import base64
 from xml.etree import ElementTree
 
 
@@ -22,7 +23,7 @@ HTML_TAIL = '''
 '''
 
 
-def load_textfile(basedir, lang):
+def load_textfile(resdir, lang):
   '''表示用テキスト情報を読み込む'''
   if lang == 'en':
     filename = 'default.xml'
@@ -30,7 +31,7 @@ def load_textfile(basedir, lang):
     filename = 'default_{0}.xml'.format(lang)
 
   textinfo = {}
-  with open(os.path.join(basedir, '1024', 'properties', filename), 'r') as fh:
+  with open(os.path.join(resdir, '1024', 'properties', filename), 'r') as fh:
     for line in fh:
       if ':' in line:
         (key, val) = line.split(':', 1)
@@ -38,10 +39,11 @@ def load_textfile(basedir, lang):
 
   return textinfo
 
+COLLS_PER_PAGE = 50;
 
-def load_collections(basedir):
+def load_collections(resdir):
   '''コレクション情報を読み込む'''
-  with open(os.path.join(basedir, '1024', 'properties', 'collections.json'), 'r') as fh:
+  with open(os.path.join(resdir, '1024', 'properties', 'collections.json'), 'r') as fh:
     jdata = json.load(fh)
 
   collections = [[]]
@@ -49,7 +51,7 @@ def load_collections(basedir):
   
   for c in jdata:
     if c['type'] == 'collection':
-      if len(collections[-1]) >= 100:
+      if len(collections[-1]) >= COLLS_PER_PAGE:
         collections.append([])
         
       collections[-1].append(c)
@@ -62,9 +64,9 @@ def load_collections(basedir):
   return (collections, artifacts)
 
 
-def load_iteminfo(basedir):
+def load_iteminfo(resdir):
   '''アイテム情報（ギフト可否）を読み込む'''
-  root = ElementTree.parse(os.path.join(basedir, '1024', 'properties', 'items.xml')).getroot()
+  root = ElementTree.parse(os.path.join(resdir, '1024', 'properties', 'items.xml')).getroot()
   
   items = {}
   for item in root:
@@ -82,6 +84,8 @@ def load_iteminfo(basedir):
 def write_index(collections, artifacts, textinfo, dstdir):
   '''索引ページを出力する'''
   with open(os.path.join(dstdir, 'collections.html'), 'w') as fh:
+    sys.stderr.write('Writing collection list page\n')
+
     title = 'Secret Society {0}'.format(textinfo['IDS_COLLECTIONS'])
     fh.write(HTML_HEAD.format(title=title))
     
@@ -149,11 +153,13 @@ def write_index(collections, artifacts, textinfo, dstdir):
   return htmllist
 
 
-def write_collist(colinfo, textinfo, iteminfo, dstdir):
+def write_collist(colinfo, textinfo, iteminfo, dstdir, imgdir):
   '''コレクションリストを出力する'''
   listall = (len(colinfo['list']) > 1)
 
   with open(os.path.join(dstdir, colinfo['html']), 'w') as fh:
+    sys.stderr.write('Writing {0}\n'.format(colinfo['html']))
+
     title = 'Secret Society {0}'.format(colinfo['title'])
     fh.write(HTML_HEAD.format(title=title))
 
@@ -240,6 +246,10 @@ def write_collist(colinfo, textinfo, iteminfo, dstdir):
             line.append('<td>{name}</td>'.format(name=name))
           else:
             img = 'images/items/{0}.png'.format(i)
+            if imgdir != '-':
+              with open(os.path.join(imgdir, img), 'rb') as imgf:
+                img = 'data:image/png;base64,' + base64.b64encode(imgf.read())
+
             line.append('<td align="center" valign="top" width="120"><img src="{img}"><br>{name}</td>'.format(name=name, img=img))
 
           nogift += iteminfo.get(i, 0)
@@ -278,19 +288,20 @@ def write_collist(colinfo, textinfo, iteminfo, dstdir):
 
 def main():
   try:
-    (basedir, dstdir, lang) = sys.argv[1:]
+    (resdir, dstdir, lang, imgdir) = sys.argv[1:]
   except StandardError:
-    sys.stderr.write('Usage: {0} basedir dstdir lang\n'.format(sys.argv[0]))
+    sys.stderr.write('Usage: {0} resdir dstdir lang {{imgdir|-}}\n'.format(sys.argv[0]))
     sys.exit(2)
 
-  textinfo = load_textfile(basedir, lang)
-  (collections, artifacts) = load_collections(basedir)
-  iteminfo = load_iteminfo(basedir)
+  sys.stderr.write('Loading collection data\n')
+  textinfo = load_textfile(resdir, lang)
+  (collections, artifacts) = load_collections(resdir)
+  iteminfo = load_iteminfo(resdir)
 
   htmllist = write_index(collections, artifacts, textinfo, dstdir)
 
   for html in htmllist:
-    write_collist(html, textinfo, iteminfo, dstdir)
+    write_collist(html, textinfo, iteminfo, dstdir, imgdir)
 
 
 if __name__ == '__main__':

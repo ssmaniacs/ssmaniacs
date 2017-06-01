@@ -1,0 +1,7164 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bear_01", 
+            "path": "lighthouse.form/bear_01.png", 
+            "w": 47, 
+            "x": 1156, 
+            "y": 488
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "bear_02_cover", 
+            "path": "lighthouse.form/bear_02_cover.png", 
+            "w": 28, 
+            "x": 1065, 
+            "y": 364
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bear_02", 
+            "path": "lighthouse.form/bear_02.png", 
+            "w": 46, 
+            "x": 1045, 
+            "y": 343
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "bear_03_cover", 
+            "path": "lighthouse.form/bear_03_cover.png", 
+            "w": 49, 
+            "x": 626, 
+            "y": 414
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bear_03", 
+            "path": "lighthouse.form/bear_03.png", 
+            "w": 47, 
+            "x": 627, 
+            "y": 394
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "bear_04", 
+            "path": "lighthouse.form/bear_04.png", 
+            "w": 48, 
+            "x": 299, 
+            "y": 486
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "bear_05_cover", 
+            "path": "lighthouse.form/bear_05_cover.png", 
+            "w": 57, 
+            "x": 341, 
+            "y": 365
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bear_05", 
+            "path": "lighthouse.form/bear_05.png", 
+            "w": 46, 
+            "x": 346, 
+            "y": 368
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 5, 
+            "name": "bear_06_cover", 
+            "path": "lighthouse.form/bear_06_cover.png", 
+            "w": 36, 
+            "x": 1164, 
+            "y": 551
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bear_06", 
+            "path": "lighthouse.form/bear_06.png", 
+            "w": 46, 
+            "x": 1166, 
+            "y": 555
+          }
+        }
+      ], 
+      "name": "テディベア", 
+      "path": "lighthouse.sils/bear.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "vase_01", 
+            "path": "lighthouse.form/vase_01.png", 
+            "w": 37, 
+            "x": 968, 
+            "y": 565
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "vase_02", 
+            "path": "lighthouse.form/vase_02.png", 
+            "w": 37, 
+            "x": 1134, 
+            "y": 611
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "vase_03", 
+            "path": "lighthouse.form/vase_03.png", 
+            "w": 37, 
+            "x": 389, 
+            "y": 567
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "vase_04", 
+            "path": "lighthouse.form/vase_04.png", 
+            "w": 49, 
+            "x": 500, 
+            "y": 609
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "vase_05_cover", 
+            "path": "lighthouse.form/vase_05_cover.png", 
+            "w": 33, 
+            "x": 1027, 
+            "y": 553
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "vase_05", 
+            "path": "lighthouse.form/vase_05.png", 
+            "w": 37, 
+            "x": 1022, 
+            "y": 556
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "vase_06_cover", 
+            "path": "lighthouse.form/vase_06_cover.png", 
+            "w": 40, 
+            "x": 736, 
+            "y": 408
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "vase_06", 
+            "path": "lighthouse.form/vase_06.png", 
+            "w": 37, 
+            "x": 738, 
+            "y": 402
+          }
+        }
+      ], 
+      "name": "花瓶", 
+      "path": "lighthouse.sils/vase.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "hat_01", 
+            "path": "lighthouse.form/hat_01.png", 
+            "w": 78, 
+            "x": 986, 
+            "y": 623
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "hat_02", 
+            "path": "lighthouse.form/hat_02.png", 
+            "w": 75, 
+            "x": 764, 
+            "y": 276
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "hat_03", 
+            "path": "lighthouse.form/hat_03.png", 
+            "w": 79, 
+            "x": 481, 
+            "y": 490
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "hat_04_cover", 
+            "path": "lighthouse.form/hat_04_cover.png", 
+            "w": 58, 
+            "x": 550, 
+            "y": 578
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "hat_04", 
+            "path": "lighthouse.form/hat_04.png", 
+            "w": 78, 
+            "x": 553, 
+            "y": 581
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "hat_05_cover", 
+            "path": "lighthouse.form/hat_05_cover.png", 
+            "w": 71, 
+            "x": 325, 
+            "y": 72
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "hat_05", 
+            "path": "lighthouse.form/hat_05.png", 
+            "w": 78, 
+            "x": 326, 
+            "y": 77
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "hat_06_cover", 
+            "path": "lighthouse.form/hat_06_cover.png", 
+            "w": 60, 
+            "x": 483, 
+            "y": 352
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "hat_06", 
+            "path": "lighthouse.form/hat_06.png", 
+            "w": 78, 
+            "x": 462, 
+            "y": 354
+          }
+        }
+      ], 
+      "name": "女性用の帽子", 
+      "path": "lighthouse.sils/hat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "seagull_01", 
+            "path": "lighthouse.form/seagull_01.png", 
+            "w": 65, 
+            "x": 897, 
+            "y": 545
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "seagull_02", 
+            "path": "lighthouse.form/seagull_02.png", 
+            "w": 52, 
+            "x": 859, 
+            "y": 402
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "seagull_03", 
+            "path": "lighthouse.form/seagull_03.png", 
+            "w": 66, 
+            "x": 728, 
+            "y": 497
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "seagull_04", 
+            "path": "lighthouse.form/seagull_04.png", 
+            "w": 52, 
+            "x": 400, 
+            "y": 354
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "seagull_05_cover", 
+            "path": "lighthouse.form/seagull_05_cover.png", 
+            "w": 43, 
+            "x": 736, 
+            "y": 159
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "seagull_05", 
+            "path": "lighthouse.form/seagull_05.png", 
+            "w": 52, 
+            "x": 739, 
+            "y": 133
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "seagull_06_cover", 
+            "path": "lighthouse.form/seagull_06_cover.png", 
+            "w": 38, 
+            "x": 895, 
+            "y": 343
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "seagull_06", 
+            "path": "lighthouse.form/seagull_06.png", 
+            "w": 52, 
+            "x": 898, 
+            "y": 342
+          }
+        }
+      ], 
+      "name": "カモメ", 
+      "path": "lighthouse.sils/seagull.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "flower_01", 
+            "path": "lighthouse.form/flower_01.png", 
+            "w": 54, 
+            "x": 1177, 
+            "y": 30
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "flower_02", 
+            "path": "lighthouse.form/flower_02.png", 
+            "w": 53, 
+            "x": 970, 
+            "y": 26
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "flower_03_cover", 
+            "path": "lighthouse.form/flower_03_cover.png", 
+            "w": 40, 
+            "x": 700, 
+            "y": 157
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "flower_03", 
+            "path": "lighthouse.form/flower_03.png", 
+            "w": 54, 
+            "x": 692, 
+            "y": 121
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "flower_04_cover", 
+            "path": "lighthouse.form/flower_04_cover.png", 
+            "w": 49, 
+            "x": 539, 
+            "y": 7
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "flower_04", 
+            "path": "lighthouse.form/flower_04.png", 
+            "w": 52, 
+            "x": 536, 
+            "y": 12
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "flower_05_cover", 
+            "path": "lighthouse.form/flower_05_cover.png", 
+            "w": 45, 
+            "x": 596, 
+            "y": 374
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "flower_05", 
+            "path": "lighthouse.form/flower_05.png", 
+            "w": 49, 
+            "x": 592, 
+            "y": 358
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "flower_06_cover", 
+            "path": "lighthouse.form/flower_06_cover.png", 
+            "w": 53, 
+            "x": 1197, 
+            "y": 417
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "flower_06", 
+            "path": "lighthouse.form/flower_06.png", 
+            "w": 51, 
+            "x": 1198, 
+            "y": 419
+          }
+        }
+      ], 
+      "name": "ツバキ", 
+      "path": "lighthouse.sils/flower.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "shoe_01", 
+            "path": "lighthouse.form/shoe_01.png", 
+            "w": 53, 
+            "x": 1068, 
+            "y": 608
+          }
+        }, 
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "shoe_02", 
+            "path": "lighthouse.form/shoe_02.png", 
+            "w": 54, 
+            "x": 289, 
+            "y": 595
+          }
+        }, 
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "shoe_03", 
+            "path": "lighthouse.form/shoe_03.png", 
+            "w": 53, 
+            "x": 673, 
+            "y": 517
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "shoe_04_cover", 
+            "path": "lighthouse.form/shoe_04_cover.png", 
+            "w": 23, 
+            "x": 484, 
+            "y": 596
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "shoe_04", 
+            "path": "lighthouse.form/shoe_04.png", 
+            "w": 53, 
+            "x": 451, 
+            "y": 598
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "shoe_05_cover", 
+            "path": "lighthouse.form/shoe_05_cover.png", 
+            "w": 25, 
+            "x": 955, 
+            "y": 480
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "shoe_05", 
+            "path": "lighthouse.form/shoe_05.png", 
+            "w": 56, 
+            "x": 954, 
+            "y": 460
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "shoe_06_cover", 
+            "path": "lighthouse.form/shoe_06_cover.png", 
+            "w": 56, 
+            "x": 988, 
+            "y": 511
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "shoe_06", 
+            "path": "lighthouse.form/shoe_06.png", 
+            "w": 55, 
+            "x": 985, 
+            "y": 516
+          }
+        }
+      ], 
+      "name": "靴", 
+      "path": "lighthouse.sils/shoe.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "peach_01", 
+            "path": "lighthouse.form/peach_01.png", 
+            "w": 55, 
+            "x": 912, 
+            "y": 615
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "peach_02", 
+            "path": "lighthouse.form/peach_02.png", 
+            "w": 55, 
+            "x": 829, 
+            "y": 539
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "peach_03", 
+            "path": "lighthouse.form/peach_03.png", 
+            "w": 57, 
+            "x": 584, 
+            "y": 464
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "peach_04", 
+            "path": "lighthouse.form/peach_04.png", 
+            "w": 46, 
+            "x": 1170, 
+            "y": 384
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "peach_05_cover", 
+            "path": "lighthouse.form/peach_05_cover.png", 
+            "w": 30, 
+            "x": 1086, 
+            "y": 169
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "peach_05", 
+            "path": "lighthouse.form/peach_05.png", 
+            "w": 38, 
+            "x": 1082, 
+            "y": 140
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 5, 
+            "name": "peach_06_cover", 
+            "path": "lighthouse.form/peach_06_cover.png", 
+            "w": 35, 
+            "x": 267, 
+            "y": 90
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "peach_06", 
+            "path": "lighthouse.form/peach_06.png", 
+            "w": 39, 
+            "x": 266, 
+            "y": 63
+          }
+        }
+      ], 
+      "name": "桃", 
+      "path": "lighthouse.sils/peach.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cat_01", 
+            "path": "lighthouse.form/cat_01.png", 
+            "w": 41, 
+            "x": 1094, 
+            "y": 477
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cat_02", 
+            "path": "lighthouse.form/cat_02.png", 
+            "w": 41, 
+            "x": 1098, 
+            "y": 365
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cat_03", 
+            "path": "lighthouse.form/cat_03.png", 
+            "w": 44, 
+            "x": 679, 
+            "y": 430
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cat_04", 
+            "path": "lighthouse.form/cat_04.png", 
+            "w": 41, 
+            "x": 241, 
+            "y": 564
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cat_05", 
+            "path": "lighthouse.form/cat_05.png", 
+            "w": 43, 
+            "x": 855, 
+            "y": 460
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 5, 
+            "name": "cat_06_cover", 
+            "path": "lighthouse.form/cat_06_cover.png", 
+            "w": 30, 
+            "x": 725, 
+            "y": 338
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "cat_06", 
+            "path": "lighthouse.form/cat_06.png", 
+            "w": 41, 
+            "x": 730, 
+            "y": 340
+          }
+        }
+      ], 
+      "name": "ネコ", 
+      "path": "lighthouse.sils/cat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "fun_01", 
+            "path": "lighthouse.form/fun_01.png", 
+            "w": 71, 
+            "x": 271, 
+            "y": 391
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "fun_02", 
+            "path": "lighthouse.form/fun_02.png", 
+            "w": 71, 
+            "x": 1134, 
+            "y": 291
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "fun_03", 
+            "path": "lighthouse.form/fun_03.png", 
+            "w": 70, 
+            "x": 862, 
+            "y": 215
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "fun_04", 
+            "path": "lighthouse.form/fun_04.png", 
+            "w": 69, 
+            "x": 468, 
+            "y": 7
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "fun_05_cover", 
+            "path": "lighthouse.form/fun_05_cover.png", 
+            "w": 48, 
+            "x": 981, 
+            "y": 291
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "fun_05", 
+            "path": "lighthouse.form/fun_05.png", 
+            "w": 68, 
+            "x": 971, 
+            "y": 272
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "fun_06_cover", 
+            "path": "lighthouse.form/fun_06_cover.png", 
+            "w": 74, 
+            "x": 522, 
+            "y": 309
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "fun_06", 
+            "path": "lighthouse.form/fun_06.png", 
+            "w": 70, 
+            "x": 524, 
+            "y": 312
+          }
+        }
+      ], 
+      "name": "扇子", 
+      "path": "lighthouse.sils/fun.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 73, 
+            "layer": 3, 
+            "name": "easel_1", 
+            "path": "lighthouse.form/easel_1.png", 
+            "w": 37, 
+            "x": 653, 
+            "y": 572
+          }
+        }, 
+        {
+          "cover": {
+            "h": 8, 
+            "layer": 5, 
+            "name": "easel_2_cover", 
+            "path": "lighthouse.form/easel_2_cover.png", 
+            "w": 17, 
+            "x": 551, 
+            "y": 494
+          }, 
+          "pic": {
+            "h": 76, 
+            "layer": 3, 
+            "name": "easel_2", 
+            "path": "lighthouse.form/easel_2.png", 
+            "w": 48, 
+            "x": 545, 
+            "y": 425
+          }
+        }, 
+        {
+          "cover": {
+            "h": 74, 
+            "layer": 5, 
+            "name": "easel_3_cover", 
+            "path": "lighthouse.form/easel_3_cover.png", 
+            "w": 23, 
+            "x": 857, 
+            "y": 323
+          }, 
+          "pic": {
+            "h": 72, 
+            "layer": 3, 
+            "name": "easel_3", 
+            "path": "lighthouse.form/easel_3.png", 
+            "w": 38, 
+            "x": 839, 
+            "y": 320
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 5, 
+            "name": "easel_4_cover", 
+            "path": "lighthouse.form/easel_4_cover.png", 
+            "w": 43, 
+            "x": 892, 
+            "y": 128
+          }, 
+          "pic": {
+            "h": 72, 
+            "layer": 3, 
+            "name": "easel_4", 
+            "path": "lighthouse.form/easel_4.png", 
+            "w": 37, 
+            "x": 894, 
+            "y": 121
+          }
+        }, 
+        {
+          "pic": {
+            "h": 74, 
+            "layer": 3, 
+            "name": "easel_5", 
+            "path": "lighthouse.form/easel_5.png", 
+            "w": 38, 
+            "x": 280, 
+            "y": 129
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "easel_6_cover", 
+            "path": "lighthouse.form/easel_6_cover.png", 
+            "w": 35, 
+            "x": 438, 
+            "y": 463
+          }, 
+          "pic": {
+            "h": 73, 
+            "layer": 3, 
+            "name": "easel_6", 
+            "path": "lighthouse.form/easel_6.png", 
+            "w": 38, 
+            "x": 442, 
+            "y": 451
+          }
+        }
+      ], 
+      "name": "イーゼル", 
+      "path": "lighthouse.sils/easel.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "grape_1_cover", 
+            "path": "lighthouse.form/grape_1_cover.png", 
+            "w": 8, 
+            "x": 1004, 
+            "y": 392
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "grape_1", 
+            "path": "lighthouse.form/grape_1.png", 
+            "w": 27, 
+            "x": 1006, 
+            "y": 387
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "grape_2", 
+            "path": "lighthouse.form/grape_2.png", 
+            "w": 27, 
+            "x": 1016, 
+            "y": 108
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "grape_3", 
+            "path": "lighthouse.form/grape_3.png", 
+            "w": 27, 
+            "x": 793, 
+            "y": 111
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "grape_4", 
+            "path": "lighthouse.form/grape_4.png", 
+            "w": 27, 
+            "x": 579, 
+            "y": 48
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "grape_5", 
+            "path": "lighthouse.form/grape_5.png", 
+            "w": 27, 
+            "x": 245, 
+            "y": 227
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "grape_6_cover", 
+            "path": "lighthouse.form/grape_6_cover.png", 
+            "w": 29, 
+            "x": 355, 
+            "y": 146
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "grape_6", 
+            "path": "lighthouse.form/grape_6.png", 
+            "w": 27, 
+            "x": 358, 
+            "y": 149
+          }
+        }
+      ], 
+      "name": "ブドウ", 
+      "path": "lighthouse.sils/grape.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "ice-cream_1_cover", 
+            "path": "lighthouse.form/ice-cream_1_cover.png", 
+            "w": 11, 
+            "x": 699, 
+            "y": 418
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "ice-cream_1", 
+            "path": "lighthouse.form/ice-cream_1.png", 
+            "w": 31, 
+            "x": 689, 
+            "y": 381
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "ice-cream_2_cover", 
+            "path": "lighthouse.form/ice-cream_2_cover.png", 
+            "w": 17, 
+            "x": 345, 
+            "y": 451
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "ice-cream_2", 
+            "path": "lighthouse.form/ice-cream_2.png", 
+            "w": 31, 
+            "x": 338, 
+            "y": 422
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 5, 
+            "name": "ice-cream_3_cover", 
+            "path": "lighthouse.form/ice-cream_3_cover.png", 
+            "w": 26, 
+            "x": 1158, 
+            "y": 8
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "ice-cream_3", 
+            "path": "lighthouse.form/ice-cream_3.png", 
+            "w": 35, 
+            "x": 1145, 
+            "y": 10
+          }
+        }, 
+        {
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "ice-cream_4", 
+            "path": "lighthouse.form/ice-cream_4.png", 
+            "w": 31, 
+            "x": 1214, 
+            "y": 283
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "ice-cream_5_cover", 
+            "path": "lighthouse.form/ice-cream_5_cover.png", 
+            "w": 32, 
+            "x": 868, 
+            "y": 271
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "ice-cream_5", 
+            "path": "lighthouse.form/ice-cream_5.png", 
+            "w": 33, 
+            "x": 873, 
+            "y": 273
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "ice-cream_6_cover", 
+            "path": "lighthouse.form/ice-cream_6_cover.png", 
+            "w": 12, 
+            "x": 1228, 
+            "y": 393
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "ice-cream_6", 
+            "path": "lighthouse.form/ice-cream_6.png", 
+            "w": 32, 
+            "x": 1217, 
+            "y": 358
+          }
+        }
+      ], 
+      "name": "アイスクリーム", 
+      "path": "lighthouse.sils/ice-cream.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "binoculars_1", 
+            "path": "lighthouse.form/binoculars_1.png", 
+            "w": 49, 
+            "x": 1197, 
+            "y": 623
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "binoculars_2", 
+            "path": "lighthouse.form/binoculars_2.png", 
+            "w": 49, 
+            "x": 811, 
+            "y": 478
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "binoculars_3_cover", 
+            "path": "lighthouse.form/binoculars_3_cover.png", 
+            "w": 50, 
+            "x": 1119, 
+            "y": 138
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "binoculars_3", 
+            "path": "lighthouse.form/binoculars_3.png", 
+            "w": 42, 
+            "x": 1124, 
+            "y": 141
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 5, 
+            "name": "binoculars_4_cover", 
+            "path": "lighthouse.form/binoculars_4_cover.png", 
+            "w": 42, 
+            "x": 640, 
+            "y": 506
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "binoculars_4", 
+            "path": "lighthouse.form/binoculars_4.png", 
+            "w": 49, 
+            "x": 635, 
+            "y": 508
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "binoculars_5_cover", 
+            "path": "lighthouse.form/binoculars_5_cover.png", 
+            "w": 28, 
+            "x": 791, 
+            "y": 357
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "binoculars_5", 
+            "path": "lighthouse.form/binoculars_5.png", 
+            "w": 50, 
+            "x": 771, 
+            "y": 359
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "binoculars_6_cover", 
+            "path": "lighthouse.form/binoculars_6_cover.png", 
+            "w": 25, 
+            "x": 990, 
+            "y": 350
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "binoculars_6", 
+            "path": "lighthouse.form/binoculars_6.png", 
+            "w": 50, 
+            "x": 965, 
+            "y": 352
+          }
+        }
+      ], 
+      "name": "双眼鏡", 
+      "path": "lighthouse.sils/binoculars.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "shell_1", 
+            "path": "lighthouse.form/shell_1.png", 
+            "w": 63, 
+            "x": 867, 
+            "y": 520
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "shell_2", 
+            "path": "lighthouse.form/shell_2.png", 
+            "w": 63, 
+            "x": 713, 
+            "y": 558
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "shell_3", 
+            "path": "lighthouse.form/shell_3.png", 
+            "w": 63, 
+            "x": 233, 
+            "y": 628
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "shell_4", 
+            "path": "lighthouse.form/shell_4.png", 
+            "w": 63, 
+            "x": 372, 
+            "y": 430
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "shell_5", 
+            "path": "lighthouse.form/shell_5.png", 
+            "w": 31, 
+            "x": 748, 
+            "y": 74
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "shell_6_cover", 
+            "path": "lighthouse.form/shell_6_cover.png", 
+            "w": 27, 
+            "x": 894, 
+            "y": 1
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "shell_6", 
+            "path": "lighthouse.form/shell_6.png", 
+            "w": 31, 
+            "x": 893, 
+            "y": 2
+          }
+        }
+      ], 
+      "name": "貝殻", 
+      "path": "lighthouse.sils/shell.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 93, 
+            "layer": 3, 
+            "name": "wind_chimes_1", 
+            "path": "lighthouse.form/wind_chimes_1.png", 
+            "w": 29, 
+            "x": 949, 
+            "y": 130
+          }
+        }, 
+        {
+          "pic": {
+            "h": 90, 
+            "layer": 3, 
+            "name": "wind_chimes_2", 
+            "path": "lighthouse.form/wind_chimes_2.png", 
+            "w": 29, 
+            "x": 660, 
+            "y": 214
+          }
+        }, 
+        {
+          "pic": {
+            "h": 91, 
+            "layer": 3, 
+            "name": "wind_chimes_3", 
+            "path": "lighthouse.form/wind_chimes_3.png", 
+            "w": 29, 
+            "x": 440, 
+            "y": 188
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "wind_chimes_4_cover", 
+            "path": "lighthouse.form/wind_chimes_4_cover.png", 
+            "w": 24, 
+            "x": 406, 
+            "y": 14
+          }, 
+          "pic": {
+            "h": 92, 
+            "layer": 3, 
+            "name": "wind_chimes_4", 
+            "path": "lighthouse.form/wind_chimes_4.png", 
+            "w": 29, 
+            "x": 409, 
+            "y": 16
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "wind_chimes_5_cover", 
+            "path": "lighthouse.form/wind_chimes_5_cover.png", 
+            "w": 28, 
+            "x": 611, 
+            "y": 46
+          }, 
+          "pic": {
+            "h": 92, 
+            "layer": 3, 
+            "name": "wind_chimes_5", 
+            "path": "lighthouse.form/wind_chimes_5.png", 
+            "w": 28, 
+            "x": 610, 
+            "y": 49
+          }
+        }, 
+        {
+          "pic": {
+            "h": 96, 
+            "layer": 3, 
+            "name": "wind_chimes_6", 
+            "path": "lighthouse.form/wind_chimes_6.png", 
+            "w": 32, 
+            "x": 249, 
+            "y": 442
+          }
+        }
+      ], 
+      "name": "ウインドチャイム", 
+      "path": "lighthouse.sils/windchimes.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "glasses_1", 
+            "path": "lighthouse.form/glasses_1.png", 
+            "w": 63, 
+            "x": 688, 
+            "y": 225
+          }
+        }, 
+        {
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "glasses_2", 
+            "path": "lighthouse.form/glasses_2.png", 
+            "w": 63, 
+            "x": 268, 
+            "y": 205
+          }
+        }, 
+        {
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "glasses_3", 
+            "path": "lighthouse.form/glasses_3.png", 
+            "w": 66, 
+            "x": 358, 
+            "y": 507
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "glasses_4_cover", 
+            "path": "lighthouse.form/glasses_4_cover.png", 
+            "w": 67, 
+            "x": 725, 
+            "y": 449
+          }, 
+          "pic": {
+            "h": 24, 
+            "layer": 3, 
+            "name": "glasses_4", 
+            "path": "lighthouse.form/glasses_4.png", 
+            "w": 65, 
+            "x": 726, 
+            "y": 450
+          }
+        }, 
+        {
+          "cover": {
+            "h": 6, 
+            "layer": 5, 
+            "name": "glasses_5_cover", 
+            "path": "lighthouse.form/glasses_5_cover.png", 
+            "w": 51, 
+            "x": 1189, 
+            "y": 218
+          }, 
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "glasses_5", 
+            "path": "lighthouse.form/glasses_5.png", 
+            "w": 63, 
+            "x": 1178, 
+            "y": 202
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "glasses_6_cover", 
+            "path": "lighthouse.form/glasses_6_cover.png", 
+            "w": 63, 
+            "x": 1188, 
+            "y": 103
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "glasses_6", 
+            "path": "lighthouse.form/glasses_6.png", 
+            "w": 62, 
+            "x": 1188, 
+            "y": 95
+          }
+        }
+      ], 
+      "name": "サングラス", 
+      "path": "lighthouse.sils/glasses.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "bow_1", 
+            "path": "lighthouse.form/bow_1.png", 
+            "w": 47, 
+            "x": 1049, 
+            "y": 92
+          }
+        }, 
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "bow_2", 
+            "path": "lighthouse.form/bow_2.png", 
+            "w": 49, 
+            "x": 649, 
+            "y": 30
+          }
+        }, 
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "bow_3", 
+            "path": "lighthouse.form/bow_3.png", 
+            "w": 47, 
+            "x": 430, 
+            "y": 136
+          }
+        }, 
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "bow_4", 
+            "path": "lighthouse.form/bow_4.png", 
+            "w": 47, 
+            "x": 472, 
+            "y": 66
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "bow_5_cover", 
+            "path": "lighthouse.form/bow_5_cover.png", 
+            "w": 24, 
+            "x": 907, 
+            "y": 276
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "bow_5", 
+            "path": "lighthouse.form/bow_5.png", 
+            "w": 47, 
+            "x": 910, 
+            "y": 274
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "bow_6_cover", 
+            "path": "lighthouse.form/bow_6_cover.png", 
+            "w": 33, 
+            "x": 1182, 
+            "y": 234
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "bow_6", 
+            "path": "lighthouse.form/bow_6.png", 
+            "w": 47, 
+            "x": 1166, 
+            "y": 235
+          }
+        }
+      ], 
+      "name": "リボン", 
+      "path": "lighthouse.sils/bow.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "starfish_1", 
+            "path": "lighthouse.form/starfish_1.png", 
+            "w": 48, 
+            "x": 635, 
+            "y": 454
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "starfish_2", 
+            "path": "lighthouse.form/starfish_2.png", 
+            "w": 48, 
+            "x": 279, 
+            "y": 322
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "starfish_3_cover", 
+            "path": "lighthouse.form/starfish_3_cover.png", 
+            "w": 8, 
+            "x": 1068, 
+            "y": 40
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "starfish_3", 
+            "path": "lighthouse.form/starfish_3.png", 
+            "w": 48, 
+            "x": 1049, 
+            "y": 42
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "starfish_4_cover", 
+            "path": "lighthouse.form/starfish_4_cover.png", 
+            "w": 36, 
+            "x": 319, 
+            "y": 543
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "starfish_4", 
+            "path": "lighthouse.form/starfish_4.png", 
+            "w": 48, 
+            "x": 304, 
+            "y": 547
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "starfish_5_cover", 
+            "path": "lighthouse.form/starfish_5_cover.png", 
+            "w": 31, 
+            "x": 505, 
+            "y": 527
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "starfish_5", 
+            "path": "lighthouse.form/starfish_5.png", 
+            "w": 46, 
+            "x": 488, 
+            "y": 530
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 5, 
+            "name": "starfish_6_cover", 
+            "path": "lighthouse.form/starfish_6_cover.png", 
+            "w": 54, 
+            "x": 596, 
+            "y": 262
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "starfish_6", 
+            "path": "lighthouse.form/starfish_6.png", 
+            "w": 45, 
+            "x": 601, 
+            "y": 267
+          }
+        }
+      ], 
+      "name": "ヒトデ", 
+      "path": "lighthouse.sils/starfish.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "balloon_1", 
+            "path": "lighthouse.form/balloon_1.png", 
+            "w": 33, 
+            "x": 982, 
+            "y": 181
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "balloon_2", 
+            "path": "lighthouse.form/balloon_2.png", 
+            "w": 33, 
+            "x": 488, 
+            "y": 215
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 5, 
+            "name": "balloon_3_cover", 
+            "path": "lighthouse.form/balloon_3_cover.png", 
+            "w": 31, 
+            "x": 824, 
+            "y": 204
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "balloon_3", 
+            "path": "lighthouse.form/balloon_3.png", 
+            "w": 32, 
+            "x": 820, 
+            "y": 208
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "balloon_4_cover", 
+            "path": "lighthouse.form/balloon_4_cover.png", 
+            "w": 29, 
+            "x": 525, 
+            "y": 92
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "balloon_4", 
+            "path": "lighthouse.form/balloon_4.png", 
+            "w": 33, 
+            "x": 517, 
+            "y": 95
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "balloon_5_cover", 
+            "path": "lighthouse.form/balloon_5_cover.png", 
+            "w": 15, 
+            "x": 1051, 
+            "y": 269
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "balloon_5", 
+            "path": "lighthouse.form/balloon_5.png", 
+            "w": 32, 
+            "x": 1038, 
+            "y": 255
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "balloon_6_cover", 
+            "path": "lighthouse.form/balloon_6_cover.png", 
+            "w": 40, 
+            "x": 581, 
+            "y": 157
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "balloon_6", 
+            "path": "lighthouse.form/balloon_6.png", 
+            "w": 32, 
+            "x": 584, 
+            "y": 160
+          }
+        }
+      ], 
+      "name": "風船", 
+      "path": "lighthouse.sils/balloon.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "amber_1", 
+            "path": "lighthouse.form/amber_1.png", 
+            "w": 43, 
+            "x": 800, 
+            "y": 520
+          }
+        }, 
+        {
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "amber_2", 
+            "path": "lighthouse.form/amber_2.png", 
+            "w": 43, 
+            "x": 430, 
+            "y": 598
+          }
+        }, 
+        {
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "amber_3", 
+            "path": "lighthouse.form/amber_3.png", 
+            "w": 43, 
+            "x": 1045, 
+            "y": 398
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "amber_4_cover", 
+            "path": "lighthouse.form/amber_4_cover.png", 
+            "w": 43, 
+            "x": 850, 
+            "y": 188
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "amber_4", 
+            "path": "lighthouse.form/amber_4.png", 
+            "w": 43, 
+            "x": 849, 
+            "y": 174
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "amber_5_cover", 
+            "path": "lighthouse.form/amber_5_cover.png", 
+            "w": 23, 
+            "x": 1157, 
+            "y": 111
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "amber_5", 
+            "path": "lighthouse.form/amber_5.png", 
+            "w": 24, 
+            "x": 1157, 
+            "y": 73
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "amber_6", 
+            "path": "lighthouse.form/amber_6.png", 
+            "w": 25, 
+            "x": 1201, 
+            "y": 464
+          }
+        }
+      ], 
+      "name": "琥珀", 
+      "path": "lighthouse.sils/amber.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "butterfly_1", 
+            "path": "lighthouse.form/butterfly_1.png", 
+            "w": 50, 
+            "x": 1146, 
+            "y": 433
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "butterfly_2", 
+            "path": "lighthouse.form/butterfly_2.png", 
+            "w": 55, 
+            "x": 1184, 
+            "y": 135
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "butterfly_3", 
+            "path": "lighthouse.form/butterfly_3.png", 
+            "w": 53, 
+            "x": 695, 
+            "y": 69
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "butterfly_4", 
+            "path": "lighthouse.form/butterfly_4.png", 
+            "w": 54, 
+            "x": 254, 
+            "y": 5
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "butterfly_5", 
+            "path": "lighthouse.form/butterfly_5.png", 
+            "w": 50, 
+            "x": 327, 
+            "y": 222
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "butterfly_6", 
+            "path": "lighthouse.form/butterfly_6.png", 
+            "w": 49, 
+            "x": 519, 
+            "y": 158
+          }
+        }
+      ], 
+      "name": "蝶", 
+      "path": "lighthouse.sils/butterfly.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 89, 
+            "layer": 3, 
+            "name": "cocktail_1", 
+            "path": "lighthouse.form/cocktail_1.png", 
+            "w": 95, 
+            "x": 747, 
+            "y": 576
+          }
+        }, 
+        {
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "cocktail_2", 
+            "path": "lighthouse.form/cocktail_2.png", 
+            "w": 56, 
+            "x": 1032, 
+            "y": 445
+          }
+        }, 
+        {
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "cocktail_3", 
+            "path": "lighthouse.form/cocktail_3.png", 
+            "w": 56, 
+            "x": 1138, 
+            "y": 338
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "cocktail_4_cover", 
+            "path": "lighthouse.form/cocktail_4_cover.png", 
+            "w": 28, 
+            "x": 923, 
+            "y": 448
+          }, 
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "cocktail_4", 
+            "path": "lighthouse.form/cocktail_4.png", 
+            "w": 57, 
+            "x": 913, 
+            "y": 394
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "cocktail_5_cover", 
+            "path": "lighthouse.form/cocktail_5_cover.png", 
+            "w": 22, 
+            "x": 655, 
+            "y": 382
+          }, 
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "cocktail_5", 
+            "path": "lighthouse.form/cocktail_5.png", 
+            "w": 58, 
+            "x": 640, 
+            "y": 307
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "cocktail_6_cover", 
+            "path": "lighthouse.form/cocktail_6_cover.png", 
+            "w": 24, 
+            "x": 662, 
+            "y": 174
+          }, 
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "cocktail_6", 
+            "path": "lighthouse.form/cocktail_6.png", 
+            "w": 58, 
+            "x": 641, 
+            "y": 106
+          }
+        }
+      ], 
+      "name": "カクテル", 
+      "path": "lighthouse.sils/cocktail.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "coffe_1", 
+            "path": "lighthouse.form/coffe_1.png", 
+            "w": 58, 
+            "x": 706, 
+            "y": 600
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "coffe_2_cover", 
+            "path": "lighthouse.form/coffe_2_cover.png", 
+            "w": 45, 
+            "x": 605, 
+            "y": 617
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "coffe_2", 
+            "path": "lighthouse.form/coffe_2.png", 
+            "w": 55, 
+            "x": 589, 
+            "y": 619
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "coffe_3", 
+            "path": "lighthouse.form/coffe_3.png", 
+            "w": 56, 
+            "x": 858, 
+            "y": 583
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "coffe_4", 
+            "path": "lighthouse.form/coffe_4.png", 
+            "w": 58, 
+            "x": 338, 
+            "y": 622
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "coffe_5_cover", 
+            "path": "lighthouse.form/coffe_5_cover.png", 
+            "w": 49, 
+            "x": 578, 
+            "y": 534
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "coffe_5", 
+            "path": "lighthouse.form/coffe_5.png", 
+            "w": 59, 
+            "x": 579, 
+            "y": 543
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "coffe_6_cover", 
+            "path": "lighthouse.form/coffe_6_cover.png", 
+            "w": 53, 
+            "x": 432, 
+            "y": 554
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "coffe_6", 
+            "path": "lighthouse.form/coffe_6.png", 
+            "w": 59, 
+            "x": 432, 
+            "y": 566
+          }
+        }
+      ], 
+      "name": "紅茶のカップ", 
+      "path": "lighthouse.sils/coffe.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 5, 
+            "name": "album_1_cover", 
+            "path": "lighthouse.form/album_1_cover.png", 
+            "w": 40, 
+            "x": 1068, 
+            "y": 530
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "album_1", 
+            "path": "lighthouse.form/album_1.png", 
+            "w": 45, 
+            "x": 1062, 
+            "y": 530
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "album_2_cover", 
+            "path": "lighthouse.form/album_2_cover.png", 
+            "w": 15, 
+            "x": 801, 
+            "y": 420
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "album_2", 
+            "path": "lighthouse.form/album_2.png", 
+            "w": 44, 
+            "x": 802, 
+            "y": 418
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "album_3", 
+            "path": "lighthouse.form/album_3.png", 
+            "w": 44, 
+            "x": 1208, 
+            "y": 566
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "album_4_cover", 
+            "path": "lighthouse.form/album_4_cover.png", 
+            "w": 46, 
+            "x": 790, 
+            "y": 40
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "album_4", 
+            "path": "lighthouse.form/album_4.png", 
+            "w": 43, 
+            "x": 793, 
+            "y": 42
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 5, 
+            "name": "album_5_cover", 
+            "path": "lighthouse.form/album_5_cover.png", 
+            "w": 47, 
+            "x": 724, 
+            "y": 248
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "album_5", 
+            "path": "lighthouse.form/album_5.png", 
+            "w": 37, 
+            "x": 727, 
+            "y": 256
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 5, 
+            "name": "album_6_cover", 
+            "path": "lighthouse.form/album_6_cover.png", 
+            "w": 28, 
+            "x": 329, 
+            "y": 288
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "album_6", 
+            "path": "lighthouse.form/album_6.png", 
+            "w": 37, 
+            "x": 333, 
+            "y": 292
+          }
+        }
+      ], 
+      "name": "アルバム", 
+      "path": "lighthouse.sils/album.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "necklace_1", 
+            "path": "lighthouse.form/necklace_1.png", 
+            "w": 60, 
+            "x": 1091, 
+            "y": 240
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "necklace_2_cover", 
+            "path": "lighthouse.form/necklace_2_cover.png", 
+            "w": 48, 
+            "x": 1113, 
+            "y": 27
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "necklace_2", 
+            "path": "lighthouse.form/necklace_2.png", 
+            "w": 60, 
+            "x": 1100, 
+            "y": 29
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "necklace_3_cover", 
+            "path": "lighthouse.form/necklace_3_cover.png", 
+            "w": 25, 
+            "x": 505, 
+            "y": 393
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "necklace_3", 
+            "path": "lighthouse.form/necklace_3.png", 
+            "w": 46, 
+            "x": 506, 
+            "y": 393
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "necklace_4_cover", 
+            "path": "lighthouse.form/necklace_4_cover.png", 
+            "w": 13, 
+            "x": 986, 
+            "y": 68
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "necklace_4", 
+            "path": "lighthouse.form/necklace_4.png", 
+            "w": 60, 
+            "x": 957, 
+            "y": 69
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "necklace_5_cover", 
+            "path": "lighthouse.form/necklace_5_cover.png", 
+            "w": 56, 
+            "x": 833, 
+            "y": 7
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "necklace_5", 
+            "path": "lighthouse.form/necklace_5.png", 
+            "w": 62, 
+            "x": 834, 
+            "y": 10
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 5, 
+            "name": "necklace_6_cover", 
+            "path": "lighthouse.form/necklace_6_cover.png", 
+            "w": 50, 
+            "x": 339, 
+            "y": 5
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "necklace_6", 
+            "path": "lighthouse.form/necklace_6.png", 
+            "w": 62, 
+            "x": 341, 
+            "y": 8
+          }
+        }
+      ], 
+      "name": "真珠のアクセサリー", 
+      "path": "lighthouse.sils/necklace.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "cat_1_1", 
+            "path": "lighthouse.morph/cat_1_1.png", 
+            "w": 41, 
+            "x": 1148, 
+            "y": 474
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "cat_2_1", 
+            "path": "lighthouse.morph/cat_2_1.png", 
+            "w": 47, 
+            "x": 1147, 
+            "y": 484
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "cat_1_2", 
+            "path": "lighthouse.morph/cat_1_2.png", 
+            "w": 41, 
+            "x": 856, 
+            "y": 461
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "cat_2_2", 
+            "path": "lighthouse.morph/cat_2_2.png", 
+            "w": 46, 
+            "x": 856, 
+            "y": 471
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "cat_1_3", 
+            "path": "lighthouse.morph/cat_1_3.png", 
+            "w": 41, 
+            "x": 974, 
+            "y": 552
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "cat_2_3", 
+            "path": "lighthouse.morph/cat_2_3.png", 
+            "w": 46, 
+            "x": 974, 
+            "y": 562
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "cat_1_4_cover", 
+            "path": "lighthouse.morph/cat_1_4_cover.png", 
+            "w": 51, 
+            "x": 622, 
+            "y": 415
+          }, 
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "cat_1_4", 
+            "path": "lighthouse.morph/cat_1_4.png", 
+            "w": 46, 
+            "x": 625, 
+            "y": 389
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "cat_2_4", 
+            "path": "lighthouse.morph/cat_2_4.png", 
+            "w": 46, 
+            "x": 626, 
+            "y": 399
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "cat_1_5_cover", 
+            "path": "lighthouse.morph/cat_1_5_cover.png", 
+            "w": 45, 
+            "x": 484, 
+            "y": 568
+          }, 
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "cat_1_5", 
+            "path": "lighthouse.morph/cat_1_5.png", 
+            "w": 41, 
+            "x": 480, 
+            "y": 561
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "cat_2_5", 
+            "path": "lighthouse.morph/cat_2_5.png", 
+            "w": 46, 
+            "x": 480, 
+            "y": 571
+          }
+        }
+      ], 
+      "name": "cat"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "hat_1_1", 
+            "path": "lighthouse.morph/hat_1_1.png", 
+            "w": 78, 
+            "x": 986, 
+            "y": 623
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "hat_2_1", 
+            "path": "lighthouse.morph/hat_2_1.png", 
+            "w": 66, 
+            "x": 989, 
+            "y": 611
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "hat_1_2", 
+            "path": "lighthouse.morph/hat_1_2.png", 
+            "w": 74, 
+            "x": 764, 
+            "y": 268
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "hat_2_2", 
+            "path": "lighthouse.morph/hat_2_2.png", 
+            "w": 53, 
+            "x": 778, 
+            "y": 249
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "hat_1_3", 
+            "path": "lighthouse.morph/hat_1_3.png", 
+            "w": 79, 
+            "x": 481, 
+            "y": 490
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "hat_2_3", 
+            "path": "lighthouse.morph/hat_2_3.png", 
+            "w": 66, 
+            "x": 486, 
+            "y": 470
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "hat_1_4_cover", 
+            "path": "lighthouse.morph/hat_1_4_cover.png", 
+            "w": 58, 
+            "x": 550, 
+            "y": 578
+          }, 
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "hat_1_4", 
+            "path": "lighthouse.morph/hat_1_4.png", 
+            "w": 78, 
+            "x": 553, 
+            "y": 581
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "hat_2_4", 
+            "path": "lighthouse.morph/hat_2_4.png", 
+            "w": 52, 
+            "x": 576, 
+            "y": 573
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "hat_1_5_cover", 
+            "path": "lighthouse.morph/hat_1_5_cover.png", 
+            "w": 60, 
+            "x": 482, 
+            "y": 352
+          }, 
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "hat_1_5", 
+            "path": "lighthouse.morph/hat_1_5.png", 
+            "w": 78, 
+            "x": 462, 
+            "y": 354
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "hat_2_5", 
+            "path": "lighthouse.morph/hat_2_5.png", 
+            "w": 52, 
+            "x": 473, 
+            "y": 339
+          }
+        }
+      ], 
+      "name": "hat"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "bow_1_1", 
+            "path": "lighthouse.morph/bow_1_1.png", 
+            "w": 52, 
+            "x": 1186, 
+            "y": 132
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "bow_2_1", 
+            "path": "lighthouse.morph/bow_2_1.png", 
+            "w": 55, 
+            "x": 1184, 
+            "y": 135
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "bow_1_2", 
+            "path": "lighthouse.morph/bow_1_2.png", 
+            "w": 50, 
+            "x": 696, 
+            "y": 65
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "bow_2_2", 
+            "path": "lighthouse.morph/bow_2_2.png", 
+            "w": 53, 
+            "x": 695, 
+            "y": 69
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "bow_1_3", 
+            "path": "lighthouse.morph/bow_1_3.png", 
+            "w": 47, 
+            "x": 430, 
+            "y": 136
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "bow_2_3", 
+            "path": "lighthouse.morph/bow_2_3.png", 
+            "w": 50, 
+            "x": 428, 
+            "y": 139
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "bow_1_4", 
+            "path": "lighthouse.morph/bow_1_4.png", 
+            "w": 47, 
+            "x": 1193, 
+            "y": 412
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "bow_2_4", 
+            "path": "lighthouse.morph/bow_2_4.png", 
+            "w": 49, 
+            "x": 1191, 
+            "y": 414
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "bow_1_5_cover", 
+            "path": "lighthouse.morph/bow_1_5_cover.png", 
+            "w": 29, 
+            "x": 902, 
+            "y": 267
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "bow_1_5", 
+            "path": "lighthouse.morph/bow_1_5.png", 
+            "w": 47, 
+            "x": 910, 
+            "y": 274
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "bow_2_5", 
+            "path": "lighthouse.morph/bow_2_5.png", 
+            "w": 49, 
+            "x": 905, 
+            "y": 275
+          }
+        }
+      ], 
+      "name": "bow"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "shell_1_1", 
+            "path": "lighthouse.morph/shell_1_1.png", 
+            "w": 63, 
+            "x": 867, 
+            "y": 520
+          }, 
+          "pic2": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "shell_2_1", 
+            "path": "lighthouse.morph/shell_2_1.png", 
+            "w": 44, 
+            "x": 883, 
+            "y": 524
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "shell_1_2", 
+            "path": "lighthouse.morph/shell_1_2.png", 
+            "w": 63, 
+            "x": 713, 
+            "y": 558
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "shell_2_2", 
+            "path": "lighthouse.morph/shell_2_2.png", 
+            "w": 44, 
+            "x": 726, 
+            "y": 560
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "shell_1_3", 
+            "path": "lighthouse.morph/shell_1_3.png", 
+            "w": 63, 
+            "x": 233, 
+            "y": 628
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "shell_2_3", 
+            "path": "lighthouse.morph/shell_2_3.png", 
+            "w": 44, 
+            "x": 249, 
+            "y": 632
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 4, 
+            "name": "shell_1_4_cover", 
+            "path": "lighthouse.morph/shell_1_4_cover.png", 
+            "w": 43, 
+            "x": 850, 
+            "y": 188
+          }, 
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "shell_1_4", 
+            "path": "lighthouse.morph/shell_1_4.png", 
+            "w": 63, 
+            "x": 850, 
+            "y": 169
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "shell_2_4", 
+            "path": "lighthouse.morph/shell_2_4.png", 
+            "w": 43, 
+            "x": 849, 
+            "y": 174
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "shell_1_5", 
+            "path": "lighthouse.morph/shell_1_5.png", 
+            "w": 31, 
+            "x": 748, 
+            "y": 74
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "shell_2_5", 
+            "path": "lighthouse.morph/shell_2_5.png", 
+            "w": 25, 
+            "x": 750, 
+            "y": 94
+          }
+        }
+      ], 
+      "name": "shell"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "peach_1_1", 
+            "path": "lighthouse.morph/peach_1_1.png", 
+            "w": 46, 
+            "x": 707, 
+            "y": 601
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "peach_2_1", 
+            "path": "lighthouse.morph/peach_2_1.png", 
+            "w": 58, 
+            "x": 707, 
+            "y": 600
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "peach_1_2", 
+            "path": "lighthouse.morph/peach_1_2.png", 
+            "w": 46, 
+            "x": 344, 
+            "y": 618
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "peach_2_2", 
+            "path": "lighthouse.morph/peach_2_2.png", 
+            "w": 58, 
+            "x": 341, 
+            "y": 622
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "peach_1_3", 
+            "path": "lighthouse.morph/peach_1_3.png", 
+            "w": 46, 
+            "x": 841, 
+            "y": 575
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "peach_2_3", 
+            "path": "lighthouse.morph/peach_2_3.png", 
+            "w": 56, 
+            "x": 839, 
+            "y": 575
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "peach_1_4", 
+            "path": "lighthouse.morph/peach_1_4.png", 
+            "w": 49, 
+            "x": 588, 
+            "y": 464
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "peach_2_4", 
+            "path": "lighthouse.morph/peach_2_4.png", 
+            "w": 54, 
+            "x": 585, 
+            "y": 470
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "peach_1_5_cover", 
+            "path": "lighthouse.morph/peach_1_5_cover.png", 
+            "w": 75, 
+            "x": 1011, 
+            "y": 481
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "peach_1_5", 
+            "path": "lighthouse.morph/peach_1_5.png", 
+            "w": 46, 
+            "x": 1026, 
+            "y": 484
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "peach_2_5", 
+            "path": "lighthouse.morph/peach_2_5.png", 
+            "w": 57, 
+            "x": 1025, 
+            "y": 485
+          }
+        }
+      ], 
+      "name": "peach"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "ice-cream_1_1_cover", 
+            "path": "lighthouse.morph/ice-cream_1_1_cover.png", 
+            "w": 24, 
+            "x": 662, 
+            "y": 174
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "ice-cream_1_1", 
+            "path": "lighthouse.morph/ice-cream_1_1.png", 
+            "w": 31, 
+            "x": 660, 
+            "y": 132
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "ice-cream_2_1", 
+            "path": "lighthouse.morph/ice-cream_2_1.png", 
+            "w": 58, 
+            "x": 641, 
+            "y": 106
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 4, 
+            "name": "ice-cream_1_2_cover", 
+            "path": "lighthouse.morph/ice-cream_1_2_cover.png", 
+            "w": 22, 
+            "x": 655, 
+            "y": 382
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "ice-cream_1_2", 
+            "path": "lighthouse.morph/ice-cream_1_2.png", 
+            "w": 31, 
+            "x": 648, 
+            "y": 333
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "ice-cream_2_2", 
+            "path": "lighthouse.morph/ice-cream_2_2.png", 
+            "w": 58, 
+            "x": 640, 
+            "y": 307
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "ice-cream_1_3_cover", 
+            "path": "lighthouse.morph/ice-cream_1_3_cover.png", 
+            "w": 33, 
+            "x": 1211, 
+            "y": 306
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "ice-cream_1_3", 
+            "path": "lighthouse.morph/ice-cream_1_3.png", 
+            "w": 31, 
+            "x": 1214, 
+            "y": 283
+          }, 
+          "pic2": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "ice-cream_2_3", 
+            "path": "lighthouse.morph/ice-cream_2_3.png", 
+            "w": 60, 
+            "x": 1190, 
+            "y": 254
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "ice-cream_1_4_cover", 
+            "path": "lighthouse.morph/ice-cream_1_4_cover.png", 
+            "w": 28, 
+            "x": 923, 
+            "y": 448
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "ice-cream_1_4", 
+            "path": "lighthouse.morph/ice-cream_1_4.png", 
+            "w": 31, 
+            "x": 921, 
+            "y": 417
+          }, 
+          "pic2": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "ice-cream_2_4", 
+            "path": "lighthouse.morph/ice-cream_2_4.png", 
+            "w": 57, 
+            "x": 914, 
+            "y": 392
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "ice-cream_1_5_cover", 
+            "path": "lighthouse.morph/ice-cream_1_5_cover.png", 
+            "w": 36, 
+            "x": 408, 
+            "y": 371
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "ice-cream_1_5", 
+            "path": "lighthouse.morph/ice-cream_1_5.png", 
+            "w": 31, 
+            "x": 410, 
+            "y": 372
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "ice-cream_2_5", 
+            "path": "lighthouse.morph/ice-cream_2_5.png", 
+            "w": 60, 
+            "x": 402, 
+            "y": 343
+          }
+        }
+      ], 
+      "name": "ice-cream"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "grape_1_1", 
+            "path": "lighthouse.morph/grape_1_1.png", 
+            "w": 27, 
+            "x": 951, 
+            "y": 136
+          }, 
+          "pic2": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "grape_2_1", 
+            "path": "lighthouse.morph/grape_2_1.png", 
+            "w": 25, 
+            "x": 952, 
+            "y": 132
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "grape_1_2", 
+            "path": "lighthouse.morph/grape_1_2.png", 
+            "w": 27, 
+            "x": 661, 
+            "y": 219
+          }, 
+          "pic2": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "grape_2_2", 
+            "path": "lighthouse.morph/grape_2_2.png", 
+            "w": 25, 
+            "x": 661, 
+            "y": 214
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "grape_1_3_cover", 
+            "path": "lighthouse.morph/grape_1_3_cover.png", 
+            "w": 28, 
+            "x": 611, 
+            "y": 46
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "grape_1_3", 
+            "path": "lighthouse.morph/grape_1_3.png", 
+            "w": 27, 
+            "x": 605, 
+            "y": 67
+          }, 
+          "pic2": {
+            "h": 90, 
+            "layer": 4, 
+            "name": "grape_2_3", 
+            "path": "lighthouse.morph/grape_2_3.png", 
+            "w": 28, 
+            "x": 610, 
+            "y": 50
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "grape_1_4", 
+            "path": "lighthouse.morph/grape_1_4.png", 
+            "w": 31, 
+            "x": 249, 
+            "y": 451
+          }, 
+          "pic2": {
+            "h": 95, 
+            "layer": 4, 
+            "name": "grape_2_4", 
+            "path": "lighthouse.morph/grape_2_4.png", 
+            "w": 32, 
+            "x": 249, 
+            "y": 443
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "grape_1_5_cover", 
+            "path": "lighthouse.morph/grape_1_5_cover.png", 
+            "w": 29, 
+            "x": 355, 
+            "y": 146
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "grape_1_5", 
+            "path": "lighthouse.morph/grape_1_5.png", 
+            "w": 27, 
+            "x": 358, 
+            "y": 149
+          }, 
+          "pic2": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "grape_2_5", 
+            "path": "lighthouse.morph/grape_2_5.png", 
+            "w": 29, 
+            "x": 357, 
+            "y": 146
+          }
+        }
+      ], 
+      "name": "grape"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "flower_1_1_cover", 
+            "path": "lighthouse.morph/flower_1_1_cover.png", 
+            "w": 26, 
+            "x": 446, 
+            "y": 394
+          }, 
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "flower_1_1", 
+            "path": "lighthouse.morph/flower_1_1.png", 
+            "w": 51, 
+            "x": 419, 
+            "y": 399
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "flower_2_1", 
+            "path": "lighthouse.morph/flower_2_1.png", 
+            "w": 49, 
+            "x": 423, 
+            "y": 394
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "flower_1_2", 
+            "path": "lighthouse.morph/flower_1_2.png", 
+            "w": 55, 
+            "x": 1183, 
+            "y": 30
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "flower_2_2", 
+            "path": "lighthouse.morph/flower_2_2.png", 
+            "w": 49, 
+            "x": 1182, 
+            "y": 27
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 4, 
+            "name": "flower_1_3_cover", 
+            "path": "lighthouse.morph/flower_1_3_cover.png", 
+            "w": 40, 
+            "x": 700, 
+            "y": 157
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "flower_1_3", 
+            "path": "lighthouse.morph/flower_1_3.png", 
+            "w": 54, 
+            "x": 692, 
+            "y": 121
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "flower_2_3", 
+            "path": "lighthouse.morph/flower_2_3.png", 
+            "w": 47, 
+            "x": 699, 
+            "y": 115
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "flower_1_4_cover", 
+            "path": "lighthouse.morph/flower_1_4_cover.png", 
+            "w": 46, 
+            "x": 309, 
+            "y": 543
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "flower_1_4", 
+            "path": "lighthouse.morph/flower_1_4.png", 
+            "w": 50, 
+            "x": 300, 
+            "y": 549
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "flower_2_4", 
+            "path": "lighthouse.morph/flower_2_4.png", 
+            "w": 48, 
+            "x": 304, 
+            "y": 546
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "flower_1_5", 
+            "path": "lighthouse.morph/flower_1_5.png", 
+            "w": 53, 
+            "x": 970, 
+            "y": 26
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "flower_2_5", 
+            "path": "lighthouse.morph/flower_2_5.png", 
+            "w": 45, 
+            "x": 978, 
+            "y": 22
+          }
+        }
+      ], 
+      "name": "flower"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "vase_1_1", 
+            "path": "lighthouse.morph/vase_1_1.png", 
+            "w": 43, 
+            "x": 647, 
+            "y": 593
+          }, 
+          "pic2": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "vase_2_1", 
+            "path": "lighthouse.morph/vase_2_1.png", 
+            "w": 37, 
+            "x": 653, 
+            "y": 572
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "vase_1_2", 
+            "path": "lighthouse.morph/vase_1_2.png", 
+            "w": 37, 
+            "x": 1134, 
+            "y": 611
+          }, 
+          "pic2": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "vase_2_2", 
+            "path": "lighthouse.morph/vase_2_2.png", 
+            "w": 37, 
+            "x": 1134, 
+            "y": 591
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "vase_1_3", 
+            "path": "lighthouse.morph/vase_1_3.png", 
+            "w": 37, 
+            "x": 389, 
+            "y": 567
+          }, 
+          "pic2": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "vase_2_3", 
+            "path": "lighthouse.morph/vase_2_3.png", 
+            "w": 37, 
+            "x": 389, 
+            "y": 550
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "vase_1_4", 
+            "path": "lighthouse.morph/vase_1_4.png", 
+            "w": 49, 
+            "x": 500, 
+            "y": 609
+          }, 
+          "pic2": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "vase_2_4", 
+            "path": "lighthouse.morph/vase_2_4.png", 
+            "w": 37, 
+            "x": 511, 
+            "y": 591
+          }
+        }, 
+        {
+          "cover": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "vase_1_5_cover", 
+            "path": "lighthouse.morph/vase_1_5_cover.png", 
+            "w": 45, 
+            "x": 1022, 
+            "y": 536
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "vase_1_5", 
+            "path": "lighthouse.morph/vase_1_5.png", 
+            "w": 37, 
+            "x": 1022, 
+            "y": 556
+          }, 
+          "pic2": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "vase_2_5", 
+            "path": "lighthouse.morph/vase_2_5.png", 
+            "w": 37, 
+            "x": 1026, 
+            "y": 538
+          }
+        }
+      ], 
+      "name": "vase"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "fun_1_1", 
+            "path": "lighthouse.morph/fun_1_1.png", 
+            "w": 71, 
+            "x": 266, 
+            "y": 178
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "fun_2_1", 
+            "path": "lighthouse.morph/fun_2_1.png", 
+            "w": 63, 
+            "x": 268, 
+            "y": 205
+          }
+        }, 
+        {
+          "cover": {
+            "h": 6, 
+            "layer": 4, 
+            "name": "fun_1_2_cover", 
+            "path": "lighthouse.morph/fun_1_2_cover.png", 
+            "w": 51, 
+            "x": 1189, 
+            "y": 218
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "fun_1_2", 
+            "path": "lighthouse.morph/fun_1_2.png", 
+            "w": 70, 
+            "x": 1178, 
+            "y": 180
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "fun_2_2", 
+            "path": "lighthouse.morph/fun_2_2.png", 
+            "w": 63, 
+            "x": 1178, 
+            "y": 202
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "fun_1_3", 
+            "path": "lighthouse.morph/fun_1_3.png", 
+            "w": 71, 
+            "x": 1134, 
+            "y": 291
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "fun_2_3", 
+            "path": "lighthouse.morph/fun_2_3.png", 
+            "w": 64, 
+            "x": 1135, 
+            "y": 305
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "fun_1_4", 
+            "path": "lighthouse.morph/fun_1_4.png", 
+            "w": 70, 
+            "x": 862, 
+            "y": 215
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "fun_2_4", 
+            "path": "lighthouse.morph/fun_2_4.png", 
+            "w": 64, 
+            "x": 867, 
+            "y": 238
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "fun_1_5_cover", 
+            "path": "lighthouse.morph/fun_1_5_cover.png", 
+            "w": 74, 
+            "x": 522, 
+            "y": 309
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "fun_1_5", 
+            "path": "lighthouse.morph/fun_1_5.png", 
+            "w": 70, 
+            "x": 524, 
+            "y": 312
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "fun_2_5", 
+            "path": "lighthouse.morph/fun_2_5.png", 
+            "w": 64, 
+            "x": 529, 
+            "y": 333
+          }
+        }
+      ], 
+      "name": "fun"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "balloon_dog_1_1_cover", 
+            "path": "lighthouse.morph/balloon_dog_1_1_cover.png", 
+            "w": 26, 
+            "x": 759, 
+            "y": 477
+          }, 
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "balloon_dog_1_1", 
+            "path": "lighthouse.morph/balloon_dog_1_1.png", 
+            "w": 60, 
+            "x": 765, 
+            "y": 438
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "balloon_dog_2_1", 
+            "path": "lighthouse.morph/balloon_dog_2_1.png", 
+            "w": 61, 
+            "x": 761, 
+            "y": 472
+          }
+        }, 
+        {
+          "cover": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "balloon_dog_1_2_cover", 
+            "path": "lighthouse.morph/balloon_dog_1_2_cover.png", 
+            "w": 67, 
+            "x": 731, 
+            "y": 320
+          }, 
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "balloon_dog_1_2", 
+            "path": "lighthouse.morph/balloon_dog_1_2.png", 
+            "w": 60, 
+            "x": 736, 
+            "y": 320
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "balloon_dog_2_2", 
+            "path": "lighthouse.morph/balloon_dog_2_2.png", 
+            "w": 62, 
+            "x": 731, 
+            "y": 356
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "balloon_dog_1_3_cover", 
+            "path": "lighthouse.morph/balloon_dog_1_3_cover.png", 
+            "w": 40, 
+            "x": 321, 
+            "y": 370
+          }, 
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "balloon_dog_1_3", 
+            "path": "lighthouse.morph/balloon_dog_1_3.png", 
+            "w": 59, 
+            "x": 329, 
+            "y": 332
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "balloon_dog_2_3", 
+            "path": "lighthouse.morph/balloon_dog_2_3.png", 
+            "w": 61, 
+            "x": 325, 
+            "y": 368
+          }
+        }, 
+        {
+          "cover": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "balloon_dog_1_4_cover", 
+            "path": "lighthouse.morph/balloon_dog_1_4_cover.png", 
+            "w": 64, 
+            "x": 1029, 
+            "y": 307
+          }, 
+          "pic1": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "balloon_dog_1_4", 
+            "path": "lighthouse.morph/balloon_dog_1_4.png", 
+            "w": 60, 
+            "x": 1032, 
+            "y": 309
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "balloon_dog_2_4", 
+            "path": "lighthouse.morph/balloon_dog_2_4.png", 
+            "w": 61, 
+            "x": 1028, 
+            "y": 344
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "balloon_dog_1_5", 
+            "path": "lighthouse.morph/balloon_dog_1_5.png", 
+            "w": 60, 
+            "x": 1137, 
+            "y": 345
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "balloon_dog_2_5", 
+            "path": "lighthouse.morph/balloon_dog_2_5.png", 
+            "w": 62, 
+            "x": 1132, 
+            "y": 380
+          }
+        }
+      ], 
+      "name": "balloondog"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "ball_1_1", 
+            "path": "lighthouse.morph/ball_1_1.png", 
+            "w": 73, 
+            "x": 782, 
+            "y": 612
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "ball_2_1", 
+            "path": "lighthouse.morph/ball_2_1.png", 
+            "w": 73, 
+            "x": 782, 
+            "y": 610
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "ball_1_2", 
+            "path": "lighthouse.morph/ball_1_2.png", 
+            "w": 73, 
+            "x": 653, 
+            "y": 514
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "ball_2_2", 
+            "path": "lighthouse.morph/ball_2_2.png", 
+            "w": 73, 
+            "x": 653, 
+            "y": 512
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "ball_1_3", 
+            "path": "lighthouse.morph/ball_1_3.png", 
+            "w": 73, 
+            "x": 406, 
+            "y": 613
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "ball_2_3", 
+            "path": "lighthouse.morph/ball_2_3.png", 
+            "w": 73, 
+            "x": 406, 
+            "y": 611
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "ball_1_4_cover", 
+            "path": "lighthouse.morph/ball_1_4_cover.png", 
+            "w": 53, 
+            "x": 535, 
+            "y": 4
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "ball_1_4", 
+            "path": "lighthouse.morph/ball_1_4.png", 
+            "w": 48, 
+            "x": 535, 
+            "y": 7
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "ball_2_4", 
+            "path": "lighthouse.morph/ball_2_4.png", 
+            "w": 49, 
+            "x": 534, 
+            "y": 8
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "ball_1_5_cover", 
+            "path": "lighthouse.morph/ball_1_5_cover.png", 
+            "w": 40, 
+            "x": 1160, 
+            "y": 549
+          }, 
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "ball_1_5", 
+            "path": "lighthouse.morph/ball_1_5.png", 
+            "w": 53, 
+            "x": 1164, 
+            "y": 554
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "ball_2_5", 
+            "path": "lighthouse.morph/ball_2_5.png", 
+            "w": 53, 
+            "x": 1164, 
+            "y": 552
+          }
+        }
+      ], 
+      "name": "ball"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "guitar_1_1_cover", 
+            "path": "lighthouse.morph/guitar_1_1_cover.png", 
+            "w": 15, 
+            "x": 286, 
+            "y": 505
+          }, 
+          "pic1": {
+            "h": 120, 
+            "layer": 4, 
+            "name": "guitar_1_1", 
+            "path": "lighthouse.morph/guitar_1_1.png", 
+            "w": 47, 
+            "x": 264, 
+            "y": 507
+          }, 
+          "pic2": {
+            "h": 99, 
+            "layer": 4, 
+            "name": "guitar_2_1", 
+            "path": "lighthouse.morph/guitar_2_1.png", 
+            "w": 35, 
+            "x": 270, 
+            "y": 531
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 123, 
+            "layer": 4, 
+            "name": "guitar_1_2", 
+            "path": "lighthouse.morph/guitar_1_2.png", 
+            "w": 47, 
+            "x": 278, 
+            "y": 230
+          }, 
+          "pic2": {
+            "h": 99, 
+            "layer": 4, 
+            "name": "guitar_2_2", 
+            "path": "lighthouse.morph/guitar_2_2.png", 
+            "w": 36, 
+            "x": 283, 
+            "y": 257
+          }
+        }, 
+        {
+          "cover": {
+            "h": 104, 
+            "layer": 4, 
+            "name": "guitar_1_3_cover", 
+            "path": "lighthouse.morph/guitar_1_3_cover.png", 
+            "w": 46, 
+            "x": 1075, 
+            "y": 501
+          }, 
+          "pic1": {
+            "h": 123, 
+            "layer": 4, 
+            "name": "guitar_1_3", 
+            "path": "lighthouse.morph/guitar_1_3.png", 
+            "w": 53, 
+            "x": 1067, 
+            "y": 506
+          }, 
+          "pic2": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "guitar_2_3", 
+            "path": "lighthouse.morph/guitar_2_3.png", 
+            "w": 38, 
+            "x": 1076, 
+            "y": 530
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "guitar_1_4_cover", 
+            "path": "lighthouse.morph/guitar_1_4_cover.png", 
+            "w": 52, 
+            "x": 680, 
+            "y": 408
+          }, 
+          "pic1": {
+            "h": 121, 
+            "layer": 4, 
+            "name": "guitar_1_4", 
+            "path": "lighthouse.morph/guitar_1_4.png", 
+            "w": 48, 
+            "x": 682, 
+            "y": 340
+          }, 
+          "pic2": {
+            "h": 99, 
+            "layer": 4, 
+            "name": "guitar_2_4", 
+            "path": "lighthouse.morph/guitar_2_4.png", 
+            "w": 37, 
+            "x": 687, 
+            "y": 364
+          }
+        }, 
+        {
+          "cover": {
+            "h": 128, 
+            "layer": 4, 
+            "name": "guitar_1_5_cover", 
+            "path": "lighthouse.morph/guitar_1_5_cover.png", 
+            "w": 46, 
+            "x": 852, 
+            "y": 267
+          }, 
+          "pic1": {
+            "h": 119, 
+            "layer": 4, 
+            "name": "guitar_1_5", 
+            "path": "lighthouse.morph/guitar_1_5.png", 
+            "w": 45, 
+            "x": 851, 
+            "y": 270
+          }, 
+          "pic2": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "guitar_2_5", 
+            "path": "lighthouse.morph/guitar_2_5.png", 
+            "w": 34, 
+            "x": 856, 
+            "y": 296
+          }
+        }
+      ], 
+      "name": "guitar"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "bag_1_1_cover", 
+            "path": "lighthouse.morph/bag_1_1_cover.png", 
+            "w": 61, 
+            "x": 1122, 
+            "y": 422
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "bag_1_1", 
+            "path": "lighthouse.morph/bag_1_1.png", 
+            "w": 58, 
+            "x": 1123, 
+            "y": 423
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bag_2_1", 
+            "path": "lighthouse.morph/bag_2_1.png", 
+            "w": 61, 
+            "x": 1121, 
+            "y": 428
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "bag_1_2_cover", 
+            "path": "lighthouse.morph/bag_1_2_cover.png", 
+            "w": 47, 
+            "x": 1189, 
+            "y": 354
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "bag_1_2", 
+            "path": "lighthouse.morph/bag_1_2.png", 
+            "w": 57, 
+            "x": 1194, 
+            "y": 357
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bag_2_2", 
+            "path": "lighthouse.morph/bag_2_2.png", 
+            "w": 60, 
+            "x": 1192, 
+            "y": 361
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bag_1_3", 
+            "path": "lighthouse.morph/bag_1_3.png", 
+            "w": 57, 
+            "x": 924, 
+            "y": 477
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "bag_2_3", 
+            "path": "lighthouse.morph/bag_2_3.png", 
+            "w": 60, 
+            "x": 923, 
+            "y": 481
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "bag_1_4", 
+            "path": "lighthouse.morph/bag_1_4.png", 
+            "w": 45, 
+            "x": 309, 
+            "y": 493
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "bag_2_4", 
+            "path": "lighthouse.morph/bag_2_4.png", 
+            "w": 48, 
+            "x": 308, 
+            "y": 496
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bag_1_5_cover", 
+            "path": "lighthouse.morph/bag_1_5_cover.png", 
+            "w": 56, 
+            "x": 776, 
+            "y": 55
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bag_1_5", 
+            "path": "lighthouse.morph/bag_1_5.png", 
+            "w": 56, 
+            "x": 778, 
+            "y": 57
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "bag_2_5", 
+            "path": "lighthouse.morph/bag_2_5.png", 
+            "w": 60, 
+            "x": 776, 
+            "y": 61
+          }
+        }
+      ], 
+      "name": "bag"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "plate_1_1", 
+            "path": "lighthouse.morph/plate_1_1.png", 
+            "w": 48, 
+            "x": 981, 
+            "y": 293
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "plate_2_1", 
+            "path": "lighthouse.morph/plate_2_1.png", 
+            "w": 39, 
+            "x": 985, 
+            "y": 293
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "plate_1_2", 
+            "path": "lighthouse.morph/plate_1_2.png", 
+            "w": 49, 
+            "x": 1088, 
+            "y": 192
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "plate_2_2", 
+            "path": "lighthouse.morph/plate_2_2.png", 
+            "w": 40, 
+            "x": 1093, 
+            "y": 189
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "plate_1_3", 
+            "path": "lighthouse.morph/plate_1_3.png", 
+            "w": 41, 
+            "x": 518, 
+            "y": 414
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "plate_2_3", 
+            "path": "lighthouse.morph/plate_2_3.png", 
+            "w": 34, 
+            "x": 522, 
+            "y": 411
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "plate_1_4", 
+            "path": "lighthouse.morph/plate_1_4.png", 
+            "w": 43, 
+            "x": 322, 
+            "y": 14
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "plate_2_4", 
+            "path": "lighthouse.morph/plate_2_4.png", 
+            "w": 37, 
+            "x": 327, 
+            "y": 11
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "plate_1_5", 
+            "path": "lighthouse.morph/plate_1_5.png", 
+            "w": 49, 
+            "x": 276, 
+            "y": 403
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "plate_2_5", 
+            "path": "lighthouse.morph/plate_2_5.png", 
+            "w": 40, 
+            "x": 281, 
+            "y": 400
+          }
+        }
+      ], 
+      "name": "plate"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "boomerang_1_1_cover", 
+            "path": "lighthouse.morph/boomerang_1_1_cover.png", 
+            "w": 54, 
+            "x": 1075, 
+            "y": 94
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "boomerang_1_1", 
+            "path": "lighthouse.morph/boomerang_1_1.png", 
+            "w": 47, 
+            "x": 1079, 
+            "y": 81
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "boomerang_2_1", 
+            "path": "lighthouse.morph/boomerang_2_1.png", 
+            "w": 53, 
+            "x": 1075, 
+            "y": 84
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "boomerang_1_2_cover", 
+            "path": "lighthouse.morph/boomerang_1_2_cover.png", 
+            "w": 50, 
+            "x": 914, 
+            "y": 109
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "boomerang_1_2", 
+            "path": "lighthouse.morph/boomerang_1_2.png", 
+            "w": 48, 
+            "x": 913, 
+            "y": 84
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "boomerang_2_2", 
+            "path": "lighthouse.morph/boomerang_2_2.png", 
+            "w": 50, 
+            "x": 912, 
+            "y": 87
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "boomerang_1_3_cover", 
+            "path": "lighthouse.morph/boomerang_1_3_cover.png", 
+            "w": 60, 
+            "x": 422, 
+            "y": 1
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "boomerang_1_3", 
+            "path": "lighthouse.morph/boomerang_1_3.png", 
+            "w": 55, 
+            "x": 426, 
+            "y": 0
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "boomerang_2_3", 
+            "path": "lighthouse.morph/boomerang_2_3.png", 
+            "w": 53, 
+            "x": 425, 
+            "y": 3
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 4, 
+            "name": "boomerang_1_4_cover", 
+            "path": "lighthouse.morph/boomerang_1_4_cover.png", 
+            "w": 48, 
+            "x": 317, 
+            "y": 95
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "boomerang_1_4", 
+            "path": "lighthouse.morph/boomerang_1_4.png", 
+            "w": 56, 
+            "x": 320, 
+            "y": 67
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "boomerang_2_4", 
+            "path": "lighthouse.morph/boomerang_2_4.png", 
+            "w": 55, 
+            "x": 319, 
+            "y": 69
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "boomerang_1_5", 
+            "path": "lighthouse.morph/boomerang_1_5.png", 
+            "w": 57, 
+            "x": 324, 
+            "y": 571
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "boomerang_2_5", 
+            "path": "lighthouse.morph/boomerang_2_5.png", 
+            "w": 55, 
+            "x": 324, 
+            "y": 575
+          }
+        }
+      ], 
+      "name": "boomerang"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "crab_1_1", 
+            "path": "lighthouse.morph/crab_1_1.png", 
+            "w": 55, 
+            "x": 692, 
+            "y": 253
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "crab_2_1", 
+            "path": "lighthouse.morph/crab_2_1.png", 
+            "w": 30, 
+            "x": 704, 
+            "y": 240
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "crab_1_2_cover", 
+            "path": "lighthouse.morph/crab_1_2_cover.png", 
+            "w": 6, 
+            "x": 923, 
+            "y": 45
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "crab_1_2", 
+            "path": "lighthouse.morph/crab_1_2.png", 
+            "w": 54, 
+            "x": 889, 
+            "y": 55
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "crab_2_2", 
+            "path": "lighthouse.morph/crab_2_2.png", 
+            "w": 30, 
+            "x": 900, 
+            "y": 41
+          }
+        }, 
+        {
+          "cover": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "crab_1_3_cover", 
+            "path": "lighthouse.morph/crab_1_3_cover.png", 
+            "w": 11, 
+            "x": 1066, 
+            "y": 41
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "crab_1_3", 
+            "path": "lighthouse.morph/crab_1_3.png", 
+            "w": 54, 
+            "x": 1043, 
+            "y": 51
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "crab_2_3", 
+            "path": "lighthouse.morph/crab_2_3.png", 
+            "w": 30, 
+            "x": 1055, 
+            "y": 36
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "crab_1_4", 
+            "path": "lighthouse.morph/crab_1_4.png", 
+            "w": 56, 
+            "x": 256, 
+            "y": 41
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "crab_2_4", 
+            "path": "lighthouse.morph/crab_2_4.png", 
+            "w": 30, 
+            "x": 269, 
+            "y": 24
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "crab_1_5_cover", 
+            "path": "lighthouse.morph/crab_1_5_cover.png", 
+            "w": 33, 
+            "x": 324, 
+            "y": 249
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "crab_1_5", 
+            "path": "lighthouse.morph/crab_1_5.png", 
+            "w": 54, 
+            "x": 329, 
+            "y": 258
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "crab_2_5", 
+            "path": "lighthouse.morph/crab_2_5.png", 
+            "w": 29, 
+            "x": 341, 
+            "y": 242
+          }
+        }
+      ], 
+      "name": "crab"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "ventilator_1_1_cover", 
+            "path": "lighthouse.morph/ventilator_1_1_cover.png", 
+            "w": 33, 
+            "x": 856, 
+            "y": 442
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "ventilator_1_1", 
+            "path": "lighthouse.morph/ventilator_1_1.png", 
+            "w": 45, 
+            "x": 845, 
+            "y": 408
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "ventilator_2_1", 
+            "path": "lighthouse.morph/ventilator_2_1.png", 
+            "w": 46, 
+            "x": 843, 
+            "y": 409
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "ventilator_1_2_cover", 
+            "path": "lighthouse.morph/ventilator_1_2_cover.png", 
+            "w": 40, 
+            "x": 801, 
+            "y": 338
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "ventilator_1_2", 
+            "path": "lighthouse.morph/ventilator_1_2.png", 
+            "w": 45, 
+            "x": 805, 
+            "y": 341
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "ventilator_2_2", 
+            "path": "lighthouse.morph/ventilator_2_2.png", 
+            "w": 45, 
+            "x": 804, 
+            "y": 342
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 4, 
+            "name": "ventilator_1_3_cover", 
+            "path": "lighthouse.morph/ventilator_1_3_cover.png", 
+            "w": 27, 
+            "x": 441, 
+            "y": 374
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "ventilator_1_3", 
+            "path": "lighthouse.morph/ventilator_1_3.png", 
+            "w": 45, 
+            "x": 430, 
+            "y": 330
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "ventilator_2_3", 
+            "path": "lighthouse.morph/ventilator_2_3.png", 
+            "w": 46, 
+            "x": 430, 
+            "y": 331
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "ventilator_1_4_cover", 
+            "path": "lighthouse.morph/ventilator_1_4_cover.png", 
+            "w": 36, 
+            "x": 1120, 
+            "y": 129
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "ventilator_1_4", 
+            "path": "lighthouse.morph/ventilator_1_4.png", 
+            "w": 49, 
+            "x": 1105, 
+            "y": 122
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "ventilator_2_4", 
+            "path": "lighthouse.morph/ventilator_2_4.png", 
+            "w": 47, 
+            "x": 1105, 
+            "y": 123
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 4, 
+            "name": "ventilator_1_5_cover", 
+            "path": "lighthouse.morph/ventilator_1_5_cover.png", 
+            "w": 25, 
+            "x": 1160, 
+            "y": 111
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "ventilator_1_5", 
+            "path": "lighthouse.morph/ventilator_1_5.png", 
+            "w": 47, 
+            "x": 1150, 
+            "y": 68
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "ventilator_2_5", 
+            "path": "lighthouse.morph/ventilator_2_5.png", 
+            "w": 46, 
+            "x": 1149, 
+            "y": 67
+          }
+        }
+      ], 
+      "name": "ventilator"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "pram_1_1", 
+            "path": "lighthouse.morph/pram_1_1.png", 
+            "w": 80, 
+            "x": 782, 
+            "y": 524
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "pram_2_1", 
+            "path": "lighthouse.morph/pram_2_1.png", 
+            "w": 87, 
+            "x": 785, 
+            "y": 534
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "pram_1_2", 
+            "path": "lighthouse.morph/pram_1_2.png", 
+            "w": 80, 
+            "x": 902, 
+            "y": 595
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "pram_2_2", 
+            "path": "lighthouse.morph/pram_2_2.png", 
+            "w": 85, 
+            "x": 894, 
+            "y": 605
+          }
+        }, 
+        {
+          "cover": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "pram_1_3_cover", 
+            "path": "lighthouse.morph/pram_1_3_cover.png", 
+            "w": 83, 
+            "x": 983, 
+            "y": 418
+          }, 
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "pram_1_3", 
+            "path": "lighthouse.morph/pram_1_3.png", 
+            "w": 76, 
+            "x": 983, 
+            "y": 417
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "pram_2_3", 
+            "path": "lighthouse.morph/pram_2_3.png", 
+            "w": 85, 
+            "x": 983, 
+            "y": 426
+          }
+        }, 
+        {
+          "cover": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "pram_1_4_cover", 
+            "path": "lighthouse.morph/pram_1_4_cover.png", 
+            "w": 46, 
+            "x": 584, 
+            "y": 506
+          }, 
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "pram_1_4", 
+            "path": "lighthouse.morph/pram_1_4.png", 
+            "w": 81, 
+            "x": 587, 
+            "y": 505
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "pram_2_4", 
+            "path": "lighthouse.morph/pram_2_4.png", 
+            "w": 85, 
+            "x": 590, 
+            "y": 518
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "pram_1_5_cover", 
+            "path": "lighthouse.morph/pram_1_5_cover.png", 
+            "w": 36, 
+            "x": 900, 
+            "y": 327
+          }, 
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "pram_1_5", 
+            "path": "lighthouse.morph/pram_1_5.png", 
+            "w": 76, 
+            "x": 905, 
+            "y": 326
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "pram_2_5", 
+            "path": "lighthouse.morph/pram_2_5.png", 
+            "w": 85, 
+            "x": 905, 
+            "y": 336
+          }
+        }
+      ], 
+      "name": "pram"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "dirigible_1_1", 
+            "path": "lighthouse.morph/dirigible_1_1.png", 
+            "w": 46, 
+            "x": 976, 
+            "y": 193
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "dirigible_2_1", 
+            "path": "lighthouse.morph/dirigible_2_1.png", 
+            "w": 33, 
+            "x": 982, 
+            "y": 181
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "dirigible_1_2", 
+            "path": "lighthouse.morph/dirigible_1_2.png", 
+            "w": 46, 
+            "x": 482, 
+            "y": 224
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "dirigible_2_2", 
+            "path": "lighthouse.morph/dirigible_2_2.png", 
+            "w": 33, 
+            "x": 488, 
+            "y": 215
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "dirigible_1_3_cover", 
+            "path": "lighthouse.morph/dirigible_1_3_cover.png", 
+            "w": 15, 
+            "x": 1051, 
+            "y": 269
+          }, 
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "dirigible_1_3", 
+            "path": "lighthouse.morph/dirigible_1_3.png", 
+            "w": 46, 
+            "x": 1031, 
+            "y": 262
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "dirigible_2_3", 
+            "path": "lighthouse.morph/dirigible_2_3.png", 
+            "w": 32, 
+            "x": 1038, 
+            "y": 255
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "dirigible_1_4_cover", 
+            "path": "lighthouse.morph/dirigible_1_4_cover.png", 
+            "w": 31, 
+            "x": 824, 
+            "y": 204
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "dirigible_1_4", 
+            "path": "lighthouse.morph/dirigible_1_4.png", 
+            "w": 46, 
+            "x": 814, 
+            "y": 211
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "dirigible_2_4", 
+            "path": "lighthouse.morph/dirigible_2_4.png", 
+            "w": 32, 
+            "x": 820, 
+            "y": 208
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "dirigible_1_5_cover", 
+            "path": "lighthouse.morph/dirigible_1_5_cover.png", 
+            "w": 29, 
+            "x": 525, 
+            "y": 92
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "dirigible_1_5", 
+            "path": "lighthouse.morph/dirigible_1_5.png", 
+            "w": 46, 
+            "x": 507, 
+            "y": 101
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "dirigible_2_5", 
+            "path": "lighthouse.morph/dirigible_2_5.png", 
+            "w": 33, 
+            "x": 517, 
+            "y": 95
+          }
+        }
+      ], 
+      "name": "dirigible"
+    }
+  ], 
+  "part": [
+    {
+      "name": "fruit_orig", 
+      "path": "lighthouse.part/fruit_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "fruit_1_1", 
+                "path": "lighthouse.part/fruit_1_1.png", 
+                "w": 57, 
+                "x": 390, 
+                "y": 573
+              }
+            }, 
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "fruit_1_2", 
+                "path": "lighthouse.part/fruit_1_2.png", 
+                "w": 62, 
+                "x": 1068, 
+                "y": 585
+              }
+            }, 
+            {
+              "cover": {
+                "h": 8, 
+                "layer": 5, 
+                "name": "fruit_1_3_cover", 
+                "path": "lighthouse.part/fruit_1_3_cover.png", 
+                "w": 10, 
+                "x": 1189, 
+                "y": 500
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "fruit_1_3", 
+                "path": "lighthouse.part/fruit_1_3.png", 
+                "w": 57, 
+                "x": 1167, 
+                "y": 502
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "fruit_1_4", 
+                "path": "lighthouse.part/fruit_1_4.png", 
+                "w": 58, 
+                "x": 692, 
+                "y": 499
+              }
+            }, 
+            {
+              "cover": {
+                "h": 61, 
+                "layer": 5, 
+                "name": "fruit_1_5_cover", 
+                "path": "lighthouse.part/fruit_1_5_cover.png", 
+                "w": 47, 
+                "x": 1024, 
+                "y": 545
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "fruit_1_5", 
+                "path": "lighthouse.part/fruit_1_5.png", 
+                "w": 58, 
+                "x": 1012, 
+                "y": 548
+              }
+            }
+          ], 
+          "name": "fruit1", 
+          "path": "lighthouse.part/fruit1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "fruit_2_1", 
+                "path": "lighthouse.part/fruit_2_1.png", 
+                "w": 42, 
+                "x": 861, 
+                "y": 248
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "fruit_2_2_cover", 
+                "path": "lighthouse.part/fruit_2_2_cover.png", 
+                "w": 48, 
+                "x": 1016, 
+                "y": 74
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "fruit_2_2", 
+                "path": "lighthouse.part/fruit_2_2.png", 
+                "w": 37, 
+                "x": 1022, 
+                "y": 80
+              }
+            }, 
+            {
+              "cover": {
+                "h": 74, 
+                "layer": 5, 
+                "name": "fruit_2_3_cover", 
+                "path": "lighthouse.part/fruit_2_3_cover.png", 
+                "w": 41, 
+                "x": 1054, 
+                "y": 315
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "fruit_2_3", 
+                "path": "lighthouse.part/fruit_2_3.png", 
+                "w": 38, 
+                "x": 1054, 
+                "y": 324
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "fruit_2_4_cover", 
+                "path": "lighthouse.part/fruit_2_4_cover.png", 
+                "w": 34, 
+                "x": 574, 
+                "y": 329
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "fruit_2_4", 
+                "path": "lighthouse.part/fruit_2_4.png", 
+                "w": 37, 
+                "x": 573, 
+                "y": 301
+              }
+            }, 
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "fruit_2_5", 
+                "path": "lighthouse.part/fruit_2_5.png", 
+                "w": 45, 
+                "x": 381, 
+                "y": 451
+              }
+            }
+          ], 
+          "name": "fruit2", 
+          "path": "lighthouse.part/fruit2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "fruit_3_1", 
+                "path": "lighthouse.part/fruit_3_1.png", 
+                "w": 50, 
+                "x": 1152, 
+                "y": 386
+              }
+            }, 
+            {
+              "cover": {
+                "h": 22, 
+                "layer": 5, 
+                "name": "fruit_3_2_cover", 
+                "path": "lighthouse.part/fruit_3_2_cover.png", 
+                "w": 54, 
+                "x": 1195, 
+                "y": 302
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "fruit_3_2", 
+                "path": "lighthouse.part/fruit_3_2.png", 
+                "w": 49, 
+                "x": 1196, 
+                "y": 273
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "fruit_3_3_cover", 
+                "path": "lighthouse.part/fruit_3_3_cover.png", 
+                "w": 37, 
+                "x": 705, 
+                "y": 426
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "fruit_3_3", 
+                "path": "lighthouse.part/fruit_3_3.png", 
+                "w": 52, 
+                "x": 706, 
+                "y": 406
+              }
+            }, 
+            {
+              "cover": {
+                "h": 17, 
+                "layer": 5, 
+                "name": "fruit_3_4_cover", 
+                "path": "lighthouse.part/fruit_3_4_cover.png", 
+                "w": 48, 
+                "x": 892, 
+                "y": 186
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "fruit_3_4", 
+                "path": "lighthouse.part/fruit_3_4.png", 
+                "w": 45, 
+                "x": 895, 
+                "y": 153
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "fruit_3_5_cover", 
+                "path": "lighthouse.part/fruit_3_5_cover.png", 
+                "w": 30, 
+                "x": 594, 
+                "y": 450
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "fruit_3_5", 
+                "path": "lighthouse.part/fruit_3_5.png", 
+                "w": 47, 
+                "x": 572, 
+                "y": 455
+              }
+            }
+          ], 
+          "name": "fruit3", 
+          "path": "lighthouse.part/fruit3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "fruit_4_1", 
+                "path": "lighthouse.part/fruit_4_1.png", 
+                "w": 35, 
+                "x": 658, 
+                "y": 212
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "fruit_4_2_cover", 
+                "path": "lighthouse.part/fruit_4_2_cover.png", 
+                "w": 40, 
+                "x": 903, 
+                "y": 0
+              }, 
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "fruit_4_2", 
+                "path": "lighthouse.part/fruit_4_2.png", 
+                "w": 34, 
+                "x": 906, 
+                "y": 1
+              }
+            }, 
+            {
+              "cover": {
+                "h": 22, 
+                "layer": 5, 
+                "name": "fruit_4_3_cover", 
+                "path": "lighthouse.part/fruit_4_3_cover.png", 
+                "w": 39, 
+                "x": 784, 
+                "y": 98
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "fruit_4_3", 
+                "path": "lighthouse.part/fruit_4_3.png", 
+                "w": 35, 
+                "x": 786, 
+                "y": 100
+              }
+            }, 
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "fruit_4_4", 
+                "path": "lighthouse.part/fruit_4_4.png", 
+                "w": 35, 
+                "x": 434, 
+                "y": 101
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "fruit_4_5", 
+                "path": "lighthouse.part/fruit_4_5.png", 
+                "w": 35, 
+                "x": 968, 
+                "y": 535
+              }
+            }
+          ], 
+          "name": "fruit4", 
+          "path": "lighthouse.part/fruit4.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "fruit_5_1_cover", 
+                "path": "lighthouse.part/fruit_5_1_cover.png", 
+                "w": 27, 
+                "x": 1168, 
+                "y": 587
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "fruit_5_1", 
+                "path": "lighthouse.part/fruit_5_1.png", 
+                "w": 54, 
+                "x": 1170, 
+                "y": 587
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "fruit_5_2", 
+                "path": "lighthouse.part/fruit_5_2.png", 
+                "w": 62, 
+                "x": 1004, 
+                "y": 624
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "fruit_5_3", 
+                "path": "lighthouse.part/fruit_5_3.png", 
+                "w": 48, 
+                "x": 780, 
+                "y": 599
+              }
+            }, 
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "fruit_5_4_cover", 
+                "path": "lighthouse.part/fruit_5_4_cover.png", 
+                "w": 40, 
+                "x": 328, 
+                "y": 493
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "fruit_5_4", 
+                "path": "lighthouse.part/fruit_5_4.png", 
+                "w": 54, 
+                "x": 323, 
+                "y": 467
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "fruit_5_5_cover", 
+                "path": "lighthouse.part/fruit_5_5_cover.png", 
+                "w": 41, 
+                "x": 667, 
+                "y": 390
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "fruit_5_5", 
+                "path": "lighthouse.part/fruit_5_5.png", 
+                "w": 51, 
+                "x": 673, 
+                "y": 388
+              }
+            }
+          ], 
+          "name": "fruit5", 
+          "path": "lighthouse.part/fruit5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "shawl_orig", 
+      "path": "lighthouse.part/shawl_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "shawl_1_1_cover", 
+                "path": "lighthouse.part/shawl_1_1_cover.png", 
+                "w": 15, 
+                "x": 844, 
+                "y": 480
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "shawl_1_1", 
+                "path": "lighthouse.part/shawl_1_1.png", 
+                "w": 52, 
+                "x": 804, 
+                "y": 483
+              }
+            }, 
+            {
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "shawl_1_2", 
+                "path": "lighthouse.part/shawl_1_2.png", 
+                "w": 57, 
+                "x": 654, 
+                "y": 557
+              }
+            }, 
+            {
+              "pic": {
+                "h": 125, 
+                "layer": 4, 
+                "name": "shawl_1_3", 
+                "path": "lighthouse.part/shawl_1_3.png", 
+                "w": 51, 
+                "x": 657, 
+                "y": 463
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "shawl_1_4_cover", 
+                "path": "lighthouse.part/shawl_1_4_cover.png", 
+                "w": 30, 
+                "x": 724, 
+                "y": 366
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "shawl_1_4", 
+                "path": "lighthouse.part/shawl_1_4.png", 
+                "w": 58, 
+                "x": 727, 
+                "y": 369
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "shawl_1_5_cover", 
+                "path": "lighthouse.part/shawl_1_5_cover.png", 
+                "w": 50, 
+                "x": 984, 
+                "y": 453
+              }, 
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "shawl_1_5", 
+                "path": "lighthouse.part/shawl_1_5.png", 
+                "w": 52, 
+                "x": 984, 
+                "y": 460
+              }
+            }
+          ], 
+          "name": "shawl1", 
+          "path": "lighthouse.part/shawl1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "shawl_2_1", 
+                "path": "lighthouse.part/shawl_2_1.png", 
+                "w": 42, 
+                "x": 1140, 
+                "y": 623
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "shawl_2_2", 
+                "path": "lighthouse.part/shawl_2_2.png", 
+                "w": 43, 
+                "x": 337, 
+                "y": 606
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "shawl_2_3_cover", 
+                "path": "lighthouse.part/shawl_2_3_cover.png", 
+                "w": 31, 
+                "x": 1208, 
+                "y": 340
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "shawl_2_3", 
+                "path": "lighthouse.part/shawl_2_3.png", 
+                "w": 40, 
+                "x": 1210, 
+                "y": 342
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "shawl_2_4_cover", 
+                "path": "lighthouse.part/shawl_2_4_cover.png", 
+                "w": 30, 
+                "x": 990, 
+                "y": 353
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "shawl_2_4", 
+                "path": "lighthouse.part/shawl_2_4.png", 
+                "w": 32, 
+                "x": 990, 
+                "y": 358
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "shawl_2_5_cover", 
+                "path": "lighthouse.part/shawl_2_5_cover.png", 
+                "w": 39, 
+                "x": 940, 
+                "y": 451
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "shawl_2_5", 
+                "path": "lighthouse.part/shawl_2_5.png", 
+                "w": 33, 
+                "x": 940, 
+                "y": 436
+              }
+            }
+          ], 
+          "name": "shawl2", 
+          "path": "lighthouse.part/shawl2.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "shawl_3_1_cover", 
+                "path": "lighthouse.part/shawl_3_1_cover.png", 
+                "w": 29, 
+                "x": 346, 
+                "y": 450
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "shawl_3_1", 
+                "path": "lighthouse.part/shawl_3_1.png", 
+                "w": 53, 
+                "x": 322, 
+                "y": 432
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "shawl_3_2", 
+                "path": "lighthouse.part/shawl_3_2.png", 
+                "w": 64, 
+                "x": 643, 
+                "y": 589
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "shawl_3_3", 
+                "path": "lighthouse.part/shawl_3_3.png", 
+                "w": 58, 
+                "x": 933, 
+                "y": 628
+              }
+            }, 
+            {
+              "cover": {
+                "h": 29, 
+                "layer": 5, 
+                "name": "shawl_3_4_cover", 
+                "path": "lighthouse.part/shawl_3_4_cover.png", 
+                "w": 31, 
+                "x": 1062, 
+                "y": 388
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "shawl_3_4", 
+                "path": "lighthouse.part/shawl_3_4.png", 
+                "w": 52, 
+                "x": 1040, 
+                "y": 390
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "shawl_3_5_cover", 
+                "path": "lighthouse.part/shawl_3_5_cover.png", 
+                "w": 54, 
+                "x": 498, 
+                "y": 352
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "shawl_3_5", 
+                "path": "lighthouse.part/shawl_3_5.png", 
+                "w": 54, 
+                "x": 497, 
+                "y": 350
+              }
+            }
+          ], 
+          "name": "shawl3", 
+          "path": "lighthouse.part/shawl3.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "shawl_4_1_cover", 
+                "path": "lighthouse.part/shawl_4_1_cover.png", 
+                "w": 51, 
+                "x": 780, 
+                "y": 290
+              }, 
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "shawl_4_1", 
+                "path": "lighthouse.part/shawl_4_1.png", 
+                "w": 48, 
+                "x": 782, 
+                "y": 268
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "shawl_4_2", 
+                "path": "lighthouse.part/shawl_4_2.png", 
+                "w": 54, 
+                "x": 381, 
+                "y": 373
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "shawl_4_3_cover", 
+                "path": "lighthouse.part/shawl_4_3_cover.png", 
+                "w": 27, 
+                "x": 446, 
+                "y": 494
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "shawl_4_3", 
+                "path": "lighthouse.part/shawl_4_3.png", 
+                "w": 49, 
+                "x": 456, 
+                "y": 496
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "shawl_4_4_cover", 
+                "path": "lighthouse.part/shawl_4_4_cover.png", 
+                "w": 42, 
+                "x": 859, 
+                "y": 357
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "shawl_4_4", 
+                "path": "lighthouse.part/shawl_4_4.png", 
+                "w": 56, 
+                "x": 842, 
+                "y": 364
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "shawl_4_5_cover", 
+                "path": "lighthouse.part/shawl_4_5_cover.png", 
+                "w": 62, 
+                "x": 1022, 
+                "y": 481
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "shawl_4_5", 
+                "path": "lighthouse.part/shawl_4_5.png", 
+                "w": 70, 
+                "x": 1011, 
+                "y": 490
+              }
+            }
+          ], 
+          "name": "shawl4", 
+          "path": "lighthouse.part/shawl4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "shawl_5_1", 
+                "path": "lighthouse.part/shawl_5_1.png", 
+                "w": 45, 
+                "x": 506, 
+                "y": 617
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "shawl_5_2", 
+                "path": "lighthouse.part/shawl_5_2.png", 
+                "w": 47, 
+                "x": 306, 
+                "y": 570
+              }
+            }, 
+            {
+              "cover": {
+                "h": 8, 
+                "layer": 5, 
+                "name": "shawl_5_3_cover", 
+                "path": "lighthouse.part/shawl_5_3_cover.png", 
+                "w": 30, 
+                "x": 659, 
+                "y": 383
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "shawl_5_3", 
+                "path": "lighthouse.part/shawl_5_3.png", 
+                "w": 37, 
+                "x": 656, 
+                "y": 355
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "shawl_5_4_cover", 
+                "path": "lighthouse.part/shawl_5_4_cover.png", 
+                "w": 25, 
+                "x": 1113, 
+                "y": 383
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "shawl_5_4", 
+                "path": "lighthouse.part/shawl_5_4.png", 
+                "w": 42, 
+                "x": 1094, 
+                "y": 381
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "shawl_5_5_cover", 
+                "path": "lighthouse.part/shawl_5_5_cover.png", 
+                "w": 43, 
+                "x": 592, 
+                "y": 45
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "shawl_5_5", 
+                "path": "lighthouse.part/shawl_5_5.png", 
+                "w": 43, 
+                "x": 586, 
+                "y": 51
+              }
+            }
+          ], 
+          "name": "shawl5", 
+          "path": "lighthouse.part/shawl5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "plane_orig", 
+      "path": "lighthouse.part/plane_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "plane_1_1", 
+                "path": "lighthouse.part/plane_1_1.png", 
+                "w": 53, 
+                "x": 864, 
+                "y": 611
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "plane_1_2", 
+                "path": "lighthouse.part/plane_1_2.png", 
+                "w": 48, 
+                "x": 734, 
+                "y": 565
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "plane_1_3", 
+                "path": "lighthouse.part/plane_1_3.png", 
+                "w": 44, 
+                "x": 755, 
+                "y": 515
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "plane_1_4", 
+                "path": "lighthouse.part/plane_1_4.png", 
+                "w": 42, 
+                "x": 923, 
+                "y": 482
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "plane_1_5", 
+                "path": "lighthouse.part/plane_1_5.png", 
+                "w": 44, 
+                "x": 508, 
+                "y": 465
+              }
+            }
+          ], 
+          "name": "plane1", 
+          "path": "lighthouse.part/plane1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "plane_2_1", 
+                "path": "lighthouse.part/plane_2_1.png", 
+                "w": 68, 
+                "x": 809, 
+                "y": 560
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "plane_2_2", 
+                "path": "lighthouse.part/plane_2_2.png", 
+                "w": 81, 
+                "x": 682, 
+                "y": 612
+              }
+            }, 
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "plane_2_3", 
+                "path": "lighthouse.part/plane_2_3.png", 
+                "w": 79, 
+                "x": 408, 
+                "y": 613
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "plane_2_4_cover", 
+                "path": "lighthouse.part/plane_2_4_cover.png", 
+                "w": 37, 
+                "x": 591, 
+                "y": 531
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "plane_2_4", 
+                "path": "lighthouse.part/plane_2_4.png", 
+                "w": 69, 
+                "x": 589, 
+                "y": 526
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "plane_2_5_cover", 
+                "path": "lighthouse.part/plane_2_5_cover.png", 
+                "w": 75, 
+                "x": 429, 
+                "y": 537
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "plane_2_5", 
+                "path": "lighthouse.part/plane_2_5.png", 
+                "w": 79, 
+                "x": 425, 
+                "y": 541
+              }
+            }
+          ], 
+          "name": "plane2", 
+          "path": "lighthouse.part/plane2.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "plane_3_1_cover", 
+                "path": "lighthouse.part/plane_3_1_cover.png", 
+                "w": 51, 
+                "x": 1064, 
+                "y": 169
+              }, 
+              "pic": {
+                "h": 19, 
+                "layer": 4, 
+                "name": "plane_3_1", 
+                "path": "lighthouse.part/plane_3_1.png", 
+                "w": 45, 
+                "x": 1070, 
+                "y": 157
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "plane_3_2_cover", 
+                "path": "lighthouse.part/plane_3_2_cover.png", 
+                "w": 24, 
+                "x": 907, 
+                "y": 373
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "plane_3_2", 
+                "path": "lighthouse.part/plane_3_2.png", 
+                "w": 51, 
+                "x": 909, 
+                "y": 371
+              }
+            }, 
+            {
+              "cover": {
+                "h": 59, 
+                "layer": 5, 
+                "name": "plane_3_3_cover", 
+                "path": "lighthouse.part/plane_3_3_cover.png", 
+                "w": 22, 
+                "x": 761, 
+                "y": 130
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "plane_3_3", 
+                "path": "lighthouse.part/plane_3_3.png", 
+                "w": 23, 
+                "x": 764, 
+                "y": 132
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "plane_3_4", 
+                "path": "lighthouse.part/plane_3_4.png", 
+                "w": 52, 
+                "x": 447, 
+                "y": 367
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "plane_3_5_cover", 
+                "path": "lighthouse.part/plane_3_5_cover.png", 
+                "w": 26, 
+                "x": 579, 
+                "y": 588
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "plane_3_5", 
+                "path": "lighthouse.part/plane_3_5.png", 
+                "w": 52, 
+                "x": 580, 
+                "y": 585
+              }
+            }
+          ], 
+          "name": "plane3", 
+          "path": "lighthouse.part/plane3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "plane_4_1", 
+                "path": "lighthouse.part/plane_4_1.png", 
+                "w": 46, 
+                "x": 1197, 
+                "y": 638
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "plane_4_2", 
+                "path": "lighthouse.part/plane_4_2.png", 
+                "w": 40, 
+                "x": 863, 
+                "y": 500
+              }
+            }, 
+            {
+              "cover": {
+                "h": 11, 
+                "layer": 5, 
+                "name": "plane_4_3_cover", 
+                "path": "lighthouse.part/plane_4_3_cover.png", 
+                "w": 19, 
+                "x": 549, 
+                "y": 370
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "plane_4_3", 
+                "path": "lighthouse.part/plane_4_3.png", 
+                "w": 52, 
+                "x": 550, 
+                "y": 363
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "plane_4_4", 
+                "path": "lighthouse.part/plane_4_4.png", 
+                "w": 44, 
+                "x": 300, 
+                "y": 506
+              }
+            }, 
+            {
+              "cover": {
+                "h": 29, 
+                "layer": 5, 
+                "name": "plane_4_5_cover", 
+                "path": "lighthouse.part/plane_4_5_cover.png", 
+                "w": 56, 
+                "x": 962, 
+                "y": 55
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "plane_4_5", 
+                "path": "lighthouse.part/plane_4_5.png", 
+                "w": 52, 
+                "x": 963, 
+                "y": 57
+              }
+            }
+          ], 
+          "name": "plane4", 
+          "path": "lighthouse.part/plane4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "plane_5_1", 
+                "path": "lighthouse.part/plane_5_1.png", 
+                "w": 57, 
+                "x": 800, 
+                "y": 627
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "plane_5_2_cover", 
+                "path": "lighthouse.part/plane_5_2_cover.png", 
+                "w": 24, 
+                "x": 612, 
+                "y": 622
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "plane_5_2", 
+                "path": "lighthouse.part/plane_5_2.png", 
+                "w": 58, 
+                "x": 581, 
+                "y": 617
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "plane_5_3", 
+                "path": "lighthouse.part/plane_5_3.png", 
+                "w": 57, 
+                "x": 922, 
+                "y": 589
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "plane_5_4_cover", 
+                "path": "lighthouse.part/plane_5_4_cover.png", 
+                "w": 48, 
+                "x": 636, 
+                "y": 420
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "plane_5_4", 
+                "path": "lighthouse.part/plane_5_4.png", 
+                "w": 47, 
+                "x": 637, 
+                "y": 423
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "plane_5_5", 
+                "path": "lighthouse.part/plane_5_5.png", 
+                "w": 57, 
+                "x": 247, 
+                "y": 599
+              }
+            }
+          ], 
+          "name": "plane5", 
+          "path": "lighthouse.part/plane5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "lute_orig", 
+      "path": "lighthouse.part/lute_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "lute_1_1_cover", 
+                "path": "lighthouse.part/lute_1_1_cover.png", 
+                "w": 42, 
+                "x": 889, 
+                "y": 442
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "lute_1_1", 
+                "path": "lighthouse.part/lute_1_1.png", 
+                "w": 38, 
+                "x": 891, 
+                "y": 412
+              }
+            }, 
+            {
+              "cover": {
+                "h": 13, 
+                "layer": 5, 
+                "name": "lute_1_2_cover", 
+                "path": "lighthouse.part/lute_1_2_cover.png", 
+                "w": 43, 
+                "x": 1196, 
+                "y": 105
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "lute_1_2", 
+                "path": "lighthouse.part/lute_1_2.png", 
+                "w": 40, 
+                "x": 1197, 
+                "y": 61
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "lute_1_3_cover", 
+                "path": "lighthouse.part/lute_1_3_cover.png", 
+                "w": 29, 
+                "x": 1156, 
+                "y": 1
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "lute_1_3", 
+                "path": "lighthouse.part/lute_1_3.png", 
+                "w": 40, 
+                "x": 1142, 
+                "y": 4
+              }
+            }, 
+            {
+              "cover": {
+                "h": 11, 
+                "layer": 5, 
+                "name": "lute_1_4_cover", 
+                "path": "lighthouse.part/lute_1_4_cover.png", 
+                "w": 37, 
+                "x": 702, 
+                "y": 157
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "lute_1_4", 
+                "path": "lighthouse.part/lute_1_4.png", 
+                "w": 40, 
+                "x": 700, 
+                "y": 112
+              }
+            }, 
+            {
+              "cover": {
+                "h": 58, 
+                "layer": 5, 
+                "name": "lute_1_5_cover", 
+                "path": "lighthouse.part/lute_1_5_cover.png", 
+                "w": 41, 
+                "x": 358, 
+                "y": 543
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "lute_1_5", 
+                "path": "lighthouse.part/lute_1_5.png", 
+                "w": 40, 
+                "x": 360, 
+                "y": 546
+              }
+            }
+          ], 
+          "name": "lute1", 
+          "path": "lighthouse.part/lute1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "lute_2_1", 
+                "path": "lighthouse.part/lute_2_1.png", 
+                "w": 38, 
+                "x": 907, 
+                "y": 94
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "lute_2_2", 
+                "path": "lighthouse.part/lute_2_2.png", 
+                "w": 38, 
+                "x": 1106, 
+                "y": 189
+              }
+            }, 
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "lute_2_3", 
+                "path": "lighthouse.part/lute_2_3.png", 
+                "w": 38, 
+                "x": 655, 
+                "y": 136
+              }
+            }, 
+            {
+              "cover": {
+                "h": 58, 
+                "layer": 5, 
+                "name": "lute_2_4_cover", 
+                "path": "lighthouse.part/lute_2_4_cover.png", 
+                "w": 31, 
+                "x": 345, 
+                "y": 52
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "lute_2_4", 
+                "path": "lighthouse.part/lute_2_4.png", 
+                "w": 38, 
+                "x": 348, 
+                "y": 53
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "lute_2_5", 
+                "path": "lighthouse.part/lute_2_5.png", 
+                "w": 37, 
+                "x": 609, 
+                "y": 335
+              }
+            }
+          ], 
+          "name": "lute2", 
+          "path": "lighthouse.part/lute2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "lute_3_1", 
+                "path": "lighthouse.part/lute_3_1.png", 
+                "w": 58, 
+                "x": 977, 
+                "y": 10
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "lute_3_2_cover", 
+                "path": "lighthouse.part/lute_3_2_cover.png", 
+                "w": 62, 
+                "x": 974, 
+                "y": 399
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "lute_3_2", 
+                "path": "lighthouse.part/lute_3_2.png", 
+                "w": 57, 
+                "x": 978, 
+                "y": 402
+              }
+            }, 
+            {
+              "cover": {
+                "h": 64, 
+                "layer": 5, 
+                "name": "lute_3_3_cover", 
+                "path": "lighthouse.part/lute_3_3_cover.png", 
+                "w": 42, 
+                "x": 629, 
+                "y": 90
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "lute_3_3", 
+                "path": "lighthouse.part/lute_3_3.png", 
+                "w": 48, 
+                "x": 614, 
+                "y": 93
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "lute_3_4_cover", 
+                "path": "lighthouse.part/lute_3_4_cover.png", 
+                "w": 41, 
+                "x": 384, 
+                "y": 28
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "lute_3_4", 
+                "path": "lighthouse.part/lute_3_4.png", 
+                "w": 60, 
+                "x": 385, 
+                "y": 30
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "lute_3_5_cover", 
+                "path": "lighthouse.part/lute_3_5_cover.png", 
+                "w": 22, 
+                "x": 507, 
+                "y": 398
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "lute_3_5", 
+                "path": "lighthouse.part/lute_3_5.png", 
+                "w": 59, 
+                "x": 504, 
+                "y": 398
+              }
+            }
+          ], 
+          "name": "lute3", 
+          "path": "lighthouse.part/lute3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 97, 
+                "layer": 4, 
+                "name": "lute_4_1", 
+                "path": "lighthouse.part/lute_4_1.png", 
+                "w": 24, 
+                "x": 1205, 
+                "y": 408
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "lute_4_2_cover", 
+                "path": "lighthouse.part/lute_4_2_cover.png", 
+                "w": 17, 
+                "x": 1127, 
+                "y": 529
+              }, 
+              "pic": {
+                "h": 89, 
+                "layer": 4, 
+                "name": "lute_4_2", 
+                "path": "lighthouse.part/lute_4_2.png", 
+                "w": 46, 
+                "x": 1128, 
+                "y": 530
+              }
+            }, 
+            {
+              "pic": {
+                "h": 98, 
+                "layer": 4, 
+                "name": "lute_4_3", 
+                "path": "lighthouse.part/lute_4_3.png", 
+                "w": 14, 
+                "x": 343, 
+                "y": 301
+              }
+            }, 
+            {
+              "cover": {
+                "h": 9, 
+                "layer": 5, 
+                "name": "lute_4_4_cover", 
+                "path": "lighthouse.part/lute_4_4_cover.png", 
+                "w": 13, 
+                "x": 274, 
+                "y": 90
+              }, 
+              "pic": {
+                "h": 98, 
+                "layer": 4, 
+                "name": "lute_4_4", 
+                "path": "lighthouse.part/lute_4_4.png", 
+                "w": 15, 
+                "x": 275, 
+                "y": 1
+              }
+            }, 
+            {
+              "pic": {
+                "h": 98, 
+                "layer": 4, 
+                "name": "lute_4_5", 
+                "path": "lighthouse.part/lute_4_5.png", 
+                "w": 15, 
+                "x": 256, 
+                "y": 407
+              }
+            }
+          ], 
+          "name": "lute4", 
+          "path": "lighthouse.part/lute4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "lute_5_1", 
+                "path": "lighthouse.part/lute_5_1.png", 
+                "w": 20, 
+                "x": 1231, 
+                "y": 550
+              }
+            }, 
+            {
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "lute_5_2", 
+                "path": "lighthouse.part/lute_5_2.png", 
+                "w": 25, 
+                "x": 1150, 
+                "y": 457
+              }
+            }, 
+            {
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "lute_5_3", 
+                "path": "lighthouse.part/lute_5_3.png", 
+                "w": 20, 
+                "x": 236, 
+                "y": 542
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "lute_5_4_cover", 
+                "path": "lighthouse.part/lute_5_4_cover.png", 
+                "w": 22, 
+                "x": 1090, 
+                "y": 7
+              }, 
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "lute_5_4", 
+                "path": "lighthouse.part/lute_5_4.png", 
+                "w": 22, 
+                "x": 1091, 
+                "y": 8
+              }
+            }, 
+            {
+              "cover": {
+                "h": 74, 
+                "layer": 5, 
+                "name": "lute_5_5_cover", 
+                "path": "lighthouse.part/lute_5_5_cover.png", 
+                "w": 16, 
+                "x": 821, 
+                "y": 406
+              }, 
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "lute_5_5", 
+                "path": "lighthouse.part/lute_5_5.png", 
+                "w": 19, 
+                "x": 824, 
+                "y": 408
+              }
+            }
+          ], 
+          "name": "lute5", 
+          "path": "lighthouse.part/lute5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "fun_orig", 
+      "path": "lighthouse.part/fun_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "fun_1_1", 
+                "path": "lighthouse.part/fun_1_1.png", 
+                "w": 54, 
+                "x": 281, 
+                "y": 382
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "fun_1_2", 
+                "path": "lighthouse.part/fun_1_2.png", 
+                "w": 54, 
+                "x": 239, 
+                "y": 105
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "fun_1_3", 
+                "path": "lighthouse.part/fun_1_3.png", 
+                "w": 55, 
+                "x": 468, 
+                "y": 13
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "fun_1_4_cover", 
+                "path": "lighthouse.part/fun_1_4_cover.png", 
+                "w": 30, 
+                "x": 906, 
+                "y": 216
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "fun_1_4", 
+                "path": "lighthouse.part/fun_1_4.png", 
+                "w": 55, 
+                "x": 907, 
+                "y": 218
+              }
+            }, 
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "fun_1_5_cover", 
+                "path": "lighthouse.part/fun_1_5_cover.png", 
+                "w": 45, 
+                "x": 1079, 
+                "y": 529
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "fun_1_5", 
+                "path": "lighthouse.part/fun_1_5.png", 
+                "w": 54, 
+                "x": 1071, 
+                "y": 530
+              }
+            }
+          ], 
+          "name": "fun1", 
+          "path": "lighthouse.part/fun1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 93, 
+                "layer": 4, 
+                "name": "fun_2_1", 
+                "path": "lighthouse.part/fun_2_1.png", 
+                "w": 57, 
+                "x": 1190, 
+                "y": 172
+              }
+            }, 
+            {
+              "pic": {
+                "h": 93, 
+                "layer": 4, 
+                "name": "fun_2_2", 
+                "path": "lighthouse.part/fun_2_2.png", 
+                "w": 57, 
+                "x": 298, 
+                "y": 109
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "fun_2_3_cover", 
+                "path": "lighthouse.part/fun_2_3_cover.png", 
+                "w": 57, 
+                "x": 950, 
+                "y": 90
+              }, 
+              "pic": {
+                "h": 89, 
+                "layer": 4, 
+                "name": "fun_2_3", 
+                "path": "lighthouse.part/fun_2_3.png", 
+                "w": 54, 
+                "x": 953, 
+                "y": 89
+              }
+            }, 
+            {
+              "pic": {
+                "h": 86, 
+                "layer": 4, 
+                "name": "fun_2_4", 
+                "path": "lighthouse.part/fun_2_4.png", 
+                "w": 59, 
+                "x": 837, 
+                "y": 156
+              }
+            }, 
+            {
+              "pic": {
+                "h": 89, 
+                "layer": 4, 
+                "name": "fun_2_5", 
+                "path": "lighthouse.part/fun_2_5.png", 
+                "w": 54, 
+                "x": 1052, 
+                "y": 188
+              }
+            }
+          ], 
+          "name": "fun2", 
+          "path": "lighthouse.part/fun2.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 9, 
+                "layer": 5, 
+                "name": "fun_3_1_cover", 
+                "path": "lighthouse.part/fun_3_1_cover.png", 
+                "w": 28, 
+                "x": 1110, 
+                "y": 307
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "fun_3_1", 
+                "path": "lighthouse.part/fun_3_1.png", 
+                "w": 41, 
+                "x": 1101, 
+                "y": 243
+              }
+            }, 
+            {
+              "cover": {
+                "h": 76, 
+                "layer": 5, 
+                "name": "fun_3_2_cover", 
+                "path": "lighthouse.part/fun_3_2_cover.png", 
+                "w": 29, 
+                "x": 902, 
+                "y": 266
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "fun_3_2", 
+                "path": "lighthouse.part/fun_3_2.png", 
+                "w": 42, 
+                "x": 904, 
+                "y": 269
+              }
+            }, 
+            {
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "fun_3_3", 
+                "path": "lighthouse.part/fun_3_3.png", 
+                "w": 42, 
+                "x": 704, 
+                "y": 169
+              }
+            }, 
+            {
+              "cover": {
+                "h": 75, 
+                "layer": 5, 
+                "name": "fun_3_4_cover", 
+                "path": "lighthouse.part/fun_3_4_cover.png", 
+                "w": 31, 
+                "x": 328, 
+                "y": 222
+              }, 
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "fun_3_4", 
+                "path": "lighthouse.part/fun_3_4.png", 
+                "w": 41, 
+                "x": 330, 
+                "y": 224
+              }
+            }, 
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "fun_3_5", 
+                "path": "lighthouse.part/fun_3_5.png", 
+                "w": 42, 
+                "x": 651, 
+                "y": 33
+              }
+            }
+          ], 
+          "name": "fun3", 
+          "path": "lighthouse.part/fun3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "fun_4_1", 
+                "path": "lighthouse.part/fun_4_1.png", 
+                "w": 72, 
+                "x": 685, 
+                "y": 304
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "fun_4_2", 
+                "path": "lighthouse.part/fun_4_2.png", 
+                "w": 74, 
+                "x": 256, 
+                "y": 216
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "fun_4_3", 
+                "path": "lighthouse.part/fun_4_3.png", 
+                "w": 74, 
+                "x": 307, 
+                "y": 13
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "fun_4_4_cover", 
+                "path": "lighthouse.part/fun_4_4_cover.png", 
+                "w": 32, 
+                "x": 1145, 
+                "y": 110
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "fun_4_4", 
+                "path": "lighthouse.part/fun_4_4.png", 
+                "w": 74, 
+                "x": 1102, 
+                "y": 102
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "fun_4_5_cover", 
+                "path": "lighthouse.part/fun_4_5_cover.png", 
+                "w": 44, 
+                "x": 789, 
+                "y": 54
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "fun_4_5", 
+                "path": "lighthouse.part/fun_4_5.png", 
+                "w": 74, 
+                "x": 793, 
+                "y": 56
+              }
+            }
+          ], 
+          "name": "fun4", 
+          "path": "lighthouse.part/fun4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 81, 
+                "layer": 4, 
+                "name": "fun_5_1", 
+                "path": "lighthouse.part/fun_5_1.png", 
+                "w": 38, 
+                "x": 281, 
+                "y": 293
+              }
+            }, 
+            {
+              "cover": {
+                "h": 77, 
+                "layer": 5, 
+                "name": "fun_5_2_cover", 
+                "path": "lighthouse.part/fun_5_2_cover.png", 
+                "w": 20, 
+                "x": 740, 
+                "y": 234
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "fun_5_2", 
+                "path": "lighthouse.part/fun_5_2.png", 
+                "w": 33, 
+                "x": 743, 
+                "y": 237
+              }
+            }, 
+            {
+              "cover": {
+                "h": 75, 
+                "layer": 5, 
+                "name": "fun_5_3_cover", 
+                "path": "lighthouse.part/fun_5_3_cover.png", 
+                "w": 24, 
+                "x": 804, 
+                "y": 327
+              }, 
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "fun_5_3", 
+                "path": "lighthouse.part/fun_5_3.png", 
+                "w": 34, 
+                "x": 806, 
+                "y": 329
+              }
+            }, 
+            {
+              "cover": {
+                "h": 74, 
+                "layer": 5, 
+                "name": "fun_5_4_cover", 
+                "path": "lighthouse.part/fun_5_4_cover.png", 
+                "w": 13, 
+                "x": 1182, 
+                "y": 233
+              }, 
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "fun_5_4", 
+                "path": "lighthouse.part/fun_5_4.png", 
+                "w": 34, 
+                "x": 1158, 
+                "y": 234
+              }
+            }, 
+            {
+              "cover": {
+                "h": 91, 
+                "layer": 5, 
+                "name": "fun_5_5_cover", 
+                "path": "lighthouse.part/fun_5_5_cover.png", 
+                "w": 32, 
+                "x": 521, 
+                "y": 55
+              }, 
+              "pic": {
+                "h": 79, 
+                "layer": 4, 
+                "name": "fun_5_5", 
+                "path": "lighthouse.part/fun_5_5.png", 
+                "w": 37, 
+                "x": 512, 
+                "y": 63
+              }
+            }
+          ], 
+          "name": "fun5", 
+          "path": "lighthouse.part/fun5.png"
+        }
+      ]
+    }
+  ]
+}

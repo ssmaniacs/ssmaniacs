@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Secret Society 全コレクション・遺物</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+<style type="text/css">
+<!--
+td {
+  vertical-align: middle;
+}
+
+td.item {
+  width: 120px;
+  text-align: center;
+  vertical-align: top;
+}
+
+td.num {
+  text-align: right;
+}
+
+#item_popup{
+	padding: 20px;
+	border: 2px solid gray;
+  overflow: auto;
+  text-align: center;
+	background: white;
+
+	z-index: 2;
+  position: absolute;
+  display: none;
+}
+
+#item_table{
+  background: #ffdd88;
+  margin: 0 auto;
+}
+//-->
+</style>
+
+<script type="text/javascript">
+<!--
+function click_page(event) {
+  var target = event.target;
+
+  while (target) {
+    if (target.id == 'item_popup') {
+      return;                 // ポップアップ内のクリック：なにもしない
+    }
+    else if (target.className == 'item') {
+      show_iteminfo(target);  // アイテムセル内のクリック：ポップアップ表示
+      return;
+    }
+    else if (target instanceof HTMLBodyElement) {
+      break;
+    }
+    target = target.parentElement;
+  }
+
+  // その他：ポップアップをクローズ
+  document.getElementById('item_popup').style.display = 'none';
+}
+
+function show_iteminfo(elem) {
+  var popup = document.getElementById('item_popup')
+  popup.style.visibility = 'hidden';
+  popup.style.display = 'block';
+  
+  var icon_cell = document.getElementById('item_icon');
+  var id_cell = document.getElementById('item_id');
+  var name_cell = document.getElementById('item_name');
+  var from_cell = document.getElementById('item_from');
+
+  // remove old icon
+  while (icon_cell.firstChild) {
+    icon_cell.removeChild(icon_cell.firstChild);
+  }
+  
+  icon_cell.appendChild(elem.firstChild.cloneNode());
+  name_cell.innerHTML = elem.lastChild.textContent;
+  id_cell.innerHTML = elem.id.split('_')[1];
+
+  // 表示位置を調整
+  var item_table = document.getElementById('item_table');
+  popup.style.width = parseInt(item_table.offsetWidth + 40) + 'px'
+//  popup.style.height = parseInt(item_table.offsetHeight + 40) + 'px'
+
+  // デフォルト=クリック位置
+  var x = event.x;
+  var y = event.y;
+
+  var popup_w = popup.offsetWidth;
+  var popup_h = popup.offsetHeight;
+
+  var window_w = window.innerWidth;
+  var window_h = window.innerHeight;
+
+  if (x + popup_w > window_w) { // 右にはみ出す
+    x = window_w - popup_w;
+    if (x < 0) {
+      x = 0;
+    }
+  }
+
+  if (y + popup_h > window_h) { // 下にはみ出す
+    y = window_h - popup_h;
+    if (y < 0) {
+      y = 0;
+    }
+  }
+
+  x += window.scrollX;
+  y += window.scrollY;
+
+  popup.style.left = x + 'px';
+  popup.style.top = y + 'px';
+
+  document.getElementById('item_popup').style.visibility = 'visible';
+}
+
+function close_popup() {
+  document.getElementById('item_popup').style.display = 'none';
+}
+
+var json_list = {
+  'collections.json': '全コレクション&amp;遺物(画像なし)',
+  'collections_1.json': 'コレクション 1-50',
+  'collections_2.json': 'コレクション 51-100',
+  'collections_3.json': 'コレクション 101-150',
+  'collections_4.json': 'コレクション 151-200',
+  'collections_5.json': 'コレクション 201-250',
+  'collections_6.json': 'コレクション 251-300',
+  'collections_7.json': 'コレクション 301-350',
+  'collections_8.json': 'コレクション 351-400',
+  'collections_9.json': 'コレクション 401-450',
+  'collections_10.json': 'コレクション 451-500',
+  'collections_11.json': 'コレクション 501-550',
+  'collections_12.json': 'コレクション 551-559',
+  'artifacts.json': '遺物',
+};
+
+var item_list = null;
+
+function init() {
+  // シーン選択リストに項目を設定
+  var selector = document.getElementById('select_list');
+
+  for (j in json_list) {
+    var option = document.createElement('option');
+    option.setAttribute('value', j);
+    option.innerHTML = json_list[j];
+    selector.appendChild(option);
+  }
+
+  list_change();
+}
+
+function loadJSON(path, callback) {
+  var xobj;
+
+  try {
+    // IEではXMLHttpRequestがうまく動かない（ことがある）
+    xobj = new ActiveXObject('MSXML2.XMLHTTP.6.0');
+  }
+  catch (e) {
+    xobj = new XMLHttpRequest();
+  }
+
+  try {
+    if ('overrideMimeType' in xobj) {
+      xobj.overrideMimeType('application/json');
+    }
+
+    xobj.open('GET', path, true);
+
+    xobj.onreadystatechange = function(){
+      if (xobj.readyState == 4) {
+        if (xobj.status == '200' || (location.protocol == 'file:' && xobj.status == '0')) {
+          // ドキュメントは見当たらないが、ローカルファイルの場合成功時にstatus=0になることがある
+          // とりあえずWin版ChromeとIEではstatus=0. FireFoxではローカルでも200.
+          callback(xobj.responseText);
+        }
+        else {
+          var message;
+
+          if (xobj.status) {
+            message = xobj.status + ' ' + HttpStatus(xobj.status);
+          }
+
+          console.log('XMLHttpRequests.status = ' + xobj.status + ' ' + message);
+          callback(new Error(message));
+        }
+      }
+    }
+
+    xobj.send(null);
+  }
+  catch(e) {
+    console.log(e);
+    callback(e);
+  }
+}
+
+
+function list_change() {
+  if (item_list) {
+    delete item_list;
+    item_list = null;
+  }
+
+  path = document.getElementById('select_list').value;
+
+  console.log(path);
+
+  setTimeout(function(){
+    loadJSON(path, update_list);
+  }, 100);
+}
+
+
+function update_list(resp) {
+  if (!resp || resp instanceof Error) {
+    alert(resp ? resp.message : 'アイテム情報ロードエラー');
+    return;
+  }
+
+  item_list = JSON.parse(resp);
+
+  var div = document.getElementById('list_index')
+
+  while (div.firstChild) {
+    div.removeChild(div.firstChild);
+  }
+
+  var div = document.getElementById('item_list')
+
+  while (div.firstChild) {
+    div.removeChild(div.firstChild);
+  }
+
+  var anchor = document.createElement('anchor');
+  var table = document.createElement('table');
+  table.border = 1;
+  table.bgColor = '#ffdd88';
+  table.cellPadding = 5;
+
+  var row = document.createElement('tr');
+  ['No.', 'コレクション名', 'アイテム1', 'アイテム2', 'アイテム3', 'アイテム4', 'アイテム5',
+  'コレクション', 'エレメント', '報酬', 'ギフト'].forEach(function(i){
+    var th = document.createElement('th');
+    th.innerText = i;
+    row.appendChild(th);
+  });
+
+  table.appendChild(row);
+
+  div.appendChild(table);
+/*
+<!--
+<table id='item_table' border='1' bgcolor='#FFDD88' cellpadding='5'>
+    <tr>
+    <th>No.</th>
+    <th>コレクション名</th>
+    <th>アイテム1</th>
+    <th>アイテム2</th>
+    <th>アイテム3</th>
+    <th>アイテム4</th>
+    <th>アイテム5</th>
+    <th>コレクション</th>
+    <th>エレメント</th>
+    <th>報酬</th>
+    <th>ギフト</th>
+    </tr>
+<tr><td class='id'>1</td>
+<td>銀行家の宝</td>
+<td class='item' id='item_68'><img src="images/items/68.png"><br>骨董のコイン</td>
+<td class='item' id='item_69'><img src="images/items/69.png"><br>幸運のコイン</td>
+<td class='item' id='item_70'><img src="images/items/70.png"><br>金貨</td>
+<td class='item' id='item_71'><img src="images/items/71.png"><br>貴重なコイン</td>
+<td class='item' id='item_72'><img src="images/items/72.png"><br>輝くコイン</td>
+<td class='item' id='item_218'><img src="images/items/218.png"><br>コインコレクション</td>
+<td>ゼンマイのネジ x1</td>
+<td>巻物 x1<br>コイン x500</td>
+<td>OK</td>
+</tr>
+</table>
+-->
+*/
+}
+
+//-->
+</script>
+</head>
+
+
+<body onload='init();' onclick='click_page(event);'>
+<!-- navigating links -->
+<a href='index.html'>[HOME]</a>&nbsp;<a href='collections.html'>[UP]</a>&nbsp;<a href='collections_all.html'>[PREV]</a>&nbsp;<a href='collections_2.html'>[NEXT]</a><hr>
+<h1>コレクション・遺物</h1>
+
+<!-- アイテム詳細ポップアップ -->
+<div id='item_popup'>
+  <table id='item_table' cellpadding='5' border='1'>
+    <tr><td colspan="2" align='center' id="item_icon" width="120"></tr>
+    <tr><th>名前</th><td id="item_name"></td></tr>
+    <tr><th>ID</th><td id="item_id" align='right'></td></tr>
+    <tr><th>入手</th><td id="item_from"></td></tr>
+  </table>
+  <p><input type='button' value='閉じる' onclick='close_popup();'></p>
+</div>
+
+<!-- リストセレクタ -->
+<select id="select_list" onchange="list_change();"></select>
+
+<!-- アイテム一覧テーブル領域 -->
+<p id='list_index'></p>
+<div id='item_list'></div>
+<hr>
+<a href='index.html'>[HOME]</a>&nbsp;<a href='collections.html'>[UP]</a>&nbsp;<a href='collections_all.html'>[PREV]</a>&nbsp;<a href='collections_2.html'>[NEXT]</a>
+</body>
+</html>

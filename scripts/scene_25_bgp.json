@@ -1,0 +1,15 @@
+[
+  {
+    "layer": 2, 
+    "path": "forest_house.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 8, 
+    "path": "forest_house.bg/glow.png", 
+    "type": "effect", 
+    "x": 563, 
+    "y": 197
+  }
+]

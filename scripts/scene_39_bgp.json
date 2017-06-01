@@ -1,0 +1,118 @@
+[
+  {
+    "layer": 2, 
+    "path": "haunted_attraction.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 6, 
+    "path": "haunted_attraction.bg/bubble_bubbles_01.png", 
+    "x": 919, 
+    "y": 543
+  }, 
+  {
+    "ani": true, 
+    "layer": 6, 
+    "path": "haunted_attraction.bg/bubble_bubbles_01.png", 
+    "x": 849, 
+    "y": 483
+  }, 
+  {
+    "ani": true, 
+    "layer": 6, 
+    "path": "haunted_attraction.bg/bubble_bubbles_01.png", 
+    "x": 599, 
+    "y": 413
+  }, 
+  {
+    "layer": 6, 
+    "path": "haunted_attraction.bg/pumpkin_light.png", 
+    "type": "effect", 
+    "x": 566, 
+    "y": 0
+  }, 
+  {
+    "layer": 7, 
+    "path": "haunted_attraction.bg/smoke_1.png", 
+    "type": "effect", 
+    "x": 514, 
+    "y": 331
+  }, 
+  {
+    "layer": 7, 
+    "path": "haunted_attraction.bg/smoke_2.png", 
+    "type": "skip", 
+    "x": 561, 
+    "y": 329
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "haunted_attraction.bg/boiler_smoke_001.png", 
+    "type": "effect", 
+    "x": 331, 
+    "y": 254
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "haunted_attraction.bg/hand_1.png", 
+    "type": "skip", 
+    "x": 476, 
+    "y": 315
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "haunted_attraction.bg/candle_1_1.png", 
+    "type": "skip", 
+    "x": 956, 
+    "y": 543
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "haunted_attraction.bg/candle_2_1.png", 
+    "type": "skip", 
+    "x": 1128, 
+    "y": 416
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "haunted_attraction.bg/candle_3_1.png", 
+    "type": "skip", 
+    "x": 535, 
+    "y": 303
+  }, 
+  {
+    "layer": 10, 
+    "path": "haunted_attraction.bg/bat_eyes_1.png", 
+    "type": "skip", 
+    "x": 419, 
+    "y": 25
+  }, 
+  {
+    "layer": 10, 
+    "path": "haunted_attraction.bg/bat_eyes_2.png", 
+    "type": "skip", 
+    "x": 571, 
+    "y": 50
+  }, 
+  {
+    "layer": 10, 
+    "path": "haunted_attraction.bg/bat_eyes_3.png", 
+    "type": "skip", 
+    "x": 734, 
+    "y": 28
+  }, 
+  {
+    "layer": 10, 
+    "path": "haunted_attraction.bg/bat_eyes_4.png", 
+    "type": "skip", 
+    "x": 1087, 
+    "y": 79
+  }
+]

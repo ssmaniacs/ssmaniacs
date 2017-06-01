@@ -1,0 +1,7542 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 3, 
+            "name": "calumet_1", 
+            "path": "wigwam.form/calumet_1.png", 
+            "w": 112, 
+            "x": 469, 
+            "y": 226
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "calumet_2", 
+            "path": "wigwam.form/calumet_2.png", 
+            "w": 114, 
+            "x": 865, 
+            "y": 430
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "calumet_3_cover", 
+            "path": "wigwam.form/calumet_3_cover.png", 
+            "w": 14, 
+            "x": 850, 
+            "y": 325
+          }, 
+          "pic": {
+            "h": 141, 
+            "layer": 3, 
+            "name": "calumet_3", 
+            "path": "wigwam.form/calumet_3.png", 
+            "w": 57, 
+            "x": 819, 
+            "y": 236
+          }
+        }, 
+        {
+          "cover": {
+            "h": 83, 
+            "layer": 5, 
+            "name": "calumet_4_cover", 
+            "path": "wigwam.form/calumet_4_cover.png", 
+            "w": 40, 
+            "x": 441, 
+            "y": 465
+          }, 
+          "pic": {
+            "h": 137, 
+            "layer": 3, 
+            "name": "calumet_4", 
+            "path": "wigwam.form/calumet_4.png", 
+            "w": 69, 
+            "x": 440, 
+            "y": 410
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 5, 
+            "name": "calumet_5_cover", 
+            "path": "wigwam.form/calumet_5_cover.png", 
+            "w": 46, 
+            "x": 734, 
+            "y": 66
+          }, 
+          "pic": {
+            "h": 98, 
+            "layer": 3, 
+            "name": "calumet_5", 
+            "path": "wigwam.form/calumet_5.png", 
+            "w": 82, 
+            "x": 713, 
+            "y": 47
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "calumet_6_cover", 
+            "path": "wigwam.form/calumet_6_cover.png", 
+            "w": 95, 
+            "x": 1038, 
+            "y": 474
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "calumet_6", 
+            "path": "wigwam.form/calumet_6.png", 
+            "w": 112, 
+            "x": 1019, 
+            "y": 449
+          }
+        }
+      ], 
+      "name": "儀式用のパイプ", 
+      "path": "wigwam.sils/calumet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "tomhawk_1", 
+            "path": "wigwam.form/tomhawk_1.png", 
+            "w": 128, 
+            "x": 885, 
+            "y": 574
+          }
+        }, 
+        {
+          "pic": {
+            "h": 111, 
+            "layer": 3, 
+            "name": "tomhawk_2", 
+            "path": "wigwam.form/tomhawk_2.png", 
+            "w": 90, 
+            "x": 297, 
+            "y": 507
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "tomhawk_3_cover", 
+            "path": "wigwam.form/tomhawk_3_cover.png", 
+            "w": 44, 
+            "x": 293, 
+            "y": 186
+          }, 
+          "pic": {
+            "h": 93, 
+            "layer": 3, 
+            "name": "tomhawk_3", 
+            "path": "wigwam.form/tomhawk_3.png", 
+            "w": 33, 
+            "x": 298, 
+            "y": 193
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "tomhawk_4_cover", 
+            "path": "wigwam.form/tomhawk_4_cover.png", 
+            "w": 27, 
+            "x": 1022, 
+            "y": 390
+          }, 
+          "pic": {
+            "h": 92, 
+            "layer": 3, 
+            "name": "tomhawk_4", 
+            "path": "wigwam.form/tomhawk_4.png", 
+            "w": 78, 
+            "x": 1016, 
+            "y": 310
+          }
+        }, 
+        {
+          "cover": {
+            "h": 107, 
+            "layer": 5, 
+            "name": "tomhawk_5_cover", 
+            "path": "wigwam.form/tomhawk_5_cover.png", 
+            "w": 42, 
+            "x": 599, 
+            "y": 171
+          }, 
+          "pic": {
+            "h": 109, 
+            "layer": 3, 
+            "name": "tomhawk_5", 
+            "path": "wigwam.form/tomhawk_5.png", 
+            "w": 64, 
+            "x": 586, 
+            "y": 171
+          }
+        }, 
+        {
+          "cover": {
+            "h": 132, 
+            "layer": 5, 
+            "name": "tomhawk_6_cover", 
+            "path": "wigwam.form/tomhawk_6_cover.png", 
+            "w": 13, 
+            "x": 744, 
+            "y": 164
+          }, 
+          "pic": {
+            "h": 127, 
+            "layer": 3, 
+            "name": "tomhawk_6", 
+            "path": "wigwam.form/tomhawk_6.png", 
+            "w": 45, 
+            "x": 743, 
+            "y": 166
+          }
+        }
+      ], 
+      "name": "トマホーク", 
+      "path": "wigwam.sils/tomhawk.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 211, 
+            "layer": 3, 
+            "name": "spear_1", 
+            "path": "wigwam.form/spear_1.png", 
+            "w": 51, 
+            "x": 949, 
+            "y": 210
+          }
+        }, 
+        {
+          "pic": {
+            "h": 234, 
+            "layer": 3, 
+            "name": "spear_2", 
+            "path": "wigwam.form/spear_2.png", 
+            "w": 54, 
+            "x": 242, 
+            "y": 396
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "spear_3_cover", 
+            "path": "wigwam.form/spear_3_cover.png", 
+            "w": 75, 
+            "x": 480, 
+            "y": 109
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "spear_3", 
+            "path": "wigwam.form/spear_3.png", 
+            "w": 204, 
+            "x": 427, 
+            "y": 86
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "spear_4_cover", 
+            "path": "wigwam.form/spear_4_cover.png", 
+            "w": 183, 
+            "x": 849, 
+            "y": 84
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "spear_4", 
+            "path": "wigwam.form/spear_4.png", 
+            "w": 226, 
+            "x": 847, 
+            "y": 81
+          }
+        }, 
+        {
+          "cover": {
+            "h": 91, 
+            "layer": 5, 
+            "name": "spear_5_cover", 
+            "path": "wigwam.form/spear_5_cover.png", 
+            "w": 55, 
+            "x": 698, 
+            "y": 331
+          }, 
+          "pic": {
+            "h": 214, 
+            "layer": 3, 
+            "name": "spear_5", 
+            "path": "wigwam.form/spear_5.png", 
+            "w": 72, 
+            "x": 688, 
+            "y": 209
+          }
+        }, 
+        {
+          "cover": {
+            "h": 179, 
+            "layer": 5, 
+            "name": "spear_6_cover", 
+            "path": "wigwam.form/spear_6_cover.png", 
+            "w": 19, 
+            "x": 353, 
+            "y": 43
+          }, 
+          "pic": {
+            "h": 213, 
+            "layer": 3, 
+            "name": "spear_6", 
+            "path": "wigwam.form/spear_6.png", 
+            "w": 50, 
+            "x": 350, 
+            "y": 8
+          }
+        }
+      ], 
+      "name": "槍", 
+      "path": "wigwam.sils/spear.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "hawk_1", 
+            "path": "wigwam.form/hawk_1.png", 
+            "w": 48, 
+            "x": 837, 
+            "y": 35
+          }
+        }, 
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "hawk_2", 
+            "path": "wigwam.form/hawk_2.png", 
+            "w": 50, 
+            "x": 619, 
+            "y": 12
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "hawk_3_cover", 
+            "path": "wigwam.form/hawk_3_cover.png", 
+            "w": 43, 
+            "x": 293, 
+            "y": 367
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "hawk_3", 
+            "path": "wigwam.form/hawk_3.png", 
+            "w": 42, 
+            "x": 293, 
+            "y": 351
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "hawk_4_cover", 
+            "path": "wigwam.form/hawk_4_cover.png", 
+            "w": 42, 
+            "x": 277, 
+            "y": 25
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "hawk_4", 
+            "path": "wigwam.form/hawk_4.png", 
+            "w": 44, 
+            "x": 277, 
+            "y": 2
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "hawk_5_cover", 
+            "path": "wigwam.form/hawk_5_cover.png", 
+            "w": 43, 
+            "x": 780, 
+            "y": 373
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "hawk_5", 
+            "path": "wigwam.form/hawk_5.png", 
+            "w": 53, 
+            "x": 769, 
+            "y": 360
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "hawk_6_cover", 
+            "path": "wigwam.form/hawk_6_cover.png", 
+            "w": 57, 
+            "x": 1160, 
+            "y": 269
+          }, 
+          "pic": {
+            "h": 76, 
+            "layer": 3, 
+            "name": "hawk_6", 
+            "path": "wigwam.form/hawk_6.png", 
+            "w": 69, 
+            "x": 1164, 
+            "y": 272
+          }
+        }
+      ], 
+      "name": "ハヤブサ", 
+      "path": "wigwam.sils/hawk.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "snake_1", 
+            "path": "wigwam.form/snake_1.png", 
+            "w": 79, 
+            "x": 411, 
+            "y": 312
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "snake_2", 
+            "path": "wigwam.form/snake_2.png", 
+            "w": 69, 
+            "x": 1181, 
+            "y": 392
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "snake_3_cover", 
+            "path": "wigwam.form/snake_3_cover.png", 
+            "w": 28, 
+            "x": 582, 
+            "y": 606
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "snake_3", 
+            "path": "wigwam.form/snake_3.png", 
+            "w": 78, 
+            "x": 554, 
+            "y": 587
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "snake_4_cover", 
+            "path": "wigwam.form/snake_4_cover.png", 
+            "w": 61, 
+            "x": 1164, 
+            "y": 543
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "snake_4", 
+            "path": "wigwam.form/snake_4.png", 
+            "w": 65, 
+            "x": 1166, 
+            "y": 516
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "snake_5_cover", 
+            "path": "wigwam.form/snake_5_cover.png", 
+            "w": 61, 
+            "x": 870, 
+            "y": 182
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "snake_5", 
+            "path": "wigwam.form/snake_5.png", 
+            "w": 65, 
+            "x": 864, 
+            "y": 150
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "snake_6_cover", 
+            "path": "wigwam.form/snake_6_cover.png", 
+            "w": 62, 
+            "x": 1075, 
+            "y": 176
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "snake_6", 
+            "path": "wigwam.form/snake_6.png", 
+            "w": 63, 
+            "x": 1079, 
+            "y": 137
+          }
+        }
+      ], 
+      "name": "ヘビ", 
+      "path": "wigwam.sils/snake.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "arrow_1", 
+            "path": "wigwam.form/arrow_1.png", 
+            "w": 147, 
+            "x": 800, 
+            "y": 586
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "arrow_2", 
+            "path": "wigwam.form/arrow_2.png", 
+            "w": 147, 
+            "x": 480, 
+            "y": 320
+          }
+        }, 
+        {
+          "cover": {
+            "h": 80, 
+            "layer": 5, 
+            "name": "arrow_3_cover", 
+            "path": "wigwam.form/arrow_3_cover.png", 
+            "w": 46, 
+            "x": 387, 
+            "y": 200
+          }, 
+          "pic": {
+            "h": 137, 
+            "layer": 3, 
+            "name": "arrow_3", 
+            "path": "wigwam.form/arrow_3.png", 
+            "w": 96, 
+            "x": 370, 
+            "y": 156
+          }
+        }, 
+        {
+          "cover": {
+            "h": 80, 
+            "layer": 5, 
+            "name": "arrow_4_cover", 
+            "path": "wigwam.form/arrow_4_cover.png", 
+            "w": 23, 
+            "x": 738, 
+            "y": 332
+          }, 
+          "pic": {
+            "h": 150, 
+            "layer": 3, 
+            "name": "arrow_4", 
+            "path": "wigwam.form/arrow_4.png", 
+            "w": 54, 
+            "x": 714, 
+            "y": 261
+          }
+        }, 
+        {
+          "cover": {
+            "h": 130, 
+            "layer": 5, 
+            "name": "arrow_5_cover", 
+            "path": "wigwam.form/arrow_5_cover.png", 
+            "w": 94, 
+            "x": 228, 
+            "y": 136
+          }, 
+          "pic": {
+            "h": 137, 
+            "layer": 3, 
+            "name": "arrow_5", 
+            "path": "wigwam.form/arrow_5.png", 
+            "w": 100, 
+            "x": 228, 
+            "y": 134
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "arrow_6", 
+            "path": "wigwam.form/arrow_6.png", 
+            "w": 165, 
+            "x": 1079, 
+            "y": 342
+          }
+        }
+      ], 
+      "name": "矢", 
+      "path": "wigwam.sils/arrow.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "knife_1", 
+            "path": "wigwam.form/knife_1.png", 
+            "w": 84, 
+            "x": 539, 
+            "y": 449
+          }
+        }, 
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 3, 
+            "name": "knife_2", 
+            "path": "wigwam.form/knife_2.png", 
+            "w": 32, 
+            "x": 341, 
+            "y": 157
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "knife_3_cover", 
+            "path": "wigwam.form/knife_3_cover.png", 
+            "w": 17, 
+            "x": 655, 
+            "y": 289
+          }, 
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "knife_3", 
+            "path": "wigwam.form/knife_3.png", 
+            "w": 39, 
+            "x": 641, 
+            "y": 252
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "knife_4_cover", 
+            "path": "wigwam.form/knife_4_cover.png", 
+            "w": 14, 
+            "x": 1014, 
+            "y": 226
+          }, 
+          "pic": {
+            "h": 74, 
+            "layer": 3, 
+            "name": "knife_4", 
+            "path": "wigwam.form/knife_4.png", 
+            "w": 27, 
+            "x": 1007, 
+            "y": 205
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "knife_5_cover", 
+            "path": "wigwam.form/knife_5_cover.png", 
+            "w": 16, 
+            "x": 520, 
+            "y": 183
+          }, 
+          "pic": {
+            "h": 81, 
+            "layer": 3, 
+            "name": "knife_5", 
+            "path": "wigwam.form/knife_5.png", 
+            "w": 37, 
+            "x": 508, 
+            "y": 174
+          }
+        }, 
+        {
+          "cover": {
+            "h": 79, 
+            "layer": 5, 
+            "name": "knife_6_cover", 
+            "path": "wigwam.form/knife_6_cover.png", 
+            "w": 11, 
+            "x": 1018, 
+            "y": 3
+          }, 
+          "pic": {
+            "h": 77, 
+            "layer": 3, 
+            "name": "knife_6", 
+            "path": "wigwam.form/knife_6.png", 
+            "w": 31, 
+            "x": 1015, 
+            "y": 3
+          }
+        }
+      ], 
+      "name": "ナイフ", 
+      "path": "wigwam.sils/knife.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "panflute_1", 
+            "path": "wigwam.form/panflute_1.png", 
+            "w": 59, 
+            "x": 702, 
+            "y": 426
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "panflute_2", 
+            "path": "wigwam.form/panflute_2.png", 
+            "w": 30, 
+            "x": 671, 
+            "y": 68
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "panflute_3_cover", 
+            "path": "wigwam.form/panflute_3_cover.png", 
+            "w": 35, 
+            "x": 886, 
+            "y": 268
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "panflute_3", 
+            "path": "wigwam.form/panflute_3.png", 
+            "w": 44, 
+            "x": 887, 
+            "y": 268
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "panflute_4_cover", 
+            "path": "wigwam.form/panflute_4_cover.png", 
+            "w": 38, 
+            "x": 800, 
+            "y": 225
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "panflute_4", 
+            "path": "wigwam.form/panflute_4.png", 
+            "w": 35, 
+            "x": 801, 
+            "y": 190
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "panflute_5_cover", 
+            "path": "wigwam.form/panflute_5_cover.png", 
+            "w": 29, 
+            "x": 1204, 
+            "y": 229
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "panflute_5", 
+            "path": "wigwam.form/panflute_5.png", 
+            "w": 40, 
+            "x": 1205, 
+            "y": 231
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 5, 
+            "name": "panflute_6_cover", 
+            "path": "wigwam.form/panflute_6_cover.png", 
+            "w": 52, 
+            "x": 234, 
+            "y": 138
+          }, 
+          "pic": {
+            "h": 79, 
+            "layer": 3, 
+            "name": "panflute_6", 
+            "path": "wigwam.form/panflute_6.png", 
+            "w": 54, 
+            "x": 231, 
+            "y": 122
+          }
+        }
+      ], 
+      "name": "パンパイプ", 
+      "path": "wigwam.sils/panflute.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "rifle_1", 
+            "path": "wigwam.form/rifle_1.png", 
+            "w": 181, 
+            "x": 425, 
+            "y": 125
+          }
+        }, 
+        {
+          "pic": {
+            "h": 210, 
+            "layer": 3, 
+            "name": "rifle_2", 
+            "path": "wigwam.form/rifle_2.png", 
+            "w": 97, 
+            "x": 448, 
+            "y": 434
+          }
+        }, 
+        {
+          "cover": {
+            "h": 152, 
+            "layer": 5, 
+            "name": "rifle_3_cover", 
+            "path": "wigwam.form/rifle_3_cover.png", 
+            "w": 30, 
+            "x": 231, 
+            "y": 318
+          }, 
+          "pic": {
+            "h": 214, 
+            "layer": 3, 
+            "name": "rifle_3", 
+            "path": "wigwam.form/rifle_3.png", 
+            "w": 68, 
+            "x": 232, 
+            "y": 254
+          }
+        }, 
+        {
+          "cover": {
+            "h": 177, 
+            "layer": 5, 
+            "name": "rifle_4_cover", 
+            "path": "wigwam.form/rifle_4_cover.png", 
+            "w": 77, 
+            "x": 396, 
+            "y": 16
+          }, 
+          "pic": {
+            "h": 181, 
+            "layer": 3, 
+            "name": "rifle_4", 
+            "path": "wigwam.form/rifle_4.png", 
+            "w": 68, 
+            "x": 400, 
+            "y": 6
+          }
+        }, 
+        {
+          "cover": {
+            "h": 108, 
+            "layer": 5, 
+            "name": "rifle_5_cover", 
+            "path": "wigwam.form/rifle_5_cover.png", 
+            "w": 57, 
+            "x": 368, 
+            "y": 405
+          }, 
+          "pic": {
+            "h": 171, 
+            "layer": 3, 
+            "name": "rifle_5", 
+            "path": "wigwam.form/rifle_5.png", 
+            "w": 62, 
+            "x": 361, 
+            "y": 341
+          }
+        }, 
+        {
+          "cover": {
+            "h": 132, 
+            "layer": 5, 
+            "name": "rifle_6_cover", 
+            "path": "wigwam.form/rifle_6_cover.png", 
+            "w": 28, 
+            "x": 922, 
+            "y": 295
+          }, 
+          "pic": {
+            "h": 189, 
+            "layer": 3, 
+            "name": "rifle_6", 
+            "path": "wigwam.form/rifle_6.png", 
+            "w": 34, 
+            "x": 926, 
+            "y": 237
+          }
+        }
+      ], 
+      "name": "ライフル", 
+      "path": "wigwam.sils/rifle.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 79, 
+            "layer": 3, 
+            "name": "tambourine_1", 
+            "path": "wigwam.form/tambourine_1.png", 
+            "w": 57, 
+            "x": 722, 
+            "y": 568
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "tambourine_2", 
+            "path": "wigwam.form/tambourine_2.png", 
+            "w": 58, 
+            "x": 1135, 
+            "y": 382
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "tambourine_3_cover", 
+            "path": "wigwam.form/tambourine_3_cover.png", 
+            "w": 45, 
+            "x": 851, 
+            "y": 352
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "tambourine_3", 
+            "path": "wigwam.form/tambourine_3.png", 
+            "w": 41, 
+            "x": 853, 
+            "y": 352
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "tambourine_4_cover", 
+            "path": "wigwam.form/tambourine_4_cover.png", 
+            "w": 60, 
+            "x": 941, 
+            "y": 53
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "tambourine_4", 
+            "path": "wigwam.form/tambourine_4.png", 
+            "w": 60, 
+            "x": 943, 
+            "y": 42
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "tambourine_5_cover", 
+            "path": "wigwam.form/tambourine_5_cover.png", 
+            "w": 71, 
+            "x": 392, 
+            "y": 383
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "tambourine_5", 
+            "path": "wigwam.form/tambourine_5.png", 
+            "w": 66, 
+            "x": 391, 
+            "y": 388
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "tambourine_6_cover", 
+            "path": "wigwam.form/tambourine_6_cover.png", 
+            "w": 37, 
+            "x": 993, 
+            "y": 306
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "tambourine_6", 
+            "path": "wigwam.form/tambourine_6.png", 
+            "w": 39, 
+            "x": 995, 
+            "y": 309
+          }
+        }
+      ], 
+      "name": "タンバリン", 
+      "path": "wigwam.sils/tambourine.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "eaglepattern_1", 
+            "path": "wigwam.form/eaglepattern_1.png", 
+            "w": 70, 
+            "x": 902, 
+            "y": 9
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "eaglepattern_2", 
+            "path": "wigwam.form/eaglepattern_2.png", 
+            "w": 75, 
+            "x": 757, 
+            "y": 239
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "eaglepattern_3_cover", 
+            "path": "wigwam.form/eaglepattern_3_cover.png", 
+            "w": 73, 
+            "x": 1104, 
+            "y": 98
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "eaglepattern_3", 
+            "path": "wigwam.form/eaglepattern_3.png", 
+            "w": 71, 
+            "x": 1104, 
+            "y": 92
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "eaglepattern_4_cover", 
+            "path": "wigwam.form/eaglepattern_4_cover.png", 
+            "w": 25, 
+            "x": 1043, 
+            "y": 268
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "eaglepattern_4", 
+            "path": "wigwam.form/eaglepattern_4.png", 
+            "w": 28, 
+            "x": 1038, 
+            "y": 270
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "eaglepattern_5_cover", 
+            "path": "wigwam.form/eaglepattern_5_cover.png", 
+            "w": 32, 
+            "x": 607, 
+            "y": 369
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "eaglepattern_5", 
+            "path": "wigwam.form/eaglepattern_5.png", 
+            "w": 73, 
+            "x": 565, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "eaglepattern_6_cover", 
+            "path": "wigwam.form/eaglepattern_6_cover.png", 
+            "w": 48, 
+            "x": 457, 
+            "y": 49
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "eaglepattern_6", 
+            "path": "wigwam.form/eaglepattern_6.png", 
+            "w": 71, 
+            "x": 458, 
+            "y": 51
+          }
+        }
+      ], 
+      "name": "サンダーバード", 
+      "path": "wigwam.sils/eaglepattern.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 90, 
+            "layer": 3, 
+            "name": "flask_1", 
+            "path": "wigwam.form/flask_1.png", 
+            "w": 110, 
+            "x": 1086, 
+            "y": 557
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "flask_2", 
+            "path": "wigwam.form/flask_2.png", 
+            "w": 60, 
+            "x": 1089, 
+            "y": 293
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "flask_3_cover", 
+            "path": "wigwam.form/flask_3_cover.png", 
+            "w": 37, 
+            "x": 883, 
+            "y": 67
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "flask_3", 
+            "path": "wigwam.form/flask_3.png", 
+            "w": 35, 
+            "x": 882, 
+            "y": 64
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "flask_4_cover", 
+            "path": "wigwam.form/flask_4_cover.png", 
+            "w": 28, 
+            "x": 1050, 
+            "y": 386
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "flask_4", 
+            "path": "wigwam.form/flask_4.png", 
+            "w": 62, 
+            "x": 1053, 
+            "y": 384
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "flask_5_cover", 
+            "path": "wigwam.form/flask_5_cover.png", 
+            "w": 44, 
+            "x": 969, 
+            "y": 170
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "flask_5", 
+            "path": "wigwam.form/flask_5.png", 
+            "w": 51, 
+            "x": 962, 
+            "y": 158
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "flask_6_cover", 
+            "path": "wigwam.form/flask_6_cover.png", 
+            "w": 48, 
+            "x": 630, 
+            "y": 106
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "flask_6", 
+            "path": "wigwam.form/flask_6.png", 
+            "w": 49, 
+            "x": 626, 
+            "y": 99
+          }
+        }
+      ], 
+      "name": "革の水筒", 
+      "path": "wigwam.sils/flask.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "indianfigure_1", 
+            "path": "wigwam.form/indianfigure_1.png", 
+            "w": 61, 
+            "x": 420, 
+            "y": 544
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "indianfigure_2", 
+            "path": "wigwam.form/indianfigure_2.png", 
+            "w": 30, 
+            "x": 995, 
+            "y": 407
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "indianfigure_3_cover", 
+            "path": "wigwam.form/indianfigure_3_cover.png", 
+            "w": 27, 
+            "x": 824, 
+            "y": 382
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "indianfigure_3", 
+            "path": "wigwam.form/indianfigure_3.png", 
+            "w": 24, 
+            "x": 825, 
+            "y": 356
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "indianfigure_4_cover", 
+            "path": "wigwam.form/indianfigure_4_cover.png", 
+            "w": 29, 
+            "x": 748, 
+            "y": 52
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "indianfigure_4", 
+            "path": "wigwam.form/indianfigure_4.png", 
+            "w": 33, 
+            "x": 744, 
+            "y": 30
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "indianfigure_5_cover", 
+            "path": "wigwam.form/indianfigure_5_cover.png", 
+            "w": 23, 
+            "x": 712, 
+            "y": 412
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "indianfigure_5", 
+            "path": "wigwam.form/indianfigure_5.png", 
+            "w": 25, 
+            "x": 711, 
+            "y": 382
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "indianfigure_6_cover", 
+            "path": "wigwam.form/indianfigure_6_cover.png", 
+            "w": 27, 
+            "x": 228, 
+            "y": 39
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "indianfigure_6", 
+            "path": "wigwam.form/indianfigure_6.png", 
+            "w": 37, 
+            "x": 230, 
+            "y": 15
+          }
+        }
+      ], 
+      "name": "置物", 
+      "path": "wigwam.sils/indianfigure.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "mace_1", 
+            "path": "wigwam.form/mace_1.png", 
+            "w": 111, 
+            "x": 1135, 
+            "y": 463
+          }
+        }, 
+        {
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "mace_2", 
+            "path": "wigwam.form/mace_2.png", 
+            "w": 104, 
+            "x": 782, 
+            "y": 456
+          }
+        }, 
+        {
+          "cover": {
+            "h": 86, 
+            "layer": 5, 
+            "name": "mace_3_cover", 
+            "path": "wigwam.form/mace_3_cover.png", 
+            "w": 62, 
+            "x": 667, 
+            "y": 149
+          }, 
+          "pic": {
+            "h": 81, 
+            "layer": 3, 
+            "name": "mace_3", 
+            "path": "wigwam.form/mace_3.png", 
+            "w": 69, 
+            "x": 669, 
+            "y": 151
+          }
+        }, 
+        {
+          "cover": {
+            "h": 92, 
+            "layer": 5, 
+            "name": "mace_4_cover", 
+            "path": "wigwam.form/mace_4_cover.png", 
+            "w": 16, 
+            "x": 380, 
+            "y": 37
+          }, 
+          "pic": {
+            "h": 102, 
+            "layer": 3, 
+            "name": "mace_4", 
+            "path": "wigwam.form/mace_4.png", 
+            "w": 24, 
+            "x": 382, 
+            "y": 11
+          }
+        }, 
+        {
+          "cover": {
+            "h": 83, 
+            "layer": 5, 
+            "name": "mace_5_cover", 
+            "path": "wigwam.form/mace_5_cover.png", 
+            "w": 65, 
+            "x": 1182, 
+            "y": 174
+          }, 
+          "pic": {
+            "h": 98, 
+            "layer": 3, 
+            "name": "mace_5", 
+            "path": "wigwam.form/mace_5.png", 
+            "w": 64, 
+            "x": 1183, 
+            "y": 157
+          }
+        }, 
+        {
+          "cover": {
+            "h": 99, 
+            "layer": 5, 
+            "name": "mace_6_cover", 
+            "path": "wigwam.form/mace_6_cover.png", 
+            "w": 39, 
+            "x": 776, 
+            "y": 522
+          }, 
+          "pic": {
+            "h": 129, 
+            "layer": 3, 
+            "name": "mace_6", 
+            "path": "wigwam.form/mace_6.png", 
+            "w": 39, 
+            "x": 774, 
+            "y": 491
+          }
+        }
+      ], 
+      "name": "木製のクラブ", 
+      "path": "wigwam.sils/mace.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "bracelet_1", 
+            "path": "wigwam.form/bracelet_1.png", 
+            "w": 59, 
+            "x": 635, 
+            "y": 443
+          }
+        }, 
+        {
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "bracelet_2", 
+            "path": "wigwam.form/bracelet_2.png", 
+            "w": 51, 
+            "x": 649, 
+            "y": 318
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "bracelet_3_cover", 
+            "path": "wigwam.form/bracelet_3_cover.png", 
+            "w": 29, 
+            "x": 1027, 
+            "y": 177
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "bracelet_3", 
+            "path": "wigwam.form/bracelet_3.png", 
+            "w": 26, 
+            "x": 1026, 
+            "y": 172
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "bracelet_4_cover", 
+            "path": "wigwam.form/bracelet_4_cover.png", 
+            "w": 56, 
+            "x": 352, 
+            "y": 542
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "bracelet_4", 
+            "path": "wigwam.form/bracelet_4.png", 
+            "w": 53, 
+            "x": 352, 
+            "y": 544
+          }
+        }, 
+        {
+          "cover": {
+            "h": 5, 
+            "layer": 5, 
+            "name": "bracelet_5_cover", 
+            "path": "wigwam.form/bracelet_5_cover.png", 
+            "w": 21, 
+            "x": 672, 
+            "y": 62
+          }, 
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "bracelet_5", 
+            "path": "wigwam.form/bracelet_5.png", 
+            "w": 33, 
+            "x": 663, 
+            "y": 44
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "bracelet_6_cover", 
+            "path": "wigwam.form/bracelet_6_cover.png", 
+            "w": 39, 
+            "x": 873, 
+            "y": 297
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "bracelet_6", 
+            "path": "wigwam.form/bracelet_6.png", 
+            "w": 37, 
+            "x": 873, 
+            "y": 298
+          }
+        }
+      ], 
+      "name": "ブレスレット", 
+      "path": "wigwam.sils/bracelet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "corn_1", 
+            "path": "wigwam.form/corn_1.png", 
+            "w": 68, 
+            "x": 524, 
+            "y": 551
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "corn_2", 
+            "path": "wigwam.form/corn_2.png", 
+            "w": 27, 
+            "x": 675, 
+            "y": 120
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "corn_3_cover", 
+            "path": "wigwam.form/corn_3_cover.png", 
+            "w": 78, 
+            "x": 650, 
+            "y": 425
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "corn_3", 
+            "path": "wigwam.form/corn_3.png", 
+            "w": 79, 
+            "x": 648, 
+            "y": 406
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "corn_4_cover", 
+            "path": "wigwam.form/corn_4_cover.png", 
+            "w": 25, 
+            "x": 1142, 
+            "y": 540
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "corn_4", 
+            "path": "wigwam.form/corn_4.png", 
+            "w": 26, 
+            "x": 1141, 
+            "y": 510
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "corn_5_cover", 
+            "path": "wigwam.form/corn_5_cover.png", 
+            "w": 47, 
+            "x": 897, 
+            "y": 50
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "corn_5", 
+            "path": "wigwam.form/corn_5.png", 
+            "w": 63, 
+            "x": 881, 
+            "y": 38
+          }
+        }, 
+        {
+          "cover": {
+            "h": 73, 
+            "layer": 5, 
+            "name": "corn_6_cover", 
+            "path": "wigwam.form/corn_6_cover.png", 
+            "w": 35, 
+            "x": 328, 
+            "y": 338
+          }, 
+          "pic": {
+            "h": 72, 
+            "layer": 3, 
+            "name": "corn_6", 
+            "path": "wigwam.form/corn_6.png", 
+            "w": 34, 
+            "x": 329, 
+            "y": 338
+          }
+        }
+      ], 
+      "name": "トウモロコシ", 
+      "path": "wigwam.sils/corn.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "dipper_1", 
+            "path": "wigwam.form/dipper_1.png", 
+            "w": 36, 
+            "x": 938, 
+            "y": 357
+          }
+        }, 
+        {
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "dipper_2", 
+            "path": "wigwam.form/dipper_2.png", 
+            "w": 70, 
+            "x": 1011, 
+            "y": 609
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "dipper_3_cover", 
+            "path": "wigwam.form/dipper_3_cover.png", 
+            "w": 48, 
+            "x": 562, 
+            "y": 423
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "dipper_3", 
+            "path": "wigwam.form/dipper_3.png", 
+            "w": 59, 
+            "x": 564, 
+            "y": 401
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "dipper_4_cover", 
+            "path": "wigwam.form/dipper_4_cover.png", 
+            "w": 69, 
+            "x": 295, 
+            "y": 458
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "dipper_4", 
+            "path": "wigwam.form/dipper_4.png", 
+            "w": 63, 
+            "x": 299, 
+            "y": 440
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "dipper_5_cover", 
+            "path": "wigwam.form/dipper_5_cover.png", 
+            "w": 32, 
+            "x": 932, 
+            "y": 196
+          }, 
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "dipper_5", 
+            "path": "wigwam.form/dipper_5.png", 
+            "w": 33, 
+            "x": 931, 
+            "y": 141
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "dipper_6_cover", 
+            "path": "wigwam.form/dipper_6_cover.png", 
+            "w": 40, 
+            "x": 1029, 
+            "y": 543
+          }, 
+          "pic": {
+            "h": 73, 
+            "layer": 3, 
+            "name": "dipper_6", 
+            "path": "wigwam.form/dipper_6.png", 
+            "w": 36, 
+            "x": 1032, 
+            "y": 508
+          }
+        }
+      ], 
+      "name": "ひしゃく", 
+      "path": "wigwam.sils/dipper.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "paddle_1", 
+            "path": "wigwam.form/paddle_1.png", 
+            "w": 155, 
+            "x": 496, 
+            "y": 341
+          }
+        }, 
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "paddle_2", 
+            "path": "wigwam.form/paddle_2.png", 
+            "w": 145, 
+            "x": 465, 
+            "y": 294
+          }
+        }, 
+        {
+          "cover": {
+            "h": 87, 
+            "layer": 5, 
+            "name": "paddle_3_cover", 
+            "path": "wigwam.form/paddle_3_cover.png", 
+            "w": 15, 
+            "x": 1058, 
+            "y": 176
+          }, 
+          "pic": {
+            "h": 153, 
+            "layer": 3, 
+            "name": "paddle_3", 
+            "path": "wigwam.form/paddle_3.png", 
+            "w": 27, 
+            "x": 1054, 
+            "y": 109
+          }
+        }, 
+        {
+          "cover": {
+            "h": 158, 
+            "layer": 5, 
+            "name": "paddle_4_cover", 
+            "path": "wigwam.form/paddle_4_cover.png", 
+            "w": 33, 
+            "x": 820, 
+            "y": 87
+          }, 
+          "pic": {
+            "h": 156, 
+            "layer": 3, 
+            "name": "paddle_4", 
+            "path": "wigwam.form/paddle_4.png", 
+            "w": 31, 
+            "x": 821, 
+            "y": 88
+          }
+        }, 
+        {
+          "cover": {
+            "h": 115, 
+            "layer": 5, 
+            "name": "paddle_5_cover", 
+            "path": "wigwam.form/paddle_5_cover.png", 
+            "w": 132, 
+            "x": 557, 
+            "y": 478
+          }, 
+          "pic": {
+            "h": 133, 
+            "layer": 3, 
+            "name": "paddle_5", 
+            "path": "wigwam.form/paddle_5.png", 
+            "w": 161, 
+            "x": 561, 
+            "y": 480
+          }
+        }, 
+        {
+          "cover": {
+            "h": 111, 
+            "layer": 5, 
+            "name": "paddle_6_cover", 
+            "path": "wigwam.form/paddle_6_cover.png", 
+            "w": 32, 
+            "x": 273, 
+            "y": 449
+          }, 
+          "pic": {
+            "h": 191, 
+            "layer": 3, 
+            "name": "paddle_6", 
+            "path": "wigwam.form/paddle_6.png", 
+            "w": 34, 
+            "x": 270, 
+            "y": 368
+          }
+        }
+      ], 
+      "name": "オール", 
+      "path": "wigwam.sils/paddle.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "handprint_1", 
+            "path": "wigwam.form/handprint_1.png", 
+            "w": 51, 
+            "x": 502, 
+            "y": 379
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "handprint_2", 
+            "path": "wigwam.form/handprint_2.png", 
+            "w": 56, 
+            "x": 789, 
+            "y": 30
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "handprint_3_cover", 
+            "path": "wigwam.form/handprint_3_cover.png", 
+            "w": 38, 
+            "x": 397, 
+            "y": 259
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "handprint_3", 
+            "path": "wigwam.form/handprint_3.png", 
+            "w": 47, 
+            "x": 398, 
+            "y": 260
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "handprint_4_cover", 
+            "path": "wigwam.form/handprint_4_cover.png", 
+            "w": 41, 
+            "x": 281, 
+            "y": 69
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "handprint_4", 
+            "path": "wigwam.form/handprint_4.png", 
+            "w": 56, 
+            "x": 263, 
+            "y": 73
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "handprint_5_cover", 
+            "path": "wigwam.form/handprint_5_cover.png", 
+            "w": 28, 
+            "x": 546, 
+            "y": 58
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "handprint_5", 
+            "path": "wigwam.form/handprint_5.png", 
+            "w": 51, 
+            "x": 532, 
+            "y": 59
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "handprint_6_cover", 
+            "path": "wigwam.form/handprint_6_cover.png", 
+            "w": 42, 
+            "x": 995, 
+            "y": 117
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "handprint_6", 
+            "path": "wigwam.form/handprint_6.png", 
+            "w": 55, 
+            "x": 996, 
+            "y": 120
+          }
+        }
+      ], 
+      "name": "手形", 
+      "path": "wigwam.sils/handprint.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "rabbit_1", 
+            "path": "wigwam.form/rabbit_1.png", 
+            "w": 35, 
+            "x": 1215, 
+            "y": 574
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "rabbit_2", 
+            "path": "wigwam.form/rabbit_2.png", 
+            "w": 35, 
+            "x": 284, 
+            "y": 576
+          }
+        }, 
+        {
+          "cover": {
+            "h": 74, 
+            "layer": 5, 
+            "name": "rabbit_3_cover", 
+            "path": "wigwam.form/rabbit_3_cover.png", 
+            "w": 40, 
+            "x": 672, 
+            "y": 487
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "rabbit_3", 
+            "path": "wigwam.form/rabbit_3.png", 
+            "w": 35, 
+            "x": 676, 
+            "y": 489
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 5, 
+            "name": "rabbit_4_cover", 
+            "path": "wigwam.form/rabbit_4_cover.png", 
+            "w": 25, 
+            "x": 896, 
+            "y": 368
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "rabbit_4", 
+            "path": "wigwam.form/rabbit_4.png", 
+            "w": 35, 
+            "x": 897, 
+            "y": 369
+          }
+        }, 
+        {
+          "cover": {
+            "h": 70, 
+            "layer": 5, 
+            "name": "rabbit_5_cover", 
+            "path": "wigwam.form/rabbit_5_cover.png", 
+            "w": 28, 
+            "x": 472, 
+            "y": 469
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "rabbit_5", 
+            "path": "wigwam.form/rabbit_5.png", 
+            "w": 35, 
+            "x": 475, 
+            "y": 470
+          }
+        }, 
+        {
+          "cover": {
+            "h": 73, 
+            "layer": 5, 
+            "name": "rabbit_6_cover", 
+            "path": "wigwam.form/rabbit_6_cover.png", 
+            "w": 51, 
+            "x": 1127, 
+            "y": 214
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "rabbit_6", 
+            "path": "wigwam.form/rabbit_6.png", 
+            "w": 37, 
+            "x": 1126, 
+            "y": 215
+          }
+        }
+      ], 
+      "name": "野ウサギ", 
+      "path": "wigwam.sils/rabbit.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "bisonfigure_1", 
+            "path": "wigwam.form/bisonfigure_1.png", 
+            "w": 65, 
+            "x": 814, 
+            "y": 541
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "bisonfigure_2", 
+            "path": "wigwam.form/bisonfigure_2.png", 
+            "w": 66, 
+            "x": 1158, 
+            "y": 479
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "bisonfigure_3_cover", 
+            "path": "wigwam.form/bisonfigure_3_cover.png", 
+            "w": 59, 
+            "x": 1154, 
+            "y": 174
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "bisonfigure_3", 
+            "path": "wigwam.form/bisonfigure_3.png", 
+            "w": 58, 
+            "x": 1153, 
+            "y": 144
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "bisonfigure_4_cover", 
+            "path": "wigwam.form/bisonfigure_4_cover.png", 
+            "w": 53, 
+            "x": 709, 
+            "y": 461
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "bisonfigure_4", 
+            "path": "wigwam.form/bisonfigure_4.png", 
+            "w": 53, 
+            "x": 731, 
+            "y": 462
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "bisonfigure_5_cover", 
+            "path": "wigwam.form/bisonfigure_5_cover.png", 
+            "w": 56, 
+            "x": 727, 
+            "y": 518
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "bisonfigure_5", 
+            "path": "wigwam.form/bisonfigure_5.png", 
+            "w": 70, 
+            "x": 712, 
+            "y": 513
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "bisonfigure_6_cover", 
+            "path": "wigwam.form/bisonfigure_6_cover.png", 
+            "w": 32, 
+            "x": 883, 
+            "y": 239
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "bisonfigure_6", 
+            "path": "wigwam.form/bisonfigure_6.png", 
+            "w": 48, 
+            "x": 879, 
+            "y": 230
+          }
+        }
+      ], 
+      "name": "玩具", 
+      "path": "wigwam.sils/bisonfigure.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "horne_1", 
+            "path": "wigwam.form/horne_1.png", 
+            "w": 89, 
+            "x": 761, 
+            "y": 436
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "horne_2", 
+            "path": "wigwam.form/horne_2.png", 
+            "w": 99, 
+            "x": 337, 
+            "y": 602
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "horne_3_cover", 
+            "path": "wigwam.form/horne_3_cover.png", 
+            "w": 29, 
+            "x": 638, 
+            "y": 590
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "horne_3", 
+            "path": "wigwam.form/horne_3.png", 
+            "w": 88, 
+            "x": 613, 
+            "y": 586
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "horne_4_cover", 
+            "path": "wigwam.form/horne_4_cover.png", 
+            "w": 31, 
+            "x": 536, 
+            "y": 190
+          }, 
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "horne_4", 
+            "path": "wigwam.form/horne_4.png", 
+            "w": 64, 
+            "x": 536, 
+            "y": 191
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "horne_5_cover", 
+            "path": "wigwam.form/horne_5_cover.png", 
+            "w": 72, 
+            "x": 465, 
+            "y": 24
+          }, 
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "horne_5", 
+            "path": "wigwam.form/horne_5.png", 
+            "w": 71, 
+            "x": 465, 
+            "y": 24
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "horne_6_cover", 
+            "path": "wigwam.form/horne_6_cover.png", 
+            "w": 58, 
+            "x": 860, 
+            "y": 320
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "horne_6", 
+            "path": "wigwam.form/horne_6.png", 
+            "w": 56, 
+            "x": 833, 
+            "y": 324
+          }
+        }
+      ], 
+      "name": "角", 
+      "path": "wigwam.sils/horne.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 87, 
+            "layer": 3, 
+            "name": "amulet_1", 
+            "path": "wigwam.form/amulet_1.png", 
+            "w": 34, 
+            "x": 339, 
+            "y": 242
+          }
+        }, 
+        {
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "amulet_2", 
+            "path": "wigwam.form/amulet_2.png", 
+            "w": 37, 
+            "x": 773, 
+            "y": 276
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "amulet_3_cover", 
+            "path": "wigwam.form/amulet_3_cover.png", 
+            "w": 27, 
+            "x": 740, 
+            "y": 109
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "amulet_3", 
+            "path": "wigwam.form/amulet_3.png", 
+            "w": 24, 
+            "x": 742, 
+            "y": 107
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "amulet_4_cover", 
+            "path": "wigwam.form/amulet_4_cover.png", 
+            "w": 32, 
+            "x": 1203, 
+            "y": 77
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "amulet_4", 
+            "path": "wigwam.form/amulet_4.png", 
+            "w": 32, 
+            "x": 1205, 
+            "y": 78
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "amulet_5_cover", 
+            "path": "wigwam.form/amulet_5_cover.png", 
+            "w": 23, 
+            "x": 480, 
+            "y": 191
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "amulet_5", 
+            "path": "wigwam.form/amulet_5.png", 
+            "w": 33, 
+            "x": 480, 
+            "y": 192
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "amulet_6_cover", 
+            "path": "wigwam.form/amulet_6_cover.png", 
+            "w": 24, 
+            "x": 377, 
+            "y": 323
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "amulet_6", 
+            "path": "wigwam.form/amulet_6.png", 
+            "w": 25, 
+            "x": 377, 
+            "y": 322
+          }
+        }
+      ], 
+      "name": "お守り", 
+      "path": "wigwam.sils/amulet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "fish_1", 
+            "path": "wigwam.form/fish_1.png", 
+            "w": 97, 
+            "x": 905, 
+            "y": 605
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "fish_2", 
+            "path": "wigwam.form/fish_2.png", 
+            "w": 79, 
+            "x": 483, 
+            "y": 148
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "fish_3_cover", 
+            "path": "wigwam.form/fish_3_cover.png", 
+            "w": 54, 
+            "x": 807, 
+            "y": 415
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "fish_3", 
+            "path": "wigwam.form/fish_3.png", 
+            "w": 61, 
+            "x": 808, 
+            "y": 416
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "fish_4_cover", 
+            "path": "wigwam.form/fish_4_cover.png", 
+            "w": 72, 
+            "x": 1160, 
+            "y": 54
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "fish_4", 
+            "path": "wigwam.form/fish_4.png", 
+            "w": 67, 
+            "x": 1161, 
+            "y": 43
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "fish_5_cover", 
+            "path": "wigwam.form/fish_5_cover.png", 
+            "w": 30, 
+            "x": 419, 
+            "y": 454
+          }, 
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "fish_5", 
+            "path": "wigwam.form/fish_5.png", 
+            "w": 29, 
+            "x": 420, 
+            "y": 435
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "fish_6_cover", 
+            "path": "wigwam.form/fish_6_cover.png", 
+            "w": 70, 
+            "x": 879, 
+            "y": 202
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "fish_6", 
+            "path": "wigwam.form/fish_6.png", 
+            "w": 66, 
+            "x": 882, 
+            "y": 202
+          }
+        }
+      ], 
+      "name": "魚", 
+      "path": "wigwam.sils/fish.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "spoon_1", 
+            "path": "wigwam.form/spoon_1.png", 
+            "w": 39, 
+            "x": 618, 
+            "y": 270
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "spoon_2", 
+            "path": "wigwam.form/spoon_2.png", 
+            "w": 84, 
+            "x": 934, 
+            "y": 448
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "spoon_3_cover", 
+            "path": "wigwam.form/spoon_3_cover.png", 
+            "w": 40, 
+            "x": 610, 
+            "y": 544
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "spoon_3", 
+            "path": "wigwam.form/spoon_3.png", 
+            "w": 85, 
+            "x": 563, 
+            "y": 521
+          }
+        }, 
+        {
+          "cover": {
+            "h": 68, 
+            "layer": 5, 
+            "name": "spoon_4_cover", 
+            "path": "wigwam.form/spoon_4_cover.png", 
+            "w": 48, 
+            "x": 237, 
+            "y": 219
+          }, 
+          "pic": {
+            "h": 72, 
+            "layer": 3, 
+            "name": "spoon_4", 
+            "path": "wigwam.form/spoon_4.png", 
+            "w": 62, 
+            "x": 232, 
+            "y": 221
+          }
+        }, 
+        {
+          "cover": {
+            "h": 92, 
+            "layer": 5, 
+            "name": "spoon_5_cover", 
+            "path": "wigwam.form/spoon_5_cover.png", 
+            "w": 15, 
+            "x": 850, 
+            "y": 111
+          }, 
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "spoon_5", 
+            "path": "wigwam.form/spoon_5.png", 
+            "w": 25, 
+            "x": 847, 
+            "y": 125
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "spoon_6_cover", 
+            "path": "wigwam.form/spoon_6_cover.png", 
+            "w": 38, 
+            "x": 612, 
+            "y": 421
+          }, 
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "spoon_6", 
+            "path": "wigwam.form/spoon_6.png", 
+            "w": 48, 
+            "x": 614, 
+            "y": 368
+          }
+        }
+      ], 
+      "name": "スプーン", 
+      "path": "wigwam.sils/spoon.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "calumet_1_1", 
+            "path": "wigwam.morph/calumet_1_1.png", 
+            "w": 95, 
+            "x": 476, 
+            "y": 231
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "calumet_1_2", 
+            "path": "wigwam.morph/calumet_1_2.png", 
+            "w": 108, 
+            "x": 464, 
+            "y": 227
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "calumet_2_1", 
+            "path": "wigwam.morph/calumet_2_1.png", 
+            "w": 114, 
+            "x": 865, 
+            "y": 430
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "calumet_2_2", 
+            "path": "wigwam.morph/calumet_2_2.png", 
+            "w": 118, 
+            "x": 866, 
+            "y": 429
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "calumet_3_cover", 
+            "path": "wigwam.morph/calumet_3_cover.png", 
+            "w": 14, 
+            "x": 850, 
+            "y": 325
+          }, 
+          "pic1": {
+            "h": 136, 
+            "layer": 4, 
+            "name": "calumet_3_1", 
+            "path": "wigwam.morph/calumet_3_1.png", 
+            "w": 55, 
+            "x": 820, 
+            "y": 237
+          }, 
+          "pic2": {
+            "h": 112, 
+            "layer": 4, 
+            "name": "calumet_3_2", 
+            "path": "wigwam.morph/calumet_3_2.png", 
+            "w": 38, 
+            "x": 850, 
+            "y": 248
+          }
+        }, 
+        {
+          "cover": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "calumet_4_cover", 
+            "path": "wigwam.morph/calumet_4_cover.png", 
+            "w": 84, 
+            "x": 696, 
+            "y": 66
+          }, 
+          "pic1": {
+            "h": 98, 
+            "layer": 4, 
+            "name": "calumet_4_1", 
+            "path": "wigwam.morph/calumet_4_1.png", 
+            "w": 82, 
+            "x": 713, 
+            "y": 47
+          }, 
+          "pic2": {
+            "h": 95, 
+            "layer": 4, 
+            "name": "calumet_4_2", 
+            "path": "wigwam.morph/calumet_4_2.png", 
+            "w": 94, 
+            "x": 696, 
+            "y": 48
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "calumet_5_cover", 
+            "path": "wigwam.morph/calumet_5_cover.png", 
+            "w": 115, 
+            "x": 1018, 
+            "y": 474
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "calumet_5_1", 
+            "path": "wigwam.morph/calumet_5_1.png", 
+            "w": 112, 
+            "x": 1019, 
+            "y": 449
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "calumet_5_2", 
+            "path": "wigwam.morph/calumet_5_2.png", 
+            "w": 112, 
+            "x": 1019, 
+            "y": 462
+          }
+        }
+      ], 
+      "name": "calumet"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "rifle_1_1", 
+            "path": "wigwam.morph/rifle_1_1.png", 
+            "w": 181, 
+            "x": 425, 
+            "y": 125
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "rifle_1_2", 
+            "path": "wigwam.morph/rifle_1_2.png", 
+            "w": 189, 
+            "x": 420, 
+            "y": 105
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 210, 
+            "layer": 4, 
+            "name": "rifle_2_1", 
+            "path": "wigwam.morph/rifle_2_1.png", 
+            "w": 97, 
+            "x": 448, 
+            "y": 434
+          }, 
+          "pic2": {
+            "h": 231, 
+            "layer": 4, 
+            "name": "rifle_2_2", 
+            "path": "wigwam.morph/rifle_2_2.png", 
+            "w": 109, 
+            "x": 455, 
+            "y": 415
+          }
+        }, 
+        {
+          "cover": {
+            "h": 152, 
+            "layer": 4, 
+            "name": "rifle_3_cover", 
+            "path": "wigwam.morph/rifle_3_cover.png", 
+            "w": 56, 
+            "x": 231, 
+            "y": 318
+          }, 
+          "pic1": {
+            "h": 214, 
+            "layer": 4, 
+            "name": "rifle_3_1", 
+            "path": "wigwam.morph/rifle_3_1.png", 
+            "w": 68, 
+            "x": 232, 
+            "y": 254
+          }, 
+          "pic2": {
+            "h": 210, 
+            "layer": 4, 
+            "name": "rifle_3_2", 
+            "path": "wigwam.morph/rifle_3_2.png", 
+            "w": 66, 
+            "x": 228, 
+            "y": 255
+          }
+        }, 
+        {
+          "cover": {
+            "h": 197, 
+            "layer": 4, 
+            "name": "rifle_4_cover", 
+            "path": "wigwam.morph/rifle_4_cover.png", 
+            "w": 102, 
+            "x": 371, 
+            "y": 16
+          }, 
+          "pic1": {
+            "h": 181, 
+            "layer": 4, 
+            "name": "rifle_4_1", 
+            "path": "wigwam.morph/rifle_4_1.png", 
+            "w": 68, 
+            "x": 400, 
+            "y": 6
+          }, 
+          "pic2": {
+            "h": 202, 
+            "layer": 4, 
+            "name": "rifle_4_2", 
+            "path": "wigwam.morph/rifle_4_2.png", 
+            "w": 75, 
+            "x": 373, 
+            "y": 7
+          }
+        }, 
+        {
+          "cover": {
+            "h": 149, 
+            "layer": 4, 
+            "name": "rifle_5_cover", 
+            "path": "wigwam.morph/rifle_5_cover.png", 
+            "w": 71, 
+            "x": 354, 
+            "y": 364
+          }, 
+          "pic1": {
+            "h": 171, 
+            "layer": 4, 
+            "name": "rifle_5_1", 
+            "path": "wigwam.morph/rifle_5_1.png", 
+            "w": 62, 
+            "x": 361, 
+            "y": 341
+          }, 
+          "pic2": {
+            "h": 179, 
+            "layer": 4, 
+            "name": "rifle_5_2", 
+            "path": "wigwam.morph/rifle_5_2.png", 
+            "w": 61, 
+            "x": 353, 
+            "y": 332
+          }
+        }
+      ], 
+      "name": "rifle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "hawk_1_1", 
+            "path": "wigwam.morph/hawk_1_1.png", 
+            "w": 55, 
+            "x": 1196, 
+            "y": 584
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "hawk_1_2", 
+            "path": "wigwam.morph/hawk_1_2.png", 
+            "w": 35, 
+            "x": 1199, 
+            "y": 571
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "hawk_2_1", 
+            "path": "wigwam.morph/hawk_2_1.png", 
+            "w": 49, 
+            "x": 268, 
+            "y": 585
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "hawk_2_2", 
+            "path": "wigwam.morph/hawk_2_2.png", 
+            "w": 35, 
+            "x": 284, 
+            "y": 576
+          }
+        }, 
+        {
+          "cover": {
+            "h": 74, 
+            "layer": 4, 
+            "name": "hawk_3_cover", 
+            "path": "wigwam.morph/hawk_3_cover.png", 
+            "w": 46, 
+            "x": 672, 
+            "y": 487
+          }, 
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "hawk_3_1", 
+            "path": "wigwam.morph/hawk_3_1.png", 
+            "w": 47, 
+            "x": 670, 
+            "y": 497
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "hawk_3_2", 
+            "path": "wigwam.morph/hawk_3_2.png", 
+            "w": 35, 
+            "x": 676, 
+            "y": 489
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "hawk_4_cover", 
+            "path": "wigwam.morph/hawk_4_cover.png", 
+            "w": 42, 
+            "x": 879, 
+            "y": 368
+          }, 
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "hawk_4_1", 
+            "path": "wigwam.morph/hawk_4_1.png", 
+            "w": 52, 
+            "x": 881, 
+            "y": 377
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "hawk_4_2", 
+            "path": "wigwam.morph/hawk_4_2.png", 
+            "w": 35, 
+            "x": 897, 
+            "y": 369
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "hawk_5_cover", 
+            "path": "wigwam.morph/hawk_5_cover.png", 
+            "w": 58, 
+            "x": 1125, 
+            "y": 222
+          }, 
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "hawk_5_1", 
+            "path": "wigwam.morph/hawk_5_1.png", 
+            "w": 54, 
+            "x": 1124, 
+            "y": 224
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "hawk_5_2", 
+            "path": "wigwam.morph/hawk_5_2.png", 
+            "w": 37, 
+            "x": 1126, 
+            "y": 214
+          }
+        }
+      ], 
+      "name": "hawk"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "mace_1_1", 
+            "path": "wigwam.morph/mace_1_1.png", 
+            "w": 111, 
+            "x": 1135, 
+            "y": 463
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "mace_1_2", 
+            "path": "wigwam.morph/mace_1_2.png", 
+            "w": 121, 
+            "x": 1128, 
+            "y": 463
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "mace_2_1", 
+            "path": "wigwam.morph/mace_2_1.png", 
+            "w": 110, 
+            "x": 527, 
+            "y": 321
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "mace_2_2", 
+            "path": "wigwam.morph/mace_2_2.png", 
+            "w": 110, 
+            "x": 528, 
+            "y": 318
+          }
+        }, 
+        {
+          "cover": {
+            "h": 95, 
+            "layer": 4, 
+            "name": "mace_3_cover", 
+            "path": "wigwam.morph/mace_3_cover.png", 
+            "w": 67, 
+            "x": 667, 
+            "y": 149
+          }, 
+          "pic1": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "mace_3_1", 
+            "path": "wigwam.morph/mace_3_1.png", 
+            "w": 69, 
+            "x": 669, 
+            "y": 151
+          }, 
+          "pic2": {
+            "h": 102, 
+            "layer": 4, 
+            "name": "mace_3_2", 
+            "path": "wigwam.morph/mace_3_2.png", 
+            "w": 80, 
+            "x": 667, 
+            "y": 148
+          }
+        }, 
+        {
+          "cover": {
+            "h": 92, 
+            "layer": 4, 
+            "name": "mace_4_cover", 
+            "path": "wigwam.morph/mace_4_cover.png", 
+            "w": 16, 
+            "x": 380, 
+            "y": 37
+          }, 
+          "pic1": {
+            "h": 112, 
+            "layer": 4, 
+            "name": "mace_4_1", 
+            "path": "wigwam.morph/mace_4_1.png", 
+            "w": 27, 
+            "x": 382, 
+            "y": 15
+          }, 
+          "pic2": {
+            "h": 118, 
+            "layer": 4, 
+            "name": "mace_4_2", 
+            "path": "wigwam.morph/mace_4_2.png", 
+            "w": 23, 
+            "x": 375, 
+            "y": 4
+          }
+        }, 
+        {
+          "cover": {
+            "h": 99, 
+            "layer": 4, 
+            "name": "mace_5_cover", 
+            "path": "wigwam.morph/mace_5_cover.png", 
+            "w": 39, 
+            "x": 776, 
+            "y": 522
+          }, 
+          "pic1": {
+            "h": 136, 
+            "layer": 4, 
+            "name": "mace_5_1", 
+            "path": "wigwam.morph/mace_5_1.png", 
+            "w": 41, 
+            "x": 772, 
+            "y": 484
+          }, 
+          "pic2": {
+            "h": 164, 
+            "layer": 4, 
+            "name": "mace_5_2", 
+            "path": "wigwam.morph/mace_5_2.png", 
+            "w": 68, 
+            "x": 753, 
+            "y": 457
+          }
+        }
+      ], 
+      "name": "mace"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "horne_1_1", 
+            "path": "wigwam.morph/horne_1_1.png", 
+            "w": 89, 
+            "x": 674, 
+            "y": 438
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "horne_1_2", 
+            "path": "wigwam.morph/horne_1_2.png", 
+            "w": 60, 
+            "x": 687, 
+            "y": 427
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "horne_2_1", 
+            "path": "wigwam.morph/horne_2_1.png", 
+            "w": 99, 
+            "x": 313, 
+            "y": 602
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "horne_2_2", 
+            "path": "wigwam.morph/horne_2_2.png", 
+            "w": 59, 
+            "x": 338, 
+            "y": 608
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "horne_3_cover", 
+            "path": "wigwam.morph/horne_3_cover.png", 
+            "w": 32, 
+            "x": 635, 
+            "y": 580
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "horne_3_1", 
+            "path": "wigwam.morph/horne_3_1.png", 
+            "w": 88, 
+            "x": 613, 
+            "y": 586
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "horne_3_2", 
+            "path": "wigwam.morph/horne_3_2.png", 
+            "w": 60, 
+            "x": 609, 
+            "y": 583
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "horne_4_cover", 
+            "path": "wigwam.morph/horne_4_cover.png", 
+            "w": 34, 
+            "x": 536, 
+            "y": 185
+          }, 
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "horne_4_1", 
+            "path": "wigwam.morph/horne_4_1.png", 
+            "w": 64, 
+            "x": 536, 
+            "y": 191
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "horne_4_2", 
+            "path": "wigwam.morph/horne_4_2.png", 
+            "w": 57, 
+            "x": 533, 
+            "y": 177
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "horne_5_cover", 
+            "path": "wigwam.morph/horne_5_cover.png", 
+            "w": 79, 
+            "x": 1159, 
+            "y": 54
+          }, 
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "horne_5_1", 
+            "path": "wigwam.morph/horne_5_1.png", 
+            "w": 71, 
+            "x": 1163, 
+            "y": 53
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "horne_5_2", 
+            "path": "wigwam.morph/horne_5_2.png", 
+            "w": 57, 
+            "x": 1169, 
+            "y": 41
+          }
+        }
+      ], 
+      "name": "horne"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "tambourine_1_1", 
+            "path": "wigwam.morph/tambourine_1_1.png", 
+            "w": 57, 
+            "x": 722, 
+            "y": 568
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "tambourine_1_2", 
+            "path": "wigwam.morph/tambourine_1_2.png", 
+            "w": 67, 
+            "x": 719, 
+            "y": 581
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "tambourine_2_1", 
+            "path": "wigwam.morph/tambourine_2_1.png", 
+            "w": 58, 
+            "x": 1135, 
+            "y": 382
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "tambourine_2_2", 
+            "path": "wigwam.morph/tambourine_2_2.png", 
+            "w": 57, 
+            "x": 1133, 
+            "y": 391
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "tambourine_3_cover", 
+            "path": "wigwam.morph/tambourine_3_cover.png", 
+            "w": 60, 
+            "x": 941, 
+            "y": 53
+          }, 
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "tambourine_3_1", 
+            "path": "wigwam.morph/tambourine_3_1.png", 
+            "w": 60, 
+            "x": 943, 
+            "y": 42
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "tambourine_3_2", 
+            "path": "wigwam.morph/tambourine_3_2.png", 
+            "w": 51, 
+            "x": 946, 
+            "y": 36
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "tambourine_4_cover", 
+            "path": "wigwam.morph/tambourine_4_cover.png", 
+            "w": 71, 
+            "x": 392, 
+            "y": 383
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "tambourine_4_1", 
+            "path": "wigwam.morph/tambourine_4_1.png", 
+            "w": 66, 
+            "x": 391, 
+            "y": 388
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "tambourine_4_2", 
+            "path": "wigwam.morph/tambourine_4_2.png", 
+            "w": 55, 
+            "x": 393, 
+            "y": 394
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "tambourine_5_cover", 
+            "path": "wigwam.morph/tambourine_5_cover.png", 
+            "w": 37, 
+            "x": 993, 
+            "y": 303
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "tambourine_5_1", 
+            "path": "wigwam.morph/tambourine_5_1.png", 
+            "w": 39, 
+            "x": 995, 
+            "y": 309
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "tambourine_5_2", 
+            "path": "wigwam.morph/tambourine_5_2.png", 
+            "w": 44, 
+            "x": 992, 
+            "y": 305
+          }
+        }
+      ], 
+      "name": "tambourine"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "eagle_pattern_1_1", 
+            "path": "wigwam.morph/eagle_pattern_1_1.png", 
+            "w": 70, 
+            "x": 902, 
+            "y": 9
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "eagle_pattern_1_2", 
+            "path": "wigwam.morph/eagle_pattern_1_2.png", 
+            "w": 40, 
+            "x": 913, 
+            "y": 7
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "eagle_pattern_2_1", 
+            "path": "wigwam.morph/eagle_pattern_2_1.png", 
+            "w": 75, 
+            "x": 757, 
+            "y": 239
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "eagle_pattern_2_2", 
+            "path": "wigwam.morph/eagle_pattern_2_2.png", 
+            "w": 56, 
+            "x": 765, 
+            "y": 234
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 4, 
+            "name": "eagle_pattern_3_cover", 
+            "path": "wigwam.morph/eagle_pattern_3_cover.png", 
+            "w": 48, 
+            "x": 1153, 
+            "y": 160
+          }, 
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "eagle_pattern_3_1", 
+            "path": "wigwam.morph/eagle_pattern_3_1.png", 
+            "w": 71, 
+            "x": 1144, 
+            "y": 139
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "eagle_pattern_3_2", 
+            "path": "wigwam.morph/eagle_pattern_3_2.png", 
+            "w": 38, 
+            "x": 1159, 
+            "y": 130
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "eagle_pattern_4_cover", 
+            "path": "wigwam.morph/eagle_pattern_4_cover.png", 
+            "w": 32, 
+            "x": 607, 
+            "y": 368
+          }, 
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "eagle_pattern_4_1", 
+            "path": "wigwam.morph/eagle_pattern_4_1.png", 
+            "w": 73, 
+            "x": 565, 
+            "y": 362
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "eagle_pattern_4_2", 
+            "path": "wigwam.morph/eagle_pattern_4_2.png", 
+            "w": 50, 
+            "x": 575, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "eagle_pattern_5_cover", 
+            "path": "wigwam.morph/eagle_pattern_5_cover.png", 
+            "w": 22, 
+            "x": 483, 
+            "y": 55
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "eagle_pattern_5_1", 
+            "path": "wigwam.morph/eagle_pattern_5_1.png", 
+            "w": 71, 
+            "x": 455, 
+            "y": 66
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "eagle_pattern_5_2", 
+            "path": "wigwam.morph/eagle_pattern_5_2.png", 
+            "w": 51, 
+            "x": 466, 
+            "y": 57
+          }
+        }
+      ], 
+      "name": "eagle_pattern"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "bison_figure_1_1", 
+            "path": "wigwam.morph/bison_figure_1_1.png", 
+            "w": 71, 
+            "x": 405, 
+            "y": 561
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "bison_figure_1_2", 
+            "path": "wigwam.morph/bison_figure_1_2.png", 
+            "w": 61, 
+            "x": 402, 
+            "y": 549
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "bison_figure_2_1", 
+            "path": "wigwam.morph/bison_figure_2_1.png", 
+            "w": 58, 
+            "x": 1027, 
+            "y": 355
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "bison_figure_2_2", 
+            "path": "wigwam.morph/bison_figure_2_2.png", 
+            "w": 30, 
+            "x": 1039, 
+            "y": 341
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "bison_figure_3_cover", 
+            "path": "wigwam.morph/bison_figure_3_cover.png", 
+            "w": 63, 
+            "x": 786, 
+            "y": 379
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "bison_figure_3_1", 
+            "path": "wigwam.morph/bison_figure_3_1.png", 
+            "w": 60, 
+            "x": 789, 
+            "y": 358
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "bison_figure_3_2", 
+            "path": "wigwam.morph/bison_figure_3_2.png", 
+            "w": 24, 
+            "x": 812, 
+            "y": 355
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "bison_figure_4_cover", 
+            "path": "wigwam.morph/bison_figure_4_cover.png", 
+            "w": 39, 
+            "x": 720, 
+            "y": 364
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "bison_figure_4_1", 
+            "path": "wigwam.morph/bison_figure_4_1.png", 
+            "w": 60, 
+            "x": 721, 
+            "y": 366
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "bison_figure_4_2", 
+            "path": "wigwam.morph/bison_figure_4_2.png", 
+            "w": 27, 
+            "x": 749, 
+            "y": 361
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bison_figure_5_cover", 
+            "path": "wigwam.morph/bison_figure_5_cover.png", 
+            "w": 56, 
+            "x": 727, 
+            "y": 518
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "bison_figure_5_1", 
+            "path": "wigwam.morph/bison_figure_5_1.png", 
+            "w": 70, 
+            "x": 712, 
+            "y": 513
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bison_figure_5_2", 
+            "path": "wigwam.morph/bison_figure_5_2.png", 
+            "w": 25, 
+            "x": 728, 
+            "y": 514
+          }
+        }
+      ], 
+      "name": "bison_figure"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "spoon_1_1", 
+            "path": "wigwam.morph/spoon_1_1.png", 
+            "w": 86, 
+            "x": 914, 
+            "y": 598
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "spoon_1_2", 
+            "path": "wigwam.morph/spoon_1_2.png", 
+            "w": 97, 
+            "x": 905, 
+            "y": 605
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "spoon_2_1", 
+            "path": "wigwam.morph/spoon_2_1.png", 
+            "w": 82, 
+            "x": 480, 
+            "y": 146
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "spoon_2_2", 
+            "path": "wigwam.morph/spoon_2_2.png", 
+            "w": 79, 
+            "x": 483, 
+            "y": 148
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "spoon_3_cover", 
+            "path": "wigwam.morph/spoon_3_cover.png", 
+            "w": 40, 
+            "x": 610, 
+            "y": 544
+          }, 
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "spoon_3_1", 
+            "path": "wigwam.morph/spoon_3_1.png", 
+            "w": 85, 
+            "x": 563, 
+            "y": 521
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "spoon_3_2", 
+            "path": "wigwam.morph/spoon_3_2.png", 
+            "w": 68, 
+            "x": 579, 
+            "y": 530
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "spoon_4_cover", 
+            "path": "wigwam.morph/spoon_4_cover.png", 
+            "w": 10, 
+            "x": 988, 
+            "y": 110
+          }, 
+          "pic1": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "spoon_4_1", 
+            "path": "wigwam.morph/spoon_4_1.png", 
+            "w": 74, 
+            "x": 933, 
+            "y": 112
+          }, 
+          "pic2": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "spoon_4_2", 
+            "path": "wigwam.morph/spoon_4_2.png", 
+            "w": 67, 
+            "x": 939, 
+            "y": 112
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "spoon_5_cover", 
+            "path": "wigwam.morph/spoon_5_cover.png", 
+            "w": 54, 
+            "x": 646, 
+            "y": 426
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "spoon_5_1", 
+            "path": "wigwam.morph/spoon_5_1.png", 
+            "w": 95, 
+            "x": 650, 
+            "y": 402
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "spoon_5_2", 
+            "path": "wigwam.morph/spoon_5_2.png", 
+            "w": 102, 
+            "x": 645, 
+            "y": 403
+          }
+        }
+      ], 
+      "name": "spoon"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "dipper_1_1", 
+            "path": "wigwam.morph/dipper_1_1.png", 
+            "w": 36, 
+            "x": 938, 
+            "y": 357
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "dipper_1_2", 
+            "path": "wigwam.morph/dipper_1_2.png", 
+            "w": 51, 
+            "x": 931, 
+            "y": 392
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "dipper_2_1", 
+            "path": "wigwam.morph/dipper_2_1.png", 
+            "w": 70, 
+            "x": 1011, 
+            "y": 609
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "dipper_2_2", 
+            "path": "wigwam.morph/dipper_2_2.png", 
+            "w": 59, 
+            "x": 1012, 
+            "y": 611
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "dipper_3_cover", 
+            "path": "wigwam.morph/dipper_3_cover.png", 
+            "w": 48, 
+            "x": 562, 
+            "y": 423
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "dipper_3_1", 
+            "path": "wigwam.morph/dipper_3_1.png", 
+            "w": 59, 
+            "x": 564, 
+            "y": 401
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "dipper_3_2", 
+            "path": "wigwam.morph/dipper_3_2.png", 
+            "w": 44, 
+            "x": 564, 
+            "y": 410
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "dipper_4_cover", 
+            "path": "wigwam.morph/dipper_4_cover.png", 
+            "w": 69, 
+            "x": 295, 
+            "y": 455
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "dipper_4_1", 
+            "path": "wigwam.morph/dipper_4_1.png", 
+            "w": 63, 
+            "x": 299, 
+            "y": 441
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "dipper_4_2", 
+            "path": "wigwam.morph/dipper_4_2.png", 
+            "w": 52, 
+            "x": 307, 
+            "y": 438
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 4, 
+            "name": "dipper_5_cover", 
+            "path": "wigwam.morph/dipper_5_cover.png", 
+            "w": 45, 
+            "x": 923, 
+            "y": 196
+          }, 
+          "pic1": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "dipper_5_1", 
+            "path": "wigwam.morph/dipper_5_1.png", 
+            "w": 33, 
+            "x": 931, 
+            "y": 141
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "dipper_5_2", 
+            "path": "wigwam.morph/dipper_5_2.png", 
+            "w": 51, 
+            "x": 923, 
+            "y": 179
+          }
+        }
+      ], 
+      "name": "dipper"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bread_1_1", 
+            "path": "wigwam.morph/bread_1_1.png", 
+            "w": 59, 
+            "x": 590, 
+            "y": 436
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "bread_1_2", 
+            "path": "wigwam.morph/bread_1_2.png", 
+            "w": 58, 
+            "x": 590, 
+            "y": 441
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bread_2_1", 
+            "path": "wigwam.morph/bread_2_1.png", 
+            "w": 40, 
+            "x": 641, 
+            "y": 302
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "bread_2_2", 
+            "path": "wigwam.morph/bread_2_2.png", 
+            "w": 49, 
+            "x": 637, 
+            "y": 307
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "bread_3_cover", 
+            "path": "wigwam.morph/bread_3_cover.png", 
+            "w": 45, 
+            "x": 979, 
+            "y": 249
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bread_3_1", 
+            "path": "wigwam.morph/bread_3_1.png", 
+            "w": 37, 
+            "x": 983, 
+            "y": 253
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "bread_3_2", 
+            "path": "wigwam.morph/bread_3_2.png", 
+            "w": 39, 
+            "x": 983, 
+            "y": 250
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "bread_4_cover", 
+            "path": "wigwam.morph/bread_4_cover.png", 
+            "w": 51, 
+            "x": 1087, 
+            "y": 174
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "bread_4_1", 
+            "path": "wigwam.morph/bread_4_1.png", 
+            "w": 36, 
+            "x": 1094, 
+            "y": 153
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "bread_4_2", 
+            "path": "wigwam.morph/bread_4_2.png", 
+            "w": 36, 
+            "x": 1094, 
+            "y": 154
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "bread_5_cover", 
+            "path": "wigwam.morph/bread_5_cover.png", 
+            "w": 40, 
+            "x": 880, 
+            "y": 258
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bread_5_1", 
+            "path": "wigwam.morph/bread_5_1.png", 
+            "w": 50, 
+            "x": 883, 
+            "y": 260
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "bread_5_2", 
+            "path": "wigwam.morph/bread_5_2.png", 
+            "w": 52, 
+            "x": 882, 
+            "y": 264
+          }
+        }
+      ], 
+      "name": "bread"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "hat_1_1", 
+            "path": "wigwam.morph/hat_1_1.png", 
+            "w": 87, 
+            "x": 417, 
+            "y": 325
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "hat_1_2", 
+            "path": "wigwam.morph/hat_1_2.png", 
+            "w": 85, 
+            "x": 414, 
+            "y": 332
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "hat_2_1", 
+            "path": "wigwam.morph/hat_2_1.png", 
+            "w": 87, 
+            "x": 1165, 
+            "y": 305
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "hat_2_2", 
+            "path": "wigwam.morph/hat_2_2.png", 
+            "w": 80, 
+            "x": 1172, 
+            "y": 312
+          }
+        }, 
+        {
+          "cover": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "hat_3_cover", 
+            "path": "wigwam.morph/hat_3_cover.png", 
+            "w": 21, 
+            "x": 312, 
+            "y": 90
+          }, 
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "hat_3_1", 
+            "path": "wigwam.morph/hat_3_1.png", 
+            "w": 40, 
+            "x": 290, 
+            "y": 92
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "hat_3_2", 
+            "path": "wigwam.morph/hat_3_2.png", 
+            "w": 35, 
+            "x": 296, 
+            "y": 97
+          }
+        }, 
+        {
+          "cover": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "hat_4_cover", 
+            "path": "wigwam.morph/hat_4_cover.png", 
+            "w": 54, 
+            "x": 540, 
+            "y": 41
+          }, 
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "hat_4_1", 
+            "path": "wigwam.morph/hat_4_1.png", 
+            "w": 48, 
+            "x": 548, 
+            "y": 45
+          }, 
+          "pic2": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "hat_4_2", 
+            "path": "wigwam.morph/hat_4_2.png", 
+            "w": 38, 
+            "x": 558, 
+            "y": 52
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "hat_5_cover", 
+            "path": "wigwam.morph/hat_5_cover.png", 
+            "w": 66, 
+            "x": 855, 
+            "y": 71
+          }, 
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "hat_5_1", 
+            "path": "wigwam.morph/hat_5_1.png", 
+            "w": 64, 
+            "x": 855, 
+            "y": 71
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "hat_5_2", 
+            "path": "wigwam.morph/hat_5_2.png", 
+            "w": 59, 
+            "x": 857, 
+            "y": 71
+          }
+        }
+      ], 
+      "name": "hat"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "whistle_1_1", 
+            "path": "wigwam.morph/whistle_1_1.png", 
+            "w": 71, 
+            "x": 833, 
+            "y": 585
+          }, 
+          "pic2": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "whistle_1_2", 
+            "path": "wigwam.morph/whistle_1_2.png", 
+            "w": 51, 
+            "x": 836, 
+            "y": 567
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "whistle_2_1", 
+            "path": "wigwam.morph/whistle_2_1.png", 
+            "w": 49, 
+            "x": 1078, 
+            "y": 312
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "whistle_2_2", 
+            "path": "wigwam.morph/whistle_2_2.png", 
+            "w": 36, 
+            "x": 1083, 
+            "y": 298
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "whistle_3_cover", 
+            "path": "wigwam.morph/whistle_3_cover.png", 
+            "w": 62, 
+            "x": 353, 
+            "y": 531
+          }, 
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "whistle_3_1", 
+            "path": "wigwam.morph/whistle_3_1.png", 
+            "w": 59, 
+            "x": 346, 
+            "y": 533
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "whistle_3_2", 
+            "path": "wigwam.morph/whistle_3_2.png", 
+            "w": 68, 
+            "x": 346, 
+            "y": 538
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "whistle_4_cover", 
+            "path": "wigwam.morph/whistle_4_cover.png", 
+            "w": 38, 
+            "x": 948, 
+            "y": 268
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "whistle_4_1", 
+            "path": "wigwam.morph/whistle_4_1.png", 
+            "w": 32, 
+            "x": 948, 
+            "y": 251
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "whistle_4_2", 
+            "path": "wigwam.morph/whistle_4_2.png", 
+            "w": 36, 
+            "x": 958, 
+            "y": 256
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "whistle_5_cover", 
+            "path": "wigwam.morph/whistle_5_cover.png", 
+            "w": 31, 
+            "x": 289, 
+            "y": 25
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "whistle_5_1", 
+            "path": "wigwam.morph/whistle_5_1.png", 
+            "w": 27, 
+            "x": 290, 
+            "y": 12
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "whistle_5_2", 
+            "path": "wigwam.morph/whistle_5_2.png", 
+            "w": 26, 
+            "x": 293, 
+            "y": 16
+          }
+        }
+      ], 
+      "name": "whistle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "flute_1_1", 
+            "path": "wigwam.morph/flute_1_1.png", 
+            "w": 96, 
+            "x": 765, 
+            "y": 443
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "flute_1_2", 
+            "path": "wigwam.morph/flute_1_2.png", 
+            "w": 83, 
+            "x": 769, 
+            "y": 433
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "flute_2_1", 
+            "path": "wigwam.morph/flute_2_1.png", 
+            "w": 97, 
+            "x": 1153, 
+            "y": 442
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "flute_2_2", 
+            "path": "wigwam.morph/flute_2_2.png", 
+            "w": 83, 
+            "x": 1162, 
+            "y": 432
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "flute_3_cover", 
+            "path": "wigwam.morph/flute_3_cover.png", 
+            "w": 21, 
+            "x": 1015, 
+            "y": 221
+          }, 
+          "pic1": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "flute_3_1", 
+            "path": "wigwam.morph/flute_3_1.png", 
+            "w": 42, 
+            "x": 1004, 
+            "y": 196
+          }, 
+          "pic2": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "flute_3_2", 
+            "path": "wigwam.morph/flute_3_2.png", 
+            "w": 61, 
+            "x": 991, 
+            "y": 197
+          }
+        }, 
+        {
+          "cover": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "flute_4_cover", 
+            "path": "wigwam.morph/flute_4_cover.png", 
+            "w": 56, 
+            "x": 243, 
+            "y": 179
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "flute_4_1", 
+            "path": "wigwam.morph/flute_4_1.png", 
+            "w": 51, 
+            "x": 244, 
+            "y": 174
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "flute_4_2", 
+            "path": "wigwam.morph/flute_4_2.png", 
+            "w": 51, 
+            "x": 246, 
+            "y": 175
+          }
+        }, 
+        {
+          "cover": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "flute_5_cover", 
+            "path": "wigwam.morph/flute_5_cover.png", 
+            "w": 16, 
+            "x": 1015, 
+            "y": 76
+          }, 
+          "pic1": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "flute_5_1", 
+            "path": "wigwam.morph/flute_5_1.png", 
+            "w": 15, 
+            "x": 1015, 
+            "y": 53
+          }, 
+          "pic2": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "flute_5_2", 
+            "path": "wigwam.morph/flute_5_2.png", 
+            "w": 31, 
+            "x": 1012, 
+            "y": 44
+          }
+        }
+      ], 
+      "name": "flute"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "hook_1_1", 
+            "path": "wigwam.morph/hook_1_1.png", 
+            "w": 70, 
+            "x": 818, 
+            "y": 389
+          }, 
+          "pic2": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "hook_1_2", 
+            "path": "wigwam.morph/hook_1_2.png", 
+            "w": 36, 
+            "x": 828, 
+            "y": 403
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "hook_2_1", 
+            "path": "wigwam.morph/hook_2_1.png", 
+            "w": 36, 
+            "x": 623, 
+            "y": 130
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "hook_2_2", 
+            "path": "wigwam.morph/hook_2_2.png", 
+            "w": 28, 
+            "x": 632, 
+            "y": 139
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "hook_3_cover", 
+            "path": "wigwam.morph/hook_3_cover.png", 
+            "w": 51, 
+            "x": 603, 
+            "y": 494
+          }, 
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "hook_3_1", 
+            "path": "wigwam.morph/hook_3_1.png", 
+            "w": 66, 
+            "x": 605, 
+            "y": 498
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "hook_3_2", 
+            "path": "wigwam.morph/hook_3_2.png", 
+            "w": 52, 
+            "x": 620, 
+            "y": 514
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "hook_4_cover", 
+            "path": "wigwam.morph/hook_4_cover.png", 
+            "w": 9, 
+            "x": 980, 
+            "y": 344
+          }, 
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "hook_4_1", 
+            "path": "wigwam.morph/hook_4_1.png", 
+            "w": 31, 
+            "x": 968, 
+            "y": 342
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "hook_4_2", 
+            "path": "wigwam.morph/hook_4_2.png", 
+            "w": 24, 
+            "x": 971, 
+            "y": 344
+          }
+        }, 
+        {
+          "cover": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "hook_5_cover", 
+            "path": "wigwam.morph/hook_5_cover.png", 
+            "w": 12, 
+            "x": 744, 
+            "y": 145
+          }, 
+          "pic1": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "hook_5_1", 
+            "path": "wigwam.morph/hook_5_1.png", 
+            "w": 40, 
+            "x": 745, 
+            "y": 147
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "hook_5_2", 
+            "path": "wigwam.morph/hook_5_2.png", 
+            "w": 27, 
+            "x": 745, 
+            "y": 174
+          }
+        }
+      ], 
+      "name": "hook"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "butterfly_1_1", 
+            "path": "wigwam.morph/butterfly_1_1.png", 
+            "w": 42, 
+            "x": 635, 
+            "y": 180
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "butterfly_1_2", 
+            "path": "wigwam.morph/butterfly_1_2.png", 
+            "w": 55, 
+            "x": 635, 
+            "y": 186
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "butterfly_2_1", 
+            "path": "wigwam.morph/butterfly_2_1.png", 
+            "w": 43, 
+            "x": 830, 
+            "y": 155
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "butterfly_2_2", 
+            "path": "wigwam.morph/butterfly_2_2.png", 
+            "w": 56, 
+            "x": 830, 
+            "y": 160
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "butterfly_3_cover", 
+            "path": "wigwam.morph/butterfly_3_cover.png", 
+            "w": 59, 
+            "x": 294, 
+            "y": 185
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "butterfly_3_1", 
+            "path": "wigwam.morph/butterfly_3_1.png", 
+            "w": 42, 
+            "x": 297, 
+            "y": 187
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "butterfly_3_2", 
+            "path": "wigwam.morph/butterfly_3_2.png", 
+            "w": 55, 
+            "x": 297, 
+            "y": 192
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "butterfly_4_cover", 
+            "path": "wigwam.morph/butterfly_4_cover.png", 
+            "w": 29, 
+            "x": 276, 
+            "y": 503
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "butterfly_4_1", 
+            "path": "wigwam.morph/butterfly_4_1.png", 
+            "w": 43, 
+            "x": 250, 
+            "y": 504
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "butterfly_4_2", 
+            "path": "wigwam.morph/butterfly_4_2.png", 
+            "w": 55, 
+            "x": 249, 
+            "y": 508
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "butterfly_5_cover", 
+            "path": "wigwam.morph/butterfly_5_cover.png", 
+            "w": 54, 
+            "x": 1017, 
+            "y": 277
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "butterfly_5_1", 
+            "path": "wigwam.morph/butterfly_5_1.png", 
+            "w": 42, 
+            "x": 1019, 
+            "y": 280
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "butterfly_5_2", 
+            "path": "wigwam.morph/butterfly_5_2.png", 
+            "w": 55, 
+            "x": 1019, 
+            "y": 286
+          }
+        }
+      ], 
+      "name": "butterfly"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "potato_1_1", 
+            "path": "wigwam.morph/potato_1_1.png", 
+            "w": 50, 
+            "x": 529, 
+            "y": 543
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "potato_1_2", 
+            "path": "wigwam.morph/potato_1_2.png", 
+            "w": 41, 
+            "x": 535, 
+            "y": 538
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "potato_2_1", 
+            "path": "wigwam.morph/potato_2_1.png", 
+            "w": 51, 
+            "x": 1178, 
+            "y": 490
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "potato_2_2", 
+            "path": "wigwam.morph/potato_2_2.png", 
+            "w": 41, 
+            "x": 1181, 
+            "y": 485
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "potato_3_cover", 
+            "path": "wigwam.morph/potato_3_cover.png", 
+            "w": 44, 
+            "x": 1135, 
+            "y": 534
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "potato_3_1", 
+            "path": "wigwam.morph/potato_3_1.png", 
+            "w": 39, 
+            "x": 1138, 
+            "y": 525
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "potato_3_2", 
+            "path": "wigwam.morph/potato_3_2.png", 
+            "w": 34, 
+            "x": 1140, 
+            "y": 523
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "potato_4_cover", 
+            "path": "wigwam.morph/potato_4_cover.png", 
+            "w": 45, 
+            "x": 310, 
+            "y": 350
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "potato_4_1", 
+            "path": "wigwam.morph/potato_4_1.png", 
+            "w": 39, 
+            "x": 315, 
+            "y": 351
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "potato_4_2", 
+            "path": "wigwam.morph/potato_4_2.png", 
+            "w": 33, 
+            "x": 318, 
+            "y": 350
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "potato_5_cover", 
+            "path": "wigwam.morph/potato_5_cover.png", 
+            "w": 39, 
+            "x": 816, 
+            "y": 81
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "potato_5_1", 
+            "path": "wigwam.morph/potato_5_1.png", 
+            "w": 25, 
+            "x": 827, 
+            "y": 75
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "potato_5_2", 
+            "path": "wigwam.morph/potato_5_2.png", 
+            "w": 29, 
+            "x": 825, 
+            "y": 75
+          }
+        }
+      ], 
+      "name": "potato"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "feather_1_1", 
+            "path": "wigwam.morph/feather_1_1.png", 
+            "w": 96, 
+            "x": 519, 
+            "y": 341
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "feather_1_2", 
+            "path": "wigwam.morph/feather_1_2.png", 
+            "w": 75, 
+            "x": 523, 
+            "y": 345
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "feather_2_1", 
+            "path": "wigwam.morph/feather_2_1.png", 
+            "w": 95, 
+            "x": 930, 
+            "y": 458
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "feather_2_2", 
+            "path": "wigwam.morph/feather_2_2.png", 
+            "w": 75, 
+            "x": 946, 
+            "y": 462
+          }
+        }, 
+        {
+          "cover": {
+            "h": 98, 
+            "layer": 4, 
+            "name": "feather_3_cover", 
+            "path": "wigwam.morph/feather_3_cover.png", 
+            "w": 51, 
+            "x": 393, 
+            "y": 196
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "feather_3_1", 
+            "path": "wigwam.morph/feather_3_1.png", 
+            "w": 35, 
+            "x": 408, 
+            "y": 180
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "feather_3_2", 
+            "path": "wigwam.morph/feather_3_2.png", 
+            "w": 37, 
+            "x": 411, 
+            "y": 183
+          }
+        }, 
+        {
+          "cover": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "feather_4_cover", 
+            "path": "wigwam.morph/feather_4_cover.png", 
+            "w": 28, 
+            "x": 664, 
+            "y": 44
+          }, 
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "feather_4_1", 
+            "path": "wigwam.morph/feather_4_1.png", 
+            "w": 20, 
+            "x": 663, 
+            "y": 40
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "feather_4_2", 
+            "path": "wigwam.morph/feather_4_2.png", 
+            "w": 25, 
+            "x": 658, 
+            "y": 40
+          }
+        }, 
+        {
+          "cover": {
+            "h": 93, 
+            "layer": 4, 
+            "name": "feather_5_cover", 
+            "path": "wigwam.morph/feather_5_cover.png", 
+            "w": 15, 
+            "x": 1219, 
+            "y": 199
+          }, 
+          "pic1": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "feather_5_1", 
+            "path": "wigwam.morph/feather_5_1.png", 
+            "w": 20, 
+            "x": 1221, 
+            "y": 199
+          }, 
+          "pic2": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "feather_5_2", 
+            "path": "wigwam.morph/feather_5_2.png", 
+            "w": 27, 
+            "x": 1222, 
+            "y": 197
+          }
+        }
+      ], 
+      "name": "feather"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "sun_1_1", 
+            "path": "wigwam.morph/sun_1_1.png", 
+            "w": 40, 
+            "x": 602, 
+            "y": 199
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "sun_1_2", 
+            "path": "wigwam.morph/sun_1_2.png", 
+            "w": 32, 
+            "x": 608, 
+            "y": 204
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "sun_2_1", 
+            "path": "wigwam.morph/sun_2_1.png", 
+            "w": 50, 
+            "x": 827, 
+            "y": 7
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "sun_2_2", 
+            "path": "wigwam.morph/sun_2_2.png", 
+            "w": 35, 
+            "x": 832, 
+            "y": 12
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "sun_3_cover", 
+            "path": "wigwam.morph/sun_3_cover.png", 
+            "w": 24, 
+            "x": 642, 
+            "y": 64
+          }, 
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "sun_3_1", 
+            "path": "wigwam.morph/sun_3_1.png", 
+            "w": 45, 
+            "x": 611, 
+            "y": 57
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "sun_3_2", 
+            "path": "wigwam.morph/sun_3_2.png", 
+            "w": 30, 
+            "x": 621, 
+            "y": 66
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "sun_4_cover", 
+            "path": "wigwam.morph/sun_4_cover.png", 
+            "w": 25, 
+            "x": 676, 
+            "y": 252
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "sun_4_1", 
+            "path": "wigwam.morph/sun_4_1.png", 
+            "w": 39, 
+            "x": 680, 
+            "y": 258
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "sun_4_2", 
+            "path": "wigwam.morph/sun_4_2.png", 
+            "w": 27, 
+            "x": 686, 
+            "y": 264
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "sun_5_cover", 
+            "path": "wigwam.morph/sun_5_cover.png", 
+            "w": 39, 
+            "x": 882, 
+            "y": 325
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "sun_5_1", 
+            "path": "wigwam.morph/sun_5_1.png", 
+            "w": 43, 
+            "x": 888, 
+            "y": 325
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "sun_5_2", 
+            "path": "wigwam.morph/sun_5_2.png", 
+            "w": 30, 
+            "x": 897, 
+            "y": 334
+          }
+        }
+      ], 
+      "name": "sun"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "mask_1_1", 
+            "path": "wigwam.morph/mask_1_1.png", 
+            "w": 41, 
+            "x": 789, 
+            "y": 166
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "mask_1_2", 
+            "path": "wigwam.morph/mask_1_2.png", 
+            "w": 52, 
+            "x": 782, 
+            "y": 165
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "mask_2_1", 
+            "path": "wigwam.morph/mask_2_1.png", 
+            "w": 41, 
+            "x": 235, 
+            "y": 116
+          }, 
+          "pic2": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "mask_2_2", 
+            "path": "wigwam.morph/mask_2_2.png", 
+            "w": 52, 
+            "x": 231, 
+            "y": 116
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "mask_3_cover", 
+            "path": "wigwam.morph/mask_3_cover.png", 
+            "w": 61, 
+            "x": 1017, 
+            "y": 154
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "mask_3_1", 
+            "path": "wigwam.morph/mask_3_1.png", 
+            "w": 42, 
+            "x": 1026, 
+            "y": 148
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "mask_3_2", 
+            "path": "wigwam.morph/mask_3_2.png", 
+            "w": 53, 
+            "x": 1019, 
+            "y": 148
+          }
+        }, 
+        {
+          "cover": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "mask_4_cover", 
+            "path": "wigwam.morph/mask_4_cover.png", 
+            "w": 37, 
+            "x": 723, 
+            "y": 293
+          }, 
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "mask_4_1", 
+            "path": "wigwam.morph/mask_4_1.png", 
+            "w": 42, 
+            "x": 728, 
+            "y": 297
+          }, 
+          "pic2": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "mask_4_2", 
+            "path": "wigwam.morph/mask_4_2.png", 
+            "w": 53, 
+            "x": 724, 
+            "y": 297
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "mask_5_cover", 
+            "path": "wigwam.morph/mask_5_cover.png", 
+            "w": 45, 
+            "x": 885, 
+            "y": 181
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "mask_5_1", 
+            "path": "wigwam.morph/mask_5_1.png", 
+            "w": 41, 
+            "x": 889, 
+            "y": 147
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "mask_5_2", 
+            "path": "wigwam.morph/mask_5_2.png", 
+            "w": 43, 
+            "x": 886, 
+            "y": 147
+          }
+        }
+      ], 
+      "name": "mask"
+    }
+  ], 
+  "part": [
+    {
+      "name": "horse_orig", 
+      "path": "wigwam.part/horse_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "horse_1_1", 
+                "path": "wigwam.part/horse_1_1.png", 
+                "w": 32, 
+                "x": 395, 
+                "y": 569
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "horse_1_2", 
+                "path": "wigwam.part/horse_1_2.png", 
+                "w": 25, 
+                "x": 1013, 
+                "y": 444
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "horse_1_3", 
+                "path": "wigwam.part/horse_1_3.png", 
+                "w": 33, 
+                "x": 886, 
+                "y": 402
+              }
+            }, 
+            {
+              "cover": {
+                "h": 11, 
+                "layer": 5, 
+                "name": "horse_1_4_cover", 
+                "path": "wigwam.part/horse_1_4_cover.png", 
+                "w": 10, 
+                "x": 1028, 
+                "y": 152
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "horse_1_4", 
+                "path": "wigwam.part/horse_1_4.png", 
+                "w": 21, 
+                "x": 1023, 
+                "y": 123
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "horse_1_5_cover", 
+                "path": "wigwam.part/horse_1_5_cover.png", 
+                "w": 25, 
+                "x": 679, 
+                "y": 502
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "horse_1_5", 
+                "path": "wigwam.part/horse_1_5.png", 
+                "w": 21, 
+                "x": 682, 
+                "y": 501
+              }
+            }
+          ], 
+          "name": "horse_1", 
+          "path": "wigwam.part/horse_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "horse_2_1", 
+                "path": "wigwam.part/horse_2_1.png", 
+                "w": 64, 
+                "x": 494, 
+                "y": 605
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "horse_2_2", 
+                "path": "wigwam.part/horse_2_2.png", 
+                "w": 64, 
+                "x": 1184, 
+                "y": 486
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "horse_2_3_cover", 
+                "path": "wigwam.part/horse_2_3_cover.png", 
+                "w": 20, 
+                "x": 326, 
+                "y": 285
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "horse_2_3", 
+                "path": "wigwam.part/horse_2_3.png", 
+                "w": 36, 
+                "x": 309, 
+                "y": 284
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "horse_2_4_cover", 
+                "path": "wigwam.part/horse_2_4_cover.png", 
+                "w": 28, 
+                "x": 911, 
+                "y": 50
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "horse_2_4", 
+                "path": "wigwam.part/horse_2_4.png", 
+                "w": 37, 
+                "x": 913, 
+                "y": 22
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "horse_2_5_cover", 
+                "path": "wigwam.part/horse_2_5_cover.png", 
+                "w": 28, 
+                "x": 1077, 
+                "y": 176
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "horse_2_5", 
+                "path": "wigwam.part/horse_2_5.png", 
+                "w": 31, 
+                "x": 1072, 
+                "y": 161
+              }
+            }
+          ], 
+          "name": "horse_2", 
+          "path": "wigwam.part/horse_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "horse_3_1", 
+                "path": "wigwam.part/horse_3_1.png", 
+                "w": 75, 
+                "x": 785, 
+                "y": 603
+              }
+            }, 
+            {
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "horse_3_2", 
+                "path": "wigwam.part/horse_3_2.png", 
+                "w": 54, 
+                "x": 556, 
+                "y": 327
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "horse_3_3_cover", 
+                "path": "wigwam.part/horse_3_3_cover.png", 
+                "w": 41, 
+                "x": 292, 
+                "y": 137
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "horse_3_3", 
+                "path": "wigwam.part/horse_3_3.png", 
+                "w": 40, 
+                "x": 291, 
+                "y": 139
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "horse_3_4_cover", 
+                "path": "wigwam.part/horse_3_4_cover.png", 
+                "w": 29, 
+                "x": 387, 
+                "y": 107
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "horse_3_4", 
+                "path": "wigwam.part/horse_3_4.png", 
+                "w": 32, 
+                "x": 389, 
+                "y": 88
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "horse_3_5_cover", 
+                "path": "wigwam.part/horse_3_5_cover.png", 
+                "w": 50, 
+                "x": 1111, 
+                "y": 485
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "horse_3_5", 
+                "path": "wigwam.part/horse_3_5.png", 
+                "w": 66, 
+                "x": 1114, 
+                "y": 483
+              }
+            }
+          ], 
+          "name": "horse_3", 
+          "path": "wigwam.part/horse_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "horse_4_1", 
+                "path": "wigwam.part/horse_4_1.png", 
+                "w": 48, 
+                "x": 946, 
+                "y": 411
+              }
+            }, 
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "horse_4_2", 
+                "path": "wigwam.part/horse_4_2.png", 
+                "w": 51, 
+                "x": 765, 
+                "y": 427
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "horse_4_3_cover", 
+                "path": "wigwam.part/horse_4_3_cover.png", 
+                "w": 53, 
+                "x": 646, 
+                "y": 595
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "horse_4_3", 
+                "path": "wigwam.part/horse_4_3.png", 
+                "w": 48, 
+                "x": 651, 
+                "y": 595
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "horse_4_4_cover", 
+                "path": "wigwam.part/horse_4_4_cover.png", 
+                "w": 58, 
+                "x": 488, 
+                "y": 464
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "horse_4_4", 
+                "path": "wigwam.part/horse_4_4.png", 
+                "w": 49, 
+                "x": 497, 
+                "y": 465
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "horse_4_5_cover", 
+                "path": "wigwam.part/horse_4_5_cover.png", 
+                "w": 43, 
+                "x": 1084, 
+                "y": 446
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "horse_4_5", 
+                "path": "wigwam.part/horse_4_5.png", 
+                "w": 58, 
+                "x": 1084, 
+                "y": 430
+              }
+            }
+          ], 
+          "name": "horse_4", 
+          "path": "wigwam.part/horse_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "horse_5_1", 
+                "path": "wigwam.part/horse_5_1.png", 
+                "w": 37, 
+                "x": 528, 
+                "y": 426
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "horse_5_2", 
+                "path": "wigwam.part/horse_5_2.png", 
+                "w": 49, 
+                "x": 301, 
+                "y": 595
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "horse_5_3_cover", 
+                "path": "wigwam.part/horse_5_3_cover.png", 
+                "w": 29, 
+                "x": 1019, 
+                "y": 574
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "horse_5_3", 
+                "path": "wigwam.part/horse_5_3.png", 
+                "w": 37, 
+                "x": 1008, 
+                "y": 570
+              }
+            }, 
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "horse_5_4", 
+                "path": "wigwam.part/horse_5_4.png", 
+                "w": 36, 
+                "x": 311, 
+                "y": 190
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "horse_5_5_cover", 
+                "path": "wigwam.part/horse_5_5_cover.png", 
+                "w": 22, 
+                "x": 277, 
+                "y": 25
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "horse_5_5", 
+                "path": "wigwam.part/horse_5_5.png", 
+                "w": 59, 
+                "x": 237, 
+                "y": 18
+              }
+            }
+          ], 
+          "name": "horse_5", 
+          "path": "wigwam.part/horse_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "necklace_orig", 
+      "path": "wigwam.part/necklace_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "necklace_1_1", 
+                "path": "wigwam.part/necklace_1_1.png", 
+                "w": 38, 
+                "x": 735, 
+                "y": 592
+              }
+            }, 
+            {
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "necklace_1_2", 
+                "path": "wigwam.part/necklace_1_2.png", 
+                "w": 65, 
+                "x": 1183, 
+                "y": 421
+              }
+            }, 
+            {
+              "cover": {
+                "h": 22, 
+                "layer": 5, 
+                "name": "necklace_1_3_cover", 
+                "path": "wigwam.part/necklace_1_3_cover.png", 
+                "w": 19, 
+                "x": 644, 
+                "y": 572
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "necklace_1_3", 
+                "path": "wigwam.part/necklace_1_3.png", 
+                "w": 48, 
+                "x": 625, 
+                "y": 571
+              }
+            }, 
+            {
+              "cover": {
+                "h": 22, 
+                "layer": 5, 
+                "name": "necklace_1_4_cover", 
+                "path": "wigwam.part/necklace_1_4_cover.png", 
+                "w": 34, 
+                "x": 428, 
+                "y": 329
+              }, 
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "necklace_1_4", 
+                "path": "wigwam.part/necklace_1_4.png", 
+                "w": 48, 
+                "x": 429, 
+                "y": 331
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "necklace_1_5_cover", 
+                "path": "wigwam.part/necklace_1_5_cover.png", 
+                "w": 34, 
+                "x": 686, 
+                "y": 110
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "necklace_1_5", 
+                "path": "wigwam.part/necklace_1_5.png", 
+                "w": 33, 
+                "x": 687, 
+                "y": 111
+              }
+            }
+          ], 
+          "name": "necklace_1", 
+          "path": "wigwam.part/necklace_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "necklace_2_1", 
+                "path": "wigwam.part/necklace_2_1.png", 
+                "w": 62, 
+                "x": 440, 
+                "y": 575
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "necklace_2_2", 
+                "path": "wigwam.part/necklace_2_2.png", 
+                "w": 27, 
+                "x": 1133, 
+                "y": 68
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "necklace_2_3_cover", 
+                "path": "wigwam.part/necklace_2_3_cover.png", 
+                "w": 45, 
+                "x": 283, 
+                "y": 76
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "necklace_2_3", 
+                "path": "wigwam.part/necklace_2_3.png", 
+                "w": 41, 
+                "x": 285, 
+                "y": 77
+              }
+            }, 
+            {
+              "cover": {
+                "h": 17, 
+                "layer": 5, 
+                "name": "necklace_2_4_cover", 
+                "path": "wigwam.part/necklace_2_4_cover.png", 
+                "w": 46, 
+                "x": 844, 
+                "y": 334
+              }, 
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "necklace_2_4", 
+                "path": "wigwam.part/necklace_2_4.png", 
+                "w": 43, 
+                "x": 845, 
+                "y": 332
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "necklace_2_5_cover", 
+                "path": "wigwam.part/necklace_2_5_cover.png", 
+                "w": 35, 
+                "x": 925, 
+                "y": 383
+              }, 
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "necklace_2_5", 
+                "path": "wigwam.part/necklace_2_5.png", 
+                "w": 55, 
+                "x": 925, 
+                "y": 386
+              }
+            }
+          ], 
+          "name": "necklace_2", 
+          "path": "wigwam.part/necklace_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "necklace_3_1", 
+                "path": "wigwam.part/necklace_3_1.png", 
+                "w": 48, 
+                "x": 884, 
+                "y": 583
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "necklace_3_2", 
+                "path": "wigwam.part/necklace_3_2.png", 
+                "w": 45, 
+                "x": 656, 
+                "y": 329
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "necklace_3_3_cover", 
+                "path": "wigwam.part/necklace_3_3_cover.png", 
+                "w": 50, 
+                "x": 833, 
+                "y": 413
+              }, 
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "necklace_3_3", 
+                "path": "wigwam.part/necklace_3_3.png", 
+                "w": 47, 
+                "x": 835, 
+                "y": 415
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "necklace_3_4_cover", 
+                "path": "wigwam.part/necklace_3_4_cover.png", 
+                "w": 33, 
+                "x": 1168, 
+                "y": 283
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "necklace_3_4", 
+                "path": "wigwam.part/necklace_3_4.png", 
+                "w": 45, 
+                "x": 1154, 
+                "y": 284
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "necklace_3_5_cover", 
+                "path": "wigwam.part/necklace_3_5_cover.png", 
+                "w": 6, 
+                "x": 276, 
+                "y": 510
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "necklace_3_5", 
+                "path": "wigwam.part/necklace_3_5.png", 
+                "w": 36, 
+                "x": 245, 
+                "y": 493
+              }
+            }
+          ], 
+          "name": "necklace_3", 
+          "path": "wigwam.part/necklace_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "necklace_4_1", 
+                "path": "wigwam.part/necklace_4_1.png", 
+                "w": 55, 
+                "x": 650, 
+                "y": 460
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "necklace_4_2", 
+                "path": "wigwam.part/necklace_4_2.png", 
+                "w": 49, 
+                "x": 555, 
+                "y": 223
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "necklace_4_3_cover", 
+                "path": "wigwam.part/necklace_4_3_cover.png", 
+                "w": 33, 
+                "x": 820, 
+                "y": 343
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "necklace_4_3", 
+                "path": "wigwam.part/necklace_4_3.png", 
+                "w": 30, 
+                "x": 821, 
+                "y": 344
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "necklace_4_4_cover", 
+                "path": "wigwam.part/necklace_4_4_cover.png", 
+                "w": 40, 
+                "x": 1080, 
+                "y": 282
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "necklace_4_4", 
+                "path": "wigwam.part/necklace_4_4.png", 
+                "w": 35, 
+                "x": 1082, 
+                "y": 284
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "necklace_4_5_cover", 
+                "path": "wigwam.part/necklace_4_5_cover.png", 
+                "w": 76, 
+                "x": 466, 
+                "y": 15
+              }, 
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "necklace_4_5", 
+                "path": "wigwam.part/necklace_4_5.png", 
+                "w": 72, 
+                "x": 468, 
+                "y": 17
+              }
+            }
+          ], 
+          "name": "necklace_4", 
+          "path": "wigwam.part/necklace_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "necklace_5_1", 
+                "path": "wigwam.part/necklace_5_1.png", 
+                "w": 31, 
+                "x": 504, 
+                "y": 254
+              }
+            }, 
+            {
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "necklace_5_2", 
+                "path": "wigwam.part/necklace_5_2.png", 
+                "w": 31, 
+                "x": 749, 
+                "y": 55
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "necklace_5_3_cover", 
+                "path": "wigwam.part/necklace_5_3_cover.png", 
+                "w": 38, 
+                "x": 1120, 
+                "y": 251
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "necklace_5_3", 
+                "path": "wigwam.part/necklace_5_3.png", 
+                "w": 35, 
+                "x": 1121, 
+                "y": 252
+              }
+            }, 
+            {
+              "cover": {
+                "h": 16, 
+                "layer": 5, 
+                "name": "necklace_5_4_cover", 
+                "path": "wigwam.part/necklace_5_4_cover.png", 
+                "w": 26, 
+                "x": 904, 
+                "y": 182
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "necklace_5_4", 
+                "path": "wigwam.part/necklace_5_4.png", 
+                "w": 39, 
+                "x": 906, 
+                "y": 160
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "necklace_5_5_cover", 
+                "path": "wigwam.part/necklace_5_5_cover.png", 
+                "w": 27, 
+                "x": 667, 
+                "y": 45
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "necklace_5_5", 
+                "path": "wigwam.part/necklace_5_5.png", 
+                "w": 37, 
+                "x": 661, 
+                "y": 38
+              }
+            }
+          ], 
+          "name": "necklace_5", 
+          "path": "wigwam.part/necklace_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "totem_orig", 
+      "path": "wigwam.part/totem_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "totem_1_1", 
+                "path": "wigwam.part/totem_1_1.png", 
+                "w": 63, 
+                "x": 937, 
+                "y": 577
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "totem_1_2", 
+                "path": "wigwam.part/totem_1_2.png", 
+                "w": 50, 
+                "x": 847, 
+                "y": 437
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "totem_1_3_cover", 
+                "path": "wigwam.part/totem_1_3_cover.png", 
+                "w": 54, 
+                "x": 348, 
+                "y": 542
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "totem_1_3", 
+                "path": "wigwam.part/totem_1_3.png", 
+                "w": 59, 
+                "x": 341, 
+                "y": 542
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "totem_1_4_cover", 
+                "path": "wigwam.part/totem_1_4_cover.png", 
+                "w": 32, 
+                "x": 1046, 
+                "y": 391
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "totem_1_4", 
+                "path": "wigwam.part/totem_1_4.png", 
+                "w": 53, 
+                "x": 1054, 
+                "y": 395
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "totem_1_5_cover", 
+                "path": "wigwam.part/totem_1_5_cover.png", 
+                "w": 27, 
+                "x": 732, 
+                "y": 372
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "totem_1_5", 
+                "path": "wigwam.part/totem_1_5.png", 
+                "w": 37, 
+                "x": 733, 
+                "y": 375
+              }
+            }
+          ], 
+          "name": "totem_1", 
+          "path": "wigwam.part/totem_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "totem_2_1", 
+                "path": "wigwam.part/totem_2_1.png", 
+                "w": 37, 
+                "x": 1020, 
+                "y": 352
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "totem_2_2", 
+                "path": "wigwam.part/totem_2_2.png", 
+                "w": 54, 
+                "x": 487, 
+                "y": 315
+              }
+            }, 
+            {
+              "cover": {
+                "h": 66, 
+                "layer": 5, 
+                "name": "totem_2_3_cover", 
+                "path": "wigwam.part/totem_2_3_cover.png", 
+                "w": 44, 
+                "x": 229, 
+                "y": 331
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "totem_2_3", 
+                "path": "wigwam.part/totem_2_3.png", 
+                "w": 45, 
+                "x": 229, 
+                "y": 330
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "totem_2_4_cover", 
+                "path": "wigwam.part/totem_2_4_cover.png", 
+                "w": 45, 
+                "x": 710, 
+                "y": 330
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "totem_2_4", 
+                "path": "wigwam.part/totem_2_4.png", 
+                "w": 38, 
+                "x": 713, 
+                "y": 293
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "totem_2_5_cover", 
+                "path": "wigwam.part/totem_2_5_cover.png", 
+                "w": 50, 
+                "x": 475, 
+                "y": 101
+              }, 
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "totem_2_5", 
+                "path": "wigwam.part/totem_2_5.png", 
+                "w": 45, 
+                "x": 477, 
+                "y": 73
+              }
+            }
+          ], 
+          "name": "totem_2", 
+          "path": "wigwam.part/totem_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "totem_3_1", 
+                "path": "wigwam.part/totem_3_1.png", 
+                "w": 49, 
+                "x": 1199, 
+                "y": 300
+              }
+            }, 
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "totem_3_2", 
+                "path": "wigwam.part/totem_3_2.png", 
+                "w": 67, 
+                "x": 463, 
+                "y": 507
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "totem_3_3_cover", 
+                "path": "wigwam.part/totem_3_3_cover.png", 
+                "w": 37, 
+                "x": 992, 
+                "y": 64
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "totem_3_3", 
+                "path": "wigwam.part/totem_3_3.png", 
+                "w": 48, 
+                "x": 993, 
+                "y": 52
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "totem_3_4_cover", 
+                "path": "wigwam.part/totem_3_4_cover.png", 
+                "w": 42, 
+                "x": 276, 
+                "y": 449
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "totem_3_4", 
+                "path": "wigwam.part/totem_3_4.png", 
+                "w": 59, 
+                "x": 261, 
+                "y": 422
+              }
+            }, 
+            {
+              "cover": {
+                "h": 58, 
+                "layer": 5, 
+                "name": "totem_3_5_cover", 
+                "path": "wigwam.part/totem_3_5_cover.png", 
+                "w": 51, 
+                "x": 595, 
+                "y": 491
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "totem_3_5", 
+                "path": "wigwam.part/totem_3_5.png", 
+                "w": 51, 
+                "x": 592, 
+                "y": 493
+              }
+            }
+          ], 
+          "name": "totem_3", 
+          "path": "wigwam.part/totem_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 100, 
+                "layer": 4, 
+                "name": "totem_4_1", 
+                "path": "wigwam.part/totem_4_1.png", 
+                "w": 42, 
+                "x": 790, 
+                "y": 252
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "totem_4_2", 
+                "path": "wigwam.part/totem_4_2.png", 
+                "w": 107, 
+                "x": 1084, 
+                "y": 359
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "totem_4_3_cover", 
+                "path": "wigwam.part/totem_4_3_cover.png", 
+                "w": 94, 
+                "x": 477, 
+                "y": 183
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "totem_4_3", 
+                "path": "wigwam.part/totem_4_3.png", 
+                "w": 117, 
+                "x": 454, 
+                "y": 190
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "totem_4_4_cover", 
+                "path": "wigwam.part/totem_4_4_cover.png", 
+                "w": 80, 
+                "x": 641, 
+                "y": 75
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "totem_4_4", 
+                "path": "wigwam.part/totem_4_4.png", 
+                "w": 126, 
+                "x": 610, 
+                "y": 70
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "totem_4_5_cover", 
+                "path": "wigwam.part/totem_4_5_cover.png", 
+                "w": 132, 
+                "x": 1112, 
+                "y": 176
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "totem_4_5", 
+                "path": "wigwam.part/totem_4_5.png", 
+                "w": 130, 
+                "x": 1113, 
+                "y": 159
+              }
+            }
+          ], 
+          "name": "totem_4", 
+          "path": "wigwam.part/totem_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "totem_5_1", 
+                "path": "wigwam.part/totem_5_1.png", 
+                "w": 52, 
+                "x": 615, 
+                "y": 298
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "totem_5_2", 
+                "path": "wigwam.part/totem_5_2.png", 
+                "w": 45, 
+                "x": 909, 
+                "y": 263
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "totem_5_3_cover", 
+                "path": "wigwam.part/totem_5_3_cover.png", 
+                "w": 42, 
+                "x": 855, 
+                "y": 356
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "totem_5_3", 
+                "path": "wigwam.part/totem_5_3.png", 
+                "w": 40, 
+                "x": 854, 
+                "y": 357
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "totem_5_4_cover", 
+                "path": "wigwam.part/totem_5_4_cover.png", 
+                "w": 49, 
+                "x": 358, 
+                "y": 413
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "totem_5_4", 
+                "path": "wigwam.part/totem_5_4.png", 
+                "w": 47, 
+                "x": 360, 
+                "y": 416
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "totem_5_5_cover", 
+                "path": "wigwam.part/totem_5_5_cover.png", 
+                "w": 42, 
+                "x": 824, 
+                "y": 83
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "totem_5_5", 
+                "path": "wigwam.part/totem_5_5.png", 
+                "w": 45, 
+                "x": 826, 
+                "y": 68
+              }
+            }
+          ], 
+          "name": "totem_5", 
+          "path": "wigwam.part/totem_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "vegetables_orig", 
+      "path": "wigwam.part/vegetables_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "vegetables_1_1", 
+                "path": "wigwam.part/vegetables_1_1.png", 
+                "w": 93, 
+                "x": 566, 
+                "y": 447
+              }
+            }, 
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "vegetables_1_2", 
+                "path": "wigwam.part/vegetables_1_2.png", 
+                "w": 76, 
+                "x": 1039, 
+                "y": 312
+              }
+            }, 
+            {
+              "cover": {
+                "h": 68, 
+                "layer": 5, 
+                "name": "vegetables_1_3_cover", 
+                "path": "wigwam.part/vegetables_1_3_cover.png", 
+                "w": 26, 
+                "x": 856, 
+                "y": 232
+              }, 
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "vegetables_1_3", 
+                "path": "wigwam.part/vegetables_1_3.png", 
+                "w": 24, 
+                "x": 857, 
+                "y": 227
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "vegetables_1_4_cover", 
+                "path": "wigwam.part/vegetables_1_4_cover.png", 
+                "w": 133, 
+                "x": 1108, 
+                "y": 572
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "vegetables_1_4", 
+                "path": "wigwam.part/vegetables_1_4.png", 
+                "w": 155, 
+                "x": 1094, 
+                "y": 572
+              }
+            }, 
+            {
+              "cover": {
+                "h": 85, 
+                "layer": 5, 
+                "name": "vegetables_1_5_cover", 
+                "path": "wigwam.part/vegetables_1_5_cover.png", 
+                "w": 55, 
+                "x": 419, 
+                "y": 14
+              }, 
+              "pic": {
+                "h": 95, 
+                "layer": 4, 
+                "name": "vegetables_1_5", 
+                "path": "wigwam.part/vegetables_1_5.png", 
+                "w": 54, 
+                "x": 420, 
+                "y": 3
+              }
+            }
+          ], 
+          "name": "vegetables_1", 
+          "path": "wigwam.part/vegetables_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "vegetables_2_1", 
+                "path": "wigwam.part/vegetables_2_1.png", 
+                "w": 99, 
+                "x": 392, 
+                "y": 605
+              }
+            }, 
+            {
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "vegetables_2_2", 
+                "path": "wigwam.part/vegetables_2_2.png", 
+                "w": 91, 
+                "x": 1149, 
+                "y": 451
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "vegetables_2_3_cover", 
+                "path": "wigwam.part/vegetables_2_3_cover.png", 
+                "w": 25, 
+                "x": 887, 
+                "y": 238
+              }, 
+              "pic": {
+                "h": 86, 
+                "layer": 4, 
+                "name": "vegetables_2_3", 
+                "path": "wigwam.part/vegetables_2_3.png", 
+                "w": 25, 
+                "x": 887, 
+                "y": 208
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "vegetables_2_4_cover", 
+                "path": "wigwam.part/vegetables_2_4_cover.png", 
+                "w": 31, 
+                "x": 459, 
+                "y": 463
+              }, 
+              "pic": {
+                "h": 102, 
+                "layer": 4, 
+                "name": "vegetables_2_4", 
+                "path": "wigwam.part/vegetables_2_4.png", 
+                "w": 28, 
+                "x": 460, 
+                "y": 416
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "vegetables_2_5", 
+                "path": "wigwam.part/vegetables_2_5.png", 
+                "w": 21, 
+                "x": 1019, 
+                "y": 0
+              }
+            }
+          ], 
+          "name": "vegetables_2", 
+          "path": "wigwam.part/vegetables_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "vegetables_3_1", 
+                "path": "wigwam.part/vegetables_3_1.png", 
+                "w": 66, 
+                "x": 766, 
+                "y": 471
+              }
+            }, 
+            {
+              "pic": {
+                "h": 20, 
+                "layer": 4, 
+                "name": "vegetables_3_2", 
+                "path": "wigwam.part/vegetables_3_2.png", 
+                "w": 65, 
+                "x": 947, 
+                "y": 456
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "vegetables_3_3_cover", 
+                "path": "wigwam.part/vegetables_3_3_cover.png", 
+                "w": 51, 
+                "x": 689, 
+                "y": 424
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "vegetables_3_3", 
+                "path": "wigwam.part/vegetables_3_3.png", 
+                "w": 52, 
+                "x": 692, 
+                "y": 406
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "vegetables_3_4_cover", 
+                "path": "wigwam.part/vegetables_3_4_cover.png", 
+                "w": 39, 
+                "x": 870, 
+                "y": 181
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "vegetables_3_4", 
+                "path": "wigwam.part/vegetables_3_4.png", 
+                "w": 45, 
+                "x": 861, 
+                "y": 161
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "vegetables_3_5_cover", 
+                "path": "wigwam.part/vegetables_3_5_cover.png", 
+                "w": 55, 
+                "x": 781, 
+                "y": 376
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "vegetables_3_5", 
+                "path": "wigwam.part/vegetables_3_5.png", 
+                "w": 55, 
+                "x": 778, 
+                "y": 360
+              }
+            }
+          ], 
+          "name": "vegetables_3", 
+          "path": "wigwam.part/vegetables_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "vegetables_4_1", 
+                "path": "wigwam.part/vegetables_4_1.png", 
+                "w": 36, 
+                "x": 911, 
+                "y": 423
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "vegetables_4_2", 
+                "path": "wigwam.part/vegetables_4_2.png", 
+                "w": 49, 
+                "x": 396, 
+                "y": 339
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "vegetables_4_3_cover", 
+                "path": "wigwam.part/vegetables_4_3_cover.png", 
+                "w": 38, 
+                "x": 572, 
+                "y": 422
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "vegetables_4_3", 
+                "path": "wigwam.part/vegetables_4_3.png", 
+                "w": 44, 
+                "x": 570, 
+                "y": 406
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "vegetables_4_4_cover", 
+                "path": "wigwam.part/vegetables_4_4_cover.png", 
+                "w": 42, 
+                "x": 305, 
+                "y": 553
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "vegetables_4_4", 
+                "path": "wigwam.part/vegetables_4_4.png", 
+                "w": 48, 
+                "x": 298, 
+                "y": 554
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "vegetables_4_5_cover", 
+                "path": "wigwam.part/vegetables_4_5_cover.png", 
+                "w": 40, 
+                "x": 990, 
+                "y": 253
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "vegetables_4_5", 
+                "path": "wigwam.part/vegetables_4_5.png", 
+                "w": 37, 
+                "x": 992, 
+                "y": 254
+              }
+            }
+          ], 
+          "name": "vegetables_4", 
+          "path": "wigwam.part/vegetables_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "vegetables_5_1", 
+                "path": "wigwam.part/vegetables_5_1.png", 
+                "w": 55, 
+                "x": 822, 
+                "y": 562
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "vegetables_5_2", 
+                "path": "wigwam.part/vegetables_5_2.png", 
+                "w": 46, 
+                "x": 704, 
+                "y": 510
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "vegetables_5_3_cover", 
+                "path": "wigwam.part/vegetables_5_3_cover.png", 
+                "w": 39, 
+                "x": 966, 
+                "y": 178
+              }, 
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "vegetables_5_3", 
+                "path": "wigwam.part/vegetables_5_3.png", 
+                "w": 40, 
+                "x": 964, 
+                "y": 179
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "vegetables_5_4_cover", 
+                "path": "wigwam.part/vegetables_5_4_cover.png", 
+                "w": 41, 
+                "x": 876, 
+                "y": 292
+              }, 
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "vegetables_5_4", 
+                "path": "wigwam.part/vegetables_5_4.png", 
+                "w": 38, 
+                "x": 878, 
+                "y": 294
+              }
+            }, 
+            {
+              "cover": {
+                "h": 9, 
+                "layer": 5, 
+                "name": "vegetables_5_5_cover", 
+                "path": "wigwam.part/vegetables_5_5_cover.png", 
+                "w": 44, 
+                "x": 948, 
+                "y": 66
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "vegetables_5_5", 
+                "path": "wigwam.part/vegetables_5_5.png", 
+                "w": 36, 
+                "x": 952, 
+                "y": 49
+              }
+            }
+          ], 
+          "name": "vegetables_5", 
+          "path": "wigwam.part/vegetables_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "calumet_orig", 
+      "path": "wigwam.part/calumet_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "calumet_1_1", 
+                "path": "wigwam.part/calumet_1_1.png", 
+                "w": 51, 
+                "x": 502, 
+                "y": 135
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "calumet_1_2", 
+                "path": "wigwam.part/calumet_1_2.png", 
+                "w": 44, 
+                "x": 753, 
+                "y": 179
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "calumet_1_3_cover", 
+                "path": "wigwam.part/calumet_1_3_cover.png", 
+                "w": 40, 
+                "x": 1186, 
+                "y": 63
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "calumet_1_3", 
+                "path": "wigwam.part/calumet_1_3.png", 
+                "w": 47, 
+                "x": 1189, 
+                "y": 64
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "calumet_1_4_cover", 
+                "path": "wigwam.part/calumet_1_4_cover.png", 
+                "w": 50, 
+                "x": 353, 
+                "y": 191
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "calumet_1_4", 
+                "path": "wigwam.part/calumet_1_4.png", 
+                "w": 44, 
+                "x": 356, 
+                "y": 184
+              }
+            }, 
+            {
+              "cover": {
+                "h": 29, 
+                "layer": 5, 
+                "name": "calumet_1_5_cover", 
+                "path": "wigwam.part/calumet_1_5_cover.png", 
+                "w": 26, 
+                "x": 956, 
+                "y": 142
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "calumet_1_5", 
+                "path": "wigwam.part/calumet_1_5.png", 
+                "w": 40, 
+                "x": 941, 
+                "y": 126
+              }
+            }
+          ], 
+          "name": "calumet_1", 
+          "path": "wigwam.part/calumet_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "calumet_2_1", 
+                "path": "wigwam.part/calumet_2_1.png", 
+                "w": 89, 
+                "x": 1069, 
+                "y": 616
+              }
+            }, 
+            {
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "calumet_2_2", 
+                "path": "wigwam.part/calumet_2_2.png", 
+                "w": 88, 
+                "x": 476, 
+                "y": 353
+              }
+            }, 
+            {
+              "cover": {
+                "h": 66, 
+                "layer": 5, 
+                "name": "calumet_2_3_cover", 
+                "path": "wigwam.part/calumet_2_3_cover.png", 
+                "w": 24, 
+                "x": 755, 
+                "y": 518
+              }, 
+              "pic": {
+                "h": 89, 
+                "layer": 4, 
+                "name": "calumet_2_3", 
+                "path": "wigwam.part/calumet_2_3.png", 
+                "w": 28, 
+                "x": 751, 
+                "y": 494
+              }
+            }, 
+            {
+              "cover": {
+                "h": 16, 
+                "layer": 5, 
+                "name": "calumet_2_4_cover", 
+                "path": "wigwam.part/calumet_2_4_cover.png", 
+                "w": 95, 
+                "x": 1119, 
+                "y": 531
+              }, 
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "calumet_2_4", 
+                "path": "wigwam.part/calumet_2_4.png", 
+                "w": 92, 
+                "x": 1121, 
+                "y": 531
+              }
+            }, 
+            {
+              "cover": {
+                "h": 22, 
+                "layer": 5, 
+                "name": "calumet_2_5_cover", 
+                "path": "wigwam.part/calumet_2_5_cover.png", 
+                "w": 43, 
+                "x": 322, 
+                "y": 254
+              }, 
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "calumet_2_5", 
+                "path": "wigwam.part/calumet_2_5.png", 
+                "w": 91, 
+                "x": 271, 
+                "y": 258
+              }
+            }
+          ], 
+          "name": "calumet_2", 
+          "path": "wigwam.part/calumet_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 12, 
+                "layer": 5, 
+                "name": "calumet_3_1_cover", 
+                "path": "wigwam.part/calumet_3_1_cover.png", 
+                "w": 77, 
+                "x": 545, 
+                "y": 116
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "calumet_3_1", 
+                "path": "wigwam.part/calumet_3_1.png", 
+                "w": 79, 
+                "x": 545, 
+                "y": 93
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "calumet_3_2", 
+                "path": "wigwam.part/calumet_3_2.png", 
+                "w": 73, 
+                "x": 861, 
+                "y": 608
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "calumet_3_3_cover", 
+                "path": "wigwam.part/calumet_3_3_cover.png", 
+                "w": 51, 
+                "x": 730, 
+                "y": 110
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "calumet_3_3", 
+                "path": "wigwam.part/calumet_3_3.png", 
+                "w": 66, 
+                "x": 719, 
+                "y": 124
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "calumet_3_4_cover", 
+                "path": "wigwam.part/calumet_3_4_cover.png", 
+                "w": 57, 
+                "x": 424, 
+                "y": 385
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "calumet_3_4", 
+                "path": "wigwam.part/calumet_3_4.png", 
+                "w": 82, 
+                "x": 397, 
+                "y": 387
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "calumet_3_5", 
+                "path": "wigwam.part/calumet_3_5.png", 
+                "w": 43, 
+                "x": 703, 
+                "y": 212
+              }
+            }
+          ], 
+          "name": "calumet_3", 
+          "path": "wigwam.part/calumet_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "calumet_4_1", 
+                "path": "wigwam.part/calumet_4_1.png", 
+                "w": 69, 
+                "x": 517, 
+                "y": 566
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "calumet_4_2", 
+                "path": "wigwam.part/calumet_4_2.png", 
+                "w": 54, 
+                "x": 1137, 
+                "y": 425
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "calumet_4_3_cover", 
+                "path": "wigwam.part/calumet_4_3_cover.png", 
+                "w": 34, 
+                "x": 879, 
+                "y": 61
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "calumet_4_3", 
+                "path": "wigwam.part/calumet_4_3.png", 
+                "w": 29, 
+                "x": 880, 
+                "y": 46
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "calumet_4_4_cover", 
+                "path": "wigwam.part/calumet_4_4_cover.png", 
+                "w": 41, 
+                "x": 321, 
+                "y": 443
+              }, 
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "calumet_4_4", 
+                "path": "wigwam.part/calumet_4_4.png", 
+                "w": 41, 
+                "x": 320, 
+                "y": 423
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "calumet_4_5_cover", 
+                "path": "wigwam.part/calumet_4_5_cover.png", 
+                "w": 33, 
+                "x": 314, 
+                "y": 19
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "calumet_4_5", 
+                "path": "wigwam.part/calumet_4_5.png", 
+                "w": 34, 
+                "x": 312, 
+                "y": 4
+              }
+            }
+          ], 
+          "name": "calumet_4", 
+          "path": "wigwam.part/calumet_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "calumet_5_1", 
+                "path": "wigwam.part/calumet_5_1.png", 
+                "w": 43, 
+                "x": 710, 
+                "y": 571
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "calumet_5_2", 
+                "path": "wigwam.part/calumet_5_2.png", 
+                "w": 55, 
+                "x": 1025, 
+                "y": 511
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "calumet_5_3_cover", 
+                "path": "wigwam.part/calumet_5_3_cover.png", 
+                "w": 10, 
+                "x": 988, 
+                "y": 112
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "calumet_5_3", 
+                "path": "wigwam.part/calumet_5_3.png", 
+                "w": 22, 
+                "x": 987, 
+                "y": 112
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "calumet_5_4_cover", 
+                "path": "wigwam.part/calumet_5_4_cover.png", 
+                "w": 44, 
+                "x": 314, 
+                "y": 344
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "calumet_5_4", 
+                "path": "wigwam.part/calumet_5_4.png", 
+                "w": 45, 
+                "x": 321, 
+                "y": 346
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "calumet_5_5_cover", 
+                "path": "wigwam.part/calumet_5_5_cover.png", 
+                "w": 25, 
+                "x": 1012, 
+                "y": 204
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "calumet_5_5", 
+                "path": "wigwam.part/calumet_5_5.png", 
+                "w": 27, 
+                "x": 1010, 
+                "y": 208
+              }
+            }
+          ], 
+          "name": "calumet_5", 
+          "path": "wigwam.part/calumet_5.png"
+        }
+      ]
+    }
+  ]
+}

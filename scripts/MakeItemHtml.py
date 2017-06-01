@@ -4,8 +4,10 @@
 import sys
 import os
 import json
+import base64
 from xml.etree import ElementTree
-
+from collections import OrderedDict
+from TextInfo import load_textinfo
 
 HTML_HEAD = '''<!DOCTYPE html>
 <html>
@@ -20,23 +22,6 @@ HTML_TAIL = '''
 </body>
 </html>
 '''
-
-
-def load_textfile(basedir, lang):
-  '''表示用テキスト情報を読み込む'''
-  if lang == 'en':
-    filename = 'default.xml'
-  else:
-    filename = 'default_{0}.xml'.format(lang)
-
-  textinfo = {}
-  with open(os.path.join(basedir, '1024', 'properties', filename), 'r') as fh:
-    for line in fh:
-      if ':' in line:
-        (key, val) = line.split(':', 1)
-        textinfo[key] = val.strip()
-
-  return textinfo
 
 
 ITEMTYPE = {
@@ -66,53 +51,47 @@ SECTYPE = {
 }
 
 MODEID = {
-  'text':     'IDS_SCENE_TYPE_0',
-  'night':    'IDS_SCENE_TYPE_1',
-  'siluet':   'IDS_SCENE_TYPE_2',
-  'part':     'IDS_SCENE_TYPE_6',
-  'parts':    'IDS_SCENE_TYPE_6',
-  'morph':    'IDS_SCENE_TYPE_8',
-  'couple':   'IDS_SCENE_TYPE_10',
-  'couples':  'IDS_SCENE_TYPE_10',
-  'time':     'IDS_PHENOMEN_1',
-  'mirror':   'IDS_PHENOMEN_2',
-  'smoke':    'IDS_PHENOMEN_4',
-  'scrolleater': 'IDS_PHENOMEN_3',
-  'anagram':  'IDS_PHENOMEN_10',
-  1:  'IDS_PHENOMEN_1',
-  2:  'IDS_PHENOMEN_2',
-  3:  'IDS_PHENOMEN_3',
-  4:  'IDS_PHENOMEN_4',
+  'text': 0,
+  'night': 1,
+  'siluet': 2,
+  'part': 6,
+  'parts': 6,
+  'morph': 8,
+  'couple': 10,
+  'couples': 10,
 }
 
+ANOMALY = {
+  'time': 1,
+  'mirror': 2,
+  'scrolleater': 3,
+  'smoke': 4,
+}
+#IDS_PHENOMEN_1:失われた時間
+#IDS_PHENOMEN_2:幽霊の鏡
+#IDS_PHENOMEN_5:破れた写真
+#IDS_PHENOMEN_3:巻物食らい
+#IDS_PHENOMEN_4:神秘の煙
+#IDS_PHENOMEN_10:呪い
 
-'''
-IDS_SCENE_TYPE_0:Text
-IDS_SCENE_TYPE_1:Night
-IDS_SCENE_TYPE_2:Silhouette
-IDS_SCENE_TYPE_3:Silhouette Night
-IDS_SCENE_TYPE_4:Anagram
-IDS_SCENE_TYPE_5:Anagram Night
-IDS_SCENE_TYPE_6:Pieces
-IDS_SCENE_TYPE_7:Pieces Night
-IDS_SCENE_TYPE_8:Morphs
-IDS_SCENE_TYPE_9:Morphs Night
-IDS_SCENE_TYPE_10:Pairs
-IDS_SCENE_TYPE_11:Pairs Night
-IDS_PHENOMEN_1:Lost Time
-IDS_PHENOMEN_2:Ghostly Mirror
-IDS_PHENOMEN_5:Torn Picture
-IDS_PHENOMEN_3:Scroll Eater
-IDS_PHENOMEN_4:Mystic Smoke
-IDS_PHENOMEN_10:Curse
-'''
-  
-def load_iteminfo(basedir):
+#IDS_SCENE_TYPE_0:文字
+#IDS_SCENE_TYPE_1:夜
+#IDS_SCENE_TYPE_2:シルエット
+#IDS_SCENE_TYPE_3:シルエット 夜
+#IDS_SCENE_TYPE_4:文字替え
+#IDS_SCENE_TYPE_5:文字替え 夜
+#IDS_SCENE_TYPE_6:かけら
+#IDS_SCENE_TYPE_7:かけら 夜
+#IDS_SCENE_TYPE_8:モーフ
+#IDS_SCENE_TYPE_9:モーフ 夜
+#IDS_SCENE_TYPE_10:ペア
+
+def load_iteminfo(resdir):
   '''アイテム情報を読み込む'''
   items = {}
 
   # アイテム基本情報 (ID, 種別)
-  root = ElementTree.parse(os.path.join(basedir, '1024', 'properties', 'items.xml')).getroot()
+  root = ElementTree.parse(os.path.join(resdir, '1024', 'properties', 'items.xml')).getroot()
   for item in root:
     id_ = int(item.get('id'))
     sectype = item.get('secType')
@@ -131,18 +110,20 @@ def load_iteminfo(basedir):
       pass
 
   # 通常入手可能なシーン・レベル
-  with open(os.path.join(basedir, '1024', 'properties', 'loots.json'), 'r') as fh:
+  with open(os.path.join(resdir, '1024', 'properties', 'loots.json'), 'r') as fh:
     jdata = json.load(fh)
     
   for s in jdata['scenes']:
     if 'scene_id' in s:
       where = 'scene'
       scid = s['scene_id']
+      
     elif 'puzzle_id' in s:
-      where = 'puzzle_id'
+      where = 'puzzle'
       scid = s['puzzle_id']
       if scid < 0:
         scid = -(scid)
+        
     else:
       raise RuntimeError('No scene_id nor puzzle_id defined')
 
@@ -161,12 +142,13 @@ def load_iteminfo(basedir):
         
       items[item]['found'].append(found)
 
-  # モード・状態で追加入手可能なもの
-  root = ElementTree.parse(os.path.join(basedir, '1024', 'properties', 'additional_loots.xml')).getroot()
+  # 特定のモード・状態で追加入手可能なもの
+  root = ElementTree.parse(os.path.join(resdir, '1024', 'properties', 'additional_loots.xml')).getroot()
+
   for node in root:
     if node.tag != 'scene':
       continue
-      
+
     try:
       chance = int(node.get('chance'))
     except StandardError:
@@ -174,24 +156,31 @@ def load_iteminfo(basedir):
     
     mode = node.get('name')
     type = node.get('type')
+ 
     if type == 'scenetype':
-      cond = 'mode'
+      if mode == 'anagram':
+        cond = 'anomaly'
+        mode = 10
+      else:
+        cond = 'mode'
+        mode = MODEID[mode]
     else:
       cond = 'anomaly'
+      mode = ANOMALY[mode]
     
     for l in node:
       try:
-        item = int(l.get(item))
+        item = int(l.get('item'))
       except StandardError:
         continue
       
       items[item]['found'].append({
-        cond: MODEID[mode],
+        cond: mode,
         'chance': chance
       })
 
   # クエストで入手可能なシーン・モード
-  with open(os.path.join(basedir, '1024', 'properties', 'quests.xml'), 'r') as fh:
+  with open(os.path.join(resdir, '1024', 'properties', 'quests.xml'), 'r') as fh:
     jdata = json.load(fh)
     
   for q in jdata['quests'].values():
@@ -201,7 +190,8 @@ def load_iteminfo(basedir):
     for i in q['findItem'].values():
       item = i['itemId']
       if item not in items:
-        sys.stderr.write('Unknown item id {0} in quest {1}\n'.format(item, json.dumps(q, indent=2)))
+#        sys.stderr.write('Unknown item id {0} in quest {1}\n'.format(item, json.dumps(q, indent=2)))
+        sys.stderr.write('Unknown item id {0} in quest {1}\n'.format(item, q['uid']))
         continue
  
       if 'lookInScenes' in i:
@@ -225,7 +215,7 @@ def load_iteminfo(basedir):
           for (anomaly, chance) in zip(i['Chances']['anomaly'], i['Chances']['chance']):
             items[item]['found'].append({
               'quest': q['uid'],
-              'anomaly': MODEID[anomaly],
+              'anomaly': anomaly,
               'chance': chance,
             })
 
@@ -233,7 +223,7 @@ def load_iteminfo(basedir):
           for chance in i['Chances']['chance']:
             items[item]['found'].append({
               'quest': q['uid'],
-              'anomaly': 'IDS_PHENOMEN_10',
+              'anomaly': 10,
               'chance': chance,
             })
             
@@ -242,7 +232,7 @@ def load_iteminfo(basedir):
             items[item]['found'].append({
               'quest': q['uid'],
               'scene': scene,
-              'anomaly': 'IDS_PHENOMEN_10',
+              'anomaly': 10,
               'chance': chance,
             })
 
@@ -267,34 +257,122 @@ def load_iteminfo(basedir):
           raise RuntimeError('Unknown "Chance" quest type: {1}'.format(json.dumps(q, indent=2)))
 
 
-
   return items
 
 
-def load_collections(basedir):
-  '''コレクション情報を読み込む'''
-  with open(os.path.join(basedir, '1024', 'properties', 'collections.json'), 'r') as fh:
-    jdata = json.load(fh)
+def output_json(iteminfo, collinfo, textinfo, dstdir, imgdir):
 
-  collections = [[]]
-  artifacts = []
-  
-  for c in jdata:
-    if c['type'] == 'collection':
-      if len(collections[-1]) >= 100:
-        collections.append([])
+  def get_iteminfo(itemid):
+    info = {
+      'id': itemid,
+      'name': textinfo['ITEM'][itemid]['NAME'],
+      'desc': ''.join(textinfo['ITEM'][itemid]['INFO']),
+      #'info': iteminfo[itemid],
+      'gift': (not iteminfo.get('nogift')),
+      'icon': 'images/items/{0}.png'.format(itemid),
+      'find': [],
+    }
+    
+    if imgdir:
+      with open('{0}/items/{1}.png'.format(imgdir, itemid), 'r') as fh:
+        info['data'] = 'data:image/png;base64,' + base64.b64encode(fh.read())
+      
+    if iteminfo[itemid]['type'] == 0:
+      info['find'].append(u'遺物を組み合わせる')
+    
+    elif iteminfo[itemid]['type'] == 5:
+      info['find'].append(u'コレクションを組み合わせる')
+
+    elif iteminfo[itemid]['type'] == 4:
+      for find in iteminfo[itemid]['found']:
+        where = {}
+        cond = []
         
-      collections[-1].append(c)
-    elif c['type'] == 'artifact':
-      artifacts.append(c)
+        if 'quest' in find:
+          where['quest'] = textinfo['QUEST'][find['quest']]['NAME']
+
+        if 'scene' in find:
+          where['where'] = textinfo['SCENE'][find['scene']]['NAME']
+
+        if 'puzzle' in find:
+          where['where'] = textinfo['PUZZLE'][find['puzzle']]['NAME']
+
+        if 'mode' in find:
+          cond.append(textinfo['SCENETYPE'][find['mode']]['NAME'] + u'モード')
+ 
+        if 'anomaly' in find:
+          cond.append(textinfo['PHENOMEN'][find['anomaly']]['NAME'] + u'の異常')
+            
+        if 'level' in find:
+          cond.append(textinfo['LEVEL'][find['level'] - 1]['NAME'] + u'レベル以上')
+
+        if 'chance' in find:
+          where['prob'] = '{0}%'.format(find['chance'])
+
+        if cond:
+          where['cond'] = ', '.join(cond)
+        
+        info['find'].append(where)
+      
     else:
-      print c
-      raise RuntimeError('unknown type')
+      sys.stderr.write(json.dumps(iteminfo[itemid], indent=2))
+      raise RuntimeError('unexpected item type')
+      
+    return info
+    
+    
+  collections = {}
+  artifacts = {}
+  
+  for c in collinfo:
+    if c['type'] == 'collection':
+      target = collections
+    else:
+      target = artifacts
+      
+    target[c['id']] = {
+      'items': [get_iteminfo(i) for i in c['items'] + [c['main_item_id']]],
+      'charges': [
+        {
+          'id': i['id'],
+          'count': i['count'],
+          'name': textinfo['ITEM'][i['id']]['NAME']
+        } for i in c['charges']],
+      'rewards': [
+        {
+          'id': i['id'],
+          'count': i['count'],
+          'name': textinfo['ITEM'][i['id']]['NAME']
+        } for i in c['rewards']],
+    }
 
-  return (collections, artifacts)
+  if imgdir:
+    idx = 1
+    output = {}
+    limit = 50
+    for (key, val) in sorted(collections.items()):
+      if idx not in output:
+        output[idx] = {}
+        
+      output[idx][key] = val
+      if len(output[idx]) == limit:
+        idx += 1
 
+    for (key, val) in sorted(output.items()):
+      with open(os.path.join(dstdir, 'collections_{0}.json').format(key), 'w') as fh:
+          fh.write(json.dumps(val, indent=2, ensure_ascii=False).encode('utf-8'))
 
+    with open(os.path.join(dstdir, 'artifacts.json').format(key), 'w') as fh:
+      fh.write(json.dumps(artifacts, indent=2, ensure_ascii=False).encode('utf-8'))
 
+  else:
+    with open(os.path.join(dstdir, 'collections_all.json'), 'w') as fh:
+      fh.write(json.dumps(
+        {'collections': collections, 'artifacts': artifacts},
+        indent=2, ensure_ascii=False).encode('utf-8'))
+
+    
+        
 def write_index(collections, artifacts, textinfo, dstdir):
   '''索引ページを出力する'''
   with open(os.path.join(dstdir, 'collections.html'), 'w') as fh:
@@ -494,15 +572,22 @@ def write_collist(colinfo, textinfo, iteminfo, dstdir):
 
 def main():
   try:
-    (basedir, dstdir, lang) = sys.argv[1:]
+    (resdir, dstdir, lang, imgdir) = sys.argv[1:]
   except StandardError:
-    sys.stderr.write('Usage: {0} basedir dstdir lang\n'.format(sys.argv[0]))
+    sys.stderr.write('Usage: {0} resdir dstdir lang {{imgdir|-}}\n'.format(sys.argv[0]))
     sys.exit(2)
 
-  textinfo = load_textfile(basedir, lang)
-  iteminfo = load_iteminfo(basedir)
+  textinfo = load_textinfo(resdir, lang)
+  #print json.dumps(textinfo, indent=2, sort_keys=True, ensure_ascii=False).encode('utf-8')
+  
+  iteminfo = load_iteminfo(resdir)
 
-  print json.dumps(iteminfo, indent=2, sort_keys=True)
+  with open(os.path.join(resdir, '1024', 'properties', 'collections.json'), 'r') as fh:
+    collinfo = json.load(fh)
+
+  output_json(iteminfo, collinfo, textinfo, dstdir, imgdir if imgdir != '-' else None);
+  
+  #print json.dumps(iteminfo, indent=2, sort_keys=True)
   '''
   htmllist = write_index(collections, artifacts, textinfo, dstdir)
 

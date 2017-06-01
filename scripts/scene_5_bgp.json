@@ -1,0 +1,78 @@
+[
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/ghost1.png", 
+    "type": "effect", 
+    "x": 378, 
+    "y": 292
+  }, 
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/ghost2.png", 
+    "type": "effect", 
+    "x": 935, 
+    "y": 318
+  }, 
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/ghost1_cover.png", 
+    "type": "effect", 
+    "x": 345, 
+    "y": 280
+  }, 
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/ghost2_cover.png", 
+    "type": "effect", 
+    "x": 733, 
+    "y": 264
+  }, 
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/fog.png", 
+    "type": "effect", 
+    "x": 696, 
+    "y": 244
+  }, 
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/glow1.png", 
+    "type": "effect", 
+    "x": 806, 
+    "y": 275
+  }, 
+  {
+    "layer": 2, 
+    "path": "ghost_city.bg/glow2.png", 
+    "type": "effect", 
+    "x": 651, 
+    "y": 275
+  }, 
+  {
+    "layer": 22, 
+    "path": "ghost_city.bg/smoke.png", 
+    "type": "effect", 
+    "x": 0, 
+    "y": 376
+  }, 
+  {
+    "layer": 22, 
+    "path": "ghost_city.bg/smoke1.png", 
+    "type": "skip", 
+    "x": 268, 
+    "y": 355
+  }, 
+  {
+    "layer": 22, 
+    "path": "ghost_city.bg/smoke2.png", 
+    "type": "skip", 
+    "x": 676, 
+    "y": 450
+  }
+]

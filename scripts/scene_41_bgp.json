@@ -1,0 +1,56 @@
+[
+  {
+    "layer": 0, 
+    "path": "luxury_express.bg/back.png", 
+    "x": 324, 
+    "y": 143
+  }, 
+  {
+    "layer": 1, 
+    "path": "luxury_express.bg/tree_left_01.png", 
+    "type": "skip", 
+    "x": 628, 
+    "y": 202
+  }, 
+  {
+    "layer": 1, 
+    "path": "luxury_express.bg/tree_left_02.png", 
+    "type": "skip", 
+    "x": 628, 
+    "y": 232
+  }, 
+  {
+    "layer": 1, 
+    "path": "luxury_express.bg/tree_right_01.png", 
+    "type": "skip", 
+    "x": 828, 
+    "y": 295
+  }, 
+  {
+    "layer": 1, 
+    "path": "luxury_express.bg/tree_right_02.png", 
+    "type": "skip", 
+    "x": 828, 
+    "y": 220
+  }, 
+  {
+    "layer": 2, 
+    "path": "luxury_express.bg/telephone_pole_left.png", 
+    "type": "skip", 
+    "x": 628, 
+    "y": 182
+  }, 
+  {
+    "layer": 2, 
+    "path": "luxury_express.bg/telephone_pole_right.png", 
+    "type": "skip", 
+    "x": 828, 
+    "y": 182
+  }, 
+  {
+    "layer": 3, 
+    "path": "luxury_express.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }
+]

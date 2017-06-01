@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hidden Object Finder</title>
+<script src="ObjectFinder.js"></script>
+<link rel="stylesheet" type="text/css" href="ObjectFinder.css">
+</head>
+
+<body onLoad="init(3);">
+<h1>Hidden Object Finder</h1>
+
+<!-- シーン、描画方式制御 -->
+<div id="visual_control">
+  <!-- シーン選択ドロップダウンリスト -->
+  <select id="select_scene" onchange="scene_change();"></select>
+
+  <!-- 描画サイズスライダ -->
+  <span style="white-space: nowrap;">描画サイズ：小&nbsp;<input type="range" id="scale"
+    value="5" min="1" max="10" onchange="scalechange();">&nbsp;大</span>
+
+  <!-- エフェクト描画チェックボックス -->
+  <span style="white-space: nowap;"><input type="checkbox" id="effect"
+    onclick="all_objects(-1);"><label for="effect" id="effect_label"
+    >エフェクト描画</label></span>
+
+  <!-- ローレゾ版チェックボックス -->
+  <span style="white-space: nowrap;"><input type="checkbox" id="lowres"
+    onclick="change_res();"><label for="lowres" id="effect_label"
+    >低解像度版（ロード時間短縮）</label></span>
+</div>
+
+<!-- シーン描画キャンバス -->
+<div id="scene_cvframe">
+  <canvas id="scene_canvas"></canvas>
+</div>
+
+<!-- イメージロード中スピナー -->
+<div id="scene_spframe" class="spinner_frame">
+  <div id="scene_spinner" class="spinner"></div>
+  <div id="scene_sptext" align="center">スクリプトが実行できません。<br>
+    別のブラウザを使ってみてください。</div>
+</div>
+<!-- ブラウザによってcanvasの下に数ピクセルの余白が入るのでスペーサーを入れる -->
+<div id="scene_spacer"></div>
+
+<!-- 個別バックグラウンドアイテム描画制御 -->
+<div id="background_control">
+  <input type="button" value="クリア" onclick="all_objects(0);">
+  <input type="button" value="全て" onclick="all_objects(1);">
+  <span style="white-space: nowrap;">背景色：<select id="background" onchange="color_change();">
+    <option value="#ffffff">white</option>
+    <option value="#cccccc">silver</option>
+    <option value="#888888">gray</option>
+    <option value="#000000">black</option>
+    </select></span>
+  <form id="select_object" onchange="drawscene();"></form>
+</div>
+
+<!-- モードおよびオブジェクト描画オプション -->
+<div id="object_control">
+  <span style="white-space: nowrap;">モード：<select id="mode_sel" onchange="mode_change();">
+    <option value="form">文字・夜・シルエット・ペア</option>
+    <option value="part">かけら</option>
+    <option value="morph">モーフ</option>
+    </select></span>
+
+  <span style="white-space: nowrap;"><input type="checkbox" id="drawobj" onclick="drawobject();"
+    checked="checked"><label for="drawobj" id="drawobj_label">オブジェクトを描画</label></span>
+
+  <span style="white-space: nowrap;"><input type="checkbox" id="topmost" onclick="drawobject();"
+    ><label for="topmost" id="topmost_label">最前面に描画</label></span>
+
+  <span style="white-space: nowrap;"><input type="checkbox" id="encircle" onclick="drawobject();"
+    checked="checked"><label for="encircle" id="encircle_label">円で囲む</label></span>
+</div>
+
+<!-- モーフオブジェクト形状選択 -->
+<div id="morph_control">
+  <span style="white-space: nowrap;">モーフ形状：<input type="radio" name="morph_sel"
+    id="morph0" value="0" onclick="drawobject();" checked="checked"><label for="morph0"
+    id="morph0_label">自動(3秒間隔)</label></span>
+
+  <span style="white-space: nowrap;"><input type="radio" name="morph_sel" id="morph1" value="1"
+    onclick="drawobject();"><label for="morph1" id="morph1_label">形状1</label></span>
+
+  <span style="white-space: nowrap;"><input type="radio" name="morph_sel" id="morph2" value="2"
+    onclick="drawobject();"><label for="morph2" id="morph2_label">形状2</label></span>
+</div>
+
+<!-- オブジェクト選択メニュー -->
+<div id="menu_cvframe">
+  <canvas id="menu_canvas" onclick="menu_click(event);"></canvas>
+</div>
+<div id="menu_spframe" class="spinner_frame">
+  <div id="menu_spinner" class="spinner"></div>
+  <div id="menu_errtext"></div>
+</div>
+</body>
+</html>

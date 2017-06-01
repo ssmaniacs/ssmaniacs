@@ -1,0 +1,69 @@
+[
+  {
+    "layer": 3, 
+    "path": "treasure_island.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 3, 
+    "path": "treasure_island.bg/bonfire_01.png", 
+    "x": 489, 
+    "y": 484
+  }, 
+  {
+    "layer": 3, 
+    "path": "treasure_island.bg/plant1.png", 
+    "x": 1074, 
+    "y": 0
+  }, 
+  {
+    "layer": 3, 
+    "path": "treasure_island.bg/plant2.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 3, 
+    "path": "treasure_island.bg/palm_leaves4.png", 
+    "x": 190, 
+    "y": 19
+  }, 
+  {
+    "layer": 3, 
+    "path": "treasure_island.bg/palm_leaves5.png", 
+    "x": 151, 
+    "y": 151
+  }, 
+  {
+    "layer": 3, 
+    "path": "treasure_island.bg/palm_leaves6.png", 
+    "x": 244, 
+    "y": 107
+  }, 
+  {
+    "layer": 3, 
+    "path": "treasure_island.bg/palm_leaves7.png", 
+    "x": 238, 
+    "y": 232
+  }, 
+  {
+    "layer": 10, 
+    "path": "treasure_island.bg/palm_leaves1.png", 
+    "x": 1218, 
+    "y": 132
+  }, 
+  {
+    "layer": 10, 
+    "path": "treasure_island.bg/palm_leaves2.png", 
+    "x": 1103, 
+    "y": 122
+  }, 
+  {
+    "layer": 10, 
+    "path": "treasure_island.bg/palm_leaves3.png", 
+    "x": 1054, 
+    "y": -5
+  }
+]

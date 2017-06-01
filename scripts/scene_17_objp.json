@@ -1,0 +1,7056 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 86, 
+            "layer": 3, 
+            "name": "cobra1", 
+            "path": "grand_bazaar.form/cobra1.png", 
+            "w": 82, 
+            "x": 317, 
+            "y": 426
+          }
+        }, 
+        {
+          "pic": {
+            "h": 86, 
+            "layer": 3, 
+            "name": "cobra2", 
+            "path": "grand_bazaar.form/cobra2.png", 
+            "w": 85, 
+            "x": 372, 
+            "y": 545
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "cobra3_cover", 
+            "path": "grand_bazaar.form/cobra3_cover.png", 
+            "w": 31, 
+            "x": 525, 
+            "y": 408
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cobra3", 
+            "path": "grand_bazaar.form/cobra3.png", 
+            "w": 53, 
+            "x": 499, 
+            "y": 407
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "cobra4_cover", 
+            "path": "grand_bazaar.form/cobra4_cover.png", 
+            "w": 55, 
+            "x": 757, 
+            "y": 434
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cobra4", 
+            "path": "grand_bazaar.form/cobra4.png", 
+            "w": 52, 
+            "x": 758, 
+            "y": 407
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "cobra5_cover", 
+            "path": "grand_bazaar.form/cobra5_cover.png", 
+            "w": 61, 
+            "x": 623, 
+            "y": 352
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "cobra5", 
+            "path": "grand_bazaar.form/cobra5.png", 
+            "w": 52, 
+            "x": 629, 
+            "y": 323
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "cobra6_cover", 
+            "path": "grand_bazaar.form/cobra6_cover.png", 
+            "w": 54, 
+            "x": 336, 
+            "y": 339
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "cobra6", 
+            "path": "grand_bazaar.form/cobra6.png", 
+            "w": 48, 
+            "x": 339, 
+            "y": 315
+          }
+        }
+      ], 
+      "name": "コブラ", 
+      "path": "grand_bazaar.sils/cobra.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 71, 
+            "layer": 3, 
+            "name": "stool1", 
+            "path": "grand_bazaar.form/stool1.png", 
+            "w": 92, 
+            "x": 890, 
+            "y": 429
+          }
+        }, 
+        {
+          "pic": {
+            "h": 71, 
+            "layer": 3, 
+            "name": "stool2", 
+            "path": "grand_bazaar.form/stool2.png", 
+            "w": 87, 
+            "x": 367, 
+            "y": 417
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "stool3_cover", 
+            "path": "grand_bazaar.form/stool3_cover.png", 
+            "w": 26, 
+            "x": 544, 
+            "y": 358
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "stool3", 
+            "path": "grand_bazaar.form/stool3.png", 
+            "w": 54, 
+            "x": 516, 
+            "y": 359
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "stool4_cover", 
+            "path": "grand_bazaar.form/stool4_cover.png", 
+            "w": 47, 
+            "x": 979, 
+            "y": 127
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "stool4", 
+            "path": "grand_bazaar.form/stool4.png", 
+            "w": 57, 
+            "x": 970, 
+            "y": 94
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "stool5", 
+            "path": "grand_bazaar.form/stool5.png", 
+            "w": 55, 
+            "x": 1191, 
+            "y": 205
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "stool6_cover", 
+            "path": "grand_bazaar.form/stool6_cover.png", 
+            "w": 48, 
+            "x": 836, 
+            "y": 35
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "stool6", 
+            "path": "grand_bazaar.form/stool6.png", 
+            "w": 47, 
+            "x": 835, 
+            "y": 27
+          }
+        }
+      ], 
+      "name": "スツール", 
+      "path": "grand_bazaar.sils/stool.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 87, 
+            "layer": 3, 
+            "name": "samovar1", 
+            "path": "grand_bazaar.form/samovar1.png", 
+            "w": 58, 
+            "x": 849, 
+            "y": 413
+          }
+        }, 
+        {
+          "pic": {
+            "h": 91, 
+            "layer": 3, 
+            "name": "samovar2", 
+            "path": "grand_bazaar.form/samovar2.png", 
+            "w": 53, 
+            "x": 589, 
+            "y": 402
+          }
+        }, 
+        {
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "samovar3", 
+            "path": "grand_bazaar.form/samovar3.png", 
+            "w": 45, 
+            "x": 290, 
+            "y": 403
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "samovar4_cover", 
+            "path": "grand_bazaar.form/samovar4_cover.png", 
+            "w": 45, 
+            "x": 255, 
+            "y": 330
+          }, 
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "samovar4", 
+            "path": "grand_bazaar.form/samovar4.png", 
+            "w": 38, 
+            "x": 261, 
+            "y": 296
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "samovar5_cover", 
+            "path": "grand_bazaar.form/samovar5_cover.png", 
+            "w": 21, 
+            "x": 671, 
+            "y": 335
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "samovar5", 
+            "path": "grand_bazaar.form/samovar5.png", 
+            "w": 37, 
+            "x": 671, 
+            "y": 302
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "samovar6_cover", 
+            "path": "grand_bazaar.form/samovar6_cover.png", 
+            "w": 37, 
+            "x": 637, 
+            "y": 151
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "samovar6", 
+            "path": "grand_bazaar.form/samovar6.png", 
+            "w": 37, 
+            "x": 633, 
+            "y": 153
+          }
+        }
+      ], 
+      "name": "サモワール", 
+      "path": "grand_bazaar.sils/samovar.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "cat1", 
+            "path": "grand_bazaar.form/cat1.png", 
+            "w": 97, 
+            "x": 795, 
+            "y": 539
+          }
+        }, 
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "cat2", 
+            "path": "grand_bazaar.form/cat2.png", 
+            "w": 72, 
+            "x": 250, 
+            "y": 479
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "cat3", 
+            "path": "grand_bazaar.form/cat3.png", 
+            "w": 61, 
+            "x": 878, 
+            "y": 361
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "cat4_cover", 
+            "path": "grand_bazaar.form/cat4_cover.png", 
+            "w": 63, 
+            "x": 1189, 
+            "y": 338
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "cat4", 
+            "path": "grand_bazaar.form/cat4.png", 
+            "w": 57, 
+            "x": 1193, 
+            "y": 326
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "cat5_cover", 
+            "path": "grand_bazaar.form/cat5_cover.png", 
+            "w": 62, 
+            "x": 1183, 
+            "y": 45
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "cat5", 
+            "path": "grand_bazaar.form/cat5.png", 
+            "w": 57, 
+            "x": 1186, 
+            "y": 33
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "cat6_cover", 
+            "path": "grand_bazaar.form/cat6_cover.png", 
+            "w": 46, 
+            "x": 371, 
+            "y": 53
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "cat6", 
+            "path": "grand_bazaar.form/cat6.png", 
+            "w": 41, 
+            "x": 373, 
+            "y": 54
+          }
+        }
+      ], 
+      "name": "猫", 
+      "path": "grand_bazaar.sils/cat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "turka1", 
+            "path": "grand_bazaar.form/turka1.png", 
+            "w": 55, 
+            "x": 1068, 
+            "y": 335
+          }
+        }, 
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "turka2", 
+            "path": "grand_bazaar.form/turka2.png", 
+            "w": 52, 
+            "x": 440, 
+            "y": 302
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 5, 
+            "name": "turka3_cover", 
+            "path": "grand_bazaar.form/turka3_cover.png", 
+            "w": 31, 
+            "x": 806, 
+            "y": 418
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "turka3", 
+            "path": "grand_bazaar.form/turka3.png", 
+            "w": 38, 
+            "x": 797, 
+            "y": 383
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "turka4_cover", 
+            "path": "grand_bazaar.form/turka4_cover.png", 
+            "w": 33, 
+            "x": 307, 
+            "y": 336
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "turka4", 
+            "path": "grand_bazaar.form/turka4.png", 
+            "w": 39, 
+            "x": 310, 
+            "y": 318
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "turka5_cover", 
+            "path": "grand_bazaar.form/turka5_cover.png", 
+            "w": 44, 
+            "x": 802, 
+            "y": 314
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "turka5", 
+            "path": "grand_bazaar.form/turka5.png", 
+            "w": 39, 
+            "x": 805, 
+            "y": 316
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "turka6_cover", 
+            "path": "grand_bazaar.form/turka6_cover.png", 
+            "w": 34, 
+            "x": 1182, 
+            "y": 309
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "turka6", 
+            "path": "grand_bazaar.form/turka6.png", 
+            "w": 38, 
+            "x": 1175, 
+            "y": 287
+          }
+        }
+      ], 
+      "name": "トルコのコーヒーポット", 
+      "path": "grand_bazaar.sils/turka.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "pilaw1", 
+            "path": "grand_bazaar.form/pilaw1.png", 
+            "w": 56, 
+            "x": 681, 
+            "y": 366
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "pilaw2", 
+            "path": "grand_bazaar.form/pilaw2.png", 
+            "w": 56, 
+            "x": 1017, 
+            "y": 503
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 5, 
+            "name": "pilaw3_cover", 
+            "path": "grand_bazaar.form/pilaw3_cover.png", 
+            "w": 44, 
+            "x": 1130, 
+            "y": 374
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "pilaw3", 
+            "path": "grand_bazaar.form/pilaw3.png", 
+            "w": 52, 
+            "x": 1119, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "pilaw4_cover", 
+            "path": "grand_bazaar.form/pilaw4_cover.png", 
+            "w": 35, 
+            "x": 471, 
+            "y": 395
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "pilaw4", 
+            "path": "grand_bazaar.form/pilaw4.png", 
+            "w": 48, 
+            "x": 477, 
+            "y": 398
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "pilaw5_cover", 
+            "path": "grand_bazaar.form/pilaw5_cover.png", 
+            "w": 51, 
+            "x": 599, 
+            "y": 91
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "pilaw5", 
+            "path": "grand_bazaar.form/pilaw5.png", 
+            "w": 47, 
+            "x": 601, 
+            "y": 93
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "pilaw6_cover", 
+            "path": "grand_bazaar.form/pilaw6_cover.png", 
+            "w": 43, 
+            "x": 308, 
+            "y": 378
+          }, 
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "pilaw6", 
+            "path": "grand_bazaar.form/pilaw6.png", 
+            "w": 41, 
+            "x": 307, 
+            "y": 364
+          }
+        }
+      ], 
+      "name": "ピラフ", 
+      "path": "grand_bazaar.sils/pilaw.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "rat1", 
+            "path": "grand_bazaar.form/rat1.png", 
+            "w": 53, 
+            "x": 290, 
+            "y": 616
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "rat2", 
+            "path": "grand_bazaar.form/rat2.png", 
+            "w": 57, 
+            "x": 1185, 
+            "y": 552
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "rat3_cover", 
+            "path": "grand_bazaar.form/rat3_cover.png", 
+            "w": 29, 
+            "x": 900, 
+            "y": 534
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "rat3", 
+            "path": "grand_bazaar.form/rat3.png", 
+            "w": 48, 
+            "x": 878, 
+            "y": 536
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "rat4_cover", 
+            "path": "grand_bazaar.form/rat4_cover.png", 
+            "w": 32, 
+            "x": 551, 
+            "y": 31
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "rat4", 
+            "path": "grand_bazaar.form/rat4.png", 
+            "w": 51, 
+            "x": 556, 
+            "y": 33
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "rat5_cover", 
+            "path": "grand_bazaar.form/rat5_cover.png", 
+            "w": 26, 
+            "x": 1122, 
+            "y": 203
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "rat5", 
+            "path": "grand_bazaar.form/rat5.png", 
+            "w": 49, 
+            "x": 1125, 
+            "y": 205
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "rat6_cover", 
+            "path": "grand_bazaar.form/rat6_cover.png", 
+            "w": 51, 
+            "x": 508, 
+            "y": 615
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "rat6", 
+            "path": "grand_bazaar.form/rat6.png", 
+            "w": 51, 
+            "x": 500, 
+            "y": 619
+          }
+        }
+      ], 
+      "name": "ネズミ", 
+      "path": "grand_bazaar.sils/rat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "slipper1", 
+            "path": "grand_bazaar.form/slipper1.png", 
+            "w": 76, 
+            "x": 666, 
+            "y": 523
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "slipper2", 
+            "path": "grand_bazaar.form/slipper2.png", 
+            "w": 76, 
+            "x": 328, 
+            "y": 570
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "slipper3", 
+            "path": "grand_bazaar.form/slipper3.png", 
+            "w": 45, 
+            "x": 235, 
+            "y": 168
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "slipper4_cover", 
+            "path": "grand_bazaar.form/slipper4_cover.png", 
+            "w": 51, 
+            "x": 899, 
+            "y": 511
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "slipper4", 
+            "path": "grand_bazaar.form/slipper4.png", 
+            "w": 68, 
+            "x": 877, 
+            "y": 501
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "slipper5_cover", 
+            "path": "grand_bazaar.form/slipper5_cover.png", 
+            "w": 25, 
+            "x": 1143, 
+            "y": 0
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "slipper5", 
+            "path": "grand_bazaar.form/slipper5.png", 
+            "w": 30, 
+            "x": 1136, 
+            "y": 1
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "slipper6_cover", 
+            "path": "grand_bazaar.form/slipper6_cover.png", 
+            "w": 31, 
+            "x": 842, 
+            "y": 291
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "slipper6", 
+            "path": "grand_bazaar.form/slipper6.png", 
+            "w": 30, 
+            "x": 843, 
+            "y": 263
+          }
+        }
+      ], 
+      "name": "スリッパ", 
+      "path": "grand_bazaar.sils/slipper.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "turban1", 
+            "path": "grand_bazaar.form/turban1.png", 
+            "w": 52, 
+            "x": 771, 
+            "y": 164
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "turban2", 
+            "path": "grand_bazaar.form/turban2.png", 
+            "w": 52, 
+            "x": 1152, 
+            "y": 102
+          }
+        }, 
+        {
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "turban3", 
+            "path": "grand_bazaar.form/turban3.png", 
+            "w": 48, 
+            "x": 372, 
+            "y": 360
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "turban4_cover", 
+            "path": "grand_bazaar.form/turban4_cover.png", 
+            "w": 47, 
+            "x": 605, 
+            "y": 50
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "turban4", 
+            "path": "grand_bazaar.form/turban4.png", 
+            "w": 40, 
+            "x": 607, 
+            "y": 52
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "turban5_cover", 
+            "path": "grand_bazaar.form/turban5_cover.png", 
+            "w": 24, 
+            "x": 1124, 
+            "y": 243
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "turban5", 
+            "path": "grand_bazaar.form/turban5.png", 
+            "w": 41, 
+            "x": 1127, 
+            "y": 244
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "turban6_cover", 
+            "path": "grand_bazaar.form/turban6_cover.png", 
+            "w": 42, 
+            "x": 708, 
+            "y": 307
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "turban6", 
+            "path": "grand_bazaar.form/turban6.png", 
+            "w": 40, 
+            "x": 709, 
+            "y": 309
+          }
+        }
+      ], 
+      "name": "ターバン", 
+      "path": "grand_bazaar.sils/turban.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 3, 
+            "name": "tray1", 
+            "path": "grand_bazaar.form/tray1.png", 
+            "w": 48, 
+            "x": 482, 
+            "y": 2
+          }
+        }, 
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 3, 
+            "name": "tray2", 
+            "path": "grand_bazaar.form/tray2.png", 
+            "w": 39, 
+            "x": 893, 
+            "y": 73
+          }
+        }, 
+        {
+          "cover": {
+            "h": 7, 
+            "layer": 5, 
+            "name": "tray3_cover", 
+            "path": "grand_bazaar.form/tray3_cover.png", 
+            "w": 40, 
+            "x": 341, 
+            "y": 232
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "tray3", 
+            "path": "grand_bazaar.form/tray3.png", 
+            "w": 60, 
+            "x": 333, 
+            "y": 200
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "tray4_cover", 
+            "path": "grand_bazaar.form/tray4_cover.png", 
+            "w": 20, 
+            "x": 1006, 
+            "y": 154
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "tray4", 
+            "path": "grand_bazaar.form/tray4.png", 
+            "w": 34, 
+            "x": 990, 
+            "y": 156
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "tray5_cover", 
+            "path": "grand_bazaar.form/tray5_cover.png", 
+            "w": 55, 
+            "x": 460, 
+            "y": 184
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "tray5", 
+            "path": "grand_bazaar.form/tray5.png", 
+            "w": 59, 
+            "x": 463, 
+            "y": 187
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 5, 
+            "name": "tray6_cover", 
+            "path": "grand_bazaar.form/tray6_cover.png", 
+            "w": 25, 
+            "x": 304, 
+            "y": 258
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "tray6", 
+            "path": "grand_bazaar.form/tray6.png", 
+            "w": 37, 
+            "x": 288, 
+            "y": 261
+          }
+        }
+      ], 
+      "name": "盆", 
+      "path": "grand_bazaar.sils/tray.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "nightingale1", 
+            "path": "grand_bazaar.form/nightingale1.png", 
+            "w": 59, 
+            "x": 944, 
+            "y": 605
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "nightingale2", 
+            "path": "grand_bazaar.form/nightingale2.png", 
+            "w": 54, 
+            "x": 614, 
+            "y": 376
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "nightingale3", 
+            "path": "grand_bazaar.form/nightingale3.png", 
+            "w": 46, 
+            "x": 861, 
+            "y": 193
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "nightingale4_cover", 
+            "path": "grand_bazaar.form/nightingale4_cover.png", 
+            "w": 30, 
+            "x": 330, 
+            "y": 614
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "nightingale4", 
+            "path": "grand_bazaar.form/nightingale4.png", 
+            "w": 46, 
+            "x": 321, 
+            "y": 598
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "nightingale5_cover", 
+            "path": "grand_bazaar.form/nightingale5_cover.png", 
+            "w": 24, 
+            "x": 1058, 
+            "y": 83
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "nightingale5", 
+            "path": "grand_bazaar.form/nightingale5.png", 
+            "w": 46, 
+            "x": 1040, 
+            "y": 85
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "nightingale6_cover", 
+            "path": "grand_bazaar.form/nightingale6_cover.png", 
+            "w": 39, 
+            "x": 596, 
+            "y": 308
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "nightingale6", 
+            "path": "grand_bazaar.form/nightingale6.png", 
+            "w": 51, 
+            "x": 587, 
+            "y": 297
+          }
+        }
+      ], 
+      "name": "ナイチンゲール", 
+      "path": "grand_bazaar.sils/nightingale.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "zurna1", 
+            "path": "grand_bazaar.form/zurna1.png", 
+            "w": 72, 
+            "x": 565, 
+            "y": 500
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "zurna2", 
+            "path": "grand_bazaar.form/zurna2.png", 
+            "w": 76, 
+            "x": 247, 
+            "y": 555
+          }
+        }, 
+        {
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "zurna3", 
+            "path": "grand_bazaar.form/zurna3.png", 
+            "w": 55, 
+            "x": 905, 
+            "y": 548
+          }
+        }, 
+        {
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "zurna4", 
+            "path": "grand_bazaar.form/zurna4.png", 
+            "w": 55, 
+            "x": 668, 
+            "y": 133
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "zurna5_cover", 
+            "path": "grand_bazaar.form/zurna5_cover.png", 
+            "w": 12, 
+            "x": 1028, 
+            "y": 121
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "zurna5", 
+            "path": "grand_bazaar.form/zurna5.png", 
+            "w": 56, 
+            "x": 1007, 
+            "y": 88
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "zurna6_cover", 
+            "path": "grand_bazaar.form/zurna6_cover.png", 
+            "w": 26, 
+            "x": 587, 
+            "y": 282
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "zurna6", 
+            "path": "grand_bazaar.form/zurna6.png", 
+            "w": 65, 
+            "x": 545, 
+            "y": 262
+          }
+        }
+      ], 
+      "name": "ズルナ", 
+      "path": "grand_bazaar.sils/zurna.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "pipe1", 
+            "path": "grand_bazaar.form/pipe1.png", 
+            "w": 48, 
+            "x": 604, 
+            "y": 192
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "pipe2", 
+            "path": "grand_bazaar.form/pipe2.png", 
+            "w": 48, 
+            "x": 1039, 
+            "y": 2
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "pipe3_cover", 
+            "path": "grand_bazaar.form/pipe3_cover.png", 
+            "w": 36, 
+            "x": 978, 
+            "y": 530
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "pipe3", 
+            "path": "grand_bazaar.form/pipe3.png", 
+            "w": 63, 
+            "x": 947, 
+            "y": 515
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "pipe4_cover", 
+            "path": "grand_bazaar.form/pipe4_cover.png", 
+            "w": 25, 
+            "x": 724, 
+            "y": 106
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "pipe4", 
+            "path": "grand_bazaar.form/pipe4.png", 
+            "w": 56, 
+            "x": 712, 
+            "y": 97
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "pipe5_cover", 
+            "path": "grand_bazaar.form/pipe5_cover.png", 
+            "w": 39, 
+            "x": 290, 
+            "y": 10
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "pipe5", 
+            "path": "grand_bazaar.form/pipe5.png", 
+            "w": 59, 
+            "x": 296, 
+            "y": 0
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "pipe6_cover", 
+            "path": "grand_bazaar.form/pipe6_cover.png", 
+            "w": 30, 
+            "x": 1171, 
+            "y": 539
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "pipe6", 
+            "path": "grand_bazaar.form/pipe6.png", 
+            "w": 48, 
+            "x": 1166, 
+            "y": 513
+          }
+        }
+      ], 
+      "name": "タバコパイプ", 
+      "path": "grand_bazaar.sils/pipe.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "watermelon1", 
+            "path": "grand_bazaar.form/watermelon1.png", 
+            "w": 61, 
+            "x": 504, 
+            "y": 470
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "watermelon2", 
+            "path": "grand_bazaar.form/watermelon2.png", 
+            "w": 57, 
+            "x": 668, 
+            "y": 73
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "watermelon3_cover", 
+            "path": "grand_bazaar.form/watermelon3_cover.png", 
+            "w": 14, 
+            "x": 397, 
+            "y": 184
+          }, 
+          "pic": {
+            "h": 79, 
+            "layer": 3, 
+            "name": "watermelon3", 
+            "path": "grand_bazaar.form/watermelon3.png", 
+            "w": 91, 
+            "x": 385, 
+            "y": 154
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "watermelon4_cover", 
+            "path": "grand_bazaar.form/watermelon4_cover.png", 
+            "w": 44, 
+            "x": 971, 
+            "y": 477
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "watermelon4", 
+            "path": "grand_bazaar.form/watermelon4.png", 
+            "w": 40, 
+            "x": 973, 
+            "y": 477
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "watermelon5_cover", 
+            "path": "grand_bazaar.form/watermelon5_cover.png", 
+            "w": 43, 
+            "x": 751, 
+            "y": 318
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "watermelon5", 
+            "path": "grand_bazaar.form/watermelon5.png", 
+            "w": 40, 
+            "x": 752, 
+            "y": 319
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "watermelon6_cover", 
+            "path": "grand_bazaar.form/watermelon6_cover.png", 
+            "w": 45, 
+            "x": 233, 
+            "y": 411
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "watermelon6", 
+            "path": "grand_bazaar.form/watermelon6.png", 
+            "w": 39, 
+            "x": 236, 
+            "y": 413
+          }
+        }
+      ], 
+      "name": "スイカ", 
+      "path": "grand_bazaar.sils/watermelon.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "tulip1", 
+            "path": "grand_bazaar.form/tulip1.png", 
+            "w": 51, 
+            "x": 698, 
+            "y": 182
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "tulip2", 
+            "path": "grand_bazaar.form/tulip2.png", 
+            "w": 51, 
+            "x": 826, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "tulip3_cover", 
+            "path": "grand_bazaar.form/tulip3_cover.png", 
+            "w": 17, 
+            "x": 1053, 
+            "y": 364
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "tulip3", 
+            "path": "grand_bazaar.form/tulip3.png", 
+            "w": 45, 
+            "x": 1033, 
+            "y": 340
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "tulip4_cover", 
+            "path": "grand_bazaar.form/tulip4_cover.png", 
+            "w": 13, 
+            "x": 389, 
+            "y": 338
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "tulip4", 
+            "path": "grand_bazaar.form/tulip4.png", 
+            "w": 40, 
+            "x": 374, 
+            "y": 305
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "tulip5_cover", 
+            "path": "grand_bazaar.form/tulip5_cover.png", 
+            "w": 33, 
+            "x": 1133, 
+            "y": 141
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "tulip5", 
+            "path": "grand_bazaar.form/tulip5.png", 
+            "w": 42, 
+            "x": 1134, 
+            "y": 142
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "tulip6_cover", 
+            "path": "grand_bazaar.form/tulip6_cover.png", 
+            "w": 36, 
+            "x": 581, 
+            "y": 236
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "tulip6", 
+            "path": "grand_bazaar.form/tulip6.png", 
+            "w": 52, 
+            "x": 562, 
+            "y": 232
+          }
+        }
+      ], 
+      "name": "チューリップ", 
+      "path": "grand_bazaar.sils/tulip.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "dagger1", 
+            "path": "grand_bazaar.form/dagger1.png", 
+            "w": 83, 
+            "x": 327, 
+            "y": 239
+          }
+        }, 
+        {
+          "pic": {
+            "h": 85, 
+            "layer": 3, 
+            "name": "dagger2", 
+            "path": "grand_bazaar.form/dagger2.png", 
+            "w": 62, 
+            "x": 514, 
+            "y": 14
+          }
+        }, 
+        {
+          "pic": {
+            "h": 85, 
+            "layer": 3, 
+            "name": "dagger3", 
+            "path": "grand_bazaar.form/dagger3.png", 
+            "w": 63, 
+            "x": 1103, 
+            "y": 280
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "dagger4", 
+            "path": "grand_bazaar.form/dagger4.png", 
+            "w": 85, 
+            "x": 649, 
+            "y": 240
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "dagger5_cover", 
+            "path": "grand_bazaar.form/dagger5_cover.png", 
+            "w": 14, 
+            "x": 242, 
+            "y": 321
+          }, 
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "dagger5", 
+            "path": "grand_bazaar.form/dagger5.png", 
+            "w": 56, 
+            "x": 228, 
+            "y": 272
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "dagger6_cover", 
+            "path": "grand_bazaar.form/dagger6_cover.png", 
+            "w": 20, 
+            "x": 960, 
+            "y": 374
+          }, 
+          "pic": {
+            "h": 85, 
+            "layer": 3, 
+            "name": "dagger6", 
+            "path": "grand_bazaar.form/dagger6.png", 
+            "w": 63, 
+            "x": 936, 
+            "y": 325
+          }
+        }
+      ], 
+      "name": "短剣", 
+      "path": "grand_bazaar.sils/dagger.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "purse1", 
+            "path": "grand_bazaar.form/purse1.png", 
+            "w": 61, 
+            "x": 629, 
+            "y": 489
+          }
+        }, 
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "purse2", 
+            "path": "grand_bazaar.form/purse2.png", 
+            "w": 55, 
+            "x": 236, 
+            "y": 6
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "purse3", 
+            "path": "grand_bazaar.form/purse3.png", 
+            "w": 37, 
+            "x": 636, 
+            "y": 273
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "purse4_cover", 
+            "path": "grand_bazaar.form/purse4_cover.png", 
+            "w": 19, 
+            "x": 1063, 
+            "y": 285
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "purse4", 
+            "path": "grand_bazaar.form/purse4.png", 
+            "w": 34, 
+            "x": 1066, 
+            "y": 288
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "purse5_cover", 
+            "path": "grand_bazaar.form/purse5_cover.png", 
+            "w": 50, 
+            "x": 462, 
+            "y": 270
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "purse5", 
+            "path": "grand_bazaar.form/purse5.png", 
+            "w": 43, 
+            "x": 465, 
+            "y": 252
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "purse6_cover", 
+            "path": "grand_bazaar.form/purse6_cover.png", 
+            "w": 33, 
+            "x": 976, 
+            "y": 576
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "purse6", 
+            "path": "grand_bazaar.form/purse6.png", 
+            "w": 43, 
+            "x": 962, 
+            "y": 579
+          }
+        }
+      ], 
+      "name": "財布", 
+      "path": "grand_bazaar.sils/purse.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "fig1", 
+            "path": "grand_bazaar.form/fig1.png", 
+            "w": 54, 
+            "x": 549, 
+            "y": 566
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "fig2", 
+            "path": "grand_bazaar.form/fig2.png", 
+            "w": 46, 
+            "x": 1026, 
+            "y": 542
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "fig3", 
+            "path": "grand_bazaar.form/fig3.png", 
+            "w": 42, 
+            "x": 431, 
+            "y": 505
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "fig4_cover", 
+            "path": "grand_bazaar.form/fig4_cover.png", 
+            "w": 41, 
+            "x": 329, 
+            "y": 49
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "fig4", 
+            "path": "grand_bazaar.form/fig4.png", 
+            "w": 35, 
+            "x": 332, 
+            "y": 51
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "fig5_cover", 
+            "path": "grand_bazaar.form/fig5_cover.png", 
+            "w": 36, 
+            "x": 820, 
+            "y": 138
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "fig5", 
+            "path": "grand_bazaar.form/fig5.png", 
+            "w": 36, 
+            "x": 820, 
+            "y": 140
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "fig6_cover", 
+            "path": "grand_bazaar.form/fig6_cover.png", 
+            "w": 43, 
+            "x": 241, 
+            "y": 620
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "fig6", 
+            "path": "grand_bazaar.form/fig6.png", 
+            "w": 36, 
+            "x": 243, 
+            "y": 611
+          }
+        }
+      ], 
+      "name": "イチジク", 
+      "path": "grand_bazaar.sils/fig.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "fan1", 
+            "path": "grand_bazaar.form/fan1.png", 
+            "w": 37, 
+            "x": 974, 
+            "y": 278
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "fan2", 
+            "path": "grand_bazaar.form/fan2.png", 
+            "w": 38, 
+            "x": 997, 
+            "y": 14
+          }
+        }, 
+        {
+          "cover": {
+            "h": 67, 
+            "layer": 5, 
+            "name": "fan3_cover", 
+            "path": "grand_bazaar.form/fan3_cover.png", 
+            "w": 15, 
+            "x": 311, 
+            "y": 71
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "fan3", 
+            "path": "grand_bazaar.form/fan3.png", 
+            "w": 33, 
+            "x": 312, 
+            "y": 75
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "fan4_cover", 
+            "path": "grand_bazaar.form/fan4_cover.png", 
+            "w": 35, 
+            "x": 862, 
+            "y": 328
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "fan4", 
+            "path": "grand_bazaar.form/fan4.png", 
+            "w": 49, 
+            "x": 865, 
+            "y": 330
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "fan5_cover", 
+            "path": "grand_bazaar.form/fan5_cover.png", 
+            "w": 30, 
+            "x": 1085, 
+            "y": 190
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "fan5", 
+            "path": "grand_bazaar.form/fan5.png", 
+            "w": 26, 
+            "x": 1088, 
+            "y": 196
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "fan6_cover", 
+            "path": "grand_bazaar.form/fan6_cover.png", 
+            "w": 49, 
+            "x": 730, 
+            "y": 384
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "fan6", 
+            "path": "grand_bazaar.form/fan6.png", 
+            "w": 60, 
+            "x": 733, 
+            "y": 374
+          }
+        }
+      ], 
+      "name": "扇風機", 
+      "path": "grand_bazaar.sils/fan.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "lock1", 
+            "path": "grand_bazaar.form/lock1.png", 
+            "w": 35, 
+            "x": 740, 
+            "y": 126
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "lock2", 
+            "path": "grand_bazaar.form/lock2.png", 
+            "w": 43, 
+            "x": 1099, 
+            "y": 480
+          }
+        }, 
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "lock3", 
+            "path": "grand_bazaar.form/lock3.png", 
+            "w": 32, 
+            "x": 1219, 
+            "y": 121
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "lock4", 
+            "path": "grand_bazaar.form/lock4.png", 
+            "w": 31, 
+            "x": 869, 
+            "y": 233
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "lock5_cover", 
+            "path": "grand_bazaar.form/lock5_cover.png", 
+            "w": 42, 
+            "x": 1160, 
+            "y": 331
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "lock5", 
+            "path": "grand_bazaar.form/lock5.png", 
+            "w": 58, 
+            "x": 1143, 
+            "y": 332
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "lock6_cover", 
+            "path": "grand_bazaar.form/lock6_cover.png", 
+            "w": 31, 
+            "x": 422, 
+            "y": 8
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "lock6", 
+            "path": "grand_bazaar.form/lock6.png", 
+            "w": 56, 
+            "x": 394, 
+            "y": 7
+          }
+        }
+      ], 
+      "name": "ロック", 
+      "path": "grand_bazaar.sils/lock.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "aubergine1", 
+            "path": "grand_bazaar.form/aubergine1.png", 
+            "w": 53, 
+            "x": 1074, 
+            "y": 464
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "aubergine2", 
+            "path": "grand_bazaar.form/aubergine2.png", 
+            "w": 47, 
+            "x": 1151, 
+            "y": 38
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "aubergine3", 
+            "path": "grand_bazaar.form/aubergine3.png", 
+            "w": 54, 
+            "x": 471, 
+            "y": 449
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "aubergine4_cover", 
+            "path": "grand_bazaar.form/aubergine4_cover.png", 
+            "w": 56, 
+            "x": 469, 
+            "y": 583
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "aubergine4", 
+            "path": "grand_bazaar.form/aubergine4.png", 
+            "w": 51, 
+            "x": 472, 
+            "y": 569
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "aubergine5_cover", 
+            "path": "grand_bazaar.form/aubergine5_cover.png", 
+            "w": 22, 
+            "x": 1044, 
+            "y": 194
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "aubergine5", 
+            "path": "grand_bazaar.form/aubergine5.png", 
+            "w": 39, 
+            "x": 1037, 
+            "y": 195
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "aubergine6_cover", 
+            "path": "grand_bazaar.form/aubergine6_cover.png", 
+            "w": 54, 
+            "x": 1197, 
+            "y": 181
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "aubergine6", 
+            "path": "grand_bazaar.form/aubergine6.png", 
+            "w": 51, 
+            "x": 1196, 
+            "y": 172
+          }
+        }
+      ], 
+      "name": "ナス", 
+      "path": "grand_bazaar.sils/aubergine.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "amulet1", 
+            "path": "grand_bazaar.form/amulet1.png", 
+            "w": 32, 
+            "x": 700, 
+            "y": 403
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "amulet2", 
+            "path": "grand_bazaar.form/amulet2.png", 
+            "w": 32, 
+            "x": 243, 
+            "y": 56
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "amulet3", 
+            "path": "grand_bazaar.form/amulet3.png", 
+            "w": 28, 
+            "x": 426, 
+            "y": 344
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "amulet4_cover", 
+            "path": "grand_bazaar.form/amulet4_cover.png", 
+            "w": 32, 
+            "x": 729, 
+            "y": 48
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "amulet4", 
+            "path": "grand_bazaar.form/amulet4.png", 
+            "w": 27, 
+            "x": 731, 
+            "y": 52
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "amulet5_cover", 
+            "path": "grand_bazaar.form/amulet5_cover.png", 
+            "w": 35, 
+            "x": 1077, 
+            "y": 12
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "amulet5", 
+            "path": "grand_bazaar.form/amulet5.png", 
+            "w": 28, 
+            "x": 1079, 
+            "y": 2
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 5, 
+            "name": "amulet6_cover", 
+            "path": "grand_bazaar.form/amulet6_cover.png", 
+            "w": 29, 
+            "x": 555, 
+            "y": 187
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "amulet6", 
+            "path": "grand_bazaar.form/amulet6.png", 
+            "w": 28, 
+            "x": 554, 
+            "y": 191
+          }
+        }
+      ], 
+      "name": "イービルアイの魔除け", 
+      "path": "grand_bazaar.sils/amulet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "bell1", 
+            "path": "grand_bazaar.form/bell1.png", 
+            "w": 31, 
+            "x": 661, 
+            "y": 205
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "bell2", 
+            "path": "grand_bazaar.form/bell2.png", 
+            "w": 31, 
+            "x": 780, 
+            "y": 52
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "bell3_cover", 
+            "path": "grand_bazaar.form/bell3_cover.png", 
+            "w": 20, 
+            "x": 1062, 
+            "y": 241
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "bell3", 
+            "path": "grand_bazaar.form/bell3.png", 
+            "w": 31, 
+            "x": 1065, 
+            "y": 243
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "bell4_cover", 
+            "path": "grand_bazaar.form/bell4_cover.png", 
+            "w": 25, 
+            "x": 530, 
+            "y": 181
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "bell4", 
+            "path": "grand_bazaar.form/bell4.png", 
+            "w": 31, 
+            "x": 524, 
+            "y": 184
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "bell5", 
+            "path": "grand_bazaar.form/bell5.png", 
+            "w": 43, 
+            "x": 774, 
+            "y": 516
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "bell6_cover", 
+            "path": "grand_bazaar.form/bell6_cover.png", 
+            "w": 43, 
+            "x": 579, 
+            "y": 629
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "bell6", 
+            "path": "grand_bazaar.form/bell6.png", 
+            "w": 38, 
+            "x": 581, 
+            "y": 611
+          }
+        }
+      ], 
+      "name": "鐘", 
+      "path": "grand_bazaar.sils/bell.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "pepper1", 
+            "path": "grand_bazaar.form/pepper1.png", 
+            "w": 40, 
+            "x": 1030, 
+            "y": 452
+          }
+        }, 
+        {
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "pepper2", 
+            "path": "grand_bazaar.form/pepper2.png", 
+            "w": 49, 
+            "x": 325, 
+            "y": 530
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "pepper3", 
+            "path": "grand_bazaar.form/pepper3.png", 
+            "w": 58, 
+            "x": 713, 
+            "y": 572
+          }
+        }, 
+        {
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "pepper4", 
+            "path": "grand_bazaar.form/pepper4.png", 
+            "w": 48, 
+            "x": 579, 
+            "y": 340
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "pepper5_cover", 
+            "path": "grand_bazaar.form/pepper5_cover.png", 
+            "w": 23, 
+            "x": 422, 
+            "y": 92
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "pepper5", 
+            "path": "grand_bazaar.form/pepper5.png", 
+            "w": 36, 
+            "x": 408, 
+            "y": 94
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "pepper6_cover", 
+            "path": "grand_bazaar.form/pepper6_cover.png", 
+            "w": 18, 
+            "x": 1064, 
+            "y": 132
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "pepper6", 
+            "path": "grand_bazaar.form/pepper6.png", 
+            "w": 26, 
+            "x": 1067, 
+            "y": 134
+          }
+        }
+      ], 
+      "name": "ブルガリアのペッパー", 
+      "path": "grand_bazaar.sils/pepper.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "fruitcandy1", 
+            "path": "grand_bazaar.form/fruitcandy1.png", 
+            "w": 39, 
+            "x": 773, 
+            "y": 246
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "fruitcandy2", 
+            "path": "grand_bazaar.form/fruitcandy2.png", 
+            "w": 48, 
+            "x": 1056, 
+            "y": 408
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "fruitcandy3", 
+            "path": "grand_bazaar.form/fruitcandy3.png", 
+            "w": 42, 
+            "x": 1172, 
+            "y": 604
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "fruitcandy4", 
+            "path": "grand_bazaar.form/fruitcandy4.png", 
+            "w": 35, 
+            "x": 968, 
+            "y": 49
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "fruitcandy5_cover", 
+            "path": "grand_bazaar.form/fruitcandy5_cover.png", 
+            "w": 36, 
+            "x": 1103, 
+            "y": 88
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "fruitcandy5", 
+            "path": "grand_bazaar.form/fruitcandy5.png", 
+            "w": 30, 
+            "x": 1106, 
+            "y": 78
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "fruitcandy6_cover", 
+            "path": "grand_bazaar.form/fruitcandy6_cover.png", 
+            "w": 24, 
+            "x": 605, 
+            "y": 149
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "fruitcandy6", 
+            "path": "grand_bazaar.form/fruitcandy6.png", 
+            "w": 30, 
+            "x": 594, 
+            "y": 150
+          }
+        }
+      ], 
+      "name": "ナツメ", 
+      "path": "grand_bazaar.sils/fruitcandy.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "coop1_1", 
+            "path": "grand_bazaar.morph/coop1_1.png", 
+            "w": 72, 
+            "x": 655, 
+            "y": 460
+          }, 
+          "pic2": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "coop2_1", 
+            "path": "grand_bazaar.morph/coop2_1.png", 
+            "w": 64, 
+            "x": 661, 
+            "y": 447
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 74, 
+            "layer": 4, 
+            "name": "coop1_2", 
+            "path": "grand_bazaar.morph/coop1_2.png", 
+            "w": 70, 
+            "x": 393, 
+            "y": 398
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "coop2_2", 
+            "path": "grand_bazaar.morph/coop2_2.png", 
+            "w": 52, 
+            "x": 408, 
+            "y": 386
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "coop1_3_cover", 
+            "path": "grand_bazaar.morph/coop1_3_cover.png", 
+            "w": 36, 
+            "x": 528, 
+            "y": 398
+          }, 
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "coop1_3", 
+            "path": "grand_bazaar.morph/coop1_3.png", 
+            "w": 50, 
+            "x": 512, 
+            "y": 395
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "coop2_3", 
+            "path": "grand_bazaar.morph/coop2_3.png", 
+            "w": 41, 
+            "x": 520, 
+            "y": 385
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "coop1_4_cover", 
+            "path": "grand_bazaar.morph/coop1_4_cover.png", 
+            "w": 53, 
+            "x": 1198, 
+            "y": 323
+          }, 
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "coop1_4", 
+            "path": "grand_bazaar.morph/coop1_4.png", 
+            "w": 50, 
+            "x": 1200, 
+            "y": 318
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "coop2_4", 
+            "path": "grand_bazaar.morph/coop2_4.png", 
+            "w": 41, 
+            "x": 1208, 
+            "y": 311
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "coop1_5_cover", 
+            "path": "grand_bazaar.morph/coop1_5_cover.png", 
+            "w": 47, 
+            "x": 252, 
+            "y": 333
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "coop1_5", 
+            "path": "grand_bazaar.morph/coop1_5.png", 
+            "w": 41, 
+            "x": 256, 
+            "y": 323
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "coop2_5", 
+            "path": "grand_bazaar.morph/coop2_5.png", 
+            "w": 33, 
+            "x": 263, 
+            "y": 317
+          }
+        }
+      ], 
+      "name": "coop"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 92, 
+            "layer": 4, 
+            "name": "globe1_1", 
+            "path": "grand_bazaar.morph/globe1_1.png", 
+            "w": 48, 
+            "x": 822, 
+            "y": 459
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "globe2_1", 
+            "path": "grand_bazaar.morph/globe2_1.png", 
+            "w": 59, 
+            "x": 820, 
+            "y": 498
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 92, 
+            "layer": 4, 
+            "name": "globe1_2", 
+            "path": "grand_bazaar.morph/globe1_2.png", 
+            "w": 48, 
+            "x": 349, 
+            "y": 439
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "globe2_2", 
+            "path": "grand_bazaar.morph/globe2_2.png", 
+            "w": 53, 
+            "x": 346, 
+            "y": 481
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "globe1_3_cover", 
+            "path": "grand_bazaar.morph/globe1_3_cover.png", 
+            "w": 37, 
+            "x": 298, 
+            "y": 336
+          }, 
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "globe1_3", 
+            "path": "grand_bazaar.morph/globe1_3.png", 
+            "w": 33, 
+            "x": 299, 
+            "y": 314
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "globe2_3", 
+            "path": "grand_bazaar.morph/globe2_3.png", 
+            "w": 31, 
+            "x": 300, 
+            "y": 319
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "globe1_4_cover", 
+            "path": "grand_bazaar.morph/globe1_4_cover.png", 
+            "w": 48, 
+            "x": 1141, 
+            "y": 104
+          }, 
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "globe1_4", 
+            "path": "grand_bazaar.morph/globe1_4.png", 
+            "w": 44, 
+            "x": 1143, 
+            "y": 107
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "globe2_4", 
+            "path": "grand_bazaar.morph/globe2_4.png", 
+            "w": 31, 
+            "x": 1155, 
+            "y": 133
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "globe1_5_cover", 
+            "path": "grand_bazaar.morph/globe1_5_cover.png", 
+            "w": 37, 
+            "x": 810, 
+            "y": 327
+          }, 
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "globe1_5", 
+            "path": "grand_bazaar.morph/globe1_5.png", 
+            "w": 34, 
+            "x": 810, 
+            "y": 328
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "globe2_5", 
+            "path": "grand_bazaar.morph/globe2_5.png", 
+            "w": 30, 
+            "x": 812, 
+            "y": 333
+          }
+        }
+      ], 
+      "name": "globe"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "stool1_1", 
+            "path": "grand_bazaar.morph/stool1_1.png", 
+            "w": 70, 
+            "x": 592, 
+            "y": 473
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "stool2_1", 
+            "path": "grand_bazaar.morph/stool2_1.png", 
+            "w": 64, 
+            "x": 591, 
+            "y": 491
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "stool1_2", 
+            "path": "grand_bazaar.morph/stool1_2.png", 
+            "w": 57, 
+            "x": 467, 
+            "y": 448
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "stool2_2", 
+            "path": "grand_bazaar.morph/stool2_2.png", 
+            "w": 53, 
+            "x": 465, 
+            "y": 462
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "stool1_3_cover", 
+            "path": "grand_bazaar.morph/stool1_3_cover.png", 
+            "w": 51, 
+            "x": 996, 
+            "y": 427
+          }, 
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "stool1_3", 
+            "path": "grand_bazaar.morph/stool1_3.png", 
+            "w": 58, 
+            "x": 987, 
+            "y": 420
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "stool2_3", 
+            "path": "grand_bazaar.morph/stool2_3.png", 
+            "w": 65, 
+            "x": 974, 
+            "y": 435
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "stool1_4_cover", 
+            "path": "grand_bazaar.morph/stool1_4_cover.png", 
+            "w": 39, 
+            "x": 331, 
+            "y": 336
+          }, 
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "stool1_4", 
+            "path": "grand_bazaar.morph/stool1_4.png", 
+            "w": 42, 
+            "x": 332, 
+            "y": 319
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "stool2_4", 
+            "path": "grand_bazaar.morph/stool2_4.png", 
+            "w": 39, 
+            "x": 331, 
+            "y": 330
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "stool1_5_cover", 
+            "path": "grand_bazaar.morph/stool1_5_cover.png", 
+            "w": 55, 
+            "x": 647, 
+            "y": 27
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "stool1_5", 
+            "path": "grand_bazaar.morph/stool1_5.png", 
+            "w": 44, 
+            "x": 656, 
+            "y": 29
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "stool2_5", 
+            "path": "grand_bazaar.morph/stool2_5.png", 
+            "w": 38, 
+            "x": 651, 
+            "y": 29
+          }
+        }
+      ], 
+      "name": "stool"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "cat1_1", 
+            "path": "grand_bazaar.morph/cat1_1.png", 
+            "w": 91, 
+            "x": 1005, 
+            "y": 501
+          }, 
+          "pic2": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "cat2_1", 
+            "path": "grand_bazaar.morph/cat2_1.png", 
+            "w": 58, 
+            "x": 1024, 
+            "y": 503
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "cat1_2", 
+            "path": "grand_bazaar.morph/cat1_2.png", 
+            "w": 93, 
+            "x": 282, 
+            "y": 524
+          }, 
+          "pic2": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "cat2_2", 
+            "path": "grand_bazaar.morph/cat2_2.png", 
+            "w": 57, 
+            "x": 314, 
+            "y": 524
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "cat1_3_cover", 
+            "path": "grand_bazaar.morph/cat1_3_cover.png", 
+            "w": 63, 
+            "x": 236, 
+            "y": 393
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "cat1_3", 
+            "path": "grand_bazaar.morph/cat1_3.png", 
+            "w": 59, 
+            "x": 238, 
+            "y": 395
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "cat2_3", 
+            "path": "grand_bazaar.morph/cat2_3.png", 
+            "w": 29, 
+            "x": 248, 
+            "y": 396
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "cat1_4_cover", 
+            "path": "grand_bazaar.morph/cat1_4_cover.png", 
+            "w": 65, 
+            "x": 612, 
+            "y": 331
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "cat1_4", 
+            "path": "grand_bazaar.morph/cat1_4.png", 
+            "w": 58, 
+            "x": 616, 
+            "y": 324
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "cat2_4", 
+            "path": "grand_bazaar.morph/cat2_4.png", 
+            "w": 30, 
+            "x": 635, 
+            "y": 325
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "cat1_5_cover", 
+            "path": "grand_bazaar.morph/cat1_5_cover.png", 
+            "w": 64, 
+            "x": 1149, 
+            "y": 342
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "cat1_5", 
+            "path": "grand_bazaar.morph/cat1_5.png", 
+            "w": 58, 
+            "x": 1150, 
+            "y": 345
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "cat2_5", 
+            "path": "grand_bazaar.morph/cat2_5.png", 
+            "w": 30, 
+            "x": 1159, 
+            "y": 346
+          }
+        }
+      ], 
+      "name": "cat"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "clock1_1", 
+            "path": "grand_bazaar.morph/clock1_1.png", 
+            "w": 39, 
+            "x": 1098, 
+            "y": 324
+          }, 
+          "pic2": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "clock2_1", 
+            "path": "grand_bazaar.morph/clock2_1.png", 
+            "w": 46, 
+            "x": 1099, 
+            "y": 321
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "clock1_2", 
+            "path": "grand_bazaar.morph/clock1_2.png", 
+            "w": 31, 
+            "x": 582, 
+            "y": 308
+          }, 
+          "pic2": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "clock2_2", 
+            "path": "grand_bazaar.morph/clock2_2.png", 
+            "w": 37, 
+            "x": 581, 
+            "y": 306
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "clock1_3_cover", 
+            "path": "grand_bazaar.morph/clock1_3_cover.png", 
+            "w": 41, 
+            "x": 839, 
+            "y": 291
+          }, 
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "clock1_3", 
+            "path": "grand_bazaar.morph/clock1_3.png", 
+            "w": 29, 
+            "x": 842, 
+            "y": 265
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "clock2_3", 
+            "path": "grand_bazaar.morph/clock2_3.png", 
+            "w": 37, 
+            "x": 841, 
+            "y": 263
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "clock1_4_cover", 
+            "path": "grand_bazaar.morph/clock1_4_cover.png", 
+            "w": 37, 
+            "x": 447, 
+            "y": 331
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "clock1_4", 
+            "path": "grand_bazaar.morph/clock1_4.png", 
+            "w": 24, 
+            "x": 451, 
+            "y": 332
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "clock2_4", 
+            "path": "grand_bazaar.morph/clock2_4.png", 
+            "w": 31, 
+            "x": 450, 
+            "y": 331
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "clock1_5_cover", 
+            "path": "grand_bazaar.morph/clock1_5_cover.png", 
+            "w": 38, 
+            "x": 381, 
+            "y": 57
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "clock1_5", 
+            "path": "grand_bazaar.morph/clock1_5.png", 
+            "w": 23, 
+            "x": 387, 
+            "y": 51
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "clock2_5", 
+            "path": "grand_bazaar.morph/clock2_5.png", 
+            "w": 30, 
+            "x": 386, 
+            "y": 50
+          }
+        }
+      ], 
+      "name": "clock"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 74, 
+            "layer": 4, 
+            "name": "rat1_1", 
+            "path": "grand_bazaar.morph/rat1_1.png", 
+            "w": 71, 
+            "x": 906, 
+            "y": 417
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "rat2_1", 
+            "path": "grand_bazaar.morph/rat2_1.png", 
+            "w": 51, 
+            "x": 918, 
+            "y": 457
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "rat1_2", 
+            "path": "grand_bazaar.morph/rat1_2.png", 
+            "w": 73, 
+            "x": 517, 
+            "y": 458
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "rat2_2", 
+            "path": "grand_bazaar.morph/rat2_2.png", 
+            "w": 47, 
+            "x": 534, 
+            "y": 497
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "rat1_3_cover", 
+            "path": "grand_bazaar.morph/rat1_3_cover.png", 
+            "w": 72, 
+            "x": 751, 
+            "y": 428
+          }, 
+          "pic1": {
+            "h": 74, 
+            "layer": 4, 
+            "name": "rat1_3", 
+            "path": "grand_bazaar.morph/rat1_3.png", 
+            "w": 68, 
+            "x": 753, 
+            "y": 390
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "rat2_3", 
+            "path": "grand_bazaar.morph/rat2_3.png", 
+            "w": 46, 
+            "x": 760, 
+            "y": 418
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "rat1_4_cover", 
+            "path": "grand_bazaar.morph/rat1_4_cover.png", 
+            "w": 42, 
+            "x": 552, 
+            "y": 355
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "rat1_4", 
+            "path": "grand_bazaar.morph/rat1_4.png", 
+            "w": 58, 
+            "x": 534, 
+            "y": 328
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "rat2_4", 
+            "path": "grand_bazaar.morph/rat2_4.png", 
+            "w": 39, 
+            "x": 534, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "rat1_5_cover", 
+            "path": "grand_bazaar.morph/rat1_5_cover.png", 
+            "w": 62, 
+            "x": 1076, 
+            "y": 89
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "rat1_5", 
+            "path": "grand_bazaar.morph/rat1_5.png", 
+            "w": 57, 
+            "x": 1080, 
+            "y": 72
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "rat2_5", 
+            "path": "grand_bazaar.morph/rat2_5.png", 
+            "w": 38, 
+            "x": 1093, 
+            "y": 82
+          }
+        }
+      ], 
+      "name": "rat"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "turban1_1", 
+            "path": "grand_bazaar.morph/turban1_1.png", 
+            "w": 66, 
+            "x": 404, 
+            "y": 504
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "turban2_1", 
+            "path": "grand_bazaar.morph/turban2_1.png", 
+            "w": 53, 
+            "x": 415, 
+            "y": 526
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "turban1_2", 
+            "path": "grand_bazaar.morph/turban1_2.png", 
+            "w": 65, 
+            "x": 872, 
+            "y": 340
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "turban2_2", 
+            "path": "grand_bazaar.morph/turban2_2.png", 
+            "w": 58, 
+            "x": 880, 
+            "y": 363
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "turban1_3_cover", 
+            "path": "grand_bazaar.morph/turban1_3_cover.png", 
+            "w": 50, 
+            "x": 1122, 
+            "y": 186
+          }, 
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "turban1_3", 
+            "path": "grand_bazaar.morph/turban1_3.png", 
+            "w": 48, 
+            "x": 1124, 
+            "y": 187
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "turban2_3", 
+            "path": "grand_bazaar.morph/turban2_3.png", 
+            "w": 36, 
+            "x": 1134, 
+            "y": 205
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "turban1_4_cover", 
+            "path": "grand_bazaar.morph/turban1_4_cover.png", 
+            "w": 49, 
+            "x": 462, 
+            "y": 232
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "turban1_4", 
+            "path": "grand_bazaar.morph/turban1_4.png", 
+            "w": 45, 
+            "x": 464, 
+            "y": 235
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "turban2_4", 
+            "path": "grand_bazaar.morph/turban2_4.png", 
+            "w": 36, 
+            "x": 471, 
+            "y": 251
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "turban1_5_cover", 
+            "path": "grand_bazaar.morph/turban1_5_cover.png", 
+            "w": 16, 
+            "x": 602, 
+            "y": 408
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "turban1_5", 
+            "path": "grand_bazaar.morph/turban1_5.png", 
+            "w": 45, 
+            "x": 569, 
+            "y": 405
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "turban2_5", 
+            "path": "grand_bazaar.morph/turban2_5.png", 
+            "w": 35, 
+            "x": 577, 
+            "y": 421
+          }
+        }
+      ], 
+      "name": "turban"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "bear1_1", 
+            "path": "grand_bazaar.morph/bear1_1.png", 
+            "w": 54, 
+            "x": 289, 
+            "y": 432
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "bear2_1", 
+            "path": "grand_bazaar.morph/bear2_1.png", 
+            "w": 60, 
+            "x": 285, 
+            "y": 448
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "bear1_2", 
+            "path": "grand_bazaar.morph/bear1_2.png", 
+            "w": 53, 
+            "x": 621, 
+            "y": 231
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "bear2_2", 
+            "path": "grand_bazaar.morph/bear2_2.png", 
+            "w": 37, 
+            "x": 624, 
+            "y": 232
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "bear1_3_cover", 
+            "path": "grand_bazaar.morph/bear1_3_cover.png", 
+            "w": 53, 
+            "x": 828, 
+            "y": 38
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bear1_3", 
+            "path": "grand_bazaar.morph/bear1_3.png", 
+            "w": 42, 
+            "x": 833, 
+            "y": 40
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "bear2_3", 
+            "path": "grand_bazaar.morph/bear2_3.png", 
+            "w": 48, 
+            "x": 830, 
+            "y": 44
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 4, 
+            "name": "bear1_4_cover", 
+            "path": "grand_bazaar.morph/bear1_4_cover.png", 
+            "w": 49, 
+            "x": 309, 
+            "y": 230
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bear1_4", 
+            "path": "grand_bazaar.morph/bear1_4.png", 
+            "w": 41, 
+            "x": 312, 
+            "y": 198
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "bear2_4", 
+            "path": "grand_bazaar.morph/bear2_4.png", 
+            "w": 42, 
+            "x": 312, 
+            "y": 210
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "bear1_5_cover", 
+            "path": "grand_bazaar.morph/bear1_5_cover.png", 
+            "w": 40, 
+            "x": 705, 
+            "y": 156
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bear1_5", 
+            "path": "grand_bazaar.morph/bear1_5.png", 
+            "w": 41, 
+            "x": 704, 
+            "y": 159
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "bear2_5", 
+            "path": "grand_bazaar.morph/bear2_5.png", 
+            "w": 42, 
+            "x": 704, 
+            "y": 171
+          }
+        }
+      ], 
+      "name": "bear"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "fan1_1", 
+            "path": "grand_bazaar.morph/fan1_1.png", 
+            "w": 77, 
+            "x": 468, 
+            "y": 4
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "fan2_1", 
+            "path": "grand_bazaar.morph/fan2_1.png", 
+            "w": 74, 
+            "x": 468, 
+            "y": 11
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "fan1_2", 
+            "path": "grand_bazaar.morph/fan1_2.png", 
+            "w": 47, 
+            "x": 1201, 
+            "y": 94
+          }, 
+          "pic2": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "fan2_2", 
+            "path": "grand_bazaar.morph/fan2_2.png", 
+            "w": 34, 
+            "x": 1209, 
+            "y": 97
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "fan1_3", 
+            "path": "grand_bazaar.morph/fan1_3.png", 
+            "w": 40, 
+            "x": 893, 
+            "y": 76
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "fan2_3", 
+            "path": "grand_bazaar.morph/fan2_3.png", 
+            "w": 30, 
+            "x": 899, 
+            "y": 79
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "fan1_4_cover", 
+            "path": "grand_bazaar.morph/fan1_4_cover.png", 
+            "w": 75, 
+            "x": 472, 
+            "y": 172
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "fan1_4", 
+            "path": "grand_bazaar.morph/fan1_4.png", 
+            "w": 67, 
+            "x": 477, 
+            "y": 175
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "fan2_4", 
+            "path": "grand_bazaar.morph/fan2_4.png", 
+            "w": 62, 
+            "x": 477, 
+            "y": 176
+          }
+        }, 
+        {
+          "cover": {
+            "h": 74, 
+            "layer": 4, 
+            "name": "fan1_5_cover", 
+            "path": "grand_bazaar.morph/fan1_5_cover.png", 
+            "w": 53, 
+            "x": 603, 
+            "y": 74
+          }, 
+          "pic1": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "fan1_5", 
+            "path": "grand_bazaar.morph/fan1_5.png", 
+            "w": 49, 
+            "x": 605, 
+            "y": 75
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "fan2_5", 
+            "path": "grand_bazaar.morph/fan2_5.png", 
+            "w": 36, 
+            "x": 613, 
+            "y": 78
+          }
+        }
+      ], 
+      "name": "fan"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "tray1_1", 
+            "path": "grand_bazaar.morph/tray1_1.png", 
+            "w": 51, 
+            "x": 341, 
+            "y": 132
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "tray2_1", 
+            "path": "grand_bazaar.morph/tray2_1.png", 
+            "w": 36, 
+            "x": 351, 
+            "y": 130
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "tray1_2", 
+            "path": "grand_bazaar.morph/tray1_2.png", 
+            "w": 56, 
+            "x": 240, 
+            "y": 8
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "tray2_2", 
+            "path": "grand_bazaar.morph/tray2_2.png", 
+            "w": 39, 
+            "x": 245, 
+            "y": 7
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "tray1_3_cover", 
+            "path": "grand_bazaar.morph/tray1_3_cover.png", 
+            "w": 23, 
+            "x": 869, 
+            "y": 203
+          }, 
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "tray1_3", 
+            "path": "grand_bazaar.morph/tray1_3.png", 
+            "w": 37, 
+            "x": 852, 
+            "y": 203
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "tray2_3", 
+            "path": "grand_bazaar.morph/tray2_3.png", 
+            "w": 25, 
+            "x": 857, 
+            "y": 203
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "tray1_4_cover", 
+            "path": "grand_bazaar.morph/tray1_4_cover.png", 
+            "w": 48, 
+            "x": 1097, 
+            "y": 5
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "tray1_4", 
+            "path": "grand_bazaar.morph/tray1_4.png", 
+            "w": 43, 
+            "x": 1098, 
+            "y": 8
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "tray2_4", 
+            "path": "grand_bazaar.morph/tray2_4.png", 
+            "w": 31, 
+            "x": 1101, 
+            "y": 9
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "tray1_5_cover", 
+            "path": "grand_bazaar.morph/tray1_5_cover.png", 
+            "w": 54, 
+            "x": 647, 
+            "y": 110
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "tray1_5", 
+            "path": "grand_bazaar.morph/tray1_5.png", 
+            "w": 51, 
+            "x": 648, 
+            "y": 114
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "tray2_5", 
+            "path": "grand_bazaar.morph/tray2_5.png", 
+            "w": 34, 
+            "x": 656, 
+            "y": 113
+          }
+        }
+      ], 
+      "name": "tray"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "fig1_1", 
+            "path": "grand_bazaar.morph/fig1_1.png", 
+            "w": 51, 
+            "x": 772, 
+            "y": 164
+          }, 
+          "pic2": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "fig2_1", 
+            "path": "grand_bazaar.morph/fig2_1.png", 
+            "w": 57, 
+            "x": 769, 
+            "y": 166
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "fig1_2", 
+            "path": "grand_bazaar.morph/fig1_2.png", 
+            "w": 52, 
+            "x": 754, 
+            "y": 325
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "fig2_2", 
+            "path": "grand_bazaar.morph/fig2_2.png", 
+            "w": 57, 
+            "x": 751, 
+            "y": 345
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 4, 
+            "name": "fig1_3_cover", 
+            "path": "grand_bazaar.morph/fig1_3_cover.png", 
+            "w": 45, 
+            "x": 361, 
+            "y": 234
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "fig1_3", 
+            "path": "grand_bazaar.morph/fig1_3.png", 
+            "w": 40, 
+            "x": 363, 
+            "y": 210
+          }, 
+          "pic2": {
+            "h": 15, 
+            "layer": 4, 
+            "name": "fig2_3", 
+            "path": "grand_bazaar.morph/fig2_3.png", 
+            "w": 45, 
+            "x": 360, 
+            "y": 224
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "fig1_4_cover", 
+            "path": "grand_bazaar.morph/fig1_4_cover.png", 
+            "w": 25, 
+            "x": 628, 
+            "y": 416
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "fig1_4", 
+            "path": "grand_bazaar.morph/fig1_4.png", 
+            "w": 33, 
+            "x": 618, 
+            "y": 419
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "fig2_4", 
+            "path": "grand_bazaar.morph/fig2_4.png", 
+            "w": 18, 
+            "x": 629, 
+            "y": 415
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "fig1_5_cover", 
+            "path": "grand_bazaar.morph/fig1_5_cover.png", 
+            "w": 30, 
+            "x": 976, 
+            "y": 578
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "fig1_5", 
+            "path": "grand_bazaar.morph/fig1_5.png", 
+            "w": 40, 
+            "x": 962, 
+            "y": 582
+          }, 
+          "pic2": {
+            "h": 15, 
+            "layer": 4, 
+            "name": "fig2_5", 
+            "path": "grand_bazaar.morph/fig2_5.png", 
+            "w": 44, 
+            "x": 960, 
+            "y": 595
+          }
+        }
+      ], 
+      "name": "fig"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "scroll1_1", 
+            "path": "grand_bazaar.morph/scroll1_1.png", 
+            "w": 72, 
+            "x": 884, 
+            "y": 575
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "scroll2_1", 
+            "path": "grand_bazaar.morph/scroll2_1.png", 
+            "w": 71, 
+            "x": 888, 
+            "y": 574
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "scroll1_2", 
+            "path": "grand_bazaar.morph/scroll1_2.png", 
+            "w": 73, 
+            "x": 512, 
+            "y": 577
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "scroll2_2", 
+            "path": "grand_bazaar.morph/scroll2_2.png", 
+            "w": 67, 
+            "x": 511, 
+            "y": 568
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "scroll1_3", 
+            "path": "grand_bazaar.morph/scroll1_3.png", 
+            "w": 33, 
+            "x": 781, 
+            "y": 56
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "scroll2_3", 
+            "path": "grand_bazaar.morph/scroll2_3.png", 
+            "w": 22, 
+            "x": 787, 
+            "y": 59
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "scroll1_4_cover", 
+            "path": "grand_bazaar.morph/scroll1_4_cover.png", 
+            "w": 28, 
+            "x": 351, 
+            "y": 68
+          }, 
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "scroll1_4", 
+            "path": "grand_bazaar.morph/scroll1_4.png", 
+            "w": 34, 
+            "x": 345, 
+            "y": 42
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "scroll2_4", 
+            "path": "grand_bazaar.morph/scroll2_4.png", 
+            "w": 27, 
+            "x": 353, 
+            "y": 48
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "scroll1_5_cover", 
+            "path": "grand_bazaar.morph/scroll1_5_cover.png", 
+            "w": 27, 
+            "x": 1181, 
+            "y": 309
+          }, 
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "scroll1_5", 
+            "path": "grand_bazaar.morph/scroll1_5.png", 
+            "w": 34, 
+            "x": 1172, 
+            "y": 287
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "scroll2_5", 
+            "path": "grand_bazaar.morph/scroll2_5.png", 
+            "w": 24, 
+            "x": 1182, 
+            "y": 292
+          }
+        }
+      ], 
+      "name": "scroll"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "tulip1_1", 
+            "path": "grand_bazaar.morph/tulip1_1.png", 
+            "w": 44, 
+            "x": 576, 
+            "y": 148
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "tulip2_1", 
+            "path": "grand_bazaar.morph/tulip2_1.png", 
+            "w": 28, 
+            "x": 579, 
+            "y": 146
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "tulip1_2", 
+            "path": "grand_bazaar.morph/tulip1_2.png", 
+            "w": 55, 
+            "x": 1037, 
+            "y": 197
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "tulip2_2", 
+            "path": "grand_bazaar.morph/tulip2_2.png", 
+            "w": 32, 
+            "x": 1040, 
+            "y": 213
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "tulip1_3_cover", 
+            "path": "grand_bazaar.morph/tulip1_3_cover.png", 
+            "w": 36, 
+            "x": 1178, 
+            "y": 146
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "tulip1_3", 
+            "path": "grand_bazaar.morph/tulip1_3.png", 
+            "w": 52, 
+            "x": 1174, 
+            "y": 150
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "tulip2_3", 
+            "path": "grand_bazaar.morph/tulip2_3.png", 
+            "w": 26, 
+            "x": 1187, 
+            "y": 182
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "tulip1_4_cover", 
+            "path": "grand_bazaar.morph/tulip1_4_cover.png", 
+            "w": 65, 
+            "x": 426, 
+            "y": 590
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "tulip1_4", 
+            "path": "grand_bazaar.morph/tulip1_4.png", 
+            "w": 71, 
+            "x": 427, 
+            "y": 565
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "tulip2_4", 
+            "path": "grand_bazaar.morph/tulip2_4.png", 
+            "w": 35, 
+            "x": 453, 
+            "y": 573
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "tulip1_5_cover", 
+            "path": "grand_bazaar.morph/tulip1_5_cover.png", 
+            "w": 62, 
+            "x": 903, 
+            "y": 509
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "tulip1_5", 
+            "path": "grand_bazaar.morph/tulip1_5.png", 
+            "w": 73, 
+            "x": 891, 
+            "y": 486
+          }, 
+          "pic2": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "tulip2_5", 
+            "path": "grand_bazaar.morph/tulip2_5.png", 
+            "w": 33, 
+            "x": 920, 
+            "y": 498
+          }
+        }
+      ], 
+      "name": "tulip"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "torch1_1", 
+            "path": "grand_bazaar.morph/torch1_1.png", 
+            "w": 77, 
+            "x": 820, 
+            "y": 537
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "torch2_1", 
+            "path": "grand_bazaar.morph/torch2_1.png", 
+            "w": 76, 
+            "x": 819, 
+            "y": 538
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "torch1_2", 
+            "path": "grand_bazaar.morph/torch1_2.png", 
+            "w": 77, 
+            "x": 735, 
+            "y": 468
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "torch2_2", 
+            "path": "grand_bazaar.morph/torch2_2.png", 
+            "w": 76, 
+            "x": 734, 
+            "y": 469
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "torch1_3", 
+            "path": "grand_bazaar.morph/torch1_3.png", 
+            "w": 77, 
+            "x": 248, 
+            "y": 485
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "torch2_3", 
+            "path": "grand_bazaar.morph/torch2_3.png", 
+            "w": 77, 
+            "x": 245, 
+            "y": 490
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "torch1_4", 
+            "path": "grand_bazaar.morph/torch1_4.png", 
+            "w": 59, 
+            "x": 831, 
+            "y": 84
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "torch2_4", 
+            "path": "grand_bazaar.morph/torch2_4.png", 
+            "w": 59, 
+            "x": 831, 
+            "y": 83
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "torch1_5_cover", 
+            "path": "grand_bazaar.morph/torch1_5_cover.png", 
+            "w": 68, 
+            "x": 572, 
+            "y": 8
+          }, 
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "torch1_5", 
+            "path": "grand_bazaar.morph/torch1_5.png", 
+            "w": 66, 
+            "x": 573, 
+            "y": 6
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "torch2_5", 
+            "path": "grand_bazaar.morph/torch2_5.png", 
+            "w": 65, 
+            "x": 573, 
+            "y": 5
+          }
+        }
+      ], 
+      "name": "torch"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "dagger1_1", 
+            "path": "grand_bazaar.morph/dagger1_1.png", 
+            "w": 81, 
+            "x": 231, 
+            "y": 230
+          }, 
+          "pic2": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "dagger2_1", 
+            "path": "grand_bazaar.morph/dagger2_1.png", 
+            "w": 61, 
+            "x": 238, 
+            "y": 233
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 90, 
+            "layer": 4, 
+            "name": "dagger1_2", 
+            "path": "grand_bazaar.morph/dagger1_2.png", 
+            "w": 82, 
+            "x": 914, 
+            "y": 274
+          }, 
+          "pic2": {
+            "h": 94, 
+            "layer": 4, 
+            "name": "dagger2_2", 
+            "path": "grand_bazaar.morph/dagger2_2.png", 
+            "w": 62, 
+            "x": 921, 
+            "y": 277
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "dagger1_3", 
+            "path": "grand_bazaar.morph/dagger1_3.png", 
+            "w": 77, 
+            "x": 330, 
+            "y": 87
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "dagger2_3", 
+            "path": "grand_bazaar.morph/dagger2_3.png", 
+            "w": 77, 
+            "x": 333, 
+            "y": 98
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "dagger1_4", 
+            "path": "grand_bazaar.morph/dagger1_4.png", 
+            "w": 53, 
+            "x": 896, 
+            "y": 10
+          }, 
+          "pic2": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "dagger2_4", 
+            "path": "grand_bazaar.morph/dagger2_4.png", 
+            "w": 49, 
+            "x": 900, 
+            "y": 5
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 74, 
+            "layer": 4, 
+            "name": "dagger1_5", 
+            "path": "grand_bazaar.morph/dagger1_5.png", 
+            "w": 52, 
+            "x": 1073, 
+            "y": 237
+          }, 
+          "pic2": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "dagger2_5", 
+            "path": "grand_bazaar.morph/dagger2_5.png", 
+            "w": 48, 
+            "x": 1074, 
+            "y": 240
+          }
+        }
+      ], 
+      "name": "dagger"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "glasses1_1", 
+            "path": "grand_bazaar.morph/glasses1_1.png", 
+            "w": 76, 
+            "x": 471, 
+            "y": 530
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "glasses2_1", 
+            "path": "grand_bazaar.morph/glasses2_1.png", 
+            "w": 52, 
+            "x": 485, 
+            "y": 529
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "glasses1_2", 
+            "path": "grand_bazaar.morph/glasses1_2.png", 
+            "w": 78, 
+            "x": 1167, 
+            "y": 553
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "glasses2_2", 
+            "path": "grand_bazaar.morph/glasses2_2.png", 
+            "w": 52, 
+            "x": 1183, 
+            "y": 551
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "glasses1_3", 
+            "path": "grand_bazaar.morph/glasses1_3.png", 
+            "w": 61, 
+            "x": 396, 
+            "y": 471
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "glasses2_3", 
+            "path": "grand_bazaar.morph/glasses2_3.png", 
+            "w": 40, 
+            "x": 409, 
+            "y": 469
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "glasses1_4_cover", 
+            "path": "grand_bazaar.morph/glasses1_4_cover.png", 
+            "w": 50, 
+            "x": 561, 
+            "y": 225
+          }, 
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "glasses1_4", 
+            "path": "grand_bazaar.morph/glasses1_4.png", 
+            "w": 55, 
+            "x": 553, 
+            "y": 226
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "glasses2_4", 
+            "path": "grand_bazaar.morph/glasses2_4.png", 
+            "w": 39, 
+            "x": 563, 
+            "y": 224
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "glasses1_5_cover", 
+            "path": "grand_bazaar.morph/glasses1_5_cover.png", 
+            "w": 34, 
+            "x": 1041, 
+            "y": 92
+          }, 
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "glasses1_5", 
+            "path": "grand_bazaar.morph/glasses1_5.png", 
+            "w": 35, 
+            "x": 1036, 
+            "y": 83
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "glasses2_5", 
+            "path": "grand_bazaar.morph/glasses2_5.png", 
+            "w": 39, 
+            "x": 1035, 
+            "y": 95
+          }
+        }
+      ], 
+      "name": "glasses"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "pepper1_1", 
+            "path": "grand_bazaar.morph/pepper1_1.png", 
+            "w": 55, 
+            "x": 983, 
+            "y": 497
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "pepper2_1", 
+            "path": "grand_bazaar.morph/pepper2_1.png", 
+            "w": 46, 
+            "x": 989, 
+            "y": 491
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "pepper1_2", 
+            "path": "grand_bazaar.morph/pepper1_2.png", 
+            "w": 52, 
+            "x": 298, 
+            "y": 613
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "pepper2_2", 
+            "path": "grand_bazaar.morph/pepper2_2.png", 
+            "w": 47, 
+            "x": 306, 
+            "y": 604
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "pepper1_3_cover", 
+            "path": "grand_bazaar.morph/pepper1_3_cover.png", 
+            "w": 23, 
+            "x": 1210, 
+            "y": 501
+          }, 
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "pepper1_3", 
+            "path": "grand_bazaar.morph/pepper1_3.png", 
+            "w": 37, 
+            "x": 1208, 
+            "y": 491
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "pepper2_3", 
+            "path": "grand_bazaar.morph/pepper2_3.png", 
+            "w": 30, 
+            "x": 1214, 
+            "y": 484
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "pepper1_4_cover", 
+            "path": "grand_bazaar.morph/pepper1_4_cover.png", 
+            "w": 40, 
+            "x": 1063, 
+            "y": 360
+          }, 
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "pepper1_4", 
+            "path": "grand_bazaar.morph/pepper1_4.png", 
+            "w": 37, 
+            "x": 1064, 
+            "y": 369
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "pepper2_4", 
+            "path": "grand_bazaar.morph/pepper2_4.png", 
+            "w": 30, 
+            "x": 1070, 
+            "y": 363
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "pepper1_5_cover", 
+            "path": "grand_bazaar.morph/pepper1_5_cover.png", 
+            "w": 43, 
+            "x": 1190, 
+            "y": 37
+          }, 
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "pepper1_5", 
+            "path": "grand_bazaar.morph/pepper1_5.png", 
+            "w": 37, 
+            "x": 1193, 
+            "y": 43
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "pepper2_5", 
+            "path": "grand_bazaar.morph/pepper2_5.png", 
+            "w": 30, 
+            "x": 1199, 
+            "y": 37
+          }
+        }
+      ], 
+      "name": "pepper"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "lock1_1", 
+            "path": "grand_bazaar.morph/lock1_1.png", 
+            "w": 47, 
+            "x": 1098, 
+            "y": 483
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "lock2_1", 
+            "path": "grand_bazaar.morph/lock2_1.png", 
+            "w": 34, 
+            "x": 1103, 
+            "y": 475
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "lock1_2", 
+            "path": "grand_bazaar.morph/lock1_2.png", 
+            "w": 46, 
+            "x": 242, 
+            "y": 82
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "lock2_2", 
+            "path": "grand_bazaar.morph/lock2_2.png", 
+            "w": 31, 
+            "x": 249, 
+            "y": 71
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "lock1_3_cover", 
+            "path": "grand_bazaar.morph/lock1_3_cover.png", 
+            "w": 22, 
+            "x": 1060, 
+            "y": 320
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "lock1_3", 
+            "path": "grand_bazaar.morph/lock1_3.png", 
+            "w": 36, 
+            "x": 1040, 
+            "y": 325
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "lock2_3", 
+            "path": "grand_bazaar.morph/lock2_3.png", 
+            "w": 46, 
+            "x": 1035, 
+            "y": 331
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "lock1_4", 
+            "path": "grand_bazaar.morph/lock1_4.png", 
+            "w": 36, 
+            "x": 676, 
+            "y": 249
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "lock2_4", 
+            "path": "grand_bazaar.morph/lock2_4.png", 
+            "w": 25, 
+            "x": 681, 
+            "y": 241
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "lock1_5_cover", 
+            "path": "grand_bazaar.morph/lock1_5_cover.png", 
+            "w": 38, 
+            "x": 714, 
+            "y": 80
+          }, 
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "lock1_5", 
+            "path": "grand_bazaar.morph/lock1_5.png", 
+            "w": 36, 
+            "x": 716, 
+            "y": 89
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "lock2_5", 
+            "path": "grand_bazaar.morph/lock2_5.png", 
+            "w": 25, 
+            "x": 721, 
+            "y": 82
+          }
+        }
+      ], 
+      "name": "lock"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "amulet1_1", 
+            "path": "grand_bazaar.morph/amulet1_1.png", 
+            "w": 38, 
+            "x": 942, 
+            "y": 178
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "amulet2_1", 
+            "path": "grand_bazaar.morph/amulet2_1.png", 
+            "w": 35, 
+            "x": 946, 
+            "y": 165
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "amulet1_2", 
+            "path": "grand_bazaar.morph/amulet1_2.png", 
+            "w": 36, 
+            "x": 760, 
+            "y": 250
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "amulet2_2", 
+            "path": "grand_bazaar.morph/amulet2_2.png", 
+            "w": 29, 
+            "x": 766, 
+            "y": 236
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "amulet1_3", 
+            "path": "grand_bazaar.morph/amulet1_3.png", 
+            "w": 37, 
+            "x": 486, 
+            "y": 75
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "amulet2_3", 
+            "path": "grand_bazaar.morph/amulet2_3.png", 
+            "w": 31, 
+            "x": 493, 
+            "y": 66
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "amulet1_4", 
+            "path": "grand_bazaar.morph/amulet1_4.png", 
+            "w": 39, 
+            "x": 1062, 
+            "y": 431
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "amulet2_4", 
+            "path": "grand_bazaar.morph/amulet2_4.png", 
+            "w": 43, 
+            "x": 1067, 
+            "y": 415
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "amulet1_5_cover", 
+            "path": "grand_bazaar.morph/amulet1_5_cover.png", 
+            "w": 21, 
+            "x": 521, 
+            "y": 297
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "amulet1_5", 
+            "path": "grand_bazaar.morph/amulet1_5.png", 
+            "w": 32, 
+            "x": 507, 
+            "y": 319
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "amulet2_5", 
+            "path": "grand_bazaar.morph/amulet2_5.png", 
+            "w": 31, 
+            "x": 509, 
+            "y": 300
+          }
+        }
+      ], 
+      "name": "amulet"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "star1_1", 
+            "path": "grand_bazaar.morph/star1_1.png", 
+            "w": 37, 
+            "x": 729, 
+            "y": 569
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "star2_1", 
+            "path": "grand_bazaar.morph/star2_1.png", 
+            "w": 50, 
+            "x": 723, 
+            "y": 569
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "star1_2", 
+            "path": "grand_bazaar.morph/star1_2.png", 
+            "w": 37, 
+            "x": 983, 
+            "y": 45
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "star2_2", 
+            "path": "grand_bazaar.morph/star2_2.png", 
+            "w": 45, 
+            "x": 980, 
+            "y": 46
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "star1_3", 
+            "path": "grand_bazaar.morph/star1_3.png", 
+            "w": 42, 
+            "x": 270, 
+            "y": 158
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "star2_3", 
+            "path": "grand_bazaar.morph/star2_3.png", 
+            "w": 53, 
+            "x": 266, 
+            "y": 158
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "star1_4", 
+            "path": "grand_bazaar.morph/star1_4.png", 
+            "w": 25, 
+            "x": 1194, 
+            "y": 434
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "star2_4", 
+            "path": "grand_bazaar.morph/star2_4.png", 
+            "w": 33, 
+            "x": 1191, 
+            "y": 434
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "star1_5", 
+            "path": "grand_bazaar.morph/star1_5.png", 
+            "w": 26, 
+            "x": 980, 
+            "y": 294
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "star2_5", 
+            "path": "grand_bazaar.morph/star2_5.png", 
+            "w": 33, 
+            "x": 978, 
+            "y": 294
+          }
+        }
+      ], 
+      "name": "star"
+    }
+  ], 
+  "part": [
+    {
+      "name": "set_orig", 
+      "path": "grand_bazaar.part/set_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "set1_1", 
+                "path": "grand_bazaar.part/set1_1.png", 
+                "w": 64, 
+                "x": 340, 
+                "y": 106
+              }
+            }, 
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "set1_2", 
+                "path": "grand_bazaar.part/set1_2.png", 
+                "w": 48, 
+                "x": 484, 
+                "y": 5
+              }
+            }, 
+            {
+              "cover": {
+                "h": 7, 
+                "layer": 5, 
+                "name": "set1_3_cover", 
+                "path": "grand_bazaar.part/set1_3_cover.png", 
+                "w": 36, 
+                "x": 346, 
+                "y": 275
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "set1_3", 
+                "path": "grand_bazaar.part/set1_3.png", 
+                "w": 54, 
+                "x": 338, 
+                "y": 240
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "set1_4_cover", 
+                "path": "grand_bazaar.part/set1_4_cover.png", 
+                "w": 31, 
+                "x": 625, 
+                "y": 415
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "set1_4", 
+                "path": "grand_bazaar.part/set1_4.png", 
+                "w": 41, 
+                "x": 613, 
+                "y": 417
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "set1_5_cover", 
+                "path": "grand_bazaar.part/set1_5_cover.png", 
+                "w": 33, 
+                "x": 1188, 
+                "y": 161
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "set1_5", 
+                "path": "grand_bazaar.part/set1_5.png", 
+                "w": 30, 
+                "x": 1190, 
+                "y": 164
+              }
+            }
+          ], 
+          "name": "set1", 
+          "path": "grand_bazaar.part/set1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "set2_1", 
+                "path": "grand_bazaar.part/set2_1.png", 
+                "w": 59, 
+                "x": 416, 
+                "y": 411
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "set2_2", 
+                "path": "grand_bazaar.part/set2_2.png", 
+                "w": 61, 
+                "x": 912, 
+                "y": 433
+              }
+            }, 
+            {
+              "cover": {
+                "h": 90, 
+                "layer": 5, 
+                "name": "set2_3_cover", 
+                "path": "grand_bazaar.part/set2_3_cover.png", 
+                "w": 101, 
+                "x": 244, 
+                "y": 619
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "set2_3", 
+                "path": "grand_bazaar.part/set2_3.png", 
+                "w": 50, 
+                "x": 233, 
+                "y": 593
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "set2_4_cover", 
+                "path": "grand_bazaar.part/set2_4_cover.png", 
+                "w": 28, 
+                "x": 552, 
+                "y": 357
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "set2_4", 
+                "path": "grand_bazaar.part/set2_4.png", 
+                "w": 49, 
+                "x": 529, 
+                "y": 360
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "set2_5_cover", 
+                "path": "grand_bazaar.part/set2_5_cover.png", 
+                "w": 49, 
+                "x": 386, 
+                "y": 48
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "set2_5", 
+                "path": "grand_bazaar.part/set2_5.png", 
+                "w": 47, 
+                "x": 385, 
+                "y": 50
+              }
+            }
+          ], 
+          "name": "set2", 
+          "path": "grand_bazaar.part/set2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "set3_1", 
+                "path": "grand_bazaar.part/set3_1.png", 
+                "w": 54, 
+                "x": 432, 
+                "y": 573
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "set3_2", 
+                "path": "grand_bazaar.part/set3_2.png", 
+                "w": 54, 
+                "x": 546, 
+                "y": 413
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "set3_3_cover", 
+                "path": "grand_bazaar.part/set3_3_cover.png", 
+                "w": 53, 
+                "x": 633, 
+                "y": 331
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "set3_3", 
+                "path": "grand_bazaar.part/set3_3.png", 
+                "w": 48, 
+                "x": 635, 
+                "y": 327
+              }
+            }, 
+            {
+              "cover": {
+                "h": 29, 
+                "layer": 5, 
+                "name": "set3_4_cover", 
+                "path": "grand_bazaar.part/set3_4_cover.png", 
+                "w": 34, 
+                "x": 996, 
+                "y": 458
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "set3_4", 
+                "path": "grand_bazaar.part/set3_4.png", 
+                "w": 53, 
+                "x": 976, 
+                "y": 446
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "set3_5_cover", 
+                "path": "grand_bazaar.part/set3_5_cover.png", 
+                "w": 43, 
+                "x": 1121, 
+                "y": 201
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "set3_5", 
+                "path": "grand_bazaar.part/set3_5.png", 
+                "w": 48, 
+                "x": 1123, 
+                "y": 202
+              }
+            }
+          ], 
+          "name": "set3", 
+          "path": "grand_bazaar.part/set3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "set4_1", 
+                "path": "grand_bazaar.part/set4_1.png", 
+                "w": 66, 
+                "x": 746, 
+                "y": 544
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "set4_2", 
+                "path": "grand_bazaar.part/set4_2.png", 
+                "w": 48, 
+                "x": 1118, 
+                "y": 41
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "set4_3_cover", 
+                "path": "grand_bazaar.part/set4_3_cover.png", 
+                "w": 15, 
+                "x": 397, 
+                "y": 184
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "set4_3", 
+                "path": "grand_bazaar.part/set4_3.png", 
+                "w": 83, 
+                "x": 344, 
+                "y": 151
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "set4_4", 
+                "path": "grand_bazaar.part/set4_4.png", 
+                "w": 48, 
+                "x": 837, 
+                "y": 117
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "set4_5_cover", 
+                "path": "grand_bazaar.part/set4_5_cover.png", 
+                "w": 48, 
+                "x": 574, 
+                "y": 125
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "set4_5", 
+                "path": "grand_bazaar.part/set4_5.png", 
+                "w": 47, 
+                "x": 574, 
+                "y": 129
+              }
+            }
+          ], 
+          "name": "set4", 
+          "path": "grand_bazaar.part/set4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "set5_1", 
+                "path": "grand_bazaar.part/set5_1.png", 
+                "w": 54, 
+                "x": 770, 
+                "y": 202
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "set5_2", 
+                "path": "grand_bazaar.part/set5_2.png", 
+                "w": 69, 
+                "x": 1166, 
+                "y": 537
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "set5_3_cover", 
+                "path": "grand_bazaar.part/set5_3_cover.png", 
+                "w": 54, 
+                "x": 1133, 
+                "y": 351
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "set5_3", 
+                "path": "grand_bazaar.part/set5_3.png", 
+                "w": 47, 
+                "x": 1136, 
+                "y": 351
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "set5_4_cover", 
+                "path": "grand_bazaar.part/set5_4_cover.png", 
+                "w": 47, 
+                "x": 848, 
+                "y": 41
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "set5_4", 
+                "path": "grand_bazaar.part/set5_4.png", 
+                "w": 48, 
+                "x": 849, 
+                "y": 29
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "set5_5_cover", 
+                "path": "grand_bazaar.part/set5_5_cover.png", 
+                "w": 42, 
+                "x": 255, 
+                "y": 334
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "set5_5", 
+                "path": "grand_bazaar.part/set5_5.png", 
+                "w": 35, 
+                "x": 257, 
+                "y": 323
+              }
+            }
+          ], 
+          "name": "set5", 
+          "path": "grand_bazaar.part/set5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "lamp_orig", 
+      "path": "grand_bazaar.part/lamp_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "lamp1_1", 
+                "path": "grand_bazaar.part/lamp1_1.png", 
+                "w": 52, 
+                "x": 1089, 
+                "y": 361
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "lamp1_2", 
+                "path": "grand_bazaar.part/lamp1_2.png", 
+                "w": 49, 
+                "x": 798, 
+                "y": 385
+              }
+            }, 
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "lamp1_3", 
+                "path": "grand_bazaar.part/lamp1_3.png", 
+                "w": 40, 
+                "x": 595, 
+                "y": 337
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "lamp1_4_cover", 
+                "path": "grand_bazaar.part/lamp1_4_cover.png", 
+                "w": 44, 
+                "x": 309, 
+                "y": 336
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "lamp1_4", 
+                "path": "grand_bazaar.part/lamp1_4.png", 
+                "w": 40, 
+                "x": 312, 
+                "y": 332
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "lamp1_5_cover", 
+                "path": "grand_bazaar.part/lamp1_5_cover.png", 
+                "w": 44, 
+                "x": 230, 
+                "y": 404
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "lamp1_5", 
+                "path": "grand_bazaar.part/lamp1_5.png", 
+                "w": 41, 
+                "x": 231, 
+                "y": 406
+              }
+            }
+          ], 
+          "name": "lamp1", 
+          "path": "grand_bazaar.part/lamp1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "lamp2_1", 
+                "path": "grand_bazaar.part/lamp2_1.png", 
+                "w": 46, 
+                "x": 1113, 
+                "y": 284
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "lamp2_2", 
+                "path": "grand_bazaar.part/lamp2_2.png", 
+                "w": 46, 
+                "x": 624, 
+                "y": 116
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "lamp2_3_cover", 
+                "path": "grand_bazaar.part/lamp2_3_cover.png", 
+                "w": 44, 
+                "x": 1192, 
+                "y": 35
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "lamp2_3", 
+                "path": "grand_bazaar.part/lamp2_3.png", 
+                "w": 40, 
+                "x": 1194, 
+                "y": 37
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "lamp2_4_cover", 
+                "path": "grand_bazaar.part/lamp2_4_cover.png", 
+                "w": 39, 
+                "x": 1209, 
+                "y": 471
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "lamp2_4", 
+                "path": "grand_bazaar.part/lamp2_4.png", 
+                "w": 40, 
+                "x": 1206, 
+                "y": 473
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "lamp2_5_cover", 
+                "path": "grand_bazaar.part/lamp2_5_cover.png", 
+                "w": 40, 
+                "x": 715, 
+                "y": 308
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "lamp2_5", 
+                "path": "grand_bazaar.part/lamp2_5.png", 
+                "w": 40, 
+                "x": 713, 
+                "y": 309
+              }
+            }
+          ], 
+          "name": "lamp2", 
+          "path": "grand_bazaar.part/lamp2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "lamp3_1", 
+                "path": "grand_bazaar.part/lamp3_1.png", 
+                "w": 50, 
+                "x": 1172, 
+                "y": 284
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "lamp3_2", 
+                "path": "grand_bazaar.part/lamp3_2.png", 
+                "w": 49, 
+                "x": 725, 
+                "y": 271
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "lamp3_3_cover", 
+                "path": "grand_bazaar.part/lamp3_3_cover.png", 
+                "w": 16, 
+                "x": 439, 
+                "y": 294
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "lamp3_3", 
+                "path": "grand_bazaar.part/lamp3_3.png", 
+                "w": 31, 
+                "x": 440, 
+                "y": 286
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "lamp3_4_cover", 
+                "path": "grand_bazaar.part/lamp3_4_cover.png", 
+                "w": 41, 
+                "x": 1153, 
+                "y": 134
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "lamp3_4", 
+                "path": "grand_bazaar.part/lamp3_4.png", 
+                "w": 41, 
+                "x": 1152, 
+                "y": 136
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "lamp3_5_cover", 
+                "path": "grand_bazaar.part/lamp3_5_cover.png", 
+                "w": 41, 
+                "x": 559, 
+                "y": 222
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "lamp3_5", 
+                "path": "grand_bazaar.part/lamp3_5.png", 
+                "w": 41, 
+                "x": 557, 
+                "y": 225
+              }
+            }
+          ], 
+          "name": "lamp3", 
+          "path": "grand_bazaar.part/lamp3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "lamp4_1", 
+                "path": "grand_bazaar.part/lamp4_1.png", 
+                "w": 52, 
+                "x": 769, 
+                "y": 249
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "lamp4_2", 
+                "path": "grand_bazaar.part/lamp4_2.png", 
+                "w": 52, 
+                "x": 358, 
+                "y": 277
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "lamp4_3", 
+                "path": "grand_bazaar.part/lamp4_3.png", 
+                "w": 45, 
+                "x": 597, 
+                "y": 190
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "lamp4_4", 
+                "path": "grand_bazaar.part/lamp4_4.png", 
+                "w": 45, 
+                "x": 625, 
+                "y": 11
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "lamp4_5", 
+                "path": "grand_bazaar.part/lamp4_5.png", 
+                "w": 45, 
+                "x": 973, 
+                "y": 283
+              }
+            }
+          ], 
+          "name": "lamp4", 
+          "path": "grand_bazaar.part/lamp4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "lamp5_1", 
+                "path": "grand_bazaar.part/lamp5_1.png", 
+                "w": 38, 
+                "x": 778, 
+                "y": 463
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "lamp5_2", 
+                "path": "grand_bazaar.part/lamp5_2.png", 
+                "w": 32, 
+                "x": 254, 
+                "y": 448
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "lamp5_3", 
+                "path": "grand_bazaar.part/lamp5_3.png", 
+                "w": 23, 
+                "x": 979, 
+                "y": 156
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "lamp5_4_cover", 
+                "path": "grand_bazaar.part/lamp5_4_cover.png", 
+                "w": 18, 
+                "x": 521, 
+                "y": 347
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "lamp5_4", 
+                "path": "grand_bazaar.part/lamp5_4.png", 
+                "w": 39, 
+                "x": 498, 
+                "y": 350
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "lamp5_5_cover", 
+                "path": "grand_bazaar.part/lamp5_5_cover.png", 
+                "w": 29, 
+                "x": 1021, 
+                "y": 527
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "lamp5_5", 
+                "path": "grand_bazaar.part/lamp5_5.png", 
+                "w": 23, 
+                "x": 1024, 
+                "y": 511
+              }
+            }
+          ], 
+          "name": "lamp5", 
+          "path": "grand_bazaar.part/lamp5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "hookah_orig", 
+      "path": "grand_bazaar.part/hookah_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "hookah1_1", 
+                "path": "grand_bazaar.part/hookah1_1.png", 
+                "w": 82, 
+                "x": 1045, 
+                "y": 541
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "hookah1_2", 
+                "path": "grand_bazaar.part/hookah1_2.png", 
+                "w": 82, 
+                "x": 603, 
+                "y": 508
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "hookah1_3", 
+                "path": "grand_bazaar.part/hookah1_3.png", 
+                "w": 70, 
+                "x": 247, 
+                "y": 504
+              }
+            }, 
+            {
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "hookah1_4", 
+                "path": "grand_bazaar.part/hookah1_4.png", 
+                "w": 43, 
+                "x": 567, 
+                "y": 259
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "hookah1_5_cover", 
+                "path": "grand_bazaar.part/hookah1_5_cover.png", 
+                "w": 47, 
+                "x": 900, 
+                "y": 540
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "hookah1_5", 
+                "path": "grand_bazaar.part/hookah1_5.png", 
+                "w": 68, 
+                "x": 876, 
+                "y": 532
+              }
+            }
+          ], 
+          "name": "hookah1", 
+          "path": "grand_bazaar.part/hookah1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "hookah2_1", 
+                "path": "grand_bazaar.part/hookah2_1.png", 
+                "w": 82, 
+                "x": 389, 
+                "y": 473
+              }
+            }, 
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "hookah2_2", 
+                "path": "grand_bazaar.part/hookah2_2.png", 
+                "w": 61, 
+                "x": 852, 
+                "y": 463
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "hookah2_3", 
+                "path": "grand_bazaar.part/hookah2_3.png", 
+                "w": 33, 
+                "x": 718, 
+                "y": 111
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "hookah2_4_cover", 
+                "path": "grand_bazaar.part/hookah2_4_cover.png", 
+                "w": 39, 
+                "x": 333, 
+                "y": 44
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "hookah2_4", 
+                "path": "grand_bazaar.part/hookah2_4.png", 
+                "w": 33, 
+                "x": 336, 
+                "y": 46
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "hookah2_5_cover", 
+                "path": "grand_bazaar.part/hookah2_5_cover.png", 
+                "w": 38, 
+                "x": 764, 
+                "y": 432
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "hookah2_5", 
+                "path": "grand_bazaar.part/hookah2_5.png", 
+                "w": 33, 
+                "x": 766, 
+                "y": 418
+              }
+            }
+          ], 
+          "name": "hookah2", 
+          "path": "grand_bazaar.part/hookah2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "hookah3_1", 
+                "path": "grand_bazaar.part/hookah3_1.png", 
+                "w": 50, 
+                "x": 891, 
+                "y": 343
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "hookah3_2", 
+                "path": "grand_bazaar.part/hookah3_2.png", 
+                "w": 50, 
+                "x": 290, 
+                "y": 412
+              }
+            }, 
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "hookah3_3", 
+                "path": "grand_bazaar.part/hookah3_3.png", 
+                "w": 42, 
+                "x": 679, 
+                "y": 314
+              }
+            }, 
+            {
+              "cover": {
+                "h": 29, 
+                "layer": 5, 
+                "name": "hookah3_4_cover", 
+                "path": "grand_bazaar.part/hookah3_4_cover.png", 
+                "w": 24, 
+                "x": 1124, 
+                "y": 250
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "hookah3_4", 
+                "path": "grand_bazaar.part/hookah3_4.png", 
+                "w": 53, 
+                "x": 1127, 
+                "y": 243
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "hookah3_5_cover", 
+                "path": "grand_bazaar.part/hookah3_5_cover.png", 
+                "w": 27, 
+                "x": 462, 
+                "y": 357
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "hookah3_5", 
+                "path": "grand_bazaar.part/hookah3_5.png", 
+                "w": 42, 
+                "x": 454, 
+                "y": 329
+              }
+            }
+          ], 
+          "name": "hookah3", 
+          "path": "grand_bazaar.part/hookah3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "hookah4_1", 
+                "path": "grand_bazaar.part/hookah4_1.png", 
+                "w": 55, 
+                "x": 1081, 
+                "y": 26
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "hookah4_2", 
+                "path": "grand_bazaar.part/hookah4_2.png", 
+                "w": 54, 
+                "x": 649, 
+                "y": 207
+              }
+            }, 
+            {
+              "cover": {
+                "h": 7, 
+                "layer": 5, 
+                "name": "hookah4_3_cover", 
+                "path": "grand_bazaar.part/hookah4_3_cover.png", 
+                "w": 20, 
+                "x": 308, 
+                "y": 230
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "hookah4_3", 
+                "path": "grand_bazaar.part/hookah4_3.png", 
+                "w": 54, 
+                "x": 290, 
+                "y": 171
+              }
+            }, 
+            {
+              "cover": {
+                "h": 68, 
+                "layer": 5, 
+                "name": "hookah4_4_cover", 
+                "path": "grand_bazaar.part/hookah4_4_cover.png", 
+                "w": 21, 
+                "x": 668, 
+                "y": 123
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "hookah4_4", 
+                "path": "grand_bazaar.part/hookah4_4.png", 
+                "w": 54, 
+                "x": 649, 
+                "y": 126
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "hookah4_5_cover", 
+                "path": "grand_bazaar.part/hookah4_5_cover.png", 
+                "w": 30, 
+                "x": 980, 
+                "y": 595
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "hookah4_5", 
+                "path": "grand_bazaar.part/hookah4_5.png", 
+                "w": 55, 
+                "x": 953, 
+                "y": 584
+              }
+            }
+          ], 
+          "name": "hookah4", 
+          "path": "grand_bazaar.part/hookah4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "hookah5_1", 
+                "path": "grand_bazaar.part/hookah5_1.png", 
+                "w": 57, 
+                "x": 680, 
+                "y": 372
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "hookah5_2", 
+                "path": "grand_bazaar.part/hookah5_2.png", 
+                "w": 59, 
+                "x": 356, 
+                "y": 434
+              }
+            }, 
+            {
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "hookah5_3", 
+                "path": "grand_bazaar.part/hookah5_3.png", 
+                "w": 50, 
+                "x": 702, 
+                "y": 220
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "hookah5_4_cover", 
+                "path": "grand_bazaar.part/hookah5_4_cover.png", 
+                "w": 56, 
+                "x": 494, 
+                "y": 187
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "hookah5_4", 
+                "path": "grand_bazaar.part/hookah5_4.png", 
+                "w": 50, 
+                "x": 497, 
+                "y": 190
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "hookah5_5_cover", 
+                "path": "grand_bazaar.part/hookah5_5_cover.png", 
+                "w": 34, 
+                "x": 470, 
+                "y": 396
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "hookah5_5", 
+                "path": "grand_bazaar.part/hookah5_5.png", 
+                "w": 54, 
+                "x": 474, 
+                "y": 397
+              }
+            }
+          ], 
+          "name": "hookah5", 
+          "path": "grand_bazaar.part/hookah5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "necklace_orig", 
+      "path": "grand_bazaar.part/necklace_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 82, 
+                "layer": 4, 
+                "name": "necklace1_1", 
+                "path": "grand_bazaar.part/necklace1_1.png", 
+                "w": 52, 
+                "x": 904, 
+                "y": 16
+              }
+            }, 
+            {
+              "pic": {
+                "h": 80, 
+                "layer": 4, 
+                "name": "necklace1_2", 
+                "path": "grand_bazaar.part/necklace1_2.png", 
+                "w": 52, 
+                "x": 945, 
+                "y": 272
+              }
+            }, 
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "necklace1_3", 
+                "path": "grand_bazaar.part/necklace1_3.png", 
+                "w": 46, 
+                "x": 861, 
+                "y": 289
+              }
+            }, 
+            {
+              "pic": {
+                "h": 74, 
+                "layer": 4, 
+                "name": "necklace1_4", 
+                "path": "grand_bazaar.part/necklace1_4.png", 
+                "w": 46, 
+                "x": 615, 
+                "y": 234
+              }
+            }, 
+            {
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "necklace1_5", 
+                "path": "grand_bazaar.part/necklace1_5.png", 
+                "w": 47, 
+                "x": 282, 
+                "y": 232
+              }
+            }
+          ], 
+          "name": "necklace1", 
+          "path": "grand_bazaar.part/necklace1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "necklace2_1", 
+                "path": "grand_bazaar.part/necklace2_1.png", 
+                "w": 54, 
+                "x": 392, 
+                "y": 237
+              }
+            }, 
+            {
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "necklace2_2", 
+                "path": "grand_bazaar.part/necklace2_2.png", 
+                "w": 53, 
+                "x": 1052, 
+                "y": 274
+              }
+            }, 
+            {
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "necklace2_3", 
+                "path": "grand_bazaar.part/necklace2_3.png", 
+                "w": 53, 
+                "x": 1168, 
+                "y": 430
+              }
+            }, 
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "necklace2_4", 
+                "path": "grand_bazaar.part/necklace2_4.png", 
+                "w": 45, 
+                "x": 745, 
+                "y": 363
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "necklace2_5_cover", 
+                "path": "grand_bazaar.part/necklace2_5_cover.png", 
+                "w": 12, 
+                "x": 623, 
+                "y": 17
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "necklace2_5", 
+                "path": "grand_bazaar.part/necklace2_5.png", 
+                "w": 46, 
+                "x": 606, 
+                "y": 19
+              }
+            }
+          ], 
+          "name": "necklace2", 
+          "path": "grand_bazaar.part/necklace2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "necklace3_1", 
+                "path": "grand_bazaar.part/necklace3_1.png", 
+                "w": 52, 
+                "x": 1058, 
+                "y": 419
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "necklace3_2", 
+                "path": "grand_bazaar.part/necklace3_2.png", 
+                "w": 47, 
+                "x": 1058, 
+                "y": 40
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "necklace3_3_cover", 
+                "path": "grand_bazaar.part/necklace3_3_cover.png", 
+                "w": 15, 
+                "x": 840, 
+                "y": 304
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "necklace3_3", 
+                "path": "grand_bazaar.part/necklace3_3.png", 
+                "w": 38, 
+                "x": 825, 
+                "y": 308
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "necklace3_4_cover", 
+                "path": "grand_bazaar.part/necklace3_4_cover.png", 
+                "w": 25, 
+                "x": 475, 
+                "y": 215
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "necklace3_4", 
+                "path": "grand_bazaar.part/necklace3_4.png", 
+                "w": 38, 
+                "x": 469, 
+                "y": 218
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "necklace3_5_cover", 
+                "path": "grand_bazaar.part/necklace3_5_cover.png", 
+                "w": 55, 
+                "x": 468, 
+                "y": 619
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "necklace3_5", 
+                "path": "grand_bazaar.part/necklace3_5.png", 
+                "w": 49, 
+                "x": 472, 
+                "y": 619
+              }
+            }
+          ], 
+          "name": "necklace3", 
+          "path": "grand_bazaar.part/necklace3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "necklace4_1", 
+                "path": "grand_bazaar.part/necklace4_1.png", 
+                "w": 28, 
+                "x": 237, 
+                "y": 258
+              }
+            }, 
+            {
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "necklace4_2", 
+                "path": "grand_bazaar.part/necklace4_2.png", 
+                "w": 29, 
+                "x": 1044, 
+                "y": 326
+              }
+            }, 
+            {
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "necklace4_3", 
+                "path": "grand_bazaar.part/necklace4_3.png", 
+                "w": 61, 
+                "x": 883, 
+                "y": 619
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "necklace4_4_cover", 
+                "path": "grand_bazaar.part/necklace4_4_cover.png", 
+                "w": 24, 
+                "x": 604, 
+                "y": 308
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "necklace4_4", 
+                "path": "grand_bazaar.part/necklace4_4.png", 
+                "w": 18, 
+                "x": 606, 
+                "y": 283
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "necklace4_5_cover", 
+                "path": "grand_bazaar.part/necklace4_5_cover.png", 
+                "w": 23, 
+                "x": 243, 
+                "y": 121
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "necklace4_5", 
+                "path": "grand_bazaar.part/necklace4_5.png", 
+                "w": 20, 
+                "x": 244, 
+                "y": 123
+              }
+            }
+          ], 
+          "name": "necklace4", 
+          "path": "grand_bazaar.part/necklace4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "necklace5_1", 
+                "path": "grand_bazaar.part/necklace5_1.png", 
+                "w": 50, 
+                "x": 1167, 
+                "y": 585
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "necklace5_2", 
+                "path": "grand_bazaar.part/necklace5_2.png", 
+                "w": 45, 
+                "x": 685, 
+                "y": 407
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "necklace5_3", 
+                "path": "grand_bazaar.part/necklace5_3.png", 
+                "w": 39, 
+                "x": 1021, 
+                "y": 272
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "necklace5_4", 
+                "path": "grand_bazaar.part/necklace5_4.png", 
+                "w": 39, 
+                "x": 693, 
+                "y": 249
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "necklace5_5_cover", 
+                "path": "grand_bazaar.part/necklace5_5_cover.png", 
+                "w": 42, 
+                "x": 467, 
+                "y": 122
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "necklace5_5", 
+                "path": "grand_bazaar.part/necklace5_5.png", 
+                "w": 40, 
+                "x": 466, 
+                "y": 126
+              }
+            }
+          ], 
+          "name": "necklace5", 
+          "path": "grand_bazaar.part/necklace5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "blade_orig", 
+      "path": "grand_bazaar.part/blade_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "blade1_1", 
+                "path": "grand_bazaar.part/blade1_1.png", 
+                "w": 63, 
+                "x": 322, 
+                "y": 553
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "blade1_2", 
+                "path": "grand_bazaar.part/blade1_2.png", 
+                "w": 21, 
+                "x": 1055, 
+                "y": 212
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "blade1_3_cover", 
+                "path": "grand_bazaar.part/blade1_3_cover.png", 
+                "w": 20, 
+                "x": 1060, 
+                "y": 529
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "blade1_3", 
+                "path": "grand_bazaar.part/blade1_3.png", 
+                "w": 17, 
+                "x": 1062, 
+                "y": 503
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "blade1_4", 
+                "path": "grand_bazaar.part/blade1_4.png", 
+                "w": 17, 
+                "x": 589, 
+                "y": 71
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "blade1_5_cover", 
+                "path": "grand_bazaar.part/blade1_5_cover.png", 
+                "w": 19, 
+                "x": 1044, 
+                "y": 94
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "blade1_5", 
+                "path": "grand_bazaar.part/blade1_5.png", 
+                "w": 17, 
+                "x": 1044, 
+                "y": 94
+              }
+            }
+          ], 
+          "name": "blade1", 
+          "path": "grand_bazaar.part/blade1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "blade2_1", 
+                "path": "grand_bazaar.part/blade2_1.png", 
+                "w": 27, 
+                "x": 244, 
+                "y": 12
+              }
+            }, 
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "blade2_2", 
+                "path": "grand_bazaar.part/blade2_2.png", 
+                "w": 26, 
+                "x": 260, 
+                "y": 159
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "blade2_3", 
+                "path": "grand_bazaar.part/blade2_3.png", 
+                "w": 33, 
+                "x": 1129, 
+                "y": 504
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "blade2_4_cover", 
+                "path": "grand_bazaar.part/blade2_4_cover.png", 
+                "w": 21, 
+                "x": 399, 
+                "y": 599
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "blade2_4", 
+                "path": "grand_bazaar.part/blade2_4.png", 
+                "w": 22, 
+                "x": 401, 
+                "y": 571
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "blade2_5_cover", 
+                "path": "grand_bazaar.part/blade2_5_cover.png", 
+                "w": 18, 
+                "x": 853, 
+                "y": 292
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "blade2_5", 
+                "path": "grand_bazaar.part/blade2_5.png", 
+                "w": 22, 
+                "x": 849, 
+                "y": 270
+              }
+            }
+          ], 
+          "name": "blade2", 
+          "path": "grand_bazaar.part/blade2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "blade3_1", 
+                "path": "grand_bazaar.part/blade3_1.png", 
+                "w": 40, 
+                "x": 1043, 
+                "y": 153
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "blade3_2", 
+                "path": "grand_bazaar.part/blade3_2.png", 
+                "w": 36, 
+                "x": 980, 
+                "y": 49
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "blade3_3_cover", 
+                "path": "grand_bazaar.part/blade3_3_cover.png", 
+                "w": 49, 
+                "x": 761, 
+                "y": 51
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "blade3_3", 
+                "path": "grand_bazaar.part/blade3_3.png", 
+                "w": 45, 
+                "x": 762, 
+                "y": 55
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "blade3_4_cover", 
+                "path": "grand_bazaar.part/blade3_4_cover.png", 
+                "w": 33, 
+                "x": 292, 
+                "y": 79
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "blade3_4", 
+                "path": "grand_bazaar.part/blade3_4.png", 
+                "w": 40, 
+                "x": 297, 
+                "y": 80
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "blade3_5_cover", 
+                "path": "grand_bazaar.part/blade3_5_cover.png", 
+                "w": 39, 
+                "x": 1020, 
+                "y": 400
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "blade3_5", 
+                "path": "grand_bazaar.part/blade3_5.png", 
+                "w": 45, 
+                "x": 1011, 
+                "y": 403
+              }
+            }
+          ], 
+          "name": "blade3", 
+          "path": "grand_bazaar.part/blade3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "blade4_1", 
+                "path": "grand_bazaar.part/blade4_1.png", 
+                "w": 97, 
+                "x": 399, 
+                "y": 503
+              }
+            }, 
+            {
+              "pic": {
+                "h": 99, 
+                "layer": 4, 
+                "name": "blade4_2", 
+                "path": "grand_bazaar.part/blade4_2.png", 
+                "w": 60, 
+                "x": 916, 
+                "y": 188
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "blade4_3_cover", 
+                "path": "grand_bazaar.part/blade4_3_cover.png", 
+                "w": 16, 
+                "x": 1094, 
+                "y": 193
+              }, 
+              "pic": {
+                "h": 99, 
+                "layer": 4, 
+                "name": "blade4_3", 
+                "path": "grand_bazaar.part/blade4_3.png", 
+                "w": 60, 
+                "x": 1070, 
+                "y": 198
+              }
+            }, 
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "blade4_4", 
+                "path": "grand_bazaar.part/blade4_4.png", 
+                "w": 94, 
+                "x": 789, 
+                "y": 568
+              }
+            }, 
+            {
+              "cover": {
+                "h": 75, 
+                "layer": 5, 
+                "name": "blade4_5_cover", 
+                "path": "grand_bazaar.part/blade4_5_cover.png", 
+                "w": 17, 
+                "x": 831, 
+                "y": 155
+              }, 
+              "pic": {
+                "h": 99, 
+                "layer": 4, 
+                "name": "blade4_5", 
+                "path": "grand_bazaar.part/blade4_5.png", 
+                "w": 60, 
+                "x": 807, 
+                "y": 158
+              }
+            }
+          ], 
+          "name": "blade4", 
+          "path": "grand_bazaar.part/blade4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "blade5_1", 
+                "path": "grand_bazaar.part/blade5_1.png", 
+                "w": 57, 
+                "x": 716, 
+                "y": 467
+              }
+            }, 
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "blade5_2", 
+                "path": "grand_bazaar.part/blade5_2.png", 
+                "w": 38, 
+                "x": 899, 
+                "y": 122
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "blade5_3", 
+                "path": "grand_bazaar.part/blade5_3.png", 
+                "w": 46, 
+                "x": 508, 
+                "y": 510
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "blade5_4_cover", 
+                "path": "grand_bazaar.part/blade5_4_cover.png", 
+                "w": 23, 
+                "x": 514, 
+                "y": 261
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "blade5_4", 
+                "path": "grand_bazaar.part/blade5_4.png", 
+                "w": 45, 
+                "x": 489, 
+                "y": 267
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "blade5_5_cover", 
+                "path": "grand_bazaar.part/blade5_5_cover.png", 
+                "w": 37, 
+                "x": 591, 
+                "y": 630
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "blade5_5", 
+                "path": "grand_bazaar.part/blade5_5.png", 
+                "w": 37, 
+                "x": 589, 
+                "y": 601
+              }
+            }
+          ], 
+          "name": "blade5", 
+          "path": "grand_bazaar.part/blade5.png"
+        }
+      ]
+    }
+  ]
+}

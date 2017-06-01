@@ -1,0 +1,34 @@
+[
+  {
+    "layer": 1, 
+    "path": "western_saloon.bg/back.png", 
+    "x": 1107, 
+    "y": 193
+  }, 
+  {
+    "layer": 2, 
+    "path": "western_saloon.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 2, 
+    "path": "western_saloon.bg/door_1.png", 
+    "x": 1149, 
+    "y": 253
+  }, 
+  {
+    "ani": true, 
+    "layer": 2, 
+    "path": "western_saloon.bg/piano_1.png", 
+    "x": 737, 
+    "y": 295
+  }, 
+  {
+    "layer": 8, 
+    "path": "western_saloon.bg/anim.png", 
+    "x": 462, 
+    "y": 0
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "layer": 0, 
+    "path": "polar_station.bg/sky.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 0, 
+    "path": "polar_station.bg/cloud_1.png", 
+    "x": 128, 
+    "y": 46
+  }, 
+  {
+    "layer": 0, 
+    "path": "polar_station.bg/cloud_2.png", 
+    "x": 450, 
+    "y": 11
+  }, 
+  {
+    "layer": 0, 
+    "path": "polar_station.bg/cloud_3.png", 
+    "x": 790, 
+    "y": 12
+  }, 
+  {
+    "ani": true, 
+    "layer": 0, 
+    "path": "polar_station.bg/f_01.png", 
+    "x": 313, 
+    "y": 31
+  }, 
+  {
+    "ani": true, 
+    "layer": 0, 
+    "path": "polar_station.bg/medved_01.png", 
+    "x": 476, 
+    "y": 19
+  }, 
+  {
+    "layer": 1, 
+    "path": "polar_station.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 4, 
+    "path": "polar_station.bg/cover_tractor.png", 
+    "type": "skip", 
+    "x": 228, 
+    "y": 217
+  }, 
+  {
+    "layer": 200, 
+    "path": "polar_station.bg/wire2.png", 
+    "x": 942, 
+    "y": -12
+  }, 
+  {
+    "layer": 200, 
+    "path": "polar_station.bg/wire1.png", 
+    "x": 939, 
+    "y": -19
+  }
+]

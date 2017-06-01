@@ -1,0 +1,48 @@
+[
+  {
+    "layer": 1, 
+    "path": "forresters_house.bg/back.png", 
+    "x": 264, 
+    "y": 193
+  }, 
+  {
+    "layer": 2, 
+    "path": "forresters_house.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 2, 
+    "path": "forresters_house.bg/fire_001.png", 
+    "x": 1032, 
+    "y": 372
+  }, 
+  {
+    "layer": 6, 
+    "path": "forresters_house.bg/armchair.png", 
+    "x": 969, 
+    "y": 401
+  }, 
+  {
+    "layer": 6, 
+    "path": "forresters_house.bg/glow_1.png", 
+    "type": "effect", 
+    "x": 1114, 
+    "y": 232
+  }, 
+  {
+    "layer": 6, 
+    "path": "forresters_house.bg/glow_2.png", 
+    "type": "effect", 
+    "x": 1000, 
+    "y": 244
+  }, 
+  {
+    "layer": 6, 
+    "path": "forresters_house.bg/glow_3.png", 
+    "type": "effect", 
+    "x": 534, 
+    "y": 1
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "layer": 1, 
+    "path": "alchemist_room.bg/sky.png", 
+    "x": 488, 
+    "y": 0
+  }, 
+  {
+    "layer": 1, 
+    "path": "alchemist_room.bg/cloud_01.png", 
+    "x": 572, 
+    "y": 144
+  }, 
+  {
+    "layer": 1, 
+    "path": "alchemist_room.bg/cloud_02.png", 
+    "x": 671, 
+    "y": 199
+  }, 
+  {
+    "layer": 2, 
+    "path": "alchemist_room.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 2, 
+    "path": "alchemist_room.bg/bubbles_01.png", 
+    "x": 251, 
+    "y": 195
+  }, 
+  {
+    "ani": true, 
+    "layer": 2, 
+    "path": "alchemist_room.bg/bubble_01.png", 
+    "x": 674, 
+    "y": 441
+  }, 
+  {
+    "layer": 3, 
+    "path": "alchemist_room.bg/aqua_dark.png", 
+    "type": "skip", 
+    "x": 66, 
+    "y": 196
+  }, 
+  {
+    "layer": 6, 
+    "path": "alchemist_room.bg/glow_1.png", 
+    "type": "effect", 
+    "x": 1024, 
+    "y": 0
+  }, 
+  {
+    "layer": 6, 
+    "path": "alchemist_room.bg/glow_2.png", 
+    "type": "effect", 
+    "x": 869, 
+    "y": 272
+  }, 
+  {
+    "layer": 6, 
+    "path": "alchemist_room.bg/glow_3.png", 
+    "type": "effect", 
+    "x": 564, 
+    "y": 90
+  }, 
+  {
+    "layer": 6, 
+    "path": "alchemist_room.bg/glow_4.png", 
+    "type": "effect", 
+    "x": 830, 
+    "y": 458
+  }, 
+  {
+    "layer": 6, 
+    "path": "alchemist_room.bg/glow_5.png", 
+    "type": "effect", 
+    "x": 34, 
+    "y": 20
+  }, 
+  {
+    "layer": 8, 
+    "path": "alchemist_room.bg/aqua_light.png", 
+    "type": "effect", 
+    "x": 66, 
+    "y": 196
+  }
+]

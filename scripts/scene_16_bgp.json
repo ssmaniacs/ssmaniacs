@@ -1,0 +1,56 @@
+[
+  {
+    "layer": 1, 
+    "path": "mill.bg/sky.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 2, 
+    "path": "mill.bg/cloud_1.png", 
+    "x": 451, 
+    "y": 70
+  }, 
+  {
+    "layer": 2, 
+    "path": "mill.bg/cloud_2.png", 
+    "x": 729, 
+    "y": 4
+  }, 
+  {
+    "layer": 2, 
+    "path": "mill.bg/cloud_3.png", 
+    "x": 505, 
+    "y": 3
+  }, 
+  {
+    "layer": 2, 
+    "path": "mill.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 6, 
+    "path": "mill.bg/eye.png", 
+    "x": 250, 
+    "y": 83
+  }, 
+  {
+    "layer": 6, 
+    "path": "mill.bg/mill1.png", 
+    "x": 828, 
+    "y": 0
+  }, 
+  {
+    "layer": 6, 
+    "path": "mill.bg/mill2.png", 
+    "x": 653, 
+    "y": 87
+  }, 
+  {
+    "layer": 6, 
+    "path": "mill.bg/mill3.png", 
+    "x": 473, 
+    "y": 135
+  }
+]

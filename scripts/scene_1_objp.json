@@ -1,0 +1,7074 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "fuji1", 
+            "path": "japan.form/fuji1.png", 
+            "w": 40, 
+            "x": 690, 
+            "y": 294
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "fuji2", 
+            "path": "japan.form/fuji2.png", 
+            "w": 41, 
+            "x": 912, 
+            "y": 232
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "fuji3", 
+            "path": "japan.form/fuji3.png", 
+            "w": 41, 
+            "x": 324, 
+            "y": 283
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "fuji4", 
+            "path": "japan.form/fuji4.png", 
+            "w": 41, 
+            "x": 501, 
+            "y": 418
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "fuji5_cover", 
+            "path": "japan.form/fuji5_cover.png", 
+            "w": 30, 
+            "x": 395, 
+            "y": 501
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "fuji5", 
+            "path": "japan.form/fuji5.png", 
+            "w": 38, 
+            "x": 389, 
+            "y": 496
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "fuji6", 
+            "path": "japan.form/fuji6.png", 
+            "w": 55, 
+            "x": 357, 
+            "y": 48
+          }
+        }
+      ], 
+      "name": "富士山", 
+      "path": "japan.sils/fuji.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "flag1", 
+            "path": "japan.form/flag1.png", 
+            "w": 40, 
+            "x": 271, 
+            "y": 244
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "flag2", 
+            "path": "japan.form/flag2.png", 
+            "w": 20, 
+            "x": 629, 
+            "y": 408
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "flag3_cover", 
+            "path": "japan.form/flag3_cover.png", 
+            "w": 41, 
+            "x": 812, 
+            "y": 174
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "flag3", 
+            "path": "japan.form/flag3.png", 
+            "w": 35, 
+            "x": 815, 
+            "y": 177
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "flag4_cover", 
+            "path": "japan.form/flag4_cover.png", 
+            "w": 38, 
+            "x": 539, 
+            "y": 112
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "flag4", 
+            "path": "japan.form/flag4.png", 
+            "w": 36, 
+            "x": 540, 
+            "y": 114
+          }
+        }, 
+        {
+          "cover": {
+            "h": 9, 
+            "layer": 5, 
+            "name": "flag5_cover", 
+            "path": "japan.form/flag5_cover.png", 
+            "w": 29, 
+            "x": 899, 
+            "y": 471
+          }, 
+          "pic": {
+            "h": 20, 
+            "layer": 3, 
+            "name": "flag5", 
+            "path": "japan.form/flag5.png", 
+            "w": 27, 
+            "x": 901, 
+            "y": 461
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "flag6_cover", 
+            "path": "japan.form/flag6_cover.png", 
+            "w": 35, 
+            "x": 779, 
+            "y": 260
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "flag6", 
+            "path": "japan.form/flag6.png", 
+            "w": 31, 
+            "x": 780, 
+            "y": 261
+          }
+        }
+      ], 
+      "name": "日本の旗", 
+      "path": "japan.sils/flag.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "omamori1", 
+            "path": "japan.form/omamori1.png", 
+            "w": 26, 
+            "x": 709, 
+            "y": 564
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "omamori2", 
+            "path": "japan.form/omamori2.png", 
+            "w": 28, 
+            "x": 932, 
+            "y": 101
+          }
+        }, 
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "omamori3", 
+            "path": "japan.form/omamori3.png", 
+            "w": 35, 
+            "x": 1147, 
+            "y": 237
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "omamori4", 
+            "path": "japan.form/omamori4.png", 
+            "w": 32, 
+            "x": 756, 
+            "y": 196
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "omamori5", 
+            "path": "japan.form/omamori5.png", 
+            "w": 30, 
+            "x": 383, 
+            "y": 395
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "omamori6_cover", 
+            "path": "japan.form/omamori6_cover.png", 
+            "w": 16, 
+            "x": 587, 
+            "y": 203
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "omamori6", 
+            "path": "japan.form/omamori6.png", 
+            "w": 30, 
+            "x": 587, 
+            "y": 209
+          }
+        }
+      ], 
+      "name": "御守り", 
+      "path": "japan.sils/omamori.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "butterfly1", 
+            "path": "japan.form/butterfly1.png", 
+            "w": 31, 
+            "x": 341, 
+            "y": 582
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "butterfly2", 
+            "path": "japan.form/butterfly2.png", 
+            "w": 36, 
+            "x": 1132, 
+            "y": 110
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "butterfly3", 
+            "path": "japan.form/butterfly3.png", 
+            "w": 31, 
+            "x": 369, 
+            "y": 198
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "butterfly4", 
+            "path": "japan.form/butterfly4.png", 
+            "w": 31, 
+            "x": 862, 
+            "y": 301
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "butterfly5", 
+            "path": "japan.form/butterfly5.png", 
+            "w": 31, 
+            "x": 771, 
+            "y": 321
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "butterfly6_cover", 
+            "path": "japan.form/butterfly6_cover.png", 
+            "w": 32, 
+            "x": 981, 
+            "y": 194
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "butterfly6", 
+            "path": "japan.form/butterfly6.png", 
+            "w": 23, 
+            "x": 983, 
+            "y": 185
+          }
+        }
+      ], 
+      "name": "蝶", 
+      "path": "japan.sils/butterfly.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "typewriter1", 
+            "path": "japan.form/typewriter1.png", 
+            "w": 86, 
+            "x": 630, 
+            "y": 608
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "typewriter2", 
+            "path": "japan.form/typewriter2.png", 
+            "w": 78, 
+            "x": 455, 
+            "y": 50
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "typewriter3_cover", 
+            "path": "japan.form/typewriter3_cover.png", 
+            "w": 44, 
+            "x": 518, 
+            "y": 498
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "typewriter3", 
+            "path": "japan.form/typewriter3.png", 
+            "w": 67, 
+            "x": 499, 
+            "y": 499
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "typewriter4_cover", 
+            "path": "japan.form/typewriter4_cover.png", 
+            "w": 54, 
+            "x": 864, 
+            "y": 487
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "typewriter4", 
+            "path": "japan.form/typewriter4.png", 
+            "w": 50, 
+            "x": 865, 
+            "y": 483
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "typewriter5_cover", 
+            "path": "japan.form/typewriter5_cover.png", 
+            "w": 58, 
+            "x": 386, 
+            "y": 570
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "typewriter5", 
+            "path": "japan.form/typewriter5.png", 
+            "w": 70, 
+            "x": 389, 
+            "y": 579
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "typewriter6_cover", 
+            "path": "japan.form/typewriter6_cover.png", 
+            "w": 30, 
+            "x": 712, 
+            "y": 468
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "typewriter6", 
+            "path": "japan.form/typewriter6.png", 
+            "w": 55, 
+            "x": 686, 
+            "y": 471
+          }
+        }
+      ], 
+      "name": "タイプライター", 
+      "path": "japan.sils/typewriter.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "bag1", 
+            "path": "japan.form/bag1.png", 
+            "w": 77, 
+            "x": 795, 
+            "y": 588
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "bag2_cover", 
+            "path": "japan.form/bag2_cover.png", 
+            "w": 75, 
+            "x": 280, 
+            "y": 61
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "bag2", 
+            "path": "japan.form/bag2.png", 
+            "w": 74, 
+            "x": 278, 
+            "y": 61
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "bag3_cover", 
+            "path": "japan.form/bag3_cover.png", 
+            "w": 51, 
+            "x": 621, 
+            "y": 530
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "bag3", 
+            "path": "japan.form/bag3.png", 
+            "w": 55, 
+            "x": 614, 
+            "y": 528
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "bag4_cover", 
+            "path": "japan.form/bag4_cover.png", 
+            "w": 55, 
+            "x": 1028, 
+            "y": 490
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "bag4", 
+            "path": "japan.form/bag4.png", 
+            "w": 49, 
+            "x": 1033, 
+            "y": 496
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "bag5_cover", 
+            "path": "japan.form/bag5_cover.png", 
+            "w": 55, 
+            "x": 334, 
+            "y": 444
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "bag5", 
+            "path": "japan.form/bag5.png", 
+            "w": 59, 
+            "x": 337, 
+            "y": 445
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "bag6_cover", 
+            "path": "japan.form/bag6_cover.png", 
+            "w": 44, 
+            "x": 1084, 
+            "y": 367
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "bag6", 
+            "path": "japan.form/bag6.png", 
+            "w": 50, 
+            "x": 1071, 
+            "y": 382
+          }
+        }
+      ], 
+      "name": "かばん", 
+      "path": "japan.sils/bag.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "screen1", 
+            "path": "japan.form/screen1.png", 
+            "w": 89, 
+            "x": 1092, 
+            "y": 465
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "screen2", 
+            "path": "japan.form/screen2.png", 
+            "w": 79, 
+            "x": 781, 
+            "y": 469
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "screen3_cover", 
+            "path": "japan.form/screen3_cover.png", 
+            "w": 72, 
+            "x": 580, 
+            "y": 477
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "screen3", 
+            "path": "japan.form/screen3.png", 
+            "w": 72, 
+            "x": 581, 
+            "y": 470
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "screen4_cover", 
+            "path": "japan.form/screen4_cover.png", 
+            "w": 58, 
+            "x": 820, 
+            "y": 244
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "screen4", 
+            "path": "japan.form/screen4.png", 
+            "w": 51, 
+            "x": 821, 
+            "y": 245
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "screen5_cover", 
+            "path": "japan.form/screen5_cover.png", 
+            "w": 66, 
+            "x": 982, 
+            "y": 50
+          }, 
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "screen5", 
+            "path": "japan.form/screen5.png", 
+            "w": 63, 
+            "x": 986, 
+            "y": 54
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 5, 
+            "name": "screen6_cover", 
+            "path": "japan.form/screen6_cover.png", 
+            "w": 51, 
+            "x": 721, 
+            "y": 133
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "screen6", 
+            "path": "japan.form/screen6.png", 
+            "w": 75, 
+            "x": 709, 
+            "y": 134
+          }
+        }
+      ], 
+      "name": "ついたて", 
+      "path": "japan.sils/screen.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "castle1", 
+            "path": "japan.form/castle1.png", 
+            "w": 60, 
+            "x": 342, 
+            "y": 520
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "castle2", 
+            "path": "japan.form/castle2.png", 
+            "w": 54, 
+            "x": 732, 
+            "y": 511
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "castle3_cover", 
+            "path": "japan.form/castle3_cover.png", 
+            "w": 22, 
+            "x": 355, 
+            "y": 339
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "castle3", 
+            "path": "japan.form/castle3.png", 
+            "w": 47, 
+            "x": 352, 
+            "y": 344
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "castle4_cover", 
+            "path": "japan.form/castle4_cover.png", 
+            "w": 42, 
+            "x": 1200, 
+            "y": 500
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "castle4", 
+            "path": "japan.form/castle4.png", 
+            "w": 51, 
+            "x": 1198, 
+            "y": 503
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "castle5_cover", 
+            "path": "japan.form/castle5_cover.png", 
+            "w": 45, 
+            "x": 504, 
+            "y": 591
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "castle5", 
+            "path": "japan.form/castle5.png", 
+            "w": 46, 
+            "x": 502, 
+            "y": 577
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "castle6_cover", 
+            "path": "japan.form/castle6_cover.png", 
+            "w": 37, 
+            "x": 887, 
+            "y": 347
+          }, 
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "castle6", 
+            "path": "japan.form/castle6.png", 
+            "w": 32, 
+            "x": 888, 
+            "y": 349
+          }
+        }
+      ], 
+      "name": "城", 
+      "path": "japan.sils/castle.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "mini_rock_garden1", 
+            "path": "japan.form/mini_rock_garden1.png", 
+            "w": 103, 
+            "x": 236, 
+            "y": 601
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "mini_rock_garden2", 
+            "path": "japan.form/mini_rock_garden2.png", 
+            "w": 103, 
+            "x": 938, 
+            "y": 615
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "mini_rock_garden3_cover", 
+            "path": "japan.form/mini_rock_garden3_cover.png", 
+            "w": 103, 
+            "x": 808, 
+            "y": 526
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "mini_rock_garden3", 
+            "path": "japan.form/mini_rock_garden3.png", 
+            "w": 87, 
+            "x": 817, 
+            "y": 533
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "mini_rock_garden4_cover", 
+            "path": "japan.form/mini_rock_garden4_cover.png", 
+            "w": 57, 
+            "x": 422, 
+            "y": 522
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "mini_rock_garden4", 
+            "path": "japan.form/mini_rock_garden4.png", 
+            "w": 56, 
+            "x": 431, 
+            "y": 528
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "mini_rock_garden5_cover", 
+            "path": "japan.form/mini_rock_garden5_cover.png", 
+            "w": 69, 
+            "x": 553, 
+            "y": 598
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "mini_rock_garden5", 
+            "path": "japan.form/mini_rock_garden5.png", 
+            "w": 87, 
+            "x": 556, 
+            "y": 597
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "mini_rock_garden6", 
+            "path": "japan.form/mini_rock_garden6.png", 
+            "w": 75, 
+            "x": 238, 
+            "y": 539
+          }
+        }
+      ], 
+      "name": "「庭園」アイテム", 
+      "path": "japan.sils/minirockgarden.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "daruma1", 
+            "path": "japan.form/daruma1.png", 
+            "w": 26, 
+            "x": 750, 
+            "y": 612
+          }
+        }, 
+        {
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "daruma2", 
+            "path": "japan.form/daruma2.png", 
+            "w": 15, 
+            "x": 937, 
+            "y": 386
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "daruma3_cover", 
+            "path": "japan.form/daruma3_cover.png", 
+            "w": 18, 
+            "x": 910, 
+            "y": 558
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "daruma3", 
+            "path": "japan.form/daruma3.png", 
+            "w": 18, 
+            "x": 914, 
+            "y": 560
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "daruma4_cover", 
+            "path": "japan.form/daruma4_cover.png", 
+            "w": 26, 
+            "x": 1131, 
+            "y": 407
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "daruma4", 
+            "path": "japan.form/daruma4.png", 
+            "w": 22, 
+            "x": 1134, 
+            "y": 400
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "daruma5_cover", 
+            "path": "japan.form/daruma5_cover.png", 
+            "w": 28, 
+            "x": 433, 
+            "y": 438
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "daruma5", 
+            "path": "japan.form/daruma5.png", 
+            "w": 22, 
+            "x": 442, 
+            "y": 449
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "daruma6_cover", 
+            "path": "japan.form/daruma6_cover.png", 
+            "w": 27, 
+            "x": 441, 
+            "y": 396
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "daruma6", 
+            "path": "japan.form/daruma6.png", 
+            "w": 21, 
+            "x": 445, 
+            "y": 388
+          }
+        }
+      ], 
+      "name": "だるま", 
+      "path": "japan.sils/daruma.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "dinosaurus1", 
+            "path": "japan.form/dinosaurus1.png", 
+            "w": 42, 
+            "x": 494, 
+            "y": 537
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "dinosaurus2", 
+            "path": "japan.form/dinosaurus2.png", 
+            "w": 42, 
+            "x": 966, 
+            "y": 576
+          }
+        }, 
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "dinosaurus3", 
+            "path": "japan.form/dinosaurus3.png", 
+            "w": 44, 
+            "x": 1099, 
+            "y": 527
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "dinosaurus4", 
+            "path": "japan.form/dinosaurus4.png", 
+            "w": 47, 
+            "x": 245, 
+            "y": 354
+          }
+        }, 
+        {
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "dinosaurus5", 
+            "path": "japan.form/dinosaurus5.png", 
+            "w": 32, 
+            "x": 556, 
+            "y": 246
+          }
+        }, 
+        {
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "dinosaurus6", 
+            "path": "japan.form/dinosaurus6.png", 
+            "w": 34, 
+            "x": 793, 
+            "y": 444
+          }
+        }
+      ], 
+      "name": "恐竜", 
+      "path": "japan.sils/dinosaurus.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "fox1", 
+            "path": "japan.form/fox1.png", 
+            "w": 60, 
+            "x": 1144, 
+            "y": 553
+          }
+        }, 
+        {
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "fox2", 
+            "path": "japan.form/fox2.png", 
+            "w": 42, 
+            "x": 372, 
+            "y": 617
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "fox3_cover", 
+            "path": "japan.form/fox3_cover.png", 
+            "w": 38, 
+            "x": 598, 
+            "y": 372
+          }, 
+          "pic": {
+            "h": 15, 
+            "layer": 3, 
+            "name": "fox3", 
+            "path": "japan.form/fox3.png", 
+            "w": 29, 
+            "x": 602, 
+            "y": 376
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 5, 
+            "name": "fox4_cover", 
+            "path": "japan.form/fox4_cover.png", 
+            "w": 11, 
+            "x": 848, 
+            "y": 442
+          }, 
+          "pic": {
+            "h": 15, 
+            "layer": 3, 
+            "name": "fox4", 
+            "path": "japan.form/fox4.png", 
+            "w": 29, 
+            "x": 845, 
+            "y": 439
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 5, 
+            "name": "fox5_cover", 
+            "path": "japan.form/fox5_cover.png", 
+            "w": 49, 
+            "x": 1185, 
+            "y": 407
+          }, 
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "fox5", 
+            "path": "japan.form/fox5.png", 
+            "w": 44, 
+            "x": 1189, 
+            "y": 398
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "fox6_cover", 
+            "path": "japan.form/fox6_cover.png", 
+            "w": 63, 
+            "x": 785, 
+            "y": 80
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "fox6", 
+            "path": "japan.form/fox6.png", 
+            "w": 59, 
+            "x": 786, 
+            "y": 82
+          }
+        }
+      ], 
+      "name": "キツネ", 
+      "path": "japan.sils/fox.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 20, 
+            "layer": 3, 
+            "name": "carp1", 
+            "path": "japan.form/carp1.png", 
+            "w": 45, 
+            "x": 1015, 
+            "y": 559
+          }
+        }, 
+        {
+          "pic": {
+            "h": 20, 
+            "layer": 3, 
+            "name": "carp2", 
+            "path": "japan.form/carp2.png", 
+            "w": 44, 
+            "x": 517, 
+            "y": 619
+          }
+        }, 
+        {
+          "pic": {
+            "h": 16, 
+            "layer": 3, 
+            "name": "carp3", 
+            "path": "japan.form/carp3.png", 
+            "w": 36, 
+            "x": 692, 
+            "y": 524
+          }
+        }, 
+        {
+          "pic": {
+            "h": 18, 
+            "layer": 3, 
+            "name": "carp4", 
+            "path": "japan.form/carp4.png", 
+            "w": 38, 
+            "x": 947, 
+            "y": 509
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "carp5_cover", 
+            "path": "japan.form/carp5_cover.png", 
+            "w": 45, 
+            "x": 639, 
+            "y": 378
+          }, 
+          "pic": {
+            "h": 17, 
+            "layer": 3, 
+            "name": "carp5", 
+            "path": "japan.form/carp5.png", 
+            "w": 35, 
+            "x": 646, 
+            "y": 386
+          }
+        }, 
+        {
+          "pic": {
+            "h": 19, 
+            "layer": 3, 
+            "name": "carp6", 
+            "path": "japan.form/carp6.png", 
+            "w": 42, 
+            "x": 248, 
+            "y": 509
+          }
+        }
+      ], 
+      "name": "鯉", 
+      "path": "japan.sils/carp.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "bird_crane1_cover", 
+            "path": "japan.form/bird_crane1_cover.png", 
+            "w": 29, 
+            "x": 1042, 
+            "y": 202
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "bird_crane1", 
+            "path": "japan.form/bird_crane1.png", 
+            "w": 48, 
+            "x": 1039, 
+            "y": 206
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "bird_crane2", 
+            "path": "japan.form/bird_crane2.png", 
+            "w": 41, 
+            "x": 742, 
+            "y": 237
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "bird_crane3", 
+            "path": "japan.form/bird_crane3.png", 
+            "w": 51, 
+            "x": 460, 
+            "y": 183
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "bird_crane4_cover", 
+            "path": "japan.form/bird_crane4_cover.png", 
+            "w": 37, 
+            "x": 567, 
+            "y": 287
+          }, 
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "bird_crane4", 
+            "path": "japan.form/bird_crane4.png", 
+            "w": 37, 
+            "x": 567, 
+            "y": 289
+          }
+        }, 
+        {
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "bird_crane5", 
+            "path": "japan.form/bird_crane5.png", 
+            "w": 51, 
+            "x": 1180, 
+            "y": 452
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "bird_crane6_cover", 
+            "path": "japan.form/bird_crane6_cover.png", 
+            "w": 61, 
+            "x": 986, 
+            "y": 1
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "bird_crane6", 
+            "path": "japan.form/bird_crane6.png", 
+            "w": 45, 
+            "x": 990, 
+            "y": 4
+          }
+        }
+      ], 
+      "name": "鶴", 
+      "path": "japan.sils/birdcrane.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "mask1", 
+            "path": "japan.form/mask1.png", 
+            "w": 45, 
+            "x": 566, 
+            "y": 565
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "mask2", 
+            "path": "japan.form/mask2.png", 
+            "w": 34, 
+            "x": 471, 
+            "y": 293
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "mask3_cover", 
+            "path": "japan.form/mask3_cover.png", 
+            "w": 20, 
+            "x": 654, 
+            "y": 328
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "mask3", 
+            "path": "japan.form/mask3.png", 
+            "w": 27, 
+            "x": 645, 
+            "y": 330
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "mask4_cover", 
+            "path": "japan.form/mask4_cover.png", 
+            "w": 19, 
+            "x": 1015, 
+            "y": 289
+          }, 
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "mask4", 
+            "path": "japan.form/mask4.png", 
+            "w": 37, 
+            "x": 995, 
+            "y": 289
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "mask5_cover", 
+            "path": "japan.form/mask5_cover.png", 
+            "w": 28, 
+            "x": 607, 
+            "y": 46
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "mask5", 
+            "path": "japan.form/mask5.png", 
+            "w": 25, 
+            "x": 608, 
+            "y": 41
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "mask6_cover", 
+            "path": "japan.form/mask6_cover.png", 
+            "w": 43, 
+            "x": 964, 
+            "y": 486
+          }, 
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "mask6", 
+            "path": "japan.form/mask6.png", 
+            "w": 37, 
+            "x": 968, 
+            "y": 485
+          }
+        }
+      ], 
+      "name": "能面", 
+      "path": "japan.sils/mask.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "helmet1", 
+            "path": "japan.form/helmet1.png", 
+            "w": 48, 
+            "x": 574, 
+            "y": 405
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "helmet2_cover", 
+            "path": "japan.form/helmet2_cover.png", 
+            "w": 26, 
+            "x": 960, 
+            "y": 444
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "helmet2", 
+            "path": "japan.form/helmet2.png", 
+            "w": 43, 
+            "x": 946, 
+            "y": 405
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "helmet3_cover", 
+            "path": "japan.form/helmet3_cover.png", 
+            "w": 34, 
+            "x": 726, 
+            "y": 374
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "helmet3", 
+            "path": "japan.form/helmet3.png", 
+            "w": 32, 
+            "x": 726, 
+            "y": 371
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "helmet4_cover", 
+            "path": "japan.form/helmet4_cover.png", 
+            "w": 36, 
+            "x": 1079, 
+            "y": 418
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "helmet4", 
+            "path": "japan.form/helmet4.png", 
+            "w": 32, 
+            "x": 1081, 
+            "y": 419
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "helmet5_cover", 
+            "path": "japan.form/helmet5_cover.png", 
+            "w": 34, 
+            "x": 780, 
+            "y": 378
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "helmet5", 
+            "path": "japan.form/helmet5.png", 
+            "w": 32, 
+            "x": 797, 
+            "y": 372
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "helmet6_cover", 
+            "path": "japan.form/helmet6_cover.png", 
+            "w": 37, 
+            "x": 230, 
+            "y": 457
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "helmet6", 
+            "path": "japan.form/helmet6.png", 
+            "w": 32, 
+            "x": 232, 
+            "y": 445
+          }
+        }
+      ], 
+      "name": "侍の兜", 
+      "path": "japan.sils/helmet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "shoes1", 
+            "path": "japan.form/shoes1.png", 
+            "w": 63, 
+            "x": 442, 
+            "y": 613
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "shoes2", 
+            "path": "japan.form/shoes2.png", 
+            "w": 63, 
+            "x": 1028, 
+            "y": 587
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "shoes3_cover", 
+            "path": "japan.form/shoes3_cover.png", 
+            "w": 44, 
+            "x": 846, 
+            "y": 145
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "shoes3", 
+            "path": "japan.form/shoes3.png", 
+            "w": 45, 
+            "x": 849, 
+            "y": 147
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "shoes4", 
+            "path": "japan.form/shoes4.png", 
+            "w": 28, 
+            "x": 1219, 
+            "y": 347
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "shoes5_cover", 
+            "path": "japan.form/shoes5_cover.png", 
+            "w": 44, 
+            "x": 874, 
+            "y": 409
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "shoes5", 
+            "path": "japan.form/shoes5.png", 
+            "w": 43, 
+            "x": 875, 
+            "y": 410
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "shoes6_cover", 
+            "path": "japan.form/shoes6_cover.png", 
+            "w": 26, 
+            "x": 488, 
+            "y": 392
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "shoes6", 
+            "path": "japan.form/shoes6.png", 
+            "w": 31, 
+            "x": 481, 
+            "y": 372
+          }
+        }
+      ], 
+      "name": "下駄", 
+      "path": "japan.sils/shoes.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "teapot1", 
+            "path": "japan.form/teapot1.png", 
+            "w": 47, 
+            "x": 1000, 
+            "y": 363
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "teapot2", 
+            "path": "japan.form/teapot2.png", 
+            "w": 48, 
+            "x": 711, 
+            "y": 417
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "teapot3_cover", 
+            "path": "japan.form/teapot3_cover.png", 
+            "w": 28, 
+            "x": 831, 
+            "y": 406
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "teapot3", 
+            "path": "japan.form/teapot3.png", 
+            "w": 35, 
+            "x": 833, 
+            "y": 396
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "teapot4_cover", 
+            "path": "japan.form/teapot4_cover.png", 
+            "w": 13, 
+            "x": 305, 
+            "y": 352
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "teapot4", 
+            "path": "japan.form/teapot4.png", 
+            "w": 35, 
+            "x": 307, 
+            "y": 346
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "teapot5_cover", 
+            "path": "japan.form/teapot5_cover.png", 
+            "w": 21, 
+            "x": 652, 
+            "y": 406
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "teapot5", 
+            "path": "japan.form/teapot5.png", 
+            "w": 35, 
+            "x": 654, 
+            "y": 406
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "teapot6_cover", 
+            "path": "japan.form/teapot6_cover.png", 
+            "w": 26, 
+            "x": 1114, 
+            "y": 332
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "teapot6", 
+            "path": "japan.form/teapot6.png", 
+            "w": 35, 
+            "x": 1104, 
+            "y": 325
+          }
+        }
+      ], 
+      "name": "急須", 
+      "path": "japan.sils/teapot.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "hanger1", 
+            "path": "japan.form/hanger1.png", 
+            "w": 69, 
+            "x": 616, 
+            "y": 178
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "hanger2", 
+            "path": "japan.form/hanger2.png", 
+            "w": 69, 
+            "x": 1144, 
+            "y": 33
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "hanger3", 
+            "path": "japan.form/hanger3.png", 
+            "w": 50, 
+            "x": 966, 
+            "y": 310
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "hanger4_cover", 
+            "path": "japan.form/hanger4_cover.png", 
+            "w": 30, 
+            "x": 574, 
+            "y": 322
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "hanger4", 
+            "path": "japan.form/hanger4.png", 
+            "w": 34, 
+            "x": 575, 
+            "y": 324
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "hanger5", 
+            "path": "japan.form/hanger5.png", 
+            "w": 33, 
+            "x": 380, 
+            "y": 277
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "hanger6_cover", 
+            "path": "japan.form/hanger6_cover.png", 
+            "w": 56, 
+            "x": 821, 
+            "y": 28
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "hanger6", 
+            "path": "japan.form/hanger6.png", 
+            "w": 52, 
+            "x": 822, 
+            "y": 31
+          }
+        }
+      ], 
+      "name": "ハンガー", 
+      "path": "japan.sils/hanger.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "glove1", 
+            "path": "japan.form/glove1.png", 
+            "w": 67, 
+            "x": 390, 
+            "y": 153
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "glove2_cover", 
+            "path": "japan.form/glove2_cover.png", 
+            "w": 36, 
+            "x": 1054, 
+            "y": 304
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "glove2", 
+            "path": "japan.form/glove2.png", 
+            "w": 34, 
+            "x": 1055, 
+            "y": 306
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "glove3_cover", 
+            "path": "japan.form/glove3_cover.png", 
+            "w": 12, 
+            "x": 416, 
+            "y": 251
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "glove3", 
+            "path": "japan.form/glove3.png", 
+            "w": 33, 
+            "x": 418, 
+            "y": 250
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "glove4_cover", 
+            "path": "japan.form/glove4_cover.png", 
+            "w": 47, 
+            "x": 242, 
+            "y": 383
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "glove4", 
+            "path": "japan.form/glove4.png", 
+            "w": 56, 
+            "x": 238, 
+            "y": 379
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "glove5_cover", 
+            "path": "japan.form/glove5_cover.png", 
+            "w": 23, 
+            "x": 858, 
+            "y": 350
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "glove5", 
+            "path": "japan.form/glove5.png", 
+            "w": 34, 
+            "x": 846, 
+            "y": 345
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "glove6_cover", 
+            "path": "japan.form/glove6_cover.png", 
+            "w": 39, 
+            "x": 888, 
+            "y": 585
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "glove6", 
+            "path": "japan.form/glove6.png", 
+            "w": 55, 
+            "x": 886, 
+            "y": 581
+          }
+        }
+      ], 
+      "name": "手袋", 
+      "path": "japan.sils/glove.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "scissors1", 
+            "path": "japan.form/scissors1.png", 
+            "w": 47, 
+            "x": 649, 
+            "y": 460
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "scissors2", 
+            "path": "japan.form/scissors2.png", 
+            "w": 58, 
+            "x": 241, 
+            "y": 105
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "scissors3", 
+            "path": "japan.form/scissors3.png", 
+            "w": 38, 
+            "x": 496, 
+            "y": 246
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "scissors4_cover", 
+            "path": "japan.form/scissors4_cover.png", 
+            "w": 17, 
+            "x": 656, 
+            "y": 286
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "scissors4", 
+            "path": "japan.form/scissors4.png", 
+            "w": 38, 
+            "x": 644, 
+            "y": 282
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "scissors5_cover", 
+            "path": "japan.form/scissors5_cover.png", 
+            "w": 11, 
+            "x": 1037, 
+            "y": 463
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "scissors5", 
+            "path": "japan.form/scissors5.png", 
+            "w": 38, 
+            "x": 1024, 
+            "y": 443
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "scissors6_cover", 
+            "path": "japan.form/scissors6_cover.png", 
+            "w": 14, 
+            "x": 473, 
+            "y": 408
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "scissors6", 
+            "path": "japan.form/scissors6.png", 
+            "w": 37, 
+            "x": 466, 
+            "y": 401
+          }
+        }
+      ], 
+      "name": "ハサミ", 
+      "path": "japan.sils/scissors.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bell1", 
+            "path": "japan.form/bell1.png", 
+            "w": 31, 
+            "x": 625, 
+            "y": 219
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "bell2", 
+            "path": "japan.form/bell2.png", 
+            "w": 43, 
+            "x": 720, 
+            "y": 49
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "bell3_cover", 
+            "path": "japan.form/bell3_cover.png", 
+            "w": 24, 
+            "x": 1059, 
+            "y": 99
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "bell3", 
+            "path": "japan.form/bell3.png", 
+            "w": 24, 
+            "x": 1061, 
+            "y": 102
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "bell4_cover", 
+            "path": "japan.form/bell4_cover.png", 
+            "w": 13, 
+            "x": 1150, 
+            "y": 345
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "bell4", 
+            "path": "japan.form/bell4.png", 
+            "w": 22, 
+            "x": 1151, 
+            "y": 348
+          }
+        }, 
+        {
+          "cover": {
+            "h": 9, 
+            "layer": 5, 
+            "name": "bell5_cover", 
+            "path": "japan.form/bell5_cover.png", 
+            "w": 45, 
+            "x": 561, 
+            "y": 558
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "bell5", 
+            "path": "japan.form/bell5.png", 
+            "w": 36, 
+            "x": 565, 
+            "y": 544
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "bell6_cover", 
+            "path": "japan.form/bell6_cover.png", 
+            "w": 22, 
+            "x": 557, 
+            "y": 172
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "bell6", 
+            "path": "japan.form/bell6.png", 
+            "w": 22, 
+            "x": 558, 
+            "y": 174
+          }
+        }
+      ], 
+      "name": "鈴", 
+      "path": "japan.sils/bell.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "shuriken1", 
+            "path": "japan.form/shuriken1.png", 
+            "w": 48, 
+            "x": 606, 
+            "y": 104
+          }
+        }, 
+        {
+          "cover": {
+            "h": 9, 
+            "layer": 5, 
+            "name": "shuriken2_cover", 
+            "path": "japan.form/shuriken2_cover.png", 
+            "w": 6, 
+            "x": 966, 
+            "y": 543
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "shuriken2", 
+            "path": "japan.form/shuriken2.png", 
+            "w": 40, 
+            "x": 968, 
+            "y": 528
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "shuriken3_cover", 
+            "path": "japan.form/shuriken3_cover.png", 
+            "w": 12, 
+            "x": 1223, 
+            "y": 176
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "shuriken3", 
+            "path": "japan.form/shuriken3.png", 
+            "w": 41, 
+            "x": 1191, 
+            "y": 165
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 5, 
+            "name": "shuriken4_cover", 
+            "path": "japan.form/shuriken4_cover.png", 
+            "w": 12, 
+            "x": 385, 
+            "y": 102
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "shuriken4", 
+            "path": "japan.form/shuriken4.png", 
+            "w": 47, 
+            "x": 364, 
+            "y": 104
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "shuriken5_cover", 
+            "path": "japan.form/shuriken5_cover.png", 
+            "w": 26, 
+            "x": 469, 
+            "y": 479
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "shuriken5", 
+            "path": "japan.form/shuriken5.png", 
+            "w": 42, 
+            "x": 472, 
+            "y": 472
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "shuriken6_cover", 
+            "path": "japan.form/shuriken6_cover.png", 
+            "w": 26, 
+            "x": 656, 
+            "y": 218
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "shuriken6", 
+            "path": "japan.form/shuriken6.png", 
+            "w": 42, 
+            "x": 650, 
+            "y": 219
+          }
+        }
+      ], 
+      "name": "手裏剣", 
+      "path": "japan.sils/shuriken.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "hieroglyph1", 
+            "path": "japan.form/hieroglyph1.png", 
+            "w": 57, 
+            "x": 261, 
+            "y": 9
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "hieroglyph2", 
+            "path": "japan.form/hieroglyph2.png", 
+            "w": 50, 
+            "x": 1129, 
+            "y": 5
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "hieroglyph3_cover", 
+            "path": "japan.form/hieroglyph3_cover.png", 
+            "w": 8, 
+            "x": 550, 
+            "y": 331
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "hieroglyph3", 
+            "path": "japan.form/hieroglyph3.png", 
+            "w": 31, 
+            "x": 526, 
+            "y": 326
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "hieroglyph4_cover", 
+            "path": "japan.form/hieroglyph4_cover.png", 
+            "w": 34, 
+            "x": 1050, 
+            "y": 263
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "hieroglyph4", 
+            "path": "japan.form/hieroglyph4.png", 
+            "w": 34, 
+            "x": 1051, 
+            "y": 265
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "hieroglyph5_cover", 
+            "path": "japan.form/hieroglyph5_cover.png", 
+            "w": 24, 
+            "x": 623, 
+            "y": 276
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "hieroglyph5", 
+            "path": "japan.form/hieroglyph5.png", 
+            "w": 34, 
+            "x": 620, 
+            "y": 278
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "hieroglyph6_cover", 
+            "path": "japan.form/hieroglyph6_cover.png", 
+            "w": 30, 
+            "x": 287, 
+            "y": 427
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "hieroglyph6", 
+            "path": "japan.form/hieroglyph6.png", 
+            "w": 32, 
+            "x": 289, 
+            "y": 420
+          }
+        }
+      ], 
+      "name": "漢字", 
+      "path": "japan.sils/hieroglyph.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "sign1", 
+            "path": "japan.form/sign1.png", 
+            "w": 22, 
+            "x": 1190, 
+            "y": 303
+          }
+        }, 
+        {
+          "pic": {
+            "h": 20, 
+            "layer": 3, 
+            "name": "sign2", 
+            "path": "japan.form/sign2.png", 
+            "w": 43, 
+            "x": 449, 
+            "y": 556
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "sign3", 
+            "path": "japan.form/sign3.png", 
+            "w": 31, 
+            "x": 700, 
+            "y": 226
+          }
+        }, 
+        {
+          "pic": {
+            "h": 19, 
+            "layer": 3, 
+            "name": "sign4", 
+            "path": "japan.form/sign4.png", 
+            "w": 31, 
+            "x": 928, 
+            "y": 37
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "sign5", 
+            "path": "japan.form/sign5.png", 
+            "w": 27, 
+            "x": 331, 
+            "y": 147
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "sign6", 
+            "path": "japan.form/sign6.png", 
+            "w": 31, 
+            "x": 1139, 
+            "y": 595
+          }
+        }
+      ], 
+      "name": "陰陽の印", 
+      "path": "japan.sils/sign.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "strawberries1_1", 
+            "path": "japan.morph/strawberries1_1.png", 
+            "w": 23, 
+            "x": 317, 
+            "y": 365
+          }, 
+          "pic2": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "strawberries2_1", 
+            "path": "japan.morph/strawberries2_1.png", 
+            "w": 18, 
+            "x": 322, 
+            "y": 366
+          }
+        }, 
+        {
+          "cover": {
+            "h": 6, 
+            "layer": 4, 
+            "name": "strawberries1_2_cover", 
+            "path": "japan.morph/strawberries1_2_cover.png", 
+            "w": 21, 
+            "x": 482, 
+            "y": 266
+          }, 
+          "pic1": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "strawberries1_2", 
+            "path": "japan.morph/strawberries1_2.png", 
+            "w": 23, 
+            "x": 479, 
+            "y": 254
+          }, 
+          "pic2": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "strawberries2_2", 
+            "path": "japan.morph/strawberries2_2.png", 
+            "w": 18, 
+            "x": 484, 
+            "y": 256
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "strawberries1_3", 
+            "path": "japan.morph/strawberries1_3.png", 
+            "w": 31, 
+            "x": 339, 
+            "y": 622
+          }, 
+          "pic2": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "strawberries2_3", 
+            "path": "japan.morph/strawberries2_3.png", 
+            "w": 24, 
+            "x": 346, 
+            "y": 624
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "strawberries1_4", 
+            "path": "japan.morph/strawberries1_4.png", 
+            "w": 24, 
+            "x": 790, 
+            "y": 323
+          }, 
+          "pic2": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "strawberries2_4", 
+            "path": "japan.morph/strawberries2_4.png", 
+            "w": 19, 
+            "x": 795, 
+            "y": 324
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "strawberries1_5_cover", 
+            "path": "japan.morph/strawberries1_5_cover.png", 
+            "w": 29, 
+            "x": 1020, 
+            "y": 130
+          }, 
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "strawberries1_5", 
+            "path": "japan.morph/strawberries1_5.png", 
+            "w": 27, 
+            "x": 1023, 
+            "y": 134
+          }, 
+          "pic2": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "strawberries2_5", 
+            "path": "japan.morph/strawberries2_5.png", 
+            "w": 21, 
+            "x": 1023, 
+            "y": 135
+          }
+        }
+      ], 
+      "name": "strawberries"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "gavel1_1", 
+            "path": "japan.morph/gavel1_1.png", 
+            "w": 58, 
+            "x": 568, 
+            "y": 570
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "gavel2_1", 
+            "path": "japan.morph/gavel2_1.png", 
+            "w": 60, 
+            "x": 566, 
+            "y": 570
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "gavel1_2_cover", 
+            "path": "japan.morph/gavel1_2_cover.png", 
+            "w": 17, 
+            "x": 772, 
+            "y": 538
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "gavel1_2", 
+            "path": "japan.morph/gavel1_2.png", 
+            "w": 49, 
+            "x": 741, 
+            "y": 514
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "gavel2_2", 
+            "path": "japan.morph/gavel2_2.png", 
+            "w": 51, 
+            "x": 740, 
+            "y": 514
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "gavel1_3_cover", 
+            "path": "japan.morph/gavel1_3_cover.png", 
+            "w": 34, 
+            "x": 585, 
+            "y": 370
+          }, 
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "gavel1_3", 
+            "path": "japan.morph/gavel1_3.png", 
+            "w": 47, 
+            "x": 577, 
+            "y": 369
+          }, 
+          "pic2": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "gavel2_3", 
+            "path": "japan.morph/gavel2_3.png", 
+            "w": 50, 
+            "x": 576, 
+            "y": 368
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "gavel1_4_cover", 
+            "path": "japan.morph/gavel1_4_cover.png", 
+            "w": 49, 
+            "x": 533, 
+            "y": 507
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "gavel1_4", 
+            "path": "japan.morph/gavel1_4.png", 
+            "w": 49, 
+            "x": 536, 
+            "y": 510
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "gavel2_4", 
+            "path": "japan.morph/gavel2_4.png", 
+            "w": 51, 
+            "x": 534, 
+            "y": 509
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "gavel1_5_cover", 
+            "path": "japan.morph/gavel1_5_cover.png", 
+            "w": 53, 
+            "x": 1025, 
+            "y": 429
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "gavel1_5", 
+            "path": "japan.morph/gavel1_5.png", 
+            "w": 49, 
+            "x": 1025, 
+            "y": 433
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "gavel2_5", 
+            "path": "japan.morph/gavel2_5.png", 
+            "w": 51, 
+            "x": 1023, 
+            "y": 433
+          }
+        }
+      ], 
+      "name": "gavel"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "barrel1_1", 
+            "path": "japan.morph/barrel1_1.png", 
+            "w": 31, 
+            "x": 1110, 
+            "y": 515
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "barrel2_1", 
+            "path": "japan.morph/barrel2_1.png", 
+            "w": 25, 
+            "x": 1112, 
+            "y": 516
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "barrel1_2", 
+            "path": "japan.morph/barrel1_2.png", 
+            "w": 26, 
+            "x": 825, 
+            "y": 475
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "barrel2_2", 
+            "path": "japan.morph/barrel2_2.png", 
+            "w": 22, 
+            "x": 827, 
+            "y": 475
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "barrel1_3_cover", 
+            "path": "japan.morph/barrel1_3_cover.png", 
+            "w": 20, 
+            "x": 559, 
+            "y": 415
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "barrel1_3", 
+            "path": "japan.morph/barrel1_3.png", 
+            "w": 21, 
+            "x": 562, 
+            "y": 420
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "barrel2_3", 
+            "path": "japan.morph/barrel2_3.png", 
+            "w": 17, 
+            "x": 563, 
+            "y": 420
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "barrel1_4_cover", 
+            "path": "japan.morph/barrel1_4_cover.png", 
+            "w": 15, 
+            "x": 399, 
+            "y": 444
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "barrel1_4", 
+            "path": "japan.morph/barrel1_4.png", 
+            "w": 21, 
+            "x": 392, 
+            "y": 446
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "barrel2_4", 
+            "path": "japan.morph/barrel2_4.png", 
+            "w": 17, 
+            "x": 393, 
+            "y": 447
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "barrel1_5_cover", 
+            "path": "japan.morph/barrel1_5_cover.png", 
+            "w": 32, 
+            "x": 1137, 
+            "y": 408
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "barrel1_5", 
+            "path": "japan.morph/barrel1_5.png", 
+            "w": 21, 
+            "x": 1142, 
+            "y": 402
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "barrel2_5", 
+            "path": "japan.morph/barrel2_5.png", 
+            "w": 17, 
+            "x": 1143, 
+            "y": 403
+          }
+        }
+      ], 
+      "name": "barrel"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "flower1_1", 
+            "path": "japan.morph/flower1_1.png", 
+            "w": 23, 
+            "x": 766, 
+            "y": 363
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "flower2_1", 
+            "path": "japan.morph/flower2_1.png", 
+            "w": 35, 
+            "x": 760, 
+            "y": 363
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "flower1_2", 
+            "path": "japan.morph/flower1_2.png", 
+            "w": 29, 
+            "x": 946, 
+            "y": 451
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "flower2_2", 
+            "path": "japan.morph/flower2_2.png", 
+            "w": 35, 
+            "x": 943, 
+            "y": 452
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "flower1_3", 
+            "path": "japan.morph/flower1_3.png", 
+            "w": 24, 
+            "x": 1203, 
+            "y": 222
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "flower2_3", 
+            "path": "japan.morph/flower2_3.png", 
+            "w": 31, 
+            "x": 1203, 
+            "y": 222
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "flower1_4", 
+            "path": "japan.morph/flower1_4.png", 
+            "w": 21, 
+            "x": 299, 
+            "y": 312
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "flower2_4", 
+            "path": "japan.morph/flower2_4.png", 
+            "w": 29, 
+            "x": 293, 
+            "y": 312
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "flower1_5", 
+            "path": "japan.morph/flower1_5.png", 
+            "w": 22, 
+            "x": 1002, 
+            "y": 283
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "flower2_5", 
+            "path": "japan.morph/flower2_5.png", 
+            "w": 30, 
+            "x": 1001, 
+            "y": 283
+          }
+        }
+      ], 
+      "name": "flower"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "shield1_1", 
+            "path": "japan.morph/shield1_1.png", 
+            "w": 45, 
+            "x": 749, 
+            "y": 249
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "shield2_1", 
+            "path": "japan.morph/shield2_1.png", 
+            "w": 47, 
+            "x": 748, 
+            "y": 250
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "shield1_2_cover", 
+            "path": "japan.morph/shield1_2_cover.png", 
+            "w": 13, 
+            "x": 551, 
+            "y": 202
+          }, 
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "shield1_2", 
+            "path": "japan.morph/shield1_2.png", 
+            "w": 40, 
+            "x": 520, 
+            "y": 195
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "shield2_2", 
+            "path": "japan.morph/shield2_2.png", 
+            "w": 44, 
+            "x": 517, 
+            "y": 194
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "shield1_3_cover", 
+            "path": "japan.morph/shield1_3_cover.png", 
+            "w": 33, 
+            "x": 236, 
+            "y": 260
+          }, 
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "shield1_3", 
+            "path": "japan.morph/shield1_3.png", 
+            "w": 40, 
+            "x": 237, 
+            "y": 263
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "shield2_3", 
+            "path": "japan.morph/shield2_3.png", 
+            "w": 44, 
+            "x": 234, 
+            "y": 263
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "shield1_4_cover", 
+            "path": "japan.morph/shield1_4_cover.png", 
+            "w": 43, 
+            "x": 912, 
+            "y": 296
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "shield1_4", 
+            "path": "japan.morph/shield1_4.png", 
+            "w": 39, 
+            "x": 914, 
+            "y": 297
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "shield2_4", 
+            "path": "japan.morph/shield2_4.png", 
+            "w": 40, 
+            "x": 913, 
+            "y": 298
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "shield1_5_cover", 
+            "path": "japan.morph/shield1_5_cover.png", 
+            "w": 34, 
+            "x": 394, 
+            "y": 245
+          }, 
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "shield1_5", 
+            "path": "japan.morph/shield1_5.png", 
+            "w": 40, 
+            "x": 399, 
+            "y": 240
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "shield2_5", 
+            "path": "japan.morph/shield2_5.png", 
+            "w": 44, 
+            "x": 396, 
+            "y": 240
+          }
+        }
+      ], 
+      "name": "shield"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "card1_1", 
+            "path": "japan.morph/card1_1.png", 
+            "w": 27, 
+            "x": 1200, 
+            "y": 513
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "card2_1", 
+            "path": "japan.morph/card2_1.png", 
+            "w": 27, 
+            "x": 1200, 
+            "y": 513
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "card1_2_cover", 
+            "path": "japan.morph/card1_2_cover.png", 
+            "w": 29, 
+            "x": 483, 
+            "y": 70
+          }, 
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "card1_2", 
+            "path": "japan.morph/card1_2.png", 
+            "w": 23, 
+            "x": 486, 
+            "y": 79
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "card2_2", 
+            "path": "japan.morph/card2_2.png", 
+            "w": 23, 
+            "x": 486, 
+            "y": 79
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "card1_3_cover", 
+            "path": "japan.morph/card1_3_cover.png", 
+            "w": 25, 
+            "x": 906, 
+            "y": 237
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "card1_3", 
+            "path": "japan.morph/card1_3.png", 
+            "w": 23, 
+            "x": 907, 
+            "y": 238
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "card2_3", 
+            "path": "japan.morph/card2_3.png", 
+            "w": 23, 
+            "x": 907, 
+            "y": 239
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "card1_4", 
+            "path": "japan.morph/card1_4.png", 
+            "w": 23, 
+            "x": 343, 
+            "y": 280
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "card2_4", 
+            "path": "japan.morph/card2_4.png", 
+            "w": 23, 
+            "x": 343, 
+            "y": 281
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "card1_5_cover", 
+            "path": "japan.morph/card1_5_cover.png", 
+            "w": 15, 
+            "x": 1076, 
+            "y": 291
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "card1_5", 
+            "path": "japan.morph/card1_5.png", 
+            "w": 23, 
+            "x": 1077, 
+            "y": 291
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "card2_5", 
+            "path": "japan.morph/card2_5.png", 
+            "w": 23, 
+            "x": 1077, 
+            "y": 292
+          }
+        }
+      ], 
+      "name": "card"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 13, 
+            "layer": 4, 
+            "name": "spyglass1_1", 
+            "path": "japan.morph/spyglass1_1.png", 
+            "w": 67, 
+            "x": 904, 
+            "y": 396
+          }, 
+          "pic2": {
+            "h": 15, 
+            "layer": 4, 
+            "name": "spyglass2_1", 
+            "path": "japan.morph/spyglass2_1.png", 
+            "w": 68, 
+            "x": 904, 
+            "y": 394
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "spyglass1_2", 
+            "path": "japan.morph/spyglass1_2.png", 
+            "w": 17, 
+            "x": 1158, 
+            "y": 239
+          }, 
+          "pic2": {
+            "h": 94, 
+            "layer": 4, 
+            "name": "spyglass2_2", 
+            "path": "japan.morph/spyglass2_2.png", 
+            "w": 20, 
+            "x": 1157, 
+            "y": 238
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "spyglass1_3_cover", 
+            "path": "japan.morph/spyglass1_3_cover.png", 
+            "w": 16, 
+            "x": 1006, 
+            "y": 383
+          }, 
+          "pic1": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "spyglass1_3", 
+            "path": "japan.morph/spyglass1_3.png", 
+            "w": 13, 
+            "x": 1010, 
+            "y": 335
+          }, 
+          "pic2": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "spyglass2_3", 
+            "path": "japan.morph/spyglass2_3.png", 
+            "w": 17, 
+            "x": 1007, 
+            "y": 334
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "spyglass1_4", 
+            "path": "japan.morph/spyglass1_4.png", 
+            "w": 64, 
+            "x": 234, 
+            "y": 505
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "spyglass2_4", 
+            "path": "japan.morph/spyglass2_4.png", 
+            "w": 66, 
+            "x": 233, 
+            "y": 504
+          }
+        }, 
+        {
+          "cover": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "spyglass1_5_cover", 
+            "path": "japan.morph/spyglass1_5_cover.png", 
+            "w": 21, 
+            "x": 376, 
+            "y": 272
+          }, 
+          "pic1": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "spyglass1_5", 
+            "path": "japan.morph/spyglass1_5.png", 
+            "w": 13, 
+            "x": 381, 
+            "y": 278
+          }, 
+          "pic2": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "spyglass2_5", 
+            "path": "japan.morph/spyglass2_5.png", 
+            "w": 17, 
+            "x": 378, 
+            "y": 276
+          }
+        }
+      ], 
+      "name": "spyglass"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "hedgehog1_1", 
+            "path": "japan.morph/hedgehog1_1.png", 
+            "w": 36, 
+            "x": 721, 
+            "y": 443
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "hedgehog2_1", 
+            "path": "japan.morph/hedgehog2_1.png", 
+            "w": 42, 
+            "x": 719, 
+            "y": 445
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "hedgehog1_2", 
+            "path": "japan.morph/hedgehog1_2.png", 
+            "w": 36, 
+            "x": 814, 
+            "y": 99
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "hedgehog2_2", 
+            "path": "japan.morph/hedgehog2_2.png", 
+            "w": 43, 
+            "x": 811, 
+            "y": 98
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "hedgehog1_3_cover", 
+            "path": "japan.morph/hedgehog1_3_cover.png", 
+            "w": 32, 
+            "x": 843, 
+            "y": 545
+          }, 
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "hedgehog1_3", 
+            "path": "japan.morph/hedgehog1_3.png", 
+            "w": 36, 
+            "x": 846, 
+            "y": 548
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "hedgehog2_3", 
+            "path": "japan.morph/hedgehog2_3.png", 
+            "w": 42, 
+            "x": 844, 
+            "y": 550
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "hedgehog1_4_cover", 
+            "path": "japan.morph/hedgehog1_4_cover.png", 
+            "w": 40, 
+            "x": 353, 
+            "y": 357
+          }, 
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "hedgehog1_4", 
+            "path": "japan.morph/hedgehog1_4.png", 
+            "w": 37, 
+            "x": 356, 
+            "y": 359
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "hedgehog2_4", 
+            "path": "japan.morph/hedgehog2_4.png", 
+            "w": 42, 
+            "x": 354, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "hedgehog1_5_cover", 
+            "path": "japan.morph/hedgehog1_5_cover.png", 
+            "w": 47, 
+            "x": 321, 
+            "y": 443
+          }, 
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "hedgehog1_5", 
+            "path": "japan.morph/hedgehog1_5.png", 
+            "w": 36, 
+            "x": 338, 
+            "y": 453
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "hedgehog2_5", 
+            "path": "japan.morph/hedgehog2_5.png", 
+            "w": 42, 
+            "x": 336, 
+            "y": 455
+          }
+        }
+      ], 
+      "name": "hedgehog"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "koto1_1", 
+            "path": "japan.morph/koto1_1.png", 
+            "w": 84, 
+            "x": 937, 
+            "y": 205
+          }, 
+          "pic2": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "koto2_1", 
+            "path": "japan.morph/koto2_1.png", 
+            "w": 88, 
+            "x": 934, 
+            "y": 209
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "koto1_2", 
+            "path": "japan.morph/koto1_2.png", 
+            "w": 83, 
+            "x": 945, 
+            "y": 94
+          }, 
+          "pic2": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "koto2_2", 
+            "path": "japan.morph/koto2_2.png", 
+            "w": 88, 
+            "x": 942, 
+            "y": 98
+          }
+        }, 
+        {
+          "cover": {
+            "h": 94, 
+            "layer": 4, 
+            "name": "koto1_3_cover", 
+            "path": "japan.morph/koto1_3_cover.png", 
+            "w": 28, 
+            "x": 655, 
+            "y": 224
+          }, 
+          "pic1": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "koto1_3", 
+            "path": "japan.morph/koto1_3.png", 
+            "w": 20, 
+            "x": 658, 
+            "y": 230
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "koto2_3", 
+            "path": "japan.morph/koto2_3.png", 
+            "w": 18, 
+            "x": 657, 
+            "y": 226
+          }
+        }, 
+        {
+          "cover": {
+            "h": 90, 
+            "layer": 4, 
+            "name": "koto1_4_cover", 
+            "path": "japan.morph/koto1_4_cover.png", 
+            "w": 18, 
+            "x": 549, 
+            "y": 321
+          }, 
+          "pic1": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "koto1_4", 
+            "path": "japan.morph/koto1_4.png", 
+            "w": 19, 
+            "x": 548, 
+            "y": 326
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "koto2_4", 
+            "path": "japan.morph/koto2_4.png", 
+            "w": 18, 
+            "x": 547, 
+            "y": 322
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "koto1_5_cover", 
+            "path": "japan.morph/koto1_5_cover.png", 
+            "w": 17, 
+            "x": 867, 
+            "y": 381
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "koto1_5", 
+            "path": "japan.morph/koto1_5.png", 
+            "w": 15, 
+            "x": 869, 
+            "y": 345
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "koto2_5", 
+            "path": "japan.morph/koto2_5.png", 
+            "w": 14, 
+            "x": 868, 
+            "y": 342
+          }
+        }
+      ], 
+      "name": "koto"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "elephant1_1_cover", 
+            "path": "japan.morph/elephant1_1_cover.png", 
+            "w": 46, 
+            "x": 262, 
+            "y": 355
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "elephant1_1", 
+            "path": "japan.morph/elephant1_1.png", 
+            "w": 37, 
+            "x": 265, 
+            "y": 355
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "elephant2_1", 
+            "path": "japan.morph/elephant2_1.png", 
+            "w": 43, 
+            "x": 264, 
+            "y": 351
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "elephant1_2_cover", 
+            "path": "japan.morph/elephant1_2_cover.png", 
+            "w": 24, 
+            "x": 470, 
+            "y": 427
+          }, 
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "elephant1_2", 
+            "path": "japan.morph/elephant1_2.png", 
+            "w": 33, 
+            "x": 480, 
+            "y": 432
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "elephant2_2", 
+            "path": "japan.morph/elephant2_2.png", 
+            "w": 38, 
+            "x": 479, 
+            "y": 428
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "elephant1_3_cover", 
+            "path": "japan.morph/elephant1_3_cover.png", 
+            "w": 35, 
+            "x": 639, 
+            "y": 365
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "elephant1_3", 
+            "path": "japan.morph/elephant1_3.png", 
+            "w": 37, 
+            "x": 637, 
+            "y": 372
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "elephant2_3", 
+            "path": "japan.morph/elephant2_3.png", 
+            "w": 43, 
+            "x": 636, 
+            "y": 367
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 4, 
+            "name": "elephant1_4_cover", 
+            "path": "japan.morph/elephant1_4_cover.png", 
+            "w": 49, 
+            "x": 1185, 
+            "y": 407
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "elephant1_4", 
+            "path": "japan.morph/elephant1_4.png", 
+            "w": 37, 
+            "x": 1190, 
+            "y": 391
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "elephant2_4", 
+            "path": "japan.morph/elephant2_4.png", 
+            "w": 43, 
+            "x": 1185, 
+            "y": 386
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "elephant1_5_cover", 
+            "path": "japan.morph/elephant1_5_cover.png", 
+            "w": 26, 
+            "x": 1114, 
+            "y": 332
+          }, 
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "elephant1_5", 
+            "path": "japan.morph/elephant1_5.png", 
+            "w": 26, 
+            "x": 1104, 
+            "y": 339
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "elephant2_5", 
+            "path": "japan.morph/elephant2_5.png", 
+            "w": 31, 
+            "x": 1100, 
+            "y": 336
+          }
+        }
+      ], 
+      "name": "elephant"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "carp1_1", 
+            "path": "japan.morph/carp1_1.png", 
+            "w": 42, 
+            "x": 250, 
+            "y": 537
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "carp2_1", 
+            "path": "japan.morph/carp2_1.png", 
+            "w": 46, 
+            "x": 248, 
+            "y": 535
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "carp1_2", 
+            "path": "japan.morph/carp1_2.png", 
+            "w": 42, 
+            "x": 732, 
+            "y": 625
+          }, 
+          "pic2": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "carp2_2", 
+            "path": "japan.morph/carp2_2.png", 
+            "w": 46, 
+            "x": 730, 
+            "y": 622
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "carp1_3", 
+            "path": "japan.morph/carp1_3.png", 
+            "w": 35, 
+            "x": 553, 
+            "y": 487
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "carp2_3", 
+            "path": "japan.morph/carp2_3.png", 
+            "w": 39, 
+            "x": 551, 
+            "y": 481
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "carp1_4_cover", 
+            "path": "japan.morph/carp1_4_cover.png", 
+            "w": 37, 
+            "x": 725, 
+            "y": 390
+          }, 
+          "pic1": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "carp1_4", 
+            "path": "japan.morph/carp1_4.png", 
+            "w": 35, 
+            "x": 720, 
+            "y": 391
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "carp2_4", 
+            "path": "japan.morph/carp2_4.png", 
+            "w": 39, 
+            "x": 718, 
+            "y": 386
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "carp1_5_cover", 
+            "path": "japan.morph/carp1_5_cover.png", 
+            "w": 52, 
+            "x": 606, 
+            "y": 57
+          }, 
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "carp1_5", 
+            "path": "japan.morph/carp1_5.png", 
+            "w": 44, 
+            "x": 609, 
+            "y": 50
+          }, 
+          "pic2": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "carp2_5", 
+            "path": "japan.morph/carp2_5.png", 
+            "w": 50, 
+            "x": 607, 
+            "y": 44
+          }
+        }
+      ], 
+      "name": "carp"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "scissors1_1", 
+            "path": "japan.morph/scissors1_1.png", 
+            "w": 40, 
+            "x": 856, 
+            "y": 240
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "scissors2_1", 
+            "path": "japan.morph/scissors2_1.png", 
+            "w": 52, 
+            "x": 850, 
+            "y": 252
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "scissors1_2", 
+            "path": "japan.morph/scissors1_2.png", 
+            "w": 40, 
+            "x": 615, 
+            "y": 307
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "scissors2_2", 
+            "path": "japan.morph/scissors2_2.png", 
+            "w": 50, 
+            "x": 611, 
+            "y": 317
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "scissors1_3_cover", 
+            "path": "japan.morph/scissors1_3_cover.png", 
+            "w": 31, 
+            "x": 628, 
+            "y": 100
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "scissors1_3", 
+            "path": "japan.morph/scissors1_3.png", 
+            "w": 40, 
+            "x": 622, 
+            "y": 105
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "scissors2_3", 
+            "path": "japan.morph/scissors2_3.png", 
+            "w": 52, 
+            "x": 617, 
+            "y": 112
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "scissors1_4_cover", 
+            "path": "japan.morph/scissors1_4_cover.png", 
+            "w": 39, 
+            "x": 641, 
+            "y": 619
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "scissors1_4", 
+            "path": "japan.morph/scissors1_4.png", 
+            "w": 51, 
+            "x": 629, 
+            "y": 598
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "scissors2_4", 
+            "path": "japan.morph/scissors2_4.png", 
+            "w": 34, 
+            "x": 640, 
+            "y": 591
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "scissors1_5_cover", 
+            "path": "japan.morph/scissors1_5_cover.png", 
+            "w": 52, 
+            "x": 230, 
+            "y": 220
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "scissors1_5", 
+            "path": "japan.morph/scissors1_5.png", 
+            "w": 39, 
+            "x": 236, 
+            "y": 195
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "scissors2_5", 
+            "path": "japan.morph/scissors2_5.png", 
+            "w": 52, 
+            "x": 229, 
+            "y": 208
+          }
+        }
+      ], 
+      "name": "scissors"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "hieroglyph1_1", 
+            "path": "japan.morph/hieroglyph1_1.png", 
+            "w": 33, 
+            "x": 475, 
+            "y": 273
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "hieroglyph2_1", 
+            "path": "japan.morph/hieroglyph2_1.png", 
+            "w": 35, 
+            "x": 475, 
+            "y": 278
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "hieroglyph1_2", 
+            "path": "japan.morph/hieroglyph1_2.png", 
+            "w": 40, 
+            "x": 688, 
+            "y": 319
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "hieroglyph2_2", 
+            "path": "japan.morph/hieroglyph2_2.png", 
+            "w": 42, 
+            "x": 687, 
+            "y": 323
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "hieroglyph1_3_cover", 
+            "path": "japan.morph/hieroglyph1_3_cover.png", 
+            "w": 39, 
+            "x": 486, 
+            "y": 568
+          }, 
+          "pic1": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "hieroglyph1_3", 
+            "path": "japan.morph/hieroglyph1_3.png", 
+            "w": 39, 
+            "x": 484, 
+            "y": 565
+          }, 
+          "pic2": {
+            "h": 14, 
+            "layer": 4, 
+            "name": "hieroglyph2_3", 
+            "path": "japan.morph/hieroglyph2_3.png", 
+            "w": 32, 
+            "x": 485, 
+            "y": 567
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "hieroglyph1_4_cover", 
+            "path": "japan.morph/hieroglyph1_4_cover.png", 
+            "w": 46, 
+            "x": 948, 
+            "y": 2
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "hieroglyph1_4", 
+            "path": "japan.morph/hieroglyph1_4.png", 
+            "w": 36, 
+            "x": 953, 
+            "y": 7
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "hieroglyph2_4", 
+            "path": "japan.morph/hieroglyph2_4.png", 
+            "w": 35, 
+            "x": 954, 
+            "y": 16
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "hieroglyph1_5_cover", 
+            "path": "japan.morph/hieroglyph1_5_cover.png", 
+            "w": 33, 
+            "x": 570, 
+            "y": 296
+          }, 
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "hieroglyph1_5", 
+            "path": "japan.morph/hieroglyph1_5.png", 
+            "w": 33, 
+            "x": 572, 
+            "y": 298
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "hieroglyph2_5", 
+            "path": "japan.morph/hieroglyph2_5.png", 
+            "w": 37, 
+            "x": 569, 
+            "y": 300
+          }
+        }
+      ], 
+      "name": "hieroglyph"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "teapot1_1", 
+            "path": "japan.morph/teapot1_1.png", 
+            "w": 43, 
+            "x": 681, 
+            "y": 484
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "teapot2_1", 
+            "path": "japan.morph/teapot2_1.png", 
+            "w": 22, 
+            "x": 693, 
+            "y": 499
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "teapot1_2", 
+            "path": "japan.morph/teapot1_2.png", 
+            "w": 43, 
+            "x": 817, 
+            "y": 363
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "teapot2_2", 
+            "path": "japan.morph/teapot2_2.png", 
+            "w": 23, 
+            "x": 828, 
+            "y": 380
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "teapot1_3_cover", 
+            "path": "japan.morph/teapot1_3_cover.png", 
+            "w": 42, 
+            "x": 657, 
+            "y": 404
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "teapot1_3", 
+            "path": "japan.morph/teapot1_3.png", 
+            "w": 36, 
+            "x": 661, 
+            "y": 406
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "teapot2_3", 
+            "path": "japan.morph/teapot2_3.png", 
+            "w": 20, 
+            "x": 670, 
+            "y": 419
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "teapot1_4_cover", 
+            "path": "japan.morph/teapot1_4_cover.png", 
+            "w": 42, 
+            "x": 236, 
+            "y": 436
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "teapot1_4", 
+            "path": "japan.morph/teapot1_4.png", 
+            "w": 37, 
+            "x": 239, 
+            "y": 433
+          }, 
+          "pic2": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "teapot2_4", 
+            "path": "japan.morph/teapot2_4.png", 
+            "w": 20, 
+            "x": 249, 
+            "y": 448
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "teapot1_5_cover", 
+            "path": "japan.morph/teapot1_5_cover.png", 
+            "w": 40, 
+            "x": 863, 
+            "y": 469
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "teapot1_5", 
+            "path": "japan.morph/teapot1_5.png", 
+            "w": 37, 
+            "x": 864, 
+            "y": 458
+          }, 
+          "pic2": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "teapot2_5", 
+            "path": "japan.morph/teapot2_5.png", 
+            "w": 19, 
+            "x": 874, 
+            "y": 470
+          }
+        }
+      ], 
+      "name": "teapot"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "sign1_1", 
+            "path": "japan.morph/sign1_1.png", 
+            "w": 38, 
+            "x": 781, 
+            "y": 572
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "sign2_1", 
+            "path": "japan.morph/sign2_1.png", 
+            "w": 42, 
+            "x": 781, 
+            "y": 573
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "sign1_2_cover", 
+            "path": "japan.morph/sign1_2_cover.png", 
+            "w": 24, 
+            "x": 436, 
+            "y": 426
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "sign1_2", 
+            "path": "japan.morph/sign1_2.png", 
+            "w": 33, 
+            "x": 439, 
+            "y": 409
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "sign2_2", 
+            "path": "japan.morph/sign2_2.png", 
+            "w": 34, 
+            "x": 440, 
+            "y": 410
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "sign1_3_cover", 
+            "path": "japan.morph/sign1_3_cover.png", 
+            "w": 34, 
+            "x": 1050, 
+            "y": 263
+          }, 
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "sign1_3", 
+            "path": "japan.morph/sign1_3.png", 
+            "w": 35, 
+            "x": 1050, 
+            "y": 265
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "sign2_3", 
+            "path": "japan.morph/sign2_3.png", 
+            "w": 38, 
+            "x": 1049, 
+            "y": 265
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "sign1_4", 
+            "path": "japan.morph/sign1_4.png", 
+            "w": 35, 
+            "x": 249, 
+            "y": 623
+          }, 
+          "pic2": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "sign2_4", 
+            "path": "japan.morph/sign2_4.png", 
+            "w": 31, 
+            "x": 251, 
+            "y": 625
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "sign1_5", 
+            "path": "japan.morph/sign1_5.png", 
+            "w": 19, 
+            "x": 1222, 
+            "y": 145
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "sign2_5", 
+            "path": "japan.morph/sign2_5.png", 
+            "w": 17, 
+            "x": 1223, 
+            "y": 146
+          }
+        }
+      ], 
+      "name": "sign"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "glove1_1", 
+            "path": "japan.morph/glove1_1.png", 
+            "w": 71, 
+            "x": 270, 
+            "y": 580
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "glove2_1", 
+            "path": "japan.morph/glove2_1.png", 
+            "w": 63, 
+            "x": 277, 
+            "y": 582
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "glove1_2", 
+            "path": "japan.morph/glove1_2.png", 
+            "w": 41, 
+            "x": 858, 
+            "y": 436
+          }, 
+          "pic2": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "glove2_2", 
+            "path": "japan.morph/glove2_2.png", 
+            "w": 38, 
+            "x": 860, 
+            "y": 436
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "glove1_3_cover", 
+            "path": "japan.morph/glove1_3_cover.png", 
+            "w": 29, 
+            "x": 910, 
+            "y": 514
+          }, 
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "glove1_3", 
+            "path": "japan.morph/glove1_3.png", 
+            "w": 50, 
+            "x": 887, 
+            "y": 517
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "glove2_3", 
+            "path": "japan.morph/glove2_3.png", 
+            "w": 48, 
+            "x": 889, 
+            "y": 516
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 4, 
+            "name": "glove1_4_cover", 
+            "path": "japan.morph/glove1_4_cover.png", 
+            "w": 47, 
+            "x": 948, 
+            "y": 494
+          }, 
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "glove1_4", 
+            "path": "japan.morph/glove1_4.png", 
+            "w": 43, 
+            "x": 953, 
+            "y": 494
+          }, 
+          "pic2": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "glove2_4", 
+            "path": "japan.morph/glove2_4.png", 
+            "w": 41, 
+            "x": 955, 
+            "y": 495
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "glove1_5_cover", 
+            "path": "japan.morph/glove1_5_cover.png", 
+            "w": 53, 
+            "x": 582, 
+            "y": 545
+          }, 
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "glove1_5", 
+            "path": "japan.morph/glove1_5.png", 
+            "w": 51, 
+            "x": 583, 
+            "y": 544
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "glove2_5", 
+            "path": "japan.morph/glove2_5.png", 
+            "w": 48, 
+            "x": 586, 
+            "y": 545
+          }
+        }
+      ], 
+      "name": "glove"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bag1_1", 
+            "path": "japan.morph/bag1_1.png", 
+            "w": 74, 
+            "x": 931, 
+            "y": 556
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "bag2_1", 
+            "path": "japan.morph/bag2_1.png", 
+            "w": 75, 
+            "x": 938, 
+            "y": 552
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bag1_2", 
+            "path": "japan.morph/bag1_2.png", 
+            "w": 65, 
+            "x": 455, 
+            "y": 504
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "bag2_2", 
+            "path": "japan.morph/bag2_2.png", 
+            "w": 67, 
+            "x": 461, 
+            "y": 501
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "bag1_3_cover", 
+            "path": "japan.morph/bag1_3_cover.png", 
+            "w": 48, 
+            "x": 970, 
+            "y": 413
+          }, 
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "bag1_3", 
+            "path": "japan.morph/bag1_3.png", 
+            "w": 42, 
+            "x": 970, 
+            "y": 416
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "bag2_3", 
+            "path": "japan.morph/bag2_3.png", 
+            "w": 42, 
+            "x": 974, 
+            "y": 414
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "bag1_4_cover", 
+            "path": "japan.morph/bag1_4_cover.png", 
+            "w": 84, 
+            "x": 683, 
+            "y": 126
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bag1_4", 
+            "path": "japan.morph/bag1_4.png", 
+            "w": 70, 
+            "x": 695, 
+            "y": 132
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "bag2_4", 
+            "path": "japan.morph/bag2_4.png", 
+            "w": 73, 
+            "x": 686, 
+            "y": 128
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "bag1_5_cover", 
+            "path": "japan.morph/bag1_5_cover.png", 
+            "w": 70, 
+            "x": 957, 
+            "y": 223
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bag1_5", 
+            "path": "japan.morph/bag1_5.png", 
+            "w": 64, 
+            "x": 965, 
+            "y": 227
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "bag2_5", 
+            "path": "japan.morph/bag2_5.png", 
+            "w": 65, 
+            "x": 958, 
+            "y": 224
+          }
+        }
+      ], 
+      "name": "bag"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "castle1_1", 
+            "path": "japan.morph/castle1_1.png", 
+            "w": 60, 
+            "x": 342, 
+            "y": 520
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "castle2_1", 
+            "path": "japan.morph/castle2_1.png", 
+            "w": 61, 
+            "x": 341, 
+            "y": 537
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "castle1_2", 
+            "path": "japan.morph/castle1_2.png", 
+            "w": 58, 
+            "x": 520, 
+            "y": 576
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "castle2_2", 
+            "path": "japan.morph/castle2_2.png", 
+            "w": 58, 
+            "x": 520, 
+            "y": 591
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "castle1_3_cover", 
+            "path": "japan.morph/castle1_3_cover.png", 
+            "w": 64, 
+            "x": 627, 
+            "y": 520
+          }, 
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "castle1_3", 
+            "path": "japan.morph/castle1_3.png", 
+            "w": 44, 
+            "x": 631, 
+            "y": 508
+          }, 
+          "pic2": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "castle2_3", 
+            "path": "japan.morph/castle2_3.png", 
+            "w": 45, 
+            "x": 630, 
+            "y": 523
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "castle1_4_cover", 
+            "path": "japan.morph/castle1_4_cover.png", 
+            "w": 53, 
+            "x": 910, 
+            "y": 411
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "castle1_4", 
+            "path": "japan.morph/castle1_4.png", 
+            "w": 38, 
+            "x": 916, 
+            "y": 413
+          }, 
+          "pic2": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "castle2_4", 
+            "path": "japan.morph/castle2_4.png", 
+            "w": 38, 
+            "x": 916, 
+            "y": 423
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "castle1_5_cover", 
+            "path": "japan.morph/castle1_5_cover.png", 
+            "w": 66, 
+            "x": 378, 
+            "y": 570
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "castle1_5", 
+            "path": "japan.morph/castle1_5.png", 
+            "w": 58, 
+            "x": 399, 
+            "y": 572
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "castle2_5", 
+            "path": "japan.morph/castle2_5.png", 
+            "w": 66, 
+            "x": 389, 
+            "y": 577
+          }
+        }
+      ], 
+      "name": "castle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "helmet1_1", 
+            "path": "japan.morph/helmet1_1.png", 
+            "w": 39, 
+            "x": 616, 
+            "y": 411
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "helmet2_1", 
+            "path": "japan.morph/helmet2_1.png", 
+            "w": 42, 
+            "x": 618, 
+            "y": 424
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "helmet1_2", 
+            "path": "japan.morph/helmet1_2.png", 
+            "w": 48, 
+            "x": 860, 
+            "y": 588
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "helmet2_2", 
+            "path": "japan.morph/helmet2_2.png", 
+            "w": 51, 
+            "x": 863, 
+            "y": 603
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "helmet1_3_cover", 
+            "path": "japan.morph/helmet1_3_cover.png", 
+            "w": 27, 
+            "x": 781, 
+            "y": 464
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "helmet1_3", 
+            "path": "japan.morph/helmet1_3.png", 
+            "w": 39, 
+            "x": 766, 
+            "y": 465
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "helmet2_3", 
+            "path": "japan.morph/helmet2_3.png", 
+            "w": 43, 
+            "x": 762, 
+            "y": 477
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "helmet1_4_cover", 
+            "path": "japan.morph/helmet1_4_cover.png", 
+            "w": 61, 
+            "x": 1135, 
+            "y": 455
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "helmet1_4", 
+            "path": "japan.morph/helmet1_4.png", 
+            "w": 45, 
+            "x": 1146, 
+            "y": 461
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "helmet2_4", 
+            "path": "japan.morph/helmet2_4.png", 
+            "w": 49, 
+            "x": 1147, 
+            "y": 474
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "helmet1_5_cover", 
+            "path": "japan.morph/helmet1_5_cover.png", 
+            "w": 57, 
+            "x": 1042, 
+            "y": 484
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "helmet1_5", 
+            "path": "japan.morph/helmet1_5.png", 
+            "w": 45, 
+            "x": 1043, 
+            "y": 487
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "helmet2_5", 
+            "path": "japan.morph/helmet2_5.png", 
+            "w": 49, 
+            "x": 1044, 
+            "y": 500
+          }
+        }
+      ], 
+      "name": "helmet"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "bird_crane1_1", 
+            "path": "japan.morph/bird_crane1_1.png", 
+            "w": 37, 
+            "x": 376, 
+            "y": 167
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "bird_crane2_1", 
+            "path": "japan.morph/bird_crane2_1.png", 
+            "w": 28, 
+            "x": 379, 
+            "y": 149
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "bird_crane1_2", 
+            "path": "japan.morph/bird_crane1_2.png", 
+            "w": 36, 
+            "x": 760, 
+            "y": 208
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "bird_crane2_2", 
+            "path": "japan.morph/bird_crane2_2.png", 
+            "w": 26, 
+            "x": 764, 
+            "y": 192
+          }
+        }, 
+        {
+          "cover": {
+            "h": 104, 
+            "layer": 4, 
+            "name": "bird_crane1_3_cover", 
+            "path": "japan.morph/bird_crane1_3_cover.png", 
+            "w": 26, 
+            "x": 1044, 
+            "y": 163
+          }, 
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "bird_crane1_3", 
+            "path": "japan.morph/bird_crane1_3.png", 
+            "w": 36, 
+            "x": 1039, 
+            "y": 219
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "bird_crane2_3", 
+            "path": "japan.morph/bird_crane2_3.png", 
+            "w": 26, 
+            "x": 1042, 
+            "y": 202
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "bird_crane1_4_cover", 
+            "path": "japan.morph/bird_crane1_4_cover.png", 
+            "w": 38, 
+            "x": 611, 
+            "y": 205
+          }, 
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "bird_crane1_4", 
+            "path": "japan.morph/bird_crane1_4.png", 
+            "w": 33, 
+            "x": 617, 
+            "y": 220
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "bird_crane2_4", 
+            "path": "japan.morph/bird_crane2_4.png", 
+            "w": 21, 
+            "x": 622, 
+            "y": 208
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "bird_crane1_5_cover", 
+            "path": "japan.morph/bird_crane1_5_cover.png", 
+            "w": 33, 
+            "x": 427, 
+            "y": 334
+          }, 
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "bird_crane1_5", 
+            "path": "japan.morph/bird_crane1_5.png", 
+            "w": 33, 
+            "x": 430, 
+            "y": 347
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "bird_crane2_5", 
+            "path": "japan.morph/bird_crane2_5.png", 
+            "w": 22, 
+            "x": 433, 
+            "y": 335
+          }
+        }
+      ], 
+      "name": "birdcrane"
+    }
+  ], 
+  "part": [
+    {
+      "name": "coach_orig", 
+      "path": "japan.part/coach_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "coach1_1", 
+                "path": "japan.part/coach1_1.png", 
+                "w": 48, 
+                "x": 1007, 
+                "y": 568
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "coach1_2_cover", 
+                "path": "japan.part/coach1_2_cover.png", 
+                "w": 37, 
+                "x": 880, 
+                "y": 542
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "coach1_2", 
+                "path": "japan.part/coach1_2.png", 
+                "w": 41, 
+                "x": 873, 
+                "y": 540
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "coach1_3", 
+                "path": "japan.part/coach1_3.png", 
+                "w": 54, 
+                "x": 263, 
+                "y": 601
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "coach1_4", 
+                "path": "japan.part/coach1_4.png", 
+                "w": 55, 
+                "x": 809, 
+                "y": 613
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "coach1_5_cover", 
+                "path": "japan.part/coach1_5_cover.png", 
+                "w": 58, 
+                "x": 632, 
+                "y": 518
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "coach1_5", 
+                "path": "japan.part/coach1_5.png", 
+                "w": 43, 
+                "x": 637, 
+                "y": 514
+              }
+            }
+          ], 
+          "name": "coach1", 
+          "path": "japan.part/coach1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "coach2_1", 
+                "path": "japan.part/coach2_1.png", 
+                "w": 31, 
+                "x": 415, 
+                "y": 524
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "coach2_2_cover", 
+                "path": "japan.part/coach2_2_cover.png", 
+                "w": 21, 
+                "x": 957, 
+                "y": 552
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "coach2_2", 
+                "path": "japan.part/coach2_2.png", 
+                "w": 32, 
+                "x": 943, 
+                "y": 555
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "coach2_3_cover", 
+                "path": "japan.part/coach2_3_cover.png", 
+                "w": 34, 
+                "x": 398, 
+                "y": 439
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "coach2_3", 
+                "path": "japan.part/coach2_3.png", 
+                "w": 30, 
+                "x": 397, 
+                "y": 444
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "coach2_4_cover", 
+                "path": "japan.part/coach2_4_cover.png", 
+                "w": 36, 
+                "x": 622, 
+                "y": 620
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "coach2_4", 
+                "path": "japan.part/coach2_4.png", 
+                "w": 30, 
+                "x": 626, 
+                "y": 598
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "coach2_5_cover", 
+                "path": "japan.part/coach2_5_cover.png", 
+                "w": 33, 
+                "x": 834, 
+                "y": 305
+              }, 
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "coach2_5", 
+                "path": "japan.part/coach2_5.png", 
+                "w": 24, 
+                "x": 837, 
+                "y": 316
+              }
+            }
+          ], 
+          "name": "coach2", 
+          "path": "japan.part/coach2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "coach3_1", 
+                "path": "japan.part/coach3_1.png", 
+                "w": 36, 
+                "x": 1213, 
+                "y": 528
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "coach3_2", 
+                "path": "japan.part/coach3_2.png", 
+                "w": 32, 
+                "x": 985, 
+                "y": 430
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "coach3_3_cover", 
+                "path": "japan.part/coach3_3_cover.png", 
+                "w": 29, 
+                "x": 519, 
+                "y": 482
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "coach3_3", 
+                "path": "japan.part/coach3_3.png", 
+                "w": 31, 
+                "x": 520, 
+                "y": 501
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "coach3_4_cover", 
+                "path": "japan.part/coach3_4_cover.png", 
+                "w": 12, 
+                "x": 244, 
+                "y": 457
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "coach3_4", 
+                "path": "japan.part/coach3_4.png", 
+                "w": 32, 
+                "x": 246, 
+                "y": 459
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "coach3_5", 
+                "path": "japan.part/coach3_5.png", 
+                "w": 31, 
+                "x": 901, 
+                "y": 425
+              }
+            }
+          ], 
+          "name": "coach3", 
+          "path": "japan.part/coach3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "coach4_1", 
+                "path": "japan.part/coach4_1.png", 
+                "w": 38, 
+                "x": 354, 
+                "y": 585
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "coach4_2", 
+                "path": "japan.part/coach4_2.png", 
+                "w": 38, 
+                "x": 557, 
+                "y": 582
+              }
+            }, 
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "coach4_3", 
+                "path": "japan.part/coach4_3.png", 
+                "w": 41, 
+                "x": 249, 
+                "y": 502
+              }
+            }, 
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "coach4_4_cover", 
+                "path": "japan.part/coach4_4_cover.png", 
+                "w": 48, 
+                "x": 478, 
+                "y": 391
+              }, 
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "coach4_4", 
+                "path": "japan.part/coach4_4.png", 
+                "w": 41, 
+                "x": 479, 
+                "y": 379
+              }
+            }, 
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "coach4_5", 
+                "path": "japan.part/coach4_5.png", 
+                "w": 41, 
+                "x": 769, 
+                "y": 342
+              }
+            }
+          ], 
+          "name": "coach4", 
+          "path": "japan.part/coach4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "coach5_1", 
+                "path": "japan.part/coach5_1.png", 
+                "w": 15, 
+                "x": 767, 
+                "y": 469
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "coach5_2_cover", 
+                "path": "japan.part/coach5_2_cover.png", 
+                "w": 10, 
+                "x": 714, 
+                "y": 300
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "coach5_2", 
+                "path": "japan.part/coach5_2.png", 
+                "w": 15, 
+                "x": 717, 
+                "y": 303
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "coach5_3_cover", 
+                "path": "japan.part/coach5_3_cover.png", 
+                "w": 7, 
+                "x": 612, 
+                "y": 282
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "coach5_3", 
+                "path": "japan.part/coach5_3.png", 
+                "w": 14, 
+                "x": 604, 
+                "y": 286
+              }
+            }, 
+            {
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "coach5_4", 
+                "path": "japan.part/coach5_4.png", 
+                "w": 36, 
+                "x": 839, 
+                "y": 140
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "coach5_5", 
+                "path": "japan.part/coach5_5.png", 
+                "w": 17, 
+                "x": 400, 
+                "y": 281
+              }
+            }
+          ], 
+          "name": "coach5", 
+          "path": "japan.part/coach5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "samurai_orig", 
+      "path": "japan.part/samurai_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "samurai1_1", 
+                "path": "japan.part/samurai1_1.png", 
+                "w": 42, 
+                "x": 1008, 
+                "y": 372
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "samurai1_2", 
+                "path": "japan.part/samurai1_2.png", 
+                "w": 42, 
+                "x": 540, 
+                "y": 389
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "samurai1_3_cover", 
+                "path": "japan.part/samurai1_3_cover.png", 
+                "w": 16, 
+                "x": 302, 
+                "y": 352
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "samurai1_3", 
+                "path": "japan.part/samurai1_3.png", 
+                "w": 32, 
+                "x": 303, 
+                "y": 350
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "samurai1_4_cover", 
+                "path": "japan.part/samurai1_4_cover.png", 
+                "w": 34, 
+                "x": 825, 
+                "y": 417
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "samurai1_4", 
+                "path": "japan.part/samurai1_4.png", 
+                "w": 32, 
+                "x": 826, 
+                "y": 418
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "samurai1_5_cover", 
+                "path": "japan.part/samurai1_5_cover.png", 
+                "w": 27, 
+                "x": 1113, 
+                "y": 333
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "samurai1_5", 
+                "path": "japan.part/samurai1_5.png", 
+                "w": 32, 
+                "x": 1104, 
+                "y": 330
+              }
+            }
+          ], 
+          "name": "samurai1", 
+          "path": "japan.part/samurai1.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 11, 
+                "layer": 5, 
+                "name": "samurai2_1_cover", 
+                "path": "japan.part/samurai2_1_cover.png", 
+                "w": 34, 
+                "x": 1102, 
+                "y": 501
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "samurai2_1", 
+                "path": "japan.part/samurai2_1.png", 
+                "w": 54, 
+                "x": 1083, 
+                "y": 460
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "samurai2_2", 
+                "path": "japan.part/samurai2_2.png", 
+                "w": 30, 
+                "x": 814, 
+                "y": 469
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "samurai2_3_cover", 
+                "path": "japan.part/samurai2_3_cover.png", 
+                "w": 12, 
+                "x": 352, 
+                "y": 456
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "samurai2_3", 
+                "path": "japan.part/samurai2_3.png", 
+                "w": 24, 
+                "x": 351, 
+                "y": 434
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "samurai2_4_cover", 
+                "path": "japan.part/samurai2_4_cover.png", 
+                "w": 17, 
+                "x": 707, 
+                "y": 460
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "samurai2_4", 
+                "path": "japan.part/samurai2_4.png", 
+                "w": 23, 
+                "x": 700, 
+                "y": 462
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "samurai2_5_cover", 
+                "path": "japan.part/samurai2_5_cover.png", 
+                "w": 25, 
+                "x": 731, 
+                "y": 374
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "samurai2_5", 
+                "path": "japan.part/samurai2_5.png", 
+                "w": 23, 
+                "x": 732, 
+                "y": 368
+              }
+            }
+          ], 
+          "name": "samurai2", 
+          "path": "japan.part/samurai2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "samurai3_1", 
+                "path": "japan.part/samurai3_1.png", 
+                "w": 49, 
+                "x": 686, 
+                "y": 374
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "samurai3_2", 
+                "path": "japan.part/samurai3_2.png", 
+                "w": 49, 
+                "x": 265, 
+                "y": 401
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "samurai3_3_cover", 
+                "path": "japan.part/samurai3_3_cover.png", 
+                "w": 41, 
+                "x": 637, 
+                "y": 201
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "samurai3_3", 
+                "path": "japan.part/samurai3_3.png", 
+                "w": 38, 
+                "x": 638, 
+                "y": 202
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "samurai3_4_cover", 
+                "path": "japan.part/samurai3_4_cover.png", 
+                "w": 44, 
+                "x": 722, 
+                "y": 500
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "samurai3_4", 
+                "path": "japan.part/samurai3_4.png", 
+                "w": 38, 
+                "x": 725, 
+                "y": 499
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "samurai3_5_cover", 
+                "path": "japan.part/samurai3_5_cover.png", 
+                "w": 19, 
+                "x": 1144, 
+                "y": 356
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "samurai3_5", 
+                "path": "japan.part/samurai3_5.png", 
+                "w": 38, 
+                "x": 1146, 
+                "y": 359
+              }
+            }
+          ], 
+          "name": "samurai3", 
+          "path": "japan.part/samurai3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "samurai4_1", 
+                "path": "japan.part/samurai4_1.png", 
+                "w": 136, 
+                "x": 536, 
+                "y": 444
+              }
+            }, 
+            {
+              "pic": {
+                "h": 136, 
+                "layer": 4, 
+                "name": "samurai4_2", 
+                "path": "japan.part/samurai4_2.png", 
+                "w": 9, 
+                "x": 666, 
+                "y": 235
+              }
+            }, 
+            {
+              "pic": {
+                "h": 11, 
+                "layer": 4, 
+                "name": "samurai4_3", 
+                "path": "japan.part/samurai4_3.png", 
+                "w": 136, 
+                "x": 881, 
+                "y": 312
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "samurai4_4_cover", 
+                "path": "japan.part/samurai4_4_cover.png", 
+                "w": 26, 
+                "x": 960, 
+                "y": 445
+              }, 
+              "pic": {
+                "h": 15, 
+                "layer": 4, 
+                "name": "samurai4_4", 
+                "path": "japan.part/samurai4_4.png", 
+                "w": 136, 
+                "x": 889, 
+                "y": 220
+              }
+            }, 
+            {
+              "cover": {
+                "h": 12, 
+                "layer": 5, 
+                "name": "samurai4_5_cover", 
+                "path": "japan.part/samurai4_5_cover.png", 
+                "w": 50, 
+                "x": 820, 
+                "y": 593
+              }, 
+              "pic": {
+                "h": 14, 
+                "layer": 4, 
+                "name": "samurai4_5", 
+                "path": "japan.part/samurai4_5.png", 
+                "w": 136, 
+                "x": 823, 
+                "y": 594
+              }
+            }
+          ], 
+          "name": "samurai4", 
+          "path": "japan.part/samurai4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "samurai5_1", 
+                "path": "japan.part/samurai5_1.png", 
+                "w": 44, 
+                "x": 720, 
+                "y": 532
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "samurai5_2", 
+                "path": "japan.part/samurai5_2.png", 
+                "w": 44, 
+                "x": 1026, 
+                "y": 68
+              }
+            }, 
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "samurai5_3_cover", 
+                "path": "japan.part/samurai5_3_cover.png", 
+                "w": 32, 
+                "x": 481, 
+                "y": 600
+              }, 
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "samurai5_3", 
+                "path": "japan.part/samurai5_3.png", 
+                "w": 36, 
+                "x": 474, 
+                "y": 590
+              }
+            }, 
+            {
+              "cover": {
+                "h": 29, 
+                "layer": 5, 
+                "name": "samurai5_4_cover", 
+                "path": "japan.part/samurai5_4_cover.png", 
+                "w": 39, 
+                "x": 1165, 
+                "y": 521
+              }, 
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "samurai5_4", 
+                "path": "japan.part/samurai5_4.png", 
+                "w": 36, 
+                "x": 1166, 
+                "y": 523
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "samurai5_5_cover", 
+                "path": "japan.part/samurai5_5_cover.png", 
+                "w": 22, 
+                "x": 1070, 
+                "y": 428
+              }, 
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "samurai5_5", 
+                "path": "japan.part/samurai5_5.png", 
+                "w": 35, 
+                "x": 1055, 
+                "y": 431
+              }
+            }
+          ], 
+          "name": "samurai5", 
+          "path": "japan.part/samurai5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "carousel_orig", 
+      "path": "japan.part/carousel_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "carousel1_1", 
+                "path": "japan.part/carousel1_1.png", 
+                "w": 45, 
+                "x": 659, 
+                "y": 625
+              }
+            }, 
+            {
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "carousel1_2", 
+                "path": "japan.part/carousel1_2.png", 
+                "w": 35, 
+                "x": 814, 
+                "y": 388
+              }
+            }, 
+            {
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "carousel1_3", 
+                "path": "japan.part/carousel1_3.png", 
+                "w": 35, 
+                "x": 258, 
+                "y": 533
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "carousel1_4", 
+                "path": "japan.part/carousel1_4.png", 
+                "w": 22, 
+                "x": 1123, 
+                "y": 286
+              }
+            }, 
+            {
+              "cover": {
+                "h": 17, 
+                "layer": 5, 
+                "name": "carousel1_5_cover", 
+                "path": "japan.part/carousel1_5_cover.png", 
+                "w": 43, 
+                "x": 1149, 
+                "y": 569
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "carousel1_5", 
+                "path": "japan.part/carousel1_5.png", 
+                "w": 40, 
+                "x": 1152, 
+                "y": 559
+              }
+            }
+          ], 
+          "name": "carousel1", 
+          "path": "japan.part/carousel1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "carousel2_1", 
+                "path": "japan.part/carousel2_1.png", 
+                "w": 45, 
+                "x": 300, 
+                "y": 571
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "carousel2_2_cover", 
+                "path": "japan.part/carousel2_2_cover.png", 
+                "w": 27, 
+                "x": 522, 
+                "y": 561
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "carousel2_2", 
+                "path": "japan.part/carousel2_2.png", 
+                "w": 37, 
+                "x": 508, 
+                "y": 555
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "carousel2_3", 
+                "path": "japan.part/carousel2_3.png", 
+                "w": 40, 
+                "x": 477, 
+                "y": 434
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "carousel2_4_cover", 
+                "path": "japan.part/carousel2_4_cover.png", 
+                "w": 36, 
+                "x": 551, 
+                "y": 241
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "carousel2_4", 
+                "path": "japan.part/carousel2_4.png", 
+                "w": 37, 
+                "x": 552, 
+                "y": 243
+              }
+            }, 
+            {
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "carousel2_5", 
+                "path": "japan.part/carousel2_5.png", 
+                "w": 32, 
+                "x": 732, 
+                "y": 440
+              }
+            }
+          ], 
+          "name": "carousel2", 
+          "path": "japan.part/carousel2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "carousel3_1", 
+                "path": "japan.part/carousel3_1.png", 
+                "w": 45, 
+                "x": 855, 
+                "y": 185
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "carousel3_2", 
+                "path": "japan.part/carousel3_2.png", 
+                "w": 43, 
+                "x": 736, 
+                "y": 153
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "carousel3_3", 
+                "path": "japan.part/carousel3_3.png", 
+                "w": 42, 
+                "x": 968, 
+                "y": 253
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "carousel3_4", 
+                "path": "japan.part/carousel3_4.png", 
+                "w": 43, 
+                "x": 232, 
+                "y": 228
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "carousel3_5", 
+                "path": "japan.part/carousel3_5.png", 
+                "w": 42, 
+                "x": 585, 
+                "y": 90
+              }
+            }
+          ], 
+          "name": "carousel3", 
+          "path": "japan.part/carousel3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "carousel4_1", 
+                "path": "japan.part/carousel4_1.png", 
+                "w": 45, 
+                "x": 768, 
+                "y": 516
+              }
+            }, 
+            {
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "carousel4_2", 
+                "path": "japan.part/carousel4_2.png", 
+                "w": 45, 
+                "x": 580, 
+                "y": 510
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "carousel4_3_cover", 
+                "path": "japan.part/carousel4_3_cover.png", 
+                "w": 26, 
+                "x": 418, 
+                "y": 584
+              }, 
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "carousel4_3", 
+                "path": "japan.part/carousel4_3.png", 
+                "w": 44, 
+                "x": 420, 
+                "y": 592
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "carousel4_4", 
+                "path": "japan.part/carousel4_4.png", 
+                "w": 42, 
+                "x": 1035, 
+                "y": 262
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "carousel4_5_cover", 
+                "path": "japan.part/carousel4_5_cover.png", 
+                "w": 45, 
+                "x": 800, 
+                "y": 260
+              }, 
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "carousel4_5", 
+                "path": "japan.part/carousel4_5.png", 
+                "w": 42, 
+                "x": 801, 
+                "y": 261
+              }
+            }
+          ], 
+          "name": "carousel4", 
+          "path": "japan.part/carousel4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "carousel5_1", 
+                "path": "japan.part/carousel5_1.png", 
+                "w": 33, 
+                "x": 877, 
+                "y": 265
+              }
+            }, 
+            {
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "carousel5_2", 
+                "path": "japan.part/carousel5_2.png", 
+                "w": 33, 
+                "x": 653, 
+                "y": 46
+              }
+            }, 
+            {
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "carousel5_3", 
+                "path": "japan.part/carousel5_3.png", 
+                "w": 33, 
+                "x": 679, 
+                "y": 313
+              }
+            }, 
+            {
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "carousel5_4", 
+                "path": "japan.part/carousel5_4.png", 
+                "w": 33, 
+                "x": 428, 
+                "y": 270
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "carousel5_5", 
+                "path": "japan.part/carousel5_5.png", 
+                "w": 24, 
+                "x": 971, 
+                "y": 127
+              }
+            }
+          ], 
+          "name": "carousel5", 
+          "path": "japan.part/carousel5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "torii_orig", 
+      "path": "japan.part/torii_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "torii1_1", 
+                "path": "japan.part/torii1_1.png", 
+                "w": 64, 
+                "x": 925, 
+                "y": 396
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "torii1_2", 
+                "path": "japan.part/torii1_2.png", 
+                "w": 64, 
+                "x": 871, 
+                "y": 481
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "torii1_3_cover", 
+                "path": "japan.part/torii1_3_cover.png", 
+                "w": 19, 
+                "x": 456, 
+                "y": 395
+              }, 
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "torii1_3", 
+                "path": "japan.part/torii1_3.png", 
+                "w": 21, 
+                "x": 453, 
+                "y": 345
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "torii1_4", 
+                "path": "japan.part/torii1_4.png", 
+                "w": 21, 
+                "x": 1152, 
+                "y": 417
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "torii1_5", 
+                "path": "japan.part/torii1_5.png", 
+                "w": 21, 
+                "x": 1162, 
+                "y": 180
+              }
+            }
+          ], 
+          "name": "torii1", 
+          "path": "japan.part/torii1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "torii2_1", 
+                "path": "japan.part/torii2_1.png", 
+                "w": 13, 
+                "x": 997, 
+                "y": 473
+              }
+            }, 
+            {
+              "pic": {
+                "h": 14, 
+                "layer": 4, 
+                "name": "torii2_2", 
+                "path": "japan.part/torii2_2.png", 
+                "w": 33, 
+                "x": 1045, 
+                "y": 408
+              }
+            }, 
+            {
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "torii2_3", 
+                "path": "japan.part/torii2_3.png", 
+                "w": 37, 
+                "x": 333, 
+                "y": 271
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "torii2_4", 
+                "path": "japan.part/torii2_4.png", 
+                "w": 34, 
+                "x": 551, 
+                "y": 462
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "torii2_5", 
+                "path": "japan.part/torii2_5.png", 
+                "w": 14, 
+                "x": 741, 
+                "y": 318
+              }
+            }
+          ], 
+          "name": "torii2", 
+          "path": "japan.part/torii2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "torii3_1", 
+                "path": "japan.part/torii3_1.png", 
+                "w": 48, 
+                "x": 1031, 
+                "y": 488
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "torii3_2_cover", 
+                "path": "japan.part/torii3_2_cover.png", 
+                "w": 36, 
+                "x": 1191, 
+                "y": 407
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "torii3_2", 
+                "path": "japan.part/torii3_2.png", 
+                "w": 48, 
+                "x": 1189, 
+                "y": 390
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "torii3_3_cover", 
+                "path": "japan.part/torii3_3_cover.png", 
+                "w": 40, 
+                "x": 594, 
+                "y": 389
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "torii3_3", 
+                "path": "japan.part/torii3_3.png", 
+                "w": 48, 
+                "x": 592, 
+                "y": 360
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "torii3_4", 
+                "path": "japan.part/torii3_4.png", 
+                "w": 50, 
+                "x": 778, 
+                "y": 78
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "torii3_5_cover", 
+                "path": "japan.part/torii3_5_cover.png", 
+                "w": 43, 
+                "x": 229, 
+                "y": 332
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "torii3_5", 
+                "path": "japan.part/torii3_5.png", 
+                "w": 43, 
+                "x": 230, 
+                "y": 323
+              }
+            }
+          ], 
+          "name": "torii3", 
+          "path": "japan.part/torii3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "torii4_1", 
+                "path": "japan.part/torii4_1.png", 
+                "w": 22, 
+                "x": 655, 
+                "y": 403
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "torii4_2", 
+                "path": "japan.part/torii4_2.png", 
+                "w": 24, 
+                "x": 845, 
+                "y": 465
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "torii4_3", 
+                "path": "japan.part/torii4_3.png", 
+                "w": 24, 
+                "x": 1105, 
+                "y": 555
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "torii4_4", 
+                "path": "japan.part/torii4_4.png", 
+                "w": 27, 
+                "x": 943, 
+                "y": 460
+              }
+            }, 
+            {
+              "pic": {
+                "h": 19, 
+                "layer": 4, 
+                "name": "torii4_5", 
+                "path": "japan.part/torii4_5.png", 
+                "w": 33, 
+                "x": 859, 
+                "y": 425
+              }
+            }
+          ], 
+          "name": "torii4", 
+          "path": "japan.part/torii4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "torii5_1", 
+                "path": "japan.part/torii5_1.png", 
+                "w": 24, 
+                "x": 451, 
+                "y": 228
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "torii5_2", 
+                "path": "japan.part/torii5_2.png", 
+                "w": 22, 
+                "x": 484, 
+                "y": 57
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "torii5_3_cover", 
+                "path": "japan.part/torii5_3_cover.png", 
+                "w": 23, 
+                "x": 640, 
+                "y": 285
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "torii5_3", 
+                "path": "japan.part/torii5_3.png", 
+                "w": 22, 
+                "x": 641, 
+                "y": 286
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "torii5_4", 
+                "path": "japan.part/torii5_4.png", 
+                "w": 28, 
+                "x": 1164, 
+                "y": 61
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "torii5_5", 
+                "path": "japan.part/torii5_5.png", 
+                "w": 20, 
+                "x": 306, 
+                "y": 504
+              }
+            }
+          ], 
+          "name": "torii5", 
+          "path": "japan.part/torii5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "ship_orig", 
+      "path": "japan.part/ship_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "ship1_1", 
+                "path": "japan.part/ship1_1.png", 
+                "w": 76, 
+                "x": 715, 
+                "y": 625
+              }
+            }, 
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "ship1_2_cover", 
+                "path": "japan.part/ship1_2_cover.png", 
+                "w": 50, 
+                "x": 561, 
+                "y": 557
+              }, 
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "ship1_2", 
+                "path": "japan.part/ship1_2.png", 
+                "w": 65, 
+                "x": 564, 
+                "y": 544
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "ship1_3_cover", 
+                "path": "japan.part/ship1_3_cover.png", 
+                "w": 74, 
+                "x": 1006, 
+                "y": 173
+              }, 
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "ship1_3", 
+                "path": "japan.part/ship1_3.png", 
+                "w": 74, 
+                "x": 1006, 
+                "y": 181
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "ship1_4", 
+                "path": "japan.part/ship1_4.png", 
+                "w": 16, 
+                "x": 376, 
+                "y": 274
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "ship1_5", 
+                "path": "japan.part/ship1_5.png", 
+                "w": 16, 
+                "x": 739, 
+                "y": 237
+              }
+            }
+          ], 
+          "name": "ship1", 
+          "path": "japan.part/ship1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "ship2_1", 
+                "path": "japan.part/ship2_1.png", 
+                "w": 55, 
+                "x": 789, 
+                "y": 544
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "ship2_2", 
+                "path": "japan.part/ship2_2.png", 
+                "w": 58, 
+                "x": 1094, 
+                "y": 522
+              }
+            }, 
+            {
+              "pic": {
+                "h": 15, 
+                "layer": 4, 
+                "name": "ship2_3", 
+                "path": "japan.part/ship2_3.png", 
+                "w": 54, 
+                "x": 1070, 
+                "y": 230
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "ship2_4", 
+                "path": "japan.part/ship2_4.png", 
+                "w": 13, 
+                "x": 669, 
+                "y": 95
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "ship2_5_cover", 
+                "path": "japan.part/ship2_5_cover.png", 
+                "w": 15, 
+                "x": 559, 
+                "y": 330
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "ship2_5", 
+                "path": "japan.part/ship2_5.png", 
+                "w": 13, 
+                "x": 560, 
+                "y": 293
+              }
+            }
+          ], 
+          "name": "ship2", 
+          "path": "japan.part/ship2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "ship3_1", 
+                "path": "japan.part/ship3_1.png", 
+                "w": 44, 
+                "x": 617, 
+                "y": 475
+              }
+            }, 
+            {
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "ship3_2", 
+                "path": "japan.part/ship3_2.png", 
+                "w": 45, 
+                "x": 241, 
+                "y": 293
+              }
+            }, 
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "ship3_3_cover", 
+                "path": "japan.part/ship3_3_cover.png", 
+                "w": 29, 
+                "x": 391, 
+                "y": 351
+              }, 
+              "pic": {
+                "h": 23, 
+                "layer": 4, 
+                "name": "ship3_3", 
+                "path": "japan.part/ship3_3.png", 
+                "w": 47, 
+                "x": 377, 
+                "y": 341
+              }
+            }, 
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "ship3_4_cover", 
+                "path": "japan.part/ship3_4_cover.png", 
+                "w": 27, 
+                "x": 863, 
+                "y": 382
+              }, 
+              "pic": {
+                "h": 20, 
+                "layer": 4, 
+                "name": "ship3_4", 
+                "path": "japan.part/ship3_4.png", 
+                "w": 43, 
+                "x": 852, 
+                "y": 372
+              }
+            }, 
+            {
+              "pic": {
+                "h": 19, 
+                "layer": 4, 
+                "name": "ship3_5", 
+                "path": "japan.part/ship3_5.png", 
+                "w": 40, 
+                "x": 1106, 
+                "y": 394
+              }
+            }
+          ], 
+          "name": "ship3", 
+          "path": "japan.part/ship3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "ship4_1", 
+                "path": "japan.part/ship4_1.png", 
+                "w": 46, 
+                "x": 949, 
+                "y": 510
+              }
+            }, 
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "ship4_2", 
+                "path": "japan.part/ship4_2.png", 
+                "w": 58, 
+                "x": 955, 
+                "y": 623
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "ship4_3_cover", 
+                "path": "japan.part/ship4_3_cover.png", 
+                "w": 42, 
+                "x": 721, 
+                "y": 127
+              }, 
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "ship4_3", 
+                "path": "japan.part/ship4_3.png", 
+                "w": 49, 
+                "x": 715, 
+                "y": 126
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "ship4_4_cover", 
+                "path": "japan.part/ship4_4_cover.png", 
+                "w": 22, 
+                "x": 565, 
+                "y": 200
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "ship4_4", 
+                "path": "japan.part/ship4_4.png", 
+                "w": 19, 
+                "x": 567, 
+                "y": 179
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "ship4_5", 
+                "path": "japan.part/ship4_5.png", 
+                "w": 44, 
+                "x": 281, 
+                "y": 228
+              }
+            }
+          ], 
+          "name": "ship4", 
+          "path": "japan.part/ship4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "ship5_1", 
+                "path": "japan.part/ship5_1.png", 
+                "w": 10, 
+                "x": 872, 
+                "y": 333
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "ship5_2", 
+                "path": "japan.part/ship5_2.png", 
+                "w": 11, 
+                "x": 1211, 
+                "y": 240
+              }
+            }, 
+            {
+              "cover": {
+                "h": 16, 
+                "layer": 5, 
+                "name": "ship5_3_cover", 
+                "path": "japan.part/ship5_3_cover.png", 
+                "w": 19, 
+                "x": 709, 
+                "y": 421
+              }, 
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "ship5_3", 
+                "path": "japan.part/ship5_3.png", 
+                "w": 11, 
+                "x": 712, 
+                "y": 423
+              }
+            }, 
+            {
+              "pic": {
+                "h": 10, 
+                "layer": 4, 
+                "name": "ship5_4", 
+                "path": "japan.part/ship5_4.png", 
+                "w": 27, 
+                "x": 775, 
+                "y": 416
+              }
+            }, 
+            {
+              "pic": {
+                "h": 10, 
+                "layer": 4, 
+                "name": "ship5_5", 
+                "path": "japan.part/ship5_5.png", 
+                "w": 27, 
+                "x": 679, 
+                "y": 257
+              }
+            }
+          ], 
+          "name": "ship5", 
+          "path": "japan.part/ship5.png"
+        }
+      ]
+    }
+  ]
+}

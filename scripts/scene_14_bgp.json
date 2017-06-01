@@ -1,0 +1,47 @@
+[
+  {
+    "layer": 1, 
+    "path": "kabinet.bg/sky.png", 
+    "x": 208, 
+    "y": 61
+  }, 
+  {
+    "layer": 2, 
+    "path": "kabinet.bg/cloud1.png", 
+    "x": 328, 
+    "y": 230
+  }, 
+  {
+    "layer": 2, 
+    "path": "kabinet.bg/cloud2.png", 
+    "type": "skip", 
+    "x": 218, 
+    "y": 290
+  }, 
+  {
+    "layer": 2, 
+    "path": "kabinet.bg/cloud3.png", 
+    "x": 428, 
+    "y": 140
+  }, 
+  {
+    "layer": 3, 
+    "path": "kabinet.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 8, 
+    "path": "kabinet.bg/light.png", 
+    "type": "effect", 
+    "x": 311, 
+    "y": 73
+  }, 
+  {
+    "layer": 8, 
+    "path": "kabinet.bg/glow.png", 
+    "type": "effect", 
+    "x": 271, 
+    "y": 70
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "layer": 0, 
+    "path": "festive_dinner.bg/back.png", 
+    "x": 607, 
+    "y": 0
+  }, 
+  {
+    "layer": 2, 
+    "path": "festive_dinner.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 3, 
+    "path": "festive_dinner.bg/fireplace.png", 
+    "type": "effect", 
+    "x": 357, 
+    "y": 406
+  }, 
+  {
+    "ani": true, 
+    "layer": 6, 
+    "path": "festive_dinner.bg/snowflakes_00.png", 
+    "x": 629, 
+    "y": 0
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/garlands.png", 
+    "x": 812, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 6, 
+    "path": "festive_dinner.bg/garlands_flashing_01.png", 
+    "type": "effect", 
+    "x": 806, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 6, 
+    "path": "festive_dinner.bg/garlands_flashing_01.png", 
+    "type": "effect", 
+    "x": 806, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 6, 
+    "path": "festive_dinner.bg/garlands_flashing_01.png", 
+    "type": "effect", 
+    "x": 806, 
+    "y": 0
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/light1.png", 
+    "x": 278, 
+    "y": 55
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/light2.png", 
+    "x": 315, 
+    "y": 66
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/light3.png", 
+    "x": 471, 
+    "y": 80
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/light4.png", 
+    "x": 557, 
+    "y": 80
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/light5.png", 
+    "x": 594, 
+    "y": 314
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/light6.png", 
+    "x": 639, 
+    "y": 310
+  }, 
+  {
+    "layer": 6, 
+    "path": "festive_dinner.bg/light7.png", 
+    "x": 880, 
+    "y": 314
+  }
+]

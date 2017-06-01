@@ -1,0 +1,6761 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "bell_1", 
+            "path": "throne.form/bell_1.png", 
+            "w": 23, 
+            "x": 793, 
+            "y": 516
+          }
+        }, 
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "bell_2", 
+            "path": "throne.form/bell_2.png", 
+            "w": 33, 
+            "x": 441, 
+            "y": 602
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "bell_3", 
+            "path": "throne.form/bell_3.png", 
+            "w": 36, 
+            "x": 432, 
+            "y": 546
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "bell_4", 
+            "path": "throne.form/bell_4.png", 
+            "w": 23, 
+            "x": 906, 
+            "y": 453
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "bell_5_cover", 
+            "path": "throne.form/bell_5_cover.png", 
+            "w": 23, 
+            "x": 1168, 
+            "y": 489
+          }, 
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "bell_5", 
+            "path": "throne.form/bell_5.png", 
+            "w": 34, 
+            "x": 1169, 
+            "y": 485
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "bell_6_cover", 
+            "path": "throne.form/bell_6_cover.png", 
+            "w": 19, 
+            "x": 1076, 
+            "y": 463
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "bell_6", 
+            "path": "throne.form/bell_6.png", 
+            "w": 22, 
+            "x": 1075, 
+            "y": 451
+          }
+        }
+      ], 
+      "name": "ベル", 
+      "path": "throne.sils/bell.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "sandglass_1", 
+            "path": "throne.form/sandglass_1.png", 
+            "w": 32, 
+            "x": 709, 
+            "y": 438
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "sandglass_2", 
+            "path": "throne.form/sandglass_2.png", 
+            "w": 26, 
+            "x": 1141, 
+            "y": 470
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "sandglass_3", 
+            "path": "throne.form/sandglass_3.png", 
+            "w": 26, 
+            "x": 373, 
+            "y": 479
+          }
+        }, 
+        {
+          "pic": {
+            "h": 19, 
+            "layer": 3, 
+            "name": "sandglass_4", 
+            "path": "throne.form/sandglass_4.png", 
+            "w": 34, 
+            "x": 538, 
+            "y": 477
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "sandglass_5", 
+            "path": "throne.form/sandglass_5.png", 
+            "w": 18, 
+            "x": 788, 
+            "y": 329
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "sandglass_6_cover", 
+            "path": "throne.form/sandglass_6_cover.png", 
+            "w": 26, 
+            "x": 780, 
+            "y": 184
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "sandglass_6", 
+            "path": "throne.form/sandglass_6.png", 
+            "w": 22, 
+            "x": 781, 
+            "y": 173
+          }
+        }
+      ], 
+      "name": "砂時計", 
+      "path": "throne.sils/sandglass.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "scull_1", 
+            "path": "throne.form/scull_1.png", 
+            "w": 33, 
+            "x": 285, 
+            "y": 9
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "scull_2_cover", 
+            "path": "throne.form/scull_2_cover.png", 
+            "w": 26, 
+            "x": 247, 
+            "y": 339
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "scull_2", 
+            "path": "throne.form/scull_2.png", 
+            "w": 31, 
+            "x": 250, 
+            "y": 342
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "scull_3", 
+            "path": "throne.form/scull_3.png", 
+            "w": 41, 
+            "x": 1039, 
+            "y": 473
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "scull_4", 
+            "path": "throne.form/scull_4.png", 
+            "w": 31, 
+            "x": 988, 
+            "y": 134
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "scull_5_cover", 
+            "path": "throne.form/scull_5_cover.png", 
+            "w": 18, 
+            "x": 1010, 
+            "y": 591
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "scull_5", 
+            "path": "throne.form/scull_5.png", 
+            "w": 36, 
+            "x": 1009, 
+            "y": 594
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "scull_6_cover", 
+            "path": "throne.form/scull_6_cover.png", 
+            "w": 29, 
+            "x": 936, 
+            "y": 373
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "scull_6", 
+            "path": "throne.form/scull_6.png", 
+            "w": 27, 
+            "x": 936, 
+            "y": 358
+          }
+        }
+      ], 
+      "name": "頭蓋骨", 
+      "path": "throne.sils/scull.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 140, 
+            "layer": 3, 
+            "name": "arrow_1", 
+            "path": "throne.form/arrow_1.png", 
+            "w": 16, 
+            "x": 693, 
+            "y": 176
+          }
+        }, 
+        {
+          "pic": {
+            "h": 146, 
+            "layer": 3, 
+            "name": "arrow_2", 
+            "path": "throne.form/arrow_2.png", 
+            "w": 16, 
+            "x": 997, 
+            "y": 201
+          }
+        }, 
+        {
+          "cover": {
+            "h": 93, 
+            "layer": 5, 
+            "name": "arrow_3_cover", 
+            "path": "throne.form/arrow_3_cover.png", 
+            "w": 17, 
+            "x": 631, 
+            "y": 446
+          }, 
+          "pic": {
+            "h": 140, 
+            "layer": 3, 
+            "name": "arrow_3", 
+            "path": "throne.form/arrow_3.png", 
+            "w": 15, 
+            "x": 632, 
+            "y": 405
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "arrow_4_cover", 
+            "path": "throne.form/arrow_4_cover.png", 
+            "w": 18, 
+            "x": 358, 
+            "y": 628
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "arrow_4", 
+            "path": "throne.form/arrow_4.png", 
+            "w": 111, 
+            "x": 304, 
+            "y": 625
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "arrow_5_cover", 
+            "path": "throne.form/arrow_5_cover.png", 
+            "w": 65, 
+            "x": 311, 
+            "y": 508
+          }, 
+          "pic": {
+            "h": 12, 
+            "layer": 3, 
+            "name": "arrow_5", 
+            "path": "throne.form/arrow_5.png", 
+            "w": 96, 
+            "x": 279, 
+            "y": 507
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "arrow_6_cover", 
+            "path": "throne.form/arrow_6_cover.png", 
+            "w": 41, 
+            "x": 407, 
+            "y": 2
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "arrow_6", 
+            "path": "throne.form/arrow_6.png", 
+            "w": 67, 
+            "x": 395, 
+            "y": 0
+          }
+        }
+      ], 
+      "name": "矢", 
+      "path": "throne.sils/arrow.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "bag_1", 
+            "path": "throne.form/bag_1.png", 
+            "w": 49, 
+            "x": 929, 
+            "y": 524
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "bag_2", 
+            "path": "throne.form/bag_2.png", 
+            "w": 38, 
+            "x": 446, 
+            "y": 501
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "bag_3", 
+            "path": "throne.form/bag_3.png", 
+            "w": 37, 
+            "x": 274, 
+            "y": 587
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "bag_4_cover", 
+            "path": "throne.form/bag_4_cover.png", 
+            "w": 15, 
+            "x": 877, 
+            "y": 599
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "bag_4", 
+            "path": "throne.form/bag_4.png", 
+            "w": 48, 
+            "x": 864, 
+            "y": 602
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "bag_5_cover", 
+            "path": "throne.form/bag_5_cover.png", 
+            "w": 28, 
+            "x": 845, 
+            "y": 509
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "bag_5", 
+            "path": "throne.form/bag_5.png", 
+            "w": 24, 
+            "x": 846, 
+            "y": 511
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "bag_6_cover", 
+            "path": "throne.form/bag_6_cover.png", 
+            "w": 28, 
+            "x": 289, 
+            "y": 219
+          }, 
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "bag_6", 
+            "path": "throne.form/bag_6.png", 
+            "w": 24, 
+            "x": 290, 
+            "y": 207
+          }
+        }
+      ], 
+      "name": "小袋", 
+      "path": "throne.sils/bag.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "amulet_1", 
+            "path": "throne.form/amulet_1.png", 
+            "w": 47, 
+            "x": 946, 
+            "y": 462
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "amulet_2", 
+            "path": "throne.form/amulet_2.png", 
+            "w": 32, 
+            "x": 230, 
+            "y": 33
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "amulet_3_cover", 
+            "path": "throne.form/amulet_3_cover.png", 
+            "w": 29, 
+            "x": 781, 
+            "y": 380
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "amulet_3", 
+            "path": "throne.form/amulet_3.png", 
+            "w": 36, 
+            "x": 780, 
+            "y": 383
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "amulet_4_cover", 
+            "path": "throne.form/amulet_4_cover.png", 
+            "w": 15, 
+            "x": 789, 
+            "y": 309
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "amulet_4", 
+            "path": "throne.form/amulet_4.png", 
+            "w": 27, 
+            "x": 783, 
+            "y": 294
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "amulet_5", 
+            "path": "throne.form/amulet_5.png", 
+            "w": 27, 
+            "x": 606, 
+            "y": 267
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "amulet_6_cover", 
+            "path": "throne.form/amulet_6_cover.png", 
+            "w": 15, 
+            "x": 1094, 
+            "y": 382
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "amulet_6", 
+            "path": "throne.form/amulet_6.png", 
+            "w": 27, 
+            "x": 1088, 
+            "y": 383
+          }
+        }
+      ], 
+      "name": "お守り", 
+      "path": "throne.sils/amulet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "mask_1", 
+            "path": "throne.form/mask_1.png", 
+            "w": 31, 
+            "x": 772, 
+            "y": 81
+          }
+        }, 
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "mask_2", 
+            "path": "throne.form/mask_2.png", 
+            "w": 24, 
+            "x": 492, 
+            "y": 423
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "mask_3_cover", 
+            "path": "throne.form/mask_3_cover.png", 
+            "w": 29, 
+            "x": 1062, 
+            "y": 17
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "mask_3", 
+            "path": "throne.form/mask_3.png", 
+            "w": 34, 
+            "x": 1056, 
+            "y": 18
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "mask_4_cover", 
+            "path": "throne.form/mask_4_cover.png", 
+            "w": 27, 
+            "x": 860, 
+            "y": 245
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "mask_4", 
+            "path": "throne.form/mask_4.png", 
+            "w": 32, 
+            "x": 852, 
+            "y": 247
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "mask_5_cover", 
+            "path": "throne.form/mask_5_cover.png", 
+            "w": 26, 
+            "x": 1225, 
+            "y": 294
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "mask_5", 
+            "path": "throne.form/mask_5.png", 
+            "w": 31, 
+            "x": 1216, 
+            "y": 277
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "mask_6_cover", 
+            "path": "throne.form/mask_6_cover.png", 
+            "w": 39, 
+            "x": 981, 
+            "y": 443
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "mask_6", 
+            "path": "throne.form/mask_6.png", 
+            "w": 37, 
+            "x": 984, 
+            "y": 443
+          }
+        }
+      ], 
+      "name": "仮面", 
+      "path": "throne.sils/mask.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 113, 
+            "layer": 3, 
+            "name": "flute_1", 
+            "path": "throne.form/flute_1.png", 
+            "w": 15, 
+            "x": 890, 
+            "y": 332
+          }
+        }, 
+        {
+          "pic": {
+            "h": 112, 
+            "layer": 3, 
+            "name": "flute_2", 
+            "path": "throne.form/flute_2.png", 
+            "w": 15, 
+            "x": 886, 
+            "y": 151
+          }
+        }, 
+        {
+          "cover": {
+            "h": 77, 
+            "layer": 5, 
+            "name": "flute_3_cover", 
+            "path": "throne.form/flute_3_cover.png", 
+            "w": 22, 
+            "x": 1112, 
+            "y": 43
+          }, 
+          "pic": {
+            "h": 111, 
+            "layer": 3, 
+            "name": "flute_3", 
+            "path": "throne.form/flute_3.png", 
+            "w": 20, 
+            "x": 1116, 
+            "y": 46
+          }
+        }, 
+        {
+          "pic": {
+            "h": 91, 
+            "layer": 3, 
+            "name": "flute_4", 
+            "path": "throne.form/flute_4.png", 
+            "w": 14, 
+            "x": 291, 
+            "y": 296
+          }
+        }, 
+        {
+          "pic": {
+            "h": 92, 
+            "layer": 3, 
+            "name": "flute_5", 
+            "path": "throne.form/flute_5.png", 
+            "w": 12, 
+            "x": 718, 
+            "y": 558
+          }
+        }, 
+        {
+          "cover": {
+            "h": 67, 
+            "layer": 5, 
+            "name": "flute_6_cover", 
+            "path": "throne.form/flute_6_cover.png", 
+            "w": 12, 
+            "x": 535, 
+            "y": 380
+          }, 
+          "pic": {
+            "h": 88, 
+            "layer": 3, 
+            "name": "flute_6", 
+            "path": "throne.form/flute_6.png", 
+            "w": 12, 
+            "x": 537, 
+            "y": 356
+          }
+        }
+      ], 
+      "name": "笛", 
+      "path": "throne.sils/flute.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "map_1", 
+            "path": "throne.form/map_1.png", 
+            "w": 36, 
+            "x": 929, 
+            "y": 275
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "map_2", 
+            "path": "throne.form/map_2.png", 
+            "w": 31, 
+            "x": 652, 
+            "y": 308
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "map_3_cover", 
+            "path": "throne.form/map_3_cover.png", 
+            "w": 39, 
+            "x": 471, 
+            "y": 313
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "map_3", 
+            "path": "throne.form/map_3.png", 
+            "w": 41, 
+            "x": 470, 
+            "y": 314
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "map_4_cover", 
+            "path": "throne.form/map_4_cover.png", 
+            "w": 51, 
+            "x": 695, 
+            "y": 86
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "map_4", 
+            "path": "throne.form/map_4.png", 
+            "w": 47, 
+            "x": 697, 
+            "y": 85
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "map_5_cover", 
+            "path": "throne.form/map_5_cover.png", 
+            "w": 53, 
+            "x": 1126, 
+            "y": 15
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "map_5", 
+            "path": "throne.form/map_5.png", 
+            "w": 53, 
+            "x": 1127, 
+            "y": 14
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "map_6_cover", 
+            "path": "throne.form/map_6_cover.png", 
+            "w": 55, 
+            "x": 495, 
+            "y": 0
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "map_6", 
+            "path": "throne.form/map_6.png", 
+            "w": 52, 
+            "x": 496, 
+            "y": 0
+          }
+        }
+      ], 
+      "name": "ボロボロの地図", 
+      "path": "throne.sils/map.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 18, 
+            "layer": 3, 
+            "name": "scroll_1", 
+            "path": "throne.form/scroll_1.png", 
+            "w": 68, 
+            "x": 487, 
+            "y": 515
+          }
+        }, 
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "scroll_2", 
+            "path": "throne.form/scroll_2.png", 
+            "w": 16, 
+            "x": 313, 
+            "y": 224
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "scroll_3_cover", 
+            "path": "throne.form/scroll_3_cover.png", 
+            "w": 62, 
+            "x": 1190, 
+            "y": 463
+          }, 
+          "pic": {
+            "h": 16, 
+            "layer": 3, 
+            "name": "scroll_3", 
+            "path": "throne.form/scroll_3.png", 
+            "w": 61, 
+            "x": 1191, 
+            "y": 465
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "scroll_4_cover", 
+            "path": "throne.form/scroll_4_cover.png", 
+            "w": 8, 
+            "x": 696, 
+            "y": 380
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "scroll_4", 
+            "path": "throne.form/scroll_4.png", 
+            "w": 13, 
+            "x": 691, 
+            "y": 381
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "scroll_5_cover", 
+            "path": "throne.form/scroll_5_cover.png", 
+            "w": 15, 
+            "x": 1130, 
+            "y": 324
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "scroll_5", 
+            "path": "throne.form/scroll_5.png", 
+            "w": 16, 
+            "x": 1128, 
+            "y": 300
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "scroll_6_cover", 
+            "path": "throne.form/scroll_6_cover.png", 
+            "w": 20, 
+            "x": 316, 
+            "y": 402
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "scroll_6", 
+            "path": "throne.form/scroll_6.png", 
+            "w": 17, 
+            "x": 316, 
+            "y": 381
+          }
+        }
+      ], 
+      "name": "古代の巻物", 
+      "path": "throne.sils/scroll.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 79, 
+            "layer": 3, 
+            "name": "vase_1", 
+            "path": "throne.form/vase_1.png", 
+            "w": 65, 
+            "x": 513, 
+            "y": 562
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "vase_2", 
+            "path": "throne.form/vase_2.png", 
+            "w": 35, 
+            "x": 232, 
+            "y": 562
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "vase_3_cover", 
+            "path": "throne.form/vase_3_cover.png", 
+            "w": 24, 
+            "x": 674, 
+            "y": 535
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "vase_3", 
+            "path": "throne.form/vase_3.png", 
+            "w": 35, 
+            "x": 664, 
+            "y": 525
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "vase_4_cover", 
+            "path": "throne.form/vase_4_cover.png", 
+            "w": 28, 
+            "x": 462, 
+            "y": 471
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "vase_4", 
+            "path": "throne.form/vase_4.png", 
+            "w": 25, 
+            "x": 463, 
+            "y": 455
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "vase_5_cover", 
+            "path": "throne.form/vase_5_cover.png", 
+            "w": 21, 
+            "x": 752, 
+            "y": 455
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "vase_5", 
+            "path": "throne.form/vase_5.png", 
+            "w": 20, 
+            "x": 751, 
+            "y": 436
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "vase_6_cover", 
+            "path": "throne.form/vase_6_cover.png", 
+            "w": 21, 
+            "x": 687, 
+            "y": 595
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "vase_6", 
+            "path": "throne.form/vase_6.png", 
+            "w": 19, 
+            "x": 688, 
+            "y": 598
+          }
+        }
+      ], 
+      "name": "骨董の花瓶", 
+      "path": "throne.sils/vase.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "goblet_1", 
+            "path": "throne.form/goblet_1.png", 
+            "w": 42, 
+            "x": 480, 
+            "y": 476
+          }
+        }, 
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "goblet_2", 
+            "path": "throne.form/goblet_2.png", 
+            "w": 42, 
+            "x": 831, 
+            "y": 449
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "goblet_3_cover", 
+            "path": "throne.form/goblet_3_cover.png", 
+            "w": 33, 
+            "x": 241, 
+            "y": 21
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "goblet_3", 
+            "path": "throne.form/goblet_3.png", 
+            "w": 42, 
+            "x": 243, 
+            "y": 1
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "goblet_4_cover", 
+            "path": "throne.form/goblet_4_cover.png", 
+            "w": 30, 
+            "x": 347, 
+            "y": 423
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "goblet_4", 
+            "path": "throne.form/goblet_4.png", 
+            "w": 34, 
+            "x": 349, 
+            "y": 425
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "goblet_5_cover", 
+            "path": "throne.form/goblet_5_cover.png", 
+            "w": 25, 
+            "x": 276, 
+            "y": 395
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "goblet_5", 
+            "path": "throne.form/goblet_5.png", 
+            "w": 29, 
+            "x": 278, 
+            "y": 397
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "goblet_6_cover", 
+            "path": "throne.form/goblet_6_cover.png", 
+            "w": 28, 
+            "x": 875, 
+            "y": 523
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "goblet_6", 
+            "path": "throne.form/goblet_6.png", 
+            "w": 34, 
+            "x": 870, 
+            "y": 515
+          }
+        }
+      ], 
+      "name": "金の杯", 
+      "path": "throne.sils/goblet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "fan_1", 
+            "path": "throne.form/fan_1.png", 
+            "w": 59, 
+            "x": 590, 
+            "y": 159
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "fan_2", 
+            "path": "throne.form/fan_2.png", 
+            "w": 67, 
+            "x": 967, 
+            "y": 96
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "fan_3_cover", 
+            "path": "throne.form/fan_3_cover.png", 
+            "w": 57, 
+            "x": 419, 
+            "y": 122
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "fan_3", 
+            "path": "throne.form/fan_3.png", 
+            "w": 52, 
+            "x": 422, 
+            "y": 123
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 5, 
+            "name": "fan_4_cover", 
+            "path": "throne.form/fan_4_cover.png", 
+            "w": 11, 
+            "x": 250, 
+            "y": 249
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "fan_4", 
+            "path": "throne.form/fan_4.png", 
+            "w": 27, 
+            "x": 233, 
+            "y": 250
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "fan_5_cover", 
+            "path": "throne.form/fan_5_cover.png", 
+            "w": 40, 
+            "x": 497, 
+            "y": 217
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "fan_5", 
+            "path": "throne.form/fan_5.png", 
+            "w": 50, 
+            "x": 486, 
+            "y": 218
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "fan_6_cover", 
+            "path": "throne.form/fan_6_cover.png", 
+            "w": 25, 
+            "x": 937, 
+            "y": 413
+          }, 
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "fan_6", 
+            "path": "throne.form/fan_6.png", 
+            "w": 51, 
+            "x": 924, 
+            "y": 414
+          }
+        }
+      ], 
+      "name": "扇子", 
+      "path": "throne.sils/fan.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "rat_1", 
+            "path": "throne.form/rat_1.png", 
+            "w": 51, 
+            "x": 886, 
+            "y": 535
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "rat_2", 
+            "path": "throne.form/rat_2.png", 
+            "w": 49, 
+            "x": 632, 
+            "y": 605
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "rat_3_cover", 
+            "path": "throne.form/rat_3_cover.png", 
+            "w": 29, 
+            "x": 1151, 
+            "y": 339
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "rat_3", 
+            "path": "throne.form/rat_3.png", 
+            "w": 49, 
+            "x": 1150, 
+            "y": 339
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "rat_4_cover", 
+            "path": "throne.form/rat_4_cover.png", 
+            "w": 11, 
+            "x": 769, 
+            "y": 457
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "rat_4", 
+            "path": "throne.form/rat_4.png", 
+            "w": 39, 
+            "x": 766, 
+            "y": 458
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "rat_5_cover", 
+            "path": "throne.form/rat_5_cover.png", 
+            "w": 16, 
+            "x": 391, 
+            "y": 602
+          }, 
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "rat_5", 
+            "path": "throne.form/rat_5.png", 
+            "w": 35, 
+            "x": 391, 
+            "y": 603
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "rat_6_cover", 
+            "path": "throne.form/rat_6_cover.png", 
+            "w": 30, 
+            "x": 1094, 
+            "y": 617
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "rat_6", 
+            "path": "throne.form/rat_6.png", 
+            "w": 51, 
+            "x": 1074, 
+            "y": 614
+          }
+        }
+      ], 
+      "name": "ネズミ", 
+      "path": "throne.sils/rat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 79, 
+            "layer": 3, 
+            "name": "antlers_1", 
+            "path": "throne.form/antlers_1.png", 
+            "w": 82, 
+            "x": 963, 
+            "y": 13
+          }
+        }, 
+        {
+          "pic": {
+            "h": 91, 
+            "layer": 3, 
+            "name": "antlers_2", 
+            "path": "throne.form/antlers_2.png", 
+            "w": 94, 
+            "x": 1081, 
+            "y": 200
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 5, 
+            "name": "antlers_3_cover", 
+            "path": "throne.form/antlers_3_cover.png", 
+            "w": 38, 
+            "x": 641, 
+            "y": 31
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "antlers_3", 
+            "path": "throne.form/antlers_3.png", 
+            "w": 61, 
+            "x": 615, 
+            "y": 33
+          }
+        }, 
+        {
+          "cover": {
+            "h": 70, 
+            "layer": 5, 
+            "name": "antlers_4_cover", 
+            "path": "throne.form/antlers_4_cover.png", 
+            "w": 62, 
+            "x": 353, 
+            "y": 117
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "antlers_4", 
+            "path": "throne.form/antlers_4.png", 
+            "w": 67, 
+            "x": 357, 
+            "y": 120
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "antlers_5_cover", 
+            "path": "throne.form/antlers_5_cover.png", 
+            "w": 51, 
+            "x": 424, 
+            "y": 183
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "antlers_5", 
+            "path": "throne.form/antlers_5.png", 
+            "w": 49, 
+            "x": 426, 
+            "y": 184
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 5, 
+            "name": "antlers_6_cover", 
+            "path": "throne.form/antlers_6_cover.png", 
+            "w": 45, 
+            "x": 782, 
+            "y": 550
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "antlers_6", 
+            "path": "throne.form/antlers_6.png", 
+            "w": 65, 
+            "x": 784, 
+            "y": 551
+          }
+        }
+      ], 
+      "name": "シカの角", 
+      "path": "throne.sils/antlers.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "dragon_1", 
+            "path": "throne.form/dragon_1.png", 
+            "w": 47, 
+            "x": 597, 
+            "y": 330
+          }
+        }, 
+        {
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "dragon_2", 
+            "path": "throne.form/dragon_2.png", 
+            "w": 49, 
+            "x": 1037, 
+            "y": 225
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "dragon_3", 
+            "path": "throne.form/dragon_3.png", 
+            "w": 49, 
+            "x": 983, 
+            "y": 323
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "dragon_4_cover", 
+            "path": "throne.form/dragon_4_cover.png", 
+            "w": 26, 
+            "x": 697, 
+            "y": 38
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "dragon_4", 
+            "path": "throne.form/dragon_4.png", 
+            "w": 33, 
+            "x": 700, 
+            "y": 39
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "dragon_5_cover", 
+            "path": "throne.form/dragon_5_cover.png", 
+            "w": 26, 
+            "x": 512, 
+            "y": 145
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "dragon_5", 
+            "path": "throne.form/dragon_5.png", 
+            "w": 33, 
+            "x": 514, 
+            "y": 149
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 5, 
+            "name": "dragon_6_cover", 
+            "path": "throne.form/dragon_6_cover.png", 
+            "w": 43, 
+            "x": 1196, 
+            "y": 147
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "dragon_6", 
+            "path": "throne.form/dragon_6.png", 
+            "w": 49, 
+            "x": 1187, 
+            "y": 149
+          }
+        }
+      ], 
+      "name": "ドラゴン", 
+      "path": "throne.sils/dragon.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 101, 
+            "layer": 3, 
+            "name": "bow_1", 
+            "path": "throne.form/bow_1.png", 
+            "w": 21, 
+            "x": 736, 
+            "y": 215
+          }
+        }, 
+        {
+          "pic": {
+            "h": 91, 
+            "layer": 3, 
+            "name": "bow_2", 
+            "path": "throne.form/bow_2.png", 
+            "w": 56, 
+            "x": 910, 
+            "y": 145
+          }
+        }, 
+        {
+          "cover": {
+            "h": 103, 
+            "layer": 5, 
+            "name": "bow_3_cover", 
+            "path": "throne.form/bow_3_cover.png", 
+            "w": 13, 
+            "x": 596, 
+            "y": 225
+          }, 
+          "pic": {
+            "h": 98, 
+            "layer": 3, 
+            "name": "bow_3", 
+            "path": "throne.form/bow_3.png", 
+            "w": 17, 
+            "x": 590, 
+            "y": 228
+          }
+        }, 
+        {
+          "cover": {
+            "h": 106, 
+            "layer": 5, 
+            "name": "bow_4_cover", 
+            "path": "throne.form/bow_4_cover.png", 
+            "w": 13, 
+            "x": 716, 
+            "y": 322
+          }, 
+          "pic": {
+            "h": 101, 
+            "layer": 3, 
+            "name": "bow_4", 
+            "path": "throne.form/bow_4.png", 
+            "w": 17, 
+            "x": 720, 
+            "y": 325
+          }
+        }, 
+        {
+          "cover": {
+            "h": 104, 
+            "layer": 5, 
+            "name": "bow_5_cover", 
+            "path": "throne.form/bow_5_cover.png", 
+            "w": 13, 
+            "x": 1026, 
+            "y": 250
+          }, 
+          "pic": {
+            "h": 100, 
+            "layer": 3, 
+            "name": "bow_5", 
+            "path": "throne.form/bow_5.png", 
+            "w": 17, 
+            "x": 1029, 
+            "y": 251
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "bow_6_cover", 
+            "path": "throne.form/bow_6_cover.png", 
+            "w": 66, 
+            "x": 971, 
+            "y": 166
+          }, 
+          "pic": {
+            "h": 18, 
+            "layer": 3, 
+            "name": "bow_6", 
+            "path": "throne.form/bow_6.png", 
+            "w": 103, 
+            "x": 956, 
+            "y": 167
+          }
+        }
+      ], 
+      "name": "弓", 
+      "path": "throne.sils/bow.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 72, 
+            "layer": 3, 
+            "name": "feather_1", 
+            "path": "throne.form/feather_1.png", 
+            "w": 15, 
+            "x": 345, 
+            "y": 251
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "feather_2", 
+            "path": "throne.form/feather_2.png", 
+            "w": 63, 
+            "x": 254, 
+            "y": 77
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 5, 
+            "name": "feather_3_cover", 
+            "path": "throne.form/feather_3_cover.png", 
+            "w": 17, 
+            "x": 913, 
+            "y": 54
+          }, 
+          "pic": {
+            "h": 75, 
+            "layer": 3, 
+            "name": "feather_3", 
+            "path": "throne.form/feather_3.png", 
+            "w": 14, 
+            "x": 915, 
+            "y": 42
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 5, 
+            "name": "feather_4_cover", 
+            "path": "throne.form/feather_4_cover.png", 
+            "w": 38, 
+            "x": 929, 
+            "y": 599
+          }, 
+          "pic": {
+            "h": 15, 
+            "layer": 3, 
+            "name": "feather_4", 
+            "path": "throne.form/feather_4.png", 
+            "w": 58, 
+            "x": 910, 
+            "y": 600
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "feather_5_cover", 
+            "path": "throne.form/feather_5_cover.png", 
+            "w": 57, 
+            "x": 1193, 
+            "y": 612
+          }, 
+          "pic": {
+            "h": 13, 
+            "layer": 3, 
+            "name": "feather_5", 
+            "path": "throne.form/feather_5.png", 
+            "w": 58, 
+            "x": 1192, 
+            "y": 615
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "feather_6_cover", 
+            "path": "throne.form/feather_6_cover.png", 
+            "w": 14, 
+            "x": 853, 
+            "y": 432
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "feather_6", 
+            "path": "throne.form/feather_6.png", 
+            "w": 21, 
+            "x": 855, 
+            "y": 397
+          }
+        }
+      ], 
+      "name": "羽根", 
+      "path": "throne.sils/feather.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "joker_hat_1", 
+            "path": "throne.form/joker_hat_1.png", 
+            "w": 48, 
+            "x": 270, 
+            "y": 541
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "joker_hat_2", 
+            "path": "throne.form/joker_hat_2.png", 
+            "w": 47, 
+            "x": 324, 
+            "y": 335
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "joker_hat_3_cover", 
+            "path": "throne.form/joker_hat_3_cover.png", 
+            "w": 27, 
+            "x": 336, 
+            "y": 37
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "joker_hat_3", 
+            "path": "throne.form/joker_hat_3.png", 
+            "w": 47, 
+            "x": 328, 
+            "y": 12
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "joker_hat_4_cover", 
+            "path": "throne.form/joker_hat_4_cover.png", 
+            "w": 31, 
+            "x": 1184, 
+            "y": 390
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "joker_hat_4", 
+            "path": "throne.form/joker_hat_4.png", 
+            "w": 37, 
+            "x": 1176, 
+            "y": 376
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "joker_hat_5_cover", 
+            "path": "throne.form/joker_hat_5_cover.png", 
+            "w": 47, 
+            "x": 1108, 
+            "y": 551
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "joker_hat_5", 
+            "path": "throne.form/joker_hat_5.png", 
+            "w": 47, 
+            "x": 1109, 
+            "y": 555
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "joker_hat_6_cover", 
+            "path": "throne.form/joker_hat_6_cover.png", 
+            "w": 51, 
+            "x": 997, 
+            "y": 493
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "joker_hat_6", 
+            "path": "throne.form/joker_hat_6.png", 
+            "w": 47, 
+            "x": 999, 
+            "y": 496
+          }
+        }
+      ], 
+      "name": "道化師の帽子", 
+      "path": "throne.sils/joker_hat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "cherub_1", 
+            "path": "throne.form/cherub_1.png", 
+            "w": 47, 
+            "x": 470, 
+            "y": 551
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "cherub_2", 
+            "path": "throne.form/cherub_2.png", 
+            "w": 47, 
+            "x": 618, 
+            "y": 547
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "cherub_3_cover", 
+            "path": "throne.form/cherub_3_cover.png", 
+            "w": 39, 
+            "x": 565, 
+            "y": 489
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "cherub_3", 
+            "path": "throne.form/cherub_3.png", 
+            "w": 43, 
+            "x": 567, 
+            "y": 462
+          }
+        }, 
+        {
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "cherub_4", 
+            "path": "throne.form/cherub_4.png", 
+            "w": 43, 
+            "x": 338, 
+            "y": 524
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "cherub_5_cover", 
+            "path": "throne.form/cherub_5_cover.png", 
+            "w": 39, 
+            "x": 368, 
+            "y": 82
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "cherub_5", 
+            "path": "throne.form/cherub_5.png", 
+            "w": 43, 
+            "x": 371, 
+            "y": 45
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "cherub_6_cover", 
+            "path": "throne.form/cherub_6_cover.png", 
+            "w": 38, 
+            "x": 247, 
+            "y": 209
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "cherub_6", 
+            "path": "throne.form/cherub_6.png", 
+            "w": 43, 
+            "x": 249, 
+            "y": 187
+          }
+        }
+      ], 
+      "name": "天使の置物", 
+      "path": "throne.sils/cherub.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "torch_1", 
+            "path": "throne.form/torch_1.png", 
+            "w": 21, 
+            "x": 839, 
+            "y": 327
+          }
+        }, 
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "torch_2", 
+            "path": "throne.form/torch_2.png", 
+            "w": 26, 
+            "x": 544, 
+            "y": 297
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "torch_3_cover", 
+            "path": "throne.form/torch_3_cover.png", 
+            "w": 25, 
+            "x": 1171, 
+            "y": 577
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "torch_3", 
+            "path": "throne.form/torch_3.png", 
+            "w": 25, 
+            "x": 1170, 
+            "y": 578
+          }
+        }, 
+        {
+          "cover": {
+            "h": 67, 
+            "layer": 5, 
+            "name": "torch_4_cover", 
+            "path": "throne.form/torch_4_cover.png", 
+            "w": 14, 
+            "x": 531, 
+            "y": 191
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "torch_4", 
+            "path": "throne.form/torch_4.png", 
+            "w": 24, 
+            "x": 533, 
+            "y": 192
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "torch_5_cover", 
+            "path": "throne.form/torch_5_cover.png", 
+            "w": 19, 
+            "x": 386, 
+            "y": 236
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "torch_5", 
+            "path": "throne.form/torch_5.png", 
+            "w": 24, 
+            "x": 388, 
+            "y": 237
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "torch_6_cover", 
+            "path": "throne.form/torch_6_cover.png", 
+            "w": 20, 
+            "x": 229, 
+            "y": 322
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "torch_6", 
+            "path": "throne.form/torch_6.png", 
+            "w": 22, 
+            "x": 228, 
+            "y": 301
+          }
+        }
+      ], 
+      "name": "たいまつ", 
+      "path": "throne.sils/torch.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 18, 
+            "layer": 3, 
+            "name": "key_1", 
+            "path": "throne.form/key_1.png", 
+            "w": 40, 
+            "x": 864, 
+            "y": 484
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "key_2", 
+            "path": "throne.form/key_2.png", 
+            "w": 53, 
+            "x": 739, 
+            "y": 528
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "key_3_cover", 
+            "path": "throne.form/key_3_cover.png", 
+            "w": 7, 
+            "x": 1131, 
+            "y": 412
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "key_3", 
+            "path": "throne.form/key_3.png", 
+            "w": 21, 
+            "x": 1120, 
+            "y": 415
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "key_4_cover", 
+            "path": "throne.form/key_4_cover.png", 
+            "w": 22, 
+            "x": 1165, 
+            "y": 417
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "key_4", 
+            "path": "throne.form/key_4.png", 
+            "w": 18, 
+            "x": 1167, 
+            "y": 417
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "key_5_cover", 
+            "path": "throne.form/key_5_cover.png", 
+            "w": 15, 
+            "x": 450, 
+            "y": 76
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "key_5", 
+            "path": "throne.form/key_5.png", 
+            "w": 19, 
+            "x": 449, 
+            "y": 51
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "key_6_cover", 
+            "path": "throne.form/key_6_cover.png", 
+            "w": 18, 
+            "x": 694, 
+            "y": 489
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "key_6", 
+            "path": "throne.form/key_6.png", 
+            "w": 19, 
+            "x": 695, 
+            "y": 491
+          }
+        }
+      ], 
+      "name": "鍵", 
+      "path": "throne.sils/key.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "tray_1", 
+            "path": "throne.form/tray_1.png", 
+            "w": 27, 
+            "x": 480, 
+            "y": 265
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "tray_2", 
+            "path": "throne.form/tray_2.png", 
+            "w": 34, 
+            "x": 565, 
+            "y": 86
+          }
+        }, 
+        {
+          "cover": {
+            "h": 70, 
+            "layer": 5, 
+            "name": "tray_3_cover", 
+            "path": "throne.form/tray_3_cover.png", 
+            "w": 49, 
+            "x": 1197, 
+            "y": 542
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "tray_3", 
+            "path": "throne.form/tray_3.png", 
+            "w": 45, 
+            "x": 1199, 
+            "y": 544
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "tray_4_cover", 
+            "path": "throne.form/tray_4_cover.png", 
+            "w": 29, 
+            "x": 886, 
+            "y": 6
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "tray_4", 
+            "path": "throne.form/tray_4.png", 
+            "w": 46, 
+            "x": 888, 
+            "y": 6
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "tray_5_cover", 
+            "path": "throne.form/tray_5_cover.png", 
+            "w": 37, 
+            "x": 657, 
+            "y": 93
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "tray_5", 
+            "path": "throne.form/tray_5.png", 
+            "w": 46, 
+            "x": 646, 
+            "y": 94
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 5, 
+            "name": "tray_6_cover", 
+            "path": "throne.form/tray_6_cover.png", 
+            "w": 34, 
+            "x": 275, 
+            "y": 432
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "tray_6", 
+            "path": "throne.form/tray_6.png", 
+            "w": 36, 
+            "x": 277, 
+            "y": 433
+          }
+        }
+      ], 
+      "name": "盆", 
+      "path": "throne.sils/tray.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "egg_1", 
+            "path": "throne.form/egg_1.png", 
+            "w": 28, 
+            "x": 657, 
+            "y": 486
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "egg_2", 
+            "path": "throne.form/egg_2.png", 
+            "w": 50, 
+            "x": 913, 
+            "y": 615
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "egg_3_cover", 
+            "path": "throne.form/egg_3_cover.png", 
+            "w": 32, 
+            "x": 731, 
+            "y": 573
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "egg_3", 
+            "path": "throne.form/egg_3.png", 
+            "w": 31, 
+            "x": 732, 
+            "y": 567
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "egg_4_cover", 
+            "path": "throne.form/egg_4_cover.png", 
+            "w": 27, 
+            "x": 349, 
+            "y": 213
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "egg_4", 
+            "path": "throne.form/egg_4.png", 
+            "w": 25, 
+            "x": 351, 
+            "y": 214
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "egg_5_cover", 
+            "path": "throne.form/egg_5_cover.png", 
+            "w": 28, 
+            "x": 925, 
+            "y": 443
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "egg_5", 
+            "path": "throne.form/egg_5.png", 
+            "w": 28, 
+            "x": 924, 
+            "y": 443
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "egg_6_cover", 
+            "path": "throne.form/egg_6_cover.png", 
+            "w": 22, 
+            "x": 980, 
+            "y": 543
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "egg_6", 
+            "path": "throne.form/egg_6.png", 
+            "w": 34, 
+            "x": 974, 
+            "y": 545
+          }
+        }
+      ], 
+      "name": "卵", 
+      "path": "throne.sils/egg.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "helmet_1_1", 
+            "path": "throne.morph/helmet_1_1.png", 
+            "w": 22, 
+            "x": 541, 
+            "y": 367
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "helmet_1_2", 
+            "path": "throne.morph/helmet_1_2.png", 
+            "w": 27, 
+            "x": 540, 
+            "y": 365
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "helmet_2_1", 
+            "path": "throne.morph/helmet_2_1.png", 
+            "w": 61, 
+            "x": 586, 
+            "y": 591
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "helmet_2_2", 
+            "path": "throne.morph/helmet_2_2.png", 
+            "w": 59, 
+            "x": 588, 
+            "y": 587
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "helmet_3_1_cover", 
+            "path": "throne.morph/helmet_3_1_cover.png", 
+            "w": 36, 
+            "x": 343, 
+            "y": 479
+          }, 
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "helmet_3_1", 
+            "path": "throne.morph/helmet_3_1.png", 
+            "w": 49, 
+            "x": 345, 
+            "y": 483
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "helmet_3_2", 
+            "path": "throne.morph/helmet_3_2.png", 
+            "w": 48, 
+            "x": 346, 
+            "y": 479
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "helmet_4_1_cover", 
+            "path": "throne.morph/helmet_4_1_cover.png", 
+            "w": 32, 
+            "x": 458, 
+            "y": 472
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "helmet_4_1", 
+            "path": "throne.morph/helmet_4_1.png", 
+            "w": 24, 
+            "x": 460, 
+            "y": 463
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "helmet_4_2", 
+            "path": "throne.morph/helmet_4_2.png", 
+            "w": 29, 
+            "x": 459, 
+            "y": 464
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "helmet_5_1_cover", 
+            "path": "throne.morph/helmet_5_1_cover.png", 
+            "w": 43, 
+            "x": 1203, 
+            "y": 589
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "helmet_5_1", 
+            "path": "throne.morph/helmet_5_1.png", 
+            "w": 34, 
+            "x": 1207, 
+            "y": 590
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "helmet_5_2", 
+            "path": "throne.morph/helmet_5_2.png", 
+            "w": 39, 
+            "x": 1206, 
+            "y": 592
+          }
+        }
+      ], 
+      "name": "helmet"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "bottle_1_1", 
+            "path": "throne.morph/bottle_1_1.png", 
+            "w": 20, 
+            "x": 710, 
+            "y": 412
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "bottle_1_2", 
+            "path": "throne.morph/bottle_1_2.png", 
+            "w": 23, 
+            "x": 709, 
+            "y": 436
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "bottle_2_1", 
+            "path": "throne.morph/bottle_2_1.png", 
+            "w": 21, 
+            "x": 1063, 
+            "y": 439
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bottle_2_2", 
+            "path": "throne.morph/bottle_2_2.png", 
+            "w": 23, 
+            "x": 1063, 
+            "y": 463
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "bottle_3_1_cover", 
+            "path": "throne.morph/bottle_3_1_cover.png", 
+            "w": 26, 
+            "x": 895, 
+            "y": 443
+          }, 
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "bottle_3_1", 
+            "path": "throne.morph/bottle_3_1.png", 
+            "w": 20, 
+            "x": 897, 
+            "y": 405
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "bottle_3_2", 
+            "path": "throne.morph/bottle_3_2.png", 
+            "w": 24, 
+            "x": 896, 
+            "y": 429
+          }
+        }, 
+        {
+          "cover": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "bottle_4_1_cover", 
+            "path": "throne.morph/bottle_4_1_cover.png", 
+            "w": 30, 
+            "x": 1163, 
+            "y": 416
+          }, 
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "bottle_4_1", 
+            "path": "throne.morph/bottle_4_1.png", 
+            "w": 21, 
+            "x": 1165, 
+            "y": 417
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "bottle_4_2", 
+            "path": "throne.morph/bottle_4_2.png", 
+            "w": 23, 
+            "x": 1165, 
+            "y": 441
+          }
+        }, 
+        {
+          "cover": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "bottle_5_1_cover", 
+            "path": "throne.morph/bottle_5_1_cover.png", 
+            "w": 24, 
+            "x": 952, 
+            "y": 395
+          }, 
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "bottle_5_1", 
+            "path": "throne.morph/bottle_5_1.png", 
+            "w": 21, 
+            "x": 953, 
+            "y": 398
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bottle_5_2", 
+            "path": "throne.morph/bottle_5_2.png", 
+            "w": 23, 
+            "x": 953, 
+            "y": 422
+          }
+        }
+      ], 
+      "name": "bottle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "food_1_1", 
+            "path": "throne.morph/food_1_1.png", 
+            "w": 87, 
+            "x": 703, 
+            "y": 515
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "food_1_2", 
+            "path": "throne.morph/food_1_2.png", 
+            "w": 89, 
+            "x": 702, 
+            "y": 515
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "food_2_1_cover", 
+            "path": "throne.morph/food_2_1_cover.png", 
+            "w": 72, 
+            "x": 800, 
+            "y": 464
+          }, 
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "food_2_1", 
+            "path": "throne.morph/food_2_1.png", 
+            "w": 67, 
+            "x": 802, 
+            "y": 450
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "food_2_2", 
+            "path": "throne.morph/food_2_2.png", 
+            "w": 69, 
+            "x": 801, 
+            "y": 450
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "food_3_1_cover", 
+            "path": "throne.morph/food_3_1_cover.png", 
+            "w": 72, 
+            "x": 1082, 
+            "y": 457
+          }, 
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "food_3_1", 
+            "path": "throne.morph/food_3_1.png", 
+            "w": 68, 
+            "x": 1084, 
+            "y": 456
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "food_3_2", 
+            "path": "throne.morph/food_3_2.png", 
+            "w": 70, 
+            "x": 1083, 
+            "y": 456
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "food_4_1_cover", 
+            "path": "throne.morph/food_4_1_cover.png", 
+            "w": 52, 
+            "x": 705, 
+            "y": 566
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "food_4_1", 
+            "path": "throne.morph/food_4_1.png", 
+            "w": 70, 
+            "x": 687, 
+            "y": 566
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "food_4_2", 
+            "path": "throne.morph/food_4_2.png", 
+            "w": 69, 
+            "x": 686, 
+            "y": 566
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "food_5_1_cover", 
+            "path": "throne.morph/food_5_1_cover.png", 
+            "w": 41, 
+            "x": 986, 
+            "y": 570
+          }, 
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "food_5_1", 
+            "path": "throne.morph/food_5_1.png", 
+            "w": 68, 
+            "x": 987, 
+            "y": 571
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "food_5_2", 
+            "path": "throne.morph/food_5_2.png", 
+            "w": 69, 
+            "x": 987, 
+            "y": 570
+          }
+        }
+      ], 
+      "name": "food"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "psaltery_1_1", 
+            "path": "throne.morph/psaltery_1_1.png", 
+            "w": 50, 
+            "x": 256, 
+            "y": 539
+          }, 
+          "pic2": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "psaltery_1_2", 
+            "path": "throne.morph/psaltery_1_2.png", 
+            "w": 52, 
+            "x": 250, 
+            "y": 536
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "psaltery_2_1", 
+            "path": "throne.morph/psaltery_2_1.png", 
+            "w": 32, 
+            "x": 653, 
+            "y": 306
+          }, 
+          "pic2": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "psaltery_2_2", 
+            "path": "throne.morph/psaltery_2_2.png", 
+            "w": 34, 
+            "x": 650, 
+            "y": 299
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "psaltery_3_1_cover", 
+            "path": "throne.morph/psaltery_3_1_cover.png", 
+            "w": 71, 
+            "x": 235, 
+            "y": 20
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "psaltery_3_1", 
+            "path": "throne.morph/psaltery_3_1.png", 
+            "w": 67, 
+            "x": 237, 
+            "y": 11
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "psaltery_3_2", 
+            "path": "throne.morph/psaltery_3_2.png", 
+            "w": 65, 
+            "x": 247, 
+            "y": 0
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "psaltery_4_1_cover", 
+            "path": "throne.morph/psaltery_4_1_cover.png", 
+            "w": 76, 
+            "x": 254, 
+            "y": 208
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "psaltery_4_1", 
+            "path": "throne.morph/psaltery_4_1.png", 
+            "w": 70, 
+            "x": 260, 
+            "y": 208
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "psaltery_4_2", 
+            "path": "throne.morph/psaltery_4_2.png", 
+            "w": 69, 
+            "x": 255, 
+            "y": 203
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "psaltery_5_1_cover", 
+            "path": "throne.morph/psaltery_5_1_cover.png", 
+            "w": 45, 
+            "x": 383, 
+            "y": 14
+          }, 
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "psaltery_5_1", 
+            "path": "throne.morph/psaltery_5_1.png", 
+            "w": 32, 
+            "x": 393, 
+            "y": 3
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "psaltery_5_2", 
+            "path": "throne.morph/psaltery_5_2.png", 
+            "w": 42, 
+            "x": 385, 
+            "y": 9
+          }
+        }
+      ], 
+      "name": "psaltery"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "wolf_1_1", 
+            "path": "throne.morph/wolf_1_1.png", 
+            "w": 64, 
+            "x": 395, 
+            "y": 461
+          }, 
+          "pic2": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "wolf_1_2", 
+            "path": "throne.morph/wolf_1_2.png", 
+            "w": 50, 
+            "x": 406, 
+            "y": 448
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "wolf_2_1", 
+            "path": "throne.morph/wolf_2_1.png", 
+            "w": 65, 
+            "x": 494, 
+            "y": 551
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "wolf_2_2", 
+            "path": "throne.morph/wolf_2_2.png", 
+            "w": 46, 
+            "x": 508, 
+            "y": 539
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "wolf_3_1_cover", 
+            "path": "throne.morph/wolf_3_1_cover.png", 
+            "w": 47, 
+            "x": 973, 
+            "y": 443
+          }, 
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "wolf_3_1", 
+            "path": "throne.morph/wolf_3_1.png", 
+            "w": 64, 
+            "x": 974, 
+            "y": 430
+          }, 
+          "pic2": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "wolf_3_2", 
+            "path": "throne.morph/wolf_3_2.png", 
+            "w": 50, 
+            "x": 986, 
+            "y": 417
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "wolf_4_1_cover", 
+            "path": "throne.morph/wolf_4_1_cover.png", 
+            "w": 57, 
+            "x": 311, 
+            "y": 567
+          }, 
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "wolf_4_1", 
+            "path": "throne.morph/wolf_4_1.png", 
+            "w": 62, 
+            "x": 306, 
+            "y": 583
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "wolf_4_2", 
+            "path": "throne.morph/wolf_4_2.png", 
+            "w": 50, 
+            "x": 305, 
+            "y": 570
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "wolf_5_1_cover", 
+            "path": "throne.morph/wolf_5_1_cover.png", 
+            "w": 66, 
+            "x": 758, 
+            "y": 185
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "wolf_5_1", 
+            "path": "throne.morph/wolf_5_1.png", 
+            "w": 59, 
+            "x": 763, 
+            "y": 161
+          }, 
+          "pic2": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "wolf_5_2", 
+            "path": "throne.morph/wolf_5_2.png", 
+            "w": 35, 
+            "x": 774, 
+            "y": 150
+          }
+        }
+      ], 
+      "name": "wolf"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "crown_1_1", 
+            "path": "throne.morph/crown_1_1.png", 
+            "w": 54, 
+            "x": 905, 
+            "y": 523
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "crown_1_2", 
+            "path": "throne.morph/crown_1_2.png", 
+            "w": 57, 
+            "x": 903, 
+            "y": 507
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "crown_2_1", 
+            "path": "throne.morph/crown_2_1.png", 
+            "w": 47, 
+            "x": 383, 
+            "y": 394
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "crown_2_2", 
+            "path": "throne.morph/crown_2_2.png", 
+            "w": 55, 
+            "x": 383, 
+            "y": 397
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "crown_3_1_cover", 
+            "path": "throne.morph/crown_3_1_cover.png", 
+            "w": 54, 
+            "x": 285, 
+            "y": 378
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "crown_3_1", 
+            "path": "throne.morph/crown_3_1.png", 
+            "w": 48, 
+            "x": 289, 
+            "y": 377
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "crown_3_2", 
+            "path": "throne.morph/crown_3_2.png", 
+            "w": 52, 
+            "x": 287, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "crown_4_1_cover", 
+            "path": "throne.morph/crown_4_1_cover.png", 
+            "w": 47, 
+            "x": 495, 
+            "y": 150
+          }, 
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "crown_4_1", 
+            "path": "throne.morph/crown_4_1.png", 
+            "w": 50, 
+            "x": 496, 
+            "y": 152
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "crown_4_2", 
+            "path": "throne.morph/crown_4_2.png", 
+            "w": 54, 
+            "x": 497, 
+            "y": 157
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "crown_5_1_cover", 
+            "path": "throne.morph/crown_5_1_cover.png", 
+            "w": 42, 
+            "x": 632, 
+            "y": 42
+          }, 
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "crown_5_1", 
+            "path": "throne.morph/crown_5_1.png", 
+            "w": 51, 
+            "x": 621, 
+            "y": 43
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "crown_5_2", 
+            "path": "throne.morph/crown_5_2.png", 
+            "w": 63, 
+            "x": 610, 
+            "y": 45
+          }
+        }
+      ], 
+      "name": "crown"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "picture_1_1", 
+            "path": "throne.morph/picture_1_1.png", 
+            "w": 55, 
+            "x": 769, 
+            "y": 259
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "picture_1_2", 
+            "path": "throne.morph/picture_1_2.png", 
+            "w": 55, 
+            "x": 769, 
+            "y": 260
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "picture_2_1", 
+            "path": "throne.morph/picture_2_1.png", 
+            "w": 52, 
+            "x": 1042, 
+            "y": 313
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "picture_2_2", 
+            "path": "throne.morph/picture_2_2.png", 
+            "w": 53, 
+            "x": 1041, 
+            "y": 315
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "picture_3_1_cover", 
+            "path": "throne.morph/picture_3_1_cover.png", 
+            "w": 54, 
+            "x": 907, 
+            "y": 585
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "picture_3_1", 
+            "path": "throne.morph/picture_3_1.png", 
+            "w": 56, 
+            "x": 904, 
+            "y": 587
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "picture_3_2", 
+            "path": "throne.morph/picture_3_2.png", 
+            "w": 53, 
+            "x": 906, 
+            "y": 589
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "picture_4_5_cover", 
+            "path": "throne.morph/picture_4_5_cover.png", 
+            "w": 59, 
+            "x": 1102, 
+            "y": 548
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "picture_4_1", 
+            "path": "throne.morph/picture_4_1.png", 
+            "w": 57, 
+            "x": 1105, 
+            "y": 550
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "picture_4_2", 
+            "path": "throne.morph/picture_4_2.png", 
+            "w": 54, 
+            "x": 1107, 
+            "y": 552
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "picture_5_1_cover", 
+            "path": "throne.morph/picture_5_1_cover.png", 
+            "w": 46, 
+            "x": 270, 
+            "y": 147
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "picture_5_1", 
+            "path": "throne.morph/picture_5_1.png", 
+            "w": 45, 
+            "x": 269, 
+            "y": 148
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "picture_5_2", 
+            "path": "throne.morph/picture_5_2.png", 
+            "w": 44, 
+            "x": 269, 
+            "y": 150
+          }
+        }
+      ], 
+      "name": "picture"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "chest_1_1", 
+            "path": "throne.morph/chest_1_1.png", 
+            "w": 52, 
+            "x": 473, 
+            "y": 503
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "chest_1_2", 
+            "path": "throne.morph/chest_1_2.png", 
+            "w": 45, 
+            "x": 480, 
+            "y": 506
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "chest_2_1_cover", 
+            "path": "throne.morph/chest_2_1_cover.png", 
+            "w": 24, 
+            "x": 308, 
+            "y": 479
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "chest_2_1", 
+            "path": "throne.morph/chest_2_1.png", 
+            "w": 51, 
+            "x": 279, 
+            "y": 482
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "chest_2_2", 
+            "path": "throne.morph/chest_2_2.png", 
+            "w": 52, 
+            "x": 277, 
+            "y": 484
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "chest_3_1_cover", 
+            "path": "throne.morph/chest_3_1_cover.png", 
+            "w": 26, 
+            "x": 635, 
+            "y": 495
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "chest_3_1", 
+            "path": "throne.morph/chest_3_1.png", 
+            "w": 41, 
+            "x": 636, 
+            "y": 493
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "chest_3_2", 
+            "path": "throne.morph/chest_3_2.png", 
+            "w": 41, 
+            "x": 636, 
+            "y": 495
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "chest_4_1_cover", 
+            "path": "throne.morph/chest_4_1_cover.png", 
+            "w": 48, 
+            "x": 485, 
+            "y": 465
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "chest_4_1", 
+            "path": "throne.morph/chest_4_1.png", 
+            "w": 43, 
+            "x": 486, 
+            "y": 466
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "chest_4_2", 
+            "path": "throne.morph/chest_4_2.png", 
+            "w": 44, 
+            "x": 486, 
+            "y": 468
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "chest_5_1_cover", 
+            "path": "throne.morph/chest_5_1_cover.png", 
+            "w": 45, 
+            "x": 736, 
+            "y": 445
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "chest_5_1", 
+            "path": "throne.morph/chest_5_1.png", 
+            "w": 42, 
+            "x": 738, 
+            "y": 445
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "chest_5_2", 
+            "path": "throne.morph/chest_5_2.png", 
+            "w": 41, 
+            "x": 738, 
+            "y": 447
+          }
+        }
+      ], 
+      "name": "chest"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "mask_1_1", 
+            "path": "throne.morph/mask_1_1.png", 
+            "w": 36, 
+            "x": 331, 
+            "y": 319
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "mask_1_2", 
+            "path": "throne.morph/mask_1_2.png", 
+            "w": 35, 
+            "x": 331, 
+            "y": 319
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "mask_2_1", 
+            "path": "throne.morph/mask_2_1.png", 
+            "w": 29, 
+            "x": 984, 
+            "y": 130
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "mask_2_2", 
+            "path": "throne.morph/mask_2_2.png", 
+            "w": 27, 
+            "x": 985, 
+            "y": 130
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "mask_3_1_cover", 
+            "path": "throne.morph/mask_3_1_cover.png", 
+            "w": 39, 
+            "x": 251, 
+            "y": 238
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "mask_3_1", 
+            "path": "throne.morph/mask_3_1.png", 
+            "w": 35, 
+            "x": 254, 
+            "y": 239
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "mask_3_2", 
+            "path": "throne.morph/mask_3_2.png", 
+            "w": 34, 
+            "x": 254, 
+            "y": 239
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "mask_4_1_cover", 
+            "path": "throne.morph/mask_4_1_cover.png", 
+            "w": 38, 
+            "x": 352, 
+            "y": 130
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "mask_4_1", 
+            "path": "throne.morph/mask_4_1.png", 
+            "w": 34, 
+            "x": 355, 
+            "y": 132
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "mask_4_2", 
+            "path": "throne.morph/mask_4_2.png", 
+            "w": 33, 
+            "x": 355, 
+            "y": 132
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "mask_5_1_cover", 
+            "path": "throne.morph/mask_5_1_cover.png", 
+            "w": 20, 
+            "x": 897, 
+            "y": 3
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "mask_5_1", 
+            "path": "throne.morph/mask_5_1.png", 
+            "w": 38, 
+            "x": 898, 
+            "y": 5
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "mask_5_2", 
+            "path": "throne.morph/mask_5_2.png", 
+            "w": 35, 
+            "x": 900, 
+            "y": 5
+          }
+        }
+      ], 
+      "name": "mask"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "coin_1_1", 
+            "path": "throne.morph/coin_1_1.png", 
+            "w": 33, 
+            "x": 441, 
+            "y": 570
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "coin_1_2", 
+            "path": "throne.morph/coin_1_2.png", 
+            "w": 32, 
+            "x": 442, 
+            "y": 570
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "coin_2_1", 
+            "path": "throne.morph/coin_2_1.png", 
+            "w": 32, 
+            "x": 924, 
+            "y": 371
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "coin_2_2", 
+            "path": "throne.morph/coin_2_2.png", 
+            "w": 28, 
+            "x": 927, 
+            "y": 371
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "coin_3_1_cover", 
+            "path": "throne.morph/coin_3_1_cover.png", 
+            "w": 37, 
+            "x": 353, 
+            "y": 61
+          }, 
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "coin_3_1", 
+            "path": "throne.morph/coin_3_1.png", 
+            "w": 32, 
+            "x": 356, 
+            "y": 62
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "coin_3_2", 
+            "path": "throne.morph/coin_3_2.png", 
+            "w": 31, 
+            "x": 359, 
+            "y": 62
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "coin_4_1_cover", 
+            "path": "throne.morph/coin_4_1_cover.png", 
+            "w": 34, 
+            "x": 1098, 
+            "y": 606
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "coin_4_1", 
+            "path": "throne.morph/coin_4_1.png", 
+            "w": 31, 
+            "x": 1098, 
+            "y": 608
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "coin_4_2", 
+            "path": "throne.morph/coin_4_2.png", 
+            "w": 27, 
+            "x": 1099, 
+            "y": 608
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "coin_5_1_cover", 
+            "path": "throne.morph/coin_5_1_cover.png", 
+            "w": 35, 
+            "x": 546, 
+            "y": 489
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "coin_5_1", 
+            "path": "throne.morph/coin_5_1.png", 
+            "w": 32, 
+            "x": 548, 
+            "y": 478
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "coin_5_2", 
+            "path": "throne.morph/coin_5_2.png", 
+            "w": 28, 
+            "x": 551, 
+            "y": 478
+          }
+        }
+      ], 
+      "name": "coin"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 90, 
+            "layer": 4, 
+            "name": "dagger_1_1", 
+            "path": "throne.morph/dagger_1_1.png", 
+            "w": 27, 
+            "x": 605, 
+            "y": 253
+          }, 
+          "pic2": {
+            "h": 89, 
+            "layer": 4, 
+            "name": "dagger_1_2", 
+            "path": "throne.morph/dagger_1_2.png", 
+            "w": 26, 
+            "x": 605, 
+            "y": 253
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 131, 
+            "layer": 4, 
+            "name": "dagger_2_1", 
+            "path": "throne.morph/dagger_2_1.png", 
+            "w": 40, 
+            "x": 985, 
+            "y": 209
+          }, 
+          "pic2": {
+            "h": 128, 
+            "layer": 4, 
+            "name": "dagger_2_2", 
+            "path": "throne.morph/dagger_2_2.png", 
+            "w": 36, 
+            "x": 988, 
+            "y": 205
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "dagger_3_1_cover", 
+            "path": "throne.morph/dagger_3_1_cover.png", 
+            "w": 10, 
+            "x": 1040, 
+            "y": 450
+          }, 
+          "pic1": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "dagger_3_1", 
+            "path": "throne.morph/dagger_3_1.png", 
+            "w": 25, 
+            "x": 1038, 
+            "y": 399
+          }, 
+          "pic2": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "dagger_3_2", 
+            "path": "throne.morph/dagger_3_2.png", 
+            "w": 22, 
+            "x": 1039, 
+            "y": 399
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "dagger_4_1_cover", 
+            "path": "throne.morph/dagger_4_1_cover.png", 
+            "w": 14, 
+            "x": 1191, 
+            "y": 401
+          }, 
+          "pic1": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "dagger_4_1", 
+            "path": "throne.morph/dagger_4_1.png", 
+            "w": 27, 
+            "x": 1182, 
+            "y": 358
+          }, 
+          "pic2": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "dagger_4_2", 
+            "path": "throne.morph/dagger_4_2.png", 
+            "w": 24, 
+            "x": 1185, 
+            "y": 358
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "dagger_5_1_cover", 
+            "path": "throne.morph/dagger_5_1_cover.png", 
+            "w": 11, 
+            "x": 561, 
+            "y": 439
+          }, 
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "dagger_5_1", 
+            "path": "throne.morph/dagger_5_1.png", 
+            "w": 23, 
+            "x": 555, 
+            "y": 407
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "dagger_5_2", 
+            "path": "throne.morph/dagger_5_2.png", 
+            "w": 21, 
+            "x": 555, 
+            "y": 407
+          }
+        }
+      ], 
+      "name": "dagger"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "sun_1_1", 
+            "path": "throne.morph/sun_1_1.png", 
+            "w": 50, 
+            "x": 923, 
+            "y": 282
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "sun_1_2", 
+            "path": "throne.morph/sun_1_2.png", 
+            "w": 32, 
+            "x": 929, 
+            "y": 284
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "sun_2_1", 
+            "path": "throne.morph/sun_2_1.png", 
+            "w": 39, 
+            "x": 565, 
+            "y": 340
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "sun_2_2", 
+            "path": "throne.morph/sun_2_2.png", 
+            "w": 26, 
+            "x": 571, 
+            "y": 343
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "sun_3_1", 
+            "path": "throne.morph/sun_3_1.png", 
+            "w": 43, 
+            "x": 528, 
+            "y": 31
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "sun_3_2", 
+            "path": "throne.morph/sun_3_2.png", 
+            "w": 24, 
+            "x": 540, 
+            "y": 33
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "sun_4_1", 
+            "path": "throne.morph/sun_4_1.png", 
+            "w": 56, 
+            "x": 461, 
+            "y": 616
+          }, 
+          "pic2": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "sun_4_2", 
+            "path": "throne.morph/sun_4_2.png", 
+            "w": 45, 
+            "x": 465, 
+            "y": 617
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "sun_5_1", 
+            "path": "throne.morph/sun_5_1.png", 
+            "w": 27, 
+            "x": 239, 
+            "y": 385
+          }, 
+          "pic2": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "sun_5_2", 
+            "path": "throne.morph/sun_5_2.png", 
+            "w": 17, 
+            "x": 244, 
+            "y": 387
+          }
+        }
+      ], 
+      "name": "sun"
+    }
+  ], 
+  "part": [
+    {
+      "name": "cannon_orig", 
+      "path": "throne.part/cannon_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "cannon_1_1", 
+                "path": "throne.part/cannon_1_1.png", 
+                "w": 67, 
+                "x": 604, 
+                "y": 526
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "cannon_1_2", 
+                "path": "throne.part/cannon_1_2.png", 
+                "w": 57, 
+                "x": 250, 
+                "y": 578
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "cannon_1_3_cover", 
+                "path": "throne.part/cannon_1_3_cover.png", 
+                "w": 29, 
+                "x": 348, 
+                "y": 460
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "cannon_1_3", 
+                "path": "throne.part/cannon_1_3.png", 
+                "w": 47, 
+                "x": 349, 
+                "y": 463
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "cannon_1_4_cover", 
+                "path": "throne.part/cannon_1_4_cover.png", 
+                "w": 44, 
+                "x": 715, 
+                "y": 477
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "cannon_1_4", 
+                "path": "throne.part/cannon_1_4.png", 
+                "w": 42, 
+                "x": 714, 
+                "y": 479
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "cannon_1_5_cover", 
+                "path": "throne.part/cannon_1_5_cover.png", 
+                "w": 27, 
+                "x": 1000, 
+                "y": 556
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "cannon_1_5", 
+                "path": "throne.part/cannon_1_5.png", 
+                "w": 45, 
+                "x": 1001, 
+                "y": 560
+              }
+            }
+          ], 
+          "name": "cannon_1", 
+          "path": "throne.part/cannon_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "cannon_2_1", 
+                "path": "throne.part/cannon_2_1.png", 
+                "w": 79, 
+                "x": 428, 
+                "y": 606
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "cannon_2_2", 
+                "path": "throne.part/cannon_2_2.png", 
+                "w": 74, 
+                "x": 901, 
+                "y": 533
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "cannon_2_3_cover", 
+                "path": "throne.part/cannon_2_3_cover.png", 
+                "w": 52, 
+                "x": 520, 
+                "y": 463
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "cannon_2_3", 
+                "path": "throne.part/cannon_2_3.png", 
+                "w": 63, 
+                "x": 522, 
+                "y": 464
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "cannon_2_4_cover", 
+                "path": "throne.part/cannon_2_4_cover.png", 
+                "w": 32, 
+                "x": 1176, 
+                "y": 402
+              }, 
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "cannon_2_4", 
+                "path": "throne.part/cannon_2_4.png", 
+                "w": 33, 
+                "x": 1174, 
+                "y": 375
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "cannon_2_5_cover", 
+                "path": "throne.part/cannon_2_5_cover.png", 
+                "w": 43, 
+                "x": 768, 
+                "y": 185
+              }, 
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "cannon_2_5", 
+                "path": "throne.part/cannon_2_5.png", 
+                "w": 36, 
+                "x": 774, 
+                "y": 158
+              }
+            }
+          ], 
+          "name": "cannon_2", 
+          "path": "throne.part/cannon_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "cannon_3_1", 
+                "path": "throne.part/cannon_3_1.png", 
+                "w": 76, 
+                "x": 583, 
+                "y": 596
+              }
+            }, 
+            {
+              "pic": {
+                "h": 19, 
+                "layer": 4, 
+                "name": "cannon_3_2", 
+                "path": "throne.part/cannon_3_2.png", 
+                "w": 54, 
+                "x": 824, 
+                "y": 550
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "cannon_3_3_cover", 
+                "path": "throne.part/cannon_3_3_cover.png", 
+                "w": 34, 
+                "x": 279, 
+                "y": 533
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "cannon_3_3", 
+                "path": "throne.part/cannon_3_3.png", 
+                "w": 53, 
+                "x": 259, 
+                "y": 511
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "cannon_3_4_cover", 
+                "path": "throne.part/cannon_3_4_cover.png", 
+                "w": 27, 
+                "x": 896, 
+                "y": 442
+              }, 
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "cannon_3_4", 
+                "path": "throne.part/cannon_3_4.png", 
+                "w": 25, 
+                "x": 897, 
+                "y": 408
+              }
+            }, 
+            {
+              "cover": {
+                "h": 80, 
+                "layer": 5, 
+                "name": "cannon_3_5_cover", 
+                "path": "throne.part/cannon_3_5_cover.png", 
+                "w": 24, 
+                "x": 1124, 
+                "y": 344
+              }, 
+              "pic": {
+                "h": 81, 
+                "layer": 4, 
+                "name": "cannon_3_5", 
+                "path": "throne.part/cannon_3_5.png", 
+                "w": 26, 
+                "x": 1126, 
+                "y": 345
+              }
+            }
+          ], 
+          "name": "cannon_3", 
+          "path": "throne.part/cannon_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "cannon_4_1", 
+                "path": "throne.part/cannon_4_1.png", 
+                "w": 40, 
+                "x": 496, 
+                "y": 500
+              }
+            }, 
+            {
+              "pic": {
+                "h": 91, 
+                "layer": 4, 
+                "name": "cannon_4_2", 
+                "path": "throne.part/cannon_4_2.png", 
+                "w": 39, 
+                "x": 777, 
+                "y": 285
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "cannon_4_3_cover", 
+                "path": "throne.part/cannon_4_3_cover.png", 
+                "w": 15, 
+                "x": 878, 
+                "y": 600
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "cannon_4_3", 
+                "path": "throne.part/cannon_4_3.png", 
+                "w": 49, 
+                "x": 868, 
+                "y": 601
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "cannon_4_4_cover", 
+                "path": "throne.part/cannon_4_4_cover.png", 
+                "w": 30, 
+                "x": 1090, 
+                "y": 339
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "cannon_4_4", 
+                "path": "throne.part/cannon_4_4.png", 
+                "w": 30, 
+                "x": 1089, 
+                "y": 340
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "cannon_4_5_cover", 
+                "path": "throne.part/cannon_4_5_cover.png", 
+                "w": 35, 
+                "x": 1214, 
+                "y": 573
+              }, 
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "cannon_4_5", 
+                "path": "throne.part/cannon_4_5.png", 
+                "w": 31, 
+                "x": 1216, 
+                "y": 575
+              }
+            }
+          ], 
+          "name": "cannon_4", 
+          "path": "throne.part/cannon_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 80, 
+                "layer": 4, 
+                "name": "cannon_5_1", 
+                "path": "throne.part/cannon_5_1.png", 
+                "w": 18, 
+                "x": 1121, 
+                "y": 182
+              }
+            }, 
+            {
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "cannon_5_2", 
+                "path": "throne.part/cannon_5_2.png", 
+                "w": 18, 
+                "x": 1152, 
+                "y": 561
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "cannon_5_3_cover", 
+                "path": "throne.part/cannon_5_3_cover.png", 
+                "w": 17, 
+                "x": 531, 
+                "y": 380
+              }, 
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "cannon_5_3", 
+                "path": "throne.part/cannon_5_3.png", 
+                "w": 14, 
+                "x": 533, 
+                "y": 340
+              }
+            }, 
+            {
+              "cover": {
+                "h": 56, 
+                "layer": 5, 
+                "name": "cannon_5_4_cover", 
+                "path": "throne.part/cannon_5_4_cover.png", 
+                "w": 16, 
+                "x": 1055, 
+                "y": 419
+              }, 
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "cannon_5_4", 
+                "path": "throne.part/cannon_5_4.png", 
+                "w": 14, 
+                "x": 1055, 
+                "y": 402
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "cannon_5_5_cover", 
+                "path": "throne.part/cannon_5_5_cover.png", 
+                "w": 18, 
+                "x": 315, 
+                "y": 229
+              }, 
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "cannon_5_5", 
+                "path": "throne.part/cannon_5_5.png", 
+                "w": 17, 
+                "x": 313, 
+                "y": 231
+              }
+            }
+          ], 
+          "name": "cannon_5", 
+          "path": "throne.part/cannon_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "hammer_orig", 
+      "path": "throne.part/hammer_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "hammer_1_1", 
+                "path": "throne.part/hammer_1_1.png", 
+                "w": 67, 
+                "x": 1034, 
+                "y": 471
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "hammer_1_2", 
+                "path": "throne.part/hammer_1_2.png", 
+                "w": 63, 
+                "x": 698, 
+                "y": 447
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "hammer_1_3_cover", 
+                "path": "throne.part/hammer_1_3_cover.png", 
+                "w": 50, 
+                "x": 356, 
+                "y": 603
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "hammer_1_3", 
+                "path": "throne.part/hammer_1_3.png", 
+                "w": 63, 
+                "x": 350, 
+                "y": 606
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "hammer_1_4_cover", 
+                "path": "throne.part/hammer_1_4_cover.png", 
+                "w": 64, 
+                "x": 238, 
+                "y": 21
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "hammer_1_4", 
+                "path": "throne.part/hammer_1_4.png", 
+                "w": 62, 
+                "x": 239, 
+                "y": 3
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "hammer_1_5_cover", 
+                "path": "throne.part/hammer_1_5_cover.png", 
+                "w": 67, 
+                "x": 499, 
+                "y": 0
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "hammer_1_5", 
+                "path": "throne.part/hammer_1_5.png", 
+                "w": 63, 
+                "x": 501, 
+                "y": 1
+              }
+            }
+          ], 
+          "name": "hammer_1", 
+          "path": "throne.part/hammer_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "hammer_2_1", 
+                "path": "throne.part/hammer_2_1.png", 
+                "w": 11, 
+                "x": 697, 
+                "y": 381
+              }
+            }, 
+            {
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "hammer_2_2", 
+                "path": "throne.part/hammer_2_2.png", 
+                "w": 11, 
+                "x": 695, 
+                "y": 226
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "hammer_2_3_cover", 
+                "path": "throne.part/hammer_2_3_cover.png", 
+                "w": 16, 
+                "x": 296, 
+                "y": 220
+              }, 
+              "pic": {
+                "h": 93, 
+                "layer": 4, 
+                "name": "hammer_2_3", 
+                "path": "throne.part/hammer_2_3.png", 
+                "w": 18, 
+                "x": 292, 
+                "y": 227
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "hammer_2_4_cover", 
+                "path": "throne.part/hammer_2_4_cover.png", 
+                "w": 61, 
+                "x": 1094, 
+                "y": 626
+              }, 
+              "pic": {
+                "h": 20, 
+                "layer": 4, 
+                "name": "hammer_2_4", 
+                "path": "throne.part/hammer_2_4.png", 
+                "w": 87, 
+                "x": 1066, 
+                "y": 624
+              }
+            }, 
+            {
+              "cover": {
+                "h": 80, 
+                "layer": 5, 
+                "name": "hammer_2_5_cover", 
+                "path": "throne.part/hammer_2_5_cover.png", 
+                "w": 14, 
+                "x": 1009, 
+                "y": 443
+              }, 
+              "pic": {
+                "h": 86, 
+                "layer": 4, 
+                "name": "hammer_2_5", 
+                "path": "throne.part/hammer_2_5.png", 
+                "w": 14, 
+                "x": 1011, 
+                "y": 436
+              }
+            }
+          ], 
+          "name": "hammer_2", 
+          "path": "throne.part/hammer_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 92, 
+                "layer": 4, 
+                "name": "hammer_3_1", 
+                "path": "throne.part/hammer_3_1.png", 
+                "w": 20, 
+                "x": 1126, 
+                "y": 428
+              }
+            }, 
+            {
+              "pic": {
+                "h": 91, 
+                "layer": 4, 
+                "name": "hammer_3_2", 
+                "path": "throne.part/hammer_3_2.png", 
+                "w": 19, 
+                "x": 480, 
+                "y": 381
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "hammer_3_3_cover", 
+                "path": "throne.part/hammer_3_3_cover.png", 
+                "w": 84, 
+                "x": 1164, 
+                "y": 557
+              }, 
+              "pic": {
+                "h": 17, 
+                "layer": 4, 
+                "name": "hammer_3_3", 
+                "path": "throne.part/hammer_3_3.png", 
+                "w": 82, 
+                "x": 1165, 
+                "y": 559
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "hammer_3_4_cover", 
+                "path": "throne.part/hammer_3_4_cover.png", 
+                "w": 23, 
+                "x": 945, 
+                "y": 373
+              }, 
+              "pic": {
+                "h": 92, 
+                "layer": 4, 
+                "name": "hammer_3_4", 
+                "path": "throne.part/hammer_3_4.png", 
+                "w": 21, 
+                "x": 946, 
+                "y": 327
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "hammer_3_5_cover", 
+                "path": "throne.part/hammer_3_5_cover.png", 
+                "w": 22, 
+                "x": 240, 
+                "y": 42
+              }, 
+              "pic": {
+                "h": 92, 
+                "layer": 4, 
+                "name": "hammer_3_5", 
+                "path": "throne.part/hammer_3_5.png", 
+                "w": 21, 
+                "x": 241, 
+                "y": 43
+              }
+            }
+          ], 
+          "name": "hammer_3", 
+          "path": "throne.part/hammer_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "hammer_4_1", 
+                "path": "throne.part/hammer_4_1.png", 
+                "w": 42, 
+                "x": 923, 
+                "y": 177
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "hammer_4_2", 
+                "path": "throne.part/hammer_4_2.png", 
+                "w": 18, 
+                "x": 921, 
+                "y": 446
+              }
+            }, 
+            {
+              "cover": {
+                "h": 65, 
+                "layer": 5, 
+                "name": "hammer_4_3_cover", 
+                "path": "throne.part/hammer_4_3_cover.png", 
+                "w": 26, 
+                "x": 625, 
+                "y": 15
+              }, 
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "hammer_4_3", 
+                "path": "throne.part/hammer_4_3.png", 
+                "w": 34, 
+                "x": 620, 
+                "y": 17
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "hammer_4_4_cover", 
+                "path": "throne.part/hammer_4_4_cover.png", 
+                "w": 21, 
+                "x": 385, 
+                "y": 25
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "hammer_4_4", 
+                "path": "throne.part/hammer_4_4.png", 
+                "w": 18, 
+                "x": 387, 
+                "y": 1
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "hammer_4_5_cover", 
+                "path": "throne.part/hammer_4_5_cover.png", 
+                "w": 34, 
+                "x": 1192, 
+                "y": 138
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "hammer_4_5", 
+                "path": "throne.part/hammer_4_5.png", 
+                "w": 50, 
+                "x": 1172, 
+                "y": 139
+              }
+            }
+          ], 
+          "name": "hammer_4", 
+          "path": "throne.part/hammer_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "hammer_5_1", 
+                "path": "throne.part/hammer_5_1.png", 
+                "w": 31, 
+                "x": 331, 
+                "y": 324
+              }
+            }, 
+            {
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "hammer_5_2", 
+                "path": "throne.part/hammer_5_2.png", 
+                "w": 48, 
+                "x": 981, 
+                "y": 88
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "hammer_5_3_cover", 
+                "path": "throne.part/hammer_5_3_cover.png", 
+                "w": 30, 
+                "x": 501, 
+                "y": 143
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "hammer_5_3", 
+                "path": "throne.part/hammer_5_3.png", 
+                "w": 26, 
+                "x": 503, 
+                "y": 132
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "hammer_5_4_cover", 
+                "path": "throne.part/hammer_5_4_cover.png", 
+                "w": 64, 
+                "x": 751, 
+                "y": 592
+              }, 
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "hammer_5_4", 
+                "path": "throne.part/hammer_5_4.png", 
+                "w": 62, 
+                "x": 754, 
+                "y": 594
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "hammer_5_5_cover", 
+                "path": "throne.part/hammer_5_5_cover.png", 
+                "w": 42, 
+                "x": 458, 
+                "y": 140
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "hammer_5_5", 
+                "path": "throne.part/hammer_5_5.png", 
+                "w": 59, 
+                "x": 437, 
+                "y": 137
+              }
+            }
+          ], 
+          "name": "hammer_5", 
+          "path": "throne.part/hammer_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "crown_orig", 
+      "path": "throne.part/crown_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "crown_1_1", 
+                "path": "throne.part/crown_1_1.png", 
+                "w": 36, 
+                "x": 481, 
+                "y": 259
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "crown_1_2", 
+                "path": "throne.part/crown_1_2.png", 
+                "w": 48, 
+                "x": 760, 
+                "y": 561
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "crown_1_3_cover", 
+                "path": "throne.part/crown_1_3_cover.png", 
+                "w": 35, 
+                "x": 685, 
+                "y": 31
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "crown_1_3", 
+                "path": "throne.part/crown_1_3.png", 
+                "w": 58, 
+                "x": 688, 
+                "y": 32
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "crown_1_4_cover", 
+                "path": "throne.part/crown_1_4_cover.png", 
+                "w": 30, 
+                "x": 268, 
+                "y": 222
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "crown_1_4", 
+                "path": "throne.part/crown_1_4.png", 
+                "w": 29, 
+                "x": 269, 
+                "y": 192
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "crown_1_5_cover", 
+                "path": "throne.part/crown_1_5_cover.png", 
+                "w": 57, 
+                "x": 1195, 
+                "y": 607
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "crown_1_5", 
+                "path": "throne.part/crown_1_5.png", 
+                "w": 55, 
+                "x": 1197, 
+                "y": 609
+              }
+            }
+          ], 
+          "name": "crown_1", 
+          "path": "throne.part/crown_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "crown_2_1", 
+                "path": "throne.part/crown_2_1.png", 
+                "w": 52, 
+                "x": 530, 
+                "y": 572
+              }
+            }, 
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "crown_2_2_cover", 
+                "path": "throne.part/crown_2_2_cover.png", 
+                "w": 15, 
+                "x": 391, 
+                "y": 409
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "crown_2_2", 
+                "path": "throne.part/crown_2_2.png", 
+                "w": 32, 
+                "x": 381, 
+                "y": 406
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "crown_2_3_cover", 
+                "path": "throne.part/crown_2_3_cover.png", 
+                "w": 30, 
+                "x": 480, 
+                "y": 196
+              }, 
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "crown_2_3", 
+                "path": "throne.part/crown_2_3.png", 
+                "w": 29, 
+                "x": 480, 
+                "y": 198
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "crown_2_4_cover", 
+                "path": "throne.part/crown_2_4_cover.png", 
+                "w": 29, 
+                "x": 885, 
+                "y": 1
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "crown_2_4", 
+                "path": "throne.part/crown_2_4.png", 
+                "w": 48, 
+                "x": 886, 
+                "y": 2
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "crown_2_5_cover", 
+                "path": "throne.part/crown_2_5_cover.png", 
+                "w": 19, 
+                "x": 404, 
+                "y": 305
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "crown_2_5", 
+                "path": "throne.part/crown_2_5.png", 
+                "w": 28, 
+                "x": 394, 
+                "y": 307
+              }
+            }
+          ], 
+          "name": "crown_2", 
+          "path": "throne.part/crown_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "crown_3_1", 
+                "path": "throne.part/crown_3_1.png", 
+                "w": 58, 
+                "x": 398, 
+                "y": 464
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "crown_3_2_cover", 
+                "path": "throne.part/crown_3_2_cover.png", 
+                "w": 17, 
+                "x": 398, 
+                "y": 559
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "crown_3_2", 
+                "path": "throne.part/crown_3_2.png", 
+                "w": 49, 
+                "x": 401, 
+                "y": 541
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "crown_3_3_cover", 
+                "path": "throne.part/crown_3_3_cover.png", 
+                "w": 30, 
+                "x": 971, 
+                "y": 604
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "crown_3_3", 
+                "path": "throne.part/crown_3_3.png", 
+                "w": 48, 
+                "x": 963, 
+                "y": 606
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "crown_3_4_cover", 
+                "path": "throne.part/crown_3_4_cover.png", 
+                "w": 48, 
+                "x": 272, 
+                "y": 156
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "crown_3_4", 
+                "path": "throne.part/crown_3_4.png", 
+                "w": 47, 
+                "x": 272, 
+                "y": 157
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "crown_3_5_cover", 
+                "path": "throne.part/crown_3_5_cover.png", 
+                "w": 53, 
+                "x": 1198, 
+                "y": 453
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "crown_3_5", 
+                "path": "throne.part/crown_3_5.png", 
+                "w": 49, 
+                "x": 1200, 
+                "y": 452
+              }
+            }
+          ], 
+          "name": "crown_3", 
+          "path": "throne.part/crown_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "crown_4_1", 
+                "path": "throne.part/crown_4_1.png", 
+                "w": 31, 
+                "x": 833, 
+                "y": 99
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "crown_4_2", 
+                "path": "throne.part/crown_4_2.png", 
+                "w": 42, 
+                "x": 780, 
+                "y": 331
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "crown_4_3_cover", 
+                "path": "throne.part/crown_4_3_cover.png", 
+                "w": 29, 
+                "x": 1149, 
+                "y": 339
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "crown_4_3", 
+                "path": "throne.part/crown_4_3.png", 
+                "w": 29, 
+                "x": 1150, 
+                "y": 337
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "crown_4_4_cover", 
+                "path": "throne.part/crown_4_4_cover.png", 
+                "w": 29, 
+                "x": 1098, 
+                "y": 437
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "crown_4_4", 
+                "path": "throne.part/crown_4_4.png", 
+                "w": 29, 
+                "x": 1099, 
+                "y": 438
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "crown_4_5_cover", 
+                "path": "throne.part/crown_4_5_cover.png", 
+                "w": 31, 
+                "x": 800, 
+                "y": 439
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "crown_4_5", 
+                "path": "throne.part/crown_4_5.png", 
+                "w": 29, 
+                "x": 802, 
+                "y": 428
+              }
+            }
+          ], 
+          "name": "crown_4", 
+          "path": "throne.part/crown_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "crown_5_1", 
+                "path": "throne.part/crown_5_1.png", 
+                "w": 38, 
+                "x": 983, 
+                "y": 34
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "crown_5_2", 
+                "path": "throne.part/crown_5_2.png", 
+                "w": 24, 
+                "x": 445, 
+                "y": 84
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "crown_5_3_cover", 
+                "path": "throne.part/crown_5_3_cover.png", 
+                "w": 31, 
+                "x": 353, 
+                "y": 576
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "crown_5_3", 
+                "path": "throne.part/crown_5_3.png", 
+                "w": 38, 
+                "x": 346, 
+                "y": 549
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "crown_5_4_cover", 
+                "path": "throne.part/crown_5_4_cover.png", 
+                "w": 39, 
+                "x": 418, 
+                "y": 5
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "crown_5_4", 
+                "path": "throne.part/crown_5_4.png", 
+                "w": 39, 
+                "x": 417, 
+                "y": 5
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "crown_5_5_cover", 
+                "path": "throne.part/crown_5_5_cover.png", 
+                "w": 18, 
+                "x": 254, 
+                "y": 535
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "crown_5_5", 
+                "path": "throne.part/crown_5_5.png", 
+                "w": 38, 
+                "x": 233, 
+                "y": 533
+              }
+            }
+          ], 
+          "name": "crown_5", 
+          "path": "throne.part/crown_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "dragon_orig", 
+      "path": "throne.part/dragon_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "dragon_1_1", 
+                "path": "throne.part/dragon_1_1.png", 
+                "w": 28, 
+                "x": 576, 
+                "y": 279
+              }
+            }, 
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "dragon_1_2", 
+                "path": "throne.part/dragon_1_2.png", 
+                "w": 45, 
+                "x": 1202, 
+                "y": 300
+              }
+            }, 
+            {
+              "cover": {
+                "h": 93, 
+                "layer": 5, 
+                "name": "dragon_1_3_cover", 
+                "path": "throne.part/dragon_1_3_cover.png", 
+                "w": 39, 
+                "x": 228, 
+                "y": 141
+              }, 
+              "pic": {
+                "h": 84, 
+                "layer": 4, 
+                "name": "dragon_1_3", 
+                "path": "throne.part/dragon_1_3.png", 
+                "w": 42, 
+                "x": 229, 
+                "y": 143
+              }
+            }, 
+            {
+              "cover": {
+                "h": 68, 
+                "layer": 5, 
+                "name": "dragon_1_4_cover", 
+                "path": "throne.part/dragon_1_4_cover.png", 
+                "w": 35, 
+                "x": 680, 
+                "y": 561
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "dragon_1_4", 
+                "path": "throne.part/dragon_1_4.png", 
+                "w": 35, 
+                "x": 680, 
+                "y": 563
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "dragon_1_5_cover", 
+                "path": "throne.part/dragon_1_5_cover.png", 
+                "w": 60, 
+                "x": 826, 
+                "y": 503
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "dragon_1_5", 
+                "path": "throne.part/dragon_1_5.png", 
+                "w": 57, 
+                "x": 827, 
+                "y": 504
+              }
+            }
+          ], 
+          "name": "dragon_1", 
+          "path": "throne.part/dragon_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "dragon_2_1", 
+                "path": "throne.part/dragon_2_1.png", 
+                "w": 32, 
+                "x": 744, 
+                "y": 330
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "dragon_2_2", 
+                "path": "throne.part/dragon_2_2.png", 
+                "w": 59, 
+                "x": 532, 
+                "y": 527
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "dragon_2_3_cover", 
+                "path": "throne.part/dragon_2_3_cover.png", 
+                "w": 33, 
+                "x": 266, 
+                "y": 384
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "dragon_2_3", 
+                "path": "throne.part/dragon_2_3.png", 
+                "w": 44, 
+                "x": 268, 
+                "y": 376
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "dragon_2_4_cover", 
+                "path": "throne.part/dragon_2_4_cover.png", 
+                "w": 41, 
+                "x": 674, 
+                "y": 532
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "dragon_2_4", 
+                "path": "throne.part/dragon_2_4.png", 
+                "w": 52, 
+                "x": 662, 
+                "y": 533
+              }
+            }, 
+            {
+              "cover": {
+                "h": 59, 
+                "layer": 5, 
+                "name": "dragon_2_5_cover", 
+                "path": "throne.part/dragon_2_5_cover.png", 
+                "w": 26, 
+                "x": 597, 
+                "y": 68
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "dragon_2_5", 
+                "path": "throne.part/dragon_2_5.png", 
+                "w": 31, 
+                "x": 590, 
+                "y": 71
+              }
+            }
+          ], 
+          "name": "dragon_2", 
+          "path": "throne.part/dragon_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "dragon_3_1", 
+                "path": "throne.part/dragon_3_1.png", 
+                "w": 54, 
+                "x": 772, 
+                "y": 517
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "dragon_3_2", 
+                "path": "throne.part/dragon_3_2.png", 
+                "w": 52, 
+                "x": 465, 
+                "y": 536
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "dragon_3_3_cover", 
+                "path": "throne.part/dragon_3_3_cover.png", 
+                "w": 38, 
+                "x": 534, 
+                "y": 413
+              }, 
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "dragon_3_3", 
+                "path": "throne.part/dragon_3_3.png", 
+                "w": 47, 
+                "x": 534, 
+                "y": 410
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "dragon_3_4_cover", 
+                "path": "throne.part/dragon_3_4_cover.png", 
+                "w": 35, 
+                "x": 244, 
+                "y": 471
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "dragon_3_4", 
+                "path": "throne.part/dragon_3_4.png", 
+                "w": 56, 
+                "x": 246, 
+                "y": 471
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "dragon_3_5_cover", 
+                "path": "throne.part/dragon_3_5_cover.png", 
+                "w": 48, 
+                "x": 359, 
+                "y": 127
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "dragon_3_5", 
+                "path": "throne.part/dragon_3_5.png", 
+                "w": 46, 
+                "x": 361, 
+                "y": 129
+              }
+            }
+          ], 
+          "name": "dragon_3", 
+          "path": "throne.part/dragon_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 15, 
+                "layer": 4, 
+                "name": "dragon_4_1", 
+                "path": "throne.part/dragon_4_1.png", 
+                "w": 65, 
+                "x": 482, 
+                "y": 486
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "dragon_4_2", 
+                "path": "throne.part/dragon_4_2.png", 
+                "w": 19, 
+                "x": 877, 
+                "y": 189
+              }
+            }, 
+            {
+              "cover": {
+                "h": 68, 
+                "layer": 5, 
+                "name": "dragon_4_3_cover", 
+                "path": "throne.part/dragon_4_3_cover.png", 
+                "w": 11, 
+                "x": 526, 
+                "y": 274
+              }, 
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "dragon_4_3", 
+                "path": "throne.part/dragon_4_3.png", 
+                "w": 15, 
+                "x": 528, 
+                "y": 276
+              }
+            }, 
+            {
+              "cover": {
+                "h": 13, 
+                "layer": 5, 
+                "name": "dragon_4_4_cover", 
+                "path": "throne.part/dragon_4_4_cover.png", 
+                "w": 67, 
+                "x": 374, 
+                "y": 78
+              }, 
+              "pic": {
+                "h": 19, 
+                "layer": 4, 
+                "name": "dragon_4_4", 
+                "path": "throne.part/dragon_4_4.png", 
+                "w": 63, 
+                "x": 375, 
+                "y": 70
+              }
+            }, 
+            {
+              "cover": {
+                "h": 73, 
+                "layer": 5, 
+                "name": "dragon_4_5_cover", 
+                "path": "throne.part/dragon_4_5_cover.png", 
+                "w": 14, 
+                "x": 531, 
+                "y": 191
+              }, 
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "dragon_4_5", 
+                "path": "throne.part/dragon_4_5.png", 
+                "w": 15, 
+                "x": 533, 
+                "y": 195
+              }
+            }
+          ], 
+          "name": "dragon_4", 
+          "path": "throne.part/dragon_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "dragon_5_1", 
+                "path": "throne.part/dragon_5_1.png", 
+                "w": 24, 
+                "x": 1127, 
+                "y": 115
+              }
+            }, 
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "dragon_5_2", 
+                "path": "throne.part/dragon_5_2.png", 
+                "w": 27, 
+                "x": 771, 
+                "y": 33
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "dragon_5_3_cover", 
+                "path": "throne.part/dragon_5_3_cover.png", 
+                "w": 20, 
+                "x": 831, 
+                "y": 32
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "dragon_5_3", 
+                "path": "throne.part/dragon_5_3.png", 
+                "w": 20, 
+                "x": 831, 
+                "y": 33
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "dragon_5_4_cover", 
+                "path": "throne.part/dragon_5_4_cover.png", 
+                "w": 27, 
+                "x": 809, 
+                "y": 180
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "dragon_5_4", 
+                "path": "throne.part/dragon_5_4.png", 
+                "w": 33, 
+                "x": 811, 
+                "y": 182
+              }
+            }, 
+            {
+              "cover": {
+                "h": 65, 
+                "layer": 5, 
+                "name": "dragon_5_5_cover", 
+                "path": "throne.part/dragon_5_5_cover.png", 
+                "w": 15, 
+                "x": 365, 
+                "y": 300
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "dragon_5_5", 
+                "path": "throne.part/dragon_5_5.png", 
+                "w": 21, 
+                "x": 367, 
+                "y": 303
+              }
+            }
+          ], 
+          "name": "dragon_5", 
+          "path": "throne.part/dragon_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "shield_orig", 
+      "path": "throne.part/shield_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "shield_1_1", 
+                "path": "throne.part/shield_1_1.png", 
+                "w": 46, 
+                "x": 1044, 
+                "y": 262
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "shield_1_2", 
+                "path": "throne.part/shield_1_2.png", 
+                "w": 44, 
+                "x": 1167, 
+                "y": 69
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "shield_1_3", 
+                "path": "throne.part/shield_1_3.png", 
+                "w": 33, 
+                "x": 565, 
+                "y": 164
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "shield_1_4_cover", 
+                "path": "throne.part/shield_1_4_cover.png", 
+                "w": 19, 
+                "x": 877, 
+                "y": 577
+              }, 
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "shield_1_4", 
+                "path": "throne.part/shield_1_4.png", 
+                "w": 61, 
+                "x": 834, 
+                "y": 576
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "shield_1_5_cover", 
+                "path": "throne.part/shield_1_5_cover.png", 
+                "w": 35, 
+                "x": 270, 
+                "y": 96
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "shield_1_5", 
+                "path": "throne.part/shield_1_5.png", 
+                "w": 31, 
+                "x": 273, 
+                "y": 98
+              }
+            }
+          ], 
+          "name": "shield_1", 
+          "path": "throne.part/shield_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "shield_2_1", 
+                "path": "throne.part/shield_2_1.png", 
+                "w": 50, 
+                "x": 945, 
+                "y": 466
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "shield_2_2", 
+                "path": "throne.part/shield_2_2.png", 
+                "w": 49, 
+                "x": 924, 
+                "y": 266
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "shield_2_3", 
+                "path": "throne.part/shield_2_3.png", 
+                "w": 47, 
+                "x": 826, 
+                "y": 331
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "shield_2_4_cover", 
+                "path": "throne.part/shield_2_4_cover.png", 
+                "w": 47, 
+                "x": 829, 
+                "y": 431
+              }, 
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "shield_2_4", 
+                "path": "throne.part/shield_2_4.png", 
+                "w": 46, 
+                "x": 830, 
+                "y": 417
+              }
+            }, 
+            {
+              "cover": {
+                "h": 56, 
+                "layer": 5, 
+                "name": "shield_2_5_cover", 
+                "path": "throne.part/shield_2_5_cover.png", 
+                "w": 40, 
+                "x": 278, 
+                "y": 413
+              }, 
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "shield_2_5", 
+                "path": "throne.part/shield_2_5.png", 
+                "w": 47, 
+                "x": 280, 
+                "y": 415
+              }
+            }
+          ], 
+          "name": "shield_2", 
+          "path": "throne.part/shield_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 104, 
+                "layer": 4, 
+                "name": "shield_3_1", 
+                "path": "throne.part/shield_3_1.png", 
+                "w": 25, 
+                "x": 645, 
+                "y": 103
+              }
+            }, 
+            {
+              "pic": {
+                "h": 101, 
+                "layer": 4, 
+                "name": "shield_3_2", 
+                "path": "throne.part/shield_3_2.png", 
+                "w": 25, 
+                "x": 606, 
+                "y": 251
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "shield_3_3_cover", 
+                "path": "throne.part/shield_3_3_cover.png", 
+                "w": 9, 
+                "x": 1037, 
+                "y": 450
+              }, 
+              "pic": {
+                "h": 101, 
+                "layer": 4, 
+                "name": "shield_3_3", 
+                "path": "throne.part/shield_3_3.png", 
+                "w": 25, 
+                "x": 1027, 
+                "y": 375
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "shield_3_4_cover", 
+                "path": "throne.part/shield_3_4_cover.png", 
+                "w": 8, 
+                "x": 670, 
+                "y": 439
+              }, 
+              "pic": {
+                "h": 78, 
+                "layer": 4, 
+                "name": "shield_3_4", 
+                "path": "throne.part/shield_3_4.png", 
+                "w": 20, 
+                "x": 664, 
+                "y": 378
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "shield_3_5_cover", 
+                "path": "throne.part/shield_3_5_cover.png", 
+                "w": 11, 
+                "x": 1232, 
+                "y": 124
+              }, 
+              "pic": {
+                "h": 101, 
+                "layer": 4, 
+                "name": "shield_3_5", 
+                "path": "throne.part/shield_3_5.png", 
+                "w": 25, 
+                "x": 1222, 
+                "y": 69
+              }
+            }
+          ], 
+          "name": "shield_3", 
+          "path": "throne.part/shield_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 99, 
+                "layer": 4, 
+                "name": "shield_4_1", 
+                "path": "throne.part/shield_4_1.png", 
+                "w": 23, 
+                "x": 994, 
+                "y": 227
+              }
+            }, 
+            {
+              "cover": {
+                "h": 22, 
+                "layer": 5, 
+                "name": "shield_4_2_cover", 
+                "path": "throne.part/shield_4_2_cover.png", 
+                "w": 16, 
+                "x": 997, 
+                "y": 189
+              }, 
+              "pic": {
+                "h": 99, 
+                "layer": 4, 
+                "name": "shield_4_2", 
+                "path": "throne.part/shield_4_2.png", 
+                "w": 24, 
+                "x": 993, 
+                "y": 111
+              }
+            }, 
+            {
+              "cover": {
+                "h": 77, 
+                "layer": 5, 
+                "name": "shield_4_3_cover", 
+                "path": "throne.part/shield_4_3_cover.png", 
+                "w": 16, 
+                "x": 601, 
+                "y": 324
+              }, 
+              "pic": {
+                "h": 91, 
+                "layer": 4, 
+                "name": "shield_4_3", 
+                "path": "throne.part/shield_4_3.png", 
+                "w": 21, 
+                "x": 595, 
+                "y": 326
+              }
+            }, 
+            {
+              "cover": {
+                "h": 66, 
+                "layer": 5, 
+                "name": "shield_4_4_cover", 
+                "path": "throne.part/shield_4_4_cover.png", 
+                "w": 23, 
+                "x": 405, 
+                "y": 359
+              }, 
+              "pic": {
+                "h": 91, 
+                "layer": 4, 
+                "name": "shield_4_4", 
+                "path": "throne.part/shield_4_4.png", 
+                "w": 21, 
+                "x": 406, 
+                "y": 361
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "shield_4_5_cover", 
+                "path": "throne.part/shield_4_5_cover.png", 
+                "w": 23, 
+                "x": 230, 
+                "y": 336
+              }, 
+              "pic": {
+                "h": 79, 
+                "layer": 4, 
+                "name": "shield_4_5", 
+                "path": "throne.part/shield_4_5.png", 
+                "w": 42, 
+                "x": 230, 
+                "y": 306
+              }
+            }
+          ], 
+          "name": "shield_4", 
+          "path": "throne.part/shield_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "shield_5_1", 
+                "path": "throne.part/shield_5_1.png", 
+                "w": 44, 
+                "x": 278, 
+                "y": 321
+              }
+            }, 
+            {
+              "cover": {
+                "h": 8, 
+                "layer": 5, 
+                "name": "shield_5_2_cover", 
+                "path": "throne.part/shield_5_2_cover.png", 
+                "w": 13, 
+                "x": 1077, 
+                "y": 364
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "shield_5_2", 
+                "path": "throne.part/shield_5_2.png", 
+                "w": 45, 
+                "x": 1044, 
+                "y": 344
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "shield_5_3_cover", 
+                "path": "throne.part/shield_5_3_cover.png", 
+                "w": 37, 
+                "x": 1061, 
+                "y": 9
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "shield_5_3", 
+                "path": "throne.part/shield_5_3.png", 
+                "w": 49, 
+                "x": 1048, 
+                "y": 8
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "shield_5_4_cover", 
+                "path": "throne.part/shield_5_4_cover.png", 
+                "w": 17, 
+                "x": 342, 
+                "y": 7
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "shield_5_4", 
+                "path": "throne.part/shield_5_4.png", 
+                "w": 45, 
+                "x": 329, 
+                "y": 1
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "shield_5_5_cover", 
+                "path": "throne.part/shield_5_5_cover.png", 
+                "w": 41, 
+                "x": 244, 
+                "y": 236
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "shield_5_5", 
+                "path": "throne.part/shield_5_5.png", 
+                "w": 44, 
+                "x": 245, 
+                "y": 238
+              }
+            }
+          ], 
+          "name": "shield_5", 
+          "path": "throne.part/shield_5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "candle_orig", 
+      "path": "throne.part/candle_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "candle_1_1", 
+                "path": "throne.part/candle_1_1.png", 
+                "w": 36, 
+                "x": 476, 
+                "y": 67
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "candle_1_2", 
+                "path": "throne.part/candle_1_2.png", 
+                "w": 42, 
+                "x": 424, 
+                "y": 503
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "candle_1_3_cover", 
+                "path": "throne.part/candle_1_3_cover.png", 
+                "w": 41, 
+                "x": 307, 
+                "y": 50
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "candle_1_3", 
+                "path": "throne.part/candle_1_3.png", 
+                "w": 42, 
+                "x": 306, 
+                "y": 43
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "candle_1_4_cover", 
+                "path": "throne.part/candle_1_4_cover.png", 
+                "w": 33, 
+                "x": 1148, 
+                "y": 430
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "candle_1_4", 
+                "path": "throne.part/candle_1_4.png", 
+                "w": 34, 
+                "x": 1150, 
+                "y": 431
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "candle_1_5_cover", 
+                "path": "throne.part/candle_1_5_cover.png", 
+                "w": 24, 
+                "x": 423, 
+                "y": 366
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "candle_1_5", 
+                "path": "throne.part/candle_1_5.png", 
+                "w": 31, 
+                "x": 424, 
+                "y": 368
+              }
+            }
+          ], 
+          "name": "candle_1", 
+          "path": "throne.part/candle_1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "candle_2_1", 
+                "path": "throne.part/candle_2_1.png", 
+                "w": 46, 
+                "x": 716, 
+                "y": 282
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "candle_2_2", 
+                "path": "throne.part/candle_2_2.png", 
+                "w": 49, 
+                "x": 540, 
+                "y": 210
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "candle_2_3", 
+                "path": "throne.part/candle_2_3.png", 
+                "w": 50, 
+                "x": 390, 
+                "y": 250
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "candle_2_4_cover", 
+                "path": "throne.part/candle_2_4_cover.png", 
+                "w": 15, 
+                "x": 566, 
+                "y": 20
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "candle_2_4", 
+                "path": "throne.part/candle_2_4.png", 
+                "w": 44, 
+                "x": 532, 
+                "y": 25
+              }
+            }, 
+            {
+              "cover": {
+                "h": 22, 
+                "layer": 5, 
+                "name": "candle_2_5_cover", 
+                "path": "throne.part/candle_2_5_cover.png", 
+                "w": 46, 
+                "x": 597, 
+                "y": 492
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "candle_2_5", 
+                "path": "throne.part/candle_2_5.png", 
+                "w": 49, 
+                "x": 594, 
+                "y": 475
+              }
+            }
+          ], 
+          "name": "candle_2", 
+          "path": "throne.part/candle_2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "candle_3_1", 
+                "path": "throne.part/candle_3_1.png", 
+                "w": 49, 
+                "x": 1035, 
+                "y": 64
+              }
+            }, 
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "candle_3_2", 
+                "path": "throne.part/candle_3_2.png", 
+                "w": 52, 
+                "x": 924, 
+                "y": 88
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "candle_3_3_cover", 
+                "path": "throne.part/candle_3_3_cover.png", 
+                "w": 34, 
+                "x": 940, 
+                "y": 398
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "candle_3_3", 
+                "path": "throne.part/candle_3_3.png", 
+                "w": 53, 
+                "x": 942, 
+                "y": 393
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "candle_3_4_cover", 
+                "path": "throne.part/candle_3_4_cover.png", 
+                "w": 16, 
+                "x": 1139, 
+                "y": 292
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "candle_3_4", 
+                "path": "throne.part/candle_3_4.png", 
+                "w": 41, 
+                "x": 1139, 
+                "y": 276
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "candle_3_5_cover", 
+                "path": "throne.part/candle_3_5_cover.png", 
+                "w": 24, 
+                "x": 1089, 
+                "y": 548
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "candle_3_5", 
+                "path": "throne.part/candle_3_5.png", 
+                "w": 40, 
+                "x": 1070, 
+                "y": 550
+              }
+            }
+          ], 
+          "name": "candle_3", 
+          "path": "throne.part/candle_3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "candle_4_1", 
+                "path": "throne.part/candle_4_1.png", 
+                "w": 34, 
+                "x": 776, 
+                "y": 108
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "candle_4_2", 
+                "path": "throne.part/candle_4_2.png", 
+                "w": 37, 
+                "x": 1068, 
+                "y": 112
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "candle_4_3_cover", 
+                "path": "throne.part/candle_4_3_cover.png", 
+                "w": 31, 
+                "x": 333, 
+                "y": 411
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "candle_4_3", 
+                "path": "throne.part/candle_4_3.png", 
+                "w": 51, 
+                "x": 335, 
+                "y": 406
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "candle_4_4_cover", 
+                "path": "throne.part/candle_4_4_cover.png", 
+                "w": 33, 
+                "x": 1170, 
+                "y": 576
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "candle_4_4", 
+                "path": "throne.part/candle_4_4.png", 
+                "w": 33, 
+                "x": 1169, 
+                "y": 571
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "candle_4_5_cover", 
+                "path": "throne.part/candle_4_5_cover.png", 
+                "w": 29, 
+                "x": 636, 
+                "y": 444
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "candle_4_5", 
+                "path": "throne.part/candle_4_5.png", 
+                "w": 36, 
+                "x": 627, 
+                "y": 428
+              }
+            }
+          ], 
+          "name": "candle_4", 
+          "path": "throne.part/candle_4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "candle_5_1", 
+                "path": "throne.part/candle_5_1.png", 
+                "w": 17, 
+                "x": 888, 
+                "y": 294
+              }
+            }, 
+            {
+              "cover": {
+                "h": 10, 
+                "layer": 5, 
+                "name": "candle_5_2_cover", 
+                "path": "throne.part/candle_5_2_cover.png", 
+                "w": 13, 
+                "x": 675, 
+                "y": 476
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "candle_5_2", 
+                "path": "throne.part/candle_5_2.png", 
+                "w": 26, 
+                "x": 661, 
+                "y": 468
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "candle_5_3_cover", 
+                "path": "throne.part/candle_5_3_cover.png", 
+                "w": 20, 
+                "x": 1111, 
+                "y": 320
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "candle_5_3", 
+                "path": "throne.part/candle_5_3.png", 
+                "w": 20, 
+                "x": 1111, 
+                "y": 286
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "candle_5_4_cover", 
+                "path": "throne.part/candle_5_4_cover.png", 
+                "w": 16, 
+                "x": 439, 
+                "y": 47
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "candle_5_4", 
+                "path": "throne.part/candle_5_4.png", 
+                "w": 16, 
+                "x": 440, 
+                "y": 45
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "candle_5_5_cover", 
+                "path": "throne.part/candle_5_5_cover.png", 
+                "w": 22, 
+                "x": 459, 
+                "y": 475
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "candle_5_5", 
+                "path": "throne.part/candle_5_5.png", 
+                "w": 18, 
+                "x": 462, 
+                "y": 457
+              }
+            }
+          ], 
+          "name": "candle_5", 
+          "path": "throne.part/candle_5.png"
+        }
+      ]
+    }
+  ]
+}

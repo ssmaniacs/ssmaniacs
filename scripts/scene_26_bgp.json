@@ -1,0 +1,52 @@
+[
+  {
+    "layer": 1, 
+    "path": "excavations.bg/sky.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 1, 
+    "path": "excavations.bg/palm1.png", 
+    "x": 663, 
+    "y": 19
+  }, 
+  {
+    "layer": 1, 
+    "path": "excavations.bg/palm2.png", 
+    "x": 208, 
+    "y": 20
+  }, 
+  {
+    "layer": 2, 
+    "path": "excavations.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 7, 
+    "path": "excavations.bg/palm3.png", 
+    "x": 1053, 
+    "y": 0
+  }, 
+  {
+    "layer": 7, 
+    "path": "excavations.bg/palm4.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 8, 
+    "path": "excavations.bg/glow_1.png", 
+    "type": "effect", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 8, 
+    "path": "excavations.bg/glow_2.png", 
+    "type": "effect", 
+    "x": 0, 
+    "y": 0
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "layer": 2, 
+    "path": "witch_hut.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 5, 
+    "path": "witch_hut.bg/cellar_glow.png", 
+    "x": 942, 
+    "y": 508
+  }, 
+  {
+    "ani": true, 
+    "layer": 5, 
+    "path": "witch_hut.bg/cellar_smoke_image_0000__0027_floor_fog_00000.png", 
+    "type": "effect", 
+    "x": 917, 
+    "y": 510
+  }, 
+  {
+    "layer": 6, 
+    "path": "witch_hut.bg/win_glow.png", 
+    "type": "effect", 
+    "x": 228, 
+    "y": 0
+  }, 
+  {
+    "layer": 10, 
+    "path": "witch_hut.bg/moon_glow.png", 
+    "type": "effect", 
+    "x": 126, 
+    "y": 16
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "witch_hut.bg/smoke_image_0000__0025_green_fog_00000.png", 
+    "type": "effect", 
+    "x": 826, 
+    "y": 367
+  }, 
+  {
+    "layer": 20, 
+    "path": "witch_hut.bg/candle1.png", 
+    "x": 778, 
+    "y": 261
+  }, 
+  {
+    "layer": 20, 
+    "path": "witch_hut.bg/candle2.png", 
+    "x": 1011, 
+    "y": 252
+  }, 
+  {
+    "layer": 20, 
+    "path": "witch_hut.bg/candle3.png", 
+    "x": 616, 
+    "y": 402
+  }
+]

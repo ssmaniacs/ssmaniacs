@@ -1,0 +1,6743 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 114, 
+            "layer": 4, 
+            "name": "axe1", 
+            "path": "maya_temple.form/axe1.png", 
+            "w": 45, 
+            "x": 863, 
+            "y": 485
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "axe2", 
+            "path": "maya_temple.form/axe2.png", 
+            "w": 116, 
+            "x": 1034, 
+            "y": 519
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "axe3_cover", 
+            "path": "maya_temple.form/axe3_cover.png", 
+            "w": 15, 
+            "x": 1191, 
+            "y": 434
+          }, 
+          "pic": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "axe3", 
+            "path": "maya_temple.form/axe3.png", 
+            "w": 59, 
+            "x": 1193, 
+            "y": 424
+          }
+        }, 
+        {
+          "cover": {
+            "h": 84, 
+            "layer": 5, 
+            "name": "axe4_cover", 
+            "path": "maya_temple.form/axe4_cover.png", 
+            "w": 36, 
+            "x": 985, 
+            "y": 312
+          }, 
+          "pic": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "axe4", 
+            "path": "maya_temple.form/axe4.png", 
+            "w": 33, 
+            "x": 984, 
+            "y": 312
+          }
+        }, 
+        {
+          "cover": {
+            "h": 83, 
+            "layer": 5, 
+            "name": "axe5_cover", 
+            "path": "maya_temple.form/axe5_cover.png", 
+            "w": 22, 
+            "x": 431, 
+            "y": 289
+          }, 
+          "pic": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "axe5", 
+            "path": "maya_temple.form/axe5.png", 
+            "w": 32, 
+            "x": 433, 
+            "y": 287
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "axe6_cover", 
+            "path": "maya_temple.form/axe6_cover.png", 
+            "w": 50, 
+            "x": 269, 
+            "y": 23
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "axe6", 
+            "path": "maya_temple.form/axe6.png", 
+            "w": 68, 
+            "x": 246, 
+            "y": 6
+          }
+        }
+      ], 
+      "name": "手斧", 
+      "path": "maya_temple.sils/axe.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "scull1", 
+            "path": "maya_temple.form/scull1.png", 
+            "w": 49, 
+            "x": 596, 
+            "y": 552
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "scull2", 
+            "path": "maya_temple.form/scull2.png", 
+            "w": 57, 
+            "x": 1142, 
+            "y": 576
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "scull3_cover", 
+            "path": "maya_temple.form/scull3_cover.png", 
+            "w": 44, 
+            "x": 642, 
+            "y": 628
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "scull3", 
+            "path": "maya_temple.form/scull3.png", 
+            "w": 39, 
+            "x": 643, 
+            "y": 610
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "scull4_cover", 
+            "path": "maya_temple.form/scull4_cover.png", 
+            "w": 44, 
+            "x": 290, 
+            "y": 484
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "scull4", 
+            "path": "maya_temple.form/scull4.png", 
+            "w": 38, 
+            "x": 292, 
+            "y": 479
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "scull5_cover", 
+            "path": "maya_temple.form/scull5_cover.png", 
+            "w": 38, 
+            "x": 1022, 
+            "y": 413
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "scull5", 
+            "path": "maya_temple.form/scull5.png", 
+            "w": 39, 
+            "x": 1016, 
+            "y": 415
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "scull6_cover", 
+            "path": "maya_temple.form/scull6_cover.png", 
+            "w": 49, 
+            "x": 1130, 
+            "y": 44
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "scull6", 
+            "path": "maya_temple.form/scull6.png", 
+            "w": 49, 
+            "x": 1133, 
+            "y": 47
+          }
+        }
+      ], 
+      "name": "水晶のどくろ", 
+      "path": "maya_temple.sils/scull.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "idol1", 
+            "path": "maya_temple.form/idol1.png", 
+            "w": 46, 
+            "x": 1094, 
+            "y": 571
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "idol2", 
+            "path": "maya_temple.form/idol2.png", 
+            "w": 44, 
+            "x": 790, 
+            "y": 528
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "idol3_cover", 
+            "path": "maya_temple.form/idol3_cover.png", 
+            "w": 28, 
+            "x": 571, 
+            "y": 506
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "idol3", 
+            "path": "maya_temple.form/idol3.png", 
+            "w": 35, 
+            "x": 574, 
+            "y": 507
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "idol4_cover", 
+            "path": "maya_temple.form/idol4_cover.png", 
+            "w": 42, 
+            "x": 1167, 
+            "y": 504
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "idol4", 
+            "path": "maya_temple.form/idol4.png", 
+            "w": 35, 
+            "x": 1169, 
+            "y": 482
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "idol5_cover", 
+            "path": "maya_temple.form/idol5_cover.png", 
+            "w": 36, 
+            "x": 310, 
+            "y": 618
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "idol5", 
+            "path": "maya_temple.form/idol5.png", 
+            "w": 52, 
+            "x": 312, 
+            "y": 618
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "idol6_cover", 
+            "path": "maya_temple.form/idol6_cover.png", 
+            "w": 42, 
+            "x": 845, 
+            "y": 387
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "idol6", 
+            "path": "maya_temple.form/idol6.png", 
+            "w": 35, 
+            "x": 847, 
+            "y": 388
+          }
+        }
+      ], 
+      "name": "金の偶像", 
+      "path": "maya_temple.sils/idol.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "dog1", 
+            "path": "maya_temple.form/dog1.png", 
+            "w": 41, 
+            "x": 1000, 
+            "y": 474
+          }
+        }, 
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "dog2", 
+            "path": "maya_temple.form/dog2.png", 
+            "w": 41, 
+            "x": 839, 
+            "y": 471
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "dog3_cover", 
+            "path": "maya_temple.form/dog3_cover.png", 
+            "w": 38, 
+            "x": 787, 
+            "y": 93
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "dog3", 
+            "path": "maya_temple.form/dog3.png", 
+            "w": 32, 
+            "x": 789, 
+            "y": 65
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "dog4_cover", 
+            "path": "maya_temple.form/dog4_cover.png", 
+            "w": 39, 
+            "x": 449, 
+            "y": 338
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "dog4", 
+            "path": "maya_temple.form/dog4.png", 
+            "w": 36, 
+            "x": 450, 
+            "y": 324
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 5, 
+            "name": "dog5_cover", 
+            "path": "maya_temple.form/dog5_cover.png", 
+            "w": 31, 
+            "x": 929, 
+            "y": 512
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "dog5", 
+            "path": "maya_temple.form/dog5.png", 
+            "w": 33, 
+            "x": 924, 
+            "y": 514
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "dog6_cover", 
+            "path": "maya_temple.form/dog6_cover.png", 
+            "w": 36, 
+            "x": 512, 
+            "y": 135
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "dog6", 
+            "path": "maya_temple.form/dog6.png", 
+            "w": 44, 
+            "x": 513, 
+            "y": 135
+          }
+        }
+      ], 
+      "name": "犬の像", 
+      "path": "maya_temple.sils/dog.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "pistol1", 
+            "path": "maya_temple.form/pistol1.png", 
+            "w": 83, 
+            "x": 817, 
+            "y": 624
+          }
+        }, 
+        {
+          "pic": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "pistol2", 
+            "path": "maya_temple.form/pistol2.png", 
+            "w": 60, 
+            "x": 1010, 
+            "y": 312
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "pistol3_cover", 
+            "path": "maya_temple.form/pistol3_cover.png", 
+            "w": 29, 
+            "x": 905, 
+            "y": 496
+          }, 
+          "pic": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "pistol3", 
+            "path": "maya_temple.form/pistol3.png", 
+            "w": 36, 
+            "x": 904, 
+            "y": 458
+          }
+        }, 
+        {
+          "cover": {
+            "h": 88, 
+            "layer": 5, 
+            "name": "pistol4_cover", 
+            "path": "maya_temple.form/pistol4_cover.png", 
+            "w": 39, 
+            "x": 235, 
+            "y": 532
+          }, 
+          "pic": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "pistol4", 
+            "path": "maya_temple.form/pistol4.png", 
+            "w": 41, 
+            "x": 230, 
+            "y": 534
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "pistol5_cover", 
+            "path": "maya_temple.form/pistol5_cover.png", 
+            "w": 40, 
+            "x": 1090, 
+            "y": 224
+          }, 
+          "pic": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "pistol5", 
+            "path": "maya_temple.form/pistol5.png", 
+            "w": 55, 
+            "x": 1092, 
+            "y": 225
+          }
+        }, 
+        {
+          "cover": {
+            "h": 81, 
+            "layer": 5, 
+            "name": "pistol6_cover", 
+            "path": "maya_temple.form/pistol6_cover.png", 
+            "w": 46, 
+            "x": 288, 
+            "y": 399
+          }, 
+          "pic": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "pistol6", 
+            "path": "maya_temple.form/pistol6.png", 
+            "w": 52, 
+            "x": 278, 
+            "y": 402
+          }
+        }
+      ], 
+      "name": "ピストル", 
+      "path": "maya_temple.sils/pistol.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "pouch1", 
+            "path": "maya_temple.form/pouch1.png", 
+            "w": 49, 
+            "x": 247, 
+            "y": 225
+          }
+        }, 
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "pouch2", 
+            "path": "maya_temple.form/pouch2.png", 
+            "w": 49, 
+            "x": 956, 
+            "y": 141
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "pouch3_cover", 
+            "path": "maya_temple.form/pouch3_cover.png", 
+            "w": 40, 
+            "x": 778, 
+            "y": 336
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "pouch3", 
+            "path": "maya_temple.form/pouch3.png", 
+            "w": 40, 
+            "x": 779, 
+            "y": 327
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "pouch4_cover", 
+            "path": "maya_temple.form/pouch4_cover.png", 
+            "w": 30, 
+            "x": 338, 
+            "y": 508
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "pouch4", 
+            "path": "maya_temple.form/pouch4.png", 
+            "w": 43, 
+            "x": 338, 
+            "y": 509
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "pouch5_cover", 
+            "path": "maya_temple.form/pouch5_cover.png", 
+            "w": 46, 
+            "x": 1128, 
+            "y": 92
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "pouch5", 
+            "path": "maya_temple.form/pouch5.png", 
+            "w": 40, 
+            "x": 1129, 
+            "y": 95
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "pouch6_cover", 
+            "path": "maya_temple.form/pouch6_cover.png", 
+            "w": 43, 
+            "x": 396, 
+            "y": 344
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "pouch6", 
+            "path": "maya_temple.form/pouch6.png", 
+            "w": 38, 
+            "x": 396, 
+            "y": 344
+          }
+        }
+      ], 
+      "name": "小袋", 
+      "path": "maya_temple.sils/pouch.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "helmet1", 
+            "path": "maya_temple.form/helmet1.png", 
+            "w": 43, 
+            "x": 732, 
+            "y": 559
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "helmet2", 
+            "path": "maya_temple.form/helmet2.png", 
+            "w": 38, 
+            "x": 725, 
+            "y": 468
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "helmet3_cover", 
+            "path": "maya_temple.form/helmet3_cover.png", 
+            "w": 46, 
+            "x": 1048, 
+            "y": 13
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "helmet3", 
+            "path": "maya_temple.form/helmet3.png", 
+            "w": 44, 
+            "x": 1046, 
+            "y": 1
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "helmet4_cover", 
+            "path": "maya_temple.form/helmet4_cover.png", 
+            "w": 56, 
+            "x": 1195, 
+            "y": 390
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "helmet4", 
+            "path": "maya_temple.form/helmet4.png", 
+            "w": 53, 
+            "x": 1198, 
+            "y": 378
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "helmet5_cover", 
+            "path": "maya_temple.form/helmet5_cover.png", 
+            "w": 37, 
+            "x": 251, 
+            "y": 178
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "helmet5", 
+            "path": "maya_temple.form/helmet5.png", 
+            "w": 43, 
+            "x": 241, 
+            "y": 180
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "helmet6_cover", 
+            "path": "maya_temple.form/helmet6_cover.png", 
+            "w": 48, 
+            "x": 855, 
+            "y": 6
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "helmet6", 
+            "path": "maya_temple.form/helmet6.png", 
+            "w": 47, 
+            "x": 851, 
+            "y": 8
+          }
+        }
+      ], 
+      "name": "古代の兜", 
+      "path": "maya_temple.sils/helmet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "backpack1", 
+            "path": "maya_temple.form/backpack1.png", 
+            "w": 48, 
+            "x": 748, 
+            "y": 390
+          }
+        }, 
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "backpack2", 
+            "path": "maya_temple.form/backpack2.png", 
+            "w": 45, 
+            "x": 554, 
+            "y": 282
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "backpack3_cover", 
+            "path": "maya_temple.form/backpack3_cover.png", 
+            "w": 46, 
+            "x": 683, 
+            "y": 526
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "backpack3", 
+            "path": "maya_temple.form/backpack3.png", 
+            "w": 48, 
+            "x": 681, 
+            "y": 509
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 5, 
+            "name": "backpack4_cover", 
+            "path": "maya_temple.form/backpack4_cover.png", 
+            "w": 33, 
+            "x": 454, 
+            "y": 388
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "backpack4", 
+            "path": "maya_temple.form/backpack4.png", 
+            "w": 48, 
+            "x": 455, 
+            "y": 389
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "backpack5_cover", 
+            "path": "maya_temple.form/backpack5_cover.png", 
+            "w": 52, 
+            "x": 487, 
+            "y": 592
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "backpack5", 
+            "path": "maya_temple.form/backpack5.png", 
+            "w": 48, 
+            "x": 489, 
+            "y": 594
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 5, 
+            "name": "backpack6_cover", 
+            "path": "maya_temple.form/backpack6_cover.png", 
+            "w": 54, 
+            "x": 254, 
+            "y": 44
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "backpack6", 
+            "path": "maya_temple.form/backpack6.png", 
+            "w": 48, 
+            "x": 256, 
+            "y": 47
+          }
+        }
+      ], 
+      "name": "リュックサック", 
+      "path": "maya_temple.sils/backpack.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "parrot1", 
+            "path": "maya_temple.form/parrot1.png", 
+            "w": 52, 
+            "x": 671, 
+            "y": 121
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "parrot2", 
+            "path": "maya_temple.form/parrot2.png", 
+            "w": 48, 
+            "x": 585, 
+            "y": 603
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "parrot3_cover", 
+            "path": "maya_temple.form/parrot3_cover.png", 
+            "w": 32, 
+            "x": 1156, 
+            "y": 359
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "parrot3", 
+            "path": "maya_temple.form/parrot3.png", 
+            "w": 43, 
+            "x": 1156, 
+            "y": 353
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 5, 
+            "name": "parrot4_cover", 
+            "path": "maya_temple.form/parrot4_cover.png", 
+            "w": 45, 
+            "x": 711, 
+            "y": 207
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "parrot4", 
+            "path": "maya_temple.form/parrot4.png", 
+            "w": 44, 
+            "x": 709, 
+            "y": 207
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "parrot5_cover", 
+            "path": "maya_temple.form/parrot5_cover.png", 
+            "w": 28, 
+            "x": 1107, 
+            "y": 130
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "parrot5", 
+            "path": "maya_temple.form/parrot5.png", 
+            "w": 51, 
+            "x": 1109, 
+            "y": 131
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "parrot6_cover", 
+            "path": "maya_temple.form/parrot6_cover.png", 
+            "w": 21, 
+            "x": 306, 
+            "y": 296
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "parrot6", 
+            "path": "maya_temple.form/parrot6.png", 
+            "w": 42, 
+            "x": 279, 
+            "y": 299
+          }
+        }
+      ], 
+      "name": "オウム", 
+      "path": "maya_temple.sils/parrot.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "map1", 
+            "path": "maya_temple.form/map1.png", 
+            "w": 43, 
+            "x": 1131, 
+            "y": 181
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "map2", 
+            "path": "maya_temple.form/map2.png", 
+            "w": 37, 
+            "x": 234, 
+            "y": 385
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 5, 
+            "name": "map3_cover", 
+            "path": "maya_temple.form/map3_cover.png", 
+            "w": 34, 
+            "x": 1190, 
+            "y": 279
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "map3", 
+            "path": "maya_temple.form/map3.png", 
+            "w": 47, 
+            "x": 1191, 
+            "y": 276
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "map4_cover", 
+            "path": "maya_temple.form/map4_cover.png", 
+            "w": 28, 
+            "x": 696, 
+            "y": 351
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "map4", 
+            "path": "maya_temple.form/map4.png", 
+            "w": 37, 
+            "x": 698, 
+            "y": 353
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "map5_cover", 
+            "path": "maya_temple.form/map5_cover.png", 
+            "w": 48, 
+            "x": 557, 
+            "y": 120
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "map5", 
+            "path": "maya_temple.form/map5.png", 
+            "w": 48, 
+            "x": 553, 
+            "y": 123
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "map6_cover", 
+            "path": "maya_temple.form/map6_cover.png", 
+            "w": 45, 
+            "x": 1082, 
+            "y": 414
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "map6", 
+            "path": "maya_temple.form/map6.png", 
+            "w": 47, 
+            "x": 1085, 
+            "y": 415
+          }
+        }
+      ], 
+      "name": "ボロボロの地図", 
+      "path": "maya_temple.sils/map.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "amulet1", 
+            "path": "maya_temple.form/amulet1.png", 
+            "w": 39, 
+            "x": 327, 
+            "y": 289
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "amulet2", 
+            "path": "maya_temple.form/amulet2.png", 
+            "w": 40, 
+            "x": 648, 
+            "y": 349
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "amulet3_cover", 
+            "path": "maya_temple.form/amulet3_cover.png", 
+            "w": 28, 
+            "x": 1080, 
+            "y": 357
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "amulet3", 
+            "path": "maya_temple.form/amulet3.png", 
+            "w": 40, 
+            "x": 1081, 
+            "y": 351
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "amulet4_cover", 
+            "path": "maya_temple.form/amulet4_cover.png", 
+            "w": 26, 
+            "x": 1189, 
+            "y": 535
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "amulet4", 
+            "path": "maya_temple.form/amulet4.png", 
+            "w": 40, 
+            "x": 1190, 
+            "y": 536
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 5, 
+            "name": "amulet5_cover", 
+            "path": "maya_temple.form/amulet5_cover.png", 
+            "w": 45, 
+            "x": 975, 
+            "y": 561
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "amulet5", 
+            "path": "maya_temple.form/amulet5.png", 
+            "w": 40, 
+            "x": 976, 
+            "y": 562
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "amulet6_cover", 
+            "path": "maya_temple.form/amulet6_cover.png", 
+            "w": 38, 
+            "x": 951, 
+            "y": 4
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "amulet6", 
+            "path": "maya_temple.form/amulet6.png", 
+            "w": 45, 
+            "x": 953, 
+            "y": 5
+          }
+        }
+      ], 
+      "name": "お守り", 
+      "path": "maya_temple.sils/amulet.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "monkey1", 
+            "path": "maya_temple.form/monkey1.png", 
+            "w": 55, 
+            "x": 390, 
+            "y": 492
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "monkey2", 
+            "path": "maya_temple.form/monkey2.png", 
+            "w": 38, 
+            "x": 811, 
+            "y": 369
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "monkey3_cover", 
+            "path": "maya_temple.form/monkey3_cover.png", 
+            "w": 40, 
+            "x": 950, 
+            "y": 245
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "monkey3", 
+            "path": "maya_temple.form/monkey3.png", 
+            "w": 41, 
+            "x": 944, 
+            "y": 247
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "monkey4_cover", 
+            "path": "maya_temple.form/monkey4_cover.png", 
+            "w": 43, 
+            "x": 725, 
+            "y": 80
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "monkey4", 
+            "path": "maya_temple.form/monkey4.png", 
+            "w": 37, 
+            "x": 728, 
+            "y": 82
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "monkey5_cover", 
+            "path": "maya_temple.form/monkey5_cover.png", 
+            "w": 37, 
+            "x": 514, 
+            "y": 503
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "monkey5", 
+            "path": "maya_temple.form/monkey5.png", 
+            "w": 34, 
+            "x": 515, 
+            "y": 504
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "monkey6_cover", 
+            "path": "maya_temple.form/monkey6_cover.png", 
+            "w": 38, 
+            "x": 251, 
+            "y": 483
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "monkey6", 
+            "path": "maya_temple.form/monkey6.png", 
+            "w": 34, 
+            "x": 252, 
+            "y": 479
+          }
+        }
+      ], 
+      "name": "サル", 
+      "path": "maya_temple.sils/monkey.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "ananas1", 
+            "path": "maya_temple.form/ananas1.png", 
+            "w": 32, 
+            "x": 1137, 
+            "y": 481
+          }
+        }, 
+        {
+          "pic": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "ananas2", 
+            "path": "maya_temple.form/ananas2.png", 
+            "w": 35, 
+            "x": 1045, 
+            "y": 136
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "ananas3_cover", 
+            "path": "maya_temple.form/ananas3_cover.png", 
+            "w": 30, 
+            "x": 337, 
+            "y": 38
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "ananas3", 
+            "path": "maya_temple.form/ananas3.png", 
+            "w": 38, 
+            "x": 325, 
+            "y": 2
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "ananas4_cover", 
+            "path": "maya_temple.form/ananas4_cover.png", 
+            "w": 43, 
+            "x": 295, 
+            "y": 356
+          }, 
+          "pic": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "ananas4", 
+            "path": "maya_temple.form/ananas4.png", 
+            "w": 51, 
+            "x": 282, 
+            "y": 356
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "ananas5_cover", 
+            "path": "maya_temple.form/ananas5_cover.png", 
+            "w": 29, 
+            "x": 503, 
+            "y": 477
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "ananas5", 
+            "path": "maya_temple.form/ananas5.png", 
+            "w": 32, 
+            "x": 500, 
+            "y": 447
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "ananas6_cover", 
+            "path": "maya_temple.form/ananas6_cover.png", 
+            "w": 32, 
+            "x": 751, 
+            "y": 308
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "ananas6", 
+            "path": "maya_temple.form/ananas6.png", 
+            "w": 38, 
+            "x": 753, 
+            "y": 291
+          }
+        }
+      ], 
+      "name": "パイナップル", 
+      "path": "maya_temple.sils/ananas.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "cup1", 
+            "path": "maya_temple.form/cup1.png", 
+            "w": 33, 
+            "x": 607, 
+            "y": 501
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "cup2", 
+            "path": "maya_temple.form/cup2.png", 
+            "w": 36, 
+            "x": 875, 
+            "y": 443
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "cup3_cover", 
+            "path": "maya_temple.form/cup3_cover.png", 
+            "w": 32, 
+            "x": 534, 
+            "y": 563
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "cup3", 
+            "path": "maya_temple.form/cup3.png", 
+            "w": 41, 
+            "x": 536, 
+            "y": 558
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "cup4_cover", 
+            "path": "maya_temple.form/cup4_cover.png", 
+            "w": 38, 
+            "x": 904, 
+            "y": 353
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "cup4", 
+            "path": "maya_temple.form/cup4.png", 
+            "w": 33, 
+            "x": 904, 
+            "y": 356
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "cup5_cover", 
+            "path": "maya_temple.form/cup5_cover.png", 
+            "w": 39, 
+            "x": 1002, 
+            "y": 176
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "cup5", 
+            "path": "maya_temple.form/cup5.png", 
+            "w": 45, 
+            "x": 1004, 
+            "y": 175
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "cup6_cover", 
+            "path": "maya_temple.form/cup6_cover.png", 
+            "w": 45, 
+            "x": 674, 
+            "y": 310
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "cup6", 
+            "path": "maya_temple.form/cup6.png", 
+            "w": 41, 
+            "x": 676, 
+            "y": 311
+          }
+        }
+      ], 
+      "name": "金の杯", 
+      "path": "maya_temple.sils/cup.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "necklace1", 
+            "path": "maya_temple.form/necklace1.png", 
+            "w": 59, 
+            "x": 640, 
+            "y": 396
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "necklace2", 
+            "path": "maya_temple.form/necklace2.png", 
+            "w": 55, 
+            "x": 327, 
+            "y": 57
+          }
+        }, 
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "necklace3", 
+            "path": "maya_temple.form/necklace3.png", 
+            "w": 60, 
+            "x": 647, 
+            "y": 36
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "necklace4_cover", 
+            "path": "maya_temple.form/necklace4_cover.png", 
+            "w": 62, 
+            "x": 789, 
+            "y": 138
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "necklace4", 
+            "path": "maya_temple.form/necklace4.png", 
+            "w": 61, 
+            "x": 787, 
+            "y": 138
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "necklace5_cover", 
+            "path": "maya_temple.form/necklace5_cover.png", 
+            "w": 49, 
+            "x": 449, 
+            "y": 221
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "necklace5", 
+            "path": "maya_temple.form/necklace5.png", 
+            "w": 61, 
+            "x": 448, 
+            "y": 212
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "necklace6_cover", 
+            "path": "maya_temple.form/necklace6_cover.png", 
+            "w": 65, 
+            "x": 506, 
+            "y": 64
+          }, 
+          "pic": {
+            "h": 74, 
+            "layer": 4, 
+            "name": "necklace6", 
+            "path": "maya_temple.form/necklace6.png", 
+            "w": 64, 
+            "x": 506, 
+            "y": 62
+          }
+        }
+      ], 
+      "name": "首飾り", 
+      "path": "maya_temple.sils/necklace.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "mask1", 
+            "path": "maya_temple.form/mask1.png", 
+            "w": 46, 
+            "x": 736, 
+            "y": 188
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "mask2", 
+            "path": "maya_temple.form/mask2.png", 
+            "w": 45, 
+            "x": 991, 
+            "y": 233
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "mask3_cover", 
+            "path": "maya_temple.form/mask3_cover.png", 
+            "w": 32, 
+            "x": 703, 
+            "y": 400
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "mask3", 
+            "path": "maya_temple.form/mask3.png", 
+            "w": 47, 
+            "x": 702, 
+            "y": 394
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "mask4_cover", 
+            "path": "maya_temple.form/mask4_cover.png", 
+            "w": 41, 
+            "x": 435, 
+            "y": 477
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "mask4", 
+            "path": "maya_temple.form/mask4.png", 
+            "w": 44, 
+            "x": 437, 
+            "y": 478
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "mask5_cover", 
+            "path": "maya_temple.form/mask5_cover.png", 
+            "w": 35, 
+            "x": 1208, 
+            "y": 593
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "mask5", 
+            "path": "maya_temple.form/mask5.png", 
+            "w": 42, 
+            "x": 1210, 
+            "y": 579
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "mask6_cover", 
+            "path": "maya_temple.form/mask6_cover.png", 
+            "w": 28, 
+            "x": 395, 
+            "y": 206
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "mask6", 
+            "path": "maya_temple.form/mask6.png", 
+            "w": 41, 
+            "x": 397, 
+            "y": 206
+          }
+        }
+      ], 
+      "name": "石の仮面", 
+      "path": "maya_temple.sils/mask.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "plate1", 
+            "path": "maya_temple.form/plate1.png", 
+            "w": 41, 
+            "x": 1208, 
+            "y": 226
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "plate2", 
+            "path": "maya_temple.form/plate2.png", 
+            "w": 53, 
+            "x": 265, 
+            "y": 572
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "plate3_cover", 
+            "path": "maya_temple.form/plate3_cover.png", 
+            "w": 34, 
+            "x": 654, 
+            "y": 277
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "plate3", 
+            "path": "maya_temple.form/plate3.png", 
+            "w": 44, 
+            "x": 646, 
+            "y": 274
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "plate4_cover", 
+            "path": "maya_temple.form/plate4_cover.png", 
+            "w": 47, 
+            "x": 713, 
+            "y": 270
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "plate4", 
+            "path": "maya_temple.form/plate4.png", 
+            "w": 44, 
+            "x": 715, 
+            "y": 271
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "plate5_cover", 
+            "path": "maya_temple.form/plate5_cover.png", 
+            "w": 43, 
+            "x": 800, 
+            "y": 36
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "plate5", 
+            "path": "maya_temple.form/plate5.png", 
+            "w": 41, 
+            "x": 799, 
+            "y": 24
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "plate6_cover", 
+            "path": "maya_temple.form/plate6_cover.png", 
+            "w": 50, 
+            "x": 584, 
+            "y": 385
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "plate6", 
+            "path": "maya_temple.form/plate6.png", 
+            "w": 43, 
+            "x": 587, 
+            "y": 386
+          }
+        }
+      ], 
+      "name": "儀礼用の皿", 
+      "path": "maya_temple.sils/plate.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "compass1", 
+            "path": "maya_temple.form/compass1.png", 
+            "w": 47, 
+            "x": 920, 
+            "y": 603
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "compass2", 
+            "path": "maya_temple.form/compass2.png", 
+            "w": 41, 
+            "x": 1098, 
+            "y": 259
+          }
+        }, 
+        {
+          "cover": {
+            "h": 70, 
+            "layer": 5, 
+            "name": "compass3_cover", 
+            "path": "maya_temple.form/compass3_cover.png", 
+            "w": 36, 
+            "x": 1194, 
+            "y": 160
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "compass3", 
+            "path": "maya_temple.form/compass3.png", 
+            "w": 47, 
+            "x": 1201, 
+            "y": 166
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "compass4_cover", 
+            "path": "maya_temple.form/compass4_cover.png", 
+            "w": 37, 
+            "x": 569, 
+            "y": 9
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "compass4", 
+            "path": "maya_temple.form/compass4.png", 
+            "w": 54, 
+            "x": 571, 
+            "y": 9
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "compass5_cover", 
+            "path": "maya_temple.form/compass5_cover.png", 
+            "w": 49, 
+            "x": 659, 
+            "y": 160
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "compass5", 
+            "path": "maya_temple.form/compass5.png", 
+            "w": 46, 
+            "x": 662, 
+            "y": 164
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "compass6_cover", 
+            "path": "maya_temple.form/compass6_cover.png", 
+            "w": 42, 
+            "x": 976, 
+            "y": 104
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "compass6", 
+            "path": "maya_temple.form/compass6.png", 
+            "w": 50, 
+            "x": 979, 
+            "y": 98
+          }
+        }
+      ], 
+      "name": "方位磁石", 
+      "path": "maya_temple.sils/compass.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "scroll1", 
+            "path": "maya_temple.form/scroll1.png", 
+            "w": 30, 
+            "x": 1081, 
+            "y": 462
+          }
+        }, 
+        {
+          "pic": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "scroll2", 
+            "path": "maya_temple.form/scroll2.png", 
+            "w": 20, 
+            "x": 337, 
+            "y": 358
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "scroll3_cover", 
+            "path": "maya_temple.form/scroll3_cover.png", 
+            "w": 33, 
+            "x": 1162, 
+            "y": 6
+          }, 
+          "pic": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "scroll3", 
+            "path": "maya_temple.form/scroll3.png", 
+            "w": 59, 
+            "x": 1164, 
+            "y": 7
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "scroll4_cover", 
+            "path": "maya_temple.form/scroll4_cover.png", 
+            "w": 18, 
+            "x": 911, 
+            "y": 284
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "scroll4", 
+            "path": "maya_temple.form/scroll4.png", 
+            "w": 29, 
+            "x": 898, 
+            "y": 269
+          }
+        }, 
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "scroll5", 
+            "path": "maya_temple.form/scroll5.png", 
+            "w": 32, 
+            "x": 929, 
+            "y": 49
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "scroll6_cover", 
+            "path": "maya_temple.form/scroll6_cover.png", 
+            "w": 31, 
+            "x": 1169, 
+            "y": 425
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "scroll6", 
+            "path": "maya_temple.form/scroll6.png", 
+            "w": 37, 
+            "x": 1171, 
+            "y": 426
+          }
+        }
+      ], 
+      "name": "古代の巻物", 
+      "path": "maya_temple.sils/scroll.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "dagger1", 
+            "path": "maya_temple.form/dagger1.png", 
+            "w": 92, 
+            "x": 888, 
+            "y": 390
+          }
+        }, 
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "dagger2", 
+            "path": "maya_temple.form/dagger2.png", 
+            "w": 30, 
+            "x": 1143, 
+            "y": 276
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "dagger3_cover", 
+            "path": "maya_temple.form/dagger3_cover.png", 
+            "w": 15, 
+            "x": 670, 
+            "y": 554
+          }, 
+          "pic": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "dagger3", 
+            "path": "maya_temple.form/dagger3.png", 
+            "w": 28, 
+            "x": 656, 
+            "y": 493
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "dagger4_cover", 
+            "path": "maya_temple.form/dagger4_cover.png", 
+            "w": 41, 
+            "x": 313, 
+            "y": 567
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "dagger4", 
+            "path": "maya_temple.form/dagger4.png", 
+            "w": 82, 
+            "x": 314, 
+            "y": 556
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "dagger5_cover", 
+            "path": "maya_temple.form/dagger5_cover.png", 
+            "w": 13, 
+            "x": 874, 
+            "y": 112
+          }, 
+          "pic": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "dagger5", 
+            "path": "maya_temple.form/dagger5.png", 
+            "w": 29, 
+            "x": 867, 
+            "y": 116
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "dagger6_cover", 
+            "path": "maya_temple.form/dagger6_cover.png", 
+            "w": 32, 
+            "x": 258, 
+            "y": 103
+          }, 
+          "pic": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "dagger6", 
+            "path": "maya_temple.form/dagger6.png", 
+            "w": 52, 
+            "x": 235, 
+            "y": 78
+          }
+        }
+      ], 
+      "name": "短剣", 
+      "path": "maya_temple.sils/dagger.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "arrow1", 
+            "path": "maya_temple.form/arrow1.png", 
+            "w": 104, 
+            "x": 748, 
+            "y": 600
+          }
+        }, 
+        {
+          "pic": {
+            "h": 101, 
+            "layer": 4, 
+            "name": "arrow2", 
+            "path": "maya_temple.form/arrow2.png", 
+            "w": 38, 
+            "x": 1036, 
+            "y": 267
+          }
+        }, 
+        {
+          "pic": {
+            "h": 105, 
+            "layer": 4, 
+            "name": "arrow3", 
+            "path": "maya_temple.form/arrow3.png", 
+            "w": 14, 
+            "x": 235, 
+            "y": 269
+          }
+        }, 
+        {
+          "pic": {
+            "h": 106, 
+            "layer": 4, 
+            "name": "arrow4", 
+            "path": "maya_temple.form/arrow4.png", 
+            "w": 17, 
+            "x": 405, 
+            "y": 90
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "arrow5_cover", 
+            "path": "maya_temple.form/arrow5_cover.png", 
+            "w": 52, 
+            "x": 310, 
+            "y": 272
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "arrow5", 
+            "path": "maya_temple.form/arrow5.png", 
+            "w": 100, 
+            "x": 258, 
+            "y": 274
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "arrow6_cover", 
+            "path": "maya_temple.form/arrow6_cover.png", 
+            "w": 29, 
+            "x": 1170, 
+            "y": 81
+          }, 
+          "pic": {
+            "h": 98, 
+            "layer": 4, 
+            "name": "arrow6", 
+            "path": "maya_temple.form/arrow6.png", 
+            "w": 41, 
+            "x": 1166, 
+            "y": 58
+          }
+        }
+      ], 
+      "name": "矢", 
+      "path": "maya_temple.sils/arrow.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "banana1_cover", 
+            "path": "maya_temple.form/banana1_cover.png", 
+            "w": 29, 
+            "x": 1038, 
+            "y": 80
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "banana1", 
+            "path": "maya_temple.form/banana1.png", 
+            "w": 38, 
+            "x": 1028, 
+            "y": 83
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "banana2_cover", 
+            "path": "maya_temple.form/banana2_cover.png", 
+            "w": 30, 
+            "x": 342, 
+            "y": 156
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "banana2", 
+            "path": "maya_temple.form/banana2.png", 
+            "w": 42, 
+            "x": 330, 
+            "y": 157
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "banana3", 
+            "path": "maya_temple.form/banana3.png", 
+            "w": 46, 
+            "x": 455, 
+            "y": 178
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "banana4_cover", 
+            "path": "maya_temple.form/banana4_cover.png", 
+            "w": 31, 
+            "x": 915, 
+            "y": 334
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "banana4", 
+            "path": "maya_temple.form/banana4.png", 
+            "w": 49, 
+            "x": 893, 
+            "y": 317
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "banana5_cover", 
+            "path": "maya_temple.form/banana5_cover.png", 
+            "w": 37, 
+            "x": 1090, 
+            "y": 168
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "banana5", 
+            "path": "maya_temple.form/banana5.png", 
+            "w": 40, 
+            "x": 1092, 
+            "y": 171
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "banana6_cover", 
+            "path": "maya_temple.form/banana6_cover.png", 
+            "w": 45, 
+            "x": 990, 
+            "y": 373
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "banana6", 
+            "path": "maya_temple.form/banana6.png", 
+            "w": 44, 
+            "x": 987, 
+            "y": 374
+          }
+        }
+      ], 
+      "name": "バナナ", 
+      "path": "maya_temple.sils/banana.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "flute1", 
+            "path": "maya_temple.form/flute1.png", 
+            "w": 19, 
+            "x": 824, 
+            "y": 445
+          }
+        }, 
+        {
+          "pic": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "flute2", 
+            "path": "maya_temple.form/flute2.png", 
+            "w": 33, 
+            "x": 1042, 
+            "y": 377
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "flute3_cover", 
+            "path": "maya_temple.form/flute3_cover.png", 
+            "w": 18, 
+            "x": 1069, 
+            "y": 298
+          }, 
+          "pic": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "flute3", 
+            "path": "maya_temple.form/flute3.png", 
+            "w": 16, 
+            "x": 1067, 
+            "y": 268
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "flute4_cover", 
+            "path": "maya_temple.form/flute4_cover.png", 
+            "w": 33, 
+            "x": 961, 
+            "y": 227
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "flute4", 
+            "path": "maya_temple.form/flute4.png", 
+            "w": 68, 
+            "x": 923, 
+            "y": 196
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "flute5_cover", 
+            "path": "maya_temple.form/flute5_cover.png", 
+            "w": 15, 
+            "x": 852, 
+            "y": 110
+          }, 
+          "pic": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "flute5", 
+            "path": "maya_temple.form/flute5.png", 
+            "w": 11, 
+            "x": 853, 
+            "y": 113
+          }
+        }, 
+        {
+          "cover": {
+            "h": 68, 
+            "layer": 5, 
+            "name": "flute6_cover", 
+            "path": "maya_temple.form/flute6_cover.png", 
+            "w": 17, 
+            "x": 491, 
+            "y": 508
+          }, 
+          "pic": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "flute6", 
+            "path": "maya_temple.form/flute6.png", 
+            "w": 16, 
+            "x": 488, 
+            "y": 487
+          }
+        }
+      ], 
+      "name": "笛", 
+      "path": "maya_temple.sils/flute.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "apple1", 
+            "path": "maya_temple.form/apple1.png", 
+            "w": 42, 
+            "x": 826, 
+            "y": 561
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "apple2_cover", 
+            "path": "maya_temple.form/apple2_cover.png", 
+            "w": 36, 
+            "x": 792, 
+            "y": 457
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "apple2", 
+            "path": "maya_temple.form/apple2.png", 
+            "w": 31, 
+            "x": 793, 
+            "y": 437
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "apple3_cover", 
+            "path": "maya_temple.form/apple3_cover.png", 
+            "w": 29, 
+            "x": 378, 
+            "y": 398
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "apple3", 
+            "path": "maya_temple.form/apple3.png", 
+            "w": 36, 
+            "x": 379, 
+            "y": 401
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "apple4_cover", 
+            "path": "maya_temple.form/apple4_cover.png", 
+            "w": 30, 
+            "x": 395, 
+            "y": 577
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "apple4", 
+            "path": "maya_temple.form/apple4.png", 
+            "w": 39, 
+            "x": 382, 
+            "y": 575
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "apple5_cover", 
+            "path": "maya_temple.form/apple5_cover.png", 
+            "w": 40, 
+            "x": 600, 
+            "y": 43
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "apple5", 
+            "path": "maya_temple.form/apple5.png", 
+            "w": 34, 
+            "x": 603, 
+            "y": 47
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "apple6_cover", 
+            "path": "maya_temple.form/apple6_cover.png", 
+            "w": 27, 
+            "x": 708, 
+            "y": 435
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "apple6", 
+            "path": "maya_temple.form/apple6.png", 
+            "w": 37, 
+            "x": 710, 
+            "y": 436
+          }
+        }
+      ], 
+      "name": "青リンゴ", 
+      "path": "maya_temple.sils/apple.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "butterfly1", 
+            "path": "maya_temple.form/butterfly1.png", 
+            "w": 48, 
+            "x": 945, 
+            "y": 336
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "butterfly2", 
+            "path": "maya_temple.form/butterfly2.png", 
+            "w": 49, 
+            "x": 442, 
+            "y": 574
+          }
+        }, 
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "butterfly3", 
+            "path": "maya_temple.form/butterfly3.png", 
+            "w": 39, 
+            "x": 832, 
+            "y": 301
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "butterfly4", 
+            "path": "maya_temple.form/butterfly4.png", 
+            "w": 40, 
+            "x": 736, 
+            "y": 516
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "butterfly5_cover", 
+            "path": "maya_temple.form/butterfly5_cover.png", 
+            "w": 42, 
+            "x": 595, 
+            "y": 223
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "butterfly5", 
+            "path": "maya_temple.form/butterfly5.png", 
+            "w": 43, 
+            "x": 598, 
+            "y": 222
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "butterfly6_cover", 
+            "path": "maya_temple.form/butterfly6_cover.png", 
+            "w": 26, 
+            "x": 376, 
+            "y": 450
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "butterfly6", 
+            "path": "maya_temple.form/butterfly6.png", 
+            "w": 42, 
+            "x": 378, 
+            "y": 452
+          }
+        }
+      ], 
+      "name": "蝶", 
+      "path": "maya_temple.sils/butterfly.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "statue1_1", 
+            "path": "maya_temple.morph/statue1_1.png", 
+            "w": 43, 
+            "x": 775, 
+            "y": 534
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "statue2_1", 
+            "path": "maya_temple.morph/statue2_1.png", 
+            "w": 48, 
+            "x": 771, 
+            "y": 532
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "statue1_2", 
+            "path": "maya_temple.morph/statue1_2.png", 
+            "w": 53, 
+            "x": 1131, 
+            "y": 566
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "statue2_2", 
+            "path": "maya_temple.morph/statue2_2.png", 
+            "w": 47, 
+            "x": 1133, 
+            "y": 565
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "statue1_3", 
+            "path": "maya_temple.morph/statue1_3.png", 
+            "w": 26, 
+            "x": 845, 
+            "y": 393
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "statue2_3", 
+            "path": "maya_temple.morph/statue2_3.png", 
+            "w": 27, 
+            "x": 846, 
+            "y": 392
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "statue1_4", 
+            "path": "maya_temple.morph/statue1_4.png", 
+            "w": 34, 
+            "x": 606, 
+            "y": 504
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "statue2_4", 
+            "path": "maya_temple.morph/statue2_4.png", 
+            "w": 30, 
+            "x": 610, 
+            "y": 503
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "statue1_5_cover", 
+            "path": "maya_temple.morph/statue1_5_cover.png", 
+            "w": 29, 
+            "x": 754, 
+            "y": 305
+          }, 
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "statue1_5", 
+            "path": "maya_temple.morph/statue1_5.png", 
+            "w": 22, 
+            "x": 758, 
+            "y": 301
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "statue2_5", 
+            "path": "maya_temple.morph/statue2_5.png", 
+            "w": 27, 
+            "x": 755, 
+            "y": 300
+          }
+        }
+      ], 
+      "name": "statue"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "orchid1_1", 
+            "path": "maya_temple.morph/orchid1_1.png", 
+            "w": 34, 
+            "x": 644, 
+            "y": 109
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "orchid2_1", 
+            "path": "maya_temple.morph/orchid2_1.png", 
+            "w": 42, 
+            "x": 639, 
+            "y": 110
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "orchid1_2", 
+            "path": "maya_temple.morph/orchid1_2.png", 
+            "w": 26, 
+            "x": 760, 
+            "y": 49
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "orchid2_2", 
+            "path": "maya_temple.morph/orchid2_2.png", 
+            "w": 34, 
+            "x": 757, 
+            "y": 47
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "orchid1_3", 
+            "path": "maya_temple.morph/orchid1_3.png", 
+            "w": 20, 
+            "x": 522, 
+            "y": 170
+          }, 
+          "pic2": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "orchid2_3", 
+            "path": "maya_temple.morph/orchid2_3.png", 
+            "w": 26, 
+            "x": 519, 
+            "y": 168
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "orchid1_4_cover", 
+            "path": "maya_temple.morph/orchid1_4_cover.png", 
+            "w": 23, 
+            "x": 978, 
+            "y": 60
+          }, 
+          "pic1": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "orchid1_4", 
+            "path": "maya_temple.morph/orchid1_4.png", 
+            "w": 23, 
+            "x": 985, 
+            "y": 60
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "orchid2_4", 
+            "path": "maya_temple.morph/orchid2_4.png", 
+            "w": 29, 
+            "x": 981, 
+            "y": 61
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "orchid1_5", 
+            "path": "maya_temple.morph/orchid1_5.png", 
+            "w": 23, 
+            "x": 411, 
+            "y": 472
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "orchid2_5", 
+            "path": "maya_temple.morph/orchid2_5.png", 
+            "w": 29, 
+            "x": 407, 
+            "y": 472
+          }
+        }
+      ], 
+      "name": "orchid"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "bone1_1", 
+            "path": "maya_temple.morph/bone1_1.png", 
+            "w": 64, 
+            "x": 679, 
+            "y": 589
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "bone2_1", 
+            "path": "maya_temple.morph/bone2_1.png", 
+            "w": 50, 
+            "x": 687, 
+            "y": 584
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "bone1_2", 
+            "path": "maya_temple.morph/bone1_2.png", 
+            "w": 28, 
+            "x": 997, 
+            "y": 586
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "bone2_2", 
+            "path": "maya_temple.morph/bone2_2.png", 
+            "w": 35, 
+            "x": 999, 
+            "y": 594
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "bone1_3_cover", 
+            "path": "maya_temple.morph/bone1_3_cover.png", 
+            "w": 37, 
+            "x": 883, 
+            "y": 548
+          }, 
+          "pic1": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "bone1_3", 
+            "path": "maya_temple.morph/bone1_3.png", 
+            "w": 49, 
+            "x": 868, 
+            "y": 554
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "bone2_3", 
+            "path": "maya_temple.morph/bone2_3.png", 
+            "w": 39, 
+            "x": 873, 
+            "y": 546
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "bone1_4", 
+            "path": "maya_temple.morph/bone1_4.png", 
+            "w": 20, 
+            "x": 750, 
+            "y": 199
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bone2_4", 
+            "path": "maya_temple.morph/bone2_4.png", 
+            "w": 22, 
+            "x": 749, 
+            "y": 205
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "bone1_5_cover", 
+            "path": "maya_temple.morph/bone1_5_cover.png", 
+            "w": 37, 
+            "x": 1047, 
+            "y": 513
+          }, 
+          "pic1": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "bone1_5", 
+            "path": "maya_temple.morph/bone1_5.png", 
+            "w": 47, 
+            "x": 1029, 
+            "y": 516
+          }, 
+          "pic2": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "bone2_5", 
+            "path": "maya_temple.morph/bone2_5.png", 
+            "w": 39, 
+            "x": 1034, 
+            "y": 508
+          }
+        }
+      ], 
+      "name": "bone"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "bas_relief1_1", 
+            "path": "maya_temple.morph/bas_relief1_1.png", 
+            "w": 40, 
+            "x": 900, 
+            "y": 337
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "bas_relief2_1", 
+            "path": "maya_temple.morph/bas_relief2_1.png", 
+            "w": 44, 
+            "x": 898, 
+            "y": 337
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "bas_relief1_2", 
+            "path": "maya_temple.morph/bas_relief1_2.png", 
+            "w": 37, 
+            "x": 561, 
+            "y": 279
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "bas_relief2_2", 
+            "path": "maya_temple.morph/bas_relief2_2.png", 
+            "w": 40, 
+            "x": 559, 
+            "y": 279
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "bas_relief1_3", 
+            "path": "maya_temple.morph/bas_relief1_3.png", 
+            "w": 31, 
+            "x": 753, 
+            "y": 404
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "bas_relief2_3", 
+            "path": "maya_temple.morph/bas_relief2_3.png", 
+            "w": 33, 
+            "x": 753, 
+            "y": 403
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "bas_relief1_4_cover", 
+            "path": "maya_temple.morph/bas_relief1_4_cover.png", 
+            "w": 38, 
+            "x": 799, 
+            "y": 84
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bas_relief1_4", 
+            "path": "maya_temple.morph/bas_relief1_4.png", 
+            "w": 29, 
+            "x": 801, 
+            "y": 67
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bas_relief2_4", 
+            "path": "maya_temple.morph/bas_relief2_4.png", 
+            "w": 31, 
+            "x": 801, 
+            "y": 67
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "bas_relief1_5_cover", 
+            "path": "maya_temple.morph/bas_relief1_5_cover.png", 
+            "w": 28, 
+            "x": 1105, 
+            "y": 230
+          }, 
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "bas_relief1_5", 
+            "path": "maya_temple.morph/bas_relief1_5.png", 
+            "w": 35, 
+            "x": 1109, 
+            "y": 231
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "bas_relief2_5", 
+            "path": "maya_temple.morph/bas_relief2_5.png", 
+            "w": 38, 
+            "x": 1109, 
+            "y": 230
+          }
+        }
+      ], 
+      "name": "bas_relief"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 122, 
+            "layer": 4, 
+            "name": "sword1_1", 
+            "path": "maya_temple.morph/sword1_1.png", 
+            "w": 46, 
+            "x": 1072, 
+            "y": 417
+          }, 
+          "pic2": {
+            "h": 119, 
+            "layer": 4, 
+            "name": "sword2_1", 
+            "path": "maya_temple.morph/sword2_1.png", 
+            "w": 45, 
+            "x": 1073, 
+            "y": 419
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 130, 
+            "layer": 4, 
+            "name": "sword1_2", 
+            "path": "maya_temple.morph/sword1_2.png", 
+            "w": 26, 
+            "x": 341, 
+            "y": 295
+          }, 
+          "pic2": {
+            "h": 125, 
+            "layer": 4, 
+            "name": "sword2_2", 
+            "path": "maya_temple.morph/sword2_2.png", 
+            "w": 21, 
+            "x": 345, 
+            "y": 295
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 92, 
+            "layer": 4, 
+            "name": "sword1_3", 
+            "path": "maya_temple.morph/sword1_3.png", 
+            "w": 38, 
+            "x": 961, 
+            "y": 108
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "sword2_3", 
+            "path": "maya_temple.morph/sword2_3.png", 
+            "w": 37, 
+            "x": 962, 
+            "y": 110
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "sword1_4", 
+            "path": "maya_temple.morph/sword1_4.png", 
+            "w": 70, 
+            "x": 725, 
+            "y": 307
+          }, 
+          "pic2": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "sword2_4", 
+            "path": "maya_temple.morph/sword2_4.png", 
+            "w": 65, 
+            "x": 728, 
+            "y": 310
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "sword1_5_cover", 
+            "path": "maya_temple.morph/sword1_5_cover.png", 
+            "w": 14, 
+            "x": 1222, 
+            "y": 479
+          }, 
+          "pic1": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "sword1_5", 
+            "path": "maya_temple.morph/sword1_5.png", 
+            "w": 12, 
+            "x": 1220, 
+            "y": 441
+          }, 
+          "pic2": {
+            "h": 94, 
+            "layer": 4, 
+            "name": "sword2_5", 
+            "path": "maya_temple.morph/sword2_5.png", 
+            "w": 11, 
+            "x": 1221, 
+            "y": 443
+          }
+        }
+      ], 
+      "name": "sword"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "amulet1_1", 
+            "path": "maya_temple.morph/amulet1_1.png", 
+            "w": 52, 
+            "x": 264, 
+            "y": 575
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "amulet2_1", 
+            "path": "maya_temple.morph/amulet2_1.png", 
+            "w": 40, 
+            "x": 270, 
+            "y": 574
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "amulet1_2", 
+            "path": "maya_temple.morph/amulet1_2.png", 
+            "w": 53, 
+            "x": 569, 
+            "y": 517
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "amulet2_2", 
+            "path": "maya_temple.morph/amulet2_2.png", 
+            "w": 42, 
+            "x": 570, 
+            "y": 518
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "amulet1_3_cover", 
+            "path": "maya_temple.morph/amulet1_3_cover.png", 
+            "w": 50, 
+            "x": 655, 
+            "y": 471
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "amulet1_3", 
+            "path": "maya_temple.morph/amulet1_3.png", 
+            "w": 46, 
+            "x": 654, 
+            "y": 446
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "amulet2_3", 
+            "path": "maya_temple.morph/amulet2_3.png", 
+            "w": 38, 
+            "x": 657, 
+            "y": 447
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "amulet1_4", 
+            "path": "maya_temple.morph/amulet1_4.png", 
+            "w": 31, 
+            "x": 1066, 
+            "y": 566
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "amulet2_4", 
+            "path": "maya_temple.morph/amulet2_4.png", 
+            "w": 23, 
+            "x": 1069, 
+            "y": 567
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "amulet1_5", 
+            "path": "maya_temple.morph/amulet1_5.png", 
+            "w": 26, 
+            "x": 871, 
+            "y": 360
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "amulet2_5", 
+            "path": "maya_temple.morph/amulet2_5.png", 
+            "w": 21, 
+            "x": 873, 
+            "y": 360
+          }
+        }
+      ], 
+      "name": "amulet"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "rope1_1", 
+            "path": "maya_temple.morph/rope1_1.png", 
+            "w": 57, 
+            "x": 626, 
+            "y": 559
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "rope2_1", 
+            "path": "maya_temple.morph/rope2_1.png", 
+            "w": 54, 
+            "x": 626, 
+            "y": 560
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "rope1_2", 
+            "path": "maya_temple.morph/rope1_2.png", 
+            "w": 57, 
+            "x": 557, 
+            "y": 581
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "rope2_2", 
+            "path": "maya_temple.morph/rope2_2.png", 
+            "w": 54, 
+            "x": 557, 
+            "y": 583
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "rope1_3", 
+            "path": "maya_temple.morph/rope1_3.png", 
+            "w": 45, 
+            "x": 1170, 
+            "y": 486
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "rope2_3", 
+            "path": "maya_temple.morph/rope2_3.png", 
+            "w": 42, 
+            "x": 1171, 
+            "y": 485
+          }
+        }, 
+        {
+          "cover": {
+            "h": 9, 
+            "layer": 4, 
+            "name": "rope1_4_cover", 
+            "path": "maya_temple.morph/rope1_4_cover.png", 
+            "w": 33, 
+            "x": 501, 
+            "y": 477
+          }, 
+          "pic1": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "rope1_4", 
+            "path": "maya_temple.morph/rope1_4.png", 
+            "w": 44, 
+            "x": 498, 
+            "y": 464
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "rope2_4", 
+            "path": "maya_temple.morph/rope2_4.png", 
+            "w": 42, 
+            "x": 498, 
+            "y": 463
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "rope1_5_cover", 
+            "path": "maya_temple.morph/rope1_5_cover.png", 
+            "w": 46, 
+            "x": 984, 
+            "y": 369
+          }, 
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "rope1_5", 
+            "path": "maya_temple.morph/rope1_5.png", 
+            "w": 38, 
+            "x": 987, 
+            "y": 372
+          }, 
+          "pic2": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "rope2_5", 
+            "path": "maya_temple.morph/rope2_5.png", 
+            "w": 37, 
+            "x": 987, 
+            "y": 373
+          }
+        }
+      ], 
+      "name": "rope"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "vase1_1", 
+            "path": "maya_temple.morph/vase1_1.png", 
+            "w": 38, 
+            "x": 990, 
+            "y": 475
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "vase2_1", 
+            "path": "maya_temple.morph/vase2_1.png", 
+            "w": 39, 
+            "x": 988, 
+            "y": 472
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "vase1_2", 
+            "path": "maya_temple.morph/vase1_2.png", 
+            "w": 38, 
+            "x": 824, 
+            "y": 519
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "vase2_2", 
+            "path": "maya_temple.morph/vase2_2.png", 
+            "w": 42, 
+            "x": 821, 
+            "y": 518
+          }
+        }, 
+        {
+          "cover": {
+            "h": 9, 
+            "layer": 4, 
+            "name": "vase1_3_cover", 
+            "path": "maya_temple.morph/vase1_3_cover.png", 
+            "w": 21, 
+            "x": 811, 
+            "y": 426
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "vase1_3", 
+            "path": "maya_temple.morph/vase1_3.png", 
+            "w": 29, 
+            "x": 805, 
+            "y": 386
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "vase2_3", 
+            "path": "maya_temple.morph/vase2_3.png", 
+            "w": 30, 
+            "x": 805, 
+            "y": 386
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "vase1_4_cover", 
+            "path": "maya_temple.morph/vase1_4_cover.png", 
+            "w": 33, 
+            "x": 457, 
+            "y": 333
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "vase1_4", 
+            "path": "maya_temple.morph/vase1_4.png", 
+            "w": 33, 
+            "x": 459, 
+            "y": 321
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "vase2_4", 
+            "path": "maya_temple.morph/vase2_4.png", 
+            "w": 36, 
+            "x": 459, 
+            "y": 322
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "vase1_5_cover", 
+            "path": "maya_temple.morph/vase1_5_cover.png", 
+            "w": 32, 
+            "x": 1167, 
+            "y": 389
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "vase1_5", 
+            "path": "maya_temple.morph/vase1_5.png", 
+            "w": 31, 
+            "x": 1169, 
+            "y": 390
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "vase2_5", 
+            "path": "maya_temple.morph/vase2_5.png", 
+            "w": 33, 
+            "x": 1169, 
+            "y": 387
+          }
+        }
+      ], 
+      "name": "vase"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "coin1_1", 
+            "path": "maya_temple.morph/coin1_1.png", 
+            "w": 27, 
+            "x": 410, 
+            "y": 603
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "coin2_1", 
+            "path": "maya_temple.morph/coin2_1.png", 
+            "w": 28, 
+            "x": 409, 
+            "y": 602
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "coin1_2", 
+            "path": "maya_temple.morph/coin1_2.png", 
+            "w": 23, 
+            "x": 696, 
+            "y": 375
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "coin2_2", 
+            "path": "maya_temple.morph/coin2_2.png", 
+            "w": 27, 
+            "x": 693, 
+            "y": 374
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "coin1_3", 
+            "path": "maya_temple.morph/coin1_3.png", 
+            "w": 20, 
+            "x": 431, 
+            "y": 398
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "coin2_3", 
+            "path": "maya_temple.morph/coin2_3.png", 
+            "w": 24, 
+            "x": 429, 
+            "y": 396
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "coin1_4", 
+            "path": "maya_temple.morph/coin1_4.png", 
+            "w": 23, 
+            "x": 658, 
+            "y": 357
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "coin2_4", 
+            "path": "maya_temple.morph/coin2_4.png", 
+            "w": 22, 
+            "x": 658, 
+            "y": 356
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "coin1_5_cover", 
+            "path": "maya_temple.morph/coin1_5_cover.png", 
+            "w": 17, 
+            "x": 396, 
+            "y": 331
+          }, 
+          "pic1": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "coin1_5", 
+            "path": "maya_temple.morph/coin1_5.png", 
+            "w": 18, 
+            "x": 401, 
+            "y": 334
+          }, 
+          "pic2": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "coin2_5", 
+            "path": "maya_temple.morph/coin2_5.png", 
+            "w": 21, 
+            "x": 399, 
+            "y": 333
+          }
+        }
+      ], 
+      "name": "coin"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 94, 
+            "layer": 4, 
+            "name": "knife1_1", 
+            "path": "maya_temple.morph/knife1_1.png", 
+            "w": 20, 
+            "x": 370, 
+            "y": 369
+          }, 
+          "pic2": {
+            "h": 93, 
+            "layer": 4, 
+            "name": "knife2_1", 
+            "path": "maya_temple.morph/knife2_1.png", 
+            "w": 20, 
+            "x": 372, 
+            "y": 368
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "knife1_2", 
+            "path": "maya_temple.morph/knife1_2.png", 
+            "w": 26, 
+            "x": 1122, 
+            "y": 36
+          }, 
+          "pic2": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "knife2_2", 
+            "path": "maya_temple.morph/knife2_2.png", 
+            "w": 28, 
+            "x": 1123, 
+            "y": 36
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "knife1_3", 
+            "path": "maya_temple.morph/knife1_3.png", 
+            "w": 27, 
+            "x": 929, 
+            "y": 47
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "knife2_3", 
+            "path": "maya_temple.morph/knife2_3.png", 
+            "w": 26, 
+            "x": 930, 
+            "y": 46
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "knife1_4", 
+            "path": "maya_temple.morph/knife1_4.png", 
+            "w": 59, 
+            "x": 798, 
+            "y": 124
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "knife2_4", 
+            "path": "maya_temple.morph/knife2_4.png", 
+            "w": 60, 
+            "x": 796, 
+            "y": 123
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "knife1_5_cover", 
+            "path": "maya_temple.morph/knife1_5_cover.png", 
+            "w": 23, 
+            "x": 1177, 
+            "y": 191
+          }, 
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "knife1_5", 
+            "path": "maya_temple.morph/knife1_5.png", 
+            "w": 31, 
+            "x": 1161, 
+            "y": 170
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "knife2_5", 
+            "path": "maya_temple.morph/knife2_5.png", 
+            "w": 33, 
+            "x": 1160, 
+            "y": 169
+          }
+        }
+      ], 
+      "name": "knife"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "bird1_1", 
+            "path": "maya_temple.morph/bird1_1.png", 
+            "w": 44, 
+            "x": 892, 
+            "y": 464
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "bird2_1", 
+            "path": "maya_temple.morph/bird2_1.png", 
+            "w": 37, 
+            "x": 895, 
+            "y": 459
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "bird1_2", 
+            "path": "maya_temple.morph/bird1_2.png", 
+            "w": 47, 
+            "x": 1189, 
+            "y": 577
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bird2_2", 
+            "path": "maya_temple.morph/bird2_2.png", 
+            "w": 40, 
+            "x": 1193, 
+            "y": 572
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "bird1_3", 
+            "path": "maya_temple.morph/bird1_3.png", 
+            "w": 32, 
+            "x": 318, 
+            "y": 13
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "bird2_3", 
+            "path": "maya_temple.morph/bird2_3.png", 
+            "w": 28, 
+            "x": 318, 
+            "y": 10
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "bird1_4", 
+            "path": "maya_temple.morph/bird1_4.png", 
+            "w": 31, 
+            "x": 259, 
+            "y": 263
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "bird2_4", 
+            "path": "maya_temple.morph/bird2_4.png", 
+            "w": 28, 
+            "x": 259, 
+            "y": 259
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "bird1_5_cover", 
+            "path": "maya_temple.morph/bird1_5_cover.png", 
+            "w": 21, 
+            "x": 396, 
+            "y": 264
+          }, 
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "bird1_5", 
+            "path": "maya_temple.morph/bird1_5.png", 
+            "w": 31, 
+            "x": 399, 
+            "y": 271
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "bird2_5", 
+            "path": "maya_temple.morph/bird2_5.png", 
+            "w": 28, 
+            "x": 399, 
+            "y": 268
+          }
+        }
+      ], 
+      "name": "bird"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "sun1_1", 
+            "path": "maya_temple.morph/sun1_1.png", 
+            "w": 38, 
+            "x": 869, 
+            "y": 611
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "sun2_1", 
+            "path": "maya_temple.morph/sun2_1.png", 
+            "w": 29, 
+            "x": 877, 
+            "y": 612
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "sun1_2", 
+            "path": "maya_temple.morph/sun1_2.png", 
+            "w": 28, 
+            "x": 1108, 
+            "y": 302
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "sun2_2", 
+            "path": "maya_temple.morph/sun2_2.png", 
+            "w": 23, 
+            "x": 1113, 
+            "y": 304
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "sun1_3", 
+            "path": "maya_temple.morph/sun1_3.png", 
+            "w": 30, 
+            "x": 719, 
+            "y": 391
+          }, 
+          "pic2": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "sun2_3", 
+            "path": "maya_temple.morph/sun2_3.png", 
+            "w": 24, 
+            "x": 725, 
+            "y": 392
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "sun1_4", 
+            "path": "maya_temple.morph/sun1_4.png", 
+            "w": 29, 
+            "x": 239, 
+            "y": 400
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "sun2_4", 
+            "path": "maya_temple.morph/sun2_4.png", 
+            "w": 23, 
+            "x": 245, 
+            "y": 401
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "sun1_5", 
+            "path": "maya_temple.morph/sun1_5.png", 
+            "w": 30, 
+            "x": 1217, 
+            "y": 258
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "sun2_5", 
+            "path": "maya_temple.morph/sun2_5.png", 
+            "w": 23, 
+            "x": 1223, 
+            "y": 259
+          }
+        }
+      ], 
+      "name": "sun"
+    }
+  ], 
+  "part": [
+    {
+      "name": "statue_women_orig", 
+      "path": "maya_temple.part/statue_women_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "statue_women1_1", 
+                "path": "maya_temple.part/statue_women1_1.png", 
+                "w": 66, 
+                "x": 808, 
+                "y": 551
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "statue_women1_2", 
+                "path": "maya_temple.part/statue_women1_2.png", 
+                "w": 68, 
+                "x": 1122, 
+                "y": 585
+              }
+            }, 
+            {
+              "cover": {
+                "h": 64, 
+                "layer": 5, 
+                "name": "statue_women1_3_cover", 
+                "path": "maya_temple.part/statue_women1_3_cover.png", 
+                "w": 40, 
+                "x": 993, 
+                "y": 120
+              }, 
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "statue_women1_3", 
+                "path": "maya_temple.part/statue_women1_3.png", 
+                "w": 48, 
+                "x": 996, 
+                "y": 119
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "statue_women1_4_cover", 
+                "path": "maya_temple.part/statue_women1_4_cover.png", 
+                "w": 43, 
+                "x": 423, 
+                "y": 327
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "statue_women1_4", 
+                "path": "maya_temple.part/statue_women1_4.png", 
+                "w": 42, 
+                "x": 419, 
+                "y": 312
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "statue_women1_5_cover", 
+                "path": "maya_temple.part/statue_women1_5_cover.png", 
+                "w": 51, 
+                "x": 844, 
+                "y": 37
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "statue_women1_5", 
+                "path": "maya_temple.part/statue_women1_5.png", 
+                "w": 49, 
+                "x": 841, 
+                "y": 35
+              }
+            }
+          ], 
+          "name": "statue_women1", 
+          "path": "maya_temple.part/statue_women1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "statue_women2_1", 
+                "path": "maya_temple.part/statue_women2_1.png", 
+                "w": 50, 
+                "x": 851, 
+                "y": 605
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "statue_women2_2_cover", 
+                "path": "maya_temple.part/statue_women2_2_cover.png", 
+                "w": 41, 
+                "x": 405, 
+                "y": 540
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "statue_women2_2", 
+                "path": "maya_temple.part/statue_women2_2.png", 
+                "w": 56, 
+                "x": 395, 
+                "y": 506
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "statue_women2_3_cover", 
+                "path": "maya_temple.part/statue_women2_3_cover.png", 
+                "w": 40, 
+                "x": 1039, 
+                "y": 469
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "statue_women2_3", 
+                "path": "maya_temple.part/statue_women2_3.png", 
+                "w": 56, 
+                "x": 1019, 
+                "y": 471
+              }
+            }, 
+            {
+              "cover": {
+                "h": 62, 
+                "layer": 5, 
+                "name": "statue_women2_4_cover", 
+                "path": "maya_temple.part/statue_women2_4_cover.png", 
+                "w": 46, 
+                "x": 1045, 
+                "y": 307
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "statue_women2_4", 
+                "path": "maya_temple.part/statue_women2_4.png", 
+                "w": 50, 
+                "x": 1047, 
+                "y": 308
+              }
+            }, 
+            {
+              "cover": {
+                "h": 63, 
+                "layer": 5, 
+                "name": "statue_women2_5_cover", 
+                "path": "maya_temple.part/statue_women2_5_cover.png", 
+                "w": 53, 
+                "x": 1080, 
+                "y": 135
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "statue_women2_5", 
+                "path": "maya_temple.part/statue_women2_5.png", 
+                "w": 56, 
+                "x": 1082, 
+                "y": 138
+              }
+            }
+          ], 
+          "name": "statue_women2", 
+          "path": "maya_temple.part/statue_women2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "statue_women3_1", 
+                "path": "maya_temple.part/statue_women3_1.png", 
+                "w": 61, 
+                "x": 1043, 
+                "y": 530
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "statue_women3_2", 
+                "path": "maya_temple.part/statue_women3_2.png", 
+                "w": 48, 
+                "x": 697, 
+                "y": 39
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "statue_women3_3_cover", 
+                "path": "maya_temple.part/statue_women3_3_cover.png", 
+                "w": 37, 
+                "x": 654, 
+                "y": 418
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "statue_women3_3", 
+                "path": "maya_temple.part/statue_women3_3.png", 
+                "w": 61, 
+                "x": 642, 
+                "y": 402
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "statue_women3_4_cover", 
+                "path": "maya_temple.part/statue_women3_4_cover.png", 
+                "w": 26, 
+                "x": 324, 
+                "y": 593
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "statue_women3_4", 
+                "path": "maya_temple.part/statue_women3_4.png", 
+                "w": 48, 
+                "x": 325, 
+                "y": 593
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "statue_women3_5_cover", 
+                "path": "maya_temple.part/statue_women3_5_cover.png", 
+                "w": 60, 
+                "x": 1155, 
+                "y": 70
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "statue_women3_5", 
+                "path": "maya_temple.part/statue_women3_5.png", 
+                "w": 58, 
+                "x": 1153, 
+                "y": 59
+              }
+            }
+          ], 
+          "name": "statue_women3", 
+          "path": "maya_temple.part/statue_women3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "statue_women4_1", 
+                "path": "maya_temple.part/statue_women4_1.png", 
+                "w": 43, 
+                "x": 646, 
+                "y": 355
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "statue_women4_2", 
+                "path": "maya_temple.part/statue_women4_2.png", 
+                "w": 41, 
+                "x": 933, 
+                "y": 48
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "statue_women4_3_cover", 
+                "path": "maya_temple.part/statue_women4_3_cover.png", 
+                "w": 46, 
+                "x": 364, 
+                "y": 355
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "statue_women4_3", 
+                "path": "maya_temple.part/statue_women4_3.png", 
+                "w": 57, 
+                "x": 366, 
+                "y": 355
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "statue_women4_4_cover", 
+                "path": "maya_temple.part/statue_women4_4_cover.png", 
+                "w": 41, 
+                "x": 554, 
+                "y": 145
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "statue_women4_4", 
+                "path": "maya_temple.part/statue_women4_4.png", 
+                "w": 44, 
+                "x": 548, 
+                "y": 143
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "statue_women4_5_cover", 
+                "path": "maya_temple.part/statue_women4_5_cover.png", 
+                "w": 39, 
+                "x": 232, 
+                "y": 511
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "statue_women4_5", 
+                "path": "maya_temple.part/statue_women4_5.png", 
+                "w": 37, 
+                "x": 231, 
+                "y": 512
+              }
+            }
+          ], 
+          "name": "statue_women4", 
+          "path": "maya_temple.part/statue_women4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "statue_women5_1", 
+                "path": "maya_temple.part/statue_women5_1.png", 
+                "w": 57, 
+                "x": 1183, 
+                "y": 454
+              }
+            }, 
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "statue_women5_2", 
+                "path": "maya_temple.part/statue_women5_2.png", 
+                "w": 56, 
+                "x": 650, 
+                "y": 458
+              }
+            }, 
+            {
+              "cover": {
+                "h": 58, 
+                "layer": 5, 
+                "name": "statue_women5_3_cover", 
+                "path": "maya_temple.part/statue_women5_3_cover.png", 
+                "w": 34, 
+                "x": 257, 
+                "y": 119
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "statue_women5_3", 
+                "path": "maya_temple.part/statue_women5_3.png", 
+                "w": 53, 
+                "x": 232, 
+                "y": 121
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "statue_women5_4_cover", 
+                "path": "maya_temple.part/statue_women5_4_cover.png", 
+                "w": 38, 
+                "x": 554, 
+                "y": 515
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "statue_women5_4", 
+                "path": "maya_temple.part/statue_women5_4.png", 
+                "w": 44, 
+                "x": 557, 
+                "y": 513
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "statue_women5_5_cover", 
+                "path": "maya_temple.part/statue_women5_5_cover.png", 
+                "w": 37, 
+                "x": 968, 
+                "y": 247
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "statue_women5_5", 
+                "path": "maya_temple.part/statue_women5_5.png", 
+                "w": 43, 
+                "x": 958, 
+                "y": 250
+              }
+            }
+          ], 
+          "name": "statue_women5", 
+          "path": "maya_temple.part/statue_women5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "statue_men_orig", 
+      "path": "maya_temple.part/statue_men_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "statue_men1_1", 
+                "path": "maya_temple.part/statue_men1_1.png", 
+                "w": 67, 
+                "x": 568, 
+                "y": 555
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "statue_men1_2", 
+                "path": "maya_temple.part/statue_men1_2.png", 
+                "w": 55, 
+                "x": 835, 
+                "y": 477
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "statue_men1_3_cover", 
+                "path": "maya_temple.part/statue_men1_3_cover.png", 
+                "w": 52, 
+                "x": 766, 
+                "y": 347
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "statue_men1_3", 
+                "path": "maya_temple.part/statue_men1_3.png", 
+                "w": 55, 
+                "x": 769, 
+                "y": 338
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "statue_men1_4_cover", 
+                "path": "maya_temple.part/statue_men1_4_cover.png", 
+                "w": 42, 
+                "x": 405, 
+                "y": 558
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "statue_men1_4", 
+                "path": "maya_temple.part/statue_men1_4.png", 
+                "w": 54, 
+                "x": 390, 
+                "y": 557
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "statue_men1_5_cover", 
+                "path": "maya_temple.part/statue_men1_5_cover.png", 
+                "w": 48, 
+                "x": 287, 
+                "y": 450
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "statue_men1_5", 
+                "path": "maya_temple.part/statue_men1_5.png", 
+                "w": 56, 
+                "x": 275, 
+                "y": 451
+              }
+            }
+          ], 
+          "name": "statue_men1", 
+          "path": "maya_temple.part/statue_men1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "statue_men2_1", 
+                "path": "maya_temple.part/statue_men2_1.png", 
+                "w": 40, 
+                "x": 348, 
+                "y": 153
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "statue_men2_2", 
+                "path": "maya_temple.part/statue_men2_2.png", 
+                "w": 40, 
+                "x": 1121, 
+                "y": 26
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "statue_men2_3_cover", 
+                "path": "maya_temple.part/statue_men2_3_cover.png", 
+                "w": 44, 
+                "x": 768, 
+                "y": 95
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "statue_men2_3", 
+                "path": "maya_temple.part/statue_men2_3.png", 
+                "w": 39, 
+                "x": 772, 
+                "y": 76
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "statue_men2_4_cover", 
+                "path": "maya_temple.part/statue_men2_4_cover.png", 
+                "w": 39, 
+                "x": 559, 
+                "y": 285
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "statue_men2_4", 
+                "path": "maya_temple.part/statue_men2_4.png", 
+                "w": 37, 
+                "x": 560, 
+                "y": 272
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "statue_men2_5_cover", 
+                "path": "maya_temple.part/statue_men2_5_cover.png", 
+                "w": 42, 
+                "x": 463, 
+                "y": 64
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "statue_men2_5", 
+                "path": "maya_temple.part/statue_men2_5.png", 
+                "w": 44, 
+                "x": 458, 
+                "y": 72
+              }
+            }
+          ], 
+          "name": "statue_men2", 
+          "path": "maya_temple.part/statue_men2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "statue_men3_1", 
+                "path": "maya_temple.part/statue_men3_1.png", 
+                "w": 60, 
+                "x": 810, 
+                "y": 418
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "statue_men3_2", 
+                "path": "maya_temple.part/statue_men3_2.png", 
+                "w": 39, 
+                "x": 739, 
+                "y": 190
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "statue_men3_3_cover", 
+                "path": "maya_temple.part/statue_men3_3_cover.png", 
+                "w": 64, 
+                "x": 478, 
+                "y": 620
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "statue_men3_3", 
+                "path": "maya_temple.part/statue_men3_3.png", 
+                "w": 62, 
+                "x": 479, 
+                "y": 621
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "statue_men3_4_cover", 
+                "path": "maya_temple.part/statue_men3_4_cover.png", 
+                "w": 39, 
+                "x": 469, 
+                "y": 426
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "statue_men3_4", 
+                "path": "maya_temple.part/statue_men3_4.png", 
+                "w": 51, 
+                "x": 472, 
+                "y": 429
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "statue_men3_5_cover", 
+                "path": "maya_temple.part/statue_men3_5_cover.png", 
+                "w": 41, 
+                "x": 857, 
+                "y": 122
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "statue_men3_5", 
+                "path": "maya_temple.part/statue_men3_5.png", 
+                "w": 35, 
+                "x": 861, 
+                "y": 125
+              }
+            }
+          ], 
+          "name": "statue_men3", 
+          "path": "maya_temple.part/statue_men3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 74, 
+                "layer": 4, 
+                "name": "statue_men4_1", 
+                "path": "maya_temple.part/statue_men4_1.png", 
+                "w": 62, 
+                "x": 258, 
+                "y": 585
+              }
+            }, 
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "statue_men4_2", 
+                "path": "maya_temple.part/statue_men4_2.png", 
+                "w": 48, 
+                "x": 848, 
+                "y": 170
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "statue_men4_3_cover", 
+                "path": "maya_temple.part/statue_men4_3_cover.png", 
+                "w": 31, 
+                "x": 307, 
+                "y": 269
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "statue_men4_3", 
+                "path": "maya_temple.part/statue_men4_3.png", 
+                "w": 46, 
+                "x": 289, 
+                "y": 272
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "statue_men4_4_cover", 
+                "path": "maya_temple.part/statue_men4_4_cover.png", 
+                "w": 45, 
+                "x": 1021, 
+                "y": 404
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "statue_men4_4", 
+                "path": "maya_temple.part/statue_men4_4.png", 
+                "w": 51, 
+                "x": 1011, 
+                "y": 405
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "statue_men4_5_cover", 
+                "path": "maya_temple.part/statue_men4_5_cover.png", 
+                "w": 37, 
+                "x": 1183, 
+                "y": 206
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "statue_men4_5", 
+                "path": "maya_temple.part/statue_men4_5.png", 
+                "w": 45, 
+                "x": 1184, 
+                "y": 209
+              }
+            }
+          ], 
+          "name": "statue_men4", 
+          "path": "maya_temple.part/statue_men4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "statue_men5_1", 
+                "path": "maya_temple.part/statue_men5_1.png", 
+                "w": 57, 
+                "x": 641, 
+                "y": 308
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "statue_men5_2", 
+                "path": "maya_temple.part/statue_men5_2.png", 
+                "w": 59, 
+                "x": 324, 
+                "y": 391
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "statue_men5_3_cover", 
+                "path": "maya_temple.part/statue_men5_3_cover.png", 
+                "w": 46, 
+                "x": 563, 
+                "y": 6
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "statue_men5_3", 
+                "path": "maya_temple.part/statue_men5_3.png", 
+                "w": 48, 
+                "x": 565, 
+                "y": 8
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "statue_men5_4_cover", 
+                "path": "maya_temple.part/statue_men5_4_cover.png", 
+                "w": 46, 
+                "x": 1166, 
+                "y": 414
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "statue_men5_4", 
+                "path": "maya_temple.part/statue_men5_4.png", 
+                "w": 49, 
+                "x": 1170, 
+                "y": 401
+              }
+            }, 
+            {
+              "cover": {
+                "h": 61, 
+                "layer": 5, 
+                "name": "statue_men5_5_cover", 
+                "path": "maya_temple.part/statue_men5_5_cover.png", 
+                "w": 33, 
+                "x": 952, 
+                "y": 0
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "statue_men5_5", 
+                "path": "maya_temple.part/statue_men5_5.png", 
+                "w": 41, 
+                "x": 953, 
+                "y": 1
+              }
+            }
+          ], 
+          "name": "statue_men5", 
+          "path": "maya_temple.part/statue_men5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "sun_calendar_orig", 
+      "path": "maya_temple.part/sun_calendar_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "sun_calendar1_1", 
+                "path": "maya_temple.part/sun_calendar1_1.png", 
+                "w": 34, 
+                "x": 789, 
+                "y": 178
+              }
+            }, 
+            {
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "sun_calendar1_2", 
+                "path": "maya_temple.part/sun_calendar1_2.png", 
+                "w": 35, 
+                "x": 398, 
+                "y": 447
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "sun_calendar1_3", 
+                "path": "maya_temple.part/sun_calendar1_3.png", 
+                "w": 59, 
+                "x": 692, 
+                "y": 522
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "sun_calendar1_4_cover", 
+                "path": "maya_temple.part/sun_calendar1_4_cover.png", 
+                "w": 55, 
+                "x": 393, 
+                "y": 592
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "sun_calendar1_4", 
+                "path": "maya_temple.part/sun_calendar1_4.png", 
+                "w": 60, 
+                "x": 382, 
+                "y": 583
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "sun_calendar1_5_cover", 
+                "path": "maya_temple.part/sun_calendar1_5_cover.png", 
+                "w": 51, 
+                "x": 922, 
+                "y": 606
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "sun_calendar1_5", 
+                "path": "maya_temple.part/sun_calendar1_5.png", 
+                "w": 63, 
+                "x": 906, 
+                "y": 604
+              }
+            }
+          ], 
+          "name": "sun_calendar1", 
+          "path": "maya_temple.part/sun_calendar1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "sun_calendar2_1", 
+                "path": "maya_temple.part/sun_calendar2_1.png", 
+                "w": 43, 
+                "x": 747, 
+                "y": 403
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "sun_calendar2_2", 
+                "path": "maya_temple.part/sun_calendar2_2.png", 
+                "w": 47, 
+                "x": 994, 
+                "y": 230
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "sun_calendar2_3_cover", 
+                "path": "maya_temple.part/sun_calendar2_3_cover.png", 
+                "w": 47, 
+                "x": 1146, 
+                "y": 100
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "sun_calendar2_3", 
+                "path": "maya_temple.part/sun_calendar2_3.png", 
+                "w": 46, 
+                "x": 1143, 
+                "y": 103
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "sun_calendar2_4_cover", 
+                "path": "maya_temple.part/sun_calendar2_4_cover.png", 
+                "w": 36, 
+                "x": 300, 
+                "y": 334
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "sun_calendar2_4", 
+                "path": "maya_temple.part/sun_calendar2_4.png", 
+                "w": 46, 
+                "x": 285, 
+                "y": 335
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "sun_calendar2_5_cover", 
+                "path": "maya_temple.part/sun_calendar2_5_cover.png", 
+                "w": 38, 
+                "x": 1035, 
+                "y": 259
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "sun_calendar2_5", 
+                "path": "maya_temple.part/sun_calendar2_5.png", 
+                "w": 44, 
+                "x": 1036, 
+                "y": 261
+              }
+            }
+          ], 
+          "name": "sun_calendar2", 
+          "path": "maya_temple.part/sun_calendar2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "sun_calendar3_1", 
+                "path": "maya_temple.part/sun_calendar3_1.png", 
+                "w": 53, 
+                "x": 1100, 
+                "y": 536
+              }
+            }, 
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "sun_calendar3_2", 
+                "path": "maya_temple.part/sun_calendar3_2.png", 
+                "w": 57, 
+                "x": 748, 
+                "y": 544
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "sun_calendar3_3_cover", 
+                "path": "maya_temple.part/sun_calendar3_3_cover.png", 
+                "w": 36, 
+                "x": 320, 
+                "y": 548
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "sun_calendar3_3", 
+                "path": "maya_temple.part/sun_calendar3_3.png", 
+                "w": 55, 
+                "x": 322, 
+                "y": 549
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "sun_calendar3_4_cover", 
+                "path": "maya_temple.part/sun_calendar3_4_cover.png", 
+                "w": 50, 
+                "x": 1188, 
+                "y": 578
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "sun_calendar3_4", 
+                "path": "maya_temple.part/sun_calendar3_4.png", 
+                "w": 46, 
+                "x": 1191, 
+                "y": 577
+              }
+            }, 
+            {
+              "cover": {
+                "h": 58, 
+                "layer": 5, 
+                "name": "sun_calendar3_5_cover", 
+                "path": "maya_temple.part/sun_calendar3_5_cover.png", 
+                "w": 56, 
+                "x": 1060, 
+                "y": 5
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "sun_calendar3_5", 
+                "path": "maya_temple.part/sun_calendar3_5.png", 
+                "w": 53, 
+                "x": 1060, 
+                "y": 4
+              }
+            }
+          ], 
+          "name": "sun_calendar3", 
+          "path": "maya_temple.part/sun_calendar3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "sun_calendar4_1", 
+                "path": "maya_temple.part/sun_calendar4_1.png", 
+                "w": 50, 
+                "x": 949, 
+                "y": 459
+              }
+            }, 
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "sun_calendar4_2", 
+                "path": "maya_temple.part/sun_calendar4_2.png", 
+                "w": 50, 
+                "x": 1097, 
+                "y": 483
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "sun_calendar4_3_cover", 
+                "path": "maya_temple.part/sun_calendar4_3_cover.png", 
+                "w": 45, 
+                "x": 1051, 
+                "y": 106
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "sun_calendar4_3", 
+                "path": "maya_temple.part/sun_calendar4_3.png", 
+                "w": 50, 
+                "x": 1054, 
+                "y": 107
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "sun_calendar4_4_cover", 
+                "path": "maya_temple.part/sun_calendar4_4_cover.png", 
+                "w": 49, 
+                "x": 793, 
+                "y": 39
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "sun_calendar4_4", 
+                "path": "maya_temple.part/sun_calendar4_4.png", 
+                "w": 43, 
+                "x": 794, 
+                "y": 34
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "sun_calendar4_5_cover", 
+                "path": "maya_temple.part/sun_calendar4_5_cover.png", 
+                "w": 48, 
+                "x": 1139, 
+                "y": 362
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "sun_calendar4_5", 
+                "path": "maya_temple.part/sun_calendar4_5.png", 
+                "w": 48, 
+                "x": 1141, 
+                "y": 364
+              }
+            }
+          ], 
+          "name": "sun_calendar4", 
+          "path": "maya_temple.part/sun_calendar4.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 10, 
+                "layer": 5, 
+                "name": "sun_calendar5_1_cover", 
+                "path": "maya_temple.part/sun_calendar5_1_cover.png", 
+                "w": 15, 
+                "x": 670, 
+                "y": 146
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "sun_calendar5_1", 
+                "path": "maya_temple.part/sun_calendar5_1.png", 
+                "w": 54, 
+                "x": 656, 
+                "y": 146
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "sun_calendar5_2", 
+                "path": "maya_temple.part/sun_calendar5_2.png", 
+                "w": 57, 
+                "x": 309, 
+                "y": 87
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "sun_calendar5_3_cover", 
+                "path": "maya_temple.part/sun_calendar5_3_cover.png", 
+                "w": 49, 
+                "x": 744, 
+                "y": 308
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "sun_calendar5_3", 
+                "path": "maya_temple.part/sun_calendar5_3.png", 
+                "w": 47, 
+                "x": 746, 
+                "y": 308
+              }
+            }, 
+            {
+              "cover": {
+                "h": 60, 
+                "layer": 5, 
+                "name": "sun_calendar5_4_cover", 
+                "path": "maya_temple.part/sun_calendar5_4_cover.png", 
+                "w": 37, 
+                "x": 954, 
+                "y": 309
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "sun_calendar5_4", 
+                "path": "maya_temple.part/sun_calendar5_4.png", 
+                "w": 54, 
+                "x": 933, 
+                "y": 310
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "sun_calendar5_5_cover", 
+                "path": "maya_temple.part/sun_calendar5_5_cover.png", 
+                "w": 40, 
+                "x": 1193, 
+                "y": 337
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "sun_calendar5_5", 
+                "path": "maya_temple.part/sun_calendar5_5.png", 
+                "w": 46, 
+                "x": 1196, 
+                "y": 340
+              }
+            }
+          ], 
+          "name": "sun_calendar5", 
+          "path": "maya_temple.part/sun_calendar5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "warrior_orig", 
+      "path": "maya_temple.part/warrior_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "warrior1_1", 
+                "path": "maya_temple.part/warrior1_1.png", 
+                "w": 24, 
+                "x": 905, 
+                "y": 329
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "warrior1_2", 
+                "path": "maya_temple.part/warrior1_2.png", 
+                "w": 23, 
+                "x": 612, 
+                "y": 255
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "warrior1_3_cover", 
+                "path": "maya_temple.part/warrior1_3_cover.png", 
+                "w": 21, 
+                "x": 258, 
+                "y": 287
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "warrior1_3", 
+                "path": "maya_temple.part/warrior1_3.png", 
+                "w": 37, 
+                "x": 250, 
+                "y": 265
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "warrior1_4_cover", 
+                "path": "maya_temple.part/warrior1_4_cover.png", 
+                "w": 20, 
+                "x": 1226, 
+                "y": 524
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "warrior1_4", 
+                "path": "maya_temple.part/warrior1_4.png", 
+                "w": 37, 
+                "x": 1216, 
+                "y": 511
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "warrior1_5_cover", 
+                "path": "maya_temple.part/warrior1_5_cover.png", 
+                "w": 39, 
+                "x": 405, 
+                "y": 283
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "warrior1_5", 
+                "path": "maya_temple.part/warrior1_5.png", 
+                "w": 57, 
+                "x": 411, 
+                "y": 284
+              }
+            }
+          ], 
+          "name": "warrior1", 
+          "path": "maya_temple.part/warrior1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "warrior2_1", 
+                "path": "maya_temple.part/warrior2_1.png", 
+                "w": 47, 
+                "x": 936, 
+                "y": 540
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "warrior2_2", 
+                "path": "maya_temple.part/warrior2_2.png", 
+                "w": 41, 
+                "x": 336, 
+                "y": 424
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "warrior2_3_cover", 
+                "path": "maya_temple.part/warrior2_3_cover.png", 
+                "w": 71, 
+                "x": 841, 
+                "y": 359
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "warrior2_3", 
+                "path": "maya_temple.part/warrior2_3.png", 
+                "w": 63, 
+                "x": 842, 
+                "y": 360
+              }
+            }, 
+            {
+              "cover": {
+                "h": 66, 
+                "layer": 5, 
+                "name": "warrior2_4_cover", 
+                "path": "maya_temple.part/warrior2_4_cover.png", 
+                "w": 32, 
+                "x": 1177, 
+                "y": 299
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "warrior2_4", 
+                "path": "maya_temple.part/warrior2_4.png", 
+                "w": 36, 
+                "x": 1167, 
+                "y": 305
+              }
+            }, 
+            {
+              "cover": {
+                "h": 74, 
+                "layer": 5, 
+                "name": "warrior2_5_cover", 
+                "path": "maya_temple.part/warrior2_5_cover.png", 
+                "w": 39, 
+                "x": 254, 
+                "y": 173
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "warrior2_5", 
+                "path": "maya_temple.part/warrior2_5.png", 
+                "w": 56, 
+                "x": 230, 
+                "y": 175
+              }
+            }
+          ], 
+          "name": "warrior2", 
+          "path": "maya_temple.part/warrior2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "warrior3_1", 
+                "path": "maya_temple.part/warrior3_1.png", 
+                "w": 49, 
+                "x": 554, 
+                "y": 376
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "warrior3_2", 
+                "path": "maya_temple.part/warrior3_2.png", 
+                "w": 49, 
+                "x": 449, 
+                "y": 176
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "warrior3_3_cover", 
+                "path": "maya_temple.part/warrior3_3_cover.png", 
+                "w": 47, 
+                "x": 698, 
+                "y": 254
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "warrior3_3", 
+                "path": "maya_temple.part/warrior3_3.png", 
+                "w": 49, 
+                "x": 699, 
+                "y": 249
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "warrior3_4_cover", 
+                "path": "maya_temple.part/warrior3_4_cover.png", 
+                "w": 36, 
+                "x": 950, 
+                "y": 204
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "warrior3_4", 
+                "path": "maya_temple.part/warrior3_4.png", 
+                "w": 49, 
+                "x": 935, 
+                "y": 209
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "warrior3_5_cover", 
+                "path": "maya_temple.part/warrior3_5_cover.png", 
+                "w": 43, 
+                "x": 523, 
+                "y": 565
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "warrior3_5", 
+                "path": "maya_temple.part/warrior3_5.png", 
+                "w": 49, 
+                "x": 523, 
+                "y": 566
+              }
+            }
+          ], 
+          "name": "warrior3", 
+          "path": "maya_temple.part/warrior3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "warrior4_1", 
+                "path": "maya_temple.part/warrior4_1.png", 
+                "w": 57, 
+                "x": 833, 
+                "y": 242
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "warrior4_2", 
+                "path": "maya_temple.part/warrior4_2.png", 
+                "w": 53, 
+                "x": 488, 
+                "y": 278
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "warrior4_3_cover", 
+                "path": "maya_temple.part/warrior4_3_cover.png", 
+                "w": 37, 
+                "x": 1093, 
+                "y": 429
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "warrior4_3", 
+                "path": "maya_temple.part/warrior4_3.png", 
+                "w": 51, 
+                "x": 1097, 
+                "y": 432
+              }
+            }, 
+            {
+              "cover": {
+                "h": 56, 
+                "layer": 5, 
+                "name": "warrior4_4_cover", 
+                "path": "maya_temple.part/warrior4_4_cover.png", 
+                "w": 28, 
+                "x": 1101, 
+                "y": 211
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "warrior4_4", 
+                "path": "maya_temple.part/warrior4_4.png", 
+                "w": 41, 
+                "x": 1103, 
+                "y": 212
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "warrior4_5_cover", 
+                "path": "maya_temple.part/warrior4_5_cover.png", 
+                "w": 56, 
+                "x": 554, 
+                "y": 440
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "warrior4_5", 
+                "path": "maya_temple.part/warrior4_5.png", 
+                "w": 56, 
+                "x": 548, 
+                "y": 440
+              }
+            }
+          ], 
+          "name": "warrior4", 
+          "path": "maya_temple.part/warrior4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "warrior5_1", 
+                "path": "maya_temple.part/warrior5_1.png", 
+                "w": 55, 
+                "x": 625, 
+                "y": 93
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "warrior5_2", 
+                "path": "maya_temple.part/warrior5_2.png", 
+                "w": 52, 
+                "x": 471, 
+                "y": 216
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "warrior5_3_cover", 
+                "path": "maya_temple.part/warrior5_3_cover.png", 
+                "w": 51, 
+                "x": 458, 
+                "y": 491
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "warrior5_3", 
+                "path": "maya_temple.part/warrior5_3.png", 
+                "w": 51, 
+                "x": 461, 
+                "y": 488
+              }
+            }, 
+            {
+              "cover": {
+                "h": 59, 
+                "layer": 5, 
+                "name": "warrior5_4_cover", 
+                "path": "maya_temple.part/warrior5_4_cover.png", 
+                "w": 43, 
+                "x": 1102, 
+                "y": 294
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "warrior5_4", 
+                "path": "maya_temple.part/warrior5_4.png", 
+                "w": 54, 
+                "x": 1104, 
+                "y": 296
+              }
+            }, 
+            {
+              "cover": {
+                "h": 61, 
+                "layer": 5, 
+                "name": "warrior5_5_cover", 
+                "path": "maya_temple.part/warrior5_5_cover.png", 
+                "w": 42, 
+                "x": 883, 
+                "y": 512
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "warrior5_5", 
+                "path": "maya_temple.part/warrior5_5.png", 
+                "w": 51, 
+                "x": 869, 
+                "y": 515
+              }
+            }
+          ], 
+          "name": "warrior5", 
+          "path": "maya_temple.part/warrior5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "mask_orig", 
+      "path": "maya_temple.part/mask_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "mask1_1", 
+                "path": "maya_temple.part/mask1_1.png", 
+                "w": 48, 
+                "x": 738, 
+                "y": 475
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "mask1_2", 
+                "path": "maya_temple.part/mask1_2.png", 
+                "w": 48, 
+                "x": 1029, 
+                "y": 67
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "mask1_3_cover", 
+                "path": "maya_temple.part/mask1_3_cover.png", 
+                "w": 20, 
+                "x": 699, 
+                "y": 345
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "mask1_3", 
+                "path": "maya_temple.part/mask1_3.png", 
+                "w": 45, 
+                "x": 700, 
+                "y": 347
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "mask1_4_cover", 
+                "path": "maya_temple.part/mask1_4_cover.png", 
+                "w": 49, 
+                "x": 288, 
+                "y": 486
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "mask1_4", 
+                "path": "maya_temple.part/mask1_4.png", 
+                "w": 44, 
+                "x": 290, 
+                "y": 480
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "mask1_5_cover", 
+                "path": "maya_temple.part/mask1_5_cover.png", 
+                "w": 32, 
+                "x": 296, 
+                "y": 386
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "mask1_5", 
+                "path": "maya_temple.part/mask1_5.png", 
+                "w": 44, 
+                "x": 280, 
+                "y": 391
+              }
+            }
+          ], 
+          "name": "mask1", 
+          "path": "maya_temple.part/mask1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "mask2_1", 
+                "path": "maya_temple.part/mask2_1.png", 
+                "w": 55, 
+                "x": 1014, 
+                "y": 554
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "mask2_2", 
+                "path": "maya_temple.part/mask2_2.png", 
+                "w": 50, 
+                "x": 923, 
+                "y": 390
+              }
+            }, 
+            {
+              "cover": {
+                "h": 56, 
+                "layer": 5, 
+                "name": "mask2_3_cover", 
+                "path": "maya_temple.part/mask2_3_cover.png", 
+                "w": 31, 
+                "x": 485, 
+                "y": 371
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "mask2_3", 
+                "path": "maya_temple.part/mask2_3.png", 
+                "w": 44, 
+                "x": 488, 
+                "y": 377
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "mask2_4_cover", 
+                "path": "maya_temple.part/mask2_4_cover.png", 
+                "w": 33, 
+                "x": 572, 
+                "y": 225
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "mask2_4", 
+                "path": "maya_temple.part/mask2_4.png", 
+                "w": 40, 
+                "x": 560, 
+                "y": 227
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "mask2_5_cover", 
+                "path": "maya_temple.part/mask2_5_cover.png", 
+                "w": 48, 
+                "x": 702, 
+                "y": 89
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "mask2_5", 
+                "path": "maya_temple.part/mask2_5.png", 
+                "w": 40, 
+                "x": 705, 
+                "y": 91
+              }
+            }
+          ], 
+          "name": "mask2", 
+          "path": "maya_temple.part/mask2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "mask3_1", 
+                "path": "maya_temple.part/mask3_1.png", 
+                "w": 52, 
+                "x": 682, 
+                "y": 565
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "mask3_2", 
+                "path": "maya_temple.part/mask3_2.png", 
+                "w": 45, 
+                "x": 427, 
+                "y": 240
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "mask3_3_cover", 
+                "path": "maya_temple.part/mask3_3_cover.png", 
+                "w": 34, 
+                "x": 1070, 
+                "y": 362
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "mask3_3", 
+                "path": "maya_temple.part/mask3_3.png", 
+                "w": 45, 
+                "x": 1071, 
+                "y": 361
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "mask3_4_cover", 
+                "path": "maya_temple.part/mask3_4_cover.png", 
+                "w": 51, 
+                "x": 808, 
+                "y": 460
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "mask3_4", 
+                "path": "maya_temple.part/mask3_4.png", 
+                "w": 43, 
+                "x": 812, 
+                "y": 460
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "mask3_5_cover", 
+                "path": "maya_temple.part/mask3_5_cover.png", 
+                "w": 45, 
+                "x": 1007, 
+                "y": 359
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "mask3_5", 
+                "path": "maya_temple.part/mask3_5.png", 
+                "w": 49, 
+                "x": 994, 
+                "y": 362
+              }
+            }
+          ], 
+          "name": "mask3", 
+          "path": "maya_temple.part/mask3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "mask4_1", 
+                "path": "maya_temple.part/mask4_1.png", 
+                "w": 47, 
+                "x": 642, 
+                "y": 214
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "mask4_2", 
+                "path": "maya_temple.part/mask4_2.png", 
+                "w": 45, 
+                "x": 322, 
+                "y": 20
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "mask4_3_cover", 
+                "path": "maya_temple.part/mask4_3_cover.png", 
+                "w": 28, 
+                "x": 244, 
+                "y": 319
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "mask4_3", 
+                "path": "maya_temple.part/mask4_3.png", 
+                "w": 47, 
+                "x": 236, 
+                "y": 320
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "mask4_4_cover", 
+                "path": "maya_temple.part/mask4_4_cover.png", 
+                "w": 49, 
+                "x": 593, 
+                "y": 48
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "mask4_4", 
+                "path": "maya_temple.part/mask4_4.png", 
+                "w": 50, 
+                "x": 596, 
+                "y": 49
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "mask4_5_cover", 
+                "path": "maya_temple.part/mask4_5_cover.png", 
+                "w": 46, 
+                "x": 1004, 
+                "y": 192
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "mask4_5", 
+                "path": "maya_temple.part/mask4_5.png", 
+                "w": 47, 
+                "x": 1009, 
+                "y": 193
+              }
+            }
+          ], 
+          "name": "mask4", 
+          "path": "maya_temple.part/mask4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "mask5_1", 
+                "path": "maya_temple.part/mask5_1.png", 
+                "w": 26, 
+                "x": 341, 
+                "y": 210
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "mask5_2", 
+                "path": "maya_temple.part/mask5_2.png", 
+                "w": 56, 
+                "x": 585, 
+                "y": 590
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "mask5_3_cover", 
+                "path": "maya_temple.part/mask5_3_cover.png", 
+                "w": 31, 
+                "x": 512, 
+                "y": 81
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "mask5_3", 
+                "path": "maya_temple.part/mask5_3.png", 
+                "w": 33, 
+                "x": 506, 
+                "y": 83
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "mask5_4_cover", 
+                "path": "maya_temple.part/mask5_4_cover.png", 
+                "w": 37, 
+                "x": 808, 
+                "y": 141
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "mask5_4", 
+                "path": "maya_temple.part/mask5_4.png", 
+                "w": 33, 
+                "x": 810, 
+                "y": 144
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "mask5_5_cover", 
+                "path": "maya_temple.part/mask5_5_cover.png", 
+                "w": 39, 
+                "x": 867, 
+                "y": 334
+              }, 
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "mask5_5", 
+                "path": "maya_temple.part/mask5_5.png", 
+                "w": 50, 
+                "x": 852, 
+                "y": 333
+              }
+            }
+          ], 
+          "name": "mask5", 
+          "path": "maya_temple.part/mask5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "sword_orig", 
+      "path": "maya_temple.part/sword_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "sword1_1", 
+                "path": "maya_temple.part/sword1_1.png", 
+                "w": 44, 
+                "x": 878, 
+                "y": 431
+              }
+            }, 
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "sword1_2", 
+                "path": "maya_temple.part/sword1_2.png", 
+                "w": 43, 
+                "x": 600, 
+                "y": 503
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "sword1_3", 
+                "path": "maya_temple.part/sword1_3.png", 
+                "w": 46, 
+                "x": 889, 
+                "y": 250
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "sword1_4_cover", 
+                "path": "maya_temple.part/sword1_4_cover.png", 
+                "w": 32, 
+                "x": 1183, 
+                "y": 152
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "sword1_4", 
+                "path": "maya_temple.part/sword1_4.png", 
+                "w": 45, 
+                "x": 1165, 
+                "y": 146
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "sword1_5_cover", 
+                "path": "maya_temple.part/sword1_5_cover.png", 
+                "w": 41, 
+                "x": 611, 
+                "y": 155
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "sword1_5", 
+                "path": "maya_temple.part/sword1_5.png", 
+                "w": 42, 
+                "x": 615, 
+                "y": 164
+              }
+            }
+          ], 
+          "name": "sword1", 
+          "path": "maya_temple.part/sword1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "sword2_1", 
+                "path": "maya_temple.part/sword2_1.png", 
+                "w": 56, 
+                "x": 1156, 
+                "y": 519
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "sword2_2", 
+                "path": "maya_temple.part/sword2_2.png", 
+                "w": 57, 
+                "x": 344, 
+                "y": 265
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "sword2_3_cover", 
+                "path": "maya_temple.part/sword2_3_cover.png", 
+                "w": 33, 
+                "x": 1167, 
+                "y": 250
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "sword2_3", 
+                "path": "maya_temple.part/sword2_3.png", 
+                "w": 48, 
+                "x": 1150, 
+                "y": 252
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "sword2_4_cover", 
+                "path": "maya_temple.part/sword2_4_cover.png", 
+                "w": 56, 
+                "x": 558, 
+                "y": 323
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "sword2_4", 
+                "path": "maya_temple.part/sword2_4.png", 
+                "w": 53, 
+                "x": 560, 
+                "y": 323
+              }
+            }, 
+            {
+              "cover": {
+                "h": 61, 
+                "layer": 5, 
+                "name": "sword2_5_cover", 
+                "path": "maya_temple.part/sword2_5_cover.png", 
+                "w": 43, 
+                "x": 691, 
+                "y": 407
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "sword2_5", 
+                "path": "maya_temple.part/sword2_5.png", 
+                "w": 48, 
+                "x": 695, 
+                "y": 409
+              }
+            }
+          ], 
+          "name": "sword2", 
+          "path": "maya_temple.part/sword2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "sword3_1", 
+                "path": "maya_temple.part/sword3_1.png", 
+                "w": 53, 
+                "x": 986, 
+                "y": 292
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "sword3_2", 
+                "path": "maya_temple.part/sword3_2.png", 
+                "w": 52, 
+                "x": 363, 
+                "y": 46
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "sword3_3_cover", 
+                "path": "maya_temple.part/sword3_3_cover.png", 
+                "w": 35, 
+                "x": 500, 
+                "y": 477
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "sword3_3", 
+                "path": "maya_temple.part/sword3_3.png", 
+                "w": 55, 
+                "x": 497, 
+                "y": 462
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "sword3_4_cover", 
+                "path": "maya_temple.part/sword3_4_cover.png", 
+                "w": 41, 
+                "x": 992, 
+                "y": 523
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "sword3_4", 
+                "path": "maya_temple.part/sword3_4.png", 
+                "w": 52, 
+                "x": 974, 
+                "y": 510
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "sword3_5_cover", 
+                "path": "maya_temple.part/sword3_5_cover.png", 
+                "w": 45, 
+                "x": 229, 
+                "y": 484
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "sword3_5", 
+                "path": "maya_temple.part/sword3_5.png", 
+                "w": 48, 
+                "x": 230, 
+                "y": 456
+              }
+            }
+          ], 
+          "name": "sword3", 
+          "path": "maya_temple.part/sword3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "sword4_1", 
+                "path": "maya_temple.part/sword4_1.png", 
+                "w": 80, 
+                "x": 763, 
+                "y": 111
+              }
+            }, 
+            {
+              "pic": {
+                "h": 17, 
+                "layer": 4, 
+                "name": "sword4_2", 
+                "path": "maya_temple.part/sword4_2.png", 
+                "w": 86, 
+                "x": 738, 
+                "y": 603
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "sword4_3", 
+                "path": "maya_temple.part/sword4_3.png", 
+                "w": 83, 
+                "x": 1049, 
+                "y": 615
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "sword4_4_cover", 
+                "path": "maya_temple.part/sword4_4_cover.png", 
+                "w": 14, 
+                "x": 450, 
+                "y": 107
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "sword4_4", 
+                "path": "maya_temple.part/sword4_4.png", 
+                "w": 55, 
+                "x": 449, 
+                "y": 109
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "sword4_5_cover", 
+                "path": "maya_temple.part/sword4_5_cover.png", 
+                "w": 52, 
+                "x": 393, 
+                "y": 403
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "sword4_5", 
+                "path": "maya_temple.part/sword4_5.png", 
+                "w": 64, 
+                "x": 399, 
+                "y": 382
+              }
+            }
+          ], 
+          "name": "sword4", 
+          "path": "maya_temple.part/sword4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "sword5_1", 
+                "path": "maya_temple.part/sword5_1.png", 
+                "w": 33, 
+                "x": 1148, 
+                "y": 459
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "sword5_2", 
+                "path": "maya_temple.part/sword5_2.png", 
+                "w": 36, 
+                "x": 512, 
+                "y": 170
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "sword5_3_cover", 
+                "path": "maya_temple.part/sword5_3_cover.png", 
+                "w": 42, 
+                "x": 306, 
+                "y": 54
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "sword5_3", 
+                "path": "maya_temple.part/sword5_3.png", 
+                "w": 50, 
+                "x": 290, 
+                "y": 56
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "sword5_4_cover", 
+                "path": "maya_temple.part/sword5_4_cover.png", 
+                "w": 49, 
+                "x": 540, 
+                "y": 96
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "sword5_4", 
+                "path": "maya_temple.part/sword5_4.png", 
+                "w": 47, 
+                "x": 531, 
+                "y": 101
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "sword5_5_cover", 
+                "path": "maya_temple.part/sword5_5_cover.png", 
+                "w": 25, 
+                "x": 778, 
+                "y": 458
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "sword5_5", 
+                "path": "maya_temple.part/sword5_5.png", 
+                "w": 26, 
+                "x": 779, 
+                "y": 443
+              }
+            }
+          ], 
+          "name": "sword5", 
+          "path": "maya_temple.part/sword5.png"
+        }
+      ]
+    }
+  ]
+}

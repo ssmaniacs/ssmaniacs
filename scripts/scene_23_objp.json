@@ -1,0 +1,6705 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "turtle1", 
+            "path": "treasure_island.form/turtle1.png", 
+            "w": 71, 
+            "x": 409, 
+            "y": 590
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "turtle2", 
+            "path": "treasure_island.form/turtle2.png", 
+            "w": 69, 
+            "x": 1105, 
+            "y": 518
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "turtle3_cover", 
+            "path": "treasure_island.form/turtle3_cover.png", 
+            "w": 17, 
+            "x": 804, 
+            "y": 560
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "turtle3", 
+            "path": "treasure_island.form/turtle3.png", 
+            "w": 63, 
+            "x": 754, 
+            "y": 555
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "turtle4_cover", 
+            "path": "treasure_island.form/turtle4_cover.png", 
+            "w": 67, 
+            "x": 895, 
+            "y": 566
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "turtle4", 
+            "path": "treasure_island.form/turtle4.png", 
+            "w": 62, 
+            "x": 897, 
+            "y": 570
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "turtle5_cover", 
+            "path": "treasure_island.form/turtle5_cover.png", 
+            "w": 67, 
+            "x": 742, 
+            "y": 233
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "turtle5", 
+            "path": "treasure_island.form/turtle5.png", 
+            "w": 62, 
+            "x": 744, 
+            "y": 232
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "turtle6_cover", 
+            "path": "treasure_island.form/turtle6_cover.png", 
+            "w": 60, 
+            "x": 331, 
+            "y": 277
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "turtle6", 
+            "path": "treasure_island.form/turtle6.png", 
+            "w": 56, 
+            "x": 331, 
+            "y": 277
+          }
+        }
+      ], 
+      "name": "カメ", 
+      "path": "treasure_island.sils/turtle.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "albatros1", 
+            "path": "treasure_island.form/albatros1.png", 
+            "w": 74, 
+            "x": 943, 
+            "y": 537
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "albatros2", 
+            "path": "treasure_island.form/albatros2.png", 
+            "w": 71, 
+            "x": 539, 
+            "y": 463
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "albatros3", 
+            "path": "treasure_island.form/albatros3.png", 
+            "w": 70, 
+            "x": 257, 
+            "y": 425
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "albatros4", 
+            "path": "treasure_island.form/albatros4.png", 
+            "w": 64, 
+            "x": 1026, 
+            "y": 401
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "albatros5", 
+            "path": "treasure_island.form/albatros5.png", 
+            "w": 66, 
+            "x": 1138, 
+            "y": 202
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "albatros6_cover", 
+            "path": "treasure_island.form/albatros6_cover.png", 
+            "w": 20, 
+            "x": 283, 
+            "y": 84
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "albatros6", 
+            "path": "treasure_island.form/albatros6.png", 
+            "w": 65, 
+            "x": 251, 
+            "y": 43
+          }
+        }
+      ], 
+      "name": "アホウドリ", 
+      "path": "treasure_island.sils/albatros.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "shackles1", 
+            "path": "treasure_island.form/shackles1.png", 
+            "w": 71, 
+            "x": 520, 
+            "y": 619
+          }
+        }, 
+        {
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "shackles2", 
+            "path": "treasure_island.form/shackles2.png", 
+            "w": 35, 
+            "x": 627, 
+            "y": 298
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "shackles3", 
+            "path": "treasure_island.form/shackles3.png", 
+            "w": 32, 
+            "x": 307, 
+            "y": 357
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "shackles4", 
+            "path": "treasure_island.form/shackles4.png", 
+            "w": 33, 
+            "x": 568, 
+            "y": 103
+          }
+        }, 
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "shackles5", 
+            "path": "treasure_island.form/shackles5.png", 
+            "w": 66, 
+            "x": 237, 
+            "y": 619
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "shackles6", 
+            "path": "treasure_island.form/shackles6.png", 
+            "w": 44, 
+            "x": 845, 
+            "y": 15
+          }
+        }
+      ], 
+      "name": "手枷", 
+      "path": "treasure_island.sils/shackles.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "binoculars1", 
+            "path": "treasure_island.form/binoculars1.png", 
+            "w": 46, 
+            "x": 599, 
+            "y": 585
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "binoculars2", 
+            "path": "treasure_island.form/binoculars2.png", 
+            "w": 58, 
+            "x": 298, 
+            "y": 589
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "binoculars3", 
+            "path": "treasure_island.form/binoculars3.png", 
+            "w": 41, 
+            "x": 632, 
+            "y": 374
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "binoculars4_cover", 
+            "path": "treasure_island.form/binoculars4_cover.png", 
+            "w": 33, 
+            "x": 1179, 
+            "y": 610
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "binoculars4", 
+            "path": "treasure_island.form/binoculars4.png", 
+            "w": 31, 
+            "x": 1182, 
+            "y": 589
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "binoculars5_cover", 
+            "path": "treasure_island.form/binoculars5_cover.png", 
+            "w": 44, 
+            "x": 916, 
+            "y": 227
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "binoculars5", 
+            "path": "treasure_island.form/binoculars5.png", 
+            "w": 43, 
+            "x": 918, 
+            "y": 216
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "binoculars6_cover", 
+            "path": "treasure_island.form/binoculars6_cover.png", 
+            "w": 30, 
+            "x": 825, 
+            "y": 308
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "binoculars6", 
+            "path": "treasure_island.form/binoculars6.png", 
+            "w": 49, 
+            "x": 827, 
+            "y": 310
+          }
+        }
+      ], 
+      "name": "航海用双眼鏡", 
+      "path": "treasure_island.sils/binoculars.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "bottle1", 
+            "path": "treasure_island.form/bottle1.png", 
+            "w": 74, 
+            "x": 830, 
+            "y": 595
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "bottle2", 
+            "path": "treasure_island.form/bottle2.png", 
+            "w": 26, 
+            "x": 1058, 
+            "y": 588
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "bottle3_cover", 
+            "path": "treasure_island.form/bottle3_cover.png", 
+            "w": 31, 
+            "x": 1219, 
+            "y": 561
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "bottle3", 
+            "path": "treasure_island.form/bottle3.png", 
+            "w": 29, 
+            "x": 1219, 
+            "y": 529
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "bottle4_cover", 
+            "path": "treasure_island.form/bottle4_cover.png", 
+            "w": 43, 
+            "x": 400, 
+            "y": 522
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "bottle4", 
+            "path": "treasure_island.form/bottle4.png", 
+            "w": 56, 
+            "x": 403, 
+            "y": 500
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "bottle5_cover", 
+            "path": "treasure_island.form/bottle5_cover.png", 
+            "w": 35, 
+            "x": 661, 
+            "y": 140
+          }, 
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "bottle5", 
+            "path": "treasure_island.form/bottle5.png", 
+            "w": 46, 
+            "x": 659, 
+            "y": 116
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "bottle6_cover", 
+            "path": "treasure_island.form/bottle6_cover.png", 
+            "w": 33, 
+            "x": 734, 
+            "y": 562
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "bottle6", 
+            "path": "treasure_island.form/bottle6.png", 
+            "w": 39, 
+            "x": 734, 
+            "y": 518
+          }
+        }
+      ], 
+      "name": "瓶の中の手紙", 
+      "path": "treasure_island.sils/bottle.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "cup1", 
+            "path": "treasure_island.form/cup1.png", 
+            "w": 43, 
+            "x": 692, 
+            "y": 554
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "cup2_cover", 
+            "path": "treasure_island.form/cup2_cover.png", 
+            "w": 46, 
+            "x": 433, 
+            "y": 345
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "cup2", 
+            "path": "treasure_island.form/cup2.png", 
+            "w": 43, 
+            "x": 435, 
+            "y": 297
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "cup3_cover", 
+            "path": "treasure_island.form/cup3_cover.png", 
+            "w": 49, 
+            "x": 777, 
+            "y": 209
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "cup3", 
+            "path": "treasure_island.form/cup3.png", 
+            "w": 51, 
+            "x": 777, 
+            "y": 191
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "cup4_cover", 
+            "path": "treasure_island.form/cup4_cover.png", 
+            "w": 31, 
+            "x": 1010, 
+            "y": 557
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "cup4", 
+            "path": "treasure_island.form/cup4.png", 
+            "w": 36, 
+            "x": 1007, 
+            "y": 540
+          }
+        }, 
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "cup5", 
+            "path": "treasure_island.form/cup5.png", 
+            "w": 34, 
+            "x": 489, 
+            "y": 593
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "cup6_cover", 
+            "path": "treasure_island.form/cup6_cover.png", 
+            "w": 24, 
+            "x": 811, 
+            "y": 535
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "cup6", 
+            "path": "treasure_island.form/cup6.png", 
+            "w": 36, 
+            "x": 804, 
+            "y": 518
+          }
+        }
+      ], 
+      "name": "ゴブレット", 
+      "path": "treasure_island.sils/cup.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "candlestick1", 
+            "path": "treasure_island.form/candlestick1.png", 
+            "w": 45, 
+            "x": 829, 
+            "y": 87
+          }
+        }, 
+        {
+          "pic": {
+            "h": 72, 
+            "layer": 3, 
+            "name": "candlestick2", 
+            "path": "treasure_island.form/candlestick2.png", 
+            "w": 46, 
+            "x": 589, 
+            "y": 447
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "candlestick3", 
+            "path": "treasure_island.form/candlestick3.png", 
+            "w": 50, 
+            "x": 1116, 
+            "y": 301
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "candlestick4", 
+            "path": "treasure_island.form/candlestick4.png", 
+            "w": 43, 
+            "x": 920, 
+            "y": 346
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "candlestick5_cover", 
+            "path": "treasure_island.form/candlestick5_cover.png", 
+            "w": 23, 
+            "x": 976, 
+            "y": 51
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "candlestick5", 
+            "path": "treasure_island.form/candlestick5.png", 
+            "w": 44, 
+            "x": 970, 
+            "y": 7
+          }
+        }, 
+        {
+          "pic": {
+            "h": 81, 
+            "layer": 3, 
+            "name": "candlestick6", 
+            "path": "treasure_island.form/candlestick6.png", 
+            "w": 45, 
+            "x": 473, 
+            "y": 354
+          }
+        }
+      ], 
+      "name": "ロウソク立て", 
+      "path": "treasure_island.sils/candlestick.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "poison1", 
+            "path": "treasure_island.form/poison1.png", 
+            "w": 60, 
+            "x": 689, 
+            "y": 324
+          }
+        }, 
+        {
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "poison2", 
+            "path": "treasure_island.form/poison2.png", 
+            "w": 42, 
+            "x": 1137, 
+            "y": 376
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "poison3", 
+            "path": "treasure_island.form/poison3.png", 
+            "w": 50, 
+            "x": 607, 
+            "y": 127
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "poison4", 
+            "path": "treasure_island.form/poison4.png", 
+            "w": 37, 
+            "x": 383, 
+            "y": 559
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "poison5_cover", 
+            "path": "treasure_island.form/poison5_cover.png", 
+            "w": 64, 
+            "x": 990, 
+            "y": 589
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "poison5", 
+            "path": "treasure_island.form/poison5.png", 
+            "w": 59, 
+            "x": 992, 
+            "y": 590
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "poison6_cover", 
+            "path": "treasure_island.form/poison6_cover.png", 
+            "w": 37, 
+            "x": 334, 
+            "y": 454
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "poison6", 
+            "path": "treasure_island.form/poison6.png", 
+            "w": 33, 
+            "x": 337, 
+            "y": 439
+          }
+        }
+      ], 
+      "name": "毒", 
+      "path": "treasure_island.sils/poison.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "belt1", 
+            "path": "treasure_island.form/belt1.png", 
+            "w": 62, 
+            "x": 846, 
+            "y": 524
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "belt2", 
+            "path": "treasure_island.form/belt2.png", 
+            "w": 51, 
+            "x": 1049, 
+            "y": 549
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "belt3", 
+            "path": "treasure_island.form/belt3.png", 
+            "w": 57, 
+            "x": 634, 
+            "y": 484
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "belt4", 
+            "path": "treasure_island.form/belt4.png", 
+            "w": 49, 
+            "x": 1116, 
+            "y": 252
+          }
+        }, 
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "belt5", 
+            "path": "treasure_island.form/belt5.png", 
+            "w": 39, 
+            "x": 858, 
+            "y": 105
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "belt6", 
+            "path": "treasure_island.form/belt6.png", 
+            "w": 46, 
+            "x": 268, 
+            "y": 488
+          }
+        }
+      ], 
+      "name": "ベルト", 
+      "path": "treasure_island.sils/belt.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "hat1", 
+            "path": "treasure_island.form/hat1.png", 
+            "w": 39, 
+            "x": 488, 
+            "y": 174
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "hat2", 
+            "path": "treasure_island.form/hat2.png", 
+            "w": 41, 
+            "x": 1100, 
+            "y": 364
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "hat3", 
+            "path": "treasure_island.form/hat3.png", 
+            "w": 43, 
+            "x": 1017, 
+            "y": 327
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "hat4", 
+            "path": "treasure_island.form/hat4.png", 
+            "w": 38, 
+            "x": 574, 
+            "y": 348
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "hat5", 
+            "path": "treasure_island.form/hat5.png", 
+            "w": 49, 
+            "x": 1081, 
+            "y": 597
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "hat6", 
+            "path": "treasure_island.form/hat6.png", 
+            "w": 61, 
+            "x": 754, 
+            "y": 592
+          }
+        }
+      ], 
+      "name": "海賊の帽子", 
+      "path": "treasure_island.sils/hat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "harpoon1", 
+            "path": "treasure_island.form/harpoon1.png", 
+            "w": 107, 
+            "x": 788, 
+            "y": 334
+          }
+        }, 
+        {
+          "pic": {
+            "h": 125, 
+            "layer": 3, 
+            "name": "harpoon2", 
+            "path": "treasure_island.form/harpoon2.png", 
+            "w": 49, 
+            "x": 423, 
+            "y": 353
+          }
+        }, 
+        {
+          "pic": {
+            "h": 123, 
+            "layer": 3, 
+            "name": "harpoon3", 
+            "path": "treasure_island.form/harpoon3.png", 
+            "w": 53, 
+            "x": 1186, 
+            "y": 347
+          }
+        }, 
+        {
+          "pic": {
+            "h": 127, 
+            "layer": 3, 
+            "name": "harpoon4", 
+            "path": "treasure_island.form/harpoon4.png", 
+            "w": 52, 
+            "x": 1015, 
+            "y": 13
+          }
+        }, 
+        {
+          "pic": {
+            "h": 132, 
+            "layer": 3, 
+            "name": "harpoon5", 
+            "path": "treasure_island.form/harpoon5.png", 
+            "w": 52, 
+            "x": 531, 
+            "y": 311
+          }
+        }, 
+        {
+          "pic": {
+            "h": 131, 
+            "layer": 3, 
+            "name": "harpoon6", 
+            "path": "treasure_island.form/harpoon6.png", 
+            "w": 51, 
+            "x": 305, 
+            "y": 459
+          }
+        }
+      ], 
+      "name": "銛", 
+      "path": "treasure_island.sils/harpoon.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 120, 
+            "layer": 3, 
+            "name": "saber1", 
+            "path": "treasure_island.form/saber1.png", 
+            "w": 48, 
+            "x": 595, 
+            "y": 315
+          }
+        }, 
+        {
+          "pic": {
+            "h": 121, 
+            "layer": 3, 
+            "name": "saber2", 
+            "path": "treasure_island.form/saber2.png", 
+            "w": 47, 
+            "x": 1000, 
+            "y": 148
+          }
+        }, 
+        {
+          "pic": {
+            "h": 120, 
+            "layer": 3, 
+            "name": "saber3", 
+            "path": "treasure_island.form/saber3.png", 
+            "w": 70, 
+            "x": 708, 
+            "y": 37
+          }
+        }, 
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "saber4", 
+            "path": "treasure_island.form/saber4.png", 
+            "w": 102, 
+            "x": 669, 
+            "y": 228
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "saber5_cover", 
+            "path": "treasure_island.form/saber5_cover.png", 
+            "w": 10, 
+            "x": 479, 
+            "y": 149
+          }, 
+          "pic": {
+            "h": 115, 
+            "layer": 3, 
+            "name": "saber5", 
+            "path": "treasure_island.form/saber5.png", 
+            "w": 47, 
+            "x": 466, 
+            "y": 60
+          }
+        }, 
+        {
+          "pic": {
+            "h": 99, 
+            "layer": 3, 
+            "name": "saber6", 
+            "path": "treasure_island.form/saber6.png", 
+            "w": 38, 
+            "x": 1027, 
+            "y": 454
+          }
+        }
+      ], 
+      "name": "サーベル", 
+      "path": "treasure_island.sils/saber.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 132, 
+            "layer": 3, 
+            "name": "arrow1", 
+            "path": "treasure_island.form/arrow1.png", 
+            "w": 58, 
+            "x": 1155, 
+            "y": 361
+          }
+        }, 
+        {
+          "cover": {
+            "h": 8, 
+            "layer": 5, 
+            "name": "arrow2_cover", 
+            "path": "treasure_island.form/arrow2_cover.png", 
+            "w": 8, 
+            "x": 865, 
+            "y": 562
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "arrow2", 
+            "path": "treasure_island.form/arrow2.png", 
+            "w": 118, 
+            "x": 867, 
+            "y": 513
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "arrow3", 
+            "path": "treasure_island.form/arrow3.png", 
+            "w": 114, 
+            "x": 798, 
+            "y": 358
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "arrow4_cover", 
+            "path": "treasure_island.form/arrow4_cover.png", 
+            "w": 7, 
+            "x": 563, 
+            "y": 195
+          }, 
+          "pic": {
+            "h": 99, 
+            "layer": 3, 
+            "name": "arrow4", 
+            "path": "treasure_island.form/arrow4.png", 
+            "w": 63, 
+            "x": 504, 
+            "y": 197
+          }
+        }, 
+        {
+          "pic": {
+            "h": 119, 
+            "layer": 3, 
+            "name": "arrow5", 
+            "path": "treasure_island.form/arrow5.png", 
+            "w": 60, 
+            "x": 687, 
+            "y": 20
+          }
+        }, 
+        {
+          "pic": {
+            "h": 139, 
+            "layer": 3, 
+            "name": "arrow6", 
+            "path": "treasure_island.form/arrow6.png", 
+            "w": 64, 
+            "x": 1056, 
+            "y": 168
+          }
+        }
+      ], 
+      "name": "矢印", 
+      "path": "treasure_island.sils/arrow.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 144, 
+            "layer": 3, 
+            "name": "musket1", 
+            "path": "treasure_island.form/musket1.png", 
+            "w": 76, 
+            "x": 739, 
+            "y": 406
+          }
+        }, 
+        {
+          "pic": {
+            "h": 101, 
+            "layer": 3, 
+            "name": "musket2", 
+            "path": "treasure_island.form/musket2.png", 
+            "w": 131, 
+            "x": 870, 
+            "y": 235
+          }
+        }, 
+        {
+          "pic": {
+            "h": 130, 
+            "layer": 3, 
+            "name": "musket3", 
+            "path": "treasure_island.form/musket3.png", 
+            "w": 68, 
+            "x": 1178, 
+            "y": 233
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "musket4_cover", 
+            "path": "treasure_island.form/musket4_cover.png", 
+            "w": 24, 
+            "x": 411, 
+            "y": 276
+          }, 
+          "pic": {
+            "h": 124, 
+            "layer": 3, 
+            "name": "musket4", 
+            "path": "treasure_island.form/musket4.png", 
+            "w": 85, 
+            "x": 400, 
+            "y": 201
+          }
+        }, 
+        {
+          "pic": {
+            "h": 89, 
+            "layer": 3, 
+            "name": "musket5", 
+            "path": "treasure_island.form/musket5.png", 
+            "w": 120, 
+            "x": 626, 
+            "y": 216
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "musket6_cover", 
+            "path": "treasure_island.form/musket6_cover.png", 
+            "w": 24, 
+            "x": 813, 
+            "y": 177
+          }, 
+          "pic": {
+            "h": 132, 
+            "layer": 3, 
+            "name": "musket6", 
+            "path": "treasure_island.form/musket6.png", 
+            "w": 74, 
+            "x": 792, 
+            "y": 88
+          }
+        }
+      ], 
+      "name": "マスケット銃", 
+      "path": "treasure_island.sils/musket.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 126, 
+            "layer": 3, 
+            "name": "cane1", 
+            "path": "treasure_island.form/cane1.png", 
+            "w": 64, 
+            "x": 455, 
+            "y": 476
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "cane2_cover", 
+            "path": "treasure_island.form/cane2_cover.png", 
+            "w": 20, 
+            "x": 901, 
+            "y": 217
+          }, 
+          "pic": {
+            "h": 117, 
+            "layer": 3, 
+            "name": "cane2", 
+            "path": "treasure_island.form/cane2.png", 
+            "w": 61, 
+            "x": 892, 
+            "y": 140
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 5, 
+            "name": "cane3_cover", 
+            "path": "treasure_island.form/cane3_cover.png", 
+            "w": 14, 
+            "x": 309, 
+            "y": 71
+          }, 
+          "pic": {
+            "h": 124, 
+            "layer": 3, 
+            "name": "cane3", 
+            "path": "treasure_island.form/cane3.png", 
+            "w": 62, 
+            "x": 288, 
+            "y": 12
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "cane4_cover", 
+            "path": "treasure_island.form/cane4_cover.png", 
+            "w": 51, 
+            "x": 575, 
+            "y": 199
+          }, 
+          "pic": {
+            "h": 110, 
+            "layer": 3, 
+            "name": "cane4", 
+            "path": "treasure_island.form/cane4.png", 
+            "w": 99, 
+            "x": 525, 
+            "y": 202
+          }
+        }, 
+        {
+          "pic": {
+            "h": 100, 
+            "layer": 3, 
+            "name": "cane5", 
+            "path": "treasure_island.form/cane5.png", 
+            "w": 79, 
+            "x": 572, 
+            "y": 16
+          }
+        }, 
+        {
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "cane6", 
+            "path": "treasure_island.form/cane6.png", 
+            "w": 123, 
+            "x": 915, 
+            "y": 411
+          }
+        }
+      ], 
+      "name": "ステッキ", 
+      "path": "treasure_island.sils/cane.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "crab1", 
+            "path": "treasure_island.form/crab1.png", 
+            "w": 65, 
+            "x": 1109, 
+            "y": 558
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "crab2", 
+            "path": "treasure_island.form/crab2.png", 
+            "w": 59, 
+            "x": 374, 
+            "y": 327
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "crab3", 
+            "path": "treasure_island.form/crab3.png", 
+            "w": 55, 
+            "x": 1122, 
+            "y": 446
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "crab4", 
+            "path": "treasure_island.form/crab4.png", 
+            "w": 63, 
+            "x": 838, 
+            "y": 445
+          }
+        }, 
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "crab5", 
+            "path": "treasure_island.form/crab5.png", 
+            "w": 50, 
+            "x": 366, 
+            "y": 206
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "crab6", 
+            "path": "treasure_island.form/crab6.png", 
+            "w": 58, 
+            "x": 1168, 
+            "y": 56
+          }
+        }
+      ], 
+      "name": "カニ", 
+      "path": "treasure_island.sils/crab.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "parrot1", 
+            "path": "treasure_island.form/parrot1.png", 
+            "w": 36, 
+            "x": 743, 
+            "y": 169
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "parrot2", 
+            "path": "treasure_island.form/parrot2.png", 
+            "w": 36, 
+            "x": 941, 
+            "y": 14
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "parrot3", 
+            "path": "treasure_island.form/parrot3.png", 
+            "w": 37, 
+            "x": 347, 
+            "y": 37
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "parrot4", 
+            "path": "treasure_island.form/parrot4.png", 
+            "w": 35, 
+            "x": 734, 
+            "y": 445
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "parrot5", 
+            "path": "treasure_island.form/parrot5.png", 
+            "w": 36, 
+            "x": 1176, 
+            "y": 503
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "parrot6", 
+            "path": "treasure_island.form/parrot6.png", 
+            "w": 33, 
+            "x": 496, 
+            "y": 478
+          }
+        }
+      ], 
+      "name": "オウム", 
+      "path": "treasure_island.sils/parrot.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 88, 
+            "layer": 3, 
+            "name": "spyglass1", 
+            "path": "treasure_island.form/spyglass1.png", 
+            "w": 51, 
+            "x": 267, 
+            "y": 359
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "spyglass2", 
+            "path": "treasure_island.form/spyglass2.png", 
+            "w": 81, 
+            "x": 816, 
+            "y": 605
+          }
+        }, 
+        {
+          "pic": {
+            "h": 73, 
+            "layer": 3, 
+            "name": "spyglass3", 
+            "path": "treasure_island.form/spyglass3.png", 
+            "w": 44, 
+            "x": 816, 
+            "y": 229
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "spyglass4_cover", 
+            "path": "treasure_island.form/spyglass4_cover.png", 
+            "w": 5, 
+            "x": 1114, 
+            "y": 183
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "spyglass4", 
+            "path": "treasure_island.form/spyglass4.png", 
+            "w": 47, 
+            "x": 1093, 
+            "y": 169
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "spyglass5_cover", 
+            "path": "treasure_island.form/spyglass5_cover.png", 
+            "w": 62, 
+            "x": 496, 
+            "y": 25
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "spyglass5", 
+            "path": "treasure_island.form/spyglass5.png", 
+            "w": 70, 
+            "x": 485, 
+            "y": 15
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "spyglass6_cover", 
+            "path": "treasure_island.form/spyglass6_cover.png", 
+            "w": 25, 
+            "x": 326, 
+            "y": 243
+          }, 
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "spyglass6", 
+            "path": "treasure_island.form/spyglass6.png", 
+            "w": 54, 
+            "x": 321, 
+            "y": 197
+          }
+        }
+      ], 
+      "name": "望遠鏡", 
+      "path": "treasure_island.sils/spyglass.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 88, 
+            "layer": 3, 
+            "name": "fish1", 
+            "path": "treasure_island.form/fish1.png", 
+            "w": 34, 
+            "x": 449, 
+            "y": 361
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "fish2_cover", 
+            "path": "treasure_island.form/fish2_cover.png", 
+            "w": 39, 
+            "x": 787, 
+            "y": 304
+          }, 
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "fish2", 
+            "path": "treasure_island.form/fish2.png", 
+            "w": 50, 
+            "x": 775, 
+            "y": 271
+          }
+        }, 
+        {
+          "pic": {
+            "h": 85, 
+            "layer": 3, 
+            "name": "fish3", 
+            "path": "treasure_island.form/fish3.png", 
+            "w": 31, 
+            "x": 1089, 
+            "y": 428
+          }
+        }, 
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "fish4", 
+            "path": "treasure_island.form/fish4.png", 
+            "w": 41, 
+            "x": 514, 
+            "y": 522
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "fish5_cover", 
+            "path": "treasure_island.form/fish5_cover.png", 
+            "w": 59, 
+            "x": 584, 
+            "y": 274
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "fish5", 
+            "path": "treasure_island.form/fish5.png", 
+            "w": 72, 
+            "x": 568, 
+            "y": 277
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "fish6_cover", 
+            "path": "treasure_island.form/fish6_cover.png", 
+            "w": 28, 
+            "x": 887, 
+            "y": 39
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "fish6", 
+            "path": "treasure_island.form/fish6.png", 
+            "w": 25, 
+            "x": 888, 
+            "y": 41
+          }
+        }
+      ], 
+      "name": "魚", 
+      "path": "treasure_island.sils/fish.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "coral1", 
+            "path": "treasure_island.form/coral1.png", 
+            "w": 41, 
+            "x": 1014, 
+            "y": 270
+          }
+        }, 
+        {
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "coral2", 
+            "path": "treasure_island.form/coral2.png", 
+            "w": 45, 
+            "x": 644, 
+            "y": 557
+          }
+        }, 
+        {
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "coral3", 
+            "path": "treasure_island.form/coral3.png", 
+            "w": 43, 
+            "x": 384, 
+            "y": 429
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "coral4_cover", 
+            "path": "treasure_island.form/coral4_cover.png", 
+            "w": 19, 
+            "x": 476, 
+            "y": 238
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "coral4", 
+            "path": "treasure_island.form/coral4.png", 
+            "w": 45, 
+            "x": 478, 
+            "y": 233
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "coral5_cover", 
+            "path": "treasure_island.form/coral5_cover.png", 
+            "w": 48, 
+            "x": 699, 
+            "y": 152
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "coral5", 
+            "path": "treasure_island.form/coral5.png", 
+            "w": 41, 
+            "x": 701, 
+            "y": 135
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "coral6_cover", 
+            "path": "treasure_island.form/coral6_cover.png", 
+            "w": 30, 
+            "x": 240, 
+            "y": 383
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "coral6", 
+            "path": "treasure_island.form/coral6.png", 
+            "w": 42, 
+            "x": 232, 
+            "y": 379
+          }
+        }
+      ], 
+      "name": "サンゴ", 
+      "path": "treasure_island.sils/coral.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "compas1", 
+            "path": "treasure_island.form/compas1.png", 
+            "w": 56, 
+            "x": 906, 
+            "y": 437
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "compas2", 
+            "path": "treasure_island.form/compas2.png", 
+            "w": 48, 
+            "x": 338, 
+            "y": 505
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "compas3", 
+            "path": "treasure_island.form/compas3.png", 
+            "w": 47, 
+            "x": 654, 
+            "y": 430
+          }
+        }, 
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "compas4", 
+            "path": "treasure_island.form/compas4.png", 
+            "w": 42, 
+            "x": 424, 
+            "y": 37
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "compas5_cover", 
+            "path": "treasure_island.form/compas5_cover.png", 
+            "w": 53, 
+            "x": 959, 
+            "y": 158
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "compas5", 
+            "path": "treasure_island.form/compas5.png", 
+            "w": 47, 
+            "x": 962, 
+            "y": 160
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "compas6_cover", 
+            "path": "treasure_island.form/compas6_cover.png", 
+            "w": 39, 
+            "x": 339, 
+            "y": 383
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "compas6", 
+            "path": "treasure_island.form/compas6.png", 
+            "w": 42, 
+            "x": 337, 
+            "y": 385
+          }
+        }
+      ], 
+      "name": "方位磁針", 
+      "path": "treasure_island.sils/compas.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "alga1", 
+            "path": "treasure_island.form/alga1.png", 
+            "w": 35, 
+            "x": 1058, 
+            "y": 496
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "alga2", 
+            "path": "treasure_island.form/alga2.png", 
+            "w": 41, 
+            "x": 871, 
+            "y": 333
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "alga3", 
+            "path": "treasure_island.form/alga3.png", 
+            "w": 40, 
+            "x": 234, 
+            "y": 511
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "alga4_cover", 
+            "path": "treasure_island.form/alga4_cover.png", 
+            "w": 35, 
+            "x": 772, 
+            "y": 363
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "alga4", 
+            "path": "treasure_island.form/alga4.png", 
+            "w": 36, 
+            "x": 774, 
+            "y": 366
+          }
+        }, 
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "alga5", 
+            "path": "treasure_island.form/alga5.png", 
+            "w": 45, 
+            "x": 331, 
+            "y": 133
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "alga6", 
+            "path": "treasure_island.form/alga6.png", 
+            "w": 37, 
+            "x": 1167, 
+            "y": 260
+          }
+        }
+      ], 
+      "name": "海藻", 
+      "path": "treasure_island.sils/alga.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "foot1", 
+            "path": "treasure_island.form/foot1.png", 
+            "w": 71, 
+            "x": 842, 
+            "y": 178
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "foot2_cover", 
+            "path": "treasure_island.form/foot2_cover.png", 
+            "w": 28, 
+            "x": 446, 
+            "y": 159
+          }, 
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "foot2", 
+            "path": "treasure_island.form/foot2.png", 
+            "w": 45, 
+            "x": 443, 
+            "y": 105
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "foot3_cover", 
+            "path": "treasure_island.form/foot3_cover.png", 
+            "w": 25, 
+            "x": 981, 
+            "y": 536
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "foot3", 
+            "path": "treasure_island.form/foot3.png", 
+            "w": 42, 
+            "x": 980, 
+            "y": 496
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "foot4_cover", 
+            "path": "treasure_island.form/foot4_cover.png", 
+            "w": 38, 
+            "x": 843, 
+            "y": 398
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "foot4", 
+            "path": "treasure_island.form/foot4.png", 
+            "w": 61, 
+            "x": 816, 
+            "y": 400
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "foot5_cover", 
+            "path": "treasure_island.form/foot5_cover.png", 
+            "w": 22, 
+            "x": 476, 
+            "y": 433
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "foot5", 
+            "path": "treasure_island.form/foot5.png", 
+            "w": 65, 
+            "x": 480, 
+            "y": 426
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "foot6_cover", 
+            "path": "treasure_island.form/foot6_cover.png", 
+            "w": 32, 
+            "x": 647, 
+            "y": 537
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "foot6", 
+            "path": "treasure_island.form/foot6.png", 
+            "w": 69, 
+            "x": 650, 
+            "y": 515
+          }
+        }
+      ], 
+      "name": "義足", 
+      "path": "treasure_island.sils/foot.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "handprint1", 
+            "path": "treasure_island.form/handprint1.png", 
+            "w": 42, 
+            "x": 671, 
+            "y": 383
+          }
+        }, 
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "handprint2", 
+            "path": "treasure_island.form/handprint2.png", 
+            "w": 48, 
+            "x": 1199, 
+            "y": 474
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "handprint3", 
+            "path": "treasure_island.form/handprint3.png", 
+            "w": 42, 
+            "x": 985, 
+            "y": 81
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "handprint4", 
+            "path": "treasure_island.form/handprint4.png", 
+            "w": 44, 
+            "x": 383, 
+            "y": 377
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "handprint5", 
+            "path": "treasure_island.form/handprint5.png", 
+            "w": 53, 
+            "x": 883, 
+            "y": 488
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "handprint6", 
+            "path": "treasure_island.form/handprint6.png", 
+            "w": 50, 
+            "x": 960, 
+            "y": 460
+          }
+        }
+      ], 
+      "name": "手型", 
+      "path": "treasure_island.sils/handprint.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "star1", 
+            "path": "treasure_island.form/star1.png", 
+            "w": 50, 
+            "x": 535, 
+            "y": 43
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "star2", 
+            "path": "treasure_island.form/star2.png", 
+            "w": 50, 
+            "x": 931, 
+            "y": 603
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "star3", 
+            "path": "treasure_island.form/star3.png", 
+            "w": 57, 
+            "x": 273, 
+            "y": 284
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "star4", 
+            "path": "treasure_island.form/star4.png", 
+            "w": 54, 
+            "x": 1059, 
+            "y": 41
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "star5_cover", 
+            "path": "treasure_island.form/star5_cover.png", 
+            "w": 33, 
+            "x": 402, 
+            "y": 88
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "star5", 
+            "path": "treasure_island.form/star5.png", 
+            "w": 49, 
+            "x": 405, 
+            "y": 91
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "star6_cover", 
+            "path": "treasure_island.form/star6_cover.png", 
+            "w": 52, 
+            "x": 718, 
+            "y": 369
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "star6", 
+            "path": "treasure_island.form/star6.png", 
+            "w": 54, 
+            "x": 717, 
+            "y": 371
+          }
+        }
+      ], 
+      "name": "ヒトデ", 
+      "path": "treasure_island.sils/star.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "turtle1_1", 
+            "path": "treasure_island.morph/turtle1_1.png", 
+            "w": 71, 
+            "x": 409, 
+            "y": 590
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "turtle2_1", 
+            "path": "treasure_island.morph/turtle2_1.png", 
+            "w": 45, 
+            "x": 433, 
+            "y": 569
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "turtle1_2", 
+            "path": "treasure_island.morph/turtle1_2.png", 
+            "w": 69, 
+            "x": 300, 
+            "y": 597
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "turtle2_2", 
+            "path": "treasure_island.morph/turtle2_2.png", 
+            "w": 57, 
+            "x": 301, 
+            "y": 589
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "turtle1_3_cover", 
+            "path": "treasure_island.morph/turtle1_3_cover.png", 
+            "w": 17, 
+            "x": 804, 
+            "y": 560
+          }, 
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "turtle1_3", 
+            "path": "treasure_island.morph/turtle1_3.png", 
+            "w": 63, 
+            "x": 754, 
+            "y": 555
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "turtle2_3", 
+            "path": "treasure_island.morph/turtle2_3.png", 
+            "w": 31, 
+            "x": 775, 
+            "y": 543
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "turtle1_4_cover", 
+            "path": "treasure_island.morph/turtle1_4_cover.png", 
+            "w": 63, 
+            "x": 899, 
+            "y": 227
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "turtle1_4", 
+            "path": "treasure_island.morph/turtle1_4.png", 
+            "w": 61, 
+            "x": 900, 
+            "y": 235
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "turtle2_4", 
+            "path": "treasure_island.morph/turtle2_4.png", 
+            "w": 43, 
+            "x": 918, 
+            "y": 216
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "turtle1_5_cover", 
+            "path": "treasure_island.morph/turtle1_5_cover.png", 
+            "w": 69, 
+            "x": 742, 
+            "y": 216
+          }, 
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "turtle1_5", 
+            "path": "treasure_island.morph/turtle1_5.png", 
+            "w": 62, 
+            "x": 744, 
+            "y": 232
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "turtle2_5", 
+            "path": "treasure_island.morph/turtle2_5.png", 
+            "w": 42, 
+            "x": 757, 
+            "y": 216
+          }
+        }
+      ], 
+      "name": "turtle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "cup1_1", 
+            "path": "treasure_island.morph/cup1_1.png", 
+            "w": 43, 
+            "x": 692, 
+            "y": 554
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "cup2_1", 
+            "path": "treasure_island.morph/cup2_1.png", 
+            "w": 27, 
+            "x": 701, 
+            "y": 550
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "cup1_2", 
+            "path": "treasure_island.morph/cup1_2.png", 
+            "w": 43, 
+            "x": 474, 
+            "y": 363
+          }, 
+          "pic2": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "cup2_2", 
+            "path": "treasure_island.morph/cup2_2.png", 
+            "w": 45, 
+            "x": 473, 
+            "y": 354
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "cup1_3_cover", 
+            "path": "treasure_island.morph/cup1_3_cover.png", 
+            "w": 33, 
+            "x": 1010, 
+            "y": 557
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "cup1_3", 
+            "path": "treasure_island.morph/cup1_3.png", 
+            "w": 36, 
+            "x": 1007, 
+            "y": 540
+          }, 
+          "pic2": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "cup2_3", 
+            "path": "treasure_island.morph/cup2_3.png", 
+            "w": 28, 
+            "x": 1013, 
+            "y": 530
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "cup1_4", 
+            "path": "treasure_island.morph/cup1_4.png", 
+            "w": 35, 
+            "x": 490, 
+            "y": 593
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "cup2_4", 
+            "path": "treasure_island.morph/cup2_4.png", 
+            "w": 26, 
+            "x": 493, 
+            "y": 577
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "cup1_5", 
+            "path": "treasure_island.morph/cup1_5.png", 
+            "w": 45, 
+            "x": 1112, 
+            "y": 307
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "cup2_5", 
+            "path": "treasure_island.morph/cup2_5.png", 
+            "w": 50, 
+            "x": 1116, 
+            "y": 301
+          }
+        }
+      ], 
+      "name": "cup"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "bottle1_1", 
+            "path": "treasure_island.morph/bottle1_1.png", 
+            "w": 74, 
+            "x": 830, 
+            "y": 595
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "bottle2_1", 
+            "path": "treasure_island.morph/bottle2_1.png", 
+            "w": 40, 
+            "x": 853, 
+            "y": 558
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "bottle1_2", 
+            "path": "treasure_island.morph/bottle1_2.png", 
+            "w": 26, 
+            "x": 1058, 
+            "y": 588
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "bottle2_2", 
+            "path": "treasure_island.morph/bottle2_2.png", 
+            "w": 40, 
+            "x": 1051, 
+            "y": 593
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "bottle1_3_cover", 
+            "path": "treasure_island.morph/bottle1_3_cover.png", 
+            "w": 36, 
+            "x": 1214, 
+            "y": 561
+          }, 
+          "pic1": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "bottle1_3", 
+            "path": "treasure_island.morph/bottle1_3.png", 
+            "w": 29, 
+            "x": 1219, 
+            "y": 529
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "bottle2_3", 
+            "path": "treasure_island.morph/bottle2_3.png", 
+            "w": 40, 
+            "x": 1210, 
+            "y": 528
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "bottle1_4", 
+            "path": "treasure_island.morph/bottle1_4.png", 
+            "w": 65, 
+            "x": 687, 
+            "y": 324
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "bottle2_4", 
+            "path": "treasure_island.morph/bottle2_4.png", 
+            "w": 60, 
+            "x": 689, 
+            "y": 324
+          }
+        }, 
+        {
+          "cover": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "bottle1_5_cover", 
+            "path": "treasure_island.morph/bottle1_5_cover.png", 
+            "w": 37, 
+            "x": 334, 
+            "y": 432
+          }, 
+          "pic1": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "bottle1_5", 
+            "path": "treasure_island.morph/bottle1_5.png", 
+            "w": 26, 
+            "x": 339, 
+            "y": 430
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "bottle2_5", 
+            "path": "treasure_island.morph/bottle2_5.png", 
+            "w": 33, 
+            "x": 337, 
+            "y": 439
+          }
+        }
+      ], 
+      "name": "bottle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "belt1_1", 
+            "path": "treasure_island.morph/belt1_1.png", 
+            "w": 62, 
+            "x": 846, 
+            "y": 524
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "belt2_1", 
+            "path": "treasure_island.morph/belt2_1.png", 
+            "w": 59, 
+            "x": 847, 
+            "y": 523
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "belt1_2", 
+            "path": "treasure_island.morph/belt1_2.png", 
+            "w": 44, 
+            "x": 1084, 
+            "y": 591
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "belt2_2", 
+            "path": "treasure_island.morph/belt2_2.png", 
+            "w": 48, 
+            "x": 1085, 
+            "y": 594
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "belt1_3", 
+            "path": "treasure_island.morph/belt1_3.png", 
+            "w": 31, 
+            "x": 488, 
+            "y": 171
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "belt2_3", 
+            "path": "treasure_island.morph/belt2_3.png", 
+            "w": 39, 
+            "x": 488, 
+            "y": 174
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "belt1_4", 
+            "path": "treasure_island.morph/belt1_4.png", 
+            "w": 49, 
+            "x": 1116, 
+            "y": 252
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "belt2_4", 
+            "path": "treasure_island.morph/belt2_4.png", 
+            "w": 46, 
+            "x": 1125, 
+            "y": 240
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "belt1_5", 
+            "path": "treasure_island.morph/belt1_5.png", 
+            "w": 70, 
+            "x": 746, 
+            "y": 596
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "belt2_5", 
+            "path": "treasure_island.morph/belt2_5.png", 
+            "w": 61, 
+            "x": 754, 
+            "y": 592
+          }
+        }
+      ], 
+      "name": "belt"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "harpoon1_1", 
+            "path": "treasure_island.morph/harpoon1_1.png", 
+            "w": 107, 
+            "x": 788, 
+            "y": 334
+          }, 
+          "pic2": {
+            "h": 89, 
+            "layer": 4, 
+            "name": "harpoon2_1", 
+            "path": "treasure_island.morph/harpoon2_1.png", 
+            "w": 120, 
+            "x": 784, 
+            "y": 320
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 125, 
+            "layer": 4, 
+            "name": "harpoon1_2", 
+            "path": "treasure_island.morph/harpoon1_2.png", 
+            "w": 49, 
+            "x": 423, 
+            "y": 353
+          }, 
+          "pic2": {
+            "h": 146, 
+            "layer": 4, 
+            "name": "harpoon2_2", 
+            "path": "treasure_island.morph/harpoon2_2.png", 
+            "w": 77, 
+            "x": 406, 
+            "y": 334
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 123, 
+            "layer": 4, 
+            "name": "harpoon1_3", 
+            "path": "treasure_island.morph/harpoon1_3.png", 
+            "w": 53, 
+            "x": 1186, 
+            "y": 347
+          }, 
+          "pic2": {
+            "h": 129, 
+            "layer": 4, 
+            "name": "harpoon2_3", 
+            "path": "treasure_island.morph/harpoon2_3.png", 
+            "w": 68, 
+            "x": 1177, 
+            "y": 336
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "harpoon1_4_cover", 
+            "path": "treasure_island.morph/harpoon1_4_cover.png", 
+            "w": 25, 
+            "x": 812, 
+            "y": 177
+          }, 
+          "pic1": {
+            "h": 127, 
+            "layer": 4, 
+            "name": "harpoon1_4", 
+            "path": "treasure_island.morph/harpoon1_4.png", 
+            "w": 52, 
+            "x": 803, 
+            "y": 86
+          }, 
+          "pic2": {
+            "h": 132, 
+            "layer": 4, 
+            "name": "harpoon2_4", 
+            "path": "treasure_island.morph/harpoon2_4.png", 
+            "w": 74, 
+            "x": 792, 
+            "y": 88
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "harpoon1_5", 
+            "path": "treasure_island.morph/harpoon1_5.png", 
+            "w": 107, 
+            "x": 887, 
+            "y": 253
+          }, 
+          "pic2": {
+            "h": 101, 
+            "layer": 4, 
+            "name": "harpoon2_5", 
+            "path": "treasure_island.morph/harpoon2_5.png", 
+            "w": 131, 
+            "x": 870, 
+            "y": 235
+          }
+        }
+      ], 
+      "name": "harpoon"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 120, 
+            "layer": 4, 
+            "name": "saber1_1", 
+            "path": "treasure_island.morph/saber1_1.png", 
+            "w": 48, 
+            "x": 595, 
+            "y": 315
+          }, 
+          "pic2": {
+            "h": 126, 
+            "layer": 4, 
+            "name": "saber2_1", 
+            "path": "treasure_island.morph/saber2_1.png", 
+            "w": 65, 
+            "x": 593, 
+            "y": 310
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 121, 
+            "layer": 4, 
+            "name": "saber1_2", 
+            "path": "treasure_island.morph/saber1_2.png", 
+            "w": 47, 
+            "x": 1000, 
+            "y": 148
+          }, 
+          "pic2": {
+            "h": 122, 
+            "layer": 4, 
+            "name": "saber2_2", 
+            "path": "treasure_island.morph/saber2_2.png", 
+            "w": 61, 
+            "x": 998, 
+            "y": 146
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 114, 
+            "layer": 4, 
+            "name": "saber1_3", 
+            "path": "treasure_island.morph/saber1_3.png", 
+            "w": 47, 
+            "x": 298, 
+            "y": 3
+          }, 
+          "pic2": {
+            "h": 124, 
+            "layer": 4, 
+            "name": "saber2_3", 
+            "path": "treasure_island.morph/saber2_3.png", 
+            "w": 62, 
+            "x": 288, 
+            "y": 12
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 112, 
+            "layer": 4, 
+            "name": "saber1_4", 
+            "path": "treasure_island.morph/saber1_4.png", 
+            "w": 83, 
+            "x": 574, 
+            "y": 10
+          }, 
+          "pic2": {
+            "h": 100, 
+            "layer": 4, 
+            "name": "saber2_4", 
+            "path": "treasure_island.morph/saber2_4.png", 
+            "w": 79, 
+            "x": 572, 
+            "y": 16
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "saber1_5", 
+            "path": "treasure_island.morph/saber1_5.png", 
+            "w": 102, 
+            "x": 666, 
+            "y": 232
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "saber2_5", 
+            "path": "treasure_island.morph/saber2_5.png", 
+            "w": 124, 
+            "x": 656, 
+            "y": 235
+          }
+        }
+      ], 
+      "name": "saber"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "albatros1_1", 
+            "path": "treasure_island.morph/albatros1_1.png", 
+            "w": 64, 
+            "x": 1026, 
+            "y": 401
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "albatros2_1", 
+            "path": "treasure_island.morph/albatros2_1.png", 
+            "w": 35, 
+            "x": 1029, 
+            "y": 408
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "albatros1_2", 
+            "path": "treasure_island.morph/albatros1_2.png", 
+            "w": 74, 
+            "x": 943, 
+            "y": 537
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "albatros2_2", 
+            "path": "treasure_island.morph/albatros2_2.png", 
+            "w": 35, 
+            "x": 959, 
+            "y": 555
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "albatros1_3", 
+            "path": "treasure_island.morph/albatros1_3.png", 
+            "w": 71, 
+            "x": 539, 
+            "y": 463
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "albatros2_3", 
+            "path": "treasure_island.morph/albatros2_3.png", 
+            "w": 33, 
+            "x": 552, 
+            "y": 475
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "albatros1_4", 
+            "path": "treasure_island.morph/albatros1_4.png", 
+            "w": 66, 
+            "x": 739, 
+            "y": 159
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "albatros2_4", 
+            "path": "treasure_island.morph/albatros2_4.png", 
+            "w": 36, 
+            "x": 743, 
+            "y": 169
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "albatros1_5", 
+            "path": "treasure_island.morph/albatros1_5.png", 
+            "w": 66, 
+            "x": 920, 
+            "y": 1
+          }, 
+          "pic2": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "albatros2_5", 
+            "path": "treasure_island.morph/albatros2_5.png", 
+            "w": 36, 
+            "x": 941, 
+            "y": 14
+          }
+        }
+      ], 
+      "name": "albatros"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 87, 
+            "layer": 4, 
+            "name": "fish1_1", 
+            "path": "treasure_island.morph/fish1_1.png", 
+            "w": 34, 
+            "x": 1013, 
+            "y": 272
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "fish2_1", 
+            "path": "treasure_island.morph/fish2_1.png", 
+            "w": 41, 
+            "x": 1014, 
+            "y": 270
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "fish1_2_cover", 
+            "path": "treasure_island.morph/fish1_2_cover.png", 
+            "w": 39, 
+            "x": 787, 
+            "y": 304
+          }, 
+          "pic1": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "fish1_2", 
+            "path": "treasure_island.morph/fish1_2.png", 
+            "w": 50, 
+            "x": 776, 
+            "y": 271
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "fish2_2", 
+            "path": "treasure_island.morph/fish2_2.png", 
+            "w": 41, 
+            "x": 790, 
+            "y": 281
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "fish1_3", 
+            "path": "treasure_island.morph/fish1_3.png", 
+            "w": 31, 
+            "x": 1089, 
+            "y": 428
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "fish2_3", 
+            "path": "treasure_island.morph/fish2_3.png", 
+            "w": 44, 
+            "x": 1085, 
+            "y": 435
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "fish1_4_cover", 
+            "path": "treasure_island.morph/fish1_4_cover.png", 
+            "w": 30, 
+            "x": 240, 
+            "y": 383
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "fish1_4", 
+            "path": "treasure_island.morph/fish1_4.png", 
+            "w": 41, 
+            "x": 230, 
+            "y": 392
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "fish2_4", 
+            "path": "treasure_island.morph/fish2_4.png", 
+            "w": 42, 
+            "x": 232, 
+            "y": 379
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "fish1_5_cover", 
+            "path": "treasure_island.morph/fish1_5_cover.png", 
+            "w": 47, 
+            "x": 877, 
+            "y": 39
+          }, 
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "fish1_5", 
+            "path": "treasure_island.morph/fish1_5.png", 
+            "w": 25, 
+            "x": 888, 
+            "y": 41
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "fish2_5", 
+            "path": "treasure_island.morph/fish2_5.png", 
+            "w": 41, 
+            "x": 880, 
+            "y": 51
+          }
+        }
+      ], 
+      "name": "fish"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "shackles1_1", 
+            "path": "treasure_island.morph/shackles1_1.png", 
+            "w": 35, 
+            "x": 627, 
+            "y": 298
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "shackles2_1", 
+            "path": "treasure_island.morph/shackles2_1.png", 
+            "w": 35, 
+            "x": 632, 
+            "y": 310
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "shackles1_2", 
+            "path": "treasure_island.morph/shackles1_2.png", 
+            "w": 71, 
+            "x": 520, 
+            "y": 619
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "shackles2_2", 
+            "path": "treasure_island.morph/shackles2_2.png", 
+            "w": 57, 
+            "x": 527, 
+            "y": 617
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "shackles1_3", 
+            "path": "treasure_island.morph/shackles1_3.png", 
+            "w": 32, 
+            "x": 238, 
+            "y": 495
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "shackles2_3", 
+            "path": "treasure_island.morph/shackles2_3.png", 
+            "w": 40, 
+            "x": 234, 
+            "y": 511
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "shackles1_4_cover", 
+            "path": "treasure_island.morph/shackles1_4_cover.png", 
+            "w": 35, 
+            "x": 772, 
+            "y": 363
+          }, 
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "shackles1_4", 
+            "path": "treasure_island.morph/shackles1_4.png", 
+            "w": 41, 
+            "x": 772, 
+            "y": 365
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "shackles2_4", 
+            "path": "treasure_island.morph/shackles2_4.png", 
+            "w": 36, 
+            "x": 774, 
+            "y": 366
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "shackles1_5", 
+            "path": "treasure_island.morph/shackles1_5.png", 
+            "w": 33, 
+            "x": 568, 
+            "y": 103
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "shackles2_5", 
+            "path": "treasure_island.morph/shackles2_5.png", 
+            "w": 36, 
+            "x": 572, 
+            "y": 110
+          }
+        }
+      ], 
+      "name": "shackles"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "spyglass1_1", 
+            "path": "treasure_island.morph/spyglass1_1.png", 
+            "w": 51, 
+            "x": 267, 
+            "y": 359
+          }, 
+          "pic2": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "spyglass2_1", 
+            "path": "treasure_island.morph/spyglass2_1.png", 
+            "w": 45, 
+            "x": 273, 
+            "y": 364
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "spyglass1_2", 
+            "path": "treasure_island.morph/spyglass1_2.png", 
+            "w": 81, 
+            "x": 816, 
+            "y": 605
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "spyglass2_2", 
+            "path": "treasure_island.morph/spyglass2_2.png", 
+            "w": 74, 
+            "x": 820, 
+            "y": 608
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "spyglass1_3", 
+            "path": "treasure_island.morph/spyglass1_3.png", 
+            "w": 44, 
+            "x": 816, 
+            "y": 229
+          }, 
+          "pic2": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "spyglass2_3", 
+            "path": "treasure_island.morph/spyglass2_3.png", 
+            "w": 42, 
+            "x": 820, 
+            "y": 229
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "spyglass1_4_cover", 
+            "path": "treasure_island.morph/spyglass1_4_cover.png", 
+            "w": 28, 
+            "x": 446, 
+            "y": 159
+          }, 
+          "pic1": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "spyglass1_4", 
+            "path": "treasure_island.morph/spyglass1_4.png", 
+            "w": 45, 
+            "x": 441, 
+            "y": 106
+          }, 
+          "pic2": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "spyglass2_4", 
+            "path": "treasure_island.morph/spyglass2_4.png", 
+            "w": 45, 
+            "x": 443, 
+            "y": 105
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "spyglass1_5_cover", 
+            "path": "treasure_island.morph/spyglass1_5_cover.png", 
+            "w": 25, 
+            "x": 981, 
+            "y": 536
+          }, 
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "spyglass1_5", 
+            "path": "treasure_island.morph/spyglass1_5.png", 
+            "w": 54, 
+            "x": 976, 
+            "y": 480
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "spyglass2_5", 
+            "path": "treasure_island.morph/spyglass2_5.png", 
+            "w": 42, 
+            "x": 980, 
+            "y": 496
+          }
+        }
+      ], 
+      "name": "spyglass"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "compas1_1", 
+            "path": "treasure_island.morph/compas1_1.png", 
+            "w": 56, 
+            "x": 906, 
+            "y": 437
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "compas2_1", 
+            "path": "treasure_island.morph/compas2_1.png", 
+            "w": 51, 
+            "x": 916, 
+            "y": 440
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "compas1_2", 
+            "path": "treasure_island.morph/compas1_2.png", 
+            "w": 51, 
+            "x": 1193, 
+            "y": 471
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "compas2_2", 
+            "path": "treasure_island.morph/compas2_2.png", 
+            "w": 48, 
+            "x": 1199, 
+            "y": 474
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "compas1_3", 
+            "path": "treasure_island.morph/compas1_3.png", 
+            "w": 47, 
+            "x": 654, 
+            "y": 430
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "compas2_3", 
+            "path": "treasure_island.morph/compas2_3.png", 
+            "w": 42, 
+            "x": 656, 
+            "y": 429
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "compas1_4", 
+            "path": "treasure_island.morph/compas1_4.png", 
+            "w": 47, 
+            "x": 981, 
+            "y": 83
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "compas2_4", 
+            "path": "treasure_island.morph/compas2_4.png", 
+            "w": 42, 
+            "x": 985, 
+            "y": 81
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "compas1_5", 
+            "path": "treasure_island.morph/compas1_5.png", 
+            "w": 44, 
+            "x": 383, 
+            "y": 377
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "compas2_5", 
+            "path": "treasure_island.morph/compas2_5.png", 
+            "w": 43, 
+            "x": 387, 
+            "y": 382
+          }
+        }
+      ], 
+      "name": "compas"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "crab1_1", 
+            "path": "treasure_island.morph/crab1_1.png", 
+            "w": 65, 
+            "x": 1109, 
+            "y": 554
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "crab2_1", 
+            "path": "treasure_island.morph/crab2_1.png", 
+            "w": 50, 
+            "x": 1116, 
+            "y": 557
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "crab1_2", 
+            "path": "treasure_island.morph/crab1_2.png", 
+            "w": 59, 
+            "x": 373, 
+            "y": 324
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "crab2_2", 
+            "path": "treasure_island.morph/crab2_2.png", 
+            "w": 58, 
+            "x": 373, 
+            "y": 323
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "crab1_3", 
+            "path": "treasure_island.morph/crab1_3.png", 
+            "w": 55, 
+            "x": 1128, 
+            "y": 449
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "crab2_3", 
+            "path": "treasure_island.morph/crab2_3.png", 
+            "w": 55, 
+            "x": 1130, 
+            "y": 446
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "crab1_4", 
+            "path": "treasure_island.morph/crab1_4.png", 
+            "w": 58, 
+            "x": 1057, 
+            "y": 48
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "crab2_4", 
+            "path": "treasure_island.morph/crab2_4.png", 
+            "w": 54, 
+            "x": 1059, 
+            "y": 41
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "crab1_5", 
+            "path": "treasure_island.morph/crab1_5.png", 
+            "w": 62, 
+            "x": 921, 
+            "y": 602
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "crab2_5", 
+            "path": "treasure_island.morph/crab2_5.png", 
+            "w": 50, 
+            "x": 931, 
+            "y": 603
+          }
+        }
+      ], 
+      "name": "crab"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 8, 
+            "layer": 4, 
+            "name": "cage1_1_cover", 
+            "path": "treasure_island.morph/cage1_1_cover.png", 
+            "w": 52, 
+            "x": 1115, 
+            "y": 548
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "cage1_1", 
+            "path": "treasure_island.morph/cage1_1.png", 
+            "w": 47, 
+            "x": 1118, 
+            "y": 515
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "cage2_1", 
+            "path": "treasure_island.morph/cage2_1.png", 
+            "w": 43, 
+            "x": 1120, 
+            "y": 501
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "cage1_2", 
+            "path": "treasure_island.morph/cage1_2.png", 
+            "w": 51, 
+            "x": 595, 
+            "y": 607
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "cage2_2", 
+            "path": "treasure_island.morph/cage2_2.png", 
+            "w": 34, 
+            "x": 600, 
+            "y": 593
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "cage1_3_cover", 
+            "path": "treasure_island.morph/cage1_3_cover.png", 
+            "w": 49, 
+            "x": 785, 
+            "y": 451
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "cage1_3", 
+            "path": "treasure_island.morph/cage1_3.png", 
+            "w": 46, 
+            "x": 785, 
+            "y": 444
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "cage2_3", 
+            "path": "treasure_island.morph/cage2_3.png", 
+            "w": 35, 
+            "x": 790, 
+            "y": 430
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "cage1_4_cover", 
+            "path": "treasure_island.morph/cage1_4_cover.png", 
+            "w": 47, 
+            "x": 401, 
+            "y": 517
+          }, 
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "cage1_4", 
+            "path": "treasure_island.morph/cage1_4.png", 
+            "w": 44, 
+            "x": 403, 
+            "y": 509
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "cage2_4", 
+            "path": "treasure_island.morph/cage2_4.png", 
+            "w": 33, 
+            "x": 408, 
+            "y": 496
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "cage1_5_cover", 
+            "path": "treasure_island.morph/cage1_5_cover.png", 
+            "w": 54, 
+            "x": 901, 
+            "y": 553
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "cage1_5", 
+            "path": "treasure_island.morph/cage1_5.png", 
+            "w": 48, 
+            "x": 903, 
+            "y": 561
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "cage2_5", 
+            "path": "treasure_island.morph/cage2_5.png", 
+            "w": 37, 
+            "x": 908, 
+            "y": 546
+          }
+        }
+      ], 
+      "name": "cage"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "crown1_1", 
+            "path": "treasure_island.morph/crown1_1.png", 
+            "w": 59, 
+            "x": 359, 
+            "y": 602
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "crown2_1", 
+            "path": "treasure_island.morph/crown2_1.png", 
+            "w": 60, 
+            "x": 357, 
+            "y": 582
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 4, 
+            "name": "crown1_2_cover", 
+            "path": "treasure_island.morph/crown1_2_cover.png", 
+            "w": 16, 
+            "x": 644, 
+            "y": 584
+          }, 
+          "pic1": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "crown1_2", 
+            "path": "treasure_island.morph/crown1_2.png", 
+            "w": 58, 
+            "x": 630, 
+            "y": 576
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "crown2_2", 
+            "path": "treasure_island.morph/crown2_2.png", 
+            "w": 59, 
+            "x": 630, 
+            "y": 554
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "crown1_3_cover", 
+            "path": "treasure_island.morph/crown1_3_cover.png", 
+            "w": 49, 
+            "x": 351, 
+            "y": 170
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "crown1_3", 
+            "path": "treasure_island.morph/crown1_3.png", 
+            "w": 20, 
+            "x": 354, 
+            "y": 173
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "crown2_3", 
+            "path": "treasure_island.morph/crown2_3.png", 
+            "w": 41, 
+            "x": 357, 
+            "y": 172
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "crown1_4_cover", 
+            "path": "treasure_island.morph/crown1_4_cover.png", 
+            "w": 50, 
+            "x": 970, 
+            "y": 139
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "crown1_4", 
+            "path": "treasure_island.morph/crown1_4.png", 
+            "w": 24, 
+            "x": 970, 
+            "y": 146
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "crown2_4", 
+            "path": "treasure_island.morph/crown2_4.png", 
+            "w": 45, 
+            "x": 974, 
+            "y": 141
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "crown1_5_cover", 
+            "path": "treasure_island.morph/crown1_5_cover.png", 
+            "w": 63, 
+            "x": 497, 
+            "y": 12
+          }, 
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "crown1_5", 
+            "path": "treasure_island.morph/crown1_5.png", 
+            "w": 59, 
+            "x": 499, 
+            "y": 14
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "crown2_5", 
+            "path": "treasure_island.morph/crown2_5.png", 
+            "w": 61, 
+            "x": 495, 
+            "y": 18
+          }
+        }
+      ], 
+      "name": "crown"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "hook1_1", 
+            "path": "treasure_island.morph/hook1_1.png", 
+            "w": 45, 
+            "x": 985, 
+            "y": 419
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "hook2_1", 
+            "path": "treasure_island.morph/hook2_1.png", 
+            "w": 33, 
+            "x": 988, 
+            "y": 422
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "hook1_2", 
+            "path": "treasure_island.morph/hook1_2.png", 
+            "w": 41, 
+            "x": 637, 
+            "y": 377
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "hook2_2", 
+            "path": "treasure_island.morph/hook2_2.png", 
+            "w": 31, 
+            "x": 647, 
+            "y": 379
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "hook1_3", 
+            "path": "treasure_island.morph/hook1_3.png", 
+            "w": 41, 
+            "x": 1097, 
+            "y": 370
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "hook2_3", 
+            "path": "treasure_island.morph/hook2_3.png", 
+            "w": 28, 
+            "x": 1105, 
+            "y": 371
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "hook1_4", 
+            "path": "treasure_island.morph/hook1_4.png", 
+            "w": 40, 
+            "x": 469, 
+            "y": 232
+          }, 
+          "pic2": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "hook2_4", 
+            "path": "treasure_island.morph/hook2_4.png", 
+            "w": 28, 
+            "x": 481, 
+            "y": 233
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "hook1_5", 
+            "path": "treasure_island.morph/hook1_5.png", 
+            "w": 43, 
+            "x": 334, 
+            "y": 359
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "hook2_5", 
+            "path": "treasure_island.morph/hook2_5.png", 
+            "w": 26, 
+            "x": 340, 
+            "y": 360
+          }
+        }
+      ], 
+      "name": "hook"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "mermaid1_1", 
+            "path": "treasure_island.morph/mermaid1_1.png", 
+            "w": 37, 
+            "x": 567, 
+            "y": 243
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "mermaid2_1", 
+            "path": "treasure_island.morph/mermaid2_1.png", 
+            "w": 33, 
+            "x": 570, 
+            "y": 241
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "mermaid1_2", 
+            "path": "treasure_island.morph/mermaid1_2.png", 
+            "w": 35, 
+            "x": 1163, 
+            "y": 292
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "mermaid2_2", 
+            "path": "treasure_island.morph/mermaid2_2.png", 
+            "w": 34, 
+            "x": 1165, 
+            "y": 295
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "mermaid1_3_cover", 
+            "path": "treasure_island.morph/mermaid1_3_cover.png", 
+            "w": 28, 
+            "x": 648, 
+            "y": 120
+          }, 
+          "pic1": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "mermaid1_3", 
+            "path": "treasure_island.morph/mermaid1_3.png", 
+            "w": 37, 
+            "x": 645, 
+            "y": 99
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "mermaid2_3", 
+            "path": "treasure_island.morph/mermaid2_3.png", 
+            "w": 42, 
+            "x": 646, 
+            "y": 105
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 4, 
+            "name": "mermaid1_4_cover", 
+            "path": "treasure_island.morph/mermaid1_4_cover.png", 
+            "w": 25, 
+            "x": 396, 
+            "y": 272
+          }, 
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "mermaid1_4", 
+            "path": "treasure_island.morph/mermaid1_4.png", 
+            "w": 40, 
+            "x": 387, 
+            "y": 214
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "mermaid2_4", 
+            "path": "treasure_island.morph/mermaid2_4.png", 
+            "w": 39, 
+            "x": 389, 
+            "y": 217
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "mermaid1_5_cover", 
+            "path": "treasure_island.morph/mermaid1_5_cover.png", 
+            "w": 33, 
+            "x": 974, 
+            "y": 258
+          }, 
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "mermaid1_5", 
+            "path": "treasure_island.morph/mermaid1_5.png", 
+            "w": 39, 
+            "x": 970, 
+            "y": 238
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "mermaid2_5", 
+            "path": "treasure_island.morph/mermaid2_5.png", 
+            "w": 45, 
+            "x": 971, 
+            "y": 245
+          }
+        }
+      ], 
+      "name": "mermaid"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "melon1_1", 
+            "path": "treasure_island.morph/melon1_1.png", 
+            "w": 51, 
+            "x": 896, 
+            "y": 391
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "melon2_1", 
+            "path": "treasure_island.morph/melon2_1.png", 
+            "w": 56, 
+            "x": 895, 
+            "y": 388
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "melon1_2_cover", 
+            "path": "treasure_island.morph/melon1_2_cover.png", 
+            "w": 48, 
+            "x": 341, 
+            "y": 275
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "melon1_2", 
+            "path": "treasure_island.morph/melon1_2.png", 
+            "w": 41, 
+            "x": 344, 
+            "y": 273
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "melon2_2", 
+            "path": "treasure_island.morph/melon2_2.png", 
+            "w": 44, 
+            "x": 343, 
+            "y": 270
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "melon1_3_cover", 
+            "path": "treasure_island.morph/melon1_3_cover.png", 
+            "w": 32, 
+            "x": 728, 
+            "y": 513
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "melon1_3", 
+            "path": "treasure_island.morph/melon1_3.png", 
+            "w": 41, 
+            "x": 718, 
+            "y": 516
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "melon2_3", 
+            "path": "treasure_island.morph/melon2_3.png", 
+            "w": 44, 
+            "x": 717, 
+            "y": 513
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "melon1_4_cover", 
+            "path": "treasure_island.morph/melon1_4_cover.png", 
+            "w": 48, 
+            "x": 339, 
+            "y": 535
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "melon1_4", 
+            "path": "treasure_island.morph/melon1_4.png", 
+            "w": 42, 
+            "x": 342, 
+            "y": 539
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "melon2_4", 
+            "path": "treasure_island.morph/melon2_4.png", 
+            "w": 46, 
+            "x": 341, 
+            "y": 535
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "melon1_5_cover", 
+            "path": "treasure_island.morph/melon1_5_cover.png", 
+            "w": 51, 
+            "x": 1060, 
+            "y": 550
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "melon1_5", 
+            "path": "treasure_island.morph/melon1_5.png", 
+            "w": 42, 
+            "x": 1065, 
+            "y": 545
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "melon2_5", 
+            "path": "treasure_island.morph/melon2_5.png", 
+            "w": 46, 
+            "x": 1064, 
+            "y": 541
+          }
+        }
+      ], 
+      "name": "melon"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "flag1_1", 
+            "path": "treasure_island.morph/flag1_1.png", 
+            "w": 62, 
+            "x": 378, 
+            "y": 436
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "flag2_1", 
+            "path": "treasure_island.morph/flag2_1.png", 
+            "w": 48, 
+            "x": 389, 
+            "y": 435
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "flag1_2", 
+            "path": "treasure_island.morph/flag1_2.png", 
+            "w": 45, 
+            "x": 1140, 
+            "y": 373
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "flag2_2", 
+            "path": "treasure_island.morph/flag2_2.png", 
+            "w": 53, 
+            "x": 1140, 
+            "y": 384
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "flag1_3_cover", 
+            "path": "treasure_island.morph/flag1_3_cover.png", 
+            "w": 57, 
+            "x": 667, 
+            "y": 279
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "flag1_3", 
+            "path": "treasure_island.morph/flag1_3.png", 
+            "w": 61, 
+            "x": 666, 
+            "y": 267
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "flag2_3", 
+            "path": "treasure_island.morph/flag2_3.png", 
+            "w": 38, 
+            "x": 680, 
+            "y": 267
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "flag1_4", 
+            "path": "treasure_island.morph/flag1_4.png", 
+            "w": 46, 
+            "x": 912, 
+            "y": 129
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "flag2_4", 
+            "path": "treasure_island.morph/flag2_4.png", 
+            "w": 44, 
+            "x": 913, 
+            "y": 137
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "flag1_5", 
+            "path": "treasure_island.morph/flag1_5.png", 
+            "w": 55, 
+            "x": 1150, 
+            "y": 83
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "flag2_5", 
+            "path": "treasure_island.morph/flag2_5.png", 
+            "w": 40, 
+            "x": 1159, 
+            "y": 79
+          }
+        }
+      ], 
+      "name": "flag"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "knife1_1", 
+            "path": "treasure_island.morph/knife1_1.png", 
+            "w": 77, 
+            "x": 825, 
+            "y": 330
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "knife2_1", 
+            "path": "treasure_island.morph/knife2_1.png", 
+            "w": 78, 
+            "x": 824, 
+            "y": 330
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 89, 
+            "layer": 4, 
+            "name": "knife1_2", 
+            "path": "treasure_island.morph/knife1_2.png", 
+            "w": 66, 
+            "x": 278, 
+            "y": 141
+          }, 
+          "pic2": {
+            "h": 92, 
+            "layer": 4, 
+            "name": "knife2_2", 
+            "path": "treasure_island.morph/knife2_2.png", 
+            "w": 72, 
+            "x": 278, 
+            "y": 139
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "knife1_3_cover", 
+            "path": "treasure_island.morph/knife1_3_cover.png", 
+            "w": 7, 
+            "x": 1089, 
+            "y": 230
+          }, 
+          "pic1": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "knife1_3", 
+            "path": "treasure_island.morph/knife1_3.png", 
+            "w": 63, 
+            "x": 1064, 
+            "y": 206
+          }, 
+          "pic2": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "knife2_3", 
+            "path": "treasure_island.morph/knife2_3.png", 
+            "w": 66, 
+            "x": 1064, 
+            "y": 206
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "knife1_4_cover", 
+            "path": "treasure_island.morph/knife1_4_cover.png", 
+            "w": 22, 
+            "x": 704, 
+            "y": 189
+          }, 
+          "pic1": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "knife1_4", 
+            "path": "treasure_island.morph/knife1_4.png", 
+            "w": 63, 
+            "x": 683, 
+            "y": 159
+          }, 
+          "pic2": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "knife2_4", 
+            "path": "treasure_island.morph/knife2_4.png", 
+            "w": 69, 
+            "x": 683, 
+            "y": 157
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "knife1_5_cover", 
+            "path": "treasure_island.morph/knife1_5_cover.png", 
+            "w": 19, 
+            "x": 822, 
+            "y": 535
+          }, 
+          "pic1": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "knife1_5", 
+            "path": "treasure_island.morph/knife1_5.png", 
+            "w": 61, 
+            "x": 804, 
+            "y": 478
+          }, 
+          "pic2": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "knife2_5", 
+            "path": "treasure_island.morph/knife2_5.png", 
+            "w": 66, 
+            "x": 804, 
+            "y": 477
+          }
+        }
+      ], 
+      "name": "knife"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "shell1_1", 
+            "path": "treasure_island.morph/shell1_1.png", 
+            "w": 39, 
+            "x": 470, 
+            "y": 448
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "shell2_1", 
+            "path": "treasure_island.morph/shell2_1.png", 
+            "w": 28, 
+            "x": 477, 
+            "y": 445
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "shell1_2_cover", 
+            "path": "treasure_island.morph/shell1_2_cover.png", 
+            "w": 49, 
+            "x": 350, 
+            "y": 114
+          }, 
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "shell1_2", 
+            "path": "treasure_island.morph/shell1_2.png", 
+            "w": 43, 
+            "x": 357, 
+            "y": 95
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "shell2_2", 
+            "path": "treasure_island.morph/shell2_2.png", 
+            "w": 51, 
+            "x": 352, 
+            "y": 102
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "shell1_3_cover", 
+            "path": "treasure_island.morph/shell1_3_cover.png", 
+            "w": 51, 
+            "x": 1042, 
+            "y": 133
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "shell1_3", 
+            "path": "treasure_island.morph/shell1_3.png", 
+            "w": 44, 
+            "x": 1045, 
+            "y": 136
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "shell2_3", 
+            "path": "treasure_island.morph/shell2_3.png", 
+            "w": 48, 
+            "x": 1043, 
+            "y": 138
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "shell1_4_cover", 
+            "path": "treasure_island.morph/shell1_4_cover.png", 
+            "w": 46, 
+            "x": 282, 
+            "y": 443
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "shell1_4", 
+            "path": "treasure_island.morph/shell1_4.png", 
+            "w": 39, 
+            "x": 286, 
+            "y": 446
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "shell2_4", 
+            "path": "treasure_island.morph/shell2_4.png", 
+            "w": 28, 
+            "x": 291, 
+            "y": 443
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "shell1_5_cover", 
+            "path": "treasure_island.morph/shell1_5_cover.png", 
+            "w": 34, 
+            "x": 847, 
+            "y": 125
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "shell1_5", 
+            "path": "treasure_island.morph/shell1_5.png", 
+            "w": 40, 
+            "x": 849, 
+            "y": 131
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "shell2_5", 
+            "path": "treasure_island.morph/shell2_5.png", 
+            "w": 29, 
+            "x": 855, 
+            "y": 128
+          }
+        }
+      ], 
+      "name": "shell"
+    }
+  ], 
+  "part": [
+    {
+      "name": "sextant_orig", 
+      "path": "treasure_island.part/sextant_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "sextant1_1", 
+                "path": "treasure_island.part/sextant1_1.png", 
+                "w": 52, 
+                "x": 949, 
+                "y": 457
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "sextant1_2", 
+                "path": "treasure_island.part/sextant1_2.png", 
+                "w": 45, 
+                "x": 1157, 
+                "y": 282
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "sextant1_3", 
+                "path": "treasure_island.part/sextant1_3.png", 
+                "w": 44, 
+                "x": 634, 
+                "y": 307
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "sextant1_4_cover", 
+                "path": "treasure_island.part/sextant1_4_cover.png", 
+                "w": 35, 
+                "x": 346, 
+                "y": 275
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "sextant1_4", 
+                "path": "treasure_island.part/sextant1_4.png", 
+                "w": 39, 
+                "x": 342, 
+                "y": 269
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "sextant1_5_cover", 
+                "path": "treasure_island.part/sextant1_5_cover.png", 
+                "w": 54, 
+                "x": 1122, 
+                "y": 153
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "sextant1_5", 
+                "path": "treasure_island.part/sextant1_5.png", 
+                "w": 53, 
+                "x": 1121, 
+                "y": 153
+              }
+            }
+          ], 
+          "name": "sextant1", 
+          "path": "treasure_island.part/sextant1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "sextant2_1", 
+                "path": "treasure_island.part/sextant2_1.png", 
+                "w": 49, 
+                "x": 576, 
+                "y": 610
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "sextant2_2", 
+                "path": "treasure_island.part/sextant2_2.png", 
+                "w": 33, 
+                "x": 1023, 
+                "y": 283
+              }
+            }, 
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "sextant2_3_cover", 
+                "path": "treasure_island.part/sextant2_3_cover.png", 
+                "w": 48, 
+                "x": 397, 
+                "y": 522
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "sextant2_3", 
+                "path": "treasure_island.part/sextant2_3.png", 
+                "w": 44, 
+                "x": 399, 
+                "y": 502
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "sextant2_4_cover", 
+                "path": "treasure_island.part/sextant2_4_cover.png", 
+                "w": 45, 
+                "x": 420, 
+                "y": 320
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "sextant2_4", 
+                "path": "treasure_island.part/sextant2_4.png", 
+                "w": 44, 
+                "x": 422, 
+                "y": 319
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "sextant2_5_cover", 
+                "path": "treasure_island.part/sextant2_5_cover.png", 
+                "w": 32, 
+                "x": 420, 
+                "y": 132
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "sextant2_5", 
+                "path": "treasure_island.part/sextant2_5.png", 
+                "w": 43, 
+                "x": 421, 
+                "y": 129
+              }
+            }
+          ], 
+          "name": "sextant2", 
+          "path": "treasure_island.part/sextant2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 78, 
+                "layer": 4, 
+                "name": "sextant3_1", 
+                "path": "treasure_island.part/sextant3_1.png", 
+                "w": 49, 
+                "x": 1011, 
+                "y": 202
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "sextant3_2", 
+                "path": "treasure_island.part/sextant3_2.png", 
+                "w": 66, 
+                "x": 598, 
+                "y": 471
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "sextant3_3_cover", 
+                "path": "treasure_island.part/sextant3_3_cover.png", 
+                "w": 25, 
+                "x": 846, 
+                "y": 184
+              }, 
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "sextant3_3", 
+                "path": "treasure_island.part/sextant3_3.png", 
+                "w": 44, 
+                "x": 839, 
+                "y": 156
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "sextant3_4_cover", 
+                "path": "treasure_island.part/sextant3_4_cover.png", 
+                "w": 23, 
+                "x": 839, 
+                "y": 440
+              }, 
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "sextant3_4", 
+                "path": "treasure_island.part/sextant3_4.png", 
+                "w": 43, 
+                "x": 819, 
+                "y": 399
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "sextant3_5_cover", 
+                "path": "treasure_island.part/sextant3_5_cover.png", 
+                "w": 20, 
+                "x": 408, 
+                "y": 54
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "sextant3_5", 
+                "path": "treasure_island.part/sextant3_5.png", 
+                "w": 43, 
+                "x": 400, 
+                "y": 27
+              }
+            }
+          ], 
+          "name": "sextant3", 
+          "path": "treasure_island.part/sextant3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "sextant4_1", 
+                "path": "treasure_island.part/sextant4_1.png", 
+                "w": 37, 
+                "x": 582, 
+                "y": 32
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "sextant4_2", 
+                "path": "treasure_island.part/sextant4_2.png", 
+                "w": 47, 
+                "x": 940, 
+                "y": 423
+              }
+            }, 
+            {
+              "cover": {
+                "h": 29, 
+                "layer": 5, 
+                "name": "sextant4_3_cover", 
+                "path": "treasure_island.part/sextant4_3_cover.png", 
+                "w": 39, 
+                "x": 346, 
+                "y": 170
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "sextant4_3", 
+                "path": "treasure_island.part/sextant4_3.png", 
+                "w": 36, 
+                "x": 346, 
+                "y": 172
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "sextant4_4_cover", 
+                "path": "treasure_island.part/sextant4_4_cover.png", 
+                "w": 27, 
+                "x": 363, 
+                "y": 568
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "sextant4_4", 
+                "path": "treasure_island.part/sextant4_4.png", 
+                "w": 47, 
+                "x": 364, 
+                "y": 566
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "sextant4_5_cover", 
+                "path": "treasure_island.part/sextant4_5_cover.png", 
+                "w": 40, 
+                "x": 1169, 
+                "y": 595
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "sextant4_5", 
+                "path": "treasure_island.part/sextant4_5.png", 
+                "w": 38, 
+                "x": 1171, 
+                "y": 588
+              }
+            }
+          ], 
+          "name": "sextant4", 
+          "path": "treasure_island.part/sextant4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "sextant5_1", 
+                "path": "treasure_island.part/sextant5_1.png", 
+                "w": 40, 
+                "x": 1149, 
+                "y": 353
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "sextant5_2", 
+                "path": "treasure_island.part/sextant5_2.png", 
+                "w": 64, 
+                "x": 828, 
+                "y": 465
+              }
+            }, 
+            {
+              "cover": {
+                "h": 66, 
+                "layer": 5, 
+                "name": "sextant5_3_cover", 
+                "path": "treasure_island.part/sextant5_3_cover.png", 
+                "w": 29, 
+                "x": 862, 
+                "y": 41
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "sextant5_3", 
+                "path": "treasure_island.part/sextant5_3.png", 
+                "w": 39, 
+                "x": 851, 
+                "y": 42
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "sextant5_4_cover", 
+                "path": "treasure_island.part/sextant5_4_cover.png", 
+                "w": 20, 
+                "x": 473, 
+                "y": 149
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "sextant5_4", 
+                "path": "treasure_island.part/sextant5_4.png", 
+                "w": 40, 
+                "x": 465, 
+                "y": 106
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "sextant5_5_cover", 
+                "path": "treasure_island.part/sextant5_5_cover.png", 
+                "w": 31, 
+                "x": 257, 
+                "y": 82
+              }, 
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "sextant5_5", 
+                "path": "treasure_island.part/sextant5_5.png", 
+                "w": 42, 
+                "x": 248, 
+                "y": 35
+              }
+            }
+          ], 
+          "name": "sextant5", 
+          "path": "treasure_island.part/sextant5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "globe_orig", 
+      "path": "treasure_island.part/globe_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "globe1_1", 
+                "path": "treasure_island.part/globe1_1.png", 
+                "w": 44, 
+                "x": 682, 
+                "y": 567
+              }
+            }, 
+            {
+              "cover": {
+                "h": 4, 
+                "layer": 5, 
+                "name": "globe1_2_cover", 
+                "path": "treasure_island.part/globe1_2_cover.png", 
+                "w": 25, 
+                "x": 1142, 
+                "y": 549
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "globe1_2", 
+                "path": "treasure_island.part/globe1_2.png", 
+                "w": 42, 
+                "x": 1134, 
+                "y": 510
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "globe1_3_cover", 
+                "path": "treasure_island.part/globe1_3_cover.png", 
+                "w": 47, 
+                "x": 906, 
+                "y": 563
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "globe1_3", 
+                "path": "treasure_island.part/globe1_3.png", 
+                "w": 39, 
+                "x": 910, 
+                "y": 564
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "globe1_4_cover", 
+                "path": "treasure_island.part/globe1_4_cover.png", 
+                "w": 48, 
+                "x": 1068, 
+                "y": 328
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "globe1_4", 
+                "path": "treasure_island.part/globe1_4.png", 
+                "w": 43, 
+                "x": 1071, 
+                "y": 322
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "globe1_5_cover", 
+                "path": "treasure_island.part/globe1_5_cover.png", 
+                "w": 34, 
+                "x": 291, 
+                "y": 290
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "globe1_5", 
+                "path": "treasure_island.part/globe1_5.png", 
+                "w": 40, 
+                "x": 294, 
+                "y": 292
+              }
+            }
+          ], 
+          "name": "globe1", 
+          "path": "treasure_island.part/globe1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "globe2_1", 
+                "path": "treasure_island.part/globe2_1.png", 
+                "w": 48, 
+                "x": 429, 
+                "y": 359
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "globe2_2", 
+                "path": "treasure_island.part/globe2_2.png", 
+                "w": 50, 
+                "x": 977, 
+                "y": 68
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "globe2_3", 
+                "path": "treasure_island.part/globe2_3.png", 
+                "w": 47, 
+                "x": 1191, 
+                "y": 464
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "globe2_4", 
+                "path": "treasure_island.part/globe2_4.png", 
+                "w": 46, 
+                "x": 535, 
+                "y": 393
+              }
+            }, 
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "globe2_5_cover", 
+                "path": "treasure_island.part/globe2_5_cover.png", 
+                "w": 56, 
+                "x": 731, 
+                "y": 307
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "globe2_5", 
+                "path": "treasure_island.part/globe2_5.png", 
+                "w": 51, 
+                "x": 734, 
+                "y": 287
+              }
+            }
+          ], 
+          "name": "globe2", 
+          "path": "treasure_island.part/globe2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "globe3_1", 
+                "path": "treasure_island.part/globe3_1.png", 
+                "w": 35, 
+                "x": 581, 
+                "y": 300
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "globe3_2", 
+                "path": "treasure_island.part/globe3_2.png", 
+                "w": 73, 
+                "x": 774, 
+                "y": 612
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "globe3_3", 
+                "path": "treasure_island.part/globe3_3.png", 
+                "w": 76, 
+                "x": 343, 
+                "y": 605
+              }
+            }, 
+            {
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "globe3_4", 
+                "path": "treasure_island.part/globe3_4.png", 
+                "w": 44, 
+                "x": 1123, 
+                "y": 251
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "globe3_5_cover", 
+                "path": "treasure_island.part/globe3_5_cover.png", 
+                "w": 28, 
+                "x": 375, 
+                "y": 61
+              }, 
+              "pic": {
+                "h": 74, 
+                "layer": 4, 
+                "name": "globe3_5", 
+                "path": "treasure_island.part/globe3_5.png", 
+                "w": 35, 
+                "x": 369, 
+                "y": 29
+              }
+            }
+          ], 
+          "name": "globe3", 
+          "path": "treasure_island.part/globe3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "globe4_1", 
+                "path": "treasure_island.part/globe4_1.png", 
+                "w": 61, 
+                "x": 618, 
+                "y": 78
+              }
+            }, 
+            {
+              "cover": {
+                "h": 85, 
+                "layer": 5, 
+                "name": "globe4_2_cover", 
+                "path": "treasure_island.part/globe4_2_cover.png", 
+                "w": 29, 
+                "x": 1090, 
+                "y": 191
+              }, 
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "globe4_2", 
+                "path": "treasure_island.part/globe4_2.png", 
+                "w": 47, 
+                "x": 1080, 
+                "y": 196
+              }
+            }, 
+            {
+              "pic": {
+                "h": 81, 
+                "layer": 4, 
+                "name": "globe4_3", 
+                "path": "treasure_island.part/globe4_3.png", 
+                "w": 48, 
+                "x": 467, 
+                "y": 210
+              }
+            }, 
+            {
+              "cover": {
+                "h": 77, 
+                "layer": 5, 
+                "name": "globe4_4_cover", 
+                "path": "treasure_island.part/globe4_4_cover.png", 
+                "w": 47, 
+                "x": 894, 
+                "y": 180
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "globe4_4", 
+                "path": "treasure_island.part/globe4_4.png", 
+                "w": 47, 
+                "x": 894, 
+                "y": 183
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "globe4_5_cover", 
+                "path": "treasure_island.part/globe4_5_cover.png", 
+                "w": 32, 
+                "x": 739, 
+                "y": 541
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "globe4_5", 
+                "path": "treasure_island.part/globe4_5.png", 
+                "w": 67, 
+                "x": 702, 
+                "y": 529
+              }
+            }
+          ], 
+          "name": "globe4", 
+          "path": "treasure_island.part/globe4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "globe5_1", 
+                "path": "treasure_island.part/globe5_1.png", 
+                "w": 68, 
+                "x": 423, 
+                "y": 610
+              }
+            }, 
+            {
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "globe5_2", 
+                "path": "treasure_island.part/globe5_2.png", 
+                "w": 43, 
+                "x": 1092, 
+                "y": 383
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "globe5_3", 
+                "path": "treasure_island.part/globe5_3.png", 
+                "w": 56, 
+                "x": 774, 
+                "y": 557
+              }
+            }, 
+            {
+              "cover": {
+                "h": 62, 
+                "layer": 5, 
+                "name": "globe5_4_cover", 
+                "path": "treasure_island.part/globe5_4_cover.png", 
+                "w": 25, 
+                "x": 526, 
+                "y": 103
+              }, 
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "globe5_4", 
+                "path": "treasure_island.part/globe5_4.png", 
+                "w": 44, 
+                "x": 514, 
+                "y": 103
+              }
+            }, 
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "globe5_5", 
+                "path": "treasure_island.part/globe5_5.png", 
+                "w": 46, 
+                "x": 1028, 
+                "y": 3
+              }
+            }
+          ], 
+          "name": "globe5", 
+          "path": "treasure_island.part/globe5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "pistol_orig", 
+      "path": "treasure_island.part/pistol_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "pistol1_1", 
+                "path": "treasure_island.part/pistol1_1.png", 
+                "w": 90, 
+                "x": 821, 
+                "y": 591
+              }
+            }, 
+            {
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "pistol1_2", 
+                "path": "treasure_island.part/pistol1_2.png", 
+                "w": 37, 
+                "x": 1020, 
+                "y": 434
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "pistol1_3", 
+                "path": "treasure_island.part/pistol1_3.png", 
+                "w": 79, 
+                "x": 413, 
+                "y": 583
+              }
+            }, 
+            {
+              "pic": {
+                "h": 80, 
+                "layer": 4, 
+                "name": "pistol1_4", 
+                "path": "treasure_island.part/pistol1_4.png", 
+                "w": 35, 
+                "x": 1135, 
+                "y": 376
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "pistol1_5_cover", 
+                "path": "treasure_island.part/pistol1_5_cover.png", 
+                "w": 23, 
+                "x": 805, 
+                "y": 176
+              }, 
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "pistol1_5", 
+                "path": "treasure_island.part/pistol1_5.png", 
+                "w": 32, 
+                "x": 799, 
+                "y": 142
+              }
+            }
+          ], 
+          "name": "pistol1", 
+          "path": "treasure_island.part/pistol1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 81, 
+                "layer": 4, 
+                "name": "pistol2_1", 
+                "path": "treasure_island.part/pistol2_1.png", 
+                "w": 51, 
+                "x": 310, 
+                "y": 511
+              }
+            }, 
+            {
+              "pic": {
+                "h": 80, 
+                "layer": 4, 
+                "name": "pistol2_2", 
+                "path": "treasure_island.part/pistol2_2.png", 
+                "w": 49, 
+                "x": 468, 
+                "y": 393
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "pistol2_3", 
+                "path": "treasure_island.part/pistol2_3.png", 
+                "w": 74, 
+                "x": 958, 
+                "y": 32
+              }
+            }, 
+            {
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "pistol2_4", 
+                "path": "treasure_island.part/pistol2_4.png", 
+                "w": 49, 
+                "x": 1198, 
+                "y": 377
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "pistol2_5_cover", 
+                "path": "treasure_island.part/pistol2_5_cover.png", 
+                "w": 73, 
+                "x": 324, 
+                "y": 225
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "pistol2_5", 
+                "path": "treasure_island.part/pistol2_5.png", 
+                "w": 68, 
+                "x": 327, 
+                "y": 225
+              }
+            }
+          ], 
+          "name": "pistol2", 
+          "path": "treasure_island.part/pistol2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "pistol3_1", 
+                "path": "treasure_island.part/pistol3_1.png", 
+                "w": 91, 
+                "x": 776, 
+                "y": 325
+              }
+            }, 
+            {
+              "pic": {
+                "h": 94, 
+                "layer": 4, 
+                "name": "pistol3_2", 
+                "path": "treasure_island.part/pistol3_2.png", 
+                "w": 60, 
+                "x": 346, 
+                "y": 472
+              }
+            }, 
+            {
+              "pic": {
+                "h": 93, 
+                "layer": 4, 
+                "name": "pistol3_3", 
+                "path": "treasure_island.part/pistol3_3.png", 
+                "w": 55, 
+                "x": 611, 
+                "y": 338
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "pistol3_4_cover", 
+                "path": "treasure_island.part/pistol3_4_cover.png", 
+                "w": 14, 
+                "x": 1046, 
+                "y": 559
+              }, 
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "pistol3_4", 
+                "path": "treasure_island.part/pistol3_4.png", 
+                "w": 49, 
+                "x": 1028, 
+                "y": 513
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "pistol3_5_cover", 
+                "path": "treasure_island.part/pistol3_5_cover.png", 
+                "w": 32, 
+                "x": 972, 
+                "y": 264
+              }, 
+              "pic": {
+                "h": 74, 
+                "layer": 4, 
+                "name": "pistol3_5", 
+                "path": "treasure_island.part/pistol3_5.png", 
+                "w": 56, 
+                "x": 967, 
+                "y": 235
+              }
+            }
+          ], 
+          "name": "pistol3", 
+          "path": "treasure_island.part/pistol3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "pistol4_1", 
+                "path": "treasure_island.part/pistol4_1.png", 
+                "w": 58, 
+                "x": 679, 
+                "y": 368
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "pistol4_2", 
+                "path": "treasure_island.part/pistol4_2.png", 
+                "w": 62, 
+                "x": 661, 
+                "y": 208
+              }
+            }, 
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "pistol4_3", 
+                "path": "treasure_island.part/pistol4_3.png", 
+                "w": 52, 
+                "x": 253, 
+                "y": 413
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "pistol4_4_cover", 
+                "path": "treasure_island.part/pistol4_4_cover.png", 
+                "w": 24, 
+                "x": 1217, 
+                "y": 563
+              }, 
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "pistol4_4", 
+                "path": "treasure_island.part/pistol4_4.png", 
+                "w": 43, 
+                "x": 1205, 
+                "y": 531
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "pistol4_5_cover", 
+                "path": "treasure_island.part/pistol4_5_cover.png", 
+                "w": 48, 
+                "x": 430, 
+                "y": 233
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "pistol4_5", 
+                "path": "treasure_island.part/pistol4_5.png", 
+                "w": 52, 
+                "x": 423, 
+                "y": 234
+              }
+            }
+          ], 
+          "name": "pistol4", 
+          "path": "treasure_island.part/pistol4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "pistol5_1", 
+                "path": "treasure_island.part/pistol5_1.png", 
+                "w": 38, 
+                "x": 1129, 
+                "y": 560
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "pistol5_2", 
+                "path": "treasure_island.part/pistol5_2.png", 
+                "w": 44, 
+                "x": 651, 
+                "y": 386
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "pistol5_3", 
+                "path": "treasure_island.part/pistol5_3.png", 
+                "w": 44, 
+                "x": 429, 
+                "y": 412
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "pistol5_4", 
+                "path": "treasure_island.part/pistol5_4.png", 
+                "w": 51, 
+                "x": 1127, 
+                "y": 449
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "pistol5_5_cover", 
+                "path": "treasure_island.part/pistol5_5_cover.png", 
+                "w": 51, 
+                "x": 965, 
+                "y": 138
+              }, 
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "pistol5_5", 
+                "path": "treasure_island.part/pistol5_5.png", 
+                "w": 42, 
+                "x": 968, 
+                "y": 141
+              }
+            }
+          ], 
+          "name": "pistol5", 
+          "path": "treasure_island.part/pistol5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "compass_orig", 
+      "path": "treasure_island.part/compass_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "compass1_1", 
+                "path": "treasure_island.part/compass1_1.png", 
+                "w": 41, 
+                "x": 390, 
+                "y": 389
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "compass1_2", 
+                "path": "treasure_island.part/compass1_2.png", 
+                "w": 47, 
+                "x": 922, 
+                "y": 136
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "compass1_3_cover", 
+                "path": "treasure_island.part/compass1_3_cover.png", 
+                "w": 47, 
+                "x": 439, 
+                "y": 170
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "compass1_3", 
+                "path": "treasure_island.part/compass1_3.png", 
+                "w": 43, 
+                "x": 441, 
+                "y": 171
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "compass1_4", 
+                "path": "treasure_island.part/compass1_4.png", 
+                "w": 41, 
+                "x": 1189, 
+                "y": 238
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "compass1_5_cover", 
+                "path": "treasure_island.part/compass1_5_cover.png", 
+                "w": 46, 
+                "x": 1078, 
+                "y": 552
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "compass1_5", 
+                "path": "treasure_island.part/compass1_5.png", 
+                "w": 43, 
+                "x": 1079, 
+                "y": 553
+              }
+            }
+          ], 
+          "name": "compass1", 
+          "path": "treasure_island.part/compass1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "compass2_1", 
+                "path": "treasure_island.part/compass2_1.png", 
+                "w": 39, 
+                "x": 472, 
+                "y": 477
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "compass2_2", 
+                "path": "treasure_island.part/compass2_2.png", 
+                "w": 36, 
+                "x": 760, 
+                "y": 460
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "compass2_3_cover", 
+                "path": "treasure_island.part/compass2_3_cover.png", 
+                "w": 34, 
+                "x": 566, 
+                "y": 224
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "compass2_3", 
+                "path": "treasure_island.part/compass2_3.png", 
+                "w": 45, 
+                "x": 552, 
+                "y": 226
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "compass2_4_cover", 
+                "path": "treasure_island.part/compass2_4_cover.png", 
+                "w": 47, 
+                "x": 931, 
+                "y": 236
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "compass2_4", 
+                "path": "treasure_island.part/compass2_4.png", 
+                "w": 44, 
+                "x": 933, 
+                "y": 234
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "compass2_5_cover", 
+                "path": "treasure_island.part/compass2_5_cover.png", 
+                "w": 53, 
+                "x": 338, 
+                "y": 357
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "compass2_5", 
+                "path": "treasure_island.part/compass2_5.png", 
+                "w": 48, 
+                "x": 340, 
+                "y": 360
+              }
+            }
+          ], 
+          "name": "compass2", 
+          "path": "treasure_island.part/compass2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "compass3_1", 
+                "path": "treasure_island.part/compass3_1.png", 
+                "w": 53, 
+                "x": 848, 
+                "y": 96
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "compass3_2", 
+                "path": "treasure_island.part/compass3_2.png", 
+                "w": 61, 
+                "x": 990, 
+                "y": 312
+              }
+            }, 
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "compass3_3", 
+                "path": "treasure_island.part/compass3_3.png", 
+                "w": 66, 
+                "x": 682, 
+                "y": 315
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "compass3_4", 
+                "path": "treasure_island.part/compass3_4.png", 
+                "w": 68, 
+                "x": 1037, 
+                "y": 613
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "compass3_5_cover", 
+                "path": "treasure_island.part/compass3_5_cover.png", 
+                "w": 21, 
+                "x": 474, 
+                "y": 302
+              }, 
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "compass3_5", 
+                "path": "treasure_island.part/compass3_5.png", 
+                "w": 50, 
+                "x": 474, 
+                "y": 264
+              }
+            }
+          ], 
+          "name": "compass3", 
+          "path": "treasure_island.part/compass3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "compass4_1", 
+                "path": "treasure_island.part/compass4_1.png", 
+                "w": 46, 
+                "x": 1086, 
+                "y": 450
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "compass4_2", 
+                "path": "treasure_island.part/compass4_2.png", 
+                "w": 47, 
+                "x": 893, 
+                "y": 432
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "compass4_3", 
+                "path": "treasure_island.part/compass4_3.png", 
+                "w": 47, 
+                "x": 506, 
+                "y": 607
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "compass4_4_cover", 
+                "path": "treasure_island.part/compass4_4_cover.png", 
+                "w": 40, 
+                "x": 547, 
+                "y": 167
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "compass4_4", 
+                "path": "treasure_island.part/compass4_4.png", 
+                "w": 44, 
+                "x": 540, 
+                "y": 168
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "compass4_5_cover", 
+                "path": "treasure_island.part/compass4_5_cover.png", 
+                "w": 47, 
+                "x": 285, 
+                "y": 476
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "compass4_5", 
+                "path": "treasure_island.part/compass4_5.png", 
+                "w": 42, 
+                "x": 287, 
+                "y": 475
+              }
+            }
+          ], 
+          "name": "compass4", 
+          "path": "treasure_island.part/compass4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "compass5_1", 
+                "path": "treasure_island.part/compass5_1.png", 
+                "w": 42, 
+                "x": 973, 
+                "y": 592
+              }
+            }, 
+            {
+              "cover": {
+                "h": 11, 
+                "layer": 5, 
+                "name": "compass5_2_cover", 
+                "path": "treasure_island.part/compass5_2_cover.png", 
+                "w": 25, 
+                "x": 395, 
+                "y": 135
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "compass5_2", 
+                "path": "treasure_island.part/compass5_2.png", 
+                "w": 39, 
+                "x": 391, 
+                "y": 94
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "compass5_3", 
+                "path": "treasure_island.part/compass5_3.png", 
+                "w": 43, 
+                "x": 602, 
+                "y": 545
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "compass5_4", 
+                "path": "treasure_island.part/compass5_4.png", 
+                "w": 38, 
+                "x": 1021, 
+                "y": 116
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "compass5_5_cover", 
+                "path": "treasure_island.part/compass5_5_cover.png", 
+                "w": 47, 
+                "x": 720, 
+                "y": 210
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "compass5_5", 
+                "path": "treasure_island.part/compass5_5.png", 
+                "w": 42, 
+                "x": 723, 
+                "y": 212
+              }
+            }
+          ], 
+          "name": "compass5", 
+          "path": "treasure_island.part/compass5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "flask_orig", 
+      "path": "treasure_island.part/flask_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "flask1_1", 
+                "path": "treasure_island.part/flask1_1.png", 
+                "w": 72, 
+                "x": 519, 
+                "y": 509
+              }
+            }, 
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "flask1_2", 
+                "path": "treasure_island.part/flask1_2.png", 
+                "w": 51, 
+                "x": 587, 
+                "y": 97
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "flask1_3_cover", 
+                "path": "treasure_island.part/flask1_3_cover.png", 
+                "w": 24, 
+                "x": 982, 
+                "y": 535
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "flask1_3", 
+                "path": "treasure_island.part/flask1_3.png", 
+                "w": 55, 
+                "x": 984, 
+                "y": 514
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "flask1_4_cover", 
+                "path": "treasure_island.part/flask1_4_cover.png", 
+                "w": 43, 
+                "x": 742, 
+                "y": 360
+              }, 
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "flask1_4", 
+                "path": "treasure_island.part/flask1_4.png", 
+                "w": 45, 
+                "x": 745, 
+                "y": 362
+              }
+            }, 
+            {
+              "cover": {
+                "h": 37, 
+                "layer": 5, 
+                "name": "flask1_5_cover", 
+                "path": "treasure_island.part/flask1_5_cover.png", 
+                "w": 35, 
+                "x": 999, 
+                "y": 391
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "flask1_5", 
+                "path": "treasure_island.part/flask1_5.png", 
+                "w": 63, 
+                "x": 1002, 
+                "y": 391
+              }
+            }
+          ], 
+          "name": "flask1", 
+          "path": "treasure_island.part/flask1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "flask2_1", 
+                "path": "treasure_island.part/flask2_1.png", 
+                "w": 38, 
+                "x": 762, 
+                "y": 173
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "flask2_2", 
+                "path": "treasure_island.part/flask2_2.png", 
+                "w": 41, 
+                "x": 941, 
+                "y": 523
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "flask2_3", 
+                "path": "treasure_island.part/flask2_3.png", 
+                "w": 34, 
+                "x": 540, 
+                "y": 448
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "flask2_4_cover", 
+                "path": "treasure_island.part/flask2_4_cover.png", 
+                "w": 46, 
+                "x": 789, 
+                "y": 364
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "flask2_4", 
+                "path": "treasure_island.part/flask2_4.png", 
+                "w": 43, 
+                "x": 789, 
+                "y": 368
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "flask2_5_cover", 
+                "path": "treasure_island.part/flask2_5_cover.png", 
+                "w": 27, 
+                "x": 903, 
+                "y": 104
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "flask2_5", 
+                "path": "treasure_island.part/flask2_5.png", 
+                "w": 36, 
+                "x": 892, 
+                "y": 107
+              }
+            }
+          ], 
+          "name": "flask2", 
+          "path": "treasure_island.part/flask2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "flask3_1", 
+                "path": "treasure_island.part/flask3_1.png", 
+                "w": 53, 
+                "x": 612, 
+                "y": 434
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "flask3_2_cover", 
+                "path": "treasure_island.part/flask3_2_cover.png", 
+                "w": 52, 
+                "x": 817, 
+                "y": 535
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "flask3_2", 
+                "path": "treasure_island.part/flask3_2.png", 
+                "w": 47, 
+                "x": 820, 
+                "y": 514
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "flask3_3_cover", 
+                "path": "treasure_island.part/flask3_3_cover.png", 
+                "w": 39, 
+                "x": 1007, 
+                "y": 553
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "flask3_3", 
+                "path": "treasure_island.part/flask3_3.png", 
+                "w": 36, 
+                "x": 1008, 
+                "y": 532
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "flask3_4_cover", 
+                "path": "treasure_island.part/flask3_4_cover.png", 
+                "w": 34, 
+                "x": 321, 
+                "y": 393
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "flask3_4", 
+                "path": "treasure_island.part/flask3_4.png", 
+                "w": 47, 
+                "x": 304, 
+                "y": 395
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "flask3_5_cover", 
+                "path": "treasure_island.part/flask3_5_cover.png", 
+                "w": 49, 
+                "x": 696, 
+                "y": 154
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "flask3_5", 
+                "path": "treasure_island.part/flask3_5.png", 
+                "w": 43, 
+                "x": 699, 
+                "y": 150
+              }
+            }
+          ], 
+          "name": "flask3", 
+          "path": "treasure_island.part/flask3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "flask4_1", 
+                "path": "treasure_island.part/flask4_1.png", 
+                "w": 69, 
+                "x": 889, 
+                "y": 331
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "flask4_2", 
+                "path": "treasure_island.part/flask4_2.png", 
+                "w": 72, 
+                "x": 672, 
+                "y": 257
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "flask4_3_cover", 
+                "path": "treasure_island.part/flask4_3_cover.png", 
+                "w": 36, 
+                "x": 875, 
+                "y": 541
+              }, 
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "flask4_3", 
+                "path": "treasure_island.part/flask4_3.png", 
+                "w": 51, 
+                "x": 872, 
+                "y": 505
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "flask4_4_cover", 
+                "path": "treasure_island.part/flask4_4_cover.png", 
+                "w": 22, 
+                "x": 391, 
+                "y": 273
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "flask4_4", 
+                "path": "treasure_island.part/flask4_4.png", 
+                "w": 48, 
+                "x": 384, 
+                "y": 223
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "flask4_5_cover", 
+                "path": "treasure_island.part/flask4_5_cover.png", 
+                "w": 21, 
+                "x": 245, 
+                "y": 387
+              }, 
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "flask4_5", 
+                "path": "treasure_island.part/flask4_5.png", 
+                "w": 45, 
+                "x": 232, 
+                "y": 370
+              }
+            }
+          ], 
+          "name": "flask4", 
+          "path": "treasure_island.part/flask4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "flask5_1", 
+                "path": "treasure_island.part/flask5_1.png", 
+                "w": 53, 
+                "x": 698, 
+                "y": 420
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "flask5_2_cover", 
+                "path": "treasure_island.part/flask5_2_cover.png", 
+                "w": 51, 
+                "x": 796, 
+                "y": 300
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "flask5_2", 
+                "path": "treasure_island.part/flask5_2.png", 
+                "w": 50, 
+                "x": 797, 
+                "y": 292
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "flask5_3", 
+                "path": "treasure_island.part/flask5_3.png", 
+                "w": 51, 
+                "x": 865, 
+                "y": 385
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "flask5_4_cover", 
+                "path": "treasure_island.part/flask5_4_cover.png", 
+                "w": 55, 
+                "x": 1064, 
+                "y": 130
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "flask5_4", 
+                "path": "treasure_island.part/flask5_4.png", 
+                "w": 49, 
+                "x": 1068, 
+                "y": 132
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "flask5_5_cover", 
+                "path": "treasure_island.part/flask5_5_cover.png", 
+                "w": 39, 
+                "x": 510, 
+                "y": 5
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "flask5_5", 
+                "path": "treasure_island.part/flask5_5.png", 
+                "w": 35, 
+                "x": 512, 
+                "y": 8
+              }
+            }
+          ], 
+          "name": "flask5", 
+          "path": "treasure_island.part/flask5.png"
+        }
+      ]
+    }
+  ]
+}

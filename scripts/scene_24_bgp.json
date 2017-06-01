@@ -1,0 +1,87 @@
+[
+  {
+    "layer": 2, 
+    "path": "theatre.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 3, 
+    "path": "theatre.bg/puppets2_shabow.png", 
+    "type": "none", 
+    "x": 711, 
+    "y": 357
+  }, 
+  {
+    "ani": true, 
+    "layer": 3, 
+    "path": "theatre.bg/puppet1_00.png", 
+    "x": 601, 
+    "y": 275
+  }, 
+  {
+    "ani": true, 
+    "layer": 3, 
+    "path": "theatre.bg/puppet2_00.png", 
+    "x": 684, 
+    "y": 302
+  }, 
+  {
+    "layer": 4, 
+    "path": "theatre.bg/puppets1_cover.png", 
+    "type": "none", 
+    "x": 611, 
+    "y": 359
+  }, 
+  {
+    "layer": 4, 
+    "path": "theatre.bg/puppets2_cover.png", 
+    "type": "none", 
+    "x": 683, 
+    "y": 358
+  }, 
+  {
+    "layer": 8, 
+    "path": "theatre.bg/glow.png", 
+    "type": "skip", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 10, 
+    "path": "theatre.bg/glow2.png", 
+    "type": "skip", 
+    "x": 228, 
+    "y": 125
+  }, 
+  {
+    "layer": 20, 
+    "path": "theatre.bg/candle1.png", 
+    "x": 265, 
+    "y": 220
+  }, 
+  {
+    "layer": 20, 
+    "path": "theatre.bg/candle2.png", 
+    "x": 297, 
+    "y": 218
+  }, 
+  {
+    "layer": 20, 
+    "path": "theatre.bg/candle3.png", 
+    "x": 334, 
+    "y": 224
+  }, 
+  {
+    "layer": 20, 
+    "path": "theatre.bg/candle4.png", 
+    "x": 367, 
+    "y": 215
+  }, 
+  {
+    "layer": 20, 
+    "path": "theatre.bg/candle5.png", 
+    "x": 314, 
+    "y": 169
+  }
+]

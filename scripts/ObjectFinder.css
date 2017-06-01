@@ -1,0 +1,62 @@
+/* スピナーフレーム */
+.spinner_frame {
+    border: 1px solid silver;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+/* ローディングスピナー */
+.spinner {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;     /* align = center */
+    display: none;      /* default hidden */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* シーン描画キャンバスのフレーム */
+#scene_cvframe {
+  overflow: auto;
+  display: none;
+}
+
+/* シーン描画キャンバス */
+#scene_canvas {
+  border: 1px solid silver;
+}
+
+/* シーンローディングスピナーのフレーム */
+#scene_spframe {
+  width: 740px;
+  height: 345px;
+}
+
+/* メニュー描画キャンバスのフレーム */
+#menu_cvframe {
+  overflow: auto;
+  height: 150px;
+  border: 1px solid silver;
+  background: #e0c68b;
+  display: none;
+}
+
+/* メニューローディングスピナーのフレーム */
+#menu_spframe {
+  height: 150px;
+  background: #e0c68b;
+}
+
+/* 背景描画コントロール */
+#background_control {
+  border: double;
+  display: none;  /* default hidden */
+}

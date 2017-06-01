@@ -1,0 +1,6813 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "eye1", 
+            "path": "witch_hut.form/eye1.png", 
+            "w": 31, 
+            "x": 540, 
+            "y": 510
+          }
+        }, 
+        {
+          "pic": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "eye2", 
+            "path": "witch_hut.form/eye2.png", 
+            "w": 25, 
+            "x": 492, 
+            "y": 225
+          }
+        }, 
+        {
+          "pic": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "eye3", 
+            "path": "witch_hut.form/eye3.png", 
+            "w": 29, 
+            "x": 1080, 
+            "y": 158
+          }
+        }, 
+        {
+          "pic": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "eye4", 
+            "path": "witch_hut.form/eye4.png", 
+            "w": 25, 
+            "x": 328, 
+            "y": 429
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "eye5_cover", 
+            "path": "witch_hut.form/eye5_cover.png", 
+            "w": 18, 
+            "x": 433, 
+            "y": 298
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "eye5", 
+            "path": "witch_hut.form/eye5.png", 
+            "w": 21, 
+            "x": 439, 
+            "y": 300
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "eye6_cover", 
+            "path": "witch_hut.form/eye6_cover.png", 
+            "w": 21, 
+            "x": 759, 
+            "y": 279
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "eye6", 
+            "path": "witch_hut.form/eye6.png", 
+            "w": 20, 
+            "x": 758, 
+            "y": 281
+          }
+        }
+      ], 
+      "name": "目玉", 
+      "path": "witch_hut.sils/eye.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "apple1", 
+            "path": "witch_hut.form/apple1.png", 
+            "w": 29, 
+            "x": 386, 
+            "y": 375
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "apple2", 
+            "path": "witch_hut.form/apple2.png", 
+            "w": 29, 
+            "x": 1132, 
+            "y": 200
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "apple3", 
+            "path": "witch_hut.form/apple3.png", 
+            "w": 29, 
+            "x": 667, 
+            "y": 459
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "apple4", 
+            "path": "witch_hut.form/apple4.png", 
+            "w": 25, 
+            "x": 672, 
+            "y": 184
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "apple5_cover", 
+            "path": "witch_hut.form/apple5_cover.png", 
+            "w": 32, 
+            "x": 801, 
+            "y": 86
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "apple5", 
+            "path": "witch_hut.form/apple5.png", 
+            "w": 27, 
+            "x": 804, 
+            "y": 73
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "apple6_cover", 
+            "path": "witch_hut.form/apple6_cover.png", 
+            "w": 26, 
+            "x": 431, 
+            "y": 267
+          }, 
+          "pic": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "apple6", 
+            "path": "witch_hut.form/apple6.png", 
+            "w": 23, 
+            "x": 433, 
+            "y": 255
+          }
+        }
+      ], 
+      "name": "リンゴ", 
+      "path": "witch_hut.sils/apple.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 11, 
+            "name": "garlic1_cover", 
+            "path": "witch_hut.form/garlic1_cover.png", 
+            "w": 33, 
+            "x": 884, 
+            "y": 0
+          }, 
+          "pic": {
+            "h": 111, 
+            "layer": 10, 
+            "name": "garlic1", 
+            "path": "witch_hut.form/garlic1.png", 
+            "w": 49, 
+            "x": 873, 
+            "y": 0
+          }
+        }, 
+        {
+          "pic": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "garlic2", 
+            "path": "witch_hut.form/garlic2.png", 
+            "w": 39, 
+            "x": 761, 
+            "y": 157
+          }
+        }, 
+        {
+          "pic": {
+            "h": 90, 
+            "layer": 4, 
+            "name": "garlic3", 
+            "path": "witch_hut.form/garlic3.png", 
+            "w": 42, 
+            "x": 277, 
+            "y": 109
+          }
+        }, 
+        {
+          "pic": {
+            "h": 93, 
+            "layer": 4, 
+            "name": "garlic4", 
+            "path": "witch_hut.form/garlic4.png", 
+            "w": 41, 
+            "x": 614, 
+            "y": 287
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "garlic5_cover", 
+            "path": "witch_hut.form/garlic5_cover.png", 
+            "w": 73, 
+            "x": 1052, 
+            "y": 215
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "garlic5", 
+            "path": "witch_hut.form/garlic5.png", 
+            "w": 68, 
+            "x": 1053, 
+            "y": 213
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 5, 
+            "name": "garlic6_cover", 
+            "path": "witch_hut.form/garlic6_cover.png", 
+            "w": 29, 
+            "x": 390, 
+            "y": 219
+          }, 
+          "pic": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "garlic6", 
+            "path": "witch_hut.form/garlic6.png", 
+            "w": 33, 
+            "x": 389, 
+            "y": 220
+          }
+        }
+      ], 
+      "name": "にんにく", 
+      "path": "witch_hut.sils/garlic.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "bat1", 
+            "path": "witch_hut.form/bat1.png", 
+            "w": 41, 
+            "x": 1190, 
+            "y": 110
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "bat2", 
+            "path": "witch_hut.form/bat2.png", 
+            "w": 28, 
+            "x": 1126, 
+            "y": 13
+          }
+        }, 
+        {
+          "pic": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "bat3", 
+            "path": "witch_hut.form/bat3.png", 
+            "w": 40, 
+            "x": 228, 
+            "y": 28
+          }
+        }, 
+        {
+          "pic": {
+            "h": 97, 
+            "layer": 4, 
+            "name": "bat4", 
+            "path": "witch_hut.form/bat4.png", 
+            "w": 47, 
+            "x": 980, 
+            "y": 3
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "bat5_cover", 
+            "path": "witch_hut.form/bat5_cover.png", 
+            "w": 31, 
+            "x": 509, 
+            "y": 5
+          }, 
+          "pic": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "bat5", 
+            "path": "witch_hut.form/bat5.png", 
+            "w": 39, 
+            "x": 508, 
+            "y": 0
+          }
+        }, 
+        {
+          "cover": {
+            "h": 75, 
+            "layer": 5, 
+            "name": "bat6_cover", 
+            "path": "witch_hut.form/bat6_cover.png", 
+            "w": 29, 
+            "x": 1050, 
+            "y": 317
+          }, 
+          "pic": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "bat6", 
+            "path": "witch_hut.form/bat6.png", 
+            "w": 39, 
+            "x": 1045, 
+            "y": 317
+          }
+        }
+      ], 
+      "name": "コウモリ", 
+      "path": "witch_hut.sils/bat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "real_bone1", 
+            "path": "witch_hut.form/real_bone1.png", 
+            "w": 99, 
+            "x": 229, 
+            "y": 187
+          }
+        }, 
+        {
+          "pic": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "real_bone2", 
+            "path": "witch_hut.form/real_bone2.png", 
+            "w": 89, 
+            "x": 924, 
+            "y": 537
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "real_bone3_cover", 
+            "path": "witch_hut.form/real_bone3_cover.png", 
+            "w": 63, 
+            "x": 554, 
+            "y": 247
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "real_bone3", 
+            "path": "witch_hut.form/real_bone3.png", 
+            "w": 93, 
+            "x": 549, 
+            "y": 237
+          }
+        }, 
+        {
+          "pic": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "real_bone4", 
+            "path": "witch_hut.form/real_bone4.png", 
+            "w": 56, 
+            "x": 761, 
+            "y": 462
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "real_bone5_cover", 
+            "path": "witch_hut.form/real_bone5_cover.png", 
+            "w": 19, 
+            "x": 873, 
+            "y": 257
+          }, 
+          "pic": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "real_bone5", 
+            "path": "witch_hut.form/real_bone5.png", 
+            "w": 29, 
+            "x": 871, 
+            "y": 221
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "real_bone6_cover", 
+            "path": "witch_hut.form/real_bone6_cover.png", 
+            "w": 53, 
+            "x": 1156, 
+            "y": 447
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "real_bone6", 
+            "path": "witch_hut.form/real_bone6.png", 
+            "w": 69, 
+            "x": 1149, 
+            "y": 434
+          }
+        }
+      ], 
+      "name": "骨", 
+      "path": "witch_hut.sils/real_bone.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 71, 
+            "layer": 7, 
+            "name": "witch_shoe1", 
+            "path": "witch_hut.form/witch_shoe1.png", 
+            "w": 70, 
+            "x": 1182, 
+            "y": 598
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 8, 
+            "name": "witch_shoe2_cover", 
+            "path": "witch_hut.form/witch_shoe2_cover.png", 
+            "w": 37, 
+            "x": 285, 
+            "y": 338
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 7, 
+            "name": "witch_shoe2", 
+            "path": "witch_hut.form/witch_shoe2.png", 
+            "w": 53, 
+            "x": 282, 
+            "y": 316
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 7, 
+            "name": "witch_shoe3", 
+            "path": "witch_hut.form/witch_shoe3.png", 
+            "w": 52, 
+            "x": 875, 
+            "y": 454
+          }
+        }, 
+        {
+          "pic": {
+            "h": 71, 
+            "layer": 7, 
+            "name": "witch_shoe4", 
+            "path": "witch_hut.form/witch_shoe4.png", 
+            "w": 71, 
+            "x": 658, 
+            "y": 397
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 8, 
+            "name": "witch_shoe5_cover", 
+            "path": "witch_hut.form/witch_shoe5_cover.png", 
+            "w": 64, 
+            "x": 526, 
+            "y": 91
+          }, 
+          "pic": {
+            "h": 71, 
+            "layer": 7, 
+            "name": "witch_shoe5", 
+            "path": "witch_hut.form/witch_shoe5.png", 
+            "w": 71, 
+            "x": 527, 
+            "y": 71
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 8, 
+            "name": "witch_shoe6_cover", 
+            "path": "witch_hut.form/witch_shoe6_cover.png", 
+            "w": 52, 
+            "x": 406, 
+            "y": 495
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 7, 
+            "name": "witch_shoe6", 
+            "path": "witch_hut.form/witch_shoe6.png", 
+            "w": 58, 
+            "x": 403, 
+            "y": 479
+          }
+        }
+      ], 
+      "name": "魔女の靴", 
+      "path": "witch_hut.sils/witch_shoe.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "mandrake1", 
+            "path": "witch_hut.form/mandrake1.png", 
+            "w": 91, 
+            "x": 329, 
+            "y": 592
+          }
+        }, 
+        {
+          "pic": {
+            "h": 101, 
+            "layer": 4, 
+            "name": "mandrake2", 
+            "path": "witch_hut.form/mandrake2.png", 
+            "w": 49, 
+            "x": 983, 
+            "y": 316
+          }
+        }, 
+        {
+          "pic": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "mandrake3", 
+            "path": "witch_hut.form/mandrake3.png", 
+            "w": 41, 
+            "x": 337, 
+            "y": 163
+          }
+        }, 
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "mandrake4", 
+            "path": "witch_hut.form/mandrake4.png", 
+            "w": 40, 
+            "x": 753, 
+            "y": 317
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "mandrake5_cover", 
+            "path": "witch_hut.form/mandrake5_cover.png", 
+            "w": 27, 
+            "x": 778, 
+            "y": 0
+          }, 
+          "pic": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "mandrake5", 
+            "path": "witch_hut.form/mandrake5.png", 
+            "w": 40, 
+            "x": 777, 
+            "y": 1
+          }
+        }, 
+        {
+          "cover": {
+            "h": 79, 
+            "layer": 5, 
+            "name": "mandrake6_cover", 
+            "path": "witch_hut.form/mandrake6_cover.png", 
+            "w": 36, 
+            "x": 1184, 
+            "y": 342
+          }, 
+          "pic": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "mandrake6", 
+            "path": "witch_hut.form/mandrake6.png", 
+            "w": 40, 
+            "x": 1185, 
+            "y": 344
+          }
+        }
+      ], 
+      "name": "マンドレークの根", 
+      "path": "witch_hut.sils/mandrake.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "thirteen1", 
+            "path": "witch_hut.form/thirteen1.png", 
+            "w": 45, 
+            "x": 860, 
+            "y": 179
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "thirteen2", 
+            "path": "witch_hut.form/thirteen2.png", 
+            "w": 34, 
+            "x": 288, 
+            "y": 530
+          }
+        }, 
+        {
+          "pic": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "thirteen3", 
+            "path": "witch_hut.form/thirteen3.png", 
+            "w": 35, 
+            "x": 515, 
+            "y": 415
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "thirteen4", 
+            "path": "witch_hut.form/thirteen4.png", 
+            "w": 39, 
+            "x": 952, 
+            "y": 377
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "thirteen5_cover", 
+            "path": "witch_hut.form/thirteen5_cover.png", 
+            "w": 39, 
+            "x": 534, 
+            "y": 75
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "thirteen5", 
+            "path": "witch_hut.form/thirteen5.png", 
+            "w": 39, 
+            "x": 535, 
+            "y": 60
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "thirteen6_cover", 
+            "path": "witch_hut.form/thirteen6_cover.png", 
+            "w": 29, 
+            "x": 439, 
+            "y": 168
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "thirteen6", 
+            "path": "witch_hut.form/thirteen6.png", 
+            "w": 36, 
+            "x": 439, 
+            "y": 160
+          }
+        }
+      ], 
+      "name": "数字の13", 
+      "path": "witch_hut.sils/thirteen.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "amanita1", 
+            "path": "witch_hut.form/amanita1.png", 
+            "w": 38, 
+            "x": 911, 
+            "y": 497
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "amanita2", 
+            "path": "witch_hut.form/amanita2.png", 
+            "w": 25, 
+            "x": 797, 
+            "y": 456
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "amanita3", 
+            "path": "witch_hut.form/amanita3.png", 
+            "w": 68, 
+            "x": 478, 
+            "y": 492
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "amanita4", 
+            "path": "witch_hut.form/amanita4.png", 
+            "w": 23, 
+            "x": 589, 
+            "y": 55
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "amanita5_cover", 
+            "path": "witch_hut.form/amanita5_cover.png", 
+            "w": 26, 
+            "x": 1181, 
+            "y": 263
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "amanita5", 
+            "path": "witch_hut.form/amanita5.png", 
+            "w": 37, 
+            "x": 1173, 
+            "y": 247
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "amanita6_cover", 
+            "path": "witch_hut.form/amanita6_cover.png", 
+            "w": 52, 
+            "x": 338, 
+            "y": 19
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "amanita6", 
+            "path": "witch_hut.form/amanita6.png", 
+            "w": 52, 
+            "x": 336, 
+            "y": 0
+          }
+        }
+      ], 
+      "name": "毒キノコ", 
+      "path": "witch_hut.sils/amanita.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "crystal1", 
+            "path": "witch_hut.form/crystal1.png", 
+            "w": 39, 
+            "x": 336, 
+            "y": 358
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "crystal2", 
+            "path": "witch_hut.form/crystal2.png", 
+            "w": 19, 
+            "x": 743, 
+            "y": 182
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "crystal3", 
+            "path": "witch_hut.form/crystal3.png", 
+            "w": 23, 
+            "x": 484, 
+            "y": 249
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "crystal4", 
+            "path": "witch_hut.form/crystal4.png", 
+            "w": 28, 
+            "x": 1143, 
+            "y": 244
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 5, 
+            "name": "crystal5_cover", 
+            "path": "witch_hut.form/crystal5_cover.png", 
+            "w": 29, 
+            "x": 900, 
+            "y": 539
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "crystal5", 
+            "path": "witch_hut.form/crystal5.png", 
+            "w": 38, 
+            "x": 900, 
+            "y": 538
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "crystal6_cover", 
+            "path": "witch_hut.form/crystal6_cover.png", 
+            "w": 35, 
+            "x": 699, 
+            "y": 355
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "crystal6", 
+            "path": "witch_hut.form/crystal6.png", 
+            "w": 39, 
+            "x": 698, 
+            "y": 336
+          }
+        }
+      ], 
+      "name": "クリスタル石", 
+      "path": "witch_hut.sils/crystal.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "rat1", 
+            "path": "witch_hut.form/rat1.png", 
+            "w": 76, 
+            "x": 596, 
+            "y": 444
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "rat2", 
+            "path": "witch_hut.form/rat2.png", 
+            "w": 57, 
+            "x": 966, 
+            "y": 268
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "rat3", 
+            "path": "witch_hut.form/rat3.png", 
+            "w": 53, 
+            "x": 231, 
+            "y": 331
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 6, 
+            "name": "rat4", 
+            "path": "witch_hut.form/rat4.png", 
+            "w": 68, 
+            "x": 1058, 
+            "y": 608
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "rat5_cover", 
+            "path": "witch_hut.form/rat5_cover.png", 
+            "w": 19, 
+            "x": 678, 
+            "y": 290
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "rat5", 
+            "path": "witch_hut.form/rat5.png", 
+            "w": 53, 
+            "x": 646, 
+            "y": 288
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "rat6_cover", 
+            "path": "witch_hut.form/rat6_cover.png", 
+            "w": 41, 
+            "x": 1130, 
+            "y": 488
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "rat6", 
+            "path": "witch_hut.form/rat6.png", 
+            "w": 53, 
+            "x": 1121, 
+            "y": 486
+          }
+        }
+      ], 
+      "name": "ネズミ", 
+      "path": "witch_hut.sils/rat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "frog1", 
+            "path": "witch_hut.form/frog1.png", 
+            "w": 58, 
+            "x": 691, 
+            "y": 463
+          }
+        }, 
+        {
+          "pic": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "frog2", 
+            "path": "witch_hut.form/frog2.png", 
+            "w": 90, 
+            "x": 1124, 
+            "y": 549
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "frog3", 
+            "path": "witch_hut.form/frog3.png", 
+            "w": 61, 
+            "x": 837, 
+            "y": 554
+          }
+        }, 
+        {
+          "pic": {
+            "h": 131, 
+            "layer": 4, 
+            "name": "frog4", 
+            "path": "witch_hut.form/frog4.png", 
+            "w": 95, 
+            "x": 256, 
+            "y": 535
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "frog5_cover", 
+            "path": "witch_hut.form/frog5_cover.png", 
+            "w": 23, 
+            "x": 854, 
+            "y": 269
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "frog5", 
+            "path": "witch_hut.form/frog5.png", 
+            "w": 51, 
+            "x": 827, 
+            "y": 269
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "frog6_cover", 
+            "path": "witch_hut.form/frog6_cover.png", 
+            "w": 61, 
+            "x": 604, 
+            "y": 604
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "frog6", 
+            "path": "witch_hut.form/frog6.png", 
+            "w": 71, 
+            "x": 597, 
+            "y": 603
+          }
+        }
+      ], 
+      "name": "ヒキカエル", 
+      "path": "witch_hut.sils/frog.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 113, 
+            "layer": 4, 
+            "name": "herb1", 
+            "path": "witch_hut.form/herb1.png", 
+            "w": 78, 
+            "x": 973, 
+            "y": 97
+          }
+        }, 
+        {
+          "pic": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "herb2", 
+            "path": "witch_hut.form/herb2.png", 
+            "w": 66, 
+            "x": 617, 
+            "y": 0
+          }
+        }, 
+        {
+          "pic": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "herb3", 
+            "path": "witch_hut.form/herb3.png", 
+            "w": 66, 
+            "x": 1135, 
+            "y": 291
+          }
+        }, 
+        {
+          "pic": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "herb4", 
+            "path": "witch_hut.form/herb4.png", 
+            "w": 53, 
+            "x": 493, 
+            "y": 126
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "herb5_cover", 
+            "path": "witch_hut.form/herb5_cover.png", 
+            "w": 43, 
+            "x": 852, 
+            "y": 296
+          }, 
+          "pic": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "herb5", 
+            "path": "witch_hut.form/herb5.png", 
+            "w": 53, 
+            "x": 850, 
+            "y": 292
+          }
+        }, 
+        {
+          "cover": {
+            "h": 78, 
+            "layer": 5, 
+            "name": "herb6_cover", 
+            "path": "witch_hut.form/herb6_cover.png", 
+            "w": 27, 
+            "x": 362, 
+            "y": 244
+          }, 
+          "pic": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "herb6", 
+            "path": "witch_hut.form/herb6.png", 
+            "w": 64, 
+            "x": 327, 
+            "y": 234
+          }
+        }
+      ], 
+      "name": "草の束", 
+      "path": "witch_hut.sils/herb.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "crystal_ball1", 
+            "path": "witch_hut.form/crystal_ball1.png", 
+            "w": 39, 
+            "x": 1040, 
+            "y": 444
+          }
+        }, 
+        {
+          "pic": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "crystal_ball2", 
+            "path": "witch_hut.form/crystal_ball2.png", 
+            "w": 58, 
+            "x": 908, 
+            "y": 593
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "crystal_ball3", 
+            "path": "witch_hut.form/crystal_ball3.png", 
+            "w": 33, 
+            "x": 414, 
+            "y": 356
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "crystal_ball4", 
+            "path": "witch_hut.form/crystal_ball4.png", 
+            "w": 32, 
+            "x": 1201, 
+            "y": 240
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "crystal_ball5_cover", 
+            "path": "witch_hut.form/crystal_ball5_cover.png", 
+            "w": 13, 
+            "x": 477, 
+            "y": 288
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "crystal_ball5", 
+            "path": "witch_hut.form/crystal_ball5.png", 
+            "w": 26, 
+            "x": 477, 
+            "y": 286
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "crystal_ball6_cover", 
+            "path": "witch_hut.form/crystal_ball6_cover.png", 
+            "w": 24, 
+            "x": 570, 
+            "y": 182
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "crystal_ball6", 
+            "path": "witch_hut.form/crystal_ball6.png", 
+            "w": 29, 
+            "x": 568, 
+            "y": 179
+          }
+        }
+      ], 
+      "name": "水晶玉", 
+      "path": "witch_hut.sils/crystal_ball.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 7, 
+            "name": "pumpkin1", 
+            "path": "witch_hut.form/pumpkin1.png", 
+            "w": 70, 
+            "x": 364, 
+            "y": 536
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 7, 
+            "name": "pumpkin2", 
+            "path": "witch_hut.form/pumpkin2.png", 
+            "w": 70, 
+            "x": 1120, 
+            "y": 605
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 7, 
+            "name": "pumpkin3", 
+            "path": "witch_hut.form/pumpkin3.png", 
+            "w": 64, 
+            "x": 1048, 
+            "y": 241
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 7, 
+            "name": "pumpkin4", 
+            "path": "witch_hut.form/pumpkin4.png", 
+            "w": 49, 
+            "x": 751, 
+            "y": 389
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 8, 
+            "name": "pumpkin5_cover", 
+            "path": "witch_hut.form/pumpkin5_cover.png", 
+            "w": 47, 
+            "x": 643, 
+            "y": 105
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 7, 
+            "name": "pumpkin5", 
+            "path": "witch_hut.form/pumpkin5.png", 
+            "w": 54, 
+            "x": 642, 
+            "y": 84
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 8, 
+            "name": "pumpkin6_cover", 
+            "path": "witch_hut.form/pumpkin6_cover.png", 
+            "w": 29, 
+            "x": 461, 
+            "y": 217
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 7, 
+            "name": "pumpkin6", 
+            "path": "witch_hut.form/pumpkin6.png", 
+            "w": 41, 
+            "x": 456, 
+            "y": 218
+          }
+        }
+      ], 
+      "name": "ジャックランタン", 
+      "path": "witch_hut.sils/pumpkin.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 92, 
+            "layer": 4, 
+            "name": "mortar1", 
+            "path": "witch_hut.form/mortar1.png", 
+            "w": 80, 
+            "x": 568, 
+            "y": 466
+          }
+        }, 
+        {
+          "pic": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "mortar2", 
+            "path": "witch_hut.form/mortar2.png", 
+            "w": 63, 
+            "x": 228, 
+            "y": 369
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "mortar3", 
+            "path": "witch_hut.form/mortar3.png", 
+            "w": 52, 
+            "x": 946, 
+            "y": 547
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "mortar4", 
+            "path": "witch_hut.form/mortar4.png", 
+            "w": 48, 
+            "x": 656, 
+            "y": 352
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "mortar5_cover", 
+            "path": "witch_hut.form/mortar5_cover.png", 
+            "w": 37, 
+            "x": 420, 
+            "y": 599
+          }, 
+          "pic": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "mortar5", 
+            "path": "witch_hut.form/mortar5.png", 
+            "w": 65, 
+            "x": 397, 
+            "y": 593
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "mortar6_cover", 
+            "path": "witch_hut.form/mortar6_cover.png", 
+            "w": 19, 
+            "x": 1005, 
+            "y": 440
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "mortar6", 
+            "path": "witch_hut.form/mortar6.png", 
+            "w": 49, 
+            "x": 978, 
+            "y": 423
+          }
+        }
+      ], 
+      "name": "杵と臼", 
+      "path": "witch_hut.sils/mortar.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "runes1", 
+            "path": "witch_hut.form/runes1.png", 
+            "w": 70, 
+            "x": 999, 
+            "y": 611
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "runes2", 
+            "path": "witch_hut.form/runes2.png", 
+            "w": 63, 
+            "x": 284, 
+            "y": 589
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "runes3", 
+            "path": "witch_hut.form/runes3.png", 
+            "w": 63, 
+            "x": 650, 
+            "y": 497
+          }
+        }, 
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "runes4", 
+            "path": "witch_hut.form/runes4.png", 
+            "w": 53, 
+            "x": 953, 
+            "y": 474
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "runes5_cover", 
+            "path": "witch_hut.form/runes5_cover.png", 
+            "w": 72, 
+            "x": 775, 
+            "y": 566
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "runes5", 
+            "path": "witch_hut.form/runes5.png", 
+            "w": 54, 
+            "x": 781, 
+            "y": 577
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "runes6_cover", 
+            "path": "witch_hut.form/runes6_cover.png", 
+            "w": 29, 
+            "x": 235, 
+            "y": 440
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "runes6", 
+            "path": "witch_hut.form/runes6.png", 
+            "w": 44, 
+            "x": 236, 
+            "y": 439
+          }
+        }
+      ], 
+      "name": "ルーンの袋", 
+      "path": "witch_hut.sils/runes.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "candelabrum1_cover", 
+            "path": "witch_hut.form/candelabrum1_cover.png", 
+            "w": 66, 
+            "x": 278, 
+            "y": 367
+          }, 
+          "pic": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "candelabrum1", 
+            "path": "witch_hut.form/candelabrum1.png", 
+            "w": 69, 
+            "x": 275, 
+            "y": 355
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "candelabrum2_cover", 
+            "path": "witch_hut.form/candelabrum2_cover.png", 
+            "w": 38, 
+            "x": 832, 
+            "y": 98
+          }, 
+          "pic": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "candelabrum2", 
+            "path": "witch_hut.form/candelabrum2.png", 
+            "w": 70, 
+            "x": 816, 
+            "y": 36
+          }
+        }, 
+        {
+          "pic": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "candelabrum3", 
+            "path": "witch_hut.form/candelabrum3.png", 
+            "w": 69, 
+            "x": 851, 
+            "y": 489
+          }
+        }, 
+        {
+          "pic": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "candelabrum4", 
+            "path": "witch_hut.form/candelabrum4.png", 
+            "w": 70, 
+            "x": 787, 
+            "y": 228
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "candelabrum5_cover", 
+            "path": "witch_hut.form/candelabrum5_cover.png", 
+            "w": 68, 
+            "x": 449, 
+            "y": 591
+          }, 
+          "pic": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "candelabrum5", 
+            "path": "witch_hut.form/candelabrum5.png", 
+            "w": 69, 
+            "x": 448, 
+            "y": 589
+          }
+        }, 
+        {
+          "cover": {
+            "h": 70, 
+            "layer": 5, 
+            "name": "candelabrum6_cover", 
+            "path": "witch_hut.form/candelabrum6_cover.png", 
+            "w": 41, 
+            "x": 1111, 
+            "y": 432
+          }, 
+          "pic": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "candelabrum6", 
+            "path": "witch_hut.form/candelabrum6.png", 
+            "w": 72, 
+            "x": 1082, 
+            "y": 423
+          }
+        }
+      ], 
+      "name": "枝付き燭台", 
+      "path": "witch_hut.sils/candelabrum.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "tambourine1", 
+            "path": "witch_hut.form/tambourine1.png", 
+            "w": 51, 
+            "x": 1138, 
+            "y": 129
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "tambourine2", 
+            "path": "witch_hut.form/tambourine2.png", 
+            "w": 51, 
+            "x": 282, 
+            "y": 7
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "tambourine3", 
+            "path": "witch_hut.form/tambourine3.png", 
+            "w": 64, 
+            "x": 228, 
+            "y": 522
+          }
+        }, 
+        {
+          "pic": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "tambourine4", 
+            "path": "witch_hut.form/tambourine4.png", 
+            "w": 63, 
+            "x": 1083, 
+            "y": 349
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "tambourine5_cover", 
+            "path": "witch_hut.form/tambourine5_cover.png", 
+            "w": 56, 
+            "x": 499, 
+            "y": 255
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "tambourine5", 
+            "path": "witch_hut.form/tambourine5.png", 
+            "w": 55, 
+            "x": 500, 
+            "y": 259
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "tambourine6_cover", 
+            "path": "witch_hut.form/tambourine6_cover.png", 
+            "w": 21, 
+            "x": 1231, 
+            "y": 564
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "tambourine6", 
+            "path": "witch_hut.form/tambourine6.png", 
+            "w": 47, 
+            "x": 1205, 
+            "y": 568
+          }
+        }
+      ], 
+      "name": "呪術師のタンバリン", 
+      "path": "witch_hut.sils/tambourine.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 94, 
+            "layer": 4, 
+            "name": "hat1", 
+            "path": "witch_hut.form/hat1.png", 
+            "w": 86, 
+            "x": 366, 
+            "y": 403
+          }
+        }, 
+        {
+          "pic": {
+            "h": 90, 
+            "layer": 4, 
+            "name": "hat2", 
+            "path": "witch_hut.form/hat2.png", 
+            "w": 97, 
+            "x": 1047, 
+            "y": 511
+          }
+        }, 
+        {
+          "pic": {
+            "h": 87, 
+            "layer": 4, 
+            "name": "hat3", 
+            "path": "witch_hut.form/hat3.png", 
+            "w": 79, 
+            "x": 900, 
+            "y": 228
+          }
+        }, 
+        {
+          "pic": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "hat4", 
+            "path": "witch_hut.form/hat4.png", 
+            "w": 73, 
+            "x": 914, 
+            "y": 28
+          }
+        }, 
+        {
+          "cover": {
+            "h": 84, 
+            "layer": 5, 
+            "name": "hat5_cover", 
+            "path": "witch_hut.form/hat5_cover.png", 
+            "w": 94, 
+            "x": 388, 
+            "y": 9
+          }, 
+          "pic": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "hat5", 
+            "path": "witch_hut.form/hat5.png", 
+            "w": 77, 
+            "x": 405, 
+            "y": 11
+          }
+        }, 
+        {
+          "cover": {
+            "h": 85, 
+            "layer": 5, 
+            "name": "hat6_cover", 
+            "path": "witch_hut.form/hat6_cover.png", 
+            "w": 53, 
+            "x": 839, 
+            "y": 396
+          }, 
+          "pic": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "hat6", 
+            "path": "witch_hut.form/hat6.png", 
+            "w": 69, 
+            "x": 809, 
+            "y": 411
+          }
+        }
+      ], 
+      "name": "魔女の帽子", 
+      "path": "witch_hut.sils/hat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "voodoo1", 
+            "path": "witch_hut.form/voodoo1.png", 
+            "w": 56, 
+            "x": 536, 
+            "y": 421
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "voodoo2", 
+            "path": "witch_hut.form/voodoo2.png", 
+            "w": 41, 
+            "x": 703, 
+            "y": 159
+          }
+        }, 
+        {
+          "pic": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "voodoo3", 
+            "path": "witch_hut.form/voodoo3.png", 
+            "w": 55, 
+            "x": 1164, 
+            "y": 484
+          }
+        }, 
+        {
+          "pic": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "voodoo4", 
+            "path": "witch_hut.form/voodoo4.png", 
+            "w": 55, 
+            "x": 1066, 
+            "y": 13
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "voodoo5_cover", 
+            "path": "witch_hut.form/voodoo5_cover.png", 
+            "w": 53, 
+            "x": 472, 
+            "y": 75
+          }, 
+          "pic": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "voodoo5", 
+            "path": "witch_hut.form/voodoo5.png", 
+            "w": 46, 
+            "x": 474, 
+            "y": 55
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "voodoo6_cover", 
+            "path": "witch_hut.form/voodoo6_cover.png", 
+            "w": 47, 
+            "x": 271, 
+            "y": 494
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "voodoo6", 
+            "path": "witch_hut.form/voodoo6.png", 
+            "w": 42, 
+            "x": 275, 
+            "y": 467
+          }
+        }
+      ], 
+      "name": "呪いの人形", 
+      "path": "witch_hut.sils/voodoo.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "wood_log1", 
+            "path": "witch_hut.form/wood_log1.png", 
+            "w": 108, 
+            "x": 292, 
+            "y": 557
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "wood_log2", 
+            "path": "witch_hut.form/wood_log2.png", 
+            "w": 89, 
+            "x": 1144, 
+            "y": 48
+          }
+        }, 
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "wood_log3", 
+            "path": "witch_hut.form/wood_log3.png", 
+            "w": 109, 
+            "x": 939, 
+            "y": 503
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "wood_log4", 
+            "path": "witch_hut.form/wood_log4.png", 
+            "w": 86, 
+            "x": 469, 
+            "y": 330
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "wood_log5_cover", 
+            "path": "witch_hut.form/wood_log5_cover.png", 
+            "w": 51, 
+            "x": 901, 
+            "y": 439
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "wood_log5", 
+            "path": "witch_hut.form/wood_log5.png", 
+            "w": 85, 
+            "x": 899, 
+            "y": 432
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "wood_log6_cover", 
+            "path": "witch_hut.form/wood_log6_cover.png", 
+            "w": 77, 
+            "x": 722, 
+            "y": 622
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "wood_log6", 
+            "path": "witch_hut.form/wood_log6.png", 
+            "w": 85, 
+            "x": 745, 
+            "y": 609
+          }
+        }
+      ], 
+      "name": "丸太", 
+      "path": "witch_hut.sils/wood_log.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 7, 
+            "name": "horseshoe1", 
+            "path": "witch_hut.form/horseshoe1.png", 
+            "w": 49, 
+            "x": 796, 
+            "y": 108
+          }
+        }, 
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 7, 
+            "name": "horseshoe2", 
+            "path": "witch_hut.form/horseshoe2.png", 
+            "w": 47, 
+            "x": 1199, 
+            "y": 299
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 7, 
+            "name": "horseshoe3", 
+            "path": "witch_hut.form/horseshoe3.png", 
+            "w": 56, 
+            "x": 854, 
+            "y": 611
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 7, 
+            "name": "horseshoe4", 
+            "path": "witch_hut.form/horseshoe4.png", 
+            "w": 48, 
+            "x": 228, 
+            "y": 127
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 8, 
+            "name": "horseshoe5_cover", 
+            "path": "witch_hut.form/horseshoe5_cover.png", 
+            "w": 22, 
+            "x": 784, 
+            "y": 328
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 7, 
+            "name": "horseshoe5", 
+            "path": "witch_hut.form/horseshoe5.png", 
+            "w": 27, 
+            "x": 785, 
+            "y": 332
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 7, 
+            "name": "horseshoe6", 
+            "path": "witch_hut.form/horseshoe6.png", 
+            "w": 30, 
+            "x": 464, 
+            "y": 416
+          }
+        }
+      ], 
+      "name": "蹄鉄", 
+      "path": "witch_hut.sils/horseshoe.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "sieve1", 
+            "path": "witch_hut.form/sieve1.png", 
+            "w": 50, 
+            "x": 1042, 
+            "y": 500
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "sieve2", 
+            "path": "witch_hut.form/sieve2.png", 
+            "w": 57, 
+            "x": 228, 
+            "y": 586
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "sieve3", 
+            "path": "witch_hut.form/sieve3.png", 
+            "w": 54, 
+            "x": 525, 
+            "y": 617
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "sieve4", 
+            "path": "witch_hut.form/sieve4.png", 
+            "w": 43, 
+            "x": 364, 
+            "y": 95
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "sieve5_cover", 
+            "path": "witch_hut.form/sieve5_cover.png", 
+            "w": 58, 
+            "x": 315, 
+            "y": 512
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "sieve5", 
+            "path": "witch_hut.form/sieve5.png", 
+            "w": 43, 
+            "x": 322, 
+            "y": 517
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "sieve6_cover", 
+            "path": "witch_hut.form/sieve6_cover.png", 
+            "w": 35, 
+            "x": 773, 
+            "y": 437
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "sieve6", 
+            "path": "witch_hut.form/sieve6.png", 
+            "w": 33, 
+            "x": 775, 
+            "y": 440
+          }
+        }
+      ], 
+      "name": "ふるい", 
+      "path": "witch_hut.sils/sieve.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 225, 
+            "layer": 4, 
+            "name": "magic_staff1", 
+            "path": "witch_hut.form/magic_staff1.png", 
+            "w": 70, 
+            "x": 1188, 
+            "y": 356
+          }
+        }, 
+        {
+          "pic": {
+            "h": 119, 
+            "layer": 4, 
+            "name": "magic_staff2", 
+            "path": "witch_hut.form/magic_staff2.png", 
+            "w": 72, 
+            "x": 963, 
+            "y": 550
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "magic_staff3", 
+            "path": "witch_hut.form/magic_staff3.png", 
+            "w": 167, 
+            "x": 1080, 
+            "y": 80
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "magic_staff4", 
+            "path": "witch_hut.form/magic_staff4.png", 
+            "w": 158, 
+            "x": 354, 
+            "y": 115
+          }
+        }, 
+        {
+          "pic": {
+            "h": 154, 
+            "layer": 4, 
+            "name": "magic_staff5", 
+            "path": "witch_hut.form/magic_staff5.png", 
+            "w": 48, 
+            "x": 433, 
+            "y": 331
+          }
+        }, 
+        {
+          "cover": {
+            "h": 85, 
+            "layer": 5, 
+            "name": "magic_staff6_cover", 
+            "path": "witch_hut.form/magic_staff6_cover.png", 
+            "w": 107, 
+            "x": 650, 
+            "y": 1
+          }, 
+          "pic": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "magic_staff6", 
+            "path": "witch_hut.form/magic_staff6.png", 
+            "w": 107, 
+            "x": 650, 
+            "y": -1
+          }
+        }
+      ], 
+      "name": "杖", 
+      "path": "witch_hut.sils/magic_staff.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 97, 
+            "layer": 5, 
+            "name": "pitchfork1_cover", 
+            "path": "witch_hut.morph/pitchfork1_cover.png", 
+            "w": 47, 
+            "x": 572, 
+            "y": 424
+          }, 
+          "pic1": {
+            "h": 184, 
+            "layer": 4, 
+            "name": "pitchfork1_1", 
+            "path": "witch_hut.morph/pitchfork1_1.png", 
+            "w": 60, 
+            "x": 566, 
+            "y": 347
+          }, 
+          "pic2": {
+            "h": 184, 
+            "layer": 4, 
+            "name": "pitchfork1_2", 
+            "path": "witch_hut.morph/pitchfork1_2.png", 
+            "w": 60, 
+            "x": 566, 
+            "y": 347
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "pitchfork2_1", 
+            "path": "witch_hut.morph/pitchfork2_1.png", 
+            "w": 210, 
+            "x": 315, 
+            "y": 6
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "pitchfork2_2", 
+            "path": "witch_hut.morph/pitchfork2_2.png", 
+            "w": 210, 
+            "x": 315, 
+            "y": 6
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "pitchfork3_cover", 
+            "path": "witch_hut.morph/pitchfork3_cover.png", 
+            "w": 43, 
+            "x": 658, 
+            "y": 8
+          }, 
+          "pic1": {
+            "h": 113, 
+            "layer": 4, 
+            "name": "pitchfork3_1", 
+            "path": "witch_hut.morph/pitchfork3_1.png", 
+            "w": 119, 
+            "x": 656, 
+            "y": 7
+          }, 
+          "pic2": {
+            "h": 113, 
+            "layer": 4, 
+            "name": "pitchfork3_2", 
+            "path": "witch_hut.morph/pitchfork3_2.png", 
+            "w": 119, 
+            "x": 656, 
+            "y": 7
+          }
+        }, 
+        {
+          "cover": {
+            "h": 91, 
+            "layer": 5, 
+            "name": "pitchfork4_cover", 
+            "path": "witch_hut.morph/pitchfork4_cover.png", 
+            "w": 44, 
+            "x": 1112, 
+            "y": 411
+          }, 
+          "pic1": {
+            "h": 212, 
+            "layer": 4, 
+            "name": "pitchfork4_1", 
+            "path": "witch_hut.morph/pitchfork4_1.png", 
+            "w": 62, 
+            "x": 1102, 
+            "y": 297
+          }, 
+          "pic2": {
+            "h": 212, 
+            "layer": 4, 
+            "name": "pitchfork4_2", 
+            "path": "witch_hut.morph/pitchfork4_2.png", 
+            "w": 62, 
+            "x": 1102, 
+            "y": 297
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "pitchfork5_1", 
+            "path": "witch_hut.morph/pitchfork5_1.png", 
+            "w": 180, 
+            "x": 1026, 
+            "y": 88
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "pitchfork5_2", 
+            "path": "witch_hut.morph/pitchfork5_2.png", 
+            "w": 180, 
+            "x": 1026, 
+            "y": 88
+          }
+        }
+      ], 
+      "name": "pitchfork"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "wing1_1", 
+            "path": "witch_hut.morph/wing1_1.png", 
+            "w": 82, 
+            "x": 237, 
+            "y": 143
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "wing1_2", 
+            "path": "witch_hut.morph/wing1_2.png", 
+            "w": 77, 
+            "x": 238, 
+            "y": 141
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "wing2_1", 
+            "path": "witch_hut.morph/wing2_1.png", 
+            "w": 51, 
+            "x": 474, 
+            "y": 376
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "wing2_2", 
+            "path": "witch_hut.morph/wing2_2.png", 
+            "w": 43, 
+            "x": 476, 
+            "y": 373
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "wing3_1", 
+            "path": "witch_hut.morph/wing3_1.png", 
+            "w": 47, 
+            "x": 764, 
+            "y": 175
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "wing3_2", 
+            "path": "witch_hut.morph/wing3_2.png", 
+            "w": 55, 
+            "x": 766, 
+            "y": 172
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "wing4_cover", 
+            "path": "witch_hut.morph/wing4_cover.png", 
+            "w": 44, 
+            "x": 897, 
+            "y": 386
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "wing4_1", 
+            "path": "witch_hut.morph/wing4_1.png", 
+            "w": 47, 
+            "x": 894, 
+            "y": 352
+          }, 
+          "pic2": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "wing4_2", 
+            "path": "witch_hut.morph/wing4_2.png", 
+            "w": 41, 
+            "x": 899, 
+            "y": 355
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "wing5_cover", 
+            "path": "witch_hut.morph/wing5_cover.png", 
+            "w": 35, 
+            "x": 1021, 
+            "y": 32
+          }, 
+          "pic1": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "wing5_1", 
+            "path": "witch_hut.morph/wing5_1.png", 
+            "w": 51, 
+            "x": 1004, 
+            "y": 18
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "wing5_2", 
+            "path": "witch_hut.morph/wing5_2.png", 
+            "w": 62, 
+            "x": 989, 
+            "y": 37
+          }
+        }
+      ], 
+      "name": "wing"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "jaw1_cover", 
+            "path": "witch_hut.morph/jaw1_cover.png", 
+            "w": 40, 
+            "x": 420, 
+            "y": 606
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "jaw1_1", 
+            "path": "witch_hut.morph/jaw1_1.png", 
+            "w": 53, 
+            "x": 400, 
+            "y": 612
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "jaw1_2", 
+            "path": "witch_hut.morph/jaw1_2.png", 
+            "w": 75, 
+            "x": 385, 
+            "y": 608
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "jaw2_cover", 
+            "path": "witch_hut.morph/jaw2_cover.png", 
+            "w": 48, 
+            "x": 228, 
+            "y": 431
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "jaw2_1", 
+            "path": "witch_hut.morph/jaw2_1.png", 
+            "w": 47, 
+            "x": 232, 
+            "y": 436
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "jaw2_2", 
+            "path": "witch_hut.morph/jaw2_2.png", 
+            "w": 56, 
+            "x": 228, 
+            "y": 432
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 6, 
+            "name": "jaw3_1", 
+            "path": "witch_hut.morph/jaw3_1.png", 
+            "w": 59, 
+            "x": 1100, 
+            "y": 612
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 6, 
+            "name": "jaw3_2", 
+            "path": "witch_hut.morph/jaw3_2.png", 
+            "w": 83, 
+            "x": 1087, 
+            "y": 607
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "jaw4_1", 
+            "path": "witch_hut.morph/jaw4_1.png", 
+            "w": 55, 
+            "x": 685, 
+            "y": 501
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "jaw4_2", 
+            "path": "witch_hut.morph/jaw4_2.png", 
+            "w": 82, 
+            "x": 678, 
+            "y": 495
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "jaw5_1", 
+            "path": "witch_hut.morph/jaw5_1.png", 
+            "w": 44, 
+            "x": 1197, 
+            "y": 256
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "jaw5_2", 
+            "path": "witch_hut.morph/jaw5_2.png", 
+            "w": 59, 
+            "x": 1193, 
+            "y": 252
+          }
+        }
+      ], 
+      "name": "jaw"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 8, 
+            "name": "horseshoe1_cover", 
+            "path": "witch_hut.morph/horseshoe1_cover.png", 
+            "w": 56, 
+            "x": 797, 
+            "y": 9
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 7, 
+            "name": "horseshoe1_1", 
+            "path": "witch_hut.morph/horseshoe1_1.png", 
+            "w": 38, 
+            "x": 805, 
+            "y": 14
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 7, 
+            "name": "horseshoe1_2", 
+            "path": "witch_hut.morph/horseshoe1_2.png", 
+            "w": 59, 
+            "x": 795, 
+            "y": 9
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 8, 
+            "name": "horseshoe2_cover", 
+            "path": "witch_hut.morph/horseshoe2_cover.png", 
+            "w": 30, 
+            "x": 1187, 
+            "y": 435
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 7, 
+            "name": "horseshoe2_1", 
+            "path": "witch_hut.morph/horseshoe2_1.png", 
+            "w": 38, 
+            "x": 1190, 
+            "y": 432
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 7, 
+            "name": "horseshoe2_2", 
+            "path": "witch_hut.morph/horseshoe2_2.png", 
+            "w": 48, 
+            "x": 1185, 
+            "y": 429
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 7, 
+            "name": "horseshoe3_1", 
+            "path": "witch_hut.morph/horseshoe3_1.png", 
+            "w": 40, 
+            "x": 417, 
+            "y": 330
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 7, 
+            "name": "horseshoe3_2", 
+            "path": "witch_hut.morph/horseshoe3_2.png", 
+            "w": 45, 
+            "x": 415, 
+            "y": 330
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 7, 
+            "name": "horseshoe4_1", 
+            "path": "witch_hut.morph/horseshoe4_1.png", 
+            "w": 49, 
+            "x": 243, 
+            "y": 0
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 7, 
+            "name": "horseshoe4_2", 
+            "path": "witch_hut.morph/horseshoe4_2.png", 
+            "w": 55, 
+            "x": 240, 
+            "y": 0
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 7, 
+            "name": "horseshoe5_1", 
+            "path": "witch_hut.morph/horseshoe5_1.png", 
+            "w": 41, 
+            "x": 915, 
+            "y": 204
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 7, 
+            "name": "horseshoe5_2", 
+            "path": "witch_hut.morph/horseshoe5_2.png", 
+            "w": 52, 
+            "x": 909, 
+            "y": 202
+          }
+        }
+      ], 
+      "name": "horseshoe"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "runes1_cover", 
+            "path": "witch_hut.morph/runes1_cover.png", 
+            "w": 67, 
+            "x": 714, 
+            "y": 613
+          }, 
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "runes1_1", 
+            "path": "witch_hut.morph/runes1_1.png", 
+            "w": 70, 
+            "x": 725, 
+            "y": 612
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "runes1_2", 
+            "path": "witch_hut.morph/runes1_2.png", 
+            "w": 61, 
+            "x": 734, 
+            "y": 611
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 5, 
+            "name": "runes2_cover", 
+            "path": "witch_hut.morph/runes2_cover.png", 
+            "w": 64, 
+            "x": 351, 
+            "y": 518
+          }, 
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "runes2_1", 
+            "path": "witch_hut.morph/runes2_1.png", 
+            "w": 62, 
+            "x": 358, 
+            "y": 532
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "runes2_2", 
+            "path": "witch_hut.morph/runes2_2.png", 
+            "w": 79, 
+            "x": 351, 
+            "y": 530
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "runes3_1", 
+            "path": "witch_hut.morph/runes3_1.png", 
+            "w": 63, 
+            "x": 520, 
+            "y": 617
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "runes3_2", 
+            "path": "witch_hut.morph/runes3_2.png", 
+            "w": 60, 
+            "x": 523, 
+            "y": 617
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "runes4_1", 
+            "path": "witch_hut.morph/runes4_1.png", 
+            "w": 54, 
+            "x": 795, 
+            "y": 440
+          }, 
+          "pic2": {
+            "h": 108, 
+            "layer": 4, 
+            "name": "runes4_2", 
+            "path": "witch_hut.morph/runes4_2.png", 
+            "w": 78, 
+            "x": 798, 
+            "y": 370
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "runes5_1", 
+            "path": "witch_hut.morph/runes5_1.png", 
+            "w": 56, 
+            "x": 931, 
+            "y": 576
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "runes5_2", 
+            "path": "witch_hut.morph/runes5_2.png", 
+            "w": 53, 
+            "x": 933, 
+            "y": 579
+          }
+        }
+      ], 
+      "name": "runes"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 70, 
+            "layer": 5, 
+            "name": "bat1_cover", 
+            "path": "witch_hut.morph/bat1_cover.png", 
+            "w": 57, 
+            "x": 1188, 
+            "y": 315
+          }, 
+          "pic1": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "bat1_1", 
+            "path": "witch_hut.morph/bat1_1.png", 
+            "w": 41, 
+            "x": 1187, 
+            "y": 315
+          }, 
+          "pic2": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "bat1_2", 
+            "path": "witch_hut.morph/bat1_2.png", 
+            "w": 66, 
+            "x": 1183, 
+            "y": 319
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "bat2_1", 
+            "path": "witch_hut.morph/bat2_1.png", 
+            "w": 28, 
+            "x": 1180, 
+            "y": 24
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "bat2_2", 
+            "path": "witch_hut.morph/bat2_2.png", 
+            "w": 71, 
+            "x": 1160, 
+            "y": 12
+          }
+        }, 
+        {
+          "cover": {
+            "h": 85, 
+            "layer": 5, 
+            "name": "bat3_cover", 
+            "path": "witch_hut.morph/bat3_cover.png", 
+            "w": 58, 
+            "x": 228, 
+            "y": 174
+          }, 
+          "pic1": {
+            "h": 86, 
+            "layer": 4, 
+            "name": "bat3_1", 
+            "path": "witch_hut.morph/bat3_1.png", 
+            "w": 40, 
+            "x": 228, 
+            "y": 177
+          }, 
+          "pic2": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "bat3_2", 
+            "path": "witch_hut.morph/bat3_2.png", 
+            "w": 61, 
+            "x": 228, 
+            "y": 175
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 89, 
+            "layer": 4, 
+            "name": "bat4_1", 
+            "path": "witch_hut.morph/bat4_1.png", 
+            "w": 43, 
+            "x": 807, 
+            "y": 126
+          }, 
+          "pic2": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "bat4_2", 
+            "path": "witch_hut.morph/bat4_2.png", 
+            "w": 76, 
+            "x": 791, 
+            "y": 120
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "bat5_1", 
+            "path": "witch_hut.morph/bat5_1.png", 
+            "w": 39, 
+            "x": 567, 
+            "y": 44
+          }, 
+          "pic2": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "bat5_2", 
+            "path": "witch_hut.morph/bat5_2.png", 
+            "w": 77, 
+            "x": 548, 
+            "y": 43
+          }
+        }
+      ], 
+      "name": "bat"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "eye1_cover", 
+            "path": "witch_hut.morph/eye1_cover.png", 
+            "w": 35, 
+            "x": 840, 
+            "y": 598
+          }, 
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "eye1_1", 
+            "path": "witch_hut.morph/eye1_1.png", 
+            "w": 29, 
+            "x": 843, 
+            "y": 588
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "eye1_2", 
+            "path": "witch_hut.morph/eye1_2.png", 
+            "w": 29, 
+            "x": 843, 
+            "y": 581
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "eye2_cover", 
+            "path": "witch_hut.morph/eye2_cover.png", 
+            "w": 27, 
+            "x": 856, 
+            "y": 392
+          }, 
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "eye2_1", 
+            "path": "witch_hut.morph/eye2_1.png", 
+            "w": 25, 
+            "x": 855, 
+            "y": 383
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "eye2_2", 
+            "path": "witch_hut.morph/eye2_2.png", 
+            "w": 23, 
+            "x": 858, 
+            "y": 377
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "eye3_1", 
+            "path": "witch_hut.morph/eye3_1.png", 
+            "w": 34, 
+            "x": 1063, 
+            "y": 207
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "eye3_2", 
+            "path": "witch_hut.morph/eye3_2.png", 
+            "w": 29, 
+            "x": 1063, 
+            "y": 200
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "eye4_1", 
+            "path": "witch_hut.morph/eye4_1.png", 
+            "w": 30, 
+            "x": 332, 
+            "y": 394
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "eye4_2", 
+            "path": "witch_hut.morph/eye4_2.png", 
+            "w": 25, 
+            "x": 338, 
+            "y": 389
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "eye5_1", 
+            "path": "witch_hut.morph/eye5_1.png", 
+            "w": 25, 
+            "x": 467, 
+            "y": 338
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "eye5_2", 
+            "path": "witch_hut.morph/eye5_2.png", 
+            "w": 27, 
+            "x": 467, 
+            "y": 332
+          }
+        }
+      ], 
+      "name": "eye"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 5, 
+            "name": "crystal1_cover", 
+            "path": "witch_hut.morph/crystal1_cover.png", 
+            "w": 76, 
+            "x": 442, 
+            "y": 557
+          }, 
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "crystal1_1", 
+            "path": "witch_hut.morph/crystal1_1.png", 
+            "w": 49, 
+            "x": 453, 
+            "y": 578
+          }, 
+          "pic2": {
+            "h": 87, 
+            "layer": 4, 
+            "name": "crystal1_2", 
+            "path": "witch_hut.morph/crystal1_2.png", 
+            "w": 69, 
+            "x": 446, 
+            "y": 565
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "crystal2_cover", 
+            "path": "witch_hut.morph/crystal2_cover.png", 
+            "w": 26, 
+            "x": 500, 
+            "y": 91
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "crystal2_1", 
+            "path": "witch_hut.morph/crystal2_1.png", 
+            "w": 19, 
+            "x": 506, 
+            "y": 76
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "crystal2_2", 
+            "path": "witch_hut.morph/crystal2_2.png", 
+            "w": 43, 
+            "x": 492, 
+            "y": 68
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "crystal3_1", 
+            "path": "witch_hut.morph/crystal3_1.png", 
+            "w": 23, 
+            "x": 438, 
+            "y": 248
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "crystal3_2", 
+            "path": "witch_hut.morph/crystal3_2.png", 
+            "w": 36, 
+            "x": 430, 
+            "y": 247
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "crystal4_1", 
+            "path": "witch_hut.morph/crystal4_1.png", 
+            "w": 28, 
+            "x": 1064, 
+            "y": 243
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "crystal4_2", 
+            "path": "witch_hut.morph/crystal4_2.png", 
+            "w": 46, 
+            "x": 1053, 
+            "y": 240
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "crystal5_1", 
+            "path": "witch_hut.morph/crystal5_1.png", 
+            "w": 36, 
+            "x": 923, 
+            "y": 498
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "crystal5_2", 
+            "path": "witch_hut.morph/crystal5_2.png", 
+            "w": 59, 
+            "x": 909, 
+            "y": 492
+          }
+        }
+      ], 
+      "name": "crystal"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "amanita1_cover", 
+            "path": "witch_hut.morph/amanita1_cover.png", 
+            "w": 49, 
+            "x": 884, 
+            "y": 553
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "amanita1_1", 
+            "path": "witch_hut.morph/amanita1_1.png", 
+            "w": 44, 
+            "x": 893, 
+            "y": 555
+          }, 
+          "pic2": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "amanita1_2", 
+            "path": "witch_hut.morph/amanita1_2.png", 
+            "w": 37, 
+            "x": 896, 
+            "y": 550
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "amanita2_cover", 
+            "path": "witch_hut.morph/amanita2_cover.png", 
+            "w": 36, 
+            "x": 1084, 
+            "y": 188
+          }, 
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "amanita2_1", 
+            "path": "witch_hut.morph/amanita2_1.png", 
+            "w": 29, 
+            "x": 1088, 
+            "y": 189
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "amanita2_2", 
+            "path": "witch_hut.morph/amanita2_2.png", 
+            "w": 25, 
+            "x": 1092, 
+            "y": 185
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "amanita3_1", 
+            "path": "witch_hut.morph/amanita3_1.png", 
+            "w": 68, 
+            "x": 605, 
+            "y": 505
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "amanita3_2", 
+            "path": "witch_hut.morph/amanita3_2.png", 
+            "w": 60, 
+            "x": 616, 
+            "y": 505
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "amanita4_1", 
+            "path": "witch_hut.morph/amanita4_1.png", 
+            "w": 27, 
+            "x": 395, 
+            "y": 99
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "amanita4_2", 
+            "path": "witch_hut.morph/amanita4_2.png", 
+            "w": 23, 
+            "x": 402, 
+            "y": 95
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "amanita5_1", 
+            "path": "witch_hut.morph/amanita5_1.png", 
+            "w": 37, 
+            "x": 631, 
+            "y": 280
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "amanita5_2", 
+            "path": "witch_hut.morph/amanita5_2.png", 
+            "w": 38, 
+            "x": 636, 
+            "y": 277
+          }
+        }
+      ], 
+      "name": "amanita"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "garlic1_cover", 
+            "path": "witch_hut.morph/garlic1_cover.png", 
+            "w": 48, 
+            "x": 596, 
+            "y": 193
+          }, 
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "garlic1_1", 
+            "path": "witch_hut.morph/garlic1_1.png", 
+            "w": 68, 
+            "x": 596, 
+            "y": 189
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "garlic1_2", 
+            "path": "witch_hut.morph/garlic1_2.png", 
+            "w": 75, 
+            "x": 594, 
+            "y": 192
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "garlic2_cover", 
+            "path": "witch_hut.morph/garlic2_cover.png", 
+            "w": 93, 
+            "x": 1038, 
+            "y": 539
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "garlic2_1", 
+            "path": "witch_hut.morph/garlic2_1.png", 
+            "w": 85, 
+            "x": 1046, 
+            "y": 528
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "garlic2_2", 
+            "path": "witch_hut.morph/garlic2_2.png", 
+            "w": 89, 
+            "x": 1041, 
+            "y": 531
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "garlic3_1", 
+            "path": "witch_hut.morph/garlic3_1.png", 
+            "w": 105, 
+            "x": 229, 
+            "y": 618
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "garlic3_2", 
+            "path": "witch_hut.morph/garlic3_2.png", 
+            "w": 99, 
+            "x": 229, 
+            "y": 625
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "garlic4_1", 
+            "path": "witch_hut.morph/garlic4_1.png", 
+            "w": 73, 
+            "x": 984, 
+            "y": 596
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "garlic4_2", 
+            "path": "witch_hut.morph/garlic4_2.png", 
+            "w": 62, 
+            "x": 991, 
+            "y": 598
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "garlic5_1", 
+            "path": "witch_hut.morph/garlic5_1.png", 
+            "w": 91, 
+            "x": 459, 
+            "y": 501
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "garlic5_2", 
+            "path": "witch_hut.morph/garlic5_2.png", 
+            "w": 91, 
+            "x": 458, 
+            "y": 500
+          }
+        }
+      ], 
+      "name": "garlic"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "mortar1_cover", 
+            "path": "witch_hut.morph/mortar1_cover.png", 
+            "w": 39, 
+            "x": 295, 
+            "y": 374
+          }, 
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "mortar1_1", 
+            "path": "witch_hut.morph/mortar1_1.png", 
+            "w": 51, 
+            "x": 290, 
+            "y": 362
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "mortar1_2", 
+            "path": "witch_hut.morph/mortar1_2.png", 
+            "w": 41, 
+            "x": 294, 
+            "y": 386
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "mortar2_cover", 
+            "path": "witch_hut.morph/mortar2_cover.png", 
+            "w": 65, 
+            "x": 498, 
+            "y": 445
+          }, 
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "mortar2_1", 
+            "path": "witch_hut.morph/mortar2_1.png", 
+            "w": 68, 
+            "x": 510, 
+            "y": 411
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "mortar2_2", 
+            "path": "witch_hut.morph/mortar2_2.png", 
+            "w": 56, 
+            "x": 508, 
+            "y": 440
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "mortar3_1", 
+            "path": "witch_hut.morph/mortar3_1.png", 
+            "w": 52, 
+            "x": 978, 
+            "y": 449
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "mortar3_2", 
+            "path": "witch_hut.morph/mortar3_2.png", 
+            "w": 51, 
+            "x": 977, 
+            "y": 469
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "mortar4_1", 
+            "path": "witch_hut.morph/mortar4_1.png", 
+            "w": 48, 
+            "x": 501, 
+            "y": 315
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "mortar4_2", 
+            "path": "witch_hut.morph/mortar4_2.png", 
+            "w": 47, 
+            "x": 506, 
+            "y": 332
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "mortar5_1", 
+            "path": "witch_hut.morph/mortar5_1.png", 
+            "w": 64, 
+            "x": 301, 
+            "y": 510
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "mortar5_2", 
+            "path": "witch_hut.morph/mortar5_2.png", 
+            "w": 59, 
+            "x": 299, 
+            "y": 538
+          }
+        }
+      ], 
+      "name": "mortar"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "mandrake1_1", 
+            "path": "witch_hut.morph/mandrake1_1.png", 
+            "w": 77, 
+            "x": 1175, 
+            "y": 529
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "mandrake1_2", 
+            "path": "witch_hut.morph/mandrake1_2.png", 
+            "w": 59, 
+            "x": 1193, 
+            "y": 532
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "mandrake2_1", 
+            "path": "witch_hut.morph/mandrake2_1.png", 
+            "w": 66, 
+            "x": 662, 
+            "y": 338
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "mandrake2_2", 
+            "path": "witch_hut.morph/mandrake2_2.png", 
+            "w": 44, 
+            "x": 661, 
+            "y": 344
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "mandrake3_cover", 
+            "path": "witch_hut.morph/mandrake3_cover.png", 
+            "w": 30, 
+            "x": 1148, 
+            "y": 178
+          }, 
+          "pic1": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "mandrake3_1", 
+            "path": "witch_hut.morph/mandrake3_1.png", 
+            "w": 37, 
+            "x": 1144, 
+            "y": 117
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "mandrake3_2", 
+            "path": "witch_hut.morph/mandrake3_2.png", 
+            "w": 43, 
+            "x": 1142, 
+            "y": 123
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 5, 
+            "name": "mandrake4_cover", 
+            "path": "witch_hut.morph/mandrake4_cover.png", 
+            "w": 46, 
+            "x": 475, 
+            "y": 153
+          }, 
+          "pic1": {
+            "h": 73, 
+            "layer": 4, 
+            "name": "mandrake4_1", 
+            "path": "witch_hut.morph/mandrake4_1.png", 
+            "w": 39, 
+            "x": 478, 
+            "y": 152
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "mandrake4_2", 
+            "path": "witch_hut.morph/mandrake4_2.png", 
+            "w": 43, 
+            "x": 475, 
+            "y": 157
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "mandrake5_cover", 
+            "path": "witch_hut.morph/mandrake5_cover.png", 
+            "w": 42, 
+            "x": 286, 
+            "y": 39
+          }, 
+          "pic1": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "mandrake5_1", 
+            "path": "witch_hut.morph/mandrake5_1.png", 
+            "w": 40, 
+            "x": 293, 
+            "y": 42
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "mandrake5_2", 
+            "path": "witch_hut.morph/mandrake5_2.png", 
+            "w": 45, 
+            "x": 285, 
+            "y": 40
+          }
+        }
+      ], 
+      "name": "mandrake"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 113, 
+            "layer": 4, 
+            "name": "herb1_1", 
+            "path": "witch_hut.morph/herb1_1.png", 
+            "w": 78, 
+            "x": 973, 
+            "y": 97
+          }, 
+          "pic2": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "herb1_2", 
+            "path": "witch_hut.morph/herb1_2.png", 
+            "w": 53, 
+            "x": 986, 
+            "y": 101
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "herb2_1", 
+            "path": "witch_hut.morph/herb2_1.png", 
+            "w": 66, 
+            "x": 617, 
+            "y": 0
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "herb2_2", 
+            "path": "witch_hut.morph/herb2_2.png", 
+            "w": 47, 
+            "x": 627, 
+            "y": 0
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "herb3_1", 
+            "path": "witch_hut.morph/herb3_1.png", 
+            "w": 66, 
+            "x": 1135, 
+            "y": 291
+          }, 
+          "pic2": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "herb3_2", 
+            "path": "witch_hut.morph/herb3_2.png", 
+            "w": 46, 
+            "x": 1146, 
+            "y": 295
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "herb4_cover", 
+            "path": "witch_hut.morph/herb4_cover.png", 
+            "w": 43, 
+            "x": 852, 
+            "y": 296
+          }, 
+          "pic1": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "herb4_1", 
+            "path": "witch_hut.morph/herb4_1.png", 
+            "w": 53, 
+            "x": 850, 
+            "y": 292
+          }, 
+          "pic2": {
+            "h": 69, 
+            "layer": 4, 
+            "name": "herb4_2", 
+            "path": "witch_hut.morph/herb4_2.png", 
+            "w": 41, 
+            "x": 856, 
+            "y": 295
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "herb5_cover", 
+            "path": "witch_hut.morph/herb5_cover.png", 
+            "w": 35, 
+            "x": 879, 
+            "y": 0
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "herb5_1", 
+            "path": "witch_hut.morph/herb5_1.png", 
+            "w": 57, 
+            "x": 888, 
+            "y": 7
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "herb5_2", 
+            "path": "witch_hut.morph/herb5_2.png", 
+            "w": 38, 
+            "x": 899, 
+            "y": 19
+          }
+        }
+      ], 
+      "name": "herb"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "blood1_1", 
+            "path": "witch_hut.morph/blood1_1.png", 
+            "w": 40, 
+            "x": 772, 
+            "y": 439
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "blood1_2", 
+            "path": "witch_hut.morph/blood1_2.png", 
+            "w": 40, 
+            "x": 772, 
+            "y": 439
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "blood2_1", 
+            "path": "witch_hut.morph/blood2_1.png", 
+            "w": 23, 
+            "x": 483, 
+            "y": 249
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "blood2_2", 
+            "path": "witch_hut.morph/blood2_2.png", 
+            "w": 23, 
+            "x": 483, 
+            "y": 249
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "blood3_1", 
+            "path": "witch_hut.morph/blood3_1.png", 
+            "w": 27, 
+            "x": 1167, 
+            "y": 244
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "blood3_2", 
+            "path": "witch_hut.morph/blood3_2.png", 
+            "w": 27, 
+            "x": 1167, 
+            "y": 244
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "blood4_1", 
+            "path": "witch_hut.morph/blood4_1.png", 
+            "w": 34, 
+            "x": 400, 
+            "y": 354
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "blood4_2", 
+            "path": "witch_hut.morph/blood4_2.png", 
+            "w": 34, 
+            "x": 400, 
+            "y": 354
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "blood5_cover", 
+            "path": "witch_hut.morph/blood5_cover.png", 
+            "w": 34, 
+            "x": 868, 
+            "y": 257
+          }, 
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "blood5_1", 
+            "path": "witch_hut.morph/blood5_1.png", 
+            "w": 34, 
+            "x": 875, 
+            "y": 248
+          }, 
+          "pic2": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "blood5_2", 
+            "path": "witch_hut.morph/blood5_2.png", 
+            "w": 34, 
+            "x": 875, 
+            "y": 248
+          }
+        }
+      ], 
+      "name": "blood"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 117, 
+            "layer": 5, 
+            "name": "rake1_cover", 
+            "path": "witch_hut.morph/rake1_cover.png", 
+            "w": 17, 
+            "x": 333, 
+            "y": 211
+          }, 
+          "pic1": {
+            "h": 145, 
+            "layer": 4, 
+            "name": "rake1_1", 
+            "path": "witch_hut.morph/rake1_1.png", 
+            "w": 42, 
+            "x": 308, 
+            "y": 187
+          }, 
+          "pic2": {
+            "h": 108, 
+            "layer": 4, 
+            "name": "rake1_2", 
+            "path": "witch_hut.morph/rake1_2.png", 
+            "w": 33, 
+            "x": 316, 
+            "y": 189
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 97, 
+            "layer": 4, 
+            "name": "rake2_1", 
+            "path": "witch_hut.morph/rake2_1.png", 
+            "w": 28, 
+            "x": 1088, 
+            "y": 290
+          }, 
+          "pic2": {
+            "h": 93, 
+            "layer": 4, 
+            "name": "rake2_2", 
+            "path": "witch_hut.morph/rake2_2.png", 
+            "w": 28, 
+            "x": 1091, 
+            "y": 291
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 87, 
+            "layer": 4, 
+            "name": "rake3_1", 
+            "path": "witch_hut.morph/rake3_1.png", 
+            "w": 25, 
+            "x": 744, 
+            "y": 208
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "rake3_2", 
+            "path": "witch_hut.morph/rake3_2.png", 
+            "w": 26, 
+            "x": 748, 
+            "y": 211
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "rake4_1", 
+            "path": "witch_hut.morph/rake4_1.png", 
+            "w": 146, 
+            "x": 877, 
+            "y": 627
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "rake4_2", 
+            "path": "witch_hut.morph/rake4_2.png", 
+            "w": 114, 
+            "x": 889, 
+            "y": 619
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 91, 
+            "layer": 4, 
+            "name": "rake5_1", 
+            "path": "witch_hut.morph/rake5_1.png", 
+            "w": 40, 
+            "x": 946, 
+            "y": 380
+          }, 
+          "pic2": {
+            "h": 85, 
+            "layer": 4, 
+            "name": "rake5_2", 
+            "path": "witch_hut.morph/rake5_2.png", 
+            "w": 37, 
+            "x": 956, 
+            "y": 385
+          }
+        }
+      ], 
+      "name": "rake"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "rat1_cover", 
+            "path": "witch_hut.morph/rat1_cover.png", 
+            "w": 97, 
+            "x": 1065, 
+            "y": 83
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "rat1_1", 
+            "path": "witch_hut.morph/rat1_1.png", 
+            "w": 76, 
+            "x": 1069, 
+            "y": 58
+          }, 
+          "pic2": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "rat1_2", 
+            "path": "witch_hut.morph/rat1_2.png", 
+            "w": 72, 
+            "x": 1090, 
+            "y": 41
+          }
+        }, 
+        {
+          "cover": {
+            "h": 62, 
+            "layer": 5, 
+            "name": "rat2_cover", 
+            "path": "witch_hut.morph/rat2_cover.png", 
+            "w": 79, 
+            "x": 634, 
+            "y": 601
+          }, 
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "rat2_1", 
+            "path": "witch_hut.morph/rat2_1.png", 
+            "w": 95, 
+            "x": 614, 
+            "y": 612
+          }, 
+          "pic2": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "rat2_2", 
+            "path": "witch_hut.morph/rat2_2.png", 
+            "w": 71, 
+            "x": 620, 
+            "y": 602
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "rat3_1", 
+            "path": "witch_hut.morph/rat3_1.png", 
+            "w": 68, 
+            "x": 229, 
+            "y": 546
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "rat3_2", 
+            "path": "witch_hut.morph/rat3_2.png", 
+            "w": 60, 
+            "x": 230, 
+            "y": 536
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "rat4_1", 
+            "path": "witch_hut.morph/rat4_1.png", 
+            "w": 94, 
+            "x": 1031, 
+            "y": 491
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "rat4_2", 
+            "path": "witch_hut.morph/rat4_2.png", 
+            "w": 56, 
+            "x": 1045, 
+            "y": 482
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "rat5_1", 
+            "path": "witch_hut.morph/rat5_1.png", 
+            "w": 53, 
+            "x": 686, 
+            "y": 332
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "rat5_2", 
+            "path": "witch_hut.morph/rat5_2.png", 
+            "w": 49, 
+            "x": 694, 
+            "y": 324
+          }
+        }
+      ], 
+      "name": "rat"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "thirteen1_cover", 
+            "path": "witch_hut.morph/thirteen1_cover.png", 
+            "w": 37, 
+            "x": 271, 
+            "y": 212
+          }, 
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "thirteen1_1", 
+            "path": "witch_hut.morph/thirteen1_1.png", 
+            "w": 44, 
+            "x": 270, 
+            "y": 208
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "thirteen1_2", 
+            "path": "witch_hut.morph/thirteen1_2.png", 
+            "w": 42, 
+            "x": 273, 
+            "y": 209
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "thirteen2_cover", 
+            "path": "witch_hut.morph/thirteen2_cover.png", 
+            "w": 32, 
+            "x": 1207, 
+            "y": 77
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "thirteen2_1", 
+            "path": "witch_hut.morph/thirteen2_1.png", 
+            "w": 39, 
+            "x": 1204, 
+            "y": 61
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "thirteen2_2", 
+            "path": "witch_hut.morph/thirteen2_2.png", 
+            "w": 33, 
+            "x": 1206, 
+            "y": 62
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "thirteen3_1", 
+            "path": "witch_hut.morph/thirteen3_1.png", 
+            "w": 35, 
+            "x": 863, 
+            "y": 616
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "thirteen3_2", 
+            "path": "witch_hut.morph/thirteen3_2.png", 
+            "w": 40, 
+            "x": 857, 
+            "y": 616
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "thirteen4_1", 
+            "path": "witch_hut.morph/thirteen4_1.png", 
+            "w": 39, 
+            "x": 692, 
+            "y": 250
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "thirteen4_2", 
+            "path": "witch_hut.morph/thirteen4_2.png", 
+            "w": 50, 
+            "x": 679, 
+            "y": 250
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "thirteen5_1", 
+            "path": "witch_hut.morph/thirteen5_1.png", 
+            "w": 39, 
+            "x": 528, 
+            "y": 3
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "thirteen5_2", 
+            "path": "witch_hut.morph/thirteen5_2.png", 
+            "w": 65, 
+            "x": 504, 
+            "y": 4
+          }
+        }
+      ], 
+      "name": "thirteen"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "tambourine1_cover", 
+            "path": "witch_hut.morph/tambourine1_cover.png", 
+            "w": 64, 
+            "x": 778, 
+            "y": 585
+          }, 
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "tambourine1_1", 
+            "path": "witch_hut.morph/tambourine1_1.png", 
+            "w": 58, 
+            "x": 780, 
+            "y": 584
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "tambourine1_2", 
+            "path": "witch_hut.morph/tambourine1_2.png", 
+            "w": 56, 
+            "x": 780, 
+            "y": 594
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 5, 
+            "name": "tambourine2_cover", 
+            "path": "witch_hut.morph/tambourine2_cover.png", 
+            "w": 56, 
+            "x": 840, 
+            "y": 29
+          }, 
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "tambourine2_1", 
+            "path": "witch_hut.morph/tambourine2_1.png", 
+            "w": 50, 
+            "x": 843, 
+            "y": 31
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "tambourine2_2", 
+            "path": "witch_hut.morph/tambourine2_2.png", 
+            "w": 49, 
+            "x": 845, 
+            "y": 42
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "tambourine3_1", 
+            "path": "witch_hut.morph/tambourine3_1.png", 
+            "w": 57, 
+            "x": 338, 
+            "y": 80
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "tambourine3_2", 
+            "path": "witch_hut.morph/tambourine3_2.png", 
+            "w": 48, 
+            "x": 343, 
+            "y": 89
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "tambourine4_cover", 
+            "path": "witch_hut.morph/tambourine4_cover.png", 
+            "w": 28, 
+            "x": 421, 
+            "y": 428
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "tambourine4_1", 
+            "path": "witch_hut.morph/tambourine4_1.png", 
+            "w": 63, 
+            "x": 419, 
+            "y": 424
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "tambourine4_2", 
+            "path": "witch_hut.morph/tambourine4_2.png", 
+            "w": 56, 
+            "x": 421, 
+            "y": 439
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "tambourine5_cover", 
+            "path": "witch_hut.morph/tambourine5_cover.png", 
+            "w": 46, 
+            "x": 711, 
+            "y": 212
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "tambourine5_1", 
+            "path": "witch_hut.morph/tambourine5_1.png", 
+            "w": 55, 
+            "x": 708, 
+            "y": 171
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "tambourine5_2", 
+            "path": "witch_hut.morph/tambourine5_2.png", 
+            "w": 43, 
+            "x": 714, 
+            "y": 184
+          }
+        }
+      ], 
+      "name": "tambourine"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 8, 
+            "name": "pumpkin1_cover", 
+            "path": "witch_hut.morph/pumpkin1_cover.png", 
+            "w": 58, 
+            "x": 774, 
+            "y": 98
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 7, 
+            "name": "pumpkin1_1", 
+            "path": "witch_hut.morph/pumpkin1_1.png", 
+            "w": 70, 
+            "x": 768, 
+            "y": 73
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 7, 
+            "name": "pumpkin1_2", 
+            "path": "witch_hut.morph/pumpkin1_2.png", 
+            "w": 38, 
+            "x": 781, 
+            "y": 70
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 77, 
+            "layer": 7, 
+            "name": "pumpkin2_1", 
+            "path": "witch_hut.morph/pumpkin2_1.png", 
+            "w": 86, 
+            "x": 637, 
+            "y": 430
+          }, 
+          "pic2": {
+            "h": 85, 
+            "layer": 7, 
+            "name": "pumpkin2_2", 
+            "path": "witch_hut.morph/pumpkin2_2.png", 
+            "w": 58, 
+            "x": 652, 
+            "y": 424
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 8, 
+            "name": "pumpkin3_cover", 
+            "path": "witch_hut.morph/pumpkin3_cover.png", 
+            "w": 59, 
+            "x": 264, 
+            "y": 493
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 7, 
+            "name": "pumpkin3_1", 
+            "path": "witch_hut.morph/pumpkin3_1.png", 
+            "w": 80, 
+            "x": 251, 
+            "y": 486
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 7, 
+            "name": "pumpkin3_2", 
+            "path": "witch_hut.morph/pumpkin3_2.png", 
+            "w": 37, 
+            "x": 277, 
+            "y": 486
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 7, 
+            "name": "pumpkin4_1", 
+            "path": "witch_hut.morph/pumpkin4_1.png", 
+            "w": 59, 
+            "x": 897, 
+            "y": 253
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 7, 
+            "name": "pumpkin4_2", 
+            "path": "witch_hut.morph/pumpkin4_2.png", 
+            "w": 38, 
+            "x": 906, 
+            "y": 255
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 7, 
+            "name": "pumpkin5_1", 
+            "path": "witch_hut.morph/pumpkin5_1.png", 
+            "w": 54, 
+            "x": 962, 
+            "y": 515
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 7, 
+            "name": "pumpkin5_2", 
+            "path": "witch_hut.morph/pumpkin5_2.png", 
+            "w": 44, 
+            "x": 974, 
+            "y": 513
+          }
+        }
+      ], 
+      "name": "pumpkin"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "magic_staff1_cover", 
+            "path": "witch_hut.morph/magic_staff1_cover.png", 
+            "w": 28, 
+            "x": 740, 
+            "y": 427
+          }, 
+          "pic1": {
+            "h": 137, 
+            "layer": 4, 
+            "name": "magic_staff1_1", 
+            "path": "witch_hut.morph/magic_staff1_1.png", 
+            "w": 41, 
+            "x": 729, 
+            "y": 338
+          }, 
+          "pic2": {
+            "h": 145, 
+            "layer": 4, 
+            "name": "magic_staff1_2", 
+            "path": "witch_hut.morph/magic_staff1_2.png", 
+            "w": 45, 
+            "x": 728, 
+            "y": 337
+          }
+        }, 
+        {
+          "cover": {
+            "h": 91, 
+            "layer": 5, 
+            "name": "magic_staff2_cover", 
+            "path": "witch_hut.morph/magic_staff2_cover.png", 
+            "w": 32, 
+            "x": 384, 
+            "y": 379
+          }, 
+          "pic1": {
+            "h": 124, 
+            "layer": 4, 
+            "name": "magic_staff2_1", 
+            "path": "witch_hut.morph/magic_staff2_1.png", 
+            "w": 39, 
+            "x": 373, 
+            "y": 335
+          }, 
+          "pic2": {
+            "h": 137, 
+            "layer": 4, 
+            "name": "magic_staff2_2", 
+            "path": "witch_hut.morph/magic_staff2_2.png", 
+            "w": 48, 
+            "x": 371, 
+            "y": 336
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "magic_staff3_1", 
+            "path": "witch_hut.morph/magic_staff3_1.png", 
+            "w": 167, 
+            "x": 238, 
+            "y": 584
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "magic_staff3_2", 
+            "path": "witch_hut.morph/magic_staff3_2.png", 
+            "w": 175, 
+            "x": 231, 
+            "y": 588
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 124, 
+            "layer": 4, 
+            "name": "magic_staff4_1", 
+            "path": "witch_hut.morph/magic_staff4_1.png", 
+            "w": 97, 
+            "x": 841, 
+            "y": 158
+          }, 
+          "pic2": {
+            "h": 129, 
+            "layer": 4, 
+            "name": "magic_staff4_2", 
+            "path": "witch_hut.morph/magic_staff4_2.png", 
+            "w": 113, 
+            "x": 829, 
+            "y": 154
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 185, 
+            "layer": 4, 
+            "name": "magic_staff5_1", 
+            "path": "witch_hut.morph/magic_staff5_1.png", 
+            "w": 50, 
+            "x": 1022, 
+            "y": 319
+          }, 
+          "pic2": {
+            "h": 178, 
+            "layer": 4, 
+            "name": "magic_staff5_2", 
+            "path": "witch_hut.morph/magic_staff5_2.png", 
+            "w": 69, 
+            "x": 1014, 
+            "y": 324
+          }
+        }
+      ], 
+      "name": "magic_staff"
+    }
+  ], 
+  "part": [
+    {
+      "name": "tambourine_orig", 
+      "path": "witch_hut.part/tambourine_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 74, 
+                "layer": 4, 
+                "name": "tambourine1_1", 
+                "path": "witch_hut.part/tambourine1_1.png", 
+                "w": 62, 
+                "x": 869, 
+                "y": 164
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "tambourine1_2", 
+                "path": "witch_hut.part/tambourine1_2.png", 
+                "w": 50, 
+                "x": 752, 
+                "y": 338
+              }
+            }, 
+            {
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "tambourine1_3", 
+                "path": "witch_hut.part/tambourine1_3.png", 
+                "w": 65, 
+                "x": 362, 
+                "y": 9
+              }
+            }, 
+            {
+              "cover": {
+                "h": 64, 
+                "layer": 5, 
+                "name": "tambourine1_4_cover", 
+                "path": "witch_hut.part/tambourine1_4_cover.png", 
+                "w": 55, 
+                "x": 1024, 
+                "y": 331
+              }, 
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "tambourine1_4", 
+                "path": "witch_hut.part/tambourine1_4.png", 
+                "w": 54, 
+                "x": 1027, 
+                "y": 333
+              }
+            }, 
+            {
+              "cover": {
+                "h": 68, 
+                "layer": 5, 
+                "name": "tambourine1_5_cover", 
+                "path": "witch_hut.part/tambourine1_5_cover.png", 
+                "w": 59, 
+                "x": 232, 
+                "y": 328
+              }, 
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "tambourine1_5", 
+                "path": "witch_hut.part/tambourine1_5.png", 
+                "w": 54, 
+                "x": 234, 
+                "y": 331
+              }
+            }
+          ], 
+          "name": "tambourine1", 
+          "path": "witch_hut.part/tambourine1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "tambourine2_1", 
+                "path": "witch_hut.part/tambourine2_1.png", 
+                "w": 72, 
+                "x": 471, 
+                "y": 365
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "tambourine2_2_cover", 
+                "path": "witch_hut.part/tambourine2_2_cover.png", 
+                "w": 32, 
+                "x": 310, 
+                "y": 33
+              }, 
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "tambourine2_2", 
+                "path": "witch_hut.part/tambourine2_2.png", 
+                "w": 34, 
+                "x": 310, 
+                "y": 34
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "tambourine2_3_cover", 
+                "path": "witch_hut.part/tambourine2_3_cover.png", 
+                "w": 33, 
+                "x": 1009, 
+                "y": 173
+              }, 
+              "pic": {
+                "h": 74, 
+                "layer": 4, 
+                "name": "tambourine2_3", 
+                "path": "witch_hut.part/tambourine2_3.png", 
+                "w": 36, 
+                "x": 1010, 
+                "y": 173
+              }
+            }, 
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "tambourine2_4", 
+                "path": "witch_hut.part/tambourine2_4.png", 
+                "w": 35, 
+                "x": 643, 
+                "y": -1
+              }
+            }, 
+            {
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "tambourine2_5", 
+                "path": "witch_hut.part/tambourine2_5.png", 
+                "w": 34, 
+                "x": 1131, 
+                "y": 298
+              }
+            }
+          ], 
+          "name": "tambourine2", 
+          "path": "witch_hut.part/tambourine2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "tambourine3_1", 
+                "path": "witch_hut.part/tambourine3_1.png", 
+                "w": 108, 
+                "x": 1076, 
+                "y": 569
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "tambourine3_2", 
+                "path": "witch_hut.part/tambourine3_2.png", 
+                "w": 71, 
+                "x": 796, 
+                "y": 109
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "tambourine3_3", 
+                "path": "witch_hut.part/tambourine3_3.png", 
+                "w": 106, 
+                "x": 1138, 
+                "y": 79
+              }
+            }, 
+            {
+              "cover": {
+                "h": 80, 
+                "layer": 5, 
+                "name": "tambourine3_4_cover", 
+                "path": "witch_hut.part/tambourine3_4_cover.png", 
+                "w": 36, 
+                "x": 228, 
+                "y": 143
+              }, 
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "tambourine3_4", 
+                "path": "witch_hut.part/tambourine3_4.png", 
+                "w": 23, 
+                "x": 234, 
+                "y": 176
+              }
+            }, 
+            {
+              "cover": {
+                "h": 80, 
+                "layer": 5, 
+                "name": "tambourine3_5_cover", 
+                "path": "witch_hut.part/tambourine3_5_cover.png", 
+                "w": 34, 
+                "x": 821, 
+                "y": 317
+              }, 
+              "pic": {
+                "h": 85, 
+                "layer": 4, 
+                "name": "tambourine3_5", 
+                "path": "witch_hut.part/tambourine3_5.png", 
+                "w": 30, 
+                "x": 824, 
+                "y": 318
+              }
+            }
+          ], 
+          "name": "tambourine3", 
+          "path": "witch_hut.part/tambourine3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "tambourine4_1", 
+                "path": "witch_hut.part/tambourine4_1.png", 
+                "w": 72, 
+                "x": 1062, 
+                "y": 262
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "tambourine4_2", 
+                "path": "witch_hut.part/tambourine4_2.png", 
+                "w": 62, 
+                "x": 444, 
+                "y": 225
+              }
+            }, 
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "tambourine4_3", 
+                "path": "witch_hut.part/tambourine4_3.png", 
+                "w": 59, 
+                "x": 662, 
+                "y": 433
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "tambourine4_4_cover", 
+                "path": "witch_hut.part/tambourine4_4_cover.png", 
+                "w": 32, 
+                "x": 598, 
+                "y": 0
+              }, 
+              "pic": {
+                "h": 84, 
+                "layer": 4, 
+                "name": "tambourine4_4", 
+                "path": "witch_hut.part/tambourine4_4.png", 
+                "w": 28, 
+                "x": 600, 
+                "y": 3
+              }
+            }, 
+            {
+              "cover": {
+                "h": 72, 
+                "layer": 5, 
+                "name": "tambourine4_5_cover", 
+                "path": "witch_hut.part/tambourine4_5_cover.png", 
+                "w": 33, 
+                "x": 572, 
+                "y": 417
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "tambourine4_5", 
+                "path": "witch_hut.part/tambourine4_5.png", 
+                "w": 22, 
+                "x": 584, 
+                "y": 405
+              }
+            }
+          ], 
+          "name": "tambourine4", 
+          "path": "witch_hut.part/tambourine4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "tambourine5_1", 
+                "path": "witch_hut.part/tambourine5_1.png", 
+                "w": 62, 
+                "x": 564, 
+                "y": 251
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "tambourine5_2", 
+                "path": "witch_hut.part/tambourine5_2.png", 
+                "w": 54, 
+                "x": 972, 
+                "y": 370
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "tambourine5_3", 
+                "path": "witch_hut.part/tambourine5_3.png", 
+                "w": 60, 
+                "x": 703, 
+                "y": 121
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "tambourine5_4_cover", 
+                "path": "witch_hut.part/tambourine5_4_cover.png", 
+                "w": 70, 
+                "x": 956, 
+                "y": 2
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "tambourine5_4", 
+                "path": "witch_hut.part/tambourine5_4.png", 
+                "w": 62, 
+                "x": 958, 
+                "y": 6
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "tambourine5_5_cover", 
+                "path": "witch_hut.part/tambourine5_5_cover.png", 
+                "w": 66, 
+                "x": 873, 
+                "y": 301
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "tambourine5_5", 
+                "path": "witch_hut.part/tambourine5_5.png", 
+                "w": 66, 
+                "x": 872, 
+                "y": 302
+              }
+            }
+          ], 
+          "name": "tambourine5", 
+          "path": "witch_hut.part/tambourine5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "book_orig", 
+      "path": "witch_hut.part/book_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "book1_1", 
+                "path": "witch_hut.part/book1_1.png", 
+                "w": 78, 
+                "x": 276, 
+                "y": 616
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "book1_2", 
+                "path": "witch_hut.part/book1_2.png", 
+                "w": 66, 
+                "x": 1143, 
+                "y": 563
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "book1_3", 
+                "path": "witch_hut.part/book1_3.png", 
+                "w": 61, 
+                "x": 783, 
+                "y": 455
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "book1_4_cover", 
+                "path": "witch_hut.part/book1_4_cover.png", 
+                "w": 78, 
+                "x": 785, 
+                "y": 205
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "book1_4", 
+                "path": "witch_hut.part/book1_4.png", 
+                "w": 89, 
+                "x": 771, 
+                "y": 194
+              }
+            }, 
+            {
+              "cover": {
+                "h": 33, 
+                "layer": 5, 
+                "name": "book1_5_cover", 
+                "path": "witch_hut.part/book1_5_cover.png", 
+                "w": 65, 
+                "x": 948, 
+                "y": 84
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "book1_5", 
+                "path": "witch_hut.part/book1_5.png", 
+                "w": 57, 
+                "x": 952, 
+                "y": 64
+              }
+            }
+          ], 
+          "name": "book1", 
+          "path": "witch_hut.part/book1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "book2_1", 
+                "path": "witch_hut.part/book2_1.png", 
+                "w": 58, 
+                "x": 961, 
+                "y": 490
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "book2_2", 
+                "path": "witch_hut.part/book2_2.png", 
+                "w": 40, 
+                "x": 694, 
+                "y": 293
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "book2_3", 
+                "path": "witch_hut.part/book2_3.png", 
+                "w": 35, 
+                "x": 313, 
+                "y": 142
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "book2_4_cover", 
+                "path": "witch_hut.part/book2_4_cover.png", 
+                "w": 52, 
+                "x": 1050, 
+                "y": 0
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "book2_4", 
+                "path": "witch_hut.part/book2_4.png", 
+                "w": 35, 
+                "x": 1056, 
+                "y": 7
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "book2_5_cover", 
+                "path": "witch_hut.part/book2_5_cover.png", 
+                "w": 54, 
+                "x": 738, 
+                "y": 618
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "book2_5", 
+                "path": "witch_hut.part/book2_5.png", 
+                "w": 76, 
+                "x": 741, 
+                "y": 619
+              }
+            }
+          ], 
+          "name": "book2", 
+          "path": "witch_hut.part/book2.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "book3_1_cover", 
+                "path": "witch_hut.part/book3_1_cover.png", 
+                "w": 45, 
+                "x": 412, 
+                "y": 608
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "book3_1", 
+                "path": "witch_hut.part/book3_1.png", 
+                "w": 84, 
+                "x": 374, 
+                "y": 619
+              }
+            }, 
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "book3_2", 
+                "path": "witch_hut.part/book3_2.png", 
+                "w": 52, 
+                "x": 281, 
+                "y": 195
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "book3_3", 
+                "path": "witch_hut.part/book3_3.png", 
+                "w": 79, 
+                "x": 1153, 
+                "y": -1
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "book3_4_cover", 
+                "path": "witch_hut.part/book3_4_cover.png", 
+                "w": 48, 
+                "x": 289, 
+                "y": 426
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "book3_4", 
+                "path": "witch_hut.part/book3_4.png", 
+                "w": 65, 
+                "x": 292, 
+                "y": 430
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "book3_5_cover", 
+                "path": "witch_hut.part/book3_5_cover.png", 
+                "w": 55, 
+                "x": 1125, 
+                "y": 522
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "book3_5", 
+                "path": "witch_hut.part/book3_5.png", 
+                "w": 64, 
+                "x": 1119, 
+                "y": 524
+              }
+            }
+          ], 
+          "name": "book3", 
+          "path": "witch_hut.part/book3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "book4_1", 
+                "path": "witch_hut.part/book4_1.png", 
+                "w": 52, 
+                "x": 691, 
+                "y": 499
+              }
+            }, 
+            {
+              "pic": {
+                "h": 20, 
+                "layer": 4, 
+                "name": "book4_2", 
+                "path": "witch_hut.part/book4_2.png", 
+                "w": 35, 
+                "x": 946, 
+                "y": 476
+              }
+            }, 
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "book4_3", 
+                "path": "witch_hut.part/book4_3.png", 
+                "w": 40, 
+                "x": 227, 
+                "y": 578
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "book4_4_cover", 
+                "path": "witch_hut.part/book4_4_cover.png", 
+                "w": 32, 
+                "x": 578, 
+                "y": 628
+              }, 
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "book4_4", 
+                "path": "witch_hut.part/book4_4.png", 
+                "w": 31, 
+                "x": 579, 
+                "y": 642
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "book4_5_cover", 
+                "path": "witch_hut.part/book4_5_cover.png", 
+                "w": 20, 
+                "x": 1215, 
+                "y": 495
+              }, 
+              "pic": {
+                "h": 20, 
+                "layer": 4, 
+                "name": "book4_5", 
+                "path": "witch_hut.part/book4_5.png", 
+                "w": 30, 
+                "x": 1200, 
+                "y": 499
+              }
+            }
+          ], 
+          "name": "book4", 
+          "path": "witch_hut.part/book4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "book5_1", 
+                "path": "witch_hut.part/book5_1.png", 
+                "w": 64, 
+                "x": 691, 
+                "y": 523
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "book5_2", 
+                "path": "witch_hut.part/book5_2.png", 
+                "w": 93, 
+                "x": 942, 
+                "y": 556
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "book5_3", 
+                "path": "witch_hut.part/book5_3.png", 
+                "w": 60, 
+                "x": 688, 
+                "y": 348
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "book5_4_cover", 
+                "path": "witch_hut.part/book5_4_cover.png", 
+                "w": 25, 
+                "x": 1208, 
+                "y": 141
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "book5_4", 
+                "path": "witch_hut.part/book5_4.png", 
+                "w": 37, 
+                "x": 1195, 
+                "y": 126
+              }
+            }, 
+            {
+              "cover": {
+                "h": 16, 
+                "layer": 5, 
+                "name": "book5_5_cover", 
+                "path": "witch_hut.part/book5_5_cover.png", 
+                "w": 51, 
+                "x": 358, 
+                "y": 120
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "book5_5", 
+                "path": "witch_hut.part/book5_5.png", 
+                "w": 50, 
+                "x": 356, 
+                "y": 103
+              }
+            }
+          ], 
+          "name": "book5", 
+          "path": "witch_hut.part/book5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "wolf_orig", 
+      "path": "witch_hut.part/wolf_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "wolf1_1", 
+                "path": "witch_hut.part/wolf1_1.png", 
+                "w": 83, 
+                "x": 1041, 
+                "y": 531
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "wolf1_2", 
+                "path": "witch_hut.part/wolf1_2.png", 
+                "w": 77, 
+                "x": 465, 
+                "y": 433
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "wolf1_3", 
+                "path": "witch_hut.part/wolf1_3.png", 
+                "w": 65, 
+                "x": 299, 
+                "y": 6
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "wolf1_4_cover", 
+                "path": "witch_hut.part/wolf1_4_cover.png", 
+                "w": 18, 
+                "x": 1234, 
+                "y": 582
+              }, 
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "wolf1_4", 
+                "path": "witch_hut.part/wolf1_4.png", 
+                "w": 54, 
+                "x": 1198, 
+                "y": 592
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "wolf1_5_cover", 
+                "path": "witch_hut.part/wolf1_5_cover.png", 
+                "w": 29, 
+                "x": 850, 
+                "y": 445
+              }, 
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "wolf1_5", 
+                "path": "witch_hut.part/wolf1_5.png", 
+                "w": 45, 
+                "x": 834, 
+                "y": 446
+              }
+            }
+          ], 
+          "name": "wolf1", 
+          "path": "witch_hut.part/wolf1.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "wolf2_1_cover", 
+                "path": "witch_hut.part/wolf2_1_cover.png", 
+                "w": 23, 
+                "x": 829, 
+                "y": 521
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "wolf2_1", 
+                "path": "witch_hut.part/wolf2_1.png", 
+                "w": 65, 
+                "x": 824, 
+                "y": 486
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "wolf2_2", 
+                "path": "witch_hut.part/wolf2_2.png", 
+                "w": 87, 
+                "x": 1171, 
+                "y": 624
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "wolf2_3", 
+                "path": "witch_hut.part/wolf2_3.png", 
+                "w": 72, 
+                "x": 518, 
+                "y": 514
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "wolf2_4_cover", 
+                "path": "witch_hut.part/wolf2_4_cover.png", 
+                "w": 86, 
+                "x": 616, 
+                "y": 611
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "wolf2_4", 
+                "path": "witch_hut.part/wolf2_4.png", 
+                "w": 102, 
+                "x": 601, 
+                "y": 617
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "wolf2_5_cover", 
+                "path": "witch_hut.part/wolf2_5_cover.png", 
+                "w": 24, 
+                "x": 341, 
+                "y": 519
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "wolf2_5", 
+                "path": "witch_hut.part/wolf2_5.png", 
+                "w": 52, 
+                "x": 312, 
+                "y": 518
+              }
+            }
+          ], 
+          "name": "wolf2", 
+          "path": "witch_hut.part/wolf2.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 16, 
+                "layer": 5, 
+                "name": "wolf3_1_cover", 
+                "path": "witch_hut.part/wolf3_1_cover.png", 
+                "w": 50, 
+                "x": 827, 
+                "y": 97
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "wolf3_1", 
+                "path": "witch_hut.part/wolf3_1.png", 
+                "w": 59, 
+                "x": 828, 
+                "y": 70
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "wolf3_2", 
+                "path": "witch_hut.part/wolf3_2.png", 
+                "w": 55, 
+                "x": 1162, 
+                "y": 259
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "wolf3_3", 
+                "path": "witch_hut.part/wolf3_3.png", 
+                "w": 61, 
+                "x": 623, 
+                "y": 285
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "wolf3_4_cover", 
+                "path": "witch_hut.part/wolf3_4_cover.png", 
+                "w": 45, 
+                "x": 419, 
+                "y": 535
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "wolf3_4", 
+                "path": "witch_hut.part/wolf3_4.png", 
+                "w": 57, 
+                "x": 398, 
+                "y": 538
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "wolf3_5_cover", 
+                "path": "witch_hut.part/wolf3_5_cover.png", 
+                "w": 56, 
+                "x": 415, 
+                "y": 79
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "wolf3_5", 
+                "path": "witch_hut.part/wolf3_5.png", 
+                "w": 60, 
+                "x": 407, 
+                "y": 90
+              }
+            }
+          ], 
+          "name": "wolf3", 
+          "path": "witch_hut.part/wolf3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "wolf4_1", 
+                "path": "witch_hut.part/wolf4_1.png", 
+                "w": 43, 
+                "x": 749, 
+                "y": 433
+              }
+            }, 
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "wolf4_2", 
+                "path": "witch_hut.part/wolf4_2.png", 
+                "w": 50, 
+                "x": 356, 
+                "y": 420
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "wolf4_3", 
+                "path": "witch_hut.part/wolf4_3.png", 
+                "w": 30, 
+                "x": 452, 
+                "y": 158
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "wolf4_4_cover", 
+                "path": "witch_hut.part/wolf4_4_cover.png", 
+                "w": 64, 
+                "x": 1072, 
+                "y": 439
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "wolf4_4", 
+                "path": "witch_hut.part/wolf4_4.png", 
+                "w": 63, 
+                "x": 1073, 
+                "y": 441
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "wolf4_5_cover", 
+                "path": "witch_hut.part/wolf4_5_cover.png", 
+                "w": 42, 
+                "x": 900, 
+                "y": 395
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "wolf4_5", 
+                "path": "witch_hut.part/wolf4_5.png", 
+                "w": 38, 
+                "x": 886, 
+                "y": 365
+              }
+            }
+          ], 
+          "name": "wolf4", 
+          "path": "witch_hut.part/wolf4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 87, 
+                "layer": 4, 
+                "name": "wolf5_1", 
+                "path": "witch_hut.part/wolf5_1.png", 
+                "w": 100, 
+                "x": 237, 
+                "y": 543
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "wolf5_2_cover", 
+                "path": "witch_hut.part/wolf5_2_cover.png", 
+                "w": 82, 
+                "x": 480, 
+                "y": 84
+              }, 
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "wolf5_2", 
+                "path": "witch_hut.part/wolf5_2.png", 
+                "w": 102, 
+                "x": 482, 
+                "y": 56
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "wolf5_3_cover", 
+                "path": "witch_hut.part/wolf5_3_cover.png", 
+                "w": 80, 
+                "x": 1160, 
+                "y": 77
+              }, 
+              "pic": {
+                "h": 85, 
+                "layer": 4, 
+                "name": "wolf5_3", 
+                "path": "witch_hut.part/wolf5_3.png", 
+                "w": 68, 
+                "x": 1163, 
+                "y": 39
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "wolf5_4_cover", 
+                "path": "witch_hut.part/wolf5_4_cover.png", 
+                "w": 38, 
+                "x": 228, 
+                "y": 29
+              }, 
+              "pic": {
+                "h": 89, 
+                "layer": 4, 
+                "name": "wolf5_4", 
+                "path": "witch_hut.part/wolf5_4.png", 
+                "w": 57, 
+                "x": 228, 
+                "y": 30
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "wolf5_5_cover", 
+                "path": "witch_hut.part/wolf5_5_cover.png", 
+                "w": 43, 
+                "x": 622, 
+                "y": 447
+              }, 
+              "pic": {
+                "h": 89, 
+                "layer": 4, 
+                "name": "wolf5_5", 
+                "path": "witch_hut.part/wolf5_5.png", 
+                "w": 58, 
+                "x": 625, 
+                "y": 406
+              }
+            }
+          ], 
+          "name": "wolf5", 
+          "path": "witch_hut.part/wolf5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "poison_orig", 
+      "path": "witch_hut.part/poison_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "poison1_1", 
+                "path": "witch_hut.part/poison1_1.png", 
+                "w": 57, 
+                "x": 228, 
+                "y": 621
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "poison1_2_cover", 
+                "path": "witch_hut.part/poison1_2_cover.png", 
+                "w": 38, 
+                "x": 819, 
+                "y": 594
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "poison1_2", 
+                "path": "witch_hut.part/poison1_2.png", 
+                "w": 75, 
+                "x": 777, 
+                "y": 597
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "poison1_3", 
+                "path": "witch_hut.part/poison1_3.png", 
+                "w": 58, 
+                "x": 1036, 
+                "y": 489
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "poison1_4", 
+                "path": "witch_hut.part/poison1_4.png", 
+                "w": 49, 
+                "x": 478, 
+                "y": 500
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "poison1_5_cover", 
+                "path": "witch_hut.part/poison1_5_cover.png", 
+                "w": 52, 
+                "x": 553, 
+                "y": 181
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "poison1_5", 
+                "path": "witch_hut.part/poison1_5.png", 
+                "w": 52, 
+                "x": 552, 
+                "y": 182
+              }
+            }
+          ], 
+          "name": "poison1", 
+          "path": "witch_hut.part/poison1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "poison2_1", 
+                "path": "witch_hut.part/poison2_1.png", 
+                "w": 40, 
+                "x": 251, 
+                "y": 1
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "poison2_2", 
+                "path": "witch_hut.part/poison2_2.png", 
+                "w": 32, 
+                "x": 823, 
+                "y": 264
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "poison2_3", 
+                "path": "witch_hut.part/poison2_3.png", 
+                "w": 42, 
+                "x": 1203, 
+                "y": 308
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "poison2_4_cover", 
+                "path": "witch_hut.part/poison2_4_cover.png", 
+                "w": 40, 
+                "x": 714, 
+                "y": 186
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "poison2_4", 
+                "path": "witch_hut.part/poison2_4.png", 
+                "w": 39, 
+                "x": 713, 
+                "y": 187
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "poison2_5_cover", 
+                "path": "witch_hut.part/poison2_5_cover.png", 
+                "w": 19, 
+                "x": 446, 
+                "y": 446
+              }, 
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "poison2_5", 
+                "path": "witch_hut.part/poison2_5.png", 
+                "w": 27, 
+                "x": 433, 
+                "y": 447
+              }
+            }
+          ], 
+          "name": "poison2", 
+          "path": "witch_hut.part/poison2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "poison3_1", 
+                "path": "witch_hut.part/poison3_1.png", 
+                "w": 42, 
+                "x": 250, 
+                "y": 397
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "poison3_2", 
+                "path": "witch_hut.part/poison3_2.png", 
+                "w": 42, 
+                "x": 899, 
+                "y": 264
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "poison3_3", 
+                "path": "witch_hut.part/poison3_3.png", 
+                "w": 42, 
+                "x": 1151, 
+                "y": 144
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "poison3_4_cover", 
+                "path": "witch_hut.part/poison3_4_cover.png", 
+                "w": 47, 
+                "x": 452, 
+                "y": 593
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "poison3_4", 
+                "path": "witch_hut.part/poison3_4.png", 
+                "w": 57, 
+                "x": 451, 
+                "y": 595
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "poison3_5_cover", 
+                "path": "witch_hut.part/poison3_5_cover.png", 
+                "w": 36, 
+                "x": 1124, 
+                "y": 499
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "poison3_5", 
+                "path": "witch_hut.part/poison3_5.png", 
+                "w": 57, 
+                "x": 1112, 
+                "y": 484
+              }
+            }
+          ], 
+          "name": "poison3", 
+          "path": "witch_hut.part/poison3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "poison4_1", 
+                "path": "witch_hut.part/poison4_1.png", 
+                "w": 53, 
+                "x": 637, 
+                "y": 495
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "poison4_2", 
+                "path": "witch_hut.part/poison4_2.png", 
+                "w": 43, 
+                "x": 950, 
+                "y": 262
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "poison4_3", 
+                "path": "witch_hut.part/poison4_3.png", 
+                "w": 39, 
+                "x": 582, 
+                "y": 78
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "poison4_4_cover", 
+                "path": "witch_hut.part/poison4_4_cover.png", 
+                "w": 39, 
+                "x": 381, 
+                "y": 375
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "poison4_4", 
+                "path": "witch_hut.part/poison4_4.png", 
+                "w": 54, 
+                "x": 371, 
+                "y": 357
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "poison4_5_cover", 
+                "path": "witch_hut.part/poison4_5_cover.png", 
+                "w": 29, 
+                "x": 1215, 
+                "y": 537
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "poison4_5", 
+                "path": "witch_hut.part/poison4_5.png", 
+                "w": 53, 
+                "x": 1190, 
+                "y": 521
+              }
+            }
+          ], 
+          "name": "poison4", 
+          "path": "witch_hut.part/poison4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "poison5_1", 
+                "path": "witch_hut.part/poison5_1.png", 
+                "w": 33, 
+                "x": 892, 
+                "y": 566
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "poison5_2", 
+                "path": "witch_hut.part/poison5_2.png", 
+                "w": 33, 
+                "x": 501, 
+                "y": 325
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "poison5_3", 
+                "path": "witch_hut.part/poison5_3.png", 
+                "w": 57, 
+                "x": 330, 
+                "y": 597
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "poison5_4_cover", 
+                "path": "witch_hut.part/poison5_4_cover.png", 
+                "w": 56, 
+                "x": 1028, 
+                "y": 57
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "poison5_4", 
+                "path": "witch_hut.part/poison5_4.png", 
+                "w": 59, 
+                "x": 1029, 
+                "y": 55
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "poison5_5_cover", 
+                "path": "witch_hut.part/poison5_5_cover.png", 
+                "w": 24, 
+                "x": 917, 
+                "y": 434
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "poison5_5", 
+                "path": "witch_hut.part/poison5_5.png", 
+                "w": 44, 
+                "x": 920, 
+                "y": 434
+              }
+            }
+          ], 
+          "name": "poison5", 
+          "path": "witch_hut.part/poison5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "clock_orig", 
+      "path": "witch_hut.part/clock_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "clock1_1", 
+                "path": "witch_hut.part/clock1_1.png", 
+                "w": 48, 
+                "x": 686, 
+                "y": 230
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "clock1_2", 
+                "path": "witch_hut.part/clock1_2.png", 
+                "w": 43, 
+                "x": 931, 
+                "y": 196
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "clock1_3", 
+                "path": "witch_hut.part/clock1_3.png", 
+                "w": 48, 
+                "x": 252, 
+                "y": 137
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "clock1_4_cover", 
+                "path": "witch_hut.part/clock1_4_cover.png", 
+                "w": 49, 
+                "x": 882, 
+                "y": 605
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "clock1_4", 
+                "path": "witch_hut.part/clock1_4.png", 
+                "w": 77, 
+                "x": 889, 
+                "y": 607
+              }
+            }, 
+            {
+              "cover": {
+                "h": 54, 
+                "layer": 5, 
+                "name": "clock1_5_cover", 
+                "path": "witch_hut.part/clock1_5_cover.png", 
+                "w": 46, 
+                "x": 1164, 
+                "y": 341
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "clock1_5", 
+                "path": "witch_hut.part/clock1_5.png", 
+                "w": 44, 
+                "x": 1167, 
+                "y": 342
+              }
+            }
+          ], 
+          "name": "clock1", 
+          "path": "witch_hut.part/clock1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "clock2_1", 
+                "path": "witch_hut.part/clock2_1.png", 
+                "w": 69, 
+                "x": 867, 
+                "y": 345
+              }
+            }, 
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "clock2_2", 
+                "path": "witch_hut.part/clock2_2.png", 
+                "w": 100, 
+                "x": 493, 
+                "y": 0
+              }
+            }, 
+            {
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "clock2_3", 
+                "path": "witch_hut.part/clock2_3.png", 
+                "w": 65, 
+                "x": 569, 
+                "y": 524
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "clock2_4_cover", 
+                "path": "witch_hut.part/clock2_4_cover.png", 
+                "w": 18, 
+                "x": 1112, 
+                "y": 84
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "clock2_4", 
+                "path": "witch_hut.part/clock2_4.png", 
+                "w": 60, 
+                "x": 1107, 
+                "y": 57
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "clock2_5_cover", 
+                "path": "witch_hut.part/clock2_5_cover.png", 
+                "w": 19, 
+                "x": 464, 
+                "y": 354
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "clock2_5", 
+                "path": "witch_hut.part/clock2_5.png", 
+                "w": 54, 
+                "x": 428, 
+                "y": 334
+              }
+            }
+          ], 
+          "name": "clock2", 
+          "path": "witch_hut.part/clock2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "clock3_1", 
+                "path": "witch_hut.part/clock3_1.png", 
+                "w": 43, 
+                "x": 867, 
+                "y": 407
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "clock3_2", 
+                "path": "witch_hut.part/clock3_2.png", 
+                "w": 54, 
+                "x": 843, 
+                "y": 603
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "clock3_3", 
+                "path": "witch_hut.part/clock3_3.png", 
+                "w": 33, 
+                "x": 466, 
+                "y": 401
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "clock3_4_cover", 
+                "path": "witch_hut.part/clock3_4_cover.png", 
+                "w": 32, 
+                "x": 1143, 
+                "y": 442
+              }, 
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "clock3_4", 
+                "path": "witch_hut.part/clock3_4.png", 
+                "w": 34, 
+                "x": 1142, 
+                "y": 437
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "clock3_5_cover", 
+                "path": "witch_hut.part/clock3_5_cover.png", 
+                "w": 38, 
+                "x": 333, 
+                "y": 369
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "clock3_5", 
+                "path": "witch_hut.part/clock3_5.png", 
+                "w": 34, 
+                "x": 337, 
+                "y": 370
+              }
+            }
+          ], 
+          "name": "clock3", 
+          "path": "witch_hut.part/clock3.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 73, 
+                "layer": 5, 
+                "name": "clock4_1_cover", 
+                "path": "witch_hut.part/clock4_1_cover.png", 
+                "w": 50, 
+                "x": 527, 
+                "y": 555
+              }, 
+              "pic": {
+                "h": 109, 
+                "layer": 4, 
+                "name": "clock4_1", 
+                "path": "witch_hut.part/clock4_1.png", 
+                "w": 66, 
+                "x": 518, 
+                "y": 555
+              }
+            }, 
+            {
+              "pic": {
+                "h": 83, 
+                "layer": 4, 
+                "name": "clock4_2", 
+                "path": "witch_hut.part/clock4_2.png", 
+                "w": 50, 
+                "x": 775, 
+                "y": 135
+              }
+            }, 
+            {
+              "pic": {
+                "h": 113, 
+                "layer": 4, 
+                "name": "clock4_3", 
+                "path": "witch_hut.part/clock4_3.png", 
+                "w": 66, 
+                "x": 228, 
+                "y": 439
+              }
+            }, 
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "clock4_4", 
+                "path": "witch_hut.part/clock4_4.png", 
+                "w": 46, 
+                "x": 1087, 
+                "y": 291
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "clock4_5_cover", 
+                "path": "witch_hut.part/clock4_5_cover.png", 
+                "w": 64, 
+                "x": 882, 
+                "y": 0
+              }, 
+              "pic": {
+                "h": 83, 
+                "layer": 4, 
+                "name": "clock4_5", 
+                "path": "witch_hut.part/clock4_5.png", 
+                "w": 50, 
+                "x": 883, 
+                "y": 5
+              }
+            }
+          ], 
+          "name": "clock4", 
+          "path": "witch_hut.part/clock4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "clock5_1", 
+                "path": "witch_hut.part/clock5_1.png", 
+                "w": 42, 
+                "x": 1066, 
+                "y": 140
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "clock5_2", 
+                "path": "witch_hut.part/clock5_2.png", 
+                "w": 41, 
+                "x": 964, 
+                "y": 424
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "clock5_3", 
+                "path": "witch_hut.part/clock5_3.png", 
+                "w": 33, 
+                "x": 482, 
+                "y": 252
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "clock5_4_cover", 
+                "path": "witch_hut.part/clock5_4_cover.png", 
+                "w": 53, 
+                "x": 758, 
+                "y": 41
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "clock5_4", 
+                "path": "witch_hut.part/clock5_4.png", 
+                "w": 42, 
+                "x": 763, 
+                "y": 44
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "clock5_5_cover", 
+                "path": "witch_hut.part/clock5_5_cover.png", 
+                "w": 46, 
+                "x": 280, 
+                "y": 502
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "clock5_5", 
+                "path": "witch_hut.part/clock5_5.png", 
+                "w": 42, 
+                "x": 282, 
+                "y": 489
+              }
+            }
+          ], 
+          "name": "clock5", 
+          "path": "witch_hut.part/clock5.png"
+        }
+      ]
+    }
+  ]
+}

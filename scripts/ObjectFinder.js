@@ -83,7 +83,7 @@ var image_scale = 1;          // ローレゾ時のイメージ倍率
 var local_mode = false;       // ローカルモード(JSONを動的ロードしない)
 
 // 初期化
-function init(scene) {
+function init(initial_scene) {
   // デバッグモードなど
   if (location.search || location.hash) {
     var options;
@@ -158,7 +158,7 @@ function init(scene) {
   }
 
   // 初期シーンを設定
-  selector.value = scene;
+  selector.value = initial_scene;
   selector.disabled = false;
 
   scene_change();

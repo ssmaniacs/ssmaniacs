@@ -955,8 +955,10 @@ function draw_menuframe(x, y, erasebg, selected)
 // 小さすぎ・大きすぎるアイコンイメージを拡大・縮小する
 function adjust_imgsize(w, h, maxval, minval)
 {
-  w *= image_scale;
-  h *= image_scale;
+  //w *= image_scale;
+  //h *= image_scale;
+  maxval /= image_scale;
+  minval /= image_scale;
 
   if (w > h) {
     if (w > maxval) {

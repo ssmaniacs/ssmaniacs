@@ -1,0 +1,6966 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "feather1", 
+            "path": "excavations.form/feather1.png", 
+            "w": 40, 
+            "x": 511, 
+            "y": 329
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "feather2", 
+            "path": "excavations.form/feather2.png", 
+            "w": 86, 
+            "x": 766, 
+            "y": 368
+          }
+        }, 
+        {
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "feather3", 
+            "path": "excavations.form/feather3.png", 
+            "w": 41, 
+            "x": 534, 
+            "y": 194
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "feather4", 
+            "path": "excavations.form/feather4.png", 
+            "w": 69, 
+            "x": 1018, 
+            "y": 21
+          }
+        }, 
+        {
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "feather5", 
+            "path": "excavations.form/feather5.png", 
+            "w": 41, 
+            "x": 1151, 
+            "y": 148
+          }
+        }, 
+        {
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "feather6", 
+            "path": "excavations.form/feather6.png", 
+            "w": 85, 
+            "x": 1158, 
+            "y": 338
+          }
+        }
+      ], 
+      "name": "クジャクの羽根", 
+      "path": "excavations.sils/feather.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "hammer1", 
+            "path": "excavations.form/hammer1.png", 
+            "w": 60, 
+            "x": 598, 
+            "y": 19
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "hammer2_cover", 
+            "path": "excavations.form/hammer2_cover.png", 
+            "w": 7, 
+            "x": 430, 
+            "y": 99
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "hammer2", 
+            "path": "excavations.form/hammer2.png", 
+            "w": 35, 
+            "x": 408, 
+            "y": 79
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "hammer3", 
+            "path": "excavations.form/hammer3.png", 
+            "w": 35, 
+            "x": 1217, 
+            "y": 451
+          }
+        }, 
+        {
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "hammer4", 
+            "path": "excavations.form/hammer4.png", 
+            "w": 32, 
+            "x": 1066, 
+            "y": 302
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "hammer5_cover", 
+            "path": "excavations.form/hammer5_cover.png", 
+            "w": 21, 
+            "x": 299, 
+            "y": 529
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "hammer5", 
+            "path": "excavations.form/hammer5.png", 
+            "w": 38, 
+            "x": 301, 
+            "y": 501
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "hammer6_cover", 
+            "path": "excavations.form/hammer6_cover.png", 
+            "w": 25, 
+            "x": 621, 
+            "y": 172
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "hammer6", 
+            "path": "excavations.form/hammer6.png", 
+            "w": 34, 
+            "x": 622, 
+            "y": 174
+          }
+        }
+      ], 
+      "name": "ハンマー", 
+      "path": "excavations.sils/hammer.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "orange1", 
+            "path": "excavations.form/orange1.png", 
+            "w": 36, 
+            "x": 994, 
+            "y": 595
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "orange2", 
+            "path": "excavations.form/orange2.png", 
+            "w": 34, 
+            "x": 1144, 
+            "y": 609
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "orange3", 
+            "path": "excavations.form/orange3.png", 
+            "w": 41, 
+            "x": 628, 
+            "y": 374
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "orange4", 
+            "path": "excavations.form/orange4.png", 
+            "w": 34, 
+            "x": 627, 
+            "y": 605
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "orange5_cover", 
+            "path": "excavations.form/orange5_cover.png", 
+            "w": 37, 
+            "x": 783, 
+            "y": 136
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "orange5", 
+            "path": "excavations.form/orange5.png", 
+            "w": 33, 
+            "x": 786, 
+            "y": 139
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "orange6_cover", 
+            "path": "excavations.form/orange6_cover.png", 
+            "w": 34, 
+            "x": 635, 
+            "y": 72
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "orange6", 
+            "path": "excavations.form/orange6.png", 
+            "w": 32, 
+            "x": 637, 
+            "y": 74
+          }
+        }
+      ], 
+      "name": "オレンジ", 
+      "path": "excavations.sils/orange.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "liana1", 
+            "path": "excavations.form/liana1.png", 
+            "w": 138, 
+            "x": 511, 
+            "y": 60
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "liana2", 
+            "path": "excavations.form/liana2.png", 
+            "w": 134, 
+            "x": 369, 
+            "y": 370
+          }
+        }, 
+        {
+          "pic": {
+            "h": 97, 
+            "layer": 3, 
+            "name": "liana3", 
+            "path": "excavations.form/liana3.png", 
+            "w": 104, 
+            "x": 878, 
+            "y": 35
+          }
+        }, 
+        {
+          "pic": {
+            "h": 96, 
+            "layer": 3, 
+            "name": "liana4", 
+            "path": "excavations.form/liana4.png", 
+            "w": 105, 
+            "x": 1072, 
+            "y": 20
+          }
+        }, 
+        {
+          "pic": {
+            "h": 139, 
+            "layer": 3, 
+            "name": "liana5", 
+            "path": "excavations.form/liana5.png", 
+            "w": 26, 
+            "x": 1188, 
+            "y": 449
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "liana6_cover", 
+            "path": "excavations.form/liana6_cover.png", 
+            "w": 140, 
+            "x": 704, 
+            "y": 87
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "liana6", 
+            "path": "excavations.form/liana6.png", 
+            "w": 138, 
+            "x": 706, 
+            "y": 88
+          }
+        }
+      ], 
+      "name": "ツタ", 
+      "path": "excavations.sils/liana.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 87, 
+            "layer": 3, 
+            "name": "drill1", 
+            "path": "excavations.form/drill1.png", 
+            "w": 49, 
+            "x": 1086, 
+            "y": 493
+          }
+        }, 
+        {
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "drill2", 
+            "path": "excavations.form/drill2.png", 
+            "w": 44, 
+            "x": 1206, 
+            "y": 498
+          }
+        }, 
+        {
+          "pic": {
+            "h": 81, 
+            "layer": 3, 
+            "name": "drill3", 
+            "path": "excavations.form/drill3.png", 
+            "w": 37, 
+            "x": 1036, 
+            "y": 176
+          }
+        }, 
+        {
+          "pic": {
+            "h": 85, 
+            "layer": 3, 
+            "name": "drill4", 
+            "path": "excavations.form/drill4.png", 
+            "w": 42, 
+            "x": 367, 
+            "y": 75
+          }
+        }, 
+        {
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "drill5", 
+            "path": "excavations.form/drill5.png", 
+            "w": 45, 
+            "x": 681, 
+            "y": 287
+          }
+        }, 
+        {
+          "pic": {
+            "h": 82, 
+            "layer": 3, 
+            "name": "drill6", 
+            "path": "excavations.form/drill6.png", 
+            "w": 47, 
+            "x": 339, 
+            "y": 493
+          }
+        }
+      ], 
+      "name": "ドリル", 
+      "path": "excavations.sils/drill.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "torch1", 
+            "path": "excavations.form/torch1.png", 
+            "w": 145, 
+            "x": 328, 
+            "y": 279
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "torch2_cover", 
+            "path": "excavations.form/torch2_cover.png", 
+            "w": 92, 
+            "x": 845, 
+            "y": 51
+          }, 
+          "pic": {
+            "h": 90, 
+            "layer": 3, 
+            "name": "torch2", 
+            "path": "excavations.form/torch2.png", 
+            "w": 128, 
+            "x": 849, 
+            "y": 16
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "torch3_cover", 
+            "path": "excavations.form/torch3_cover.png", 
+            "w": 18, 
+            "x": 990, 
+            "y": 305
+          }, 
+          "pic": {
+            "h": 150, 
+            "layer": 3, 
+            "name": "torch3", 
+            "path": "excavations.form/torch3.png", 
+            "w": 29, 
+            "x": 975, 
+            "y": 186
+          }
+        }, 
+        {
+          "cover": {
+            "h": 113, 
+            "layer": 5, 
+            "name": "torch4_cover", 
+            "path": "excavations.form/torch4_cover.png", 
+            "w": 23, 
+            "x": 749, 
+            "y": 118
+          }, 
+          "pic": {
+            "h": 154, 
+            "layer": 3, 
+            "name": "torch4", 
+            "path": "excavations.form/torch4.png", 
+            "w": 28, 
+            "x": 748, 
+            "y": 119
+          }
+        }, 
+        {
+          "pic": {
+            "h": 153, 
+            "layer": 3, 
+            "name": "torch5", 
+            "path": "excavations.form/torch5.png", 
+            "w": 26, 
+            "x": 332, 
+            "y": 58
+          }
+        }, 
+        {
+          "cover": {
+            "h": 152, 
+            "layer": 5, 
+            "name": "torch6_cover", 
+            "path": "excavations.form/torch6_cover.png", 
+            "w": 58, 
+            "x": 1042, 
+            "y": 489
+          }, 
+          "pic": {
+            "h": 147, 
+            "layer": 3, 
+            "name": "torch6", 
+            "path": "excavations.form/torch6.png", 
+            "w": 55, 
+            "x": 1041, 
+            "y": 494
+          }
+        }
+      ], 
+      "name": "たいまつ", 
+      "path": "excavations.sils/torch.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "amonit1_cover", 
+            "path": "excavations.form/amonit1_cover.png", 
+            "w": 38, 
+            "x": 828, 
+            "y": 506
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "amonit1", 
+            "path": "excavations.form/amonit1.png", 
+            "w": 50, 
+            "x": 814, 
+            "y": 504
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "amonit2_cover", 
+            "path": "excavations.form/amonit2_cover.png", 
+            "w": 55, 
+            "x": 329, 
+            "y": 245
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "amonit2", 
+            "path": "excavations.form/amonit2.png", 
+            "w": 51, 
+            "x": 329, 
+            "y": 229
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "amonit3_cover", 
+            "path": "excavations.form/amonit3_cover.png", 
+            "w": 55, 
+            "x": 971, 
+            "y": 445
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "amonit3", 
+            "path": "excavations.form/amonit3.png", 
+            "w": 50, 
+            "x": 974, 
+            "y": 421
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "amonit4_cover", 
+            "path": "excavations.form/amonit4_cover.png", 
+            "w": 42, 
+            "x": 255, 
+            "y": 542
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "amonit4", 
+            "path": "excavations.form/amonit4.png", 
+            "w": 51, 
+            "x": 245, 
+            "y": 517
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "amonit5_cover", 
+            "path": "excavations.form/amonit5_cover.png", 
+            "w": 26, 
+            "x": 537, 
+            "y": 484
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "amonit5", 
+            "path": "excavations.form/amonit5.png", 
+            "w": 50, 
+            "x": 539, 
+            "y": 482
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "amonit6_cover", 
+            "path": "excavations.form/amonit6_cover.png", 
+            "w": 52, 
+            "x": 855, 
+            "y": 206
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "amonit6", 
+            "path": "excavations.form/amonit6.png", 
+            "w": 50, 
+            "x": 855, 
+            "y": 189
+          }
+        }
+      ], 
+      "name": "化石", 
+      "path": "excavations.sils/amonit.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "diamond1", 
+            "path": "excavations.form/diamond1.png", 
+            "w": 51, 
+            "x": 445, 
+            "y": 464
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 5, 
+            "name": "diamond2_cover", 
+            "path": "excavations.form/diamond2_cover.png", 
+            "w": 22, 
+            "x": 420, 
+            "y": 362
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "diamond2", 
+            "path": "excavations.form/diamond2.png", 
+            "w": 51, 
+            "x": 404, 
+            "y": 336
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "diamond3_cover", 
+            "path": "excavations.form/diamond3_cover.png", 
+            "w": 42, 
+            "x": 234, 
+            "y": 409
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "diamond3", 
+            "path": "excavations.form/diamond3.png", 
+            "w": 51, 
+            "x": 231, 
+            "y": 393
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "diamond4_cover", 
+            "path": "excavations.form/diamond4_cover.png", 
+            "w": 7, 
+            "x": 753, 
+            "y": 298
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "diamond4", 
+            "path": "excavations.form/diamond4.png", 
+            "w": 40, 
+            "x": 755, 
+            "y": 276
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "diamond5_cover", 
+            "path": "excavations.form/diamond5_cover.png", 
+            "w": 33, 
+            "x": 616, 
+            "y": 300
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "diamond5", 
+            "path": "excavations.form/diamond5.png", 
+            "w": 35, 
+            "x": 617, 
+            "y": 300
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "diamond6_cover", 
+            "path": "excavations.form/diamond6_cover.png", 
+            "w": 36, 
+            "x": 424, 
+            "y": 216
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "diamond6", 
+            "path": "excavations.form/diamond6.png", 
+            "w": 35, 
+            "x": 424, 
+            "y": 207
+          }
+        }
+      ], 
+      "name": "ダイヤモンド", 
+      "path": "excavations.sils/diamond.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "flower1", 
+            "path": "excavations.form/flower1.png", 
+            "w": 61, 
+            "x": 968, 
+            "y": 82
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "flower2", 
+            "path": "excavations.form/flower2.png", 
+            "w": 61, 
+            "x": 1158, 
+            "y": 7
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "flower3", 
+            "path": "excavations.form/flower3.png", 
+            "w": 52, 
+            "x": 460, 
+            "y": 291
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "flower4", 
+            "path": "excavations.form/flower4.png", 
+            "w": 53, 
+            "x": 361, 
+            "y": 352
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "flower5", 
+            "path": "excavations.form/flower5.png", 
+            "w": 61, 
+            "x": 1129, 
+            "y": 547
+          }
+        }, 
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "flower6", 
+            "path": "excavations.form/flower6.png", 
+            "w": 61, 
+            "x": 374, 
+            "y": 140
+          }
+        }
+      ], 
+      "name": "花", 
+      "path": "excavations.sils/flower.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "headscarf1", 
+            "path": "excavations.form/headscarf1.png", 
+            "w": 73, 
+            "x": 886, 
+            "y": 609
+          }
+        }, 
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "headscarf2", 
+            "path": "excavations.form/headscarf2.png", 
+            "w": 73, 
+            "x": 819, 
+            "y": 561
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "headscarf3", 
+            "path": "excavations.form/headscarf3.png", 
+            "w": 71, 
+            "x": 527, 
+            "y": 22
+          }
+        }, 
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "headscarf4", 
+            "path": "excavations.form/headscarf4.png", 
+            "w": 65, 
+            "x": 1178, 
+            "y": 60
+          }
+        }, 
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "headscarf5", 
+            "path": "excavations.form/headscarf5.png", 
+            "w": 73, 
+            "x": 439, 
+            "y": 611
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "headscarf6_cover", 
+            "path": "excavations.form/headscarf6_cover.png", 
+            "w": 52, 
+            "x": 731, 
+            "y": 451
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "headscarf6", 
+            "path": "excavations.form/headscarf6.png", 
+            "w": 70, 
+            "x": 732, 
+            "y": 438
+          }
+        }
+      ], 
+      "name": "スカーフ", 
+      "path": "excavations.sils/headscarf.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "compas1", 
+            "path": "excavations.form/compas1.png", 
+            "w": 55, 
+            "x": 1139, 
+            "y": 459
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "compas2", 
+            "path": "excavations.form/compas2.png", 
+            "w": 54, 
+            "x": 1058, 
+            "y": 157
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "compas3", 
+            "path": "excavations.form/compas3.png", 
+            "w": 55, 
+            "x": 1185, 
+            "y": 242
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "compas4_cover", 
+            "path": "excavations.form/compas4_cover.png", 
+            "w": 50, 
+            "x": 451, 
+            "y": 70
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "compas4", 
+            "path": "excavations.form/compas4.png", 
+            "w": 54, 
+            "x": 444, 
+            "y": 46
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "compas5_cover", 
+            "path": "excavations.form/compas5_cover.png", 
+            "w": 55, 
+            "x": 503, 
+            "y": 136
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "compas5", 
+            "path": "excavations.form/compas5.png", 
+            "w": 54, 
+            "x": 506, 
+            "y": 140
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "compas6_cover", 
+            "path": "excavations.form/compas6_cover.png", 
+            "w": 38, 
+            "x": 364, 
+            "y": 15
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "compas6", 
+            "path": "excavations.form/compas6.png", 
+            "w": 50, 
+            "x": 348, 
+            "y": 19
+          }
+        }
+      ], 
+      "name": "方位磁石", 
+      "path": "excavations.sils/compas.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "crocodile1", 
+            "path": "excavations.form/crocodile1.png", 
+            "w": 107, 
+            "x": 747, 
+            "y": 410
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "crocodile2_cover", 
+            "path": "excavations.form/crocodile2_cover.png", 
+            "w": 12, 
+            "x": 1064, 
+            "y": 366
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "crocodile2", 
+            "path": "excavations.form/crocodile2.png", 
+            "w": 108, 
+            "x": 998, 
+            "y": 362
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "crocodile3_cover", 
+            "path": "excavations.form/crocodile3_cover.png", 
+            "w": 50, 
+            "x": 870, 
+            "y": 356
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "crocodile3", 
+            "path": "excavations.form/crocodile3.png", 
+            "w": 107, 
+            "x": 872, 
+            "y": 352
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "crocodile4_cover", 
+            "path": "excavations.form/crocodile4_cover.png", 
+            "w": 37, 
+            "x": 301, 
+            "y": 360
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "crocodile4", 
+            "path": "excavations.form/crocodile4.png", 
+            "w": 108, 
+            "x": 229, 
+            "y": 355
+          }
+        }, 
+        {
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "crocodile5", 
+            "path": "excavations.form/crocodile5.png", 
+            "w": 107, 
+            "x": 232, 
+            "y": 185
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "crocodile6_cover", 
+            "path": "excavations.form/crocodile6_cover.png", 
+            "w": 104, 
+            "x": 622, 
+            "y": 277
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "crocodile6", 
+            "path": "excavations.form/crocodile6.png", 
+            "w": 108, 
+            "x": 616, 
+            "y": 270
+          }
+        }
+      ], 
+      "name": "ワニ", 
+      "path": "excavations.sils/crocodile.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "lamp1", 
+            "path": "excavations.form/lamp1.png", 
+            "w": 38, 
+            "x": 929, 
+            "y": 84
+          }
+        }, 
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "lamp2", 
+            "path": "excavations.form/lamp2.png", 
+            "w": 33, 
+            "x": 715, 
+            "y": 217
+          }
+        }, 
+        {
+          "cover": {
+            "h": 6, 
+            "layer": 5, 
+            "name": "lamp3_cover", 
+            "path": "excavations.form/lamp3_cover.png", 
+            "w": 9, 
+            "x": 588, 
+            "y": 151
+          }, 
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "lamp3", 
+            "path": "excavations.form/lamp3.png", 
+            "w": 35, 
+            "x": 576, 
+            "y": 152
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "lamp4", 
+            "path": "excavations.form/lamp4.png", 
+            "w": 38, 
+            "x": 1026, 
+            "y": 498
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "lamp5_cover", 
+            "path": "excavations.form/lamp5_cover.png", 
+            "w": 32, 
+            "x": 658, 
+            "y": 118
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "lamp5", 
+            "path": "excavations.form/lamp5.png", 
+            "w": 35, 
+            "x": 660, 
+            "y": 121
+          }
+        }, 
+        {
+          "cover": {
+            "h": 72, 
+            "layer": 5, 
+            "name": "lamp6_cover", 
+            "path": "excavations.form/lamp6_cover.png", 
+            "w": 39, 
+            "x": 823, 
+            "y": 112
+          }, 
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "lamp6", 
+            "path": "excavations.form/lamp6.png", 
+            "w": 35, 
+            "x": 826, 
+            "y": 115
+          }
+        }
+      ], 
+      "name": "ランプ", 
+      "path": "excavations.sils/lamp.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "thermos1", 
+            "path": "excavations.form/thermos1.png", 
+            "w": 65, 
+            "x": 452, 
+            "y": 540
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "thermos2", 
+            "path": "excavations.form/thermos2.png", 
+            "w": 21, 
+            "x": 603, 
+            "y": 461
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "thermos3", 
+            "path": "excavations.form/thermos3.png", 
+            "w": 64, 
+            "x": 285, 
+            "y": 201
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "thermos4", 
+            "path": "excavations.form/thermos4.png", 
+            "w": 68, 
+            "x": 776, 
+            "y": 201
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "thermos5_cover", 
+            "path": "excavations.form/thermos5_cover.png", 
+            "w": 54, 
+            "x": 740, 
+            "y": 491
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "thermos5", 
+            "path": "excavations.form/thermos5.png", 
+            "w": 70, 
+            "x": 740, 
+            "y": 493
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "thermos6", 
+            "path": "excavations.form/thermos6.png", 
+            "w": 68, 
+            "x": 228, 
+            "y": 151
+          }
+        }
+      ], 
+      "name": "保温ボトル", 
+      "path": "excavations.sils/thermos.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "jerboa1", 
+            "path": "excavations.form/jerboa1.png", 
+            "w": 106, 
+            "x": 509, 
+            "y": 587
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "jerboa2", 
+            "path": "excavations.form/jerboa2.png", 
+            "w": 106, 
+            "x": 305, 
+            "y": 593
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "jerboa3_cover", 
+            "path": "excavations.form/jerboa3_cover.png", 
+            "w": 67, 
+            "x": 927, 
+            "y": 440
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "jerboa3", 
+            "path": "excavations.form/jerboa3.png", 
+            "w": 106, 
+            "x": 892, 
+            "y": 410
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "jerboa4_cover", 
+            "path": "excavations.form/jerboa4_cover.png", 
+            "w": 104, 
+            "x": 616, 
+            "y": 441
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "jerboa4", 
+            "path": "excavations.form/jerboa4.png", 
+            "w": 106, 
+            "x": 617, 
+            "y": 402
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "jerboa5_cover", 
+            "path": "excavations.form/jerboa5_cover.png", 
+            "w": 52, 
+            "x": 290, 
+            "y": 294
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "jerboa5", 
+            "path": "excavations.form/jerboa5.png", 
+            "w": 106, 
+            "x": 233, 
+            "y": 252
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 5, 
+            "name": "jerboa6_cover", 
+            "path": "excavations.form/jerboa6_cover.png", 
+            "w": 68, 
+            "x": 314, 
+            "y": 396
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "jerboa6", 
+            "path": "excavations.form/jerboa6.png", 
+            "w": 106, 
+            "x": 283, 
+            "y": 377
+          }
+        }
+      ], 
+      "name": "トビネズミ", 
+      "path": "excavations.sils/jerboa.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "gold1", 
+            "path": "excavations.form/gold1.png", 
+            "w": 92, 
+            "x": 391, 
+            "y": 399
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "gold2", 
+            "path": "excavations.form/gold2.png", 
+            "w": 68, 
+            "x": 652, 
+            "y": 490
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "gold3_cover", 
+            "path": "excavations.form/gold3_cover.png", 
+            "w": 56, 
+            "x": 860, 
+            "y": 530
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "gold3", 
+            "path": "excavations.form/gold3.png", 
+            "w": 57, 
+            "x": 871, 
+            "y": 498
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "gold4_cover", 
+            "path": "excavations.form/gold4_cover.png", 
+            "w": 84, 
+            "x": 343, 
+            "y": 272
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "gold4", 
+            "path": "excavations.form/gold4.png", 
+            "w": 91, 
+            "x": 338, 
+            "y": 259
+          }
+        }, 
+        {
+          "cover": {
+            "h": 66, 
+            "layer": 5, 
+            "name": "gold5_cover", 
+            "path": "excavations.form/gold5_cover.png", 
+            "w": 20, 
+            "x": 597, 
+            "y": 332
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "gold5", 
+            "path": "excavations.form/gold5.png", 
+            "w": 28, 
+            "x": 600, 
+            "y": 335
+          }
+        }, 
+        {
+          "cover": {
+            "h": 73, 
+            "layer": 5, 
+            "name": "gold6_cover", 
+            "path": "excavations.form/gold6_cover.png", 
+            "w": 23, 
+            "x": 1002, 
+            "y": 181
+          }, 
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "gold6", 
+            "path": "excavations.form/gold6.png", 
+            "w": 28, 
+            "x": 1007, 
+            "y": 185
+          }
+        }
+      ], 
+      "name": "金塊", 
+      "path": "excavations.sils/gold.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 82, 
+            "layer": 3, 
+            "name": "flamingo1", 
+            "path": "excavations.form/flamingo1.png", 
+            "w": 48, 
+            "x": 1069, 
+            "y": 220
+          }
+        }, 
+        {
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "flamingo2", 
+            "path": "excavations.form/flamingo2.png", 
+            "w": 42, 
+            "x": 1031, 
+            "y": 390
+          }
+        }, 
+        {
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "flamingo3", 
+            "path": "excavations.form/flamingo3.png", 
+            "w": 42, 
+            "x": 553, 
+            "y": 313
+          }
+        }, 
+        {
+          "cover": {
+            "h": 83, 
+            "layer": 5, 
+            "name": "flamingo4_cover", 
+            "path": "excavations.form/flamingo4_cover.png", 
+            "w": 18, 
+            "x": 959, 
+            "y": 263
+          }, 
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "flamingo4", 
+            "path": "excavations.form/flamingo4.png", 
+            "w": 42, 
+            "x": 937, 
+            "y": 266
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "flamingo5", 
+            "path": "excavations.form/flamingo5.png", 
+            "w": 80, 
+            "x": 657, 
+            "y": 42
+          }
+        }, 
+        {
+          "cover": {
+            "h": 81, 
+            "layer": 5, 
+            "name": "flamingo6_cover", 
+            "path": "excavations.form/flamingo6_cover.png", 
+            "w": 20, 
+            "x": 599, 
+            "y": 223
+          }, 
+          "pic": {
+            "h": 78, 
+            "layer": 3, 
+            "name": "flamingo6", 
+            "path": "excavations.form/flamingo6.png", 
+            "w": 42, 
+            "x": 577, 
+            "y": 226
+          }
+        }
+      ], 
+      "name": "フラミンゴ", 
+      "path": "excavations.sils/flamingo.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "shoe1", 
+            "path": "excavations.form/shoe1.png", 
+            "w": 79, 
+            "x": 228, 
+            "y": 432
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "shoe2", 
+            "path": "excavations.form/shoe2.png", 
+            "w": 73, 
+            "x": 745, 
+            "y": 577
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "shoe3", 
+            "path": "excavations.form/shoe3.png", 
+            "w": 59, 
+            "x": 1168, 
+            "y": 405
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "shoe4_cover", 
+            "path": "excavations.form/shoe4_cover.png", 
+            "w": 67, 
+            "x": 776, 
+            "y": 339
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "shoe4", 
+            "path": "excavations.form/shoe4.png", 
+            "w": 59, 
+            "x": 783, 
+            "y": 313
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "shoe5_cover", 
+            "path": "excavations.form/shoe5_cover.png", 
+            "w": 62, 
+            "x": 416, 
+            "y": 1
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "shoe5", 
+            "path": "excavations.form/shoe5.png", 
+            "w": 59, 
+            "x": 418, 
+            "y": 3
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 5, 
+            "name": "shoe6_cover", 
+            "path": "excavations.form/shoe6_cover.png", 
+            "w": 45, 
+            "x": 963, 
+            "y": 482
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "shoe6", 
+            "path": "excavations.form/shoe6.png", 
+            "w": 59, 
+            "x": 944, 
+            "y": 484
+          }
+        }
+      ], 
+      "name": "ブーツ", 
+      "path": "excavations.sils/shoe.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "banana1", 
+            "path": "excavations.form/banana1.png", 
+            "w": 51, 
+            "x": 1086, 
+            "y": 360
+          }
+        }, 
+        {
+          "cover": {
+            "h": 20, 
+            "layer": 5, 
+            "name": "banana2_cover", 
+            "path": "excavations.form/banana2_cover.png", 
+            "w": 35, 
+            "x": 456, 
+            "y": 516
+          }, 
+          "pic": {
+            "h": 71, 
+            "layer": 3, 
+            "name": "banana2", 
+            "path": "excavations.form/banana2.png", 
+            "w": 50, 
+            "x": 463, 
+            "y": 469
+          }
+        }, 
+        {
+          "pic": {
+            "h": 71, 
+            "layer": 3, 
+            "name": "banana3", 
+            "path": "excavations.form/banana3.png", 
+            "w": 50, 
+            "x": 681, 
+            "y": 594
+          }
+        }, 
+        {
+          "pic": {
+            "h": 71, 
+            "layer": 3, 
+            "name": "banana4", 
+            "path": "excavations.form/banana4.png", 
+            "w": 50, 
+            "x": 259, 
+            "y": 582
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "banana5_cover", 
+            "path": "excavations.form/banana5_cover.png", 
+            "w": 32, 
+            "x": 572, 
+            "y": 81
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "banana5", 
+            "path": "excavations.form/banana5.png", 
+            "w": 51, 
+            "x": 577, 
+            "y": 85
+          }
+        }, 
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "banana6", 
+            "path": "excavations.form/banana6.png", 
+            "w": 51, 
+            "x": 1107, 
+            "y": 96
+          }
+        }
+      ], 
+      "name": "バナナ", 
+      "path": "excavations.sils/banana.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 79, 
+            "layer": 3, 
+            "name": "totem1", 
+            "path": "excavations.form/totem1.png", 
+            "w": 50, 
+            "x": 697, 
+            "y": 125
+          }
+        }, 
+        {
+          "pic": {
+            "h": 87, 
+            "layer": 3, 
+            "name": "totem2", 
+            "path": "excavations.form/totem2.png", 
+            "w": 53, 
+            "x": 1024, 
+            "y": 77
+          }
+        }, 
+        {
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "totem3", 
+            "path": "excavations.form/totem3.png", 
+            "w": 56, 
+            "x": 1114, 
+            "y": 208
+          }
+        }, 
+        {
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "totem4", 
+            "path": "excavations.form/totem4.png", 
+            "w": 51, 
+            "x": 443, 
+            "y": 155
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "totem5_cover", 
+            "path": "excavations.form/totem5_cover.png", 
+            "w": 40, 
+            "x": 1022, 
+            "y": 312
+          }, 
+          "pic": {
+            "h": 84, 
+            "layer": 3, 
+            "name": "totem5", 
+            "path": "excavations.form/totem5.png", 
+            "w": 56, 
+            "x": 1016, 
+            "y": 260
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 5, 
+            "name": "totem6_cover", 
+            "path": "excavations.form/totem6_cover.png", 
+            "w": 29, 
+            "x": 853, 
+            "y": 322
+          }, 
+          "pic": {
+            "h": 81, 
+            "layer": 3, 
+            "name": "totem6", 
+            "path": "excavations.form/totem6.png", 
+            "w": 53, 
+            "x": 835, 
+            "y": 252
+          }
+        }
+      ], 
+      "name": "トーテム", 
+      "path": "excavations.sils/totem.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "snake1", 
+            "path": "excavations.form/snake1.png", 
+            "w": 64, 
+            "x": 736, 
+            "y": 325
+          }
+        }, 
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "snake2", 
+            "path": "excavations.form/snake2.png", 
+            "w": 64, 
+            "x": 817, 
+            "y": 441
+          }
+        }, 
+        {
+          "cover": {
+            "h": 9, 
+            "layer": 5, 
+            "name": "snake3_cover", 
+            "path": "excavations.form/snake3_cover.png", 
+            "w": 12, 
+            "x": 996, 
+            "y": 403
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "snake3", 
+            "path": "excavations.form/snake3.png", 
+            "w": 65, 
+            "x": 966, 
+            "y": 366
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "snake4_cover", 
+            "path": "excavations.form/snake4_cover.png", 
+            "w": 70, 
+            "x": 623, 
+            "y": 238
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "snake4", 
+            "path": "excavations.form/snake4.png", 
+            "w": 65, 
+            "x": 625, 
+            "y": 215
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "snake5_cover", 
+            "path": "excavations.form/snake5_cover.png", 
+            "w": 38, 
+            "x": 1113, 
+            "y": 310
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "snake5", 
+            "path": "excavations.form/snake5.png", 
+            "w": 60, 
+            "x": 1089, 
+            "y": 315
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "snake6_cover", 
+            "path": "excavations.form/snake6_cover.png", 
+            "w": 39, 
+            "x": 332, 
+            "y": 445
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "snake6", 
+            "path": "excavations.form/snake6.png", 
+            "w": 64, 
+            "x": 306, 
+            "y": 449
+          }
+        }
+      ], 
+      "name": "コブラ", 
+      "path": "excavations.sils/snake.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "calc1_cover", 
+            "path": "excavations.form/calc1_cover.png", 
+            "w": 16, 
+            "x": 815, 
+            "y": 651
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "calc1", 
+            "path": "excavations.form/calc1.png", 
+            "w": 58, 
+            "x": 817, 
+            "y": 609
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 5, 
+            "name": "calc2_cover", 
+            "path": "excavations.form/calc2_cover.png", 
+            "w": 46, 
+            "x": 408, 
+            "y": 474
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "calc2", 
+            "path": "excavations.form/calc2.png", 
+            "w": 66, 
+            "x": 382, 
+            "y": 477
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "calc3", 
+            "path": "excavations.form/calc3.png", 
+            "w": 59, 
+            "x": 1181, 
+            "y": 598
+          }
+        }, 
+        {
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "calc4", 
+            "path": "excavations.form/calc4.png", 
+            "w": 53, 
+            "x": 898, 
+            "y": 222
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "calc5_cover", 
+            "path": "excavations.form/calc5_cover.png", 
+            "w": 57, 
+            "x": 904, 
+            "y": 169
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "calc5", 
+            "path": "excavations.form/calc5.png", 
+            "w": 53, 
+            "x": 906, 
+            "y": 170
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "calc6_cover", 
+            "path": "excavations.form/calc6_cover.png", 
+            "w": 59, 
+            "x": 1150, 
+            "y": 306
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "calc6", 
+            "path": "excavations.form/calc6.png", 
+            "w": 53, 
+            "x": 1152, 
+            "y": 297
+          }
+        }
+      ], 
+      "name": "電卓", 
+      "path": "excavations.sils/calc.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "belt1", 
+            "path": "excavations.form/belt1.png", 
+            "w": 72, 
+            "x": 515, 
+            "y": 527
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "belt2_cover", 
+            "path": "excavations.form/belt2_cover.png", 
+            "w": 20, 
+            "x": 1102, 
+            "y": 417
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "belt2", 
+            "path": "excavations.form/belt2.png", 
+            "w": 72, 
+            "x": 1094, 
+            "y": 419
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "belt3", 
+            "path": "excavations.form/belt3.png", 
+            "w": 72, 
+            "x": 314, 
+            "y": 564
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "belt4_cover", 
+            "path": "excavations.form/belt4_cover.png", 
+            "w": 75, 
+            "x": 706, 
+            "y": 522
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "belt4", 
+            "path": "excavations.form/belt4.png", 
+            "w": 72, 
+            "x": 706, 
+            "y": 520
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "belt5_cover", 
+            "path": "excavations.form/belt5_cover.png", 
+            "w": 46, 
+            "x": 698, 
+            "y": 359
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "belt5", 
+            "path": "excavations.form/belt5.png", 
+            "w": 72, 
+            "x": 672, 
+            "y": 360
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "belt6_cover", 
+            "path": "excavations.form/belt6_cover.png", 
+            "w": 60, 
+            "x": 624, 
+            "y": 571
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "belt6", 
+            "path": "excavations.form/belt6.png", 
+            "w": 72, 
+            "x": 612, 
+            "y": 575
+          }
+        }
+      ], 
+      "name": "ベルト", 
+      "path": "excavations.sils/belt.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "log1", 
+            "path": "excavations.form/log1.png", 
+            "w": 81, 
+            "x": 484, 
+            "y": 570
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "log2", 
+            "path": "excavations.form/log2.png", 
+            "w": 81, 
+            "x": 894, 
+            "y": 572
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "log3", 
+            "path": "excavations.form/log3.png", 
+            "w": 81, 
+            "x": 1009, 
+            "y": 466
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "log4_cover", 
+            "path": "excavations.form/log4_cover.png", 
+            "w": 84, 
+            "x": 610, 
+            "y": 534
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "log4", 
+            "path": "excavations.form/log4.png", 
+            "w": 81, 
+            "x": 612, 
+            "y": 518
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "log5_cover", 
+            "path": "excavations.form/log5_cover.png", 
+            "w": 58, 
+            "x": 1191, 
+            "y": 387
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "log5", 
+            "path": "excavations.form/log5.png", 
+            "w": 76, 
+            "x": 1173, 
+            "y": 384
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "log6_cover", 
+            "path": "excavations.form/log6_cover.png", 
+            "w": 49, 
+            "x": 871, 
+            "y": 378
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "log6", 
+            "path": "excavations.form/log6.png", 
+            "w": 73, 
+            "x": 845, 
+            "y": 379
+          }
+        }
+      ], 
+      "name": "丸太", 
+      "path": "excavations.sils/log.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "jeep1", 
+            "path": "excavations.form/jeep1.png", 
+            "w": 66, 
+            "x": 401, 
+            "y": 567
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "jeep2_cover", 
+            "path": "excavations.form/jeep2_cover.png", 
+            "w": 20, 
+            "x": 389, 
+            "y": 233
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "jeep2", 
+            "path": "excavations.form/jeep2.png", 
+            "w": 66, 
+            "x": 358, 
+            "y": 191
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "jeep3_cover", 
+            "path": "excavations.form/jeep3_cover.png", 
+            "w": 25, 
+            "x": 976, 
+            "y": 572
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "jeep3", 
+            "path": "excavations.form/jeep3.png", 
+            "w": 66, 
+            "x": 957, 
+            "y": 529
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 5, 
+            "name": "jeep4_cover", 
+            "path": "excavations.form/jeep4_cover.png", 
+            "w": 49, 
+            "x": 497, 
+            "y": 416
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "jeep4", 
+            "path": "excavations.form/jeep4.png", 
+            "w": 67, 
+            "x": 502, 
+            "y": 421
+          }
+        }, 
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "jeep5_cover", 
+            "path": "excavations.form/jeep5_cover.png", 
+            "w": 38, 
+            "x": 1067, 
+            "y": 576
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "jeep5", 
+            "path": "excavations.form/jeep5.png", 
+            "w": 66, 
+            "x": 1069, 
+            "y": 580
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "jeep6_cover", 
+            "path": "excavations.form/jeep6_cover.png", 
+            "w": 72, 
+            "x": 473, 
+            "y": 246
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "jeep6", 
+            "path": "excavations.form/jeep6.png", 
+            "w": 67, 
+            "x": 478, 
+            "y": 234
+          }
+        }
+      ], 
+      "name": "ジープ", 
+      "path": "excavations.sils/jeep.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "monkey1_1", 
+            "path": "excavations.morph/monkey1_1.png", 
+            "w": 57, 
+            "x": 872, 
+            "y": 105
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "monkey2_1", 
+            "path": "excavations.morph/monkey2_1.png", 
+            "w": 61, 
+            "x": 871, 
+            "y": 105
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "monkey1_2", 
+            "path": "excavations.morph/monkey1_2.png", 
+            "w": 57, 
+            "x": 496, 
+            "y": 115
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "monkey2_2", 
+            "path": "excavations.morph/monkey2_2.png", 
+            "w": 61, 
+            "x": 496, 
+            "y": 115
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "monkey1_3", 
+            "path": "excavations.morph/monkey1_3.png", 
+            "w": 57, 
+            "x": 602, 
+            "y": 78
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "monkey2_3", 
+            "path": "excavations.morph/monkey2_3.png", 
+            "w": 61, 
+            "x": 601, 
+            "y": 78
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "monkey1_4", 
+            "path": "excavations.morph/monkey1_4.png", 
+            "w": 57, 
+            "x": 1031, 
+            "y": 456
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "monkey2_4", 
+            "path": "excavations.morph/monkey2_4.png", 
+            "w": 61, 
+            "x": 1030, 
+            "y": 456
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "monkey1_5", 
+            "path": "excavations.morph/monkey1_5.png", 
+            "w": 56, 
+            "x": 1155, 
+            "y": 5
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "monkey2_5", 
+            "path": "excavations.morph/monkey2_5.png", 
+            "w": 61, 
+            "x": 1151, 
+            "y": 5
+          }
+        }
+      ], 
+      "name": "monkey"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "mask1_1", 
+            "path": "excavations.morph/mask1_1.png", 
+            "w": 54, 
+            "x": 1080, 
+            "y": 156
+          }, 
+          "pic2": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "mask2_1", 
+            "path": "excavations.morph/mask2_1.png", 
+            "w": 49, 
+            "x": 1081, 
+            "y": 154
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "mask1_2", 
+            "path": "excavations.morph/mask1_2.png", 
+            "w": 57, 
+            "x": 992, 
+            "y": 48
+          }, 
+          "pic2": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "mask2_2", 
+            "path": "excavations.morph/mask2_2.png", 
+            "w": 51, 
+            "x": 995, 
+            "y": 47
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "mask1_3", 
+            "path": "excavations.morph/mask1_3.png", 
+            "w": 56, 
+            "x": 454, 
+            "y": 370
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "mask2_3", 
+            "path": "excavations.morph/mask2_3.png", 
+            "w": 51, 
+            "x": 457, 
+            "y": 367
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "mask1_4_cover", 
+            "path": "excavations.morph/mask1_4_cover.png", 
+            "w": 60, 
+            "x": 518, 
+            "y": 35
+          }, 
+          "pic1": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "mask1_4", 
+            "path": "excavations.morph/mask1_4.png", 
+            "w": 50, 
+            "x": 521, 
+            "y": 32
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "mask2_4", 
+            "path": "excavations.morph/mask2_4.png", 
+            "w": 45, 
+            "x": 523, 
+            "y": 28
+          }
+        }, 
+        {
+          "cover": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "mask1_5_cover", 
+            "path": "excavations.morph/mask1_5_cover.png", 
+            "w": 66, 
+            "x": 875, 
+            "y": 40
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "mask1_5", 
+            "path": "excavations.morph/mask1_5.png", 
+            "w": 61, 
+            "x": 878, 
+            "y": 42
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "mask2_5", 
+            "path": "excavations.morph/mask2_5.png", 
+            "w": 46, 
+            "x": 883, 
+            "y": 50
+          }
+        }
+      ], 
+      "name": "mask"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "shield1_1", 
+            "path": "excavations.morph/shield1_1.png", 
+            "w": 54, 
+            "x": 561, 
+            "y": 558
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "shield2_1", 
+            "path": "excavations.morph/shield2_1.png", 
+            "w": 55, 
+            "x": 561, 
+            "y": 558
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "shield1_2", 
+            "path": "excavations.morph/shield1_2.png", 
+            "w": 55, 
+            "x": 1075, 
+            "y": 65
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "shield2_2", 
+            "path": "excavations.morph/shield2_2.png", 
+            "w": 56, 
+            "x": 1075, 
+            "y": 65
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "shield1_3_cover", 
+            "path": "excavations.morph/shield1_3_cover.png", 
+            "w": 58, 
+            "x": 721, 
+            "y": 451
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "shield1_3", 
+            "path": "excavations.morph/shield1_3.png", 
+            "w": 54, 
+            "x": 723, 
+            "y": 432
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "shield2_3", 
+            "path": "excavations.morph/shield2_3.png", 
+            "w": 54, 
+            "x": 723, 
+            "y": 432
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "shield1_4_cover", 
+            "path": "excavations.morph/shield1_4_cover.png", 
+            "w": 60, 
+            "x": 536, 
+            "y": 214
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "shield1_4", 
+            "path": "excavations.morph/shield1_4.png", 
+            "w": 54, 
+            "x": 538, 
+            "y": 213
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "shield2_4", 
+            "path": "excavations.morph/shield2_4.png", 
+            "w": 55, 
+            "x": 538, 
+            "y": 213
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "shield1_5_cover", 
+            "path": "excavations.morph/shield1_5_cover.png", 
+            "w": 65, 
+            "x": 763, 
+            "y": 100
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "shield1_5", 
+            "path": "excavations.morph/shield1_5.png", 
+            "w": 54, 
+            "x": 766, 
+            "y": 89
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "shield2_5", 
+            "path": "excavations.morph/shield2_5.png", 
+            "w": 55, 
+            "x": 765, 
+            "y": 89
+          }
+        }
+      ], 
+      "name": "shield"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "staff1_1", 
+            "path": "excavations.morph/staff1_1.png", 
+            "w": 78, 
+            "x": 425, 
+            "y": 505
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "staff2_1", 
+            "path": "excavations.morph/staff2_1.png", 
+            "w": 79, 
+            "x": 425, 
+            "y": 505
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "staff1_2", 
+            "path": "excavations.morph/staff1_2.png", 
+            "w": 15, 
+            "x": 1221, 
+            "y": 555
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "staff2_2", 
+            "path": "excavations.morph/staff2_2.png", 
+            "w": 15, 
+            "x": 1221, 
+            "y": 554
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "staff1_3", 
+            "path": "excavations.morph/staff1_3.png", 
+            "w": 13, 
+            "x": 797, 
+            "y": 230
+          }, 
+          "pic2": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "staff2_3", 
+            "path": "excavations.morph/staff2_3.png", 
+            "w": 13, 
+            "x": 797, 
+            "y": 230
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "staff1_4", 
+            "path": "excavations.morph/staff1_4.png", 
+            "w": 12, 
+            "x": 353, 
+            "y": 99
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "staff2_4", 
+            "path": "excavations.morph/staff2_4.png", 
+            "w": 12, 
+            "x": 352, 
+            "y": 98
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "staff1_5", 
+            "path": "excavations.morph/staff1_5.png", 
+            "w": 32, 
+            "x": 695, 
+            "y": 256
+          }, 
+          "pic2": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "staff2_5", 
+            "path": "excavations.morph/staff2_5.png", 
+            "w": 33, 
+            "x": 694, 
+            "y": 256
+          }
+        }
+      ], 
+      "name": "staff"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "flag1_1", 
+            "path": "excavations.morph/flag1_1.png", 
+            "w": 51, 
+            "x": 391, 
+            "y": 389
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "flag2_1", 
+            "path": "excavations.morph/flag2_1.png", 
+            "w": 52, 
+            "x": 391, 
+            "y": 393
+          }
+        }, 
+        {
+          "cover": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "flag1_2_cover", 
+            "path": "excavations.morph/flag1_2_cover.png", 
+            "w": 50, 
+            "x": 948, 
+            "y": 92
+          }, 
+          "pic1": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "flag1_2", 
+            "path": "excavations.morph/flag1_2.png", 
+            "w": 42, 
+            "x": 950, 
+            "y": 95
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "flag2_2", 
+            "path": "excavations.morph/flag2_2.png", 
+            "w": 42, 
+            "x": 949, 
+            "y": 97
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "flag1_3", 
+            "path": "excavations.morph/flag1_3.png", 
+            "w": 41, 
+            "x": 377, 
+            "y": 61
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "flag2_3", 
+            "path": "excavations.morph/flag2_3.png", 
+            "w": 40, 
+            "x": 377, 
+            "y": 65
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "flag1_4", 
+            "path": "excavations.morph/flag1_4.png", 
+            "w": 40, 
+            "x": 1142, 
+            "y": 125
+          }, 
+          "pic2": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "flag2_4", 
+            "path": "excavations.morph/flag2_4.png", 
+            "w": 40, 
+            "x": 1142, 
+            "y": 129
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "flag1_5_cover", 
+            "path": "excavations.morph/flag1_5_cover.png", 
+            "w": 48, 
+            "x": 665, 
+            "y": 65
+          }, 
+          "pic1": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "flag1_5", 
+            "path": "excavations.morph/flag1_5.png", 
+            "w": 42, 
+            "x": 669, 
+            "y": 66
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "flag2_5", 
+            "path": "excavations.morph/flag2_5.png", 
+            "w": 41, 
+            "x": 670, 
+            "y": 69
+          }
+        }
+      ], 
+      "name": "flag"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 81, 
+            "layer": 4, 
+            "name": "horse1_1", 
+            "path": "excavations.morph/horse1_1.png", 
+            "w": 63, 
+            "x": 735, 
+            "y": 580
+          }, 
+          "pic2": {
+            "h": 77, 
+            "layer": 4, 
+            "name": "horse2_1", 
+            "path": "excavations.morph/horse2_1.png", 
+            "w": 74, 
+            "x": 731, 
+            "y": 582
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "horse1_2_cover", 
+            "path": "excavations.morph/horse1_2_cover.png", 
+            "w": 45, 
+            "x": 478, 
+            "y": 250
+          }, 
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "horse1_2", 
+            "path": "excavations.morph/horse1_2.png", 
+            "w": 46, 
+            "x": 486, 
+            "y": 212
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "horse2_2", 
+            "path": "excavations.morph/horse2_2.png", 
+            "w": 51, 
+            "x": 488, 
+            "y": 214
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "horse1_3_cover", 
+            "path": "excavations.morph/horse1_3_cover.png", 
+            "w": 31, 
+            "x": 289, 
+            "y": 308
+          }, 
+          "pic1": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "horse1_3", 
+            "path": "excavations.morph/horse1_3.png", 
+            "w": 63, 
+            "x": 248, 
+            "y": 312
+          }, 
+          "pic2": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "horse2_3", 
+            "path": "excavations.morph/horse2_3.png", 
+            "w": 74, 
+            "x": 244, 
+            "y": 314
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "horse1_4_cover", 
+            "path": "excavations.morph/horse1_4_cover.png", 
+            "w": 36, 
+            "x": 724, 
+            "y": 254
+          }, 
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "horse1_4", 
+            "path": "excavations.morph/horse1_4.png", 
+            "w": 46, 
+            "x": 729, 
+            "y": 247
+          }, 
+          "pic2": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "horse2_4", 
+            "path": "excavations.morph/horse2_4.png", 
+            "w": 51, 
+            "x": 731, 
+            "y": 249
+          }
+        }, 
+        {
+          "cover": {
+            "h": 64, 
+            "layer": 4, 
+            "name": "horse1_5_cover", 
+            "path": "excavations.morph/horse1_5_cover.png", 
+            "w": 50, 
+            "x": 405, 
+            "y": 9
+          }, 
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "horse1_5", 
+            "path": "excavations.morph/horse1_5.png", 
+            "w": 46, 
+            "x": 408, 
+            "y": 7
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "horse2_5", 
+            "path": "excavations.morph/horse2_5.png", 
+            "w": 51, 
+            "x": 410, 
+            "y": 9
+          }
+        }
+      ], 
+      "name": "horse"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "turtle1_1_cover", 
+            "path": "excavations.morph/turtle1_1_cover.png", 
+            "w": 38, 
+            "x": 591, 
+            "y": 412
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "turtle1_1", 
+            "path": "excavations.morph/turtle1_1.png", 
+            "w": 66, 
+            "x": 626, 
+            "y": 391
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "turtle2_1", 
+            "path": "excavations.morph/turtle2_1.png", 
+            "w": 104, 
+            "x": 595, 
+            "y": 392
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "turtle1_2", 
+            "path": "excavations.morph/turtle1_2.png", 
+            "w": 66, 
+            "x": 511, 
+            "y": 606
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "turtle2_2", 
+            "path": "excavations.morph/turtle2_2.png", 
+            "w": 104, 
+            "x": 480, 
+            "y": 608
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "turtle1_3_cover", 
+            "path": "excavations.morph/turtle1_3_cover.png", 
+            "w": 96, 
+            "x": 979, 
+            "y": 362
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "turtle1_3", 
+            "path": "excavations.morph/turtle1_3.png", 
+            "w": 66, 
+            "x": 1002, 
+            "y": 346
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "turtle2_3", 
+            "path": "excavations.morph/turtle2_3.png", 
+            "w": 104, 
+            "x": 971, 
+            "y": 348
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "turtle1_4_cover", 
+            "path": "excavations.morph/turtle1_4_cover.png", 
+            "w": 47, 
+            "x": 314, 
+            "y": 390
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "turtle1_4", 
+            "path": "excavations.morph/turtle1_4.png", 
+            "w": 66, 
+            "x": 286, 
+            "y": 394
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "turtle2_4", 
+            "path": "excavations.morph/turtle2_4.png", 
+            "w": 104, 
+            "x": 255, 
+            "y": 396
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "turtle1_5", 
+            "path": "excavations.morph/turtle1_5.png", 
+            "w": 66, 
+            "x": 263, 
+            "y": 168
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "turtle2_5", 
+            "path": "excavations.morph/turtle2_5.png", 
+            "w": 104, 
+            "x": 232, 
+            "y": 169
+          }
+        }
+      ], 
+      "name": "turtle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "letter1_1", 
+            "path": "excavations.morph/letter1_1.png", 
+            "w": 48, 
+            "x": 683, 
+            "y": 485
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "letter2_1", 
+            "path": "excavations.morph/letter2_1.png", 
+            "w": 50, 
+            "x": 680, 
+            "y": 483
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "letter1_2", 
+            "path": "excavations.morph/letter1_2.png", 
+            "w": 48, 
+            "x": 1154, 
+            "y": 461
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "letter2_2", 
+            "path": "excavations.morph/letter2_2.png", 
+            "w": 49, 
+            "x": 1153, 
+            "y": 460
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "letter1_3_cover", 
+            "path": "excavations.morph/letter1_3_cover.png", 
+            "w": 27, 
+            "x": 944, 
+            "y": 207
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "letter1_3", 
+            "path": "excavations.morph/letter1_3.png", 
+            "w": 48, 
+            "x": 947, 
+            "y": 210
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "letter2_3", 
+            "path": "excavations.morph/letter2_3.png", 
+            "w": 49, 
+            "x": 948, 
+            "y": 209
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "letter1_4_cover", 
+            "path": "excavations.morph/letter1_4_cover.png", 
+            "w": 35, 
+            "x": 522, 
+            "y": 467
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "letter1_4", 
+            "path": "excavations.morph/letter1_4.png", 
+            "w": 48, 
+            "x": 523, 
+            "y": 471
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "letter2_4", 
+            "path": "excavations.morph/letter2_4.png", 
+            "w": 49, 
+            "x": 524, 
+            "y": 471
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "letter1_5_cover", 
+            "path": "excavations.morph/letter1_5_cover.png", 
+            "w": 55, 
+            "x": 460, 
+            "y": 62
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "letter1_5", 
+            "path": "excavations.morph/letter1_5.png", 
+            "w": 48, 
+            "x": 462, 
+            "y": 66
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "letter2_5", 
+            "path": "excavations.morph/letter2_5.png", 
+            "w": 49, 
+            "x": 461, 
+            "y": 65
+          }
+        }
+      ], 
+      "name": "letter"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "egg1_1", 
+            "path": "excavations.morph/egg1_1.png", 
+            "w": 38, 
+            "x": 705, 
+            "y": 378
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "egg2_1", 
+            "path": "excavations.morph/egg2_1.png", 
+            "w": 42, 
+            "x": 702, 
+            "y": 380
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "egg1_2", 
+            "path": "excavations.morph/egg1_2.png", 
+            "w": 38, 
+            "x": 831, 
+            "y": 371
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "egg2_2", 
+            "path": "excavations.morph/egg2_2.png", 
+            "w": 41, 
+            "x": 829, 
+            "y": 373
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "egg1_3_cover", 
+            "path": "excavations.morph/egg1_3_cover.png", 
+            "w": 42, 
+            "x": 286, 
+            "y": 619
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "egg1_3", 
+            "path": "excavations.morph/egg1_3.png", 
+            "w": 38, 
+            "x": 285, 
+            "y": 597
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "egg2_3", 
+            "path": "excavations.morph/egg2_3.png", 
+            "w": 41, 
+            "x": 283, 
+            "y": 599
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "egg1_4_cover", 
+            "path": "excavations.morph/egg1_4_cover.png", 
+            "w": 22, 
+            "x": 650, 
+            "y": 608
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "egg1_4", 
+            "path": "excavations.morph/egg1_4.png", 
+            "w": 38, 
+            "x": 654, 
+            "y": 610
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "egg2_4", 
+            "path": "excavations.morph/egg2_4.png", 
+            "w": 41, 
+            "x": 652, 
+            "y": 612
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "egg1_5_cover", 
+            "path": "excavations.morph/egg1_5_cover.png", 
+            "w": 46, 
+            "x": 970, 
+            "y": 563
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "egg1_5", 
+            "path": "excavations.morph/egg1_5.png", 
+            "w": 38, 
+            "x": 976, 
+            "y": 558
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "egg2_5", 
+            "path": "excavations.morph/egg2_5.png", 
+            "w": 42, 
+            "x": 973, 
+            "y": 560
+          }
+        }
+      ], 
+      "name": "egg"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 83, 
+            "layer": 4, 
+            "name": "flamingo1_1_cover", 
+            "path": "excavations.morph/flamingo1_1_cover.png", 
+            "w": 18, 
+            "x": 959, 
+            "y": 263
+          }, 
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "flamingo1_1", 
+            "path": "excavations.morph/flamingo1_1.png", 
+            "w": 44, 
+            "x": 935, 
+            "y": 266
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "flamingo2_1", 
+            "path": "excavations.morph/flamingo2_1.png", 
+            "w": 40, 
+            "x": 940, 
+            "y": 254
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 78, 
+            "layer": 4, 
+            "name": "flamingo1_2", 
+            "path": "excavations.morph/flamingo1_2.png", 
+            "w": 42, 
+            "x": 538, 
+            "y": 381
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "flamingo2_2", 
+            "path": "excavations.morph/flamingo2_2.png", 
+            "w": 40, 
+            "x": 538, 
+            "y": 369
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 79, 
+            "layer": 4, 
+            "name": "flamingo1_3", 
+            "path": "excavations.morph/flamingo1_3.png", 
+            "w": 42, 
+            "x": 913, 
+            "y": 411
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "flamingo2_3", 
+            "path": "excavations.morph/flamingo2_3.png", 
+            "w": 40, 
+            "x": 915, 
+            "y": 399
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "flamingo1_4", 
+            "path": "excavations.morph/flamingo1_4.png", 
+            "w": 82, 
+            "x": 371, 
+            "y": 291
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "flamingo2_4", 
+            "path": "excavations.morph/flamingo2_4.png", 
+            "w": 82, 
+            "x": 382, 
+            "y": 285
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "flamingo1_5_cover", 
+            "path": "excavations.morph/flamingo1_5_cover.png", 
+            "w": 34, 
+            "x": 417, 
+            "y": 214
+          }, 
+          "pic1": {
+            "h": 80, 
+            "layer": 4, 
+            "name": "flamingo1_5", 
+            "path": "excavations.morph/flamingo1_5.png", 
+            "w": 44, 
+            "x": 417, 
+            "y": 174
+          }, 
+          "pic2": {
+            "h": 88, 
+            "layer": 4, 
+            "name": "flamingo2_5", 
+            "path": "excavations.morph/flamingo2_5.png", 
+            "w": 40, 
+            "x": 417, 
+            "y": 162
+          }
+        }
+      ], 
+      "name": "flamingo"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "calc1_1", 
+            "path": "excavations.morph/calc1_1.png", 
+            "w": 58, 
+            "x": 893, 
+            "y": 597
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "calc2_1", 
+            "path": "excavations.morph/calc2_1.png", 
+            "w": 61, 
+            "x": 895, 
+            "y": 597
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "calc1_2", 
+            "path": "excavations.morph/calc1_2.png", 
+            "w": 57, 
+            "x": 1150, 
+            "y": 537
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "calc2_2", 
+            "path": "excavations.morph/calc2_2.png", 
+            "w": 61, 
+            "x": 1151, 
+            "y": 537
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "calc1_3", 
+            "path": "excavations.morph/calc1_3.png", 
+            "w": 58, 
+            "x": 775, 
+            "y": 180
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "calc2_3", 
+            "path": "excavations.morph/calc2_3.png", 
+            "w": 61, 
+            "x": 775, 
+            "y": 181
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "calc1_4_cover", 
+            "path": "excavations.morph/calc1_4_cover.png", 
+            "w": 64, 
+            "x": 1177, 
+            "y": 300
+          }, 
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "calc1_4", 
+            "path": "excavations.morph/calc1_4.png", 
+            "w": 57, 
+            "x": 1179, 
+            "y": 276
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "calc2_4", 
+            "path": "excavations.morph/calc2_4.png", 
+            "w": 61, 
+            "x": 1180, 
+            "y": 276
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "calc1_5_cover", 
+            "path": "excavations.morph/calc1_5_cover.png", 
+            "w": 39, 
+            "x": 349, 
+            "y": 525
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "calc1_5", 
+            "path": "excavations.morph/calc1_5.png", 
+            "w": 58, 
+            "x": 324, 
+            "y": 530
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "calc2_5", 
+            "path": "excavations.morph/calc2_5.png", 
+            "w": 61, 
+            "x": 325, 
+            "y": 530
+          }
+        }
+      ], 
+      "name": "calc"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 137, 
+            "layer": 4, 
+            "name": "liana1_1", 
+            "path": "excavations.morph/liana1_1.png", 
+            "w": 38, 
+            "x": 1080, 
+            "y": 437
+          }, 
+          "pic2": {
+            "h": 141, 
+            "layer": 4, 
+            "name": "liana2_1", 
+            "path": "excavations.morph/liana2_1.png", 
+            "w": 38, 
+            "x": 1081, 
+            "y": 434
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "liana1_2_cover", 
+            "path": "excavations.morph/liana1_2_cover.png", 
+            "w": 27, 
+            "x": 570, 
+            "y": 82
+          }, 
+          "pic1": {
+            "h": 139, 
+            "layer": 4, 
+            "name": "liana1_2", 
+            "path": "excavations.morph/liana1_2.png", 
+            "w": 32, 
+            "x": 575, 
+            "y": 88
+          }, 
+          "pic2": {
+            "h": 141, 
+            "layer": 4, 
+            "name": "liana2_2", 
+            "path": "excavations.morph/liana2_2.png", 
+            "w": 34, 
+            "x": 573, 
+            "y": 86
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 139, 
+            "layer": 4, 
+            "name": "liana1_3", 
+            "path": "excavations.morph/liana1_3.png", 
+            "w": 28, 
+            "x": 1031, 
+            "y": 139
+          }, 
+          "pic2": {
+            "h": 143, 
+            "layer": 4, 
+            "name": "liana2_3", 
+            "path": "excavations.morph/liana2_3.png", 
+            "w": 25, 
+            "x": 1034, 
+            "y": 136
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 139, 
+            "layer": 4, 
+            "name": "liana1_4", 
+            "path": "excavations.morph/liana1_4.png", 
+            "w": 28, 
+            "x": 841, 
+            "y": 131
+          }, 
+          "pic2": {
+            "h": 142, 
+            "layer": 4, 
+            "name": "liana2_4", 
+            "path": "excavations.morph/liana2_4.png", 
+            "w": 25, 
+            "x": 840, 
+            "y": 128
+          }
+        }, 
+        {
+          "cover": {
+            "h": 145, 
+            "layer": 4, 
+            "name": "liana1_5_cover", 
+            "path": "excavations.morph/liana1_5_cover.png", 
+            "w": 35, 
+            "x": 453, 
+            "y": 137
+          }, 
+          "pic1": {
+            "h": 139, 
+            "layer": 4, 
+            "name": "liana1_5", 
+            "path": "excavations.morph/liana1_5.png", 
+            "w": 32, 
+            "x": 453, 
+            "y": 142
+          }, 
+          "pic2": {
+            "h": 141, 
+            "layer": 4, 
+            "name": "liana2_5", 
+            "path": "excavations.morph/liana2_5.png", 
+            "w": 34, 
+            "x": 451, 
+            "y": 140
+          }
+        }
+      ], 
+      "name": "liana"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "jerboa1_1", 
+            "path": "excavations.morph/jerboa1_1.png", 
+            "w": 106, 
+            "x": 787, 
+            "y": 541
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "jerboa2_1", 
+            "path": "excavations.morph/jerboa2_1.png", 
+            "w": 73, 
+            "x": 812, 
+            "y": 569
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "jerboa1_2", 
+            "path": "excavations.morph/jerboa1_2.png", 
+            "w": 107, 
+            "x": 825, 
+            "y": 462
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "jerboa2_2", 
+            "path": "excavations.morph/jerboa2_2.png", 
+            "w": 73, 
+            "x": 851, 
+            "y": 489
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "jerboa1_3", 
+            "path": "excavations.morph/jerboa1_3.png", 
+            "w": 106, 
+            "x": 691, 
+            "y": 304
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "jerboa2_3", 
+            "path": "excavations.morph/jerboa2_3.png", 
+            "w": 73, 
+            "x": 717, 
+            "y": 331
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 68, 
+            "layer": 4, 
+            "name": "jerboa1_4", 
+            "path": "excavations.morph/jerboa1_4.png", 
+            "w": 106, 
+            "x": 607, 
+            "y": 216
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "jerboa2_4", 
+            "path": "excavations.morph/jerboa2_4.png", 
+            "w": 73, 
+            "x": 632, 
+            "y": 244
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "jerboa1_5_cover", 
+            "path": "excavations.morph/jerboa1_5_cover.png", 
+            "w": 18, 
+            "x": 1116, 
+            "y": 372
+          }, 
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "jerboa1_5", 
+            "path": "excavations.morph/jerboa1_5.png", 
+            "w": 107, 
+            "x": 1086, 
+            "y": 337
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "jerboa2_5", 
+            "path": "excavations.morph/jerboa2_5.png", 
+            "w": 73, 
+            "x": 1112, 
+            "y": 364
+          }
+        }
+      ], 
+      "name": "jerboa"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "banana1_1", 
+            "path": "excavations.morph/banana1_1.png", 
+            "w": 50, 
+            "x": 468, 
+            "y": 523
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "banana2_1", 
+            "path": "excavations.morph/banana2_1.png", 
+            "w": 54, 
+            "x": 468, 
+            "y": 530
+          }
+        }, 
+        {
+          "cover": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "banana1_2_cover", 
+            "path": "excavations.morph/banana1_2_cover.png", 
+            "w": 42, 
+            "x": 1074, 
+            "y": 585
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "banana1_2", 
+            "path": "excavations.morph/banana1_2.png", 
+            "w": 50, 
+            "x": 1078, 
+            "y": 576
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "banana2_2", 
+            "path": "excavations.morph/banana2_2.png", 
+            "w": 54, 
+            "x": 1078, 
+            "y": 583
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "banana1_3_cover", 
+            "path": "excavations.morph/banana1_3_cover.png", 
+            "w": 53, 
+            "x": 715, 
+            "y": 524
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "banana1_3", 
+            "path": "excavations.morph/banana1_3.png", 
+            "w": 50, 
+            "x": 719, 
+            "y": 490
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "banana2_3", 
+            "path": "excavations.morph/banana2_3.png", 
+            "w": 54, 
+            "x": 719, 
+            "y": 497
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "banana1_4_cover", 
+            "path": "excavations.morph/banana1_4_cover.png", 
+            "w": 76, 
+            "x": 989, 
+            "y": 275
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "banana1_4", 
+            "path": "excavations.morph/banana1_4.png", 
+            "w": 68, 
+            "x": 996, 
+            "y": 281
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "banana2_4", 
+            "path": "excavations.morph/banana2_4.png", 
+            "w": 66, 
+            "x": 993, 
+            "y": 282
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "banana1_5_cover", 
+            "path": "excavations.morph/banana1_5_cover.png", 
+            "w": 54, 
+            "x": 336, 
+            "y": 280
+          }, 
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "banana1_5", 
+            "path": "excavations.morph/banana1_5.png", 
+            "w": 50, 
+            "x": 339, 
+            "y": 248
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "banana2_5", 
+            "path": "excavations.morph/banana2_5.png", 
+            "w": 54, 
+            "x": 339, 
+            "y": 255
+          }
+        }
+      ], 
+      "name": "banana"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "lamp1_1", 
+            "path": "excavations.morph/lamp1_1.png", 
+            "w": 66, 
+            "x": 625, 
+            "y": 293
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "lamp2_1", 
+            "path": "excavations.morph/lamp2_1.png", 
+            "w": 94, 
+            "x": 593, 
+            "y": 288
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "lamp1_2", 
+            "path": "excavations.morph/lamp1_2.png", 
+            "w": 67, 
+            "x": 396, 
+            "y": 577
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "lamp2_2", 
+            "path": "excavations.morph/lamp2_2.png", 
+            "w": 94, 
+            "x": 364, 
+            "y": 572
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "lamp1_3", 
+            "path": "excavations.morph/lamp1_3.png", 
+            "w": 67, 
+            "x": 526, 
+            "y": 516
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "lamp2_3", 
+            "path": "excavations.morph/lamp2_3.png", 
+            "w": 94, 
+            "x": 494, 
+            "y": 511
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "lamp1_4", 
+            "path": "excavations.morph/lamp1_4.png", 
+            "w": 67, 
+            "x": 527, 
+            "y": 266
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "lamp2_4", 
+            "path": "excavations.morph/lamp2_4.png", 
+            "w": 94, 
+            "x": 495, 
+            "y": 261
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "lamp1_5", 
+            "path": "excavations.morph/lamp1_5.png", 
+            "w": 67, 
+            "x": 245, 
+            "y": 210
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "lamp2_5", 
+            "path": "excavations.morph/lamp2_5.png", 
+            "w": 79, 
+            "x": 228, 
+            "y": 205
+          }
+        }
+      ], 
+      "name": "lamp"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "compas1_1", 
+            "path": "excavations.morph/compas1_1.png", 
+            "w": 55, 
+            "x": 435, 
+            "y": 454
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "compas2_1", 
+            "path": "excavations.morph/compas2_1.png", 
+            "w": 50, 
+            "x": 440, 
+            "y": 456
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "compas1_2_cover", 
+            "path": "excavations.morph/compas1_2_cover.png", 
+            "w": 53, 
+            "x": 817, 
+            "y": 272
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "compas1_2", 
+            "path": "excavations.morph/compas1_2.png", 
+            "w": 55, 
+            "x": 814, 
+            "y": 268
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "compas2_2", 
+            "path": "excavations.morph/compas2_2.png", 
+            "w": 50, 
+            "x": 819, 
+            "y": 278
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "compas1_3_cover", 
+            "path": "excavations.morph/compas1_3_cover.png", 
+            "w": 58, 
+            "x": 628, 
+            "y": 576
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "compas1_3", 
+            "path": "excavations.morph/compas1_3.png", 
+            "w": 54, 
+            "x": 629, 
+            "y": 551
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "compas2_3", 
+            "path": "excavations.morph/compas2_3.png", 
+            "w": 51, 
+            "x": 633, 
+            "y": 554
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "compas1_4_cover", 
+            "path": "excavations.morph/compas1_4_cover.png", 
+            "w": 60, 
+            "x": 1067, 
+            "y": 281
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "compas1_4", 
+            "path": "excavations.morph/compas1_4.png", 
+            "w": 55, 
+            "x": 1070, 
+            "y": 266
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "compas2_4", 
+            "path": "excavations.morph/compas2_4.png", 
+            "w": 50, 
+            "x": 1075, 
+            "y": 269
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "compas1_5_cover", 
+            "path": "excavations.morph/compas1_5_cover.png", 
+            "w": 59, 
+            "x": 884, 
+            "y": 176
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "compas1_5", 
+            "path": "excavations.morph/compas1_5.png", 
+            "w": 54, 
+            "x": 884, 
+            "y": 172
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "compas2_5", 
+            "path": "excavations.morph/compas2_5.png", 
+            "w": 51, 
+            "x": 888, 
+            "y": 175
+          }
+        }
+      ], 
+      "name": "compas"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "belt1_1", 
+            "path": "excavations.morph/belt1_1.png", 
+            "w": 72, 
+            "x": 1113, 
+            "y": 414
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "belt2_1", 
+            "path": "excavations.morph/belt2_1.png", 
+            "w": 64, 
+            "x": 1119, 
+            "y": 398
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "belt1_2", 
+            "path": "excavations.morph/belt1_2.png", 
+            "w": 72, 
+            "x": 608, 
+            "y": 503
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "belt2_2", 
+            "path": "excavations.morph/belt2_2.png", 
+            "w": 64, 
+            "x": 614, 
+            "y": 488
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "belt1_3_cover", 
+            "path": "excavations.morph/belt1_3_cover.png", 
+            "w": 35, 
+            "x": 330, 
+            "y": 444
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "belt1_3", 
+            "path": "excavations.morph/belt1_3.png", 
+            "w": 72, 
+            "x": 290, 
+            "y": 454
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "belt2_3", 
+            "path": "excavations.morph/belt2_3.png", 
+            "w": 65, 
+            "x": 296, 
+            "y": 439
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "belt1_4_cover", 
+            "path": "excavations.morph/belt1_4_cover.png", 
+            "w": 39, 
+            "x": 966, 
+            "y": 482
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "belt1_4", 
+            "path": "excavations.morph/belt1_4.png", 
+            "w": 72, 
+            "x": 928, 
+            "y": 490
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "belt2_4", 
+            "path": "excavations.morph/belt2_4.png", 
+            "w": 65, 
+            "x": 934, 
+            "y": 475
+          }
+        }, 
+        {
+          "cover": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "belt1_5_cover", 
+            "path": "excavations.morph/belt1_5_cover.png", 
+            "w": 48, 
+            "x": 873, 
+            "y": 337
+          }, 
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "belt1_5", 
+            "path": "excavations.morph/belt1_5.png", 
+            "w": 72, 
+            "x": 872, 
+            "y": 356
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "belt2_5", 
+            "path": "excavations.morph/belt2_5.png", 
+            "w": 65, 
+            "x": 878, 
+            "y": 341
+          }
+        }
+      ], 
+      "name": "belt"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "log1_1", 
+            "path": "excavations.morph/log1_1.png", 
+            "w": 83, 
+            "x": 760, 
+            "y": 412
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "log2_1", 
+            "path": "excavations.morph/log2_1.png", 
+            "w": 107, 
+            "x": 747, 
+            "y": 410
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "log1_2", 
+            "path": "excavations.morph/log1_2.png", 
+            "w": 84, 
+            "x": 972, 
+            "y": 390
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "log2_2", 
+            "path": "excavations.morph/log2_2.png", 
+            "w": 108, 
+            "x": 959, 
+            "y": 387
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "log1_3", 
+            "path": "excavations.morph/log1_3.png", 
+            "w": 84, 
+            "x": 1144, 
+            "y": 632
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "log2_3", 
+            "path": "excavations.morph/log2_3.png", 
+            "w": 108, 
+            "x": 1131, 
+            "y": 629
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "log1_4", 
+            "path": "excavations.morph/log1_4.png", 
+            "w": 83, 
+            "x": 326, 
+            "y": 209
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "log2_4", 
+            "path": "excavations.morph/log2_4.png", 
+            "w": 107, 
+            "x": 313, 
+            "y": 207
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "log1_5", 
+            "path": "excavations.morph/log1_5.png", 
+            "w": 82, 
+            "x": 748, 
+            "y": 157
+          }, 
+          "pic2": {
+            "h": 23, 
+            "layer": 4, 
+            "name": "log2_5", 
+            "path": "excavations.morph/log2_5.png", 
+            "w": 107, 
+            "x": 735, 
+            "y": 158
+          }
+        }
+      ], 
+      "name": "log"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "totem1_1_cover", 
+            "path": "excavations.morph/totem1_1_cover.png", 
+            "w": 35, 
+            "x": 700, 
+            "y": 91
+          }, 
+          "pic1": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "totem1_1", 
+            "path": "excavations.morph/totem1_1.png", 
+            "w": 48, 
+            "x": 702, 
+            "y": 95
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "totem2_1", 
+            "path": "excavations.morph/totem2_1.png", 
+            "w": 26, 
+            "x": 712, 
+            "y": 104
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "totem1_2", 
+            "path": "excavations.morph/totem1_2.png", 
+            "w": 48, 
+            "x": 579, 
+            "y": 326
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "totem2_2", 
+            "path": "excavations.morph/totem2_2.png", 
+            "w": 26, 
+            "x": 590, 
+            "y": 336
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "totem1_3", 
+            "path": "excavations.morph/totem1_3.png", 
+            "w": 48, 
+            "x": 893, 
+            "y": 255
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "totem2_3", 
+            "path": "excavations.morph/totem2_3.png", 
+            "w": 26, 
+            "x": 902, 
+            "y": 264
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 82, 
+            "layer": 4, 
+            "name": "totem1_4", 
+            "path": "excavations.morph/totem1_4.png", 
+            "w": 48, 
+            "x": 1124, 
+            "y": 211
+          }, 
+          "pic2": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "totem2_4", 
+            "path": "excavations.morph/totem2_4.png", 
+            "w": 27, 
+            "x": 1133, 
+            "y": 220
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "totem1_5_cover", 
+            "path": "excavations.morph/totem1_5_cover.png", 
+            "w": 35, 
+            "x": 1031, 
+            "y": 579
+          }, 
+          "pic1": {
+            "h": 76, 
+            "layer": 4, 
+            "name": "totem1_5", 
+            "path": "excavations.morph/totem1_5.png", 
+            "w": 48, 
+            "x": 1025, 
+            "y": 532
+          }, 
+          "pic2": {
+            "h": 66, 
+            "layer": 4, 
+            "name": "totem2_5", 
+            "path": "excavations.morph/totem2_5.png", 
+            "w": 27, 
+            "x": 1034, 
+            "y": 541
+          }
+        }
+      ], 
+      "name": "totem"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "flask1_1_cover", 
+            "path": "excavations.morph/flask1_1_cover.png", 
+            "w": 46, 
+            "x": 788, 
+            "y": 547
+          }, 
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "flask1_1", 
+            "path": "excavations.morph/flask1_1.png", 
+            "w": 44, 
+            "x": 789, 
+            "y": 518
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "flask2_1", 
+            "path": "excavations.morph/flask2_1.png", 
+            "w": 43, 
+            "x": 790, 
+            "y": 518
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "flask1_2_cover", 
+            "path": "excavations.morph/flask1_2_cover.png", 
+            "w": 51, 
+            "x": 245, 
+            "y": 550
+          }, 
+          "pic1": {
+            "h": 57, 
+            "layer": 4, 
+            "name": "flask1_2", 
+            "path": "excavations.morph/flask1_2.png", 
+            "w": 45, 
+            "x": 248, 
+            "y": 520
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "flask2_2", 
+            "path": "excavations.morph/flask2_2.png", 
+            "w": 43, 
+            "x": 250, 
+            "y": 520
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "flask1_3_cover", 
+            "path": "excavations.morph/flask1_3_cover.png", 
+            "w": 25, 
+            "x": 655, 
+            "y": 199
+          }, 
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "flask1_3", 
+            "path": "excavations.morph/flask1_3.png", 
+            "w": 42, 
+            "x": 635, 
+            "y": 193
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "flask2_3", 
+            "path": "excavations.morph/flask2_3.png", 
+            "w": 41, 
+            "x": 636, 
+            "y": 193
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "flask1_4", 
+            "path": "excavations.morph/flask1_4.png", 
+            "w": 42, 
+            "x": 286, 
+            "y": 93
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "flask2_4", 
+            "path": "excavations.morph/flask2_4.png", 
+            "w": 41, 
+            "x": 287, 
+            "y": 93
+          }
+        }, 
+        {
+          "cover": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "flask1_5_cover", 
+            "path": "excavations.morph/flask1_5_cover.png", 
+            "w": 45, 
+            "x": 1119, 
+            "y": 316
+          }, 
+          "pic1": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "flask1_5", 
+            "path": "excavations.morph/flask1_5.png", 
+            "w": 44, 
+            "x": 1118, 
+            "y": 301
+          }, 
+          "pic2": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "flask2_5", 
+            "path": "excavations.morph/flask2_5.png", 
+            "w": 43, 
+            "x": 1119, 
+            "y": 301
+          }
+        }
+      ], 
+      "name": "flask"
+    }
+  ], 
+  "part": [
+    {
+      "name": "archaeology_tool_set_orig", 
+      "path": "excavations.part/archaeology_tool_set_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "archaeology_tool_set1_1", 
+                "path": "excavations.part/archaeology_tool_set1_1.png", 
+                "w": 68, 
+                "x": 966, 
+                "y": 405
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "archaeology_tool_set1_2", 
+                "path": "excavations.part/archaeology_tool_set1_2.png", 
+                "w": 62, 
+                "x": 805, 
+                "y": 367
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "archaeology_tool_set1_3", 
+                "path": "excavations.part/archaeology_tool_set1_3.png", 
+                "w": 68, 
+                "x": 1103, 
+                "y": 240
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "archaeology_tool_set1_4_cover", 
+                "path": "excavations.part/archaeology_tool_set1_4_cover.png", 
+                "w": 35, 
+                "x": 344, 
+                "y": 496
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "archaeology_tool_set1_4", 
+                "path": "excavations.part/archaeology_tool_set1_4.png", 
+                "w": 70, 
+                "x": 307, 
+                "y": 494
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "archaeology_tool_set1_5_cover", 
+                "path": "excavations.part/archaeology_tool_set1_5_cover.png", 
+                "w": 69, 
+                "x": 756, 
+                "y": 555
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "archaeology_tool_set1_5", 
+                "path": "excavations.part/archaeology_tool_set1_5.png", 
+                "w": 69, 
+                "x": 758, 
+                "y": 552
+              }
+            }
+          ], 
+          "name": "archaeologytoolset1", 
+          "path": "excavations.part/archaeologytoolset1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "archaeology_tool_set2_1", 
+                "path": "excavations.part/archaeology_tool_set2_1.png", 
+                "w": 70, 
+                "x": 943, 
+                "y": 617
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "archaeology_tool_set2_2", 
+                "path": "excavations.part/archaeology_tool_set2_2.png", 
+                "w": 72, 
+                "x": 515, 
+                "y": 564
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "archaeology_tool_set2_3", 
+                "path": "excavations.part/archaeology_tool_set2_3.png", 
+                "w": 70, 
+                "x": 315, 
+                "y": 216
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "archaeology_tool_set2_4_cover", 
+                "path": "excavations.part/archaeology_tool_set2_4_cover.png", 
+                "w": 10, 
+                "x": 858, 
+                "y": 258
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "archaeology_tool_set2_4", 
+                "path": "excavations.part/archaeology_tool_set2_4.png", 
+                "w": 66, 
+                "x": 851, 
+                "y": 259
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "archaeology_tool_set2_5", 
+                "path": "excavations.part/archaeology_tool_set2_5.png", 
+                "w": 67, 
+                "x": 632, 
+                "y": 622
+              }
+            }
+          ], 
+          "name": "archaeologytoolset2", 
+          "path": "excavations.part/archaeologytoolset2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "archaeology_tool_set3_1", 
+                "path": "excavations.part/archaeology_tool_set3_1.png", 
+                "w": 37, 
+                "x": 1041, 
+                "y": 344
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "archaeology_tool_set3_2", 
+                "path": "excavations.part/archaeology_tool_set3_2.png", 
+                "w": 40, 
+                "x": 391, 
+                "y": 391
+              }
+            }, 
+            {
+              "cover": {
+                "h": 25, 
+                "layer": 5, 
+                "name": "archaeology_tool_set3_3_cover", 
+                "path": "excavations.part/archaeology_tool_set3_3_cover.png", 
+                "w": 27, 
+                "x": 1061, 
+                "y": 488
+              }, 
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "archaeology_tool_set3_3", 
+                "path": "excavations.part/archaeology_tool_set3_3.png", 
+                "w": 37, 
+                "x": 1060, 
+                "y": 450
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "archaeology_tool_set3_4_cover", 
+                "path": "excavations.part/archaeology_tool_set3_4_cover.png", 
+                "w": 31, 
+                "x": 254, 
+                "y": 497
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "archaeology_tool_set3_4", 
+                "path": "excavations.part/archaeology_tool_set3_4.png", 
+                "w": 50, 
+                "x": 236, 
+                "y": 460
+              }
+            }, 
+            {
+              "cover": {
+                "h": 62, 
+                "layer": 5, 
+                "name": "archaeology_tool_set3_5_cover", 
+                "path": "excavations.part/archaeology_tool_set3_5_cover.png", 
+                "w": 34, 
+                "x": 591, 
+                "y": 265
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "archaeology_tool_set3_5", 
+                "path": "excavations.part/archaeology_tool_set3_5.png", 
+                "w": 50, 
+                "x": 577, 
+                "y": 265
+              }
+            }
+          ], 
+          "name": "archaeologytoolset3", 
+          "path": "excavations.part/archaeologytoolset3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "archaeology_tool_set4_1", 
+                "path": "excavations.part/archaeology_tool_set4_1.png", 
+                "w": 59, 
+                "x": 687, 
+                "y": 550
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "archaeology_tool_set4_2", 
+                "path": "excavations.part/archaeology_tool_set4_2.png", 
+                "w": 26, 
+                "x": 1079, 
+                "y": 510
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "archaeology_tool_set4_3", 
+                "path": "excavations.part/archaeology_tool_set4_3.png", 
+                "w": 17, 
+                "x": 1040, 
+                "y": 503
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "archaeology_tool_set4_4", 
+                "path": "excavations.part/archaeology_tool_set4_4.png", 
+                "w": 64, 
+                "x": 435, 
+                "y": 405
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "archaeology_tool_set4_5", 
+                "path": "excavations.part/archaeology_tool_set4_5.png", 
+                "w": 27, 
+                "x": 975, 
+                "y": 326
+              }
+            }
+          ], 
+          "name": "archaeologytoolset4", 
+          "path": "excavations.part/archaeologytoolset4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "archaeology_tool_set5_1", 
+                "path": "excavations.part/archaeology_tool_set5_1.png", 
+                "w": 62, 
+                "x": 447, 
+                "y": 499
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "archaeology_tool_set5_2", 
+                "path": "excavations.part/archaeology_tool_set5_2.png", 
+                "w": 64, 
+                "x": 766, 
+                "y": 624
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "archaeology_tool_set5_3_cover", 
+                "path": "excavations.part/archaeology_tool_set5_3_cover.png", 
+                "w": 30, 
+                "x": 708, 
+                "y": 164
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "archaeology_tool_set5_3", 
+                "path": "excavations.part/archaeology_tool_set5_3.png", 
+                "w": 65, 
+                "x": 698, 
+                "y": 146
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "archaeology_tool_set5_4_cover", 
+                "path": "excavations.part/archaeology_tool_set5_4_cover.png", 
+                "w": 7, 
+                "x": 972, 
+                "y": 281
+              }, 
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "archaeology_tool_set5_4", 
+                "path": "excavations.part/archaeology_tool_set5_4.png", 
+                "w": 23, 
+                "x": 957, 
+                "y": 279
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "archaeology_tool_set5_5_cover", 
+                "path": "excavations.part/archaeology_tool_set5_5_cover.png", 
+                "w": 28, 
+                "x": 611, 
+                "y": 445
+              }, 
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "archaeology_tool_set5_5", 
+                "path": "excavations.part/archaeology_tool_set5_5.png", 
+                "w": 68, 
+                "x": 569, 
+                "y": 444
+              }
+            }
+          ], 
+          "name": "archaeologytoolset5", 
+          "path": "excavations.part/archaeologytoolset5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "metal_detector_orig", 
+      "path": "excavations.part/metal_detector_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "metal_detector1_1", 
+                "path": "excavations.part/metal_detector1_1.png", 
+                "w": 63, 
+                "x": 446, 
+                "y": 589
+              }
+            }, 
+            {
+              "cover": {
+                "h": 18, 
+                "layer": 5, 
+                "name": "metal_detector1_2_cover", 
+                "path": "excavations.part/metal_detector1_2_cover.png", 
+                "w": 61, 
+                "x": 880, 
+                "y": 559
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "metal_detector1_2", 
+                "path": "excavations.part/metal_detector1_2.png", 
+                "w": 58, 
+                "x": 880, 
+                "y": 527
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "metal_detector1_3_cover", 
+                "path": "excavations.part/metal_detector1_3_cover.png", 
+                "w": 28, 
+                "x": 623, 
+                "y": 569
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "metal_detector1_3", 
+                "path": "excavations.part/metal_detector1_3.png", 
+                "w": 63, 
+                "x": 588, 
+                "y": 571
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "metal_detector1_4_cover", 
+                "path": "excavations.part/metal_detector1_4_cover.png", 
+                "w": 32, 
+                "x": 327, 
+                "y": 440
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "metal_detector1_4", 
+                "path": "excavations.part/metal_detector1_4.png", 
+                "w": 61, 
+                "x": 296, 
+                "y": 444
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "metal_detector1_5_cover", 
+                "path": "excavations.part/metal_detector1_5_cover.png", 
+                "w": 62, 
+                "x": 392, 
+                "y": 265
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "metal_detector1_5", 
+                "path": "excavations.part/metal_detector1_5.png", 
+                "w": 61, 
+                "x": 392, 
+                "y": 257
+              }
+            }
+          ], 
+          "name": "metaldetector1", 
+          "path": "excavations.part/metaldetector1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 99, 
+                "layer": 4, 
+                "name": "metal_detector2_1", 
+                "path": "excavations.part/metal_detector2_1.png", 
+                "w": 35, 
+                "x": 928, 
+                "y": 136
+              }
+            }, 
+            {
+              "pic": {
+                "h": 98, 
+                "layer": 4, 
+                "name": "metal_detector2_2", 
+                "path": "excavations.part/metal_detector2_2.png", 
+                "w": 38, 
+                "x": 1016, 
+                "y": 128
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "metal_detector2_3", 
+                "path": "excavations.part/metal_detector2_3.png", 
+                "w": 100, 
+                "x": 371, 
+                "y": 37
+              }
+            }, 
+            {
+              "cover": {
+                "h": 76, 
+                "layer": 5, 
+                "name": "metal_detector2_4_cover", 
+                "path": "excavations.part/metal_detector2_4_cover.png", 
+                "w": 20, 
+                "x": 441, 
+                "y": 165
+              }, 
+              "pic": {
+                "h": 99, 
+                "layer": 4, 
+                "name": "metal_detector2_4", 
+                "path": "excavations.part/metal_detector2_4.png", 
+                "w": 38, 
+                "x": 421, 
+                "y": 142
+              }
+            }, 
+            {
+              "pic": {
+                "h": 96, 
+                "layer": 4, 
+                "name": "metal_detector2_5", 
+                "path": "excavations.part/metal_detector2_5.png", 
+                "w": 41, 
+                "x": 730, 
+                "y": 246
+              }
+            }
+          ], 
+          "name": "metaldetector2", 
+          "path": "excavations.part/metaldetector2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "metal_detector3_1", 
+                "path": "excavations.part/metal_detector3_1.png", 
+                "w": 67, 
+                "x": 879, 
+                "y": 576
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "metal_detector3_2", 
+                "path": "excavations.part/metal_detector3_2.png", 
+                "w": 65, 
+                "x": 848, 
+                "y": 472
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "metal_detector3_3", 
+                "path": "excavations.part/metal_detector3_3.png", 
+                "w": 65, 
+                "x": 577, 
+                "y": 479
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "metal_detector3_4_cover", 
+                "path": "excavations.part/metal_detector3_4_cover.png", 
+                "w": 74, 
+                "x": 945, 
+                "y": 560
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "metal_detector3_4", 
+                "path": "excavations.part/metal_detector3_4.png", 
+                "w": 65, 
+                "x": 950, 
+                "y": 551
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "metal_detector3_5_cover", 
+                "path": "excavations.part/metal_detector3_5_cover.png", 
+                "w": 40, 
+                "x": 697, 
+                "y": 364
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "metal_detector3_5", 
+                "path": "excavations.part/metal_detector3_5.png", 
+                "w": 66, 
+                "x": 672, 
+                "y": 366
+              }
+            }
+          ], 
+          "name": "metaldetector3", 
+          "path": "excavations.part/metaldetector3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "metal_detector4_1", 
+                "path": "excavations.part/metal_detector4_1.png", 
+                "w": 56, 
+                "x": 1002, 
+                "y": 459
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "metal_detector4_2", 
+                "path": "excavations.part/metal_detector4_2.png", 
+                "w": 56, 
+                "x": 240, 
+                "y": 349
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "metal_detector4_3", 
+                "path": "excavations.part/metal_detector4_3.png", 
+                "w": 56, 
+                "x": 1137, 
+                "y": 369
+              }
+            }, 
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "metal_detector4_4", 
+                "path": "excavations.part/metal_detector4_4.png", 
+                "w": 25, 
+                "x": 355, 
+                "y": 104
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "metal_detector4_5_cover", 
+                "path": "excavations.part/metal_detector4_5_cover.png", 
+                "w": 13, 
+                "x": 849, 
+                "y": 170
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "metal_detector4_5", 
+                "path": "excavations.part/metal_detector4_5.png", 
+                "w": 28, 
+                "x": 847, 
+                "y": 163
+              }
+            }
+          ], 
+          "name": "metaldetector4", 
+          "path": "excavations.part/metaldetector4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "metal_detector5_1", 
+                "path": "excavations.part/metal_detector5_1.png", 
+                "w": 41, 
+                "x": 913, 
+                "y": 255
+              }
+            }, 
+            {
+              "cover": {
+                "h": 10, 
+                "layer": 5, 
+                "name": "metal_detector5_2_cover", 
+                "path": "excavations.part/metal_detector5_2_cover.png", 
+                "w": 13, 
+                "x": 480, 
+                "y": 309
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "metal_detector5_2", 
+                "path": "excavations.part/metal_detector5_2.png", 
+                "w": 42, 
+                "x": 463, 
+                "y": 304
+              }
+            }, 
+            {
+              "cover": {
+                "h": 11, 
+                "layer": 5, 
+                "name": "metal_detector5_3_cover", 
+                "path": "excavations.part/metal_detector5_3_cover.png", 
+                "w": 16, 
+                "x": 343, 
+                "y": 347
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "metal_detector5_3", 
+                "path": "excavations.part/metal_detector5_3.png", 
+                "w": 42, 
+                "x": 329, 
+                "y": 344
+              }
+            }, 
+            {
+              "cover": {
+                "h": 11, 
+                "layer": 5, 
+                "name": "metal_detector5_4_cover", 
+                "path": "excavations.part/metal_detector5_4_cover.png", 
+                "w": 7, 
+                "x": 841, 
+                "y": 102
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "metal_detector5_4", 
+                "path": "excavations.part/metal_detector5_4.png", 
+                "w": 43, 
+                "x": 824, 
+                "y": 102
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "metal_detector5_5", 
+                "path": "excavations.part/metal_detector5_5.png", 
+                "w": 41, 
+                "x": 391, 
+                "y": 97
+              }
+            }
+          ], 
+          "name": "metaldetector5", 
+          "path": "excavations.part/metaldetector5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "wheelbarrow_orig", 
+      "path": "excavations.part/wheelbarrow_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "wheelbarrow1_1_cover", 
+                "path": "excavations.part/wheelbarrow1_1_cover.png", 
+                "w": 51, 
+                "x": 854, 
+                "y": 639
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "wheelbarrow1_1", 
+                "path": "excavations.part/wheelbarrow1_1.png", 
+                "w": 93, 
+                "x": 833, 
+                "y": 622
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "wheelbarrow1_2", 
+                "path": "excavations.part/wheelbarrow1_2.png", 
+                "w": 93, 
+                "x": 521, 
+                "y": 613
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "wheelbarrow1_3_cover", 
+                "path": "excavations.part/wheelbarrow1_3_cover.png", 
+                "w": 64, 
+                "x": 648, 
+                "y": 538
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "wheelbarrow1_3", 
+                "path": "excavations.part/wheelbarrow1_3.png", 
+                "w": 94, 
+                "x": 641, 
+                "y": 521
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "wheelbarrow1_4", 
+                "path": "excavations.part/wheelbarrow1_4.png", 
+                "w": 93, 
+                "x": 278, 
+                "y": 569
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "wheelbarrow1_5_cover", 
+                "path": "excavations.part/wheelbarrow1_5_cover.png", 
+                "w": 61, 
+                "x": 963, 
+                "y": 497
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "wheelbarrow1_5", 
+                "path": "excavations.part/wheelbarrow1_5.png", 
+                "w": 94, 
+                "x": 928, 
+                "y": 501
+              }
+            }
+          ], 
+          "name": "wheelbarrow1", 
+          "path": "excavations.part/wheelbarrow1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "wheelbarrow2_1", 
+                "path": "excavations.part/wheelbarrow2_1.png", 
+                "w": 169, 
+                "x": 634, 
+                "y": 415
+              }
+            }, 
+            {
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "wheelbarrow2_2", 
+                "path": "excavations.part/wheelbarrow2_2.png", 
+                "w": 170, 
+                "x": 635, 
+                "y": 442
+              }
+            }, 
+            {
+              "cover": {
+                "h": 81, 
+                "layer": 5, 
+                "name": "wheelbarrow2_3_cover", 
+                "path": "excavations.part/wheelbarrow2_3_cover.png", 
+                "w": 154, 
+                "x": 425, 
+                "y": 239
+              }, 
+              "pic": {
+                "h": 82, 
+                "layer": 4, 
+                "name": "wheelbarrow2_3", 
+                "path": "excavations.part/wheelbarrow2_3.png", 
+                "w": 153, 
+                "x": 427, 
+                "y": 236
+              }
+            }, 
+            {
+              "cover": {
+                "h": 173, 
+                "layer": 5, 
+                "name": "wheelbarrow2_4_cover", 
+                "path": "excavations.part/wheelbarrow2_4_cover.png", 
+                "w": 18, 
+                "x": 869, 
+                "y": 83
+              }, 
+              "pic": {
+                "h": 170, 
+                "layer": 4, 
+                "name": "wheelbarrow2_4", 
+                "path": "excavations.part/wheelbarrow2_4.png", 
+                "w": 21, 
+                "x": 865, 
+                "y": 85
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "wheelbarrow2_5_cover", 
+                "path": "excavations.part/wheelbarrow2_5_cover.png", 
+                "w": 20, 
+                "x": 577, 
+                "y": 77
+              }, 
+              "pic": {
+                "h": 168, 
+                "layer": 4, 
+                "name": "wheelbarrow2_5", 
+                "path": "excavations.part/wheelbarrow2_5.png", 
+                "w": 32, 
+                "x": 580, 
+                "y": 84
+              }
+            }
+          ], 
+          "name": "wheelbarrow2", 
+          "path": "excavations.part/wheelbarrow2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "wheelbarrow3_1", 
+                "path": "excavations.part/wheelbarrow3_1.png", 
+                "w": 56, 
+                "x": 1163, 
+                "y": 548
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "wheelbarrow3_2", 
+                "path": "excavations.part/wheelbarrow3_2.png", 
+                "w": 34, 
+                "x": 1111, 
+                "y": 185
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "wheelbarrow3_3", 
+                "path": "excavations.part/wheelbarrow3_3.png", 
+                "w": 55, 
+                "x": 1148, 
+                "y": 464
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "wheelbarrow3_4_cover", 
+                "path": "excavations.part/wheelbarrow3_4_cover.png", 
+                "w": 13, 
+                "x": 1030, 
+                "y": 138
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "wheelbarrow3_4", 
+                "path": "excavations.part/wheelbarrow3_4.png", 
+                "w": 34, 
+                "x": 1007, 
+                "y": 139
+              }
+            }, 
+            {
+              "cover": {
+                "h": 19, 
+                "layer": 5, 
+                "name": "wheelbarrow3_5_cover", 
+                "path": "excavations.part/wheelbarrow3_5_cover.png", 
+                "w": 56, 
+                "x": 532, 
+                "y": 159
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "wheelbarrow3_5", 
+                "path": "excavations.part/wheelbarrow3_5.png", 
+                "w": 53, 
+                "x": 533, 
+                "y": 162
+              }
+            }
+          ], 
+          "name": "wheelbarrow3", 
+          "path": "excavations.part/wheelbarrow3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "wheelbarrow4_1", 
+                "path": "excavations.part/wheelbarrow4_1.png", 
+                "w": 54, 
+                "x": 462, 
+                "y": 527
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "wheelbarrow4_2", 
+                "path": "excavations.part/wheelbarrow4_2.png", 
+                "w": 55, 
+                "x": 1103, 
+                "y": 594
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "wheelbarrow4_3", 
+                "path": "excavations.part/wheelbarrow4_3.png", 
+                "w": 54, 
+                "x": 711, 
+                "y": 579
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "wheelbarrow4_4_cover", 
+                "path": "excavations.part/wheelbarrow4_4_cover.png", 
+                "w": 56, 
+                "x": 327, 
+                "y": 283
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "wheelbarrow4_4", 
+                "path": "excavations.part/wheelbarrow4_4.png", 
+                "w": 53, 
+                "x": 329, 
+                "y": 265
+              }
+            }, 
+            {
+              "cover": {
+                "h": 66, 
+                "layer": 5, 
+                "name": "wheelbarrow4_5_cover", 
+                "path": "excavations.part/wheelbarrow4_5_cover.png", 
+                "w": 49, 
+                "x": 640, 
+                "y": 192
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "wheelbarrow4_5", 
+                "path": "excavations.part/wheelbarrow4_5.png", 
+                "w": 54, 
+                "x": 634, 
+                "y": 196
+              }
+            }
+          ], 
+          "name": "wheelbarrow4", 
+          "path": "excavations.part/wheelbarrow4.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "wheelbarrow5_1_cover", 
+                "path": "excavations.part/wheelbarrow5_1_cover.png", 
+                "w": 11, 
+                "x": 1096, 
+                "y": 576
+              }, 
+              "pic": {
+                "h": 105, 
+                "layer": 4, 
+                "name": "wheelbarrow5_1", 
+                "path": "excavations.part/wheelbarrow5_1.png", 
+                "w": 64, 
+                "x": 1067, 
+                "y": 502
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "wheelbarrow5_2", 
+                "path": "excavations.part/wheelbarrow5_2.png", 
+                "w": 106, 
+                "x": 373, 
+                "y": 0
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "wheelbarrow5_3_cover", 
+                "path": "excavations.part/wheelbarrow5_3_cover.png", 
+                "w": 106, 
+                "x": 742, 
+                "y": 163
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "wheelbarrow5_3", 
+                "path": "excavations.part/wheelbarrow5_3.png", 
+                "w": 105, 
+                "x": 743, 
+                "y": 142
+              }
+            }, 
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "wheelbarrow5_4", 
+                "path": "excavations.part/wheelbarrow5_4.png", 
+                "w": 106, 
+                "x": 651, 
+                "y": 457
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "wheelbarrow5_5_cover", 
+                "path": "excavations.part/wheelbarrow5_5_cover.png", 
+                "w": 29, 
+                "x": 842, 
+                "y": 226
+              }, 
+              "pic": {
+                "h": 104, 
+                "layer": 4, 
+                "name": "wheelbarrow5_5", 
+                "path": "excavations.part/wheelbarrow5_5.png", 
+                "w": 60, 
+                "x": 810, 
+                "y": 176
+              }
+            }
+          ], 
+          "name": "wheelbarrow5", 
+          "path": "excavations.part/wheelbarrow5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "basket_orig", 
+      "path": "excavations.part/basket_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "basket1_1", 
+                "path": "excavations.part/basket1_1.png", 
+                "w": 74, 
+                "x": 1172, 
+                "y": 395
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "basket1_2", 
+                "path": "excavations.part/basket1_2.png", 
+                "w": 74, 
+                "x": 689, 
+                "y": 312
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "basket1_3", 
+                "path": "excavations.part/basket1_3.png", 
+                "w": 74, 
+                "x": 519, 
+                "y": 501
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "basket1_4_cover", 
+                "path": "excavations.part/basket1_4_cover.png", 
+                "w": 47, 
+                "x": 559, 
+                "y": 376
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "basket1_4", 
+                "path": "excavations.part/basket1_4.png", 
+                "w": 74, 
+                "x": 561, 
+                "y": 373
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "basket1_5_cover", 
+                "path": "excavations.part/basket1_5_cover.png", 
+                "w": 69, 
+                "x": 900, 
+                "y": 82
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "basket1_5", 
+                "path": "excavations.part/basket1_5.png", 
+                "w": 74, 
+                "x": 894, 
+                "y": 74
+              }
+            }
+          ], 
+          "name": "basket1", 
+          "path": "excavations.part/basket1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "basket2_1", 
+                "path": "excavations.part/basket2_1.png", 
+                "w": 65, 
+                "x": 811, 
+                "y": 438
+              }
+            }, 
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "basket2_2", 
+                "path": "excavations.part/basket2_2.png", 
+                "w": 57, 
+                "x": 791, 
+                "y": 246
+              }
+            }, 
+            {
+              "cover": {
+                "h": 20, 
+                "layer": 5, 
+                "name": "basket2_3_cover", 
+                "path": "excavations.part/basket2_3_cover.png", 
+                "w": 24, 
+                "x": 1116, 
+                "y": 340
+              }, 
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "basket2_3", 
+                "path": "excavations.part/basket2_3.png", 
+                "w": 43, 
+                "x": 1085, 
+                "y": 287
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "basket2_4_cover", 
+                "path": "excavations.part/basket2_4_cover.png", 
+                "w": 31, 
+                "x": 1184, 
+                "y": 307
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "basket2_4", 
+                "path": "excavations.part/basket2_4.png", 
+                "w": 45, 
+                "x": 1169, 
+                "y": 263
+              }
+            }, 
+            {
+              "cover": {
+                "h": 68, 
+                "layer": 5, 
+                "name": "basket2_5_cover", 
+                "path": "excavations.part/basket2_5_cover.png", 
+                "w": 37, 
+                "x": 712, 
+                "y": 193
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "basket2_5", 
+                "path": "excavations.part/basket2_5.png", 
+                "w": 43, 
+                "x": 701, 
+                "y": 194
+              }
+            }
+          ], 
+          "name": "basket2", 
+          "path": "excavations.part/basket2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "basket3_1", 
+                "path": "excavations.part/basket3_1.png", 
+                "w": 51, 
+                "x": 722, 
+                "y": 380
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "basket3_2", 
+                "path": "excavations.part/basket3_2.png", 
+                "w": 51, 
+                "x": 768, 
+                "y": 331
+              }
+            }, 
+            {
+              "cover": {
+                "h": 8, 
+                "layer": 5, 
+                "name": "basket3_3_cover", 
+                "path": "excavations.part/basket3_3_cover.png", 
+                "w": 14, 
+                "x": 994, 
+                "y": 403
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "basket3_3", 
+                "path": "excavations.part/basket3_3.png", 
+                "w": 51, 
+                "x": 985, 
+                "y": 373
+              }
+            }, 
+            {
+              "cover": {
+                "h": 21, 
+                "layer": 5, 
+                "name": "basket3_4_cover", 
+                "path": "excavations.part/basket3_4_cover.png", 
+                "w": 38, 
+                "x": 504, 
+                "y": 103
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "basket3_4", 
+                "path": "excavations.part/basket3_4.png", 
+                "w": 37, 
+                "x": 507, 
+                "y": 105
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "basket3_5_cover", 
+                "path": "excavations.part/basket3_5_cover.png", 
+                "w": 38, 
+                "x": 446, 
+                "y": 119
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "basket3_5", 
+                "path": "excavations.part/basket3_5.png", 
+                "w": 37, 
+                "x": 446, 
+                "y": 120
+              }
+            }
+          ], 
+          "name": "basket3", 
+          "path": "excavations.part/basket3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "basket4_1", 
+                "path": "excavations.part/basket4_1.png", 
+                "w": 68, 
+                "x": 1024, 
+                "y": 608
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "basket4_2", 
+                "path": "excavations.part/basket4_2.png", 
+                "w": 67, 
+                "x": 249, 
+                "y": 416
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "basket4_3", 
+                "path": "excavations.part/basket4_3.png", 
+                "w": 66, 
+                "x": 978, 
+                "y": 82
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "basket4_4", 
+                "path": "excavations.part/basket4_4.png", 
+                "w": 68, 
+                "x": 878, 
+                "y": 442
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "basket4_5_cover", 
+                "path": "excavations.part/basket4_5_cover.png", 
+                "w": 68, 
+                "x": 662, 
+                "y": 53
+              }, 
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "basket4_5", 
+                "path": "excavations.part/basket4_5.png", 
+                "w": 62, 
+                "x": 670, 
+                "y": 56
+              }
+            }
+          ], 
+          "name": "basket4", 
+          "path": "excavations.part/basket4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "basket5_1", 
+                "path": "excavations.part/basket5_1.png", 
+                "w": 47, 
+                "x": 315, 
+                "y": 596
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "basket5_2", 
+                "path": "excavations.part/basket5_2.png", 
+                "w": 37, 
+                "x": 372, 
+                "y": 491
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "basket5_3_cover", 
+                "path": "excavations.part/basket5_3_cover.png", 
+                "w": 23, 
+                "x": 401, 
+                "y": 338
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "basket5_3", 
+                "path": "excavations.part/basket5_3.png", 
+                "w": 37, 
+                "x": 407, 
+                "y": 313
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "basket5_4", 
+                "path": "excavations.part/basket5_4.png", 
+                "w": 37, 
+                "x": 1126, 
+                "y": 119
+              }
+            }, 
+            {
+              "cover": {
+                "h": 60, 
+                "layer": 5, 
+                "name": "basket5_5_cover", 
+                "path": "excavations.part/basket5_5_cover.png", 
+                "w": 44, 
+                "x": 1000, 
+                "y": 276
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "basket5_5", 
+                "path": "excavations.part/basket5_5.png", 
+                "w": 37, 
+                "x": 1002, 
+                "y": 279
+              }
+            }
+          ], 
+          "name": "basket5", 
+          "path": "excavations.part/basket5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "stone_orig", 
+      "path": "excavations.part/stone_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "stone1_1", 
+                "path": "excavations.part/stone1_1.png", 
+                "w": 58, 
+                "x": 1175, 
+                "y": 605
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "stone1_2", 
+                "path": "excavations.part/stone1_2.png", 
+                "w": 58, 
+                "x": 384, 
+                "y": 568
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "stone1_3_cover", 
+                "path": "excavations.part/stone1_3_cover.png", 
+                "w": 14, 
+                "x": 1111, 
+                "y": 403
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "stone1_3", 
+                "path": "excavations.part/stone1_3.png", 
+                "w": 58, 
+                "x": 1113, 
+                "y": 402
+              }
+            }, 
+            {
+              "cover": {
+                "h": 12, 
+                "layer": 5, 
+                "name": "stone1_4_cover", 
+                "path": "excavations.part/stone1_4_cover.png", 
+                "w": 55, 
+                "x": 885, 
+                "y": 205
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "stone1_4", 
+                "path": "excavations.part/stone1_4.png", 
+                "w": 58, 
+                "x": 888, 
+                "y": 169
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "stone1_5_cover", 
+                "path": "excavations.part/stone1_5_cover.png", 
+                "w": 57, 
+                "x": 371, 
+                "y": 208
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "stone1_5", 
+                "path": "excavations.part/stone1_5.png", 
+                "w": 58, 
+                "x": 375, 
+                "y": 183
+              }
+            }
+          ], 
+          "name": "stone1", 
+          "path": "excavations.part/stone1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "stone2_1", 
+                "path": "excavations.part/stone2_1.png", 
+                "w": 54, 
+                "x": 1047, 
+                "y": 254
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "stone2_2", 
+                "path": "excavations.part/stone2_2.png", 
+                "w": 53, 
+                "x": 1129, 
+                "y": 527
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "stone2_3", 
+                "path": "excavations.part/stone2_3.png", 
+                "w": 53, 
+                "x": 236, 
+                "y": 523
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "stone2_4", 
+                "path": "excavations.part/stone2_4.png", 
+                "w": 54, 
+                "x": 295, 
+                "y": 313
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "stone2_5_cover", 
+                "path": "excavations.part/stone2_5_cover.png", 
+                "w": 49, 
+                "x": 431, 
+                "y": 82
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "stone2_5", 
+                "path": "excavations.part/stone2_5.png", 
+                "w": 54, 
+                "x": 427, 
+                "y": 70
+              }
+            }
+          ], 
+          "name": "stone2", 
+          "path": "excavations.part/stone2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "stone3_1", 
+                "path": "excavations.part/stone3_1.png", 
+                "w": 50, 
+                "x": 910, 
+                "y": 209
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "stone3_2", 
+                "path": "excavations.part/stone3_2.png", 
+                "w": 50, 
+                "x": 1073, 
+                "y": 372
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "stone3_3", 
+                "path": "excavations.part/stone3_3.png", 
+                "w": 51, 
+                "x": 230, 
+                "y": 263
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "stone3_4", 
+                "path": "excavations.part/stone3_4.png", 
+                "w": 50, 
+                "x": 264, 
+                "y": 597
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "stone3_5_cover", 
+                "path": "excavations.part/stone3_5_cover.png", 
+                "w": 17, 
+                "x": 537, 
+                "y": 205
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "stone3_5", 
+                "path": "excavations.part/stone3_5.png", 
+                "w": 50, 
+                "x": 534, 
+                "y": 201
+              }
+            }
+          ], 
+          "name": "stone3", 
+          "path": "excavations.part/stone3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "stone4_1", 
+                "path": "excavations.part/stone4_1.png", 
+                "w": 70, 
+                "x": 1179, 
+                "y": 503
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "stone4_2", 
+                "path": "excavations.part/stone4_2.png", 
+                "w": 70, 
+                "x": 542, 
+                "y": 39
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "stone4_3", 
+                "path": "excavations.part/stone4_3.png", 
+                "w": 70, 
+                "x": 1175, 
+                "y": 22
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "stone4_4", 
+                "path": "excavations.part/stone4_4.png", 
+                "w": 70, 
+                "x": 1054, 
+                "y": 154
+              }
+            }, 
+            {
+              "cover": {
+                "h": 30, 
+                "layer": 5, 
+                "name": "stone4_5_cover", 
+                "path": "excavations.part/stone4_5_cover.png", 
+                "w": 63, 
+                "x": 607, 
+                "y": 120
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "stone4_5", 
+                "path": "excavations.part/stone4_5.png", 
+                "w": 70, 
+                "x": 602, 
+                "y": 119
+              }
+            }
+          ], 
+          "name": "stone4", 
+          "path": "excavations.part/stone4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "stone5_1", 
+                "path": "excavations.part/stone5_1.png", 
+                "w": 70, 
+                "x": 367, 
+                "y": 615
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "stone5_2", 
+                "path": "excavations.part/stone5_2.png", 
+                "w": 70, 
+                "x": 797, 
+                "y": 513
+              }
+            }, 
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "stone5_3_cover", 
+                "path": "excavations.part/stone5_3_cover.png", 
+                "w": 28, 
+                "x": 734, 
+                "y": 463
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "stone5_3", 
+                "path": "excavations.part/stone5_3.png", 
+                "w": 70, 
+                "x": 694, 
+                "y": 459
+              }
+            }, 
+            {
+              "cover": {
+                "h": 26, 
+                "layer": 5, 
+                "name": "stone5_4_cover", 
+                "path": "excavations.part/stone5_4_cover.png", 
+                "w": 34, 
+                "x": 886, 
+                "y": 355
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "stone5_4", 
+                "path": "excavations.part/stone5_4.png", 
+                "w": 69, 
+                "x": 885, 
+                "y": 342
+              }
+            }, 
+            {
+              "cover": {
+                "h": 23, 
+                "layer": 5, 
+                "name": "stone5_5_cover", 
+                "path": "excavations.part/stone5_5_cover.png", 
+                "w": 37, 
+                "x": 271, 
+                "y": 215
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "stone5_5", 
+                "path": "excavations.part/stone5_5.png", 
+                "w": 70, 
+                "x": 241, 
+                "y": 204
+              }
+            }
+          ], 
+          "name": "stone5", 
+          "path": "excavations.part/stone5.png"
+        }
+      ]
+    }
+  ]
+}

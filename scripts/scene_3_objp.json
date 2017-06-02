@@ -1,0 +1,6140 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "boat1", 
+            "path": "venetia.form/boat1.png", 
+            "w": 67, 
+            "x": 922, 
+            "y": 349
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "boat2_cover", 
+            "path": "venetia.form/boat2_cover.png", 
+            "w": 66, 
+            "x": 433, 
+            "y": 549
+          }, 
+          "pic": {
+            "h": 92, 
+            "layer": 3, 
+            "name": "boat2", 
+            "path": "venetia.form/boat2.png", 
+            "w": 86, 
+            "x": 412, 
+            "y": 551
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "boat3_cover", 
+            "path": "venetia.form/boat3_cover.png", 
+            "w": 33, 
+            "x": 1161, 
+            "y": 320
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "boat3", 
+            "path": "venetia.form/boat3.png", 
+            "w": 50, 
+            "x": 1151, 
+            "y": 323
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "boat4_cover", 
+            "path": "venetia.form/boat4_cover.png", 
+            "w": 53, 
+            "x": 820, 
+            "y": 447
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "boat4", 
+            "path": "venetia.form/boat4.png", 
+            "w": 58, 
+            "x": 823, 
+            "y": 449
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "boat5_cover", 
+            "path": "venetia.form/boat5_cover.png", 
+            "w": 53, 
+            "x": 637, 
+            "y": 380
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "boat5", 
+            "path": "venetia.form/boat5.png", 
+            "w": 51, 
+            "x": 638, 
+            "y": 382
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "boat6_cover", 
+            "path": "venetia.form/boat6_cover.png", 
+            "w": 42, 
+            "x": 734, 
+            "y": 225
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "boat6", 
+            "path": "venetia.form/boat6.png", 
+            "w": 57, 
+            "x": 718, 
+            "y": 227
+          }
+        }
+      ], 
+      "name": "帆船", 
+      "path": "venetia.sils/boat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "picture1", 
+            "path": "venetia.form/picture1.png", 
+            "w": 53, 
+            "x": 321, 
+            "y": 203
+          }
+        }, 
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "picture2", 
+            "path": "venetia.form/picture2.png", 
+            "w": 37, 
+            "x": 749, 
+            "y": 513
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "picture3_cover", 
+            "path": "venetia.form/picture3_cover.png", 
+            "w": 40, 
+            "x": 914, 
+            "y": 256
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "picture3", 
+            "path": "venetia.form/picture3.png", 
+            "w": 36, 
+            "x": 916, 
+            "y": 258
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "picture4_cover", 
+            "path": "venetia.form/picture4_cover.png", 
+            "w": 34, 
+            "x": 722, 
+            "y": 173
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "picture4", 
+            "path": "venetia.form/picture4.png", 
+            "w": 32, 
+            "x": 724, 
+            "y": 175
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "picture5_cover", 
+            "path": "venetia.form/picture5_cover.png", 
+            "w": 24, 
+            "x": 518, 
+            "y": 299
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "picture5", 
+            "path": "venetia.form/picture5.png", 
+            "w": 39, 
+            "x": 520, 
+            "y": 298
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "picture6_cover", 
+            "path": "venetia.form/picture6_cover.png", 
+            "w": 41, 
+            "x": 367, 
+            "y": 26
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "picture6", 
+            "path": "venetia.form/picture6.png", 
+            "w": 40, 
+            "x": 366, 
+            "y": 27
+          }
+        }
+      ], 
+      "name": "モナリザ", 
+      "path": "venetia.sils/picture.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "ball1", 
+            "path": "venetia.form/ball1.png", 
+            "w": 67, 
+            "x": 750, 
+            "y": 414
+          }
+        }, 
+        {
+          "cover": {
+            "h": 8, 
+            "layer": 5, 
+            "name": "ball2_cover", 
+            "path": "venetia.form/ball2_cover.png", 
+            "w": 30, 
+            "x": 370, 
+            "y": 362
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "ball2", 
+            "path": "venetia.form/ball2.png", 
+            "w": 42, 
+            "x": 364, 
+            "y": 325
+          }
+        }, 
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "ball3", 
+            "path": "venetia.form/ball3.png", 
+            "w": 39, 
+            "x": 358, 
+            "y": 605
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "ball4_cover", 
+            "path": "venetia.form/ball4_cover.png", 
+            "w": 25, 
+            "x": 764, 
+            "y": 363
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "ball4", 
+            "path": "venetia.form/ball4.png", 
+            "w": 37, 
+            "x": 767, 
+            "y": 365
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "ball5_cover", 
+            "path": "venetia.form/ball5_cover.png", 
+            "w": 44, 
+            "x": 885, 
+            "y": 89
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "ball5", 
+            "path": "venetia.form/ball5.png", 
+            "w": 40, 
+            "x": 887, 
+            "y": 86
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "ball6_cover", 
+            "path": "venetia.form/ball6_cover.png", 
+            "w": 39, 
+            "x": 1172, 
+            "y": 513
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "ball6", 
+            "path": "venetia.form/ball6.png", 
+            "w": 38, 
+            "x": 1175, 
+            "y": 515
+          }
+        }
+      ], 
+      "name": "ビーチボール", 
+      "path": "venetia.sils/ball.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "rat1", 
+            "path": "venetia.form/rat1.png", 
+            "w": 77, 
+            "x": 897, 
+            "y": 542
+          }
+        }, 
+        {
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "rat2", 
+            "path": "venetia.form/rat2.png", 
+            "w": 65, 
+            "x": 1134, 
+            "y": 471
+          }
+        }, 
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "rat3", 
+            "path": "venetia.form/rat3.png", 
+            "w": 29, 
+            "x": 963, 
+            "y": 142
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "rat4_cover", 
+            "path": "venetia.form/rat4_cover.png", 
+            "w": 43, 
+            "x": 1087, 
+            "y": 478
+          }, 
+          "pic": {
+            "h": 24, 
+            "layer": 3, 
+            "name": "rat4", 
+            "path": "venetia.form/rat4.png", 
+            "w": 52, 
+            "x": 1075, 
+            "y": 481
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "rat5_cover", 
+            "path": "venetia.form/rat5_cover.png", 
+            "w": 55, 
+            "x": 235, 
+            "y": 495
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "rat5", 
+            "path": "venetia.form/rat5.png", 
+            "w": 56, 
+            "x": 236, 
+            "y": 497
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "rat6_cover", 
+            "path": "venetia.form/rat6_cover.png", 
+            "w": 28, 
+            "x": 954, 
+            "y": 517
+          }, 
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "rat6", 
+            "path": "venetia.form/rat6.png", 
+            "w": 54, 
+            "x": 956, 
+            "y": 519
+          }
+        }
+      ], 
+      "name": "ネズミ", 
+      "path": "venetia.sils/rat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "fan1", 
+            "path": "venetia.form/fan1.png", 
+            "w": 74, 
+            "x": 552, 
+            "y": 540
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "fan2", 
+            "path": "venetia.form/fan2.png", 
+            "w": 62, 
+            "x": 1058, 
+            "y": 591
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "fan3", 
+            "path": "venetia.form/fan3.png", 
+            "w": 55, 
+            "x": 1009, 
+            "y": 430
+          }
+        }, 
+        {
+          "cover": {
+            "h": 43, 
+            "layer": 5, 
+            "name": "fan4_cover", 
+            "path": "venetia.form/fan4_cover.png", 
+            "w": 27, 
+            "x": 445, 
+            "y": 181
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "fan4", 
+            "path": "venetia.form/fan4.png", 
+            "w": 44, 
+            "x": 429, 
+            "y": 181
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "fan5_cover", 
+            "path": "venetia.form/fan5_cover.png", 
+            "w": 51, 
+            "x": 1193, 
+            "y": 281
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "fan5", 
+            "path": "venetia.form/fan5.png", 
+            "w": 54, 
+            "x": 1192, 
+            "y": 258
+          }
+        }, 
+        {
+          "cover": {
+            "h": 74, 
+            "layer": 5, 
+            "name": "fan6_cover", 
+            "path": "venetia.form/fan6_cover.png", 
+            "w": 26, 
+            "x": 822, 
+            "y": 271
+          }, 
+          "pic": {
+            "h": 70, 
+            "layer": 3, 
+            "name": "fan6", 
+            "path": "venetia.form/fan6.png", 
+            "w": 45, 
+            "x": 823, 
+            "y": 273
+          }
+        }
+      ], 
+      "name": "扇子", 
+      "path": "venetia.sils/fan.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "cane1", 
+            "path": "venetia.form/cane1.png", 
+            "w": 62, 
+            "x": 286, 
+            "y": 492
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 5, 
+            "name": "cane2_cover", 
+            "path": "venetia.form/cane2_cover.png", 
+            "w": 15, 
+            "x": 1214, 
+            "y": 448
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "cane2", 
+            "path": "venetia.form/cane2.png", 
+            "w": 64, 
+            "x": 1168, 
+            "y": 432
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "cane3_cover", 
+            "path": "venetia.form/cane3_cover.png", 
+            "w": 19, 
+            "x": 1120, 
+            "y": 440
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "cane3", 
+            "path": "venetia.form/cane3.png", 
+            "w": 29, 
+            "x": 1119, 
+            "y": 413
+          }
+        }, 
+        {
+          "cover": {
+            "h": 66, 
+            "layer": 5, 
+            "name": "cane4_cover", 
+            "path": "venetia.form/cane4_cover.png", 
+            "w": 17, 
+            "x": 536, 
+            "y": 362
+          }, 
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "cane4", 
+            "path": "venetia.form/cane4.png", 
+            "w": 28, 
+            "x": 536, 
+            "y": 363
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "cane5_cover", 
+            "path": "venetia.form/cane5_cover.png", 
+            "w": 12, 
+            "x": 1007, 
+            "y": 331
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "cane5", 
+            "path": "venetia.form/cane5.png", 
+            "w": 27, 
+            "x": 992, 
+            "y": 305
+          }
+        }, 
+        {
+          "cover": {
+            "h": 33, 
+            "layer": 5, 
+            "name": "cane6_cover", 
+            "path": "venetia.form/cane6_cover.png", 
+            "w": 32, 
+            "x": 618, 
+            "y": 30
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "cane6", 
+            "path": "venetia.form/cane6.png", 
+            "w": 64, 
+            "x": 620, 
+            "y": 32
+          }
+        }
+      ], 
+      "name": "ステッキ", 
+      "path": "venetia.sils/cane.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "shoe1", 
+            "path": "venetia.form/shoe1.png", 
+            "w": 47, 
+            "x": 682, 
+            "y": 584
+          }
+        }, 
+        {
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "shoe2", 
+            "path": "venetia.form/shoe2.png", 
+            "w": 45, 
+            "x": 987, 
+            "y": 446
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "shoe3_cover", 
+            "path": "venetia.form/shoe3_cover.png", 
+            "w": 23, 
+            "x": 1073, 
+            "y": 386
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "shoe3", 
+            "path": "venetia.form/shoe3.png", 
+            "w": 46, 
+            "x": 1075, 
+            "y": 389
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "shoe4_cover", 
+            "path": "venetia.form/shoe4_cover.png", 
+            "w": 36, 
+            "x": 829, 
+            "y": 110
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "shoe4", 
+            "path": "venetia.form/shoe4.png", 
+            "w": 42, 
+            "x": 830, 
+            "y": 99
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "shoe5_cover", 
+            "path": "venetia.form/shoe5_cover.png", 
+            "w": 57, 
+            "x": 542, 
+            "y": 495
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "shoe5", 
+            "path": "venetia.form/shoe5.png", 
+            "w": 71, 
+            "x": 544, 
+            "y": 494
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "shoe6_cover", 
+            "path": "venetia.form/shoe6_cover.png", 
+            "w": 40, 
+            "x": 1209, 
+            "y": 561
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "shoe6", 
+            "path": "venetia.form/shoe6.png", 
+            "w": 34, 
+            "x": 1212, 
+            "y": 543
+          }
+        }
+      ], 
+      "name": "靴", 
+      "path": "venetia.sils/shoe.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "glove1", 
+            "path": "venetia.form/glove1.png", 
+            "w": 70, 
+            "x": 285, 
+            "y": 0
+          }
+        }, 
+        {
+          "pic": {
+            "h": 74, 
+            "layer": 3, 
+            "name": "glove2", 
+            "path": "venetia.form/glove2.png", 
+            "w": 44, 
+            "x": 1101, 
+            "y": 524
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "glove3_cover", 
+            "path": "venetia.form/glove3_cover.png", 
+            "w": 35, 
+            "x": 574, 
+            "y": 14
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "glove3", 
+            "path": "venetia.form/glove3.png", 
+            "w": 53, 
+            "x": 580, 
+            "y": 1
+          }
+        }, 
+        {
+          "cover": {
+            "h": 72, 
+            "layer": 5, 
+            "name": "glove4_cover", 
+            "path": "venetia.form/glove4_cover.png", 
+            "w": 23, 
+            "x": 398, 
+            "y": 193
+          }, 
+          "pic": {
+            "h": 67, 
+            "layer": 3, 
+            "name": "glove4", 
+            "path": "venetia.form/glove4.png", 
+            "w": 38, 
+            "x": 380, 
+            "y": 195
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "glove5_cover", 
+            "path": "venetia.form/glove5_cover.png", 
+            "w": 48, 
+            "x": 1166, 
+            "y": 380
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "glove5", 
+            "path": "venetia.form/glove5.png", 
+            "w": 44, 
+            "x": 1166, 
+            "y": 373
+          }
+        }, 
+        {
+          "cover": {
+            "h": 65, 
+            "layer": 5, 
+            "name": "glove6_cover", 
+            "path": "venetia.form/glove6_cover.png", 
+            "w": 50, 
+            "x": 625, 
+            "y": 422
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "glove6", 
+            "path": "venetia.form/glove6.png", 
+            "w": 46, 
+            "x": 627, 
+            "y": 424
+          }
+        }
+      ], 
+      "name": "手袋", 
+      "path": "venetia.sils/glove.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "bell1", 
+            "path": "venetia.form/bell1.png", 
+            "w": 20, 
+            "x": 459, 
+            "y": 242
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bell2", 
+            "path": "venetia.form/bell2.png", 
+            "w": 19, 
+            "x": 983, 
+            "y": 230
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "bell3", 
+            "path": "venetia.form/bell3.png", 
+            "w": 20, 
+            "x": 873, 
+            "y": 275
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "bell4", 
+            "path": "venetia.form/bell4.png", 
+            "w": 19, 
+            "x": 736, 
+            "y": 62
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "bell5_cover", 
+            "path": "venetia.form/bell5_cover.png", 
+            "w": 8, 
+            "x": 1046, 
+            "y": 247
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "bell5", 
+            "path": "venetia.form/bell5.png", 
+            "w": 20, 
+            "x": 1033, 
+            "y": 247
+          }
+        }, 
+        {
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "bell6", 
+            "path": "venetia.form/bell6.png", 
+            "w": 19, 
+            "x": 1050, 
+            "y": 96
+          }
+        }
+      ], 
+      "name": "ベル", 
+      "path": "venetia.sils/bell.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "fish1", 
+            "path": "venetia.form/fish1.png", 
+            "w": 60, 
+            "x": 1192, 
+            "y": 492
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "fish2", 
+            "path": "venetia.form/fish2.png", 
+            "w": 60, 
+            "x": 1030, 
+            "y": 4
+          }
+        }, 
+        {
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "fish3", 
+            "path": "venetia.form/fish3.png", 
+            "w": 58, 
+            "x": 490, 
+            "y": 611
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "fish4_cover", 
+            "path": "venetia.form/fish4_cover.png", 
+            "w": 64, 
+            "x": 887, 
+            "y": 475
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "fish4", 
+            "path": "venetia.form/fish4.png", 
+            "w": 60, 
+            "x": 889, 
+            "y": 476
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "fish5_cover", 
+            "path": "venetia.form/fish5_cover.png", 
+            "w": 29, 
+            "x": 1157, 
+            "y": 291
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "fish5", 
+            "path": "venetia.form/fish5.png", 
+            "w": 29, 
+            "x": 1157, 
+            "y": 273
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "fish6_cover", 
+            "path": "venetia.form/fish6_cover.png", 
+            "w": 36, 
+            "x": 580, 
+            "y": 351
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "fish6", 
+            "path": "venetia.form/fish6.png", 
+            "w": 32, 
+            "x": 581, 
+            "y": 349
+          }
+        }
+      ], 
+      "name": "魚", 
+      "path": "venetia.sils/fish.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 80, 
+            "layer": 3, 
+            "name": "torch1", 
+            "path": "venetia.form/torch1.png", 
+            "w": 13, 
+            "x": 767, 
+            "y": 255
+          }
+        }, 
+        {
+          "pic": {
+            "h": 80, 
+            "layer": 3, 
+            "name": "torch2", 
+            "path": "venetia.form/torch2.png", 
+            "w": 13, 
+            "x": 634, 
+            "y": 233
+          }
+        }, 
+        {
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "torch3", 
+            "path": "venetia.form/torch3.png", 
+            "w": 14, 
+            "x": 1080, 
+            "y": 221
+          }
+        }, 
+        {
+          "cover": {
+            "h": 11, 
+            "layer": 5, 
+            "name": "torch4_cover", 
+            "path": "venetia.form/torch4_cover.png", 
+            "w": 26, 
+            "x": 1094, 
+            "y": 390
+          }, 
+          "pic": {
+            "h": 13, 
+            "layer": 3, 
+            "name": "torch4", 
+            "path": "venetia.form/torch4.png", 
+            "w": 65, 
+            "x": 1095, 
+            "y": 386
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "torch5", 
+            "path": "venetia.form/torch5.png", 
+            "w": 13, 
+            "x": 425, 
+            "y": 445
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "torch6", 
+            "path": "venetia.form/torch6.png", 
+            "w": 13, 
+            "x": 715, 
+            "y": 490
+          }
+        }
+      ], 
+      "name": "たいまつ", 
+      "path": "venetia.sils/torch.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "padlock1", 
+            "path": "venetia.form/padlock1.png", 
+            "w": 23, 
+            "x": 1044, 
+            "y": 315
+          }
+        }, 
+        {
+          "cover": {
+            "h": 7, 
+            "layer": 5, 
+            "name": "padlock2_cover", 
+            "path": "venetia.form/padlock2_cover.png", 
+            "w": 7, 
+            "x": 457, 
+            "y": 117
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "padlock2", 
+            "path": "venetia.form/padlock2.png", 
+            "w": 25, 
+            "x": 451, 
+            "y": 117
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "padlock3", 
+            "path": "venetia.form/padlock3.png", 
+            "w": 25, 
+            "x": 1104, 
+            "y": 21
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "padlock4_cover", 
+            "path": "venetia.form/padlock4_cover.png", 
+            "w": 13, 
+            "x": 599, 
+            "y": 300
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "padlock4", 
+            "path": "venetia.form/padlock4.png", 
+            "w": 23, 
+            "x": 586, 
+            "y": 303
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "padlock5_cover", 
+            "path": "venetia.form/padlock5_cover.png", 
+            "w": 41, 
+            "x": 903, 
+            "y": 314
+          }, 
+          "pic": {
+            "h": 24, 
+            "layer": 3, 
+            "name": "padlock5", 
+            "path": "venetia.form/padlock5.png", 
+            "w": 39, 
+            "x": 903, 
+            "y": 317
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "padlock6_cover", 
+            "path": "venetia.form/padlock6_cover.png", 
+            "w": 24, 
+            "x": 1169, 
+            "y": 152
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "padlock6", 
+            "path": "venetia.form/padlock6.png", 
+            "w": 23, 
+            "x": 1170, 
+            "y": 153
+          }
+        }
+      ], 
+      "name": "錠前", 
+      "path": "venetia.sils/padlock.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 93, 
+            "layer": 3, 
+            "name": "knife1", 
+            "path": "venetia.form/knife1.png", 
+            "w": 31, 
+            "x": 945, 
+            "y": 5
+          }
+        }, 
+        {
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "knife2", 
+            "path": "venetia.form/knife2.png", 
+            "w": 94, 
+            "x": 235, 
+            "y": 71
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "knife3_cover", 
+            "path": "venetia.form/knife3_cover.png", 
+            "w": 18, 
+            "x": 1227, 
+            "y": 384
+          }, 
+          "pic": {
+            "h": 81, 
+            "layer": 3, 
+            "name": "knife3", 
+            "path": "venetia.form/knife3.png", 
+            "w": 27, 
+            "x": 1221, 
+            "y": 336
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "knife4_cover", 
+            "path": "venetia.form/knife4_cover.png", 
+            "w": 99, 
+            "x": 521, 
+            "y": 258
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "knife4", 
+            "path": "venetia.form/knife4.png", 
+            "w": 94, 
+            "x": 524, 
+            "y": 259
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "knife5_cover", 
+            "path": "venetia.form/knife5_cover.png", 
+            "w": 54, 
+            "x": 822, 
+            "y": 42
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "knife5", 
+            "path": "venetia.form/knife5.png", 
+            "w": 92, 
+            "x": 824, 
+            "y": 45
+          }
+        }, 
+        {
+          "cover": {
+            "h": 96, 
+            "layer": 5, 
+            "name": "knife6_cover", 
+            "path": "venetia.form/knife6_cover.png", 
+            "w": 31, 
+            "x": 493, 
+            "y": 437
+          }, 
+          "pic": {
+            "h": 94, 
+            "layer": 3, 
+            "name": "knife6", 
+            "path": "venetia.form/knife6.png", 
+            "w": 32, 
+            "x": 494, 
+            "y": 437
+          }
+        }
+      ], 
+      "name": "短剣", 
+      "path": "venetia.sils/knife.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "dog_souvenir1", 
+            "path": "venetia.form/dog_souvenir1.png", 
+            "w": 64, 
+            "x": 1026, 
+            "y": 493
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "dog_souvenir2", 
+            "path": "venetia.form/dog_souvenir2.png", 
+            "w": 43, 
+            "x": 1000, 
+            "y": 394
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "dog_souvenir3_cover", 
+            "path": "venetia.form/dog_souvenir3_cover.png", 
+            "w": 55, 
+            "x": 769, 
+            "y": 92
+          }, 
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "dog_souvenir3", 
+            "path": "venetia.form/dog_souvenir3.png", 
+            "w": 57, 
+            "x": 772, 
+            "y": 75
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "dog_souvenir4_cover", 
+            "path": "venetia.form/dog_souvenir4_cover.png", 
+            "w": 14, 
+            "x": 628, 
+            "y": 482
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "dog_souvenir4", 
+            "path": "venetia.form/dog_souvenir4.png", 
+            "w": 51, 
+            "x": 617, 
+            "y": 483
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 5, 
+            "name": "dog_souvenir5_cover", 
+            "path": "venetia.form/dog_souvenir5_cover.png", 
+            "w": 59, 
+            "x": 368, 
+            "y": 478
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "dog_souvenir5", 
+            "path": "venetia.form/dog_souvenir5.png", 
+            "w": 55, 
+            "x": 371, 
+            "y": 479
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "dog_souvenir6_cover", 
+            "path": "venetia.form/dog_souvenir6_cover.png", 
+            "w": 30, 
+            "x": 826, 
+            "y": 346
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "dog_souvenir6", 
+            "path": "venetia.form/dog_souvenir6.png", 
+            "w": 46, 
+            "x": 826, 
+            "y": 346
+          }
+        }
+      ], 
+      "name": "犬の置物", 
+      "path": "venetia.sils/dog_souvenir.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "paddle1", 
+            "path": "venetia.form/paddle1.png", 
+            "w": 92, 
+            "x": 862, 
+            "y": 567
+          }
+        }, 
+        {
+          "pic": {
+            "h": 17, 
+            "layer": 3, 
+            "name": "paddle2", 
+            "path": "venetia.form/paddle2.png", 
+            "w": 104, 
+            "x": 257, 
+            "y": 546
+          }
+        }, 
+        {
+          "cover": {
+            "h": 17, 
+            "layer": 5, 
+            "name": "paddle3_cover", 
+            "path": "venetia.form/paddle3_cover.png", 
+            "w": 31, 
+            "x": 607, 
+            "y": 598
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "paddle3", 
+            "path": "venetia.form/paddle3.png", 
+            "w": 83, 
+            "x": 554, 
+            "y": 599
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "paddle4_cover", 
+            "path": "venetia.form/paddle4_cover.png", 
+            "w": 68, 
+            "x": 841, 
+            "y": 433
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "paddle4", 
+            "path": "venetia.form/paddle4.png", 
+            "w": 75, 
+            "x": 836, 
+            "y": 432
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "paddle5_cover", 
+            "path": "venetia.form/paddle5_cover.png", 
+            "w": 18, 
+            "x": 689, 
+            "y": 400
+          }, 
+          "pic": {
+            "h": 83, 
+            "layer": 3, 
+            "name": "paddle5", 
+            "path": "venetia.form/paddle5.png", 
+            "w": 26, 
+            "x": 680, 
+            "y": 334
+          }
+        }, 
+        {
+          "cover": {
+            "h": 13, 
+            "layer": 5, 
+            "name": "paddle6_cover", 
+            "path": "venetia.form/paddle6_cover.png", 
+            "w": 50, 
+            "x": 1154, 
+            "y": 109
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "paddle6", 
+            "path": "venetia.form/paddle6.png", 
+            "w": 95, 
+            "x": 1157, 
+            "y": 98
+          }
+        }
+      ], 
+      "name": "パドル", 
+      "path": "venetia.sils/paddle.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "bokal1", 
+            "path": "venetia.form/bokal1.png", 
+            "w": 29, 
+            "x": 861, 
+            "y": 515
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "bokal2", 
+            "path": "venetia.form/bokal2.png", 
+            "w": 25, 
+            "x": 1060, 
+            "y": 447
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "bokal3_cover", 
+            "path": "venetia.form/bokal3_cover.png", 
+            "w": 25, 
+            "x": 674, 
+            "y": 500
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "bokal3", 
+            "path": "venetia.form/bokal3.png", 
+            "w": 29, 
+            "x": 676, 
+            "y": 501
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "bokal4_cover", 
+            "path": "venetia.form/bokal4_cover.png", 
+            "w": 31, 
+            "x": 555, 
+            "y": 450
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "bokal4", 
+            "path": "venetia.form/bokal4.png", 
+            "w": 26, 
+            "x": 559, 
+            "y": 452
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "bokal5", 
+            "path": "venetia.form/bokal5.png", 
+            "w": 26, 
+            "x": 251, 
+            "y": 141
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "bokal6_cover", 
+            "path": "venetia.form/bokal6_cover.png", 
+            "w": 21, 
+            "x": 602, 
+            "y": 415
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "bokal6", 
+            "path": "venetia.form/bokal6.png", 
+            "w": 27, 
+            "x": 598, 
+            "y": 417
+          }
+        }
+      ], 
+      "name": "ブランデーグラス", 
+      "path": "venetia.sils/bokal.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "chess_king1", 
+            "path": "venetia.form/chess_king1.png", 
+            "w": 24, 
+            "x": 498, 
+            "y": 188
+          }
+        }, 
+        {
+          "pic": {
+            "h": 19, 
+            "layer": 3, 
+            "name": "chess_king2", 
+            "path": "venetia.form/chess_king2.png", 
+            "w": 48, 
+            "x": 875, 
+            "y": 396
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "chess_king3_cover", 
+            "path": "venetia.form/chess_king3_cover.png", 
+            "w": 14, 
+            "x": 1121, 
+            "y": 339
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "chess_king3", 
+            "path": "venetia.form/chess_king3.png", 
+            "w": 25, 
+            "x": 1123, 
+            "y": 339
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "chess_king4_cover", 
+            "path": "venetia.form/chess_king4_cover.png", 
+            "w": 15, 
+            "x": 790, 
+            "y": 323
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "chess_king4", 
+            "path": "venetia.form/chess_king4.png", 
+            "w": 19, 
+            "x": 787, 
+            "y": 296
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "chess_king5_cover", 
+            "path": "venetia.form/chess_king5_cover.png", 
+            "w": 30, 
+            "x": 508, 
+            "y": 63
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "chess_king5", 
+            "path": "venetia.form/chess_king5.png", 
+            "w": 55, 
+            "x": 510, 
+            "y": 65
+          }
+        }, 
+        {
+          "cover": {
+            "h": 58, 
+            "layer": 5, 
+            "name": "chess_king6_cover", 
+            "path": "venetia.form/chess_king6_cover.png", 
+            "w": 24, 
+            "x": 318, 
+            "y": 435
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "chess_king6", 
+            "path": "venetia.form/chess_king6.png", 
+            "w": 23, 
+            "x": 317, 
+            "y": 432
+          }
+        }
+      ], 
+      "name": "チェスのキング", 
+      "path": "venetia.sils/chess_king.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "pigeon1", 
+            "path": "venetia.form/pigeon1.png", 
+            "w": 46, 
+            "x": 230, 
+            "y": 390
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "pigeon2", 
+            "path": "venetia.form/pigeon2.png", 
+            "w": 49, 
+            "x": 792, 
+            "y": 365
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "pigeon3", 
+            "path": "venetia.form/pigeon3.png", 
+            "w": 40, 
+            "x": 453, 
+            "y": 358
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "pigeon4", 
+            "path": "venetia.form/pigeon4.png", 
+            "w": 36, 
+            "x": 1040, 
+            "y": 263
+          }
+        }, 
+        {
+          "cover": {
+            "h": 10, 
+            "layer": 5, 
+            "name": "pigeon5_cover", 
+            "path": "venetia.form/pigeon5_cover.png", 
+            "w": 18, 
+            "x": 784, 
+            "y": 167
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "pigeon5", 
+            "path": "venetia.form/pigeon5.png", 
+            "w": 31, 
+            "x": 775, 
+            "y": 135
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "pigeon6_cover", 
+            "path": "venetia.form/pigeon6_cover.png", 
+            "w": 33, 
+            "x": 702, 
+            "y": 123
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "pigeon6", 
+            "path": "venetia.form/pigeon6.png", 
+            "w": 31, 
+            "x": 703, 
+            "y": 125
+          }
+        }
+      ], 
+      "name": "ハト", 
+      "path": "venetia.sils/pigeon.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "hat1", 
+            "path": "venetia.form/hat1.png", 
+            "w": 42, 
+            "x": 448, 
+            "y": 44
+          }
+        }, 
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "hat2", 
+            "path": "venetia.form/hat2.png", 
+            "w": 45, 
+            "x": 260, 
+            "y": 309
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "hat3", 
+            "path": "venetia.form/hat3.png", 
+            "w": 25, 
+            "x": 835, 
+            "y": 147
+          }
+        }, 
+        {
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "hat4", 
+            "path": "venetia.form/hat4.png", 
+            "w": 35, 
+            "x": 534, 
+            "y": 4
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "hat5_cover", 
+            "path": "venetia.form/hat5_cover.png", 
+            "w": 45, 
+            "x": 899, 
+            "y": 189
+          }, 
+          "pic": {
+            "h": 25, 
+            "layer": 3, 
+            "name": "hat5", 
+            "path": "venetia.form/hat5.png", 
+            "w": 42, 
+            "x": 901, 
+            "y": 188
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "hat6_cover", 
+            "path": "venetia.form/hat6_cover.png", 
+            "w": 25, 
+            "x": 1019, 
+            "y": 169
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "hat6", 
+            "path": "venetia.form/hat6.png", 
+            "w": 23, 
+            "x": 1020, 
+            "y": 170
+          }
+        }
+      ], 
+      "name": "羽根付き帽子", 
+      "path": "venetia.sils/hat.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 24, 
+            "layer": 3, 
+            "name": "cheese1", 
+            "path": "venetia.form/cheese1.png", 
+            "w": 28, 
+            "x": 667, 
+            "y": 473
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "cheese2", 
+            "path": "venetia.form/cheese2.png", 
+            "w": 25, 
+            "x": 1097, 
+            "y": 618
+          }
+        }, 
+        {
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "cheese3", 
+            "path": "venetia.form/cheese3.png", 
+            "w": 27, 
+            "x": 934, 
+            "y": 400
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "cheese4_cover", 
+            "path": "venetia.form/cheese4_cover.png", 
+            "w": 17, 
+            "x": 1029, 
+            "y": 341
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "cheese4", 
+            "path": "venetia.form/cheese4.png", 
+            "w": 23, 
+            "x": 1021, 
+            "y": 342
+          }
+        }, 
+        {
+          "cover": {
+            "h": 14, 
+            "layer": 5, 
+            "name": "cheese5_cover", 
+            "path": "venetia.form/cheese5_cover.png", 
+            "w": 27, 
+            "x": 878, 
+            "y": 424
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "cheese5", 
+            "path": "venetia.form/cheese5.png", 
+            "w": 26, 
+            "x": 880, 
+            "y": 416
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "cheese6_cover", 
+            "path": "venetia.form/cheese6_cover.png", 
+            "w": 26, 
+            "x": 458, 
+            "y": 496
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "cheese6", 
+            "path": "venetia.form/cheese6.png", 
+            "w": 26, 
+            "x": 459, 
+            "y": 498
+          }
+        }
+      ], 
+      "name": "チーズの一切れ", 
+      "path": "venetia.sils/cheese.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 111, 
+            "layer": 3, 
+            "name": "guitar1", 
+            "path": "venetia.form/guitar1.png", 
+            "w": 45, 
+            "x": 433, 
+            "y": 267
+          }
+        }, 
+        {
+          "pic": {
+            "h": 105, 
+            "layer": 3, 
+            "name": "guitar2", 
+            "path": "venetia.form/guitar2.png", 
+            "w": 42, 
+            "x": 577, 
+            "y": 74
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "guitar3_cover", 
+            "path": "venetia.form/guitar3_cover.png", 
+            "w": 31, 
+            "x": 231, 
+            "y": 525
+          }, 
+          "pic": {
+            "h": 112, 
+            "layer": 3, 
+            "name": "guitar3", 
+            "path": "venetia.form/guitar3.png", 
+            "w": 47, 
+            "x": 233, 
+            "y": 527
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "guitar4_cover", 
+            "path": "venetia.form/guitar4_cover.png", 
+            "w": 18, 
+            "x": 1068, 
+            "y": 318
+          }, 
+          "pic": {
+            "h": 80, 
+            "layer": 3, 
+            "name": "guitar4", 
+            "path": "venetia.form/guitar4.png", 
+            "w": 30, 
+            "x": 1069, 
+            "y": 286
+          }
+        }, 
+        {
+          "cover": {
+            "h": 71, 
+            "layer": 5, 
+            "name": "guitar5_cover", 
+            "path": "venetia.form/guitar5_cover.png", 
+            "w": 16, 
+            "x": 1112, 
+            "y": 268
+          }, 
+          "pic": {
+            "h": 71, 
+            "layer": 3, 
+            "name": "guitar5", 
+            "path": "venetia.form/guitar5.png", 
+            "w": 28, 
+            "x": 1113, 
+            "y": 269
+          }
+        }, 
+        {
+          "cover": {
+            "h": 68, 
+            "layer": 5, 
+            "name": "guitar6_cover", 
+            "path": "venetia.form/guitar6_cover.png", 
+            "w": 20, 
+            "x": 868, 
+            "y": 301
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "guitar6", 
+            "path": "venetia.form/guitar6.png", 
+            "w": 26, 
+            "x": 860, 
+            "y": 302
+          }
+        }
+      ], 
+      "name": "リュート", 
+      "path": "venetia.sils/guitar.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 62, 
+            "layer": 3, 
+            "name": "venmask1", 
+            "path": "venetia.form/venmask1.png", 
+            "w": 67, 
+            "x": 1026, 
+            "y": 35
+          }
+        }, 
+        {
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "venmask2", 
+            "path": "venetia.form/venmask2.png", 
+            "w": 38, 
+            "x": 520, 
+            "y": 429
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "venmask3", 
+            "path": "venetia.form/venmask3.png", 
+            "w": 48, 
+            "x": 863, 
+            "y": 621
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "venmask4_cover", 
+            "path": "venetia.form/venmask4_cover.png", 
+            "w": 41, 
+            "x": 665, 
+            "y": 231
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "venmask4", 
+            "path": "venetia.form/venmask4.png", 
+            "w": 39, 
+            "x": 666, 
+            "y": 232
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "venmask5_cover", 
+            "path": "venetia.form/venmask5_cover.png", 
+            "w": 26, 
+            "x": 628, 
+            "y": 318
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "venmask5", 
+            "path": "venetia.form/venmask5.png", 
+            "w": 38, 
+            "x": 630, 
+            "y": 319
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "venmask6_cover", 
+            "path": "venetia.form/venmask6_cover.png", 
+            "w": 52, 
+            "x": 554, 
+            "y": 200
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "venmask6", 
+            "path": "venetia.form/venmask6.png", 
+            "w": 46, 
+            "x": 557, 
+            "y": 203
+          }
+        }
+      ], 
+      "name": "仮面", 
+      "path": "venetia.sils/venmask.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "vase1", 
+            "path": "venetia.form/vase1.png", 
+            "w": 59, 
+            "x": 976, 
+            "y": 553
+          }
+        }, 
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "vase2", 
+            "path": "venetia.form/vase2.png", 
+            "w": 52, 
+            "x": 1107, 
+            "y": 126
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "vase3_cover", 
+            "path": "venetia.form/vase3_cover.png", 
+            "w": 31, 
+            "x": 703, 
+            "y": 452
+          }, 
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "vase3", 
+            "path": "venetia.form/vase3.png", 
+            "w": 44, 
+            "x": 695, 
+            "y": 423
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "vase4_cover", 
+            "path": "venetia.form/vase4_cover.png", 
+            "w": 56, 
+            "x": 446, 
+            "y": 443
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "vase4", 
+            "path": "venetia.form/vase4.png", 
+            "w": 53, 
+            "x": 448, 
+            "y": 444
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "vase5_cover", 
+            "path": "venetia.form/vase5_cover.png", 
+            "w": 44, 
+            "x": 274, 
+            "y": 440
+          }, 
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "vase5", 
+            "path": "venetia.form/vase5.png", 
+            "w": 40, 
+            "x": 276, 
+            "y": 442
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "vase6_cover", 
+            "path": "venetia.form/vase6_cover.png", 
+            "w": 42, 
+            "x": 716, 
+            "y": 346
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "vase6", 
+            "path": "venetia.form/vase6.png", 
+            "w": 38, 
+            "x": 718, 
+            "y": 347
+          }
+        }
+      ], 
+      "name": "花瓶", 
+      "path": "venetia.sils/vase.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "arrow1", 
+            "path": "venetia.form/arrow1.png", 
+            "w": 26, 
+            "x": 377, 
+            "y": 261
+          }
+        }, 
+        {
+          "pic": {
+            "h": 52, 
+            "layer": 3, 
+            "name": "arrow2", 
+            "path": "venetia.form/arrow2.png", 
+            "w": 49, 
+            "x": 360, 
+            "y": 81
+          }
+        }, 
+        {
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "arrow3", 
+            "path": "venetia.form/arrow3.png", 
+            "w": 32, 
+            "x": 873, 
+            "y": 30
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "arrow4", 
+            "path": "venetia.form/arrow4.png", 
+            "w": 19, 
+            "x": 1003, 
+            "y": 252
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "arrow5", 
+            "path": "venetia.form/arrow5.png", 
+            "w": 18, 
+            "x": 680, 
+            "y": 268
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "arrow6", 
+            "path": "venetia.form/arrow6.png", 
+            "w": 25, 
+            "x": 409, 
+            "y": 368
+          }
+        }
+      ], 
+      "name": "矢印", 
+      "path": "venetia.sils/arrow.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "mask1_1", 
+            "path": "venetia.morph/mask1_1.png", 
+            "w": 39, 
+            "x": 740, 
+            "y": 593
+          }, 
+          "pic2": {
+            "h": 65, 
+            "layer": 4, 
+            "name": "mask2_1", 
+            "path": "venetia.morph/mask2_1.png", 
+            "w": 63, 
+            "x": 729, 
+            "y": 591
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "mask1_2", 
+            "path": "venetia.morph/mask1_2.png", 
+            "w": 32, 
+            "x": 1041, 
+            "y": 103
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "mask2_2", 
+            "path": "venetia.morph/mask2_2.png", 
+            "w": 57, 
+            "x": 1030, 
+            "y": 101
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "mask1_3", 
+            "path": "venetia.morph/mask1_3.png", 
+            "w": 30, 
+            "x": 264, 
+            "y": 324
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "mask2_3", 
+            "path": "venetia.morph/mask2_3.png", 
+            "w": 51, 
+            "x": 252, 
+            "y": 323
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "mask1_4_cover", 
+            "path": "venetia.morph/mask1_4_cover.png", 
+            "w": 28, 
+            "x": 1082, 
+            "y": 454
+          }, 
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "mask1_4", 
+            "path": "venetia.morph/mask1_4.png", 
+            "w": 37, 
+            "x": 1065, 
+            "y": 462
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "mask2_4", 
+            "path": "venetia.morph/mask2_4.png", 
+            "w": 41, 
+            "x": 1066, 
+            "y": 456
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "mask1_5_cover", 
+            "path": "venetia.morph/mask1_5_cover.png", 
+            "w": 54, 
+            "x": 805, 
+            "y": 106
+          }, 
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "mask1_5", 
+            "path": "venetia.morph/mask1_5.png", 
+            "w": 27, 
+            "x": 819, 
+            "y": 92
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "mask2_5", 
+            "path": "venetia.morph/mask2_5.png", 
+            "w": 46, 
+            "x": 809, 
+            "y": 91
+          }
+        }
+      ], 
+      "name": "mask"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "vase1_1", 
+            "path": "venetia.morph/vase1_1.png", 
+            "w": 41, 
+            "x": 986, 
+            "y": 560
+          }, 
+          "pic2": {
+            "h": 61, 
+            "layer": 4, 
+            "name": "vase2_1", 
+            "path": "venetia.morph/vase2_1.png", 
+            "w": 59, 
+            "x": 979, 
+            "y": 561
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 60, 
+            "layer": 4, 
+            "name": "vase1_2", 
+            "path": "venetia.morph/vase1_2.png", 
+            "w": 42, 
+            "x": 755, 
+            "y": 401
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "vase2_2", 
+            "path": "venetia.morph/vase2_2.png", 
+            "w": 44, 
+            "x": 754, 
+            "y": 403
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "vase1_3", 
+            "path": "venetia.morph/vase1_3.png", 
+            "w": 42, 
+            "x": 1004, 
+            "y": 426
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "vase2_3", 
+            "path": "venetia.morph/vase2_3.png", 
+            "w": 42, 
+            "x": 1004, 
+            "y": 427
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "vase1_4", 
+            "path": "venetia.morph/vase1_4.png", 
+            "w": 21, 
+            "x": 996, 
+            "y": 332
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "vase2_4", 
+            "path": "venetia.morph/vase2_4.png", 
+            "w": 25, 
+            "x": 994, 
+            "y": 333
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "vase1_5_cover", 
+            "path": "venetia.morph/vase1_5_cover.png", 
+            "w": 37, 
+            "x": 1155, 
+            "y": 290
+          }, 
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "vase1_5", 
+            "path": "venetia.morph/vase1_5.png", 
+            "w": 26, 
+            "x": 1161, 
+            "y": 273
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "vase2_5", 
+            "path": "venetia.morph/vase2_5.png", 
+            "w": 33, 
+            "x": 1157, 
+            "y": 273
+          }
+        }
+      ], 
+      "name": "vase"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "fan1_1", 
+            "path": "venetia.morph/fan1_1.png", 
+            "w": 74, 
+            "x": 396, 
+            "y": 523
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "fan2_1", 
+            "path": "venetia.morph/fan2_1.png", 
+            "w": 65, 
+            "x": 402, 
+            "y": 521
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "fan1_2", 
+            "path": "venetia.morph/fan1_2.png", 
+            "w": 30, 
+            "x": 972, 
+            "y": 150
+          }, 
+          "pic2": {
+            "h": 56, 
+            "layer": 4, 
+            "name": "fan2_2", 
+            "path": "venetia.morph/fan2_2.png", 
+            "w": 35, 
+            "x": 969, 
+            "y": 154
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "fan1_3", 
+            "path": "venetia.morph/fan1_3.png", 
+            "w": 57, 
+            "x": 572, 
+            "y": 4
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "fan2_3", 
+            "path": "venetia.morph/fan2_3.png", 
+            "w": 55, 
+            "x": 574, 
+            "y": 4
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "fan1_4_cover", 
+            "path": "venetia.morph/fan1_4_cover.png", 
+            "w": 41, 
+            "x": 1203, 
+            "y": 498
+          }, 
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "fan1_4", 
+            "path": "venetia.morph/fan1_4.png", 
+            "w": 42, 
+            "x": 1201, 
+            "y": 500
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "fan2_4", 
+            "path": "venetia.morph/fan2_4.png", 
+            "w": 35, 
+            "x": 1204, 
+            "y": 499
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "fan1_5_cover", 
+            "path": "venetia.morph/fan1_5_cover.png", 
+            "w": 39, 
+            "x": 921, 
+            "y": 198
+          }, 
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "fan1_5", 
+            "path": "venetia.morph/fan1_5.png", 
+            "w": 42, 
+            "x": 921, 
+            "y": 171
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "fan2_5", 
+            "path": "venetia.morph/fan2_5.png", 
+            "w": 35, 
+            "x": 924, 
+            "y": 171
+          }
+        }
+      ], 
+      "name": "fan"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "knife1_1", 
+            "path": "venetia.morph/knife1_1.png", 
+            "w": 80, 
+            "x": 882, 
+            "y": 546
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "knife2_1", 
+            "path": "venetia.morph/knife2_1.png", 
+            "w": 88, 
+            "x": 879, 
+            "y": 547
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "knife1_2", 
+            "path": "venetia.morph/knife1_2.png", 
+            "w": 88, 
+            "x": 1117, 
+            "y": 471
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "knife2_2", 
+            "path": "venetia.morph/knife2_2.png", 
+            "w": 95, 
+            "x": 1114, 
+            "y": 472
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "knife1_3", 
+            "path": "venetia.morph/knife1_3.png", 
+            "w": 93, 
+            "x": 485, 
+            "y": 146
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "knife2_3", 
+            "path": "venetia.morph/knife2_3.png", 
+            "w": 87, 
+            "x": 486, 
+            "y": 146
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "knife1_4", 
+            "path": "venetia.morph/knife1_4.png", 
+            "w": 88, 
+            "x": 1013, 
+            "y": 12
+          }, 
+          "pic2": {
+            "h": 16, 
+            "layer": 4, 
+            "name": "knife2_4", 
+            "path": "venetia.morph/knife2_4.png", 
+            "w": 89, 
+            "x": 1013, 
+            "y": 13
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "knife1_5", 
+            "path": "venetia.morph/knife1_5.png", 
+            "w": 88, 
+            "x": 235, 
+            "y": 436
+          }, 
+          "pic2": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "knife2_5", 
+            "path": "venetia.morph/knife2_5.png", 
+            "w": 91, 
+            "x": 235, 
+            "y": 438
+          }
+        }
+      ], 
+      "name": "knife"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "picture1_1", 
+            "path": "venetia.morph/picture1_1.png", 
+            "w": 54, 
+            "x": 433, 
+            "y": 355
+          }, 
+          "pic2": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "picture2_1", 
+            "path": "venetia.morph/picture2_1.png", 
+            "w": 52, 
+            "x": 435, 
+            "y": 357
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "picture1_2", 
+            "path": "venetia.morph/picture1_2.png", 
+            "w": 49, 
+            "x": 1031, 
+            "y": 317
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "picture2_2", 
+            "path": "venetia.morph/picture2_2.png", 
+            "w": 47, 
+            "x": 1030, 
+            "y": 319
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "picture1_3", 
+            "path": "venetia.morph/picture1_3.png", 
+            "w": 46, 
+            "x": 543, 
+            "y": 279
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "picture2_3", 
+            "path": "venetia.morph/picture2_3.png", 
+            "w": 45, 
+            "x": 543, 
+            "y": 280
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "picture1_4_cover", 
+            "path": "venetia.morph/picture1_4_cover.png", 
+            "w": 58, 
+            "x": 610, 
+            "y": 602
+          }, 
+          "pic1": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "picture1_4", 
+            "path": "venetia.morph/picture1_4.png", 
+            "w": 52, 
+            "x": 615, 
+            "y": 605
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "picture2_4", 
+            "path": "venetia.morph/picture2_4.png", 
+            "w": 51, 
+            "x": 615, 
+            "y": 606
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "picture1_5_cover", 
+            "path": "venetia.morph/picture1_5_cover.png", 
+            "w": 28, 
+            "x": 823, 
+            "y": 530
+          }, 
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "picture1_5", 
+            "path": "venetia.morph/picture1_5.png", 
+            "w": 46, 
+            "x": 826, 
+            "y": 525
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "picture2_5", 
+            "path": "venetia.morph/picture2_5.png", 
+            "w": 43, 
+            "x": 828, 
+            "y": 528
+          }
+        }
+      ], 
+      "name": "picture"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "coin1_1", 
+            "path": "venetia.morph/coin1_1.png", 
+            "w": 45, 
+            "x": 404, 
+            "y": 4
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "coin2_1", 
+            "path": "venetia.morph/coin2_1.png", 
+            "w": 47, 
+            "x": 402, 
+            "y": 4
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 59, 
+            "layer": 4, 
+            "name": "coin1_2", 
+            "path": "venetia.morph/coin1_2.png", 
+            "w": 46, 
+            "x": 237, 
+            "y": 520
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "coin2_2", 
+            "path": "venetia.morph/coin2_2.png", 
+            "w": 48, 
+            "x": 235, 
+            "y": 521
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "coin1_3", 
+            "path": "venetia.morph/coin1_3.png", 
+            "w": 36, 
+            "x": 892, 
+            "y": 494
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "coin2_3", 
+            "path": "venetia.morph/coin2_3.png", 
+            "w": 37, 
+            "x": 891, 
+            "y": 494
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "coin1_4_cover", 
+            "path": "venetia.morph/coin1_4_cover.png", 
+            "w": 31, 
+            "x": 772, 
+            "y": 85
+          }, 
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "coin1_4", 
+            "path": "venetia.morph/coin1_4.png", 
+            "w": 35, 
+            "x": 775, 
+            "y": 70
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "coin2_4", 
+            "path": "venetia.morph/coin2_4.png", 
+            "w": 36, 
+            "x": 774, 
+            "y": 71
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "coin1_5_cover", 
+            "path": "venetia.morph/coin1_5_cover.png", 
+            "w": 30, 
+            "x": 1128, 
+            "y": 603
+          }, 
+          "pic1": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "coin1_5", 
+            "path": "venetia.morph/coin1_5.png", 
+            "w": 36, 
+            "x": 1120, 
+            "y": 605
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "coin2_5", 
+            "path": "venetia.morph/coin2_5.png", 
+            "w": 37, 
+            "x": 1119, 
+            "y": 605
+          }
+        }
+      ], 
+      "name": "coin"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "bell1_1", 
+            "path": "venetia.morph/bell1_1.png", 
+            "w": 21, 
+            "x": 646, 
+            "y": 42
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "bell2_1", 
+            "path": "venetia.morph/bell2_1.png", 
+            "w": 30, 
+            "x": 642, 
+            "y": 47
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 48, 
+            "layer": 4, 
+            "name": "bell1_2", 
+            "path": "venetia.morph/bell1_2.png", 
+            "w": 28, 
+            "x": 454, 
+            "y": 220
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "bell2_2", 
+            "path": "venetia.morph/bell2_2.png", 
+            "w": 42, 
+            "x": 448, 
+            "y": 227
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "bell1_3", 
+            "path": "venetia.morph/bell1_3.png", 
+            "w": 22, 
+            "x": 1179, 
+            "y": 589
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "bell2_3", 
+            "path": "venetia.morph/bell2_3.png", 
+            "w": 33, 
+            "x": 1174, 
+            "y": 595
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "bell1_4_cover", 
+            "path": "venetia.morph/bell1_4_cover.png", 
+            "w": 31, 
+            "x": 1156, 
+            "y": 317
+          }, 
+          "pic1": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "bell1_4", 
+            "path": "venetia.morph/bell1_4.png", 
+            "w": 32, 
+            "x": 1147, 
+            "y": 322
+          }, 
+          "pic2": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "bell2_4", 
+            "path": "venetia.morph/bell2_4.png", 
+            "w": 29, 
+            "x": 1144, 
+            "y": 326
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "bell1_5_cover", 
+            "path": "venetia.morph/bell1_5_cover.png", 
+            "w": 38, 
+            "x": 659, 
+            "y": 552
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "bell1_5", 
+            "path": "venetia.morph/bell1_5.png", 
+            "w": 22, 
+            "x": 666, 
+            "y": 534
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "bell2_5", 
+            "path": "venetia.morph/bell2_5.png", 
+            "w": 34, 
+            "x": 661, 
+            "y": 540
+          }
+        }
+      ], 
+      "name": "bell"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "ball1_1", 
+            "path": "venetia.morph/ball1_1.png", 
+            "w": 40, 
+            "x": 1023, 
+            "y": 504
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "ball2_1", 
+            "path": "venetia.morph/ball2_1.png", 
+            "w": 46, 
+            "x": 1016, 
+            "y": 503
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "ball1_2", 
+            "path": "venetia.morph/ball1_2.png", 
+            "w": 35, 
+            "x": 985, 
+            "y": 89
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "ball2_2", 
+            "path": "venetia.morph/ball2_2.png", 
+            "w": 36, 
+            "x": 984, 
+            "y": 86
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "ball1_3", 
+            "path": "venetia.morph/ball1_3.png", 
+            "w": 39, 
+            "x": 1135, 
+            "y": 504
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "ball2_3", 
+            "path": "venetia.morph/ball2_3.png", 
+            "w": 44, 
+            "x": 1130, 
+            "y": 504
+          }
+        }, 
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "ball1_4_cover", 
+            "path": "venetia.morph/ball1_4_cover.png", 
+            "w": 23, 
+            "x": 599, 
+            "y": 330
+          }, 
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "ball1_4", 
+            "path": "venetia.morph/ball1_4.png", 
+            "w": 31, 
+            "x": 583, 
+            "y": 332
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "ball2_4", 
+            "path": "venetia.morph/ball2_4.png", 
+            "w": 38, 
+            "x": 581, 
+            "y": 331
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "ball1_5_cover", 
+            "path": "venetia.morph/ball1_5_cover.png", 
+            "w": 40, 
+            "x": 533, 
+            "y": 617
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "ball1_5", 
+            "path": "venetia.morph/ball1_5.png", 
+            "w": 31, 
+            "x": 538, 
+            "y": 608
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "ball2_5", 
+            "path": "venetia.morph/ball2_5.png", 
+            "w": 36, 
+            "x": 535, 
+            "y": 606
+          }
+        }
+      ], 
+      "name": "ball"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 102, 
+            "layer": 4, 
+            "name": "oar1_1", 
+            "path": "venetia.morph/oar1_1.png", 
+            "w": 89, 
+            "x": 1083, 
+            "y": 10
+          }, 
+          "pic2": {
+            "h": 111, 
+            "layer": 4, 
+            "name": "oar2_1", 
+            "path": "venetia.morph/oar2_1.png", 
+            "w": 86, 
+            "x": 1089, 
+            "y": 0
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 129, 
+            "layer": 4, 
+            "name": "oar1_2", 
+            "path": "venetia.morph/oar1_2.png", 
+            "w": 16, 
+            "x": 731, 
+            "y": 95
+          }, 
+          "pic2": {
+            "h": 130, 
+            "layer": 4, 
+            "name": "oar2_2", 
+            "path": "venetia.morph/oar2_2.png", 
+            "w": 24, 
+            "x": 724, 
+            "y": 94
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 107, 
+            "layer": 4, 
+            "name": "oar1_3", 
+            "path": "venetia.morph/oar1_3.png", 
+            "w": 18, 
+            "x": 329, 
+            "y": 290
+          }, 
+          "pic2": {
+            "h": 110, 
+            "layer": 4, 
+            "name": "oar2_3", 
+            "path": "venetia.morph/oar2_3.png", 
+            "w": 21, 
+            "x": 330, 
+            "y": 289
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "oar1_4_cover", 
+            "path": "venetia.morph/oar1_4_cover.png", 
+            "w": 49, 
+            "x": 530, 
+            "y": 567
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "oar1_4", 
+            "path": "venetia.morph/oar1_4.png", 
+            "w": 107, 
+            "x": 469, 
+            "y": 582
+          }, 
+          "pic2": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "oar2_4", 
+            "path": "venetia.morph/oar2_4.png", 
+            "w": 106, 
+            "x": 470, 
+            "y": 570
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "oar1_5_cover", 
+            "path": "venetia.morph/oar1_5_cover.png", 
+            "w": 19, 
+            "x": 1219, 
+            "y": 361
+          }, 
+          "pic1": {
+            "h": 99, 
+            "layer": 4, 
+            "name": "oar1_5", 
+            "path": "venetia.morph/oar1_5.png", 
+            "w": 13, 
+            "x": 1222, 
+            "y": 298
+          }, 
+          "pic2": {
+            "h": 100, 
+            "layer": 4, 
+            "name": "oar2_5", 
+            "path": "venetia.morph/oar2_5.png", 
+            "w": 18, 
+            "x": 1217, 
+            "y": 297
+          }
+        }
+      ], 
+      "name": "oar"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "leaf1_1", 
+            "path": "venetia.morph/leaf1_1.png", 
+            "w": 38, 
+            "x": 1040, 
+            "y": 43
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "leaf2_1", 
+            "path": "venetia.morph/leaf2_1.png", 
+            "w": 37, 
+            "x": 1040, 
+            "y": 50
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "leaf1_2", 
+            "path": "venetia.morph/leaf1_2.png", 
+            "w": 29, 
+            "x": 476, 
+            "y": 12
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "leaf2_2", 
+            "path": "venetia.morph/leaf2_2.png", 
+            "w": 29, 
+            "x": 477, 
+            "y": 12
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "leaf1_3", 
+            "path": "venetia.morph/leaf1_3.png", 
+            "w": 25, 
+            "x": 851, 
+            "y": 614
+          }, 
+          "pic2": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "leaf2_3", 
+            "path": "venetia.morph/leaf2_3.png", 
+            "w": 26, 
+            "x": 850, 
+            "y": 619
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "leaf1_4", 
+            "path": "venetia.morph/leaf1_4.png", 
+            "w": 26, 
+            "x": 995, 
+            "y": 279
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "leaf2_4", 
+            "path": "venetia.morph/leaf2_4.png", 
+            "w": 25, 
+            "x": 995, 
+            "y": 283
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "leaf1_5", 
+            "path": "venetia.morph/leaf1_5.png", 
+            "w": 26, 
+            "x": 1211, 
+            "y": 585
+          }, 
+          "pic2": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "leaf2_5", 
+            "path": "venetia.morph/leaf2_5.png", 
+            "w": 26, 
+            "x": 1211, 
+            "y": 590
+          }
+        }
+      ], 
+      "name": "leaf"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "print1_1", 
+            "path": "venetia.morph/print1_1.png", 
+            "w": 26, 
+            "x": 326, 
+            "y": 204
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "print2_1", 
+            "path": "venetia.morph/print2_1.png", 
+            "w": 16, 
+            "x": 333, 
+            "y": 206
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "print1_2", 
+            "path": "venetia.morph/print1_2.png", 
+            "w": 31, 
+            "x": 438, 
+            "y": 289
+          }, 
+          "pic2": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "print2_2", 
+            "path": "venetia.morph/print2_2.png", 
+            "w": 19, 
+            "x": 446, 
+            "y": 290
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "print1_3", 
+            "path": "venetia.morph/print1_3.png", 
+            "w": 23, 
+            "x": 621, 
+            "y": 207
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "print2_3", 
+            "path": "venetia.morph/print2_3.png", 
+            "w": 13, 
+            "x": 627, 
+            "y": 208
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "print1_4", 
+            "path": "venetia.morph/print1_4.png", 
+            "w": 23, 
+            "x": 525, 
+            "y": 478
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "print2_4", 
+            "path": "venetia.morph/print2_4.png", 
+            "w": 14, 
+            "x": 531, 
+            "y": 479
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "print1_5", 
+            "path": "venetia.morph/print1_5.png", 
+            "w": 23, 
+            "x": 1119, 
+            "y": 537
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "print2_5", 
+            "path": "venetia.morph/print2_5.png", 
+            "w": 14, 
+            "x": 1125, 
+            "y": 538
+          }
+        }
+      ], 
+      "name": "print"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "ring1_1", 
+            "path": "venetia.morph/ring1_1.png", 
+            "w": 28, 
+            "x": 945, 
+            "y": 370
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "ring2_1", 
+            "path": "venetia.morph/ring2_1.png", 
+            "w": 24, 
+            "x": 947, 
+            "y": 367
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "ring1_2", 
+            "path": "venetia.morph/ring1_2.png", 
+            "w": 37, 
+            "x": 1198, 
+            "y": 423
+          }, 
+          "pic2": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "ring2_2", 
+            "path": "venetia.morph/ring2_2.png", 
+            "w": 32, 
+            "x": 1200, 
+            "y": 419
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "ring1_3", 
+            "path": "venetia.morph/ring1_3.png", 
+            "w": 30, 
+            "x": 346, 
+            "y": 406
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "ring2_3", 
+            "path": "venetia.morph/ring2_3.png", 
+            "w": 25, 
+            "x": 348, 
+            "y": 403
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "ring1_4", 
+            "path": "venetia.morph/ring1_4.png", 
+            "w": 30, 
+            "x": 1058, 
+            "y": 565
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "ring2_4", 
+            "path": "venetia.morph/ring2_4.png", 
+            "w": 28, 
+            "x": 1059, 
+            "y": 562
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "ring1_5_cover", 
+            "path": "venetia.morph/ring1_5_cover.png", 
+            "w": 23, 
+            "x": 787, 
+            "y": 477
+          }, 
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "ring1_5", 
+            "path": "venetia.morph/ring1_5.png", 
+            "w": 29, 
+            "x": 791, 
+            "y": 482
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "ring2_5", 
+            "path": "venetia.morph/ring2_5.png", 
+            "w": 26, 
+            "x": 792, 
+            "y": 479
+          }
+        }
+      ], 
+      "name": "ring"
+    }
+  ], 
+  "part": [
+    {
+      "name": "clock_orig", 
+      "path": "venetia.part/clock_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 94, 
+                "layer": 4, 
+                "name": "clock1_1", 
+                "path": "venetia.part/clock1_1.png", 
+                "w": 34, 
+                "x": 449, 
+                "y": 113
+              }
+            }, 
+            {
+              "pic": {
+                "h": 82, 
+                "layer": 4, 
+                "name": "clock1_2", 
+                "path": "venetia.part/clock1_2.png", 
+                "w": 31, 
+                "x": 950, 
+                "y": 459
+              }
+            }, 
+            {
+              "cover": {
+                "h": 61, 
+                "layer": 5, 
+                "name": "clock1_3_cover", 
+                "path": "venetia.part/clock1_3_cover.png", 
+                "w": 42, 
+                "x": 1103, 
+                "y": 439
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "clock1_3", 
+                "path": "venetia.part/clock1_3.png", 
+                "w": 36, 
+                "x": 1106, 
+                "y": 425
+              }
+            }, 
+            {
+              "cover": {
+                "h": 73, 
+                "layer": 5, 
+                "name": "clock1_4_cover", 
+                "path": "venetia.part/clock1_4_cover.png", 
+                "w": 33, 
+                "x": 884, 
+                "y": 494
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "clock1_4", 
+                "path": "venetia.part/clock1_4.png", 
+                "w": 27, 
+                "x": 886, 
+                "y": 482
+              }
+            }, 
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "clock1_5", 
+                "path": "venetia.part/clock1_5.png", 
+                "w": 27, 
+                "x": 354, 
+                "y": 33
+              }
+            }
+          ], 
+          "name": "clock1", 
+          "path": "venetia.part/clock1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "clock2_1", 
+                "path": "venetia.part/clock2_1.png", 
+                "w": 55, 
+                "x": 832, 
+                "y": 595
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "clock2_2", 
+                "path": "venetia.part/clock2_2.png", 
+                "w": 34, 
+                "x": 617, 
+                "y": 210
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "clock2_3_cover", 
+                "path": "venetia.part/clock2_3_cover.png", 
+                "w": 30, 
+                "x": 1057, 
+                "y": 324
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "clock2_3", 
+                "path": "venetia.part/clock2_3.png", 
+                "w": 40, 
+                "x": 1062, 
+                "y": 327
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "clock2_4_cover", 
+                "path": "venetia.part/clock2_4_cover.png", 
+                "w": 42, 
+                "x": 1204, 
+                "y": 442
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "clock2_4", 
+                "path": "venetia.part/clock2_4.png", 
+                "w": 48, 
+                "x": 1194, 
+                "y": 445
+              }
+            }, 
+            {
+              "cover": {
+                "h": 17, 
+                "layer": 5, 
+                "name": "clock2_5_cover", 
+                "path": "venetia.part/clock2_5_cover.png", 
+                "w": 50, 
+                "x": 872, 
+                "y": 423
+              }, 
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "clock2_5", 
+                "path": "venetia.part/clock2_5.png", 
+                "w": 35, 
+                "x": 883, 
+                "y": 406
+              }
+            }
+          ], 
+          "name": "clock2", 
+          "path": "venetia.part/clock2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "clock3_1", 
+                "path": "venetia.part/clock3_1.png", 
+                "w": 66, 
+                "x": 1026, 
+                "y": 31
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "clock3_2", 
+                "path": "venetia.part/clock3_2.png", 
+                "w": 44, 
+                "x": 259, 
+                "y": 455
+              }
+            }, 
+            {
+              "cover": {
+                "h": 56, 
+                "layer": 5, 
+                "name": "clock3_3_cover", 
+                "path": "venetia.part/clock3_3_cover.png", 
+                "w": 41, 
+                "x": 501, 
+                "y": 294
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "clock3_3", 
+                "path": "venetia.part/clock3_3.png", 
+                "w": 52, 
+                "x": 510, 
+                "y": 297
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "clock3_4_cover", 
+                "path": "venetia.part/clock3_4_cover.png", 
+                "w": 38, 
+                "x": 819, 
+                "y": 106
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "clock3_4", 
+                "path": "venetia.part/clock3_4.png", 
+                "w": 32, 
+                "x": 820, 
+                "y": 90
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "clock3_5_cover", 
+                "path": "venetia.part/clock3_5_cover.png", 
+                "w": 41, 
+                "x": 1141, 
+                "y": 544
+              }, 
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "clock3_5", 
+                "path": "venetia.part/clock3_5.png", 
+                "w": 45, 
+                "x": 1132, 
+                "y": 542
+              }
+            }
+          ], 
+          "name": "clock3", 
+          "path": "venetia.part/clock3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "clock4_1", 
+                "path": "venetia.part/clock4_1.png", 
+                "w": 37, 
+                "x": 1035, 
+                "y": 189
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "clock4_2", 
+                "path": "venetia.part/clock4_2.png", 
+                "w": 43, 
+                "x": 286, 
+                "y": 574
+              }
+            }, 
+            {
+              "cover": {
+                "h": 73, 
+                "layer": 5, 
+                "name": "clock4_3_cover", 
+                "path": "venetia.part/clock4_3_cover.png", 
+                "w": 33, 
+                "x": 815, 
+                "y": 253
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "clock4_3", 
+                "path": "venetia.part/clock4_3.png", 
+                "w": 47, 
+                "x": 808, 
+                "y": 266
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "clock4_4_cover", 
+                "path": "venetia.part/clock4_4_cover.png", 
+                "w": 57, 
+                "x": 1190, 
+                "y": 380
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "clock4_4", 
+                "path": "venetia.part/clock4_4.png", 
+                "w": 47, 
+                "x": 1193, 
+                "y": 367
+              }
+            }, 
+            {
+              "cover": {
+                "h": 62, 
+                "layer": 5, 
+                "name": "clock4_5_cover", 
+                "path": "venetia.part/clock4_5_cover.png", 
+                "w": 57, 
+                "x": 382, 
+                "y": 333
+              }, 
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "clock4_5", 
+                "path": "venetia.part/clock4_5.png", 
+                "w": 47, 
+                "x": 385, 
+                "y": 338
+              }
+            }
+          ], 
+          "name": "clock4", 
+          "path": "venetia.part/clock4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "clock5_1", 
+                "path": "venetia.part/clock5_1.png", 
+                "w": 56, 
+                "x": 1193, 
+                "y": 495
+              }
+            }, 
+            {
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "clock5_2", 
+                "path": "venetia.part/clock5_2.png", 
+                "w": 55, 
+                "x": 513, 
+                "y": 518
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "clock5_3_cover", 
+                "path": "venetia.part/clock5_3_cover.png", 
+                "w": 74, 
+                "x": 739, 
+                "y": 446
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "clock5_3", 
+                "path": "venetia.part/clock5_3.png", 
+                "w": 56, 
+                "x": 746, 
+                "y": 423
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "clock5_4", 
+                "path": "venetia.part/clock5_4.png", 
+                "w": 46, 
+                "x": 1089, 
+                "y": 9
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "clock5_5_cover", 
+                "path": "venetia.part/clock5_5_cover.png", 
+                "w": 52, 
+                "x": 232, 
+                "y": 310
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "clock5_5", 
+                "path": "venetia.part/clock5_5.png", 
+                "w": 45, 
+                "x": 237, 
+                "y": 299
+              }
+            }
+          ], 
+          "name": "clock5", 
+          "path": "venetia.part/clock5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "cup_orig", 
+      "path": "venetia.part/cup_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "cup1_1", 
+                "path": "venetia.part/cup1_1.png", 
+                "w": 42, 
+                "x": 259, 
+                "y": 367
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "cup1_2", 
+                "path": "venetia.part/cup1_2.png", 
+                "w": 60, 
+                "x": 1165, 
+                "y": 603
+              }
+            }, 
+            {
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "cup1_3", 
+                "path": "venetia.part/cup1_3.png", 
+                "w": 24, 
+                "x": 993, 
+                "y": 261
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "cup1_4_cover", 
+                "path": "venetia.part/cup1_4_cover.png", 
+                "w": 54, 
+                "x": 1144, 
+                "y": 293
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "cup1_4", 
+                "path": "venetia.part/cup1_4.png", 
+                "w": 60, 
+                "x": 1136, 
+                "y": 285
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "cup1_5", 
+                "path": "venetia.part/cup1_5.png", 
+                "w": 42, 
+                "x": 993, 
+                "y": 69
+              }
+            }
+          ], 
+          "name": "cup1", 
+          "path": "venetia.part/cup1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "cup2_1", 
+                "path": "venetia.part/cup2_1.png", 
+                "w": 44, 
+                "x": 746, 
+                "y": 513
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "cup2_2", 
+                "path": "venetia.part/cup2_2.png", 
+                "w": 45, 
+                "x": 916, 
+                "y": 6
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "cup2_3_cover", 
+                "path": "venetia.part/cup2_3_cover.png", 
+                "w": 48, 
+                "x": 521, 
+                "y": 85
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "cup2_3", 
+                "path": "venetia.part/cup2_3.png", 
+                "w": 44, 
+                "x": 524, 
+                "y": 65
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "cup2_4", 
+                "path": "venetia.part/cup2_4.png", 
+                "w": 32, 
+                "x": 755, 
+                "y": 120
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "cup2_5_cover", 
+                "path": "venetia.part/cup2_5_cover.png", 
+                "w": 60, 
+                "x": 814, 
+                "y": 206
+              }, 
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "cup2_5", 
+                "path": "venetia.part/cup2_5.png", 
+                "w": 66, 
+                "x": 817, 
+                "y": 209
+              }
+            }
+          ], 
+          "name": "cup2", 
+          "path": "venetia.part/cup2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 78, 
+                "layer": 4, 
+                "name": "cup3_1", 
+                "path": "venetia.part/cup3_1.png", 
+                "w": 49, 
+                "x": 702, 
+                "y": 319
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "cup3_2", 
+                "path": "venetia.part/cup3_2.png", 
+                "w": 65, 
+                "x": 937, 
+                "y": 547
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "cup3_3", 
+                "path": "venetia.part/cup3_3.png", 
+                "w": 45, 
+                "x": 780, 
+                "y": 195
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "cup3_4", 
+                "path": "venetia.part/cup3_4.png", 
+                "w": 37, 
+                "x": 294, 
+                "y": 225
+              }
+            }, 
+            {
+              "cover": {
+                "h": 63, 
+                "layer": 5, 
+                "name": "cup3_5_cover", 
+                "path": "venetia.part/cup3_5_cover.png", 
+                "w": 39, 
+                "x": 832, 
+                "y": 12
+              }, 
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "cup3_5", 
+                "path": "venetia.part/cup3_5.png", 
+                "w": 54, 
+                "x": 843, 
+                "y": 23
+              }
+            }
+          ], 
+          "name": "cup3", 
+          "path": "venetia.part/cup3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 79, 
+                "layer": 4, 
+                "name": "cup4_1", 
+                "path": "venetia.part/cup4_1.png", 
+                "w": 45, 
+                "x": 1022, 
+                "y": 575
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "cup4_2", 
+                "path": "venetia.part/cup4_2.png", 
+                "w": 53, 
+                "x": 1027, 
+                "y": 462
+              }
+            }, 
+            {
+              "cover": {
+                "h": 50, 
+                "layer": 5, 
+                "name": "cup4_3_cover", 
+                "path": "venetia.part/cup4_3_cover.png", 
+                "w": 55, 
+                "x": 1176, 
+                "y": 69
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "cup4_3", 
+                "path": "venetia.part/cup4_3.png", 
+                "w": 61, 
+                "x": 1180, 
+                "y": 74
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "cup4_4_cover", 
+                "path": "venetia.part/cup4_4_cover.png", 
+                "w": 26, 
+                "x": 1041, 
+                "y": 386
+              }, 
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "cup4_4", 
+                "path": "venetia.part/cup4_4.png", 
+                "w": 41, 
+                "x": 1020, 
+                "y": 400
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "cup4_5_cover", 
+                "path": "venetia.part/cup4_5_cover.png", 
+                "w": 58, 
+                "x": 921, 
+                "y": 196
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "cup4_5", 
+                "path": "venetia.part/cup4_5.png", 
+                "w": 26, 
+                "x": 936, 
+                "y": 179
+              }
+            }
+          ], 
+          "name": "cup4", 
+          "path": "venetia.part/cup4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "cup5_1", 
+                "path": "venetia.part/cup5_1.png", 
+                "w": 39, 
+                "x": 939, 
+                "y": 380
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "cup5_2", 
+                "path": "venetia.part/cup5_2.png", 
+                "w": 44, 
+                "x": 524, 
+                "y": 402
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "cup5_3", 
+                "path": "venetia.part/cup5_3.png", 
+                "w": 37, 
+                "x": 614, 
+                "y": 347
+              }
+            }, 
+            {
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "cup5_4", 
+                "path": "venetia.part/cup5_4.png", 
+                "w": 41, 
+                "x": 409, 
+                "y": 286
+              }
+            }, 
+            {
+              "cover": {
+                "h": 55, 
+                "layer": 5, 
+                "name": "cup5_5_cover", 
+                "path": "venetia.part/cup5_5_cover.png", 
+                "w": 20, 
+                "x": 1093, 
+                "y": 274
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "cup5_5", 
+                "path": "venetia.part/cup5_5.png", 
+                "w": 27, 
+                "x": 1100, 
+                "y": 280
+              }
+            }
+          ], 
+          "name": "cup5", 
+          "path": "venetia.part/cup5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "angel_orig", 
+      "path": "venetia.part/angel_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "angel1_1", 
+                "path": "venetia.part/angel1_1.png", 
+                "w": 43, 
+                "x": 618, 
+                "y": 413
+              }
+            }, 
+            {
+              "pic": {
+                "h": 85, 
+                "layer": 4, 
+                "name": "angel1_2", 
+                "path": "venetia.part/angel1_2.png", 
+                "w": 45, 
+                "x": 375, 
+                "y": 469
+              }
+            }, 
+            {
+              "cover": {
+                "h": 60, 
+                "layer": 5, 
+                "name": "angel1_3_cover", 
+                "path": "venetia.part/angel1_3_cover.png", 
+                "w": 10, 
+                "x": 344, 
+                "y": 278
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "angel1_3", 
+                "path": "venetia.part/angel1_3.png", 
+                "w": 42, 
+                "x": 330, 
+                "y": 286
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "angel1_4", 
+                "path": "venetia.part/angel1_4.png", 
+                "w": 34, 
+                "x": 679, 
+                "y": 216
+              }
+            }, 
+            {
+              "cover": {
+                "h": 39, 
+                "layer": 5, 
+                "name": "angel1_5_cover", 
+                "path": "venetia.part/angel1_5_cover.png", 
+                "w": 53, 
+                "x": 1162, 
+                "y": 154
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "angel1_5", 
+                "path": "venetia.part/angel1_5.png", 
+                "w": 44, 
+                "x": 1165, 
+                "y": 158
+              }
+            }
+          ], 
+          "name": "angel1", 
+          "path": "venetia.part/angel1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 102, 
+                "layer": 4, 
+                "name": "angel2_1", 
+                "path": "venetia.part/angel2_1.png", 
+                "w": 55, 
+                "x": 833, 
+                "y": 417
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "angel2_2", 
+                "path": "venetia.part/angel2_2.png", 
+                "w": 86, 
+                "x": 640, 
+                "y": 585
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "angel2_3_cover", 
+                "path": "venetia.part/angel2_3_cover.png", 
+                "w": 92, 
+                "x": 572, 
+                "y": 96
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "angel2_3", 
+                "path": "venetia.part/angel2_3.png", 
+                "w": 86, 
+                "x": 574, 
+                "y": 88
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "angel2_4", 
+                "path": "venetia.part/angel2_4.png", 
+                "w": 87, 
+                "x": 235, 
+                "y": 69
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "angel2_5_cover", 
+                "path": "venetia.part/angel2_5_cover.png", 
+                "w": 39, 
+                "x": 426, 
+                "y": 526
+              }, 
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "angel2_5", 
+                "path": "venetia.part/angel2_5.png", 
+                "w": 32, 
+                "x": 430, 
+                "y": 528
+              }
+            }
+          ], 
+          "name": "angel2", 
+          "path": "venetia.part/angel2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "angel3_1", 
+                "path": "venetia.part/angel3_1.png", 
+                "w": 35, 
+                "x": 1206, 
+                "y": 271
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "angel3_2", 
+                "path": "venetia.part/angel3_2.png", 
+                "w": 60, 
+                "x": 540, 
+                "y": 110
+              }
+            }, 
+            {
+              "cover": {
+                "h": 71, 
+                "layer": 5, 
+                "name": "angel3_3_cover", 
+                "path": "venetia.part/angel3_3_cover.png", 
+                "w": 36, 
+                "x": 617, 
+                "y": 264
+              }, 
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "angel3_3", 
+                "path": "venetia.part/angel3_3.png", 
+                "w": 47, 
+                "x": 624, 
+                "y": 255
+              }
+            }, 
+            {
+              "cover": {
+                "h": 76, 
+                "layer": 5, 
+                "name": "angel3_4_cover", 
+                "path": "venetia.part/angel3_4_cover.png", 
+                "w": 29, 
+                "x": 1057, 
+                "y": 227
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "angel3_4", 
+                "path": "venetia.part/angel3_4.png", 
+                "w": 40, 
+                "x": 1061, 
+                "y": 231
+              }
+            }, 
+            {
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "angel3_5", 
+                "path": "venetia.part/angel3_5.png", 
+                "w": 57, 
+                "x": 1140, 
+                "y": 7
+              }
+            }
+          ], 
+          "name": "angel3", 
+          "path": "venetia.part/angel3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "angel4_1", 
+                "path": "venetia.part/angel4_1.png", 
+                "w": 27, 
+                "x": 714, 
+                "y": 98
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "angel4_2", 
+                "path": "venetia.part/angel4_2.png", 
+                "w": 27, 
+                "x": 564, 
+                "y": 364
+              }
+            }, 
+            {
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "angel4_3", 
+                "path": "venetia.part/angel4_3.png", 
+                "w": 27, 
+                "x": 1076, 
+                "y": 195
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "angel4_4", 
+                "path": "venetia.part/angel4_4.png", 
+                "w": 30, 
+                "x": 853, 
+                "y": 496
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "angel4_5", 
+                "path": "venetia.part/angel4_5.png", 
+                "w": 27, 
+                "x": 297, 
+                "y": 195
+              }
+            }
+          ], 
+          "name": "angel4", 
+          "path": "venetia.part/angel4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 106, 
+                "layer": 4, 
+                "name": "angel5_1", 
+                "path": "venetia.part/angel5_1.png", 
+                "w": 51, 
+                "x": 317, 
+                "y": 466
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "angel5_2", 
+                "path": "venetia.part/angel5_2.png", 
+                "w": 34, 
+                "x": 855, 
+                "y": 326
+              }
+            }, 
+            {
+              "cover": {
+                "h": 110, 
+                "layer": 5, 
+                "name": "angel5_3_cover", 
+                "path": "venetia.part/angel5_3_cover.png", 
+                "w": 44, 
+                "x": 441, 
+                "y": 239
+              }, 
+              "pic": {
+                "h": 98, 
+                "layer": 4, 
+                "name": "angel5_3", 
+                "path": "venetia.part/angel5_3.png", 
+                "w": 57, 
+                "x": 446, 
+                "y": 246
+              }
+            }, 
+            {
+              "pic": {
+                "h": 87, 
+                "layer": 4, 
+                "name": "angel5_4", 
+                "path": "venetia.part/angel5_4.png", 
+                "w": 36, 
+                "x": 382, 
+                "y": 87
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "angel5_5_cover", 
+                "path": "venetia.part/angel5_5_cover.png", 
+                "w": 28, 
+                "x": 974, 
+                "y": 448
+              }, 
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "angel5_5", 
+                "path": "venetia.part/angel5_5.png", 
+                "w": 38, 
+                "x": 976, 
+                "y": 407
+              }
+            }
+          ], 
+          "name": "angel5", 
+          "path": "venetia.part/angel5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "statue_orig", 
+      "path": "venetia.part/statue_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 96, 
+                "layer": 4, 
+                "name": "statue1_1", 
+                "path": "venetia.part/statue1_1.png", 
+                "w": 34, 
+                "x": 470, 
+                "y": 486
+              }
+            }, 
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "statue1_2", 
+                "path": "venetia.part/statue1_2.png", 
+                "w": 27, 
+                "x": 1127, 
+                "y": 335
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "statue1_3_cover", 
+                "path": "venetia.part/statue1_3_cover.png", 
+                "w": 82, 
+                "x": 1089, 
+                "y": 98
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "statue1_3", 
+                "path": "venetia.part/statue1_3.png", 
+                "w": 79, 
+                "x": 1093, 
+                "y": 102
+              }
+            }, 
+            {
+              "cover": {
+                "h": 76, 
+                "layer": 5, 
+                "name": "statue1_4_cover", 
+                "path": "venetia.part/statue1_4_cover.png", 
+                "w": 21, 
+                "x": 597, 
+                "y": 270
+              }, 
+              "pic": {
+                "h": 78, 
+                "layer": 4, 
+                "name": "statue1_4", 
+                "path": "venetia.part/statue1_4.png", 
+                "w": 36, 
+                "x": 582, 
+                "y": 272
+              }
+            }, 
+            {
+              "cover": {
+                "h": 70, 
+                "layer": 5, 
+                "name": "statue1_5_cover", 
+                "path": "venetia.part/statue1_5_cover.png", 
+                "w": 33, 
+                "x": 921, 
+                "y": 226
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "statue1_5", 
+                "path": "venetia.part/statue1_5.png", 
+                "w": 30, 
+                "x": 921, 
+                "y": 229
+              }
+            }
+          ], 
+          "name": "statue1", 
+          "path": "venetia.part/statue1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "statue2_1", 
+                "path": "venetia.part/statue2_1.png", 
+                "w": 67, 
+                "x": 1000, 
+                "y": 519
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "statue2_2", 
+                "path": "venetia.part/statue2_2.png", 
+                "w": 67, 
+                "x": 237, 
+                "y": 531
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "statue2_3", 
+                "path": "venetia.part/statue2_3.png", 
+                "w": 56, 
+                "x": 661, 
+                "y": 127
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "statue2_4", 
+                "path": "venetia.part/statue2_4.png", 
+                "w": 30, 
+                "x": 397, 
+                "y": 175
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "statue2_5", 
+                "path": "venetia.part/statue2_5.png", 
+                "w": 49, 
+                "x": 1126, 
+                "y": 207
+              }
+            }
+          ], 
+          "name": "statue2", 
+          "path": "venetia.part/statue2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 90, 
+                "layer": 4, 
+                "name": "statue3_1", 
+                "path": "venetia.part/statue3_1.png", 
+                "w": 21, 
+                "x": 740, 
+                "y": 237
+              }
+            }, 
+            {
+              "pic": {
+                "h": 82, 
+                "layer": 4, 
+                "name": "statue3_2", 
+                "path": "venetia.part/statue3_2.png", 
+                "w": 19, 
+                "x": 900, 
+                "y": 117
+              }
+            }, 
+            {
+              "pic": {
+                "h": 136, 
+                "layer": 4, 
+                "name": "statue3_3", 
+                "path": "venetia.part/statue3_3.png", 
+                "w": 24, 
+                "x": 621, 
+                "y": 465
+              }
+            }, 
+            {
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "statue3_4", 
+                "path": "venetia.part/statue3_4.png", 
+                "w": 101, 
+                "x": 384, 
+                "y": 610
+              }
+            }, 
+            {
+              "pic": {
+                "h": 101, 
+                "layer": 4, 
+                "name": "statue3_5", 
+                "path": "venetia.part/statue3_5.png", 
+                "w": 23, 
+                "x": 364, 
+                "y": 252
+              }
+            }
+          ], 
+          "name": "statue3", 
+          "path": "venetia.part/statue3.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 85, 
+                "layer": 5, 
+                "name": "statue4_1_cover", 
+                "path": "venetia.part/statue4_1_cover.png", 
+                "w": 64, 
+                "x": 649, 
+                "y": 477
+              }, 
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "statue4_1", 
+                "path": "venetia.part/statue4_1.png", 
+                "w": 58, 
+                "x": 643, 
+                "y": 488
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "statue4_2", 
+                "path": "venetia.part/statue4_2.png", 
+                "w": 45, 
+                "x": 536, 
+                "y": 214
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "statue4_3_cover", 
+                "path": "venetia.part/statue4_3_cover.png", 
+                "w": 65, 
+                "x": 548, 
+                "y": 573
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "statue4_3", 
+                "path": "venetia.part/statue4_3.png", 
+                "w": 80, 
+                "x": 525, 
+                "y": 574
+              }
+            }, 
+            {
+              "cover": {
+                "h": 48, 
+                "layer": 5, 
+                "name": "statue4_4_cover", 
+                "path": "venetia.part/statue4_4_cover.png", 
+                "w": 58, 
+                "x": 260, 
+                "y": 36
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "statue4_4", 
+                "path": "venetia.part/statue4_4.png", 
+                "w": 90, 
+                "x": 261, 
+                "y": 21
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "statue4_5", 
+                "path": "venetia.part/statue4_5.png", 
+                "w": 43, 
+                "x": 966, 
+                "y": 145
+              }
+            }
+          ], 
+          "name": "statue4", 
+          "path": "venetia.part/statue4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 92, 
+                "layer": 4, 
+                "name": "statue5_1", 
+                "path": "venetia.part/statue5_1.png", 
+                "w": 70, 
+                "x": 514, 
+                "y": 435
+              }
+            }, 
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "statue5_2", 
+                "path": "venetia.part/statue5_2.png", 
+                "w": 70, 
+                "x": 324, 
+                "y": 163
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "statue5_3", 
+                "path": "venetia.part/statue5_3.png", 
+                "w": 55, 
+                "x": 490, 
+                "y": 5
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "statue5_4_cover", 
+                "path": "venetia.part/statue5_4_cover.png", 
+                "w": 50, 
+                "x": 845, 
+                "y": 149
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "statue5_4", 
+                "path": "venetia.part/statue5_4.png", 
+                "w": 51, 
+                "x": 853, 
+                "y": 148
+              }
+            }, 
+            {
+              "cover": {
+                "h": 63, 
+                "layer": 5, 
+                "name": "statue5_5_cover", 
+                "path": "venetia.part/statue5_5_cover.png", 
+                "w": 36, 
+                "x": 781, 
+                "y": 339
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "statue5_5", 
+                "path": "venetia.part/statue5_5.png", 
+                "w": 54, 
+                "x": 784, 
+                "y": 341
+              }
+            }
+          ], 
+          "name": "statue5", 
+          "path": "venetia.part/statue5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "crown_orig", 
+      "path": "venetia.part/crown_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "crown1_1", 
+                "path": "venetia.part/crown1_1.png", 
+                "w": 60, 
+                "x": 1024, 
+                "y": 508
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "crown1_2", 
+                "path": "venetia.part/crown1_2.png", 
+                "w": 53, 
+                "x": 233, 
+                "y": 250
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "crown1_3_cover", 
+                "path": "venetia.part/crown1_3_cover.png", 
+                "w": 40, 
+                "x": 756, 
+                "y": 76
+              }, 
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "crown1_3", 
+                "path": "venetia.part/crown1_3.png", 
+                "w": 43, 
+                "x": 756, 
+                "y": 63
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "crown1_4", 
+                "path": "venetia.part/crown1_4.png", 
+                "w": 40, 
+                "x": 1200, 
+                "y": 228
+              }
+            }, 
+            {
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "crown1_5", 
+                "path": "venetia.part/crown1_5.png", 
+                "w": 33, 
+                "x": 934, 
+                "y": 102
+              }
+            }
+          ], 
+          "name": "crown1", 
+          "path": "venetia.part/crown1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "crown2_1", 
+                "path": "venetia.part/crown2_1.png", 
+                "w": 42, 
+                "x": 796, 
+                "y": 533
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "crown2_2", 
+                "path": "venetia.part/crown2_2.png", 
+                "w": 56, 
+                "x": 647, 
+                "y": 62
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "crown2_3", 
+                "path": "venetia.part/crown2_3.png", 
+                "w": 64, 
+                "x": 958, 
+                "y": 28
+              }
+            }, 
+            {
+              "pic": {
+                "h": 21, 
+                "layer": 4, 
+                "name": "crown2_4", 
+                "path": "venetia.part/crown2_4.png", 
+                "w": 38, 
+                "x": 935, 
+                "y": 320
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "crown2_5_cover", 
+                "path": "venetia.part/crown2_5_cover.png", 
+                "w": 52, 
+                "x": 1142, 
+                "y": 477
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "crown2_5", 
+                "path": "venetia.part/crown2_5.png", 
+                "w": 65, 
+                "x": 1126, 
+                "y": 478
+              }
+            }
+          ], 
+          "name": "crown2", 
+          "path": "venetia.part/crown2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "crown3_1", 
+                "path": "venetia.part/crown3_1.png", 
+                "w": 39, 
+                "x": 691, 
+                "y": 397
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "crown3_2", 
+                "path": "venetia.part/crown3_2.png", 
+                "w": 63, 
+                "x": 453, 
+                "y": 404
+              }
+            }, 
+            {
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "crown3_3", 
+                "path": "venetia.part/crown3_3.png", 
+                "w": 44, 
+                "x": 437, 
+                "y": 35
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "crown3_4_cover", 
+                "path": "venetia.part/crown3_4_cover.png", 
+                "w": 22, 
+                "x": 1129, 
+                "y": 237
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "crown3_4", 
+                "path": "venetia.part/crown3_4.png", 
+                "w": 47, 
+                "x": 1135, 
+                "y": 241
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "crown3_5", 
+                "path": "venetia.part/crown3_5.png", 
+                "w": 40, 
+                "x": 884, 
+                "y": 61
+              }
+            }
+          ], 
+          "name": "crown3", 
+          "path": "venetia.part/crown3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "crown4_1", 
+                "path": "venetia.part/crown4_1.png", 
+                "w": 34, 
+                "x": 663, 
+                "y": 346
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "crown4_2", 
+                "path": "venetia.part/crown4_2.png", 
+                "w": 59, 
+                "x": 909, 
+                "y": 530
+              }
+            }, 
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "crown4_3", 
+                "path": "venetia.part/crown4_3.png", 
+                "w": 38, 
+                "x": 233, 
+                "y": 191
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "crown4_4", 
+                "path": "venetia.part/crown4_4.png", 
+                "w": 23, 
+                "x": 1006, 
+                "y": 356
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "crown4_5", 
+                "path": "venetia.part/crown4_5.png", 
+                "w": 36, 
+                "x": 1113, 
+                "y": 143
+              }
+            }
+          ], 
+          "name": "crown4", 
+          "path": "venetia.part/crown4.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 14, 
+                "layer": 5, 
+                "name": "crown5_1_cover", 
+                "path": "venetia.part/crown5_1_cover.png", 
+                "w": 42, 
+                "x": 342, 
+                "y": 408
+              }, 
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "crown5_1", 
+                "path": "venetia.part/crown5_1.png", 
+                "w": 64, 
+                "x": 331, 
+                "y": 408
+              }
+            }, 
+            {
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "crown5_2", 
+                "path": "venetia.part/crown5_2.png", 
+                "w": 49, 
+                "x": 627, 
+                "y": 158
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "crown5_3_cover", 
+                "path": "venetia.part/crown5_3_cover.png", 
+                "w": 14, 
+                "x": 895, 
+                "y": 608
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "crown5_3", 
+                "path": "venetia.part/crown5_3.png", 
+                "w": 64, 
+                "x": 900, 
+                "y": 604
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "crown5_4", 
+                "path": "venetia.part/crown5_4.png", 
+                "w": 27, 
+                "x": 707, 
+                "y": 267
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "crown5_5", 
+                "path": "venetia.part/crown5_5.png", 
+                "w": 28, 
+                "x": 574, 
+                "y": 11
+              }
+            }
+          ], 
+          "name": "crown5", 
+          "path": "venetia.part/crown5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "bug_orig", 
+      "path": "venetia.part/bug_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "bug1_1", 
+                "path": "venetia.part/bug1_1.png", 
+                "w": 39, 
+                "x": 740, 
+                "y": 583
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "bug1_2", 
+                "path": "venetia.part/bug1_2.png", 
+                "w": 47, 
+                "x": 439, 
+                "y": 360
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "bug1_3_cover", 
+                "path": "venetia.part/bug1_3_cover.png", 
+                "w": 28, 
+                "x": 287, 
+                "y": 321
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "bug1_3", 
+                "path": "venetia.part/bug1_3.png", 
+                "w": 39, 
+                "x": 289, 
+                "y": 314
+              }
+            }, 
+            {
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "bug1_4", 
+                "path": "venetia.part/bug1_4.png", 
+                "w": 42, 
+                "x": 1041, 
+                "y": 120
+              }
+            }, 
+            {
+              "pic": {
+                "h": 26, 
+                "layer": 4, 
+                "name": "bug1_5", 
+                "path": "venetia.part/bug1_5.png", 
+                "w": 36, 
+                "x": 865, 
+                "y": 243
+              }
+            }
+          ], 
+          "name": "bug1", 
+          "path": "venetia.part/bug1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "bug2_1", 
+                "path": "venetia.part/bug2_1.png", 
+                "w": 53, 
+                "x": 370, 
+                "y": 538
+              }
+            }, 
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "bug2_2", 
+                "path": "venetia.part/bug2_2.png", 
+                "w": 58, 
+                "x": 1069, 
+                "y": 563
+              }
+            }, 
+            {
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "bug2_3", 
+                "path": "venetia.part/bug2_3.png", 
+                "w": 34, 
+                "x": 493, 
+                "y": 204
+              }
+            }, 
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "bug2_4", 
+                "path": "venetia.part/bug2_4.png", 
+                "w": 45, 
+                "x": 993, 
+                "y": 222
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "bug2_5_cover", 
+                "path": "venetia.part/bug2_5_cover.png", 
+                "w": 58, 
+                "x": 718, 
+                "y": 195
+              }, 
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "bug2_5", 
+                "path": "venetia.part/bug2_5.png", 
+                "w": 37, 
+                "x": 725, 
+                "y": 208
+              }
+            }
+          ], 
+          "name": "bug2", 
+          "path": "venetia.part/bug2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "bug3_1", 
+                "path": "venetia.part/bug3_1.png", 
+                "w": 40, 
+                "x": 739, 
+                "y": 337
+              }
+            }, 
+            {
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "bug3_2", 
+                "path": "venetia.part/bug3_2.png", 
+                "w": 59, 
+                "x": 234, 
+                "y": 113
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "bug3_3_cover", 
+                "path": "venetia.part/bug3_3_cover.png", 
+                "w": 45, 
+                "x": 491, 
+                "y": 102
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "bug3_3", 
+                "path": "venetia.part/bug3_3.png", 
+                "w": 46, 
+                "x": 487, 
+                "y": 105
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "bug3_4", 
+                "path": "venetia.part/bug3_4.png", 
+                "w": 35, 
+                "x": 895, 
+                "y": 341
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "bug3_5", 
+                "path": "venetia.part/bug3_5.png", 
+                "w": 42, 
+                "x": 1081, 
+                "y": 382
+              }
+            }
+          ], 
+          "name": "bug3", 
+          "path": "venetia.part/bug3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "bug4_1", 
+                "path": "venetia.part/bug4_1.png", 
+                "w": 39, 
+                "x": 231, 
+                "y": 407
+              }
+            }, 
+            {
+              "pic": {
+                "h": 87, 
+                "layer": 4, 
+                "name": "bug4_2", 
+                "path": "venetia.part/bug4_2.png", 
+                "w": 57, 
+                "x": 903, 
+                "y": 416
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "bug4_3", 
+                "path": "venetia.part/bug4_3.png", 
+                "w": 55, 
+                "x": 1026, 
+                "y": 297
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "bug4_4_cover", 
+                "path": "venetia.part/bug4_4_cover.png", 
+                "w": 40, 
+                "x": 1211, 
+                "y": 153
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "bug4_4", 
+                "path": "venetia.part/bug4_4.png", 
+                "w": 44, 
+                "x": 1204, 
+                "y": 155
+              }
+            }, 
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "bug4_5", 
+                "path": "venetia.part/bug4_5.png", 
+                "w": 56, 
+                "x": 609, 
+                "y": 20
+              }
+            }
+          ], 
+          "name": "bug4", 
+          "path": "venetia.part/bug4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "bug5_1", 
+                "path": "venetia.part/bug5_1.png", 
+                "w": 45, 
+                "x": 579, 
+                "y": 508
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "bug5_2", 
+                "path": "venetia.part/bug5_2.png", 
+                "w": 45, 
+                "x": 1189, 
+                "y": 560
+              }
+            }, 
+            {
+              "pic": {
+                "h": 35, 
+                "layer": 4, 
+                "name": "bug5_3", 
+                "path": "venetia.part/bug5_3.png", 
+                "w": 41, 
+                "x": 229, 
+                "y": 6
+              }
+            }, 
+            {
+              "cover": {
+                "h": 36, 
+                "layer": 5, 
+                "name": "bug5_4_cover", 
+                "path": "venetia.part/bug5_4_cover.png", 
+                "w": 29, 
+                "x": 777, 
+                "y": 158
+              }, 
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "bug5_4", 
+                "path": "venetia.part/bug5_4.png", 
+                "w": 33, 
+                "x": 783, 
+                "y": 157
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "bug5_5_cover", 
+                "path": "venetia.part/bug5_5_cover.png", 
+                "w": 44, 
+                "x": 429, 
+                "y": 453
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "bug5_5", 
+                "path": "venetia.part/bug5_5.png", 
+                "w": 39, 
+                "x": 435, 
+                "y": 458
+              }
+            }
+          ], 
+          "name": "bug5", 
+          "path": "venetia.part/bug5.png"
+        }
+      ]
+    }
+  ]
+}

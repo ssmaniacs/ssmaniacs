@@ -1,0 +1,78 @@
+[
+  {
+    "layer": 0, 
+    "path": "india.bg/sky.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 0, 
+    "path": "india.bg/cloud1.png", 
+    "x": 576, 
+    "y": 54
+  }, 
+  {
+    "layer": 0, 
+    "path": "india.bg/cloud2.png", 
+    "x": 228, 
+    "y": 8
+  }, 
+  {
+    "layer": 0, 
+    "path": "india.bg/cloud3.png", 
+    "x": -72, 
+    "y": 24
+  }, 
+  {
+    "layer": 1, 
+    "path": "india.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "india.bg/smoke_00.png", 
+    "x": 441, 
+    "y": 389
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "india.bg/1_flag01.png", 
+    "x": 662, 
+    "y": 46
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "india.bg/2_flag01.png", 
+    "x": 342, 
+    "y": 43
+  }, 
+  {
+    "ani": true, 
+    "layer": 10, 
+    "path": "india.bg/3_flag01.png", 
+    "x": 814, 
+    "y": 14
+  }, 
+  {
+    "layer": 10, 
+    "path": "india.bg/leave3.png", 
+    "x": 1191, 
+    "y": -75
+  }, 
+  {
+    "layer": 10, 
+    "path": "india.bg/leave2.png", 
+    "x": 1062, 
+    "y": -90
+  }, 
+  {
+    "layer": 10, 
+    "path": "india.bg/leave1.png", 
+    "x": 959, 
+    "y": -106
+  }
+]

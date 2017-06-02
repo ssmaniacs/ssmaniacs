@@ -1,0 +1,6293 @@
+{
+  "form": [
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "soccer_ball_2_1_cover", 
+            "path": "brazil.form/soccer_ball_2_1_cover.png", 
+            "w": 53, 
+            "x": 618, 
+            "y": 540
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "soccer_ball_2_1", 
+            "path": "brazil.form/soccer_ball_2_1.png", 
+            "w": 47, 
+            "x": 620, 
+            "y": 542
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "soccer_ball_3_1_cover", 
+            "path": "brazil.form/soccer_ball_3_1_cover.png", 
+            "w": 37, 
+            "x": 672, 
+            "y": 55
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "soccer_ball_3_1", 
+            "path": "brazil.form/soccer_ball_3_1.png", 
+            "w": 34, 
+            "x": 674, 
+            "y": 56
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "soccer_ball_3_2_cover", 
+            "path": "brazil.form/soccer_ball_3_2_cover.png", 
+            "w": 38, 
+            "x": 1043, 
+            "y": 196
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "soccer_ball_3_2", 
+            "path": "brazil.form/soccer_ball_3_2.png", 
+            "w": 29, 
+            "x": 1047, 
+            "y": 201
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "soccer_ball_2_2", 
+            "path": "brazil.form/soccer_ball_2_2.png", 
+            "w": 28, 
+            "x": 395, 
+            "y": 300
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "soccer_ball_1_2", 
+            "path": "brazil.form/soccer_ball_1_2.png", 
+            "w": 57, 
+            "x": 1061, 
+            "y": 467
+          }
+        }, 
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "soccer_ball_1_1", 
+            "path": "brazil.form/soccer_ball_1_1.png", 
+            "w": 80, 
+            "x": 431, 
+            "y": 516
+          }
+        }
+      ], 
+      "name": "サッカーボール", 
+      "path": "brazil.sils/soccer_ball.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "armadillo_3_2_cover", 
+            "path": "brazil.form/armadillo_3_2_cover.png", 
+            "w": 55, 
+            "x": 531, 
+            "y": 299
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "armadillo_3_2", 
+            "path": "brazil.form/armadillo_3_2.png", 
+            "w": 55, 
+            "x": 531, 
+            "y": 307
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "armadillo_3_1_cover", 
+            "path": "brazil.form/armadillo_3_1_cover.png", 
+            "w": 37, 
+            "x": 1149, 
+            "y": 356
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "armadillo_3_1", 
+            "path": "brazil.form/armadillo_3_1.png", 
+            "w": 36, 
+            "x": 1141, 
+            "y": 363
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "armadillo_2_2", 
+            "path": "brazil.form/armadillo_2_2.png", 
+            "w": 77, 
+            "x": 1117, 
+            "y": 578
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "armadillo_2_1_cover", 
+            "path": "brazil.form/armadillo_2_1_cover.png", 
+            "w": 49, 
+            "x": 743, 
+            "y": 467
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "armadillo_2_1", 
+            "path": "brazil.form/armadillo_2_1.png", 
+            "w": 72, 
+            "x": 722, 
+            "y": 470
+          }
+        }, 
+        {
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "armadillo_1_2", 
+            "path": "brazil.form/armadillo_1_2.png", 
+            "w": 67, 
+            "x": 323, 
+            "y": 363
+          }
+        }, 
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "armadillo_1_1", 
+            "path": "brazil.form/armadillo_1_1.png", 
+            "w": 84, 
+            "x": 300, 
+            "y": 604
+          }
+        }
+      ], 
+      "name": "アルマジロ", 
+      "path": "brazil.sils/armadillo.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "pen1", 
+            "path": "brazil.form/pen1.png", 
+            "w": 91, 
+            "x": 719, 
+            "y": 628
+          }
+        }, 
+        {
+          "pic": {
+            "h": 19, 
+            "layer": 3, 
+            "name": "pen2", 
+            "path": "brazil.form/pen2.png", 
+            "w": 91, 
+            "x": 1154, 
+            "y": 631
+          }
+        }, 
+        {
+          "pic": {
+            "h": 10, 
+            "layer": 3, 
+            "name": "pen3", 
+            "path": "brazil.form/pen3.png", 
+            "w": 87, 
+            "x": 959, 
+            "y": 186
+          }
+        }, 
+        {
+          "pic": {
+            "h": 8, 
+            "layer": 3, 
+            "name": "pen4", 
+            "path": "brazil.form/pen4.png", 
+            "w": 87, 
+            "x": 758, 
+            "y": 238
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "pen5_cover", 
+            "path": "brazil.form/pen5_cover.png", 
+            "w": 71, 
+            "x": 883, 
+            "y": 29
+          }, 
+          "pic": {
+            "h": 14, 
+            "layer": 3, 
+            "name": "pen5", 
+            "path": "brazil.form/pen5.png", 
+            "w": 89, 
+            "x": 889, 
+            "y": 29
+          }
+        }, 
+        {
+          "cover": {
+            "h": 18, 
+            "layer": 5, 
+            "name": "pen6_cover", 
+            "path": "brazil.form/pen6_cover.png", 
+            "w": 68, 
+            "x": 598, 
+            "y": 164
+          }, 
+          "pic": {
+            "h": 12, 
+            "layer": 3, 
+            "name": "pen6", 
+            "path": "brazil.form/pen6.png", 
+            "w": 88, 
+            "x": 602, 
+            "y": 168
+          }
+        }
+      ], 
+      "name": "ペン", 
+      "path": "brazil.sils/pen.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 60, 
+            "layer": 5, 
+            "name": "balloon_3_2_cover", 
+            "path": "brazil.form/balloon_3_2_cover.png", 
+            "w": 38, 
+            "x": 233, 
+            "y": 107
+          }, 
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "balloon_3_2", 
+            "path": "brazil.form/balloon_3_2.png", 
+            "w": 41, 
+            "x": 235, 
+            "y": 110
+          }
+        }, 
+        {
+          "cover": {
+            "h": 57, 
+            "layer": 5, 
+            "name": "balloon_3_1_cover", 
+            "path": "brazil.form/balloon_3_1_cover.png", 
+            "w": 57, 
+            "x": 720, 
+            "y": 411
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "balloon_3_1", 
+            "path": "brazil.form/balloon_3_1.png", 
+            "w": 44, 
+            "x": 727, 
+            "y": 403
+          }
+        }, 
+        {
+          "pic": {
+            "h": 71, 
+            "layer": 3, 
+            "name": "balloon_2_1", 
+            "path": "brazil.form/balloon_2_1.png", 
+            "w": 55, 
+            "x": 1072, 
+            "y": 329
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "balloon_2_2", 
+            "path": "brazil.form/balloon_2_2.png", 
+            "w": 42, 
+            "x": 558, 
+            "y": 217
+          }
+        }, 
+        {
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "balloon_1_2", 
+            "path": "brazil.form/balloon_1_2.png", 
+            "w": 38, 
+            "x": 948, 
+            "y": 112
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "balloon_1_1", 
+            "path": "brazil.form/balloon_1_1.png", 
+            "w": 43, 
+            "x": 665, 
+            "y": 418
+          }
+        }
+      ], 
+      "name": "気球", 
+      "path": "brazil.sils/balloon.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 5, 
+            "name": "books_2_1_cover", 
+            "path": "brazil.form/books_2_1_cover.png", 
+            "w": 47, 
+            "x": 922, 
+            "y": 431
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "books_2_1", 
+            "path": "brazil.form/books_2_1.png", 
+            "w": 45, 
+            "x": 919, 
+            "y": 433
+          }
+        }, 
+        {
+          "cover": {
+            "h": 23, 
+            "layer": 5, 
+            "name": "books_1_2_cover", 
+            "path": "brazil.form/books_1_2_cover.png", 
+            "w": 59, 
+            "x": 538, 
+            "y": 454
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "books_1_2", 
+            "path": "brazil.form/books_1_2.png", 
+            "w": 53, 
+            "x": 540, 
+            "y": 439
+          }
+        }, 
+        {
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "books_1_1", 
+            "path": "brazil.form/books_1_1.png", 
+            "w": 75, 
+            "x": 931, 
+            "y": 528
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "books_3_1_cover", 
+            "path": "brazil.form/books_3_1_cover.png", 
+            "w": 55, 
+            "x": 326, 
+            "y": 247
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "books_3_1", 
+            "path": "brazil.form/books_3_1.png", 
+            "w": 41, 
+            "x": 331, 
+            "y": 249
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "books_2_2", 
+            "path": "brazil.form/books_2_2.png", 
+            "w": 46, 
+            "x": 883, 
+            "y": 62
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "books_3_2_cover", 
+            "path": "brazil.form/books_3_2_cover.png", 
+            "w": 62, 
+            "x": 540, 
+            "y": 134
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "books_3_2", 
+            "path": "brazil.form/books_3_2.png", 
+            "w": 75, 
+            "x": 522, 
+            "y": 120
+          }
+        }
+      ], 
+      "name": "古い本", 
+      "path": "brazil.sils/books.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 110, 
+            "layer": 3, 
+            "name": "broom_1_1", 
+            "path": "brazil.form/broom_1_1.png", 
+            "w": 43, 
+            "x": 1083, 
+            "y": 45
+          }
+        }, 
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "broom_1_2", 
+            "path": "brazil.form/broom_1_2.png", 
+            "w": 122, 
+            "x": 883, 
+            "y": 349
+          }
+        }, 
+        {
+          "cover": {
+            "h": 153, 
+            "layer": 5, 
+            "name": "broom_2_1_cover", 
+            "path": "brazil.form/broom_2_1_cover.png", 
+            "w": 32, 
+            "x": 641, 
+            "y": 387
+          }, 
+          "pic": {
+            "h": 153, 
+            "layer": 3, 
+            "name": "broom_2_1", 
+            "path": "brazil.form/broom_2_1.png", 
+            "w": 43, 
+            "x": 643, 
+            "y": 387
+          }
+        }, 
+        {
+          "cover": {
+            "h": 111, 
+            "layer": 5, 
+            "name": "broom_2_2_cover", 
+            "path": "brazil.form/broom_2_2_cover.png", 
+            "w": 21, 
+            "x": 468, 
+            "y": 209
+          }, 
+          "pic": {
+            "h": 110, 
+            "layer": 3, 
+            "name": "broom_2_2", 
+            "path": "brazil.form/broom_2_2.png", 
+            "w": 27, 
+            "x": 469, 
+            "y": 207
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 5, 
+            "name": "broom_3_1_cover", 
+            "path": "brazil.form/broom_3_1_cover.png", 
+            "w": 34, 
+            "x": 657, 
+            "y": 249
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "broom_3_1", 
+            "path": "brazil.form/broom_3_1.png", 
+            "w": 119, 
+            "x": 650, 
+            "y": 250
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "broom_3_2_cover", 
+            "path": "brazil.form/broom_3_2_cover.png", 
+            "w": 124, 
+            "x": 242, 
+            "y": 483
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "broom_3_2", 
+            "path": "brazil.form/broom_3_2.png", 
+            "w": 133, 
+            "x": 229, 
+            "y": 483
+          }
+        }
+      ], 
+      "name": "ほうき", 
+      "path": "brazil.sils/broom.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "burger_1_1", 
+            "path": "brazil.form/burger_1_1.png", 
+            "w": 48, 
+            "x": 878, 
+            "y": 459
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "burger_2_1_cover", 
+            "path": "brazil.form/burger_2_1_cover.png", 
+            "w": 26, 
+            "x": 473, 
+            "y": 457
+          }, 
+          "pic": {
+            "h": 24, 
+            "layer": 3, 
+            "name": "burger_2_1", 
+            "path": "brazil.form/burger_2_1.png", 
+            "w": 34, 
+            "x": 460, 
+            "y": 453
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "burger_3_1_cover", 
+            "path": "brazil.form/burger_3_1_cover.png", 
+            "w": 38, 
+            "x": 453, 
+            "y": 46
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "burger_3_1", 
+            "path": "brazil.form/burger_3_1.png", 
+            "w": 31, 
+            "x": 455, 
+            "y": 40
+          }
+        }, 
+        {
+          "pic": {
+            "h": 18, 
+            "layer": 3, 
+            "name": "burger_1_2", 
+            "path": "brazil.form/burger_1_2.png", 
+            "w": 24, 
+            "x": 863, 
+            "y": 177
+          }
+        }, 
+        {
+          "cover": {
+            "h": 28, 
+            "layer": 5, 
+            "name": "burger_2_2_cover", 
+            "path": "brazil.form/burger_2_2_cover.png", 
+            "w": 41, 
+            "x": 977, 
+            "y": 401
+          }, 
+          "pic": {
+            "h": 27, 
+            "layer": 3, 
+            "name": "burger_2_2", 
+            "path": "brazil.form/burger_2_2.png", 
+            "w": 37, 
+            "x": 978, 
+            "y": 399
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "burger_3_2_cover", 
+            "path": "brazil.form/burger_3_2_cover.png", 
+            "w": 49, 
+            "x": 360, 
+            "y": 427
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "burger_3_2", 
+            "path": "brazil.form/burger_3_2.png", 
+            "w": 39, 
+            "x": 365, 
+            "y": 419
+          }
+        }
+      ], 
+      "name": "ハンバーガー", 
+      "path": "brazil.sils/burger.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 5, 
+            "name": "butterfly_2_2_cover", 
+            "path": "brazil.form/butterfly_2_2_cover.png", 
+            "w": 28, 
+            "x": 731, 
+            "y": 160
+          }, 
+          "pic": {
+            "h": 31, 
+            "layer": 3, 
+            "name": "butterfly_2_2", 
+            "path": "brazil.form/butterfly_2_2.png", 
+            "w": 26, 
+            "x": 731, 
+            "y": 161
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "butterfly_3_1_cover", 
+            "path": "brazil.form/butterfly_3_1_cover.png", 
+            "w": 30, 
+            "x": 998, 
+            "y": 240
+          }, 
+          "pic": {
+            "h": 22, 
+            "layer": 3, 
+            "name": "butterfly_3_1", 
+            "path": "brazil.form/butterfly_3_1.png", 
+            "w": 22, 
+            "x": 1003, 
+            "y": 240
+          }
+        }, 
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "butterfly_3_2_cover", 
+            "path": "brazil.form/butterfly_3_2_cover.png", 
+            "w": 40, 
+            "x": 1154, 
+            "y": 466
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "butterfly_3_2", 
+            "path": "brazil.form/butterfly_3_2.png", 
+            "w": 33, 
+            "x": 1157, 
+            "y": 460
+          }
+        }, 
+        {
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "butterfly_1_2", 
+            "path": "brazil.form/butterfly_1_2.png", 
+            "w": 42, 
+            "x": 460, 
+            "y": 137
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "butterfly_2_1", 
+            "path": "brazil.form/butterfly_2_1.png", 
+            "w": 36, 
+            "x": 855, 
+            "y": 418
+          }
+        }, 
+        {
+          "pic": {
+            "h": 58, 
+            "layer": 3, 
+            "name": "butterfly_1_1", 
+            "path": "brazil.form/butterfly_1_1.png", 
+            "w": 55, 
+            "x": 376, 
+            "y": 556
+          }
+        }
+      ], 
+      "name": "蝶", 
+      "path": "brazil.sils/butterfly.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "sec_camera_1_2_cover", 
+            "path": "brazil.form/sec_camera_1_2_cover.png", 
+            "w": 34, 
+            "x": 819, 
+            "y": 483
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "sec_camera_1_2", 
+            "path": "brazil.form/sec_camera_1_2.png", 
+            "w": 44, 
+            "x": 801, 
+            "y": 491
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "sec_camera_1_1", 
+            "path": "brazil.form/sec_camera_1_1.png", 
+            "w": 31, 
+            "x": 1028, 
+            "y": 384
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "sec_camera_2_2_cover", 
+            "path": "brazil.form/sec_camera_2_2_cover.png", 
+            "w": 26, 
+            "x": 1040, 
+            "y": 55
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "sec_camera_2_2", 
+            "path": "brazil.form/sec_camera_2_2.png", 
+            "w": 27, 
+            "x": 1047, 
+            "y": 61
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "sec_camera_2_1_cover", 
+            "path": "brazil.form/sec_camera_2_1_cover.png", 
+            "w": 23, 
+            "x": 318, 
+            "y": 169
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "sec_camera_2_1", 
+            "path": "brazil.form/sec_camera_2_1.png", 
+            "w": 30, 
+            "x": 318, 
+            "y": 170
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "sec_camera_3_2_cover", 
+            "path": "brazil.form/sec_camera_3_2_cover.png", 
+            "w": 35, 
+            "x": 228, 
+            "y": 558
+          }, 
+          "pic": {
+            "h": 60, 
+            "layer": 3, 
+            "name": "sec_camera_3_2", 
+            "path": "brazil.form/sec_camera_3_2.png", 
+            "w": 40, 
+            "x": 228, 
+            "y": 556
+          }
+        }, 
+        {
+          "cover": {
+            "h": 53, 
+            "layer": 5, 
+            "name": "sec_camera_3_1_cover", 
+            "path": "brazil.form/sec_camera_3_1_cover.png", 
+            "w": 29, 
+            "x": 1154, 
+            "y": 503
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "sec_camera_3_1", 
+            "path": "brazil.form/sec_camera_3_1.png", 
+            "w": 37, 
+            "x": 1143, 
+            "y": 505
+          }
+        }
+      ], 
+      "name": "防犯カメラ", 
+      "path": "brazil.sils/sec_camera.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 63, 
+            "layer": 3, 
+            "name": "baseball_cap_1_1", 
+            "path": "brazil.form/baseball_cap_1_1.png", 
+            "w": 76, 
+            "x": 557, 
+            "y": 511
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "baseball_cap_1_2_cover", 
+            "path": "brazil.form/baseball_cap_1_2_cover.png", 
+            "w": 9, 
+            "x": 1042, 
+            "y": 345
+          }, 
+          "pic": {
+            "h": 23, 
+            "layer": 3, 
+            "name": "baseball_cap_1_2", 
+            "path": "brazil.form/baseball_cap_1_2.png", 
+            "w": 40, 
+            "x": 1013, 
+            "y": 344
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "baseball_cap_2_2_cover", 
+            "path": "brazil.form/baseball_cap_2_2_cover.png", 
+            "w": 15, 
+            "x": 290, 
+            "y": 378
+          }, 
+          "pic": {
+            "h": 50, 
+            "layer": 3, 
+            "name": "baseball_cap_2_2", 
+            "path": "brazil.form/baseball_cap_2_2.png", 
+            "w": 67, 
+            "x": 243, 
+            "y": 379
+          }
+        }, 
+        {
+          "cover": {
+            "h": 56, 
+            "layer": 5, 
+            "name": "baseball_cap_3_2_cover", 
+            "path": "brazil.form/baseball_cap_3_2_cover.png", 
+            "w": 30, 
+            "x": 676, 
+            "y": 110
+          }, 
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "baseball_cap_3_2", 
+            "path": "brazil.form/baseball_cap_3_2.png", 
+            "w": 28, 
+            "x": 683, 
+            "y": 117
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "baseball_cap_3_1_cover", 
+            "path": "brazil.form/baseball_cap_3_1_cover.png", 
+            "w": 32, 
+            "x": 945, 
+            "y": 262
+          }, 
+          "pic": {
+            "h": 24, 
+            "layer": 3, 
+            "name": "baseball_cap_3_1", 
+            "path": "brazil.form/baseball_cap_3_1.png", 
+            "w": 32, 
+            "x": 940, 
+            "y": 262
+          }
+        }, 
+        {
+          "cover": {
+            "h": 54, 
+            "layer": 5, 
+            "name": "baseball_cap_2_1_cover", 
+            "path": "brazil.form/baseball_cap_2_1_cover.png", 
+            "w": 68, 
+            "x": 999, 
+            "y": 535
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "baseball_cap_2_1", 
+            "path": "brazil.form/baseball_cap_2_1.png", 
+            "w": 79, 
+            "x": 990, 
+            "y": 539
+          }
+        }
+      ], 
+      "name": "野球帽", 
+      "path": "brazil.sils/baseball_cap.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "apple1", 
+            "path": "brazil.form/apple1.png", 
+            "w": 34, 
+            "x": 769, 
+            "y": 440
+          }
+        }, 
+        {
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "apple2", 
+            "path": "brazil.form/apple2.png", 
+            "w": 34, 
+            "x": 523, 
+            "y": 597
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "apple3", 
+            "path": "brazil.form/apple3.png", 
+            "w": 26, 
+            "x": 632, 
+            "y": 353
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "apple4", 
+            "path": "brazil.form/apple4.png", 
+            "w": 30, 
+            "x": 444, 
+            "y": 236
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "apple5", 
+            "path": "brazil.form/apple5.png", 
+            "w": 24, 
+            "x": 967, 
+            "y": 337
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "apple6_cover", 
+            "path": "brazil.form/apple6_cover.png", 
+            "w": 26, 
+            "x": 788, 
+            "y": 367
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "apple6", 
+            "path": "brazil.form/apple6.png", 
+            "w": 24, 
+            "x": 790, 
+            "y": 358
+          }
+        }
+      ], 
+      "name": "リンゴ", 
+      "path": "brazil.sils/apple.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "coconut_1_1_cover", 
+            "path": "brazil.form/coconut_1_1_cover.png", 
+            "w": 24, 
+            "x": 901, 
+            "y": 567
+          }, 
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "coconut_1_1", 
+            "path": "brazil.form/coconut_1_1.png", 
+            "w": 80, 
+            "x": 852, 
+            "y": 568
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 5, 
+            "name": "coconut_3_2_cover", 
+            "path": "brazil.form/coconut_3_2_cover.png", 
+            "w": 39, 
+            "x": 591, 
+            "y": 413
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "coconut_3_2", 
+            "path": "brazil.form/coconut_3_2.png", 
+            "w": 34, 
+            "x": 593, 
+            "y": 406
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "coconut_3_1_cover", 
+            "path": "brazil.form/coconut_3_1_cover.png", 
+            "w": 42, 
+            "x": 256, 
+            "y": 278
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "coconut_3_1", 
+            "path": "brazil.form/coconut_3_1.png", 
+            "w": 39, 
+            "x": 257, 
+            "y": 278
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "coconut_2_1_cover", 
+            "path": "brazil.form/coconut_2_1_cover.png", 
+            "w": 40, 
+            "x": 691, 
+            "y": 199
+          }, 
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "coconut_2_1", 
+            "path": "brazil.form/coconut_2_1.png", 
+            "w": 39, 
+            "x": 689, 
+            "y": 198
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "coconut_2_2_cover", 
+            "path": "brazil.form/coconut_2_2_cover.png", 
+            "w": 34, 
+            "x": 369, 
+            "y": 255
+          }, 
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "coconut_2_2", 
+            "path": "brazil.form/coconut_2_2.png", 
+            "w": 28, 
+            "x": 371, 
+            "y": 249
+          }
+        }, 
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "coconut_1_2_cover", 
+            "path": "brazil.form/coconut_1_2_cover.png", 
+            "w": 44, 
+            "x": 1200, 
+            "y": 237
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "coconut_1_2", 
+            "path": "brazil.form/coconut_1_2.png", 
+            "w": 39, 
+            "x": 1203, 
+            "y": 218
+          }
+        }
+      ], 
+      "name": "ココナツ", 
+      "path": "brazil.sils/coconut.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 15, 
+            "layer": 5, 
+            "name": "coffee_mill_2_2_cover", 
+            "path": "brazil.form/coffee_mill_2_2_cover.png", 
+            "w": 42, 
+            "x": 707, 
+            "y": 567
+          }, 
+          "pic": {
+            "h": 82, 
+            "layer": 3, 
+            "name": "coffee_mill_2_2", 
+            "path": "brazil.form/coffee_mill_2_2.png", 
+            "w": 50, 
+            "x": 707, 
+            "y": 539
+          }
+        }, 
+        {
+          "cover": {
+            "h": 61, 
+            "layer": 5, 
+            "name": "coffee_mill_2_1_cover", 
+            "path": "brazil.form/coffee_mill_2_1_cover.png", 
+            "w": 42, 
+            "x": 417, 
+            "y": 486
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "coffee_mill_2_1", 
+            "path": "brazil.form/coffee_mill_2_1.png", 
+            "w": 29, 
+            "x": 425, 
+            "y": 492
+          }
+        }, 
+        {
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "coffee_mill_1_1", 
+            "path": "brazil.form/coffee_mill_1_1.png", 
+            "w": 36, 
+            "x": 417, 
+            "y": 344
+          }
+        }, 
+        {
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "coffee_mill_1_2", 
+            "path": "brazil.form/coffee_mill_1_2.png", 
+            "w": 32, 
+            "x": 864, 
+            "y": 270
+          }
+        }, 
+        {
+          "cover": {
+            "h": 71, 
+            "layer": 5, 
+            "name": "coffee_mill_3_1_cover", 
+            "path": "brazil.form/coffee_mill_3_1_cover.png", 
+            "w": 38, 
+            "x": 1048, 
+            "y": 548
+          }, 
+          "pic": {
+            "h": 76, 
+            "layer": 3, 
+            "name": "coffee_mill_3_1", 
+            "path": "brazil.form/coffee_mill_3_1.png", 
+            "w": 53, 
+            "x": 1037, 
+            "y": 542
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "coffee_mill_3_2_cover", 
+            "path": "brazil.form/coffee_mill_3_2_cover.png", 
+            "w": 39, 
+            "x": 383, 
+            "y": 152
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "coffee_mill_3_2", 
+            "path": "brazil.form/coffee_mill_3_2.png", 
+            "w": 32, 
+            "x": 386, 
+            "y": 153
+          }
+        }
+      ], 
+      "name": "コーヒーミル", 
+      "path": "brazil.sils/coffee_mill.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 32, 
+            "layer": 5, 
+            "name": "cup_3_2_cover", 
+            "path": "brazil.form/cup_3_2_cover.png", 
+            "w": 41, 
+            "x": 1160, 
+            "y": 33
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "cup_3_2", 
+            "path": "brazil.form/cup_3_2.png", 
+            "w": 34, 
+            "x": 1162, 
+            "y": 23
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "cup_2_2", 
+            "path": "brazil.form/cup_2_2.png", 
+            "w": 28, 
+            "x": 381, 
+            "y": 85
+          }
+        }, 
+        {
+          "pic": {
+            "h": 24, 
+            "layer": 3, 
+            "name": "cup_1_1", 
+            "path": "brazil.form/cup_1_1.png", 
+            "w": 26, 
+            "x": 380, 
+            "y": 337
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "cup_2_1_cover", 
+            "path": "brazil.form/cup_2_1_cover.png", 
+            "w": 21, 
+            "x": 1200, 
+            "y": 299
+          }, 
+          "pic": {
+            "h": 36, 
+            "layer": 3, 
+            "name": "cup_2_1", 
+            "path": "brazil.form/cup_2_1.png", 
+            "w": 34, 
+            "x": 1208, 
+            "y": 306
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "cup_1_2", 
+            "path": "brazil.form/cup_1_2.png", 
+            "w": 28, 
+            "x": 887, 
+            "y": 515
+          }
+        }, 
+        {
+          "cover": {
+            "h": 37, 
+            "layer": 5, 
+            "name": "cup_3_1_cover", 
+            "path": "brazil.form/cup_3_1_cover.png", 
+            "w": 17, 
+            "x": 533, 
+            "y": 515
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "cup_3_1", 
+            "path": "brazil.form/cup_3_1.png", 
+            "w": 27, 
+            "x": 531, 
+            "y": 518
+          }
+        }
+      ], 
+      "name": "コーヒーマグ", 
+      "path": "brazil.sils/cup.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 8, 
+            "layer": 3, 
+            "name": "ruler1", 
+            "path": "brazil.form/ruler1.png", 
+            "w": 74, 
+            "x": 923, 
+            "y": 577
+          }
+        }, 
+        {
+          "pic": {
+            "h": 8, 
+            "layer": 3, 
+            "name": "ruler2", 
+            "path": "brazil.form/ruler2.png", 
+            "w": 74, 
+            "x": 515, 
+            "y": 290
+          }
+        }, 
+        {
+          "pic": {
+            "h": 10, 
+            "layer": 3, 
+            "name": "ruler3", 
+            "path": "brazil.form/ruler3.png", 
+            "w": 74, 
+            "x": 449, 
+            "y": 181
+          }
+        }, 
+        {
+          "pic": {
+            "h": 9, 
+            "layer": 3, 
+            "name": "ruler4", 
+            "path": "brazil.form/ruler4.png", 
+            "w": 74, 
+            "x": 770, 
+            "y": 190
+          }
+        }, 
+        {
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "ruler5", 
+            "path": "brazil.form/ruler5.png", 
+            "w": 9, 
+            "x": 887, 
+            "y": 195
+          }
+        }, 
+        {
+          "pic": {
+            "h": 64, 
+            "layer": 3, 
+            "name": "ruler6", 
+            "path": "brazil.form/ruler6.png", 
+            "w": 8, 
+            "x": 1108, 
+            "y": 97
+          }
+        }
+      ], 
+      "name": "ものさし", 
+      "path": "brazil.sils/ruler.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "flag_2_2_cover", 
+            "path": "brazil.form/flag_2_2_cover.png", 
+            "w": 28, 
+            "x": 1082, 
+            "y": 407
+          }, 
+          "pic": {
+            "h": 46, 
+            "layer": 3, 
+            "name": "flag_2_2", 
+            "path": "brazil.form/flag_2_2.png", 
+            "w": 25, 
+            "x": 1083, 
+            "y": 402
+          }
+        }, 
+        {
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "flag_1_1", 
+            "path": "brazil.form/flag_1_1.png", 
+            "w": 44, 
+            "x": 256, 
+            "y": 50
+          }
+        }, 
+        {
+          "pic": {
+            "h": 48, 
+            "layer": 3, 
+            "name": "flag_2_1", 
+            "path": "brazil.form/flag_2_1.png", 
+            "w": 55, 
+            "x": 983, 
+            "y": 2
+          }
+        }, 
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "flag_3_1", 
+            "path": "brazil.form/flag_3_1.png", 
+            "w": 35, 
+            "x": 853, 
+            "y": 13
+          }
+        }, 
+        {
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "flag_1_2", 
+            "path": "brazil.form/flag_1_2.png", 
+            "w": 41, 
+            "x": 694, 
+            "y": 288
+          }
+        }, 
+        {
+          "cover": {
+            "h": 35, 
+            "layer": 5, 
+            "name": "flag_3_2_cover", 
+            "path": "brazil.form/flag_3_2_cover.png", 
+            "w": 42, 
+            "x": 582, 
+            "y": 354
+          }, 
+          "pic": {
+            "h": 30, 
+            "layer": 3, 
+            "name": "flag_3_2", 
+            "path": "brazil.form/flag_3_2.png", 
+            "w": 39, 
+            "x": 584, 
+            "y": 357
+          }
+        }
+      ], 
+      "name": "ブラジルの旗", 
+      "path": "brazil.sils/flag.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "photo_camera_2_1_cover", 
+            "path": "brazil.form/photo_camera_2_1_cover.png", 
+            "w": 60, 
+            "x": 1176, 
+            "y": 433
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "photo_camera_2_1", 
+            "path": "brazil.form/photo_camera_2_1.png", 
+            "w": 54, 
+            "x": 1180, 
+            "y": 405
+          }
+        }, 
+        {
+          "cover": {
+            "h": 71, 
+            "layer": 5, 
+            "name": "photo_camera_3_2_cover", 
+            "path": "brazil.form/photo_camera_3_2_cover.png", 
+            "w": 49, 
+            "x": 291, 
+            "y": 421
+          }, 
+          "pic": {
+            "h": 66, 
+            "layer": 3, 
+            "name": "photo_camera_3_2", 
+            "path": "brazil.form/photo_camera_3_2.png", 
+            "w": 58, 
+            "x": 294, 
+            "y": 423
+          }
+        }, 
+        {
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "photo_camera_1_1", 
+            "path": "brazil.form/photo_camera_1_1.png", 
+            "w": 44, 
+            "x": 816, 
+            "y": 378
+          }
+        }, 
+        {
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "photo_camera_2_2", 
+            "path": "brazil.form/photo_camera_2_2.png", 
+            "w": 66, 
+            "x": 1125, 
+            "y": 86
+          }
+        }, 
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "photo_camera_3_1_cover", 
+            "path": "brazil.form/photo_camera_3_1_cover.png", 
+            "w": 46, 
+            "x": 611, 
+            "y": 287
+          }, 
+          "pic": {
+            "h": 47, 
+            "layer": 3, 
+            "name": "photo_camera_3_1", 
+            "path": "brazil.form/photo_camera_3_1.png", 
+            "w": 44, 
+            "x": 610, 
+            "y": 289
+          }
+        }, 
+        {
+          "pic": {
+            "h": 72, 
+            "layer": 3, 
+            "name": "photo_camera_1_2", 
+            "path": "brazil.form/photo_camera_1_2.png", 
+            "w": 60, 
+            "x": 591, 
+            "y": 57
+          }
+        }
+      ], 
+      "name": "古いカメラ", 
+      "path": "brazil.sils/photo_camera.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 5, 
+            "name": "orange_3_2_cover", 
+            "path": "brazil.form/orange_3_2_cover.png", 
+            "w": 29, 
+            "x": 759, 
+            "y": 537
+          }, 
+          "pic": {
+            "h": 40, 
+            "layer": 3, 
+            "name": "orange_3_2", 
+            "path": "brazil.form/orange_3_2.png", 
+            "w": 36, 
+            "x": 759, 
+            "y": 538
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "orange_3_1_cover", 
+            "path": "brazil.form/orange_3_1_cover.png", 
+            "w": 35, 
+            "x": 247, 
+            "y": 212
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "orange_3_1", 
+            "path": "brazil.form/orange_3_1.png", 
+            "w": 32, 
+            "x": 250, 
+            "y": 213
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "orange_1_1", 
+            "path": "brazil.form/orange_1_1.png", 
+            "w": 25, 
+            "x": 472, 
+            "y": 357
+          }
+        }, 
+        {
+          "cover": {
+            "h": 16, 
+            "layer": 5, 
+            "name": "orange_2_1_cover", 
+            "path": "brazil.form/orange_2_1_cover.png", 
+            "w": 35, 
+            "x": 733, 
+            "y": 74
+          }, 
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "orange_2_1", 
+            "path": "brazil.form/orange_2_1.png", 
+            "w": 27, 
+            "x": 738, 
+            "y": 57
+          }
+        }, 
+        {
+          "cover": {
+            "h": 19, 
+            "layer": 5, 
+            "name": "orange_2_2_cover", 
+            "path": "brazil.form/orange_2_2_cover.png", 
+            "w": 39, 
+            "x": 926, 
+            "y": 342
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "orange_2_2", 
+            "path": "brazil.form/orange_2_2.png", 
+            "w": 30, 
+            "x": 930, 
+            "y": 324
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "orange_1_2_cover", 
+            "path": "brazil.form/orange_1_2_cover.png", 
+            "w": 23, 
+            "x": 594, 
+            "y": 476
+          }, 
+          "pic": {
+            "h": 34, 
+            "layer": 3, 
+            "name": "orange_1_2", 
+            "path": "brazil.form/orange_1_2.png", 
+            "w": 41, 
+            "x": 603, 
+            "y": 477
+          }
+        }
+      ], 
+      "name": "オレンジ", 
+      "path": "brazil.sils/orange.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "football_boots_3_2_cover", 
+            "path": "brazil.form/football_boots_3_2_cover.png", 
+            "w": 64, 
+            "x": 357, 
+            "y": 115
+          }, 
+          "pic": {
+            "h": 39, 
+            "layer": 3, 
+            "name": "football_boots_3_2", 
+            "path": "brazil.form/football_boots_3_2.png", 
+            "w": 59, 
+            "x": 358, 
+            "y": 115
+          }
+        }, 
+        {
+          "pic": {
+            "h": 61, 
+            "layer": 3, 
+            "name": "football_boots_1_2", 
+            "path": "brazil.form/football_boots_1_2.png", 
+            "w": 39, 
+            "x": 862, 
+            "y": 102
+          }
+        }, 
+        {
+          "cover": {
+            "h": 66, 
+            "layer": 5, 
+            "name": "football_boots_2_1_cover", 
+            "path": "brazil.form/football_boots_2_1_cover.png", 
+            "w": 18, 
+            "x": 1094, 
+            "y": 250
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "football_boots_2_1", 
+            "path": "brazil.form/football_boots_2_1.png", 
+            "w": 36, 
+            "x": 1081, 
+            "y": 256
+          }
+        }, 
+        {
+          "cover": {
+            "h": 39, 
+            "layer": 5, 
+            "name": "football_boots_2_2_cover", 
+            "path": "brazil.form/football_boots_2_2_cover.png", 
+            "w": 60, 
+            "x": 1108, 
+            "y": 426
+          }, 
+          "pic": {
+            "h": 69, 
+            "layer": 3, 
+            "name": "football_boots_2_2", 
+            "path": "brazil.form/football_boots_2_2.png", 
+            "w": 74, 
+            "x": 1101, 
+            "y": 392
+          }
+        }, 
+        {
+          "cover": {
+            "h": 73, 
+            "layer": 5, 
+            "name": "football_boots_3_1_cover", 
+            "path": "brazil.form/football_boots_3_1_cover.png", 
+            "w": 51, 
+            "x": 414, 
+            "y": 403
+          }, 
+          "pic": {
+            "h": 68, 
+            "layer": 3, 
+            "name": "football_boots_3_1", 
+            "path": "brazil.form/football_boots_3_1.png", 
+            "w": 44, 
+            "x": 415, 
+            "y": 403
+          }
+        }, 
+        {
+          "cover": {
+            "h": 59, 
+            "layer": 5, 
+            "name": "football_boots_1_1_cover", 
+            "path": "brazil.form/football_boots_1_1_cover.png", 
+            "w": 78, 
+            "x": 943, 
+            "y": 590
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "football_boots_1_1", 
+            "path": "brazil.form/football_boots_1_1.png", 
+            "w": 75, 
+            "x": 943, 
+            "y": 592
+          }
+        }
+      ], 
+      "name": "サッカー靴", 
+      "path": "brazil.sils/football_boots.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 34, 
+            "layer": 5, 
+            "name": "glove_3_1_cover", 
+            "path": "brazil.form/glove_3_1_cover.png", 
+            "w": 39, 
+            "x": 1195, 
+            "y": 498
+          }, 
+          "pic": {
+            "h": 59, 
+            "layer": 3, 
+            "name": "glove_3_1", 
+            "path": "brazil.form/glove_3_1.png", 
+            "w": 34, 
+            "x": 1199, 
+            "y": 468
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "glove_2_2", 
+            "path": "brazil.form/glove_2_2.png", 
+            "w": 27, 
+            "x": 516, 
+            "y": 49
+          }
+        }, 
+        {
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "glove_1_2", 
+            "path": "brazil.form/glove_1_2.png", 
+            "w": 23, 
+            "x": 718, 
+            "y": 95
+          }
+        }, 
+        {
+          "pic": {
+            "h": 65, 
+            "layer": 3, 
+            "name": "glove_1_1", 
+            "path": "brazil.form/glove_1_1.png", 
+            "w": 33, 
+            "x": 475, 
+            "y": 588
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "glove_3_2_cover", 
+            "path": "brazil.form/glove_3_2_cover.png", 
+            "w": 50, 
+            "x": 1154, 
+            "y": 198
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "glove_3_2", 
+            "path": "brazil.form/glove_3_2.png", 
+            "w": 46, 
+            "x": 1157, 
+            "y": 201
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "glove_2_1", 
+            "path": "brazil.form/glove_2_1.png", 
+            "w": 24, 
+            "x": 674, 
+            "y": 321
+          }
+        }
+      ], 
+      "name": "手袋", 
+      "path": "brazil.sils/glove.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "bowl_1_2", 
+            "path": "brazil.form/bowl_1_2.png", 
+            "w": 45, 
+            "x": 1049, 
+            "y": 158
+          }
+        }, 
+        {
+          "cover": {
+            "h": 29, 
+            "layer": 5, 
+            "name": "bowl_3_2_cover", 
+            "path": "brazil.form/bowl_3_2_cover.png", 
+            "w": 51, 
+            "x": 542, 
+            "y": 171
+          }, 
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "bowl_3_2", 
+            "path": "brazil.form/bowl_3_2.png", 
+            "w": 48, 
+            "x": 542, 
+            "y": 177
+          }
+        }, 
+        {
+          "pic": {
+            "h": 32, 
+            "layer": 3, 
+            "name": "bowl_1_1", 
+            "path": "brazil.form/bowl_1_1.png", 
+            "w": 50, 
+            "x": 912, 
+            "y": 394
+          }
+        }, 
+        {
+          "cover": {
+            "h": 45, 
+            "layer": 5, 
+            "name": "bowl_3_1_cover", 
+            "path": "brazil.form/bowl_3_1_cover.png", 
+            "w": 46, 
+            "x": 329, 
+            "y": 307
+          }, 
+          "pic": {
+            "h": 44, 
+            "layer": 3, 
+            "name": "bowl_3_1", 
+            "path": "brazil.form/bowl_3_1.png", 
+            "w": 44, 
+            "x": 334, 
+            "y": 304
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 5, 
+            "name": "bowl_2_2_cover", 
+            "path": "brazil.form/bowl_2_2_cover.png", 
+            "w": 55, 
+            "x": 555, 
+            "y": 473
+          }, 
+          "pic": {
+            "h": 29, 
+            "layer": 3, 
+            "name": "bowl_2_2", 
+            "path": "brazil.form/bowl_2_2.png", 
+            "w": 50, 
+            "x": 555, 
+            "y": 482
+          }
+        }, 
+        {
+          "cover": {
+            "h": 42, 
+            "layer": 5, 
+            "name": "bowl_2_1_cover", 
+            "path": "brazil.form/bowl_2_1_cover.png", 
+            "w": 57, 
+            "x": 802, 
+            "y": 440
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "bowl_2_1", 
+            "path": "brazil.form/bowl_2_1.png", 
+            "w": 61, 
+            "x": 802, 
+            "y": 442
+          }
+        }
+      ], 
+      "name": "装飾用の鉢", 
+      "path": "brazil.sils/bowl.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "microphone_1_1", 
+            "path": "brazil.form/microphone_1_1.png", 
+            "w": 99, 
+            "x": 537, 
+            "y": 627
+          }
+        }, 
+        {
+          "pic": {
+            "h": 16, 
+            "layer": 3, 
+            "name": "microphone_2_1", 
+            "path": "brazil.form/microphone_2_1.png", 
+            "w": 47, 
+            "x": 426, 
+            "y": 324
+          }
+        }, 
+        {
+          "cover": {
+            "h": 21, 
+            "layer": 5, 
+            "name": "microphone_3_1_cover", 
+            "path": "brazil.form/microphone_3_1_cover.png", 
+            "w": 48, 
+            "x": 959, 
+            "y": 493
+          }, 
+          "pic": {
+            "h": 18, 
+            "layer": 3, 
+            "name": "microphone_3_1", 
+            "path": "brazil.form/microphone_3_1.png", 
+            "w": 47, 
+            "x": 959, 
+            "y": 494
+          }
+        }, 
+        {
+          "pic": {
+            "h": 13, 
+            "layer": 3, 
+            "name": "microphone_1_2", 
+            "path": "brazil.form/microphone_1_2.png", 
+            "w": 37, 
+            "x": 831, 
+            "y": 332
+          }
+        }, 
+        {
+          "cover": {
+            "h": 41, 
+            "layer": 5, 
+            "name": "microphone_3_2_cover", 
+            "path": "brazil.form/microphone_3_2_cover.png", 
+            "w": 44, 
+            "x": 1137, 
+            "y": 277
+          }, 
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "microphone_3_2", 
+            "path": "brazil.form/microphone_3_2.png", 
+            "w": 49, 
+            "x": 1132, 
+            "y": 279
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 5, 
+            "name": "microphone_2_2_cover", 
+            "path": "brazil.form/microphone_2_2_cover.png", 
+            "w": 70, 
+            "x": 979, 
+            "y": 56
+          }, 
+          "pic": {
+            "h": 21, 
+            "layer": 3, 
+            "name": "microphone_2_2", 
+            "path": "brazil.form/microphone_2_2.png", 
+            "w": 61, 
+            "x": 981, 
+            "y": 52
+          }
+        }
+      ], 
+      "name": "マイク", 
+      "path": "brazil.sils/microphone.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 49, 
+            "layer": 3, 
+            "name": "sandals_2_2", 
+            "path": "brazil.form/sandals_2_2.png", 
+            "w": 23, 
+            "x": 1207, 
+            "y": 90
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 5, 
+            "name": "sandals_2_1_cover", 
+            "path": "brazil.form/sandals_2_1_cover.png", 
+            "w": 26, 
+            "x": 566, 
+            "y": 70
+          }, 
+          "pic": {
+            "h": 54, 
+            "layer": 3, 
+            "name": "sandals_2_1", 
+            "path": "brazil.form/sandals_2_1.png", 
+            "w": 25, 
+            "x": 569, 
+            "y": 37
+          }
+        }, 
+        {
+          "cover": {
+            "h": 47, 
+            "layer": 5, 
+            "name": "sandals_3_2_cover", 
+            "path": "brazil.form/sandals_3_2_cover.png", 
+            "w": 25, 
+            "x": 376, 
+            "y": 278
+          }, 
+          "pic": {
+            "h": 51, 
+            "layer": 3, 
+            "name": "sandals_3_2", 
+            "path": "brazil.form/sandals_3_2.png", 
+            "w": 20, 
+            "x": 376, 
+            "y": 280
+          }
+        }, 
+        {
+          "pic": {
+            "h": 26, 
+            "layer": 3, 
+            "name": "sandals_1_2", 
+            "path": "brazil.form/sandals_1_2.png", 
+            "w": 55, 
+            "x": 740, 
+            "y": 301
+          }
+        }, 
+        {
+          "cover": {
+            "h": 44, 
+            "layer": 5, 
+            "name": "sandals_3_1_cover", 
+            "path": "brazil.form/sandals_3_1_cover.png", 
+            "w": 54, 
+            "x": 1088, 
+            "y": 522
+          }, 
+          "pic": {
+            "h": 33, 
+            "layer": 3, 
+            "name": "sandals_3_1", 
+            "path": "brazil.form/sandals_3_1.png", 
+            "w": 48, 
+            "x": 1090, 
+            "y": 527
+          }
+        }, 
+        {
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "sandals_1_1", 
+            "path": "brazil.form/sandals_1_1.png", 
+            "w": 70, 
+            "x": 636, 
+            "y": 616
+          }
+        }
+      ], 
+      "name": "サンダル", 
+      "path": "brazil.sils/sandals.png"
+    }, 
+    {
+      "images": [
+        {
+          "pic": {
+            "h": 53, 
+            "layer": 3, 
+            "name": "maraca_1_1", 
+            "path": "brazil.form/maraca_1_1.png", 
+            "w": 43, 
+            "x": 662, 
+            "y": 360
+          }
+        }, 
+        {
+          "cover": {
+            "h": 48, 
+            "layer": 5, 
+            "name": "maraca_2_1_cover", 
+            "path": "brazil.form/maraca_2_1_cover.png", 
+            "w": 39, 
+            "x": 805, 
+            "y": 264
+          }, 
+          "pic": {
+            "h": 42, 
+            "layer": 3, 
+            "name": "maraca_2_1", 
+            "path": "brazil.form/maraca_2_1.png", 
+            "w": 31, 
+            "x": 808, 
+            "y": 268
+          }
+        }, 
+        {
+          "cover": {
+            "h": 69, 
+            "layer": 5, 
+            "name": "maraca_2_2_cover", 
+            "path": "brazil.form/maraca_2_2_cover.png", 
+            "w": 19, 
+            "x": 845, 
+            "y": 513
+          }, 
+          "pic": {
+            "h": 57, 
+            "layer": 3, 
+            "name": "maraca_2_2", 
+            "path": "brazil.form/maraca_2_2.png", 
+            "w": 41, 
+            "x": 832, 
+            "y": 518
+          }
+        }, 
+        {
+          "pic": {
+            "h": 55, 
+            "layer": 3, 
+            "name": "maraca_1_2", 
+            "path": "brazil.form/maraca_1_2.png", 
+            "w": 45, 
+            "x": 420, 
+            "y": 270
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 5, 
+            "name": "maraca_3_1_cover", 
+            "path": "brazil.form/maraca_3_1_cover.png", 
+            "w": 26, 
+            "x": 318, 
+            "y": 59
+          }, 
+          "pic": {
+            "h": 41, 
+            "layer": 3, 
+            "name": "maraca_3_1", 
+            "path": "brazil.form/maraca_3_1.png", 
+            "w": 26, 
+            "x": 315, 
+            "y": 42
+          }
+        }, 
+        {
+          "cover": {
+            "h": 50, 
+            "layer": 5, 
+            "name": "maraca_3_2_cover", 
+            "path": "brazil.form/maraca_3_2_cover.png", 
+            "w": 43, 
+            "x": 1096, 
+            "y": 192
+          }, 
+          "pic": {
+            "h": 45, 
+            "layer": 3, 
+            "name": "maraca_3_2", 
+            "path": "brazil.form/maraca_3_2.png", 
+            "w": 37, 
+            "x": 1097, 
+            "y": 193
+          }
+        }
+      ], 
+      "name": "マラカス", 
+      "path": "brazil.sils/maraca.png"
+    }, 
+    {
+      "images": [
+        {
+          "cover": {
+            "h": 52, 
+            "layer": 5, 
+            "name": "turtle_1_2_cover", 
+            "path": "brazil.form/turtle_1_2_cover.png", 
+            "w": 16, 
+            "x": 846, 
+            "y": 606
+          }, 
+          "pic": {
+            "h": 56, 
+            "layer": 3, 
+            "name": "turtle_1_2", 
+            "path": "brazil.form/turtle_1_2.png", 
+            "w": 66, 
+            "x": 820, 
+            "y": 610
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 5, 
+            "name": "turtle_3_1_cover", 
+            "path": "brazil.form/turtle_3_1_cover.png", 
+            "w": 52, 
+            "x": 1191, 
+            "y": 550
+          }, 
+          "pic": {
+            "h": 43, 
+            "layer": 3, 
+            "name": "turtle_3_1", 
+            "path": "brazil.form/turtle_3_1.png", 
+            "w": 56, 
+            "x": 1195, 
+            "y": 560
+          }
+        }, 
+        {
+          "pic": {
+            "h": 28, 
+            "layer": 3, 
+            "name": "turtle_2_1", 
+            "path": "brazil.form/turtle_2_1.png", 
+            "w": 38, 
+            "x": 403, 
+            "y": 240
+          }
+        }, 
+        {
+          "pic": {
+            "h": 35, 
+            "layer": 3, 
+            "name": "turtle_2_2", 
+            "path": "brazil.form/turtle_2_2.png", 
+            "w": 37, 
+            "x": 370, 
+            "y": 50
+          }
+        }, 
+        {
+          "cover": {
+            "h": 25, 
+            "layer": 5, 
+            "name": "turtle_1_1_cover", 
+            "path": "brazil.form/turtle_1_1_cover.png", 
+            "w": 15, 
+            "x": 1015, 
+            "y": 453
+          }, 
+          "pic": {
+            "h": 37, 
+            "layer": 3, 
+            "name": "turtle_1_1", 
+            "path": "brazil.form/turtle_1_1.png", 
+            "w": 44, 
+            "x": 1019, 
+            "y": 446
+          }
+        }, 
+        {
+          "cover": {
+            "h": 49, 
+            "layer": 5, 
+            "name": "turtle_3_2_cover", 
+            "path": "brazil.form/turtle_3_2_cover.png", 
+            "w": 39, 
+            "x": 258, 
+            "y": 325
+          }, 
+          "pic": {
+            "h": 38, 
+            "layer": 3, 
+            "name": "turtle_3_2", 
+            "path": "brazil.form/turtle_3_2.png", 
+            "w": 50, 
+            "x": 241, 
+            "y": 330
+          }
+        }
+      ], 
+      "name": "カメ", 
+      "path": "brazil.sils/turtle.png"
+    }
+  ], 
+  "morph": [
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 21, 
+            "layer": 4, 
+            "name": "knife1_1", 
+            "path": "brazil.morph/knife1_1.png", 
+            "w": 70, 
+            "x": 837, 
+            "y": 465
+          }, 
+          "pic2": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "knife2_1", 
+            "path": "brazil.morph/knife2_1.png", 
+            "w": 70, 
+            "x": 838, 
+            "y": 461
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "knife1_2", 
+            "path": "brazil.morph/knife1_2.png", 
+            "w": 11, 
+            "x": 1105, 
+            "y": 38
+          }, 
+          "pic2": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "knife2_2", 
+            "path": "brazil.morph/knife2_2.png", 
+            "w": 25, 
+            "x": 1095, 
+            "y": 39
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 9, 
+            "layer": 4, 
+            "name": "knife1_3", 
+            "path": "brazil.morph/knife1_3.png", 
+            "w": 51, 
+            "x": 974, 
+            "y": 422
+          }, 
+          "pic2": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "knife2_3", 
+            "path": "brazil.morph/knife2_3.png", 
+            "w": 51, 
+            "x": 975, 
+            "y": 419
+          }
+        }, 
+        {
+          "cover": {
+            "h": 12, 
+            "layer": 4, 
+            "name": "knife1_4_cover", 
+            "path": "brazil.morph/knife1_4_cover.png", 
+            "w": 50, 
+            "x": 322, 
+            "y": 390
+          }, 
+          "pic1": {
+            "h": 7, 
+            "layer": 4, 
+            "name": "knife1_4", 
+            "path": "brazil.morph/knife1_4.png", 
+            "w": 52, 
+            "x": 316, 
+            "y": 392
+          }, 
+          "pic2": {
+            "h": 18, 
+            "layer": 4, 
+            "name": "knife2_4", 
+            "path": "brazil.morph/knife2_4.png", 
+            "w": 51, 
+            "x": 317, 
+            "y": 383
+          }
+        }, 
+        {
+          "cover": {
+            "h": 24, 
+            "layer": 4, 
+            "name": "knife1_5_cover", 
+            "path": "brazil.morph/knife1_5_cover.png", 
+            "w": 58, 
+            "x": 942, 
+            "y": 269
+          }, 
+          "pic1": {
+            "h": 8, 
+            "layer": 4, 
+            "name": "knife1_5", 
+            "path": "brazil.morph/knife1_5.png", 
+            "w": 52, 
+            "x": 936, 
+            "y": 277
+          }, 
+          "pic2": {
+            "h": 19, 
+            "layer": 4, 
+            "name": "knife2_5", 
+            "path": "brazil.morph/knife2_5.png", 
+            "w": 51, 
+            "x": 937, 
+            "y": 269
+          }
+        }
+      ], 
+      "name": "knife"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "bottle1_1", 
+            "path": "brazil.morph/bottle1_1.png", 
+            "w": 16, 
+            "x": 784, 
+            "y": 412
+          }, 
+          "pic2": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "bottle2_1", 
+            "path": "brazil.morph/bottle2_1.png", 
+            "w": 21, 
+            "x": 783, 
+            "y": 423
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "bottle1_2", 
+            "path": "brazil.morph/bottle1_2.png", 
+            "w": 16, 
+            "x": 453, 
+            "y": 419
+          }, 
+          "pic2": {
+            "h": 52, 
+            "layer": 4, 
+            "name": "bottle2_2", 
+            "path": "brazil.morph/bottle2_2.png", 
+            "w": 21, 
+            "x": 452, 
+            "y": 429
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bottle1_3", 
+            "path": "brazil.morph/bottle1_3.png", 
+            "w": 12, 
+            "x": 874, 
+            "y": 340
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "bottle2_3", 
+            "path": "brazil.morph/bottle2_3.png", 
+            "w": 16, 
+            "x": 873, 
+            "y": 348
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bottle1_4", 
+            "path": "brazil.morph/bottle1_4.png", 
+            "w": 13, 
+            "x": 605, 
+            "y": 335
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "bottle2_4", 
+            "path": "brazil.morph/bottle2_4.png", 
+            "w": 15, 
+            "x": 605, 
+            "y": 343
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "bottle1_5_cover", 
+            "path": "brazil.morph/bottle1_5_cover.png", 
+            "w": 21, 
+            "x": 396, 
+            "y": 358
+          }, 
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "bottle1_5", 
+            "path": "brazil.morph/bottle1_5.png", 
+            "w": 12, 
+            "x": 399, 
+            "y": 333
+          }, 
+          "pic2": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "bottle2_5", 
+            "path": "brazil.morph/bottle2_5.png", 
+            "w": 16, 
+            "x": 398, 
+            "y": 341
+          }
+        }
+      ], 
+      "name": "bottle"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 71, 
+            "layer": 4, 
+            "name": "pineapple1_1", 
+            "path": "brazil.morph/pineapple1_1.png", 
+            "w": 50, 
+            "x": 281, 
+            "y": 412
+          }, 
+          "pic2": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "pineapple2_1", 
+            "path": "brazil.morph/pineapple2_1.png", 
+            "w": 50, 
+            "x": 281, 
+            "y": 436
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 75, 
+            "layer": 4, 
+            "name": "pineapple1_2", 
+            "path": "brazil.morph/pineapple1_2.png", 
+            "w": 40, 
+            "x": 244, 
+            "y": 94
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "pineapple2_2", 
+            "path": "brazil.morph/pineapple2_2.png", 
+            "w": 39, 
+            "x": 244, 
+            "y": 116
+          }
+        }, 
+        {
+          "cover": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "pineapple1_3_cover", 
+            "path": "brazil.morph/pineapple1_3_cover.png", 
+            "w": 18, 
+            "x": 1220, 
+            "y": 266
+          }, 
+          "pic1": {
+            "h": 63, 
+            "layer": 4, 
+            "name": "pineapple1_3", 
+            "path": "brazil.morph/pineapple1_3.png", 
+            "w": 34, 
+            "x": 1202, 
+            "y": 255
+          }, 
+          "pic2": {
+            "h": 44, 
+            "layer": 4, 
+            "name": "pineapple2_3", 
+            "path": "brazil.morph/pineapple2_3.png", 
+            "w": 30, 
+            "x": 1202, 
+            "y": 274
+          }
+        }, 
+        {
+          "cover": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "pineapple1_4_cover", 
+            "path": "brazil.morph/pineapple1_4_cover.png", 
+            "w": 37, 
+            "x": 857, 
+            "y": 443
+          }, 
+          "pic1": {
+            "h": 54, 
+            "layer": 4, 
+            "name": "pineapple1_4", 
+            "path": "brazil.morph/pineapple1_4.png", 
+            "w": 27, 
+            "x": 862, 
+            "y": 416
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "pineapple2_4", 
+            "path": "brazil.morph/pineapple2_4.png", 
+            "w": 25, 
+            "x": 864, 
+            "y": 438
+          }
+        }, 
+        {
+          "cover": {
+            "h": 55, 
+            "layer": 4, 
+            "name": "pineapple1_5_cover", 
+            "path": "brazil.morph/pineapple1_5_cover.png", 
+            "w": 26, 
+            "x": 657, 
+            "y": 266
+          }, 
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "pineapple1_5", 
+            "path": "brazil.morph/pineapple1_5.png", 
+            "w": 40, 
+            "x": 637, 
+            "y": 265
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "pineapple2_5", 
+            "path": "brazil.morph/pineapple2_5.png", 
+            "w": 26, 
+            "x": 650, 
+            "y": 284
+          }
+        }
+      ], 
+      "name": "pineapple"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "butterfly1_1", 
+            "path": "brazil.morph/butterfly1_1.png", 
+            "w": 36, 
+            "x": 1189, 
+            "y": 60
+          }, 
+          "pic2": {
+            "h": 34, 
+            "layer": 4, 
+            "name": "butterfly2_1", 
+            "path": "brazil.morph/butterfly2_1.png", 
+            "w": 34, 
+            "x": 1191, 
+            "y": 60
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "butterfly1_2", 
+            "path": "brazil.morph/butterfly1_2.png", 
+            "w": 50, 
+            "x": 533, 
+            "y": 223
+          }, 
+          "pic2": {
+            "h": 41, 
+            "layer": 4, 
+            "name": "butterfly2_2", 
+            "path": "brazil.morph/butterfly2_2.png", 
+            "w": 47, 
+            "x": 535, 
+            "y": 224
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "butterfly1_3", 
+            "path": "brazil.morph/butterfly1_3.png", 
+            "w": 36, 
+            "x": 1174, 
+            "y": 308
+          }, 
+          "pic2": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "butterfly2_3", 
+            "path": "brazil.morph/butterfly2_3.png", 
+            "w": 34, 
+            "x": 1176, 
+            "y": 308
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "butterfly1_4", 
+            "path": "brazil.morph/butterfly1_4.png", 
+            "w": 36, 
+            "x": 466, 
+            "y": 395
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "butterfly2_4", 
+            "path": "brazil.morph/butterfly2_4.png", 
+            "w": 33, 
+            "x": 468, 
+            "y": 397
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "butterfly1_5", 
+            "path": "brazil.morph/butterfly1_5.png", 
+            "w": 35, 
+            "x": 648, 
+            "y": 74
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "butterfly2_5", 
+            "path": "brazil.morph/butterfly2_5.png", 
+            "w": 33, 
+            "x": 650, 
+            "y": 74
+          }
+        }
+      ], 
+      "name": "butterfly"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "tennis_ball1_1", 
+            "path": "brazil.morph/tennis_ball1_1.png", 
+            "w": 43, 
+            "x": 440, 
+            "y": 537
+          }, 
+          "pic2": {
+            "h": 43, 
+            "layer": 4, 
+            "name": "tennis_ball2_1", 
+            "path": "brazil.morph/tennis_ball2_1.png", 
+            "w": 43, 
+            "x": 440, 
+            "y": 537
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "tennis_ball1_2", 
+            "path": "brazil.morph/tennis_ball1_2.png", 
+            "w": 53, 
+            "x": 1049, 
+            "y": 593
+          }, 
+          "pic2": {
+            "h": 50, 
+            "layer": 4, 
+            "name": "tennis_ball2_2", 
+            "path": "brazil.morph/tennis_ball2_2.png", 
+            "w": 53, 
+            "x": 1049, 
+            "y": 593
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "tennis_ball1_3", 
+            "path": "brazil.morph/tennis_ball1_3.png", 
+            "w": 29, 
+            "x": 539, 
+            "y": 355
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "tennis_ball2_3", 
+            "path": "brazil.morph/tennis_ball2_3.png", 
+            "w": 33, 
+            "x": 536, 
+            "y": 355
+          }
+        }, 
+        {
+          "cover": {
+            "h": 22, 
+            "layer": 4, 
+            "name": "tennis_ball1_4_cover", 
+            "path": "brazil.morph/tennis_ball1_4_cover.png", 
+            "w": 39, 
+            "x": 453, 
+            "y": 50
+          }, 
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "tennis_ball1_4", 
+            "path": "brazil.morph/tennis_ball1_4.png", 
+            "w": 29, 
+            "x": 456, 
+            "y": 34
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "tennis_ball2_4", 
+            "path": "brazil.morph/tennis_ball2_4.png", 
+            "w": 30, 
+            "x": 456, 
+            "y": 34
+          }
+        }, 
+        {
+          "cover": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "tennis_ball1_5_cover", 
+            "path": "brazil.morph/tennis_ball1_5_cover.png", 
+            "w": 38, 
+            "x": 1025, 
+            "y": 359
+          }, 
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "tennis_ball1_5", 
+            "path": "brazil.morph/tennis_ball1_5.png", 
+            "w": 29, 
+            "x": 1028, 
+            "y": 362
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "tennis_ball2_5", 
+            "path": "brazil.morph/tennis_ball2_5.png", 
+            "w": 30, 
+            "x": 1028, 
+            "y": 362
+          }
+        }
+      ], 
+      "name": "tennis_ball"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "ant1_1", 
+            "path": "brazil.morph/ant1_1.png", 
+            "w": 59, 
+            "x": 573, 
+            "y": 518
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "ant2_1", 
+            "path": "brazil.morph/ant2_1.png", 
+            "w": 53, 
+            "x": 573, 
+            "y": 518
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "ant1_2", 
+            "path": "brazil.morph/ant1_2.png", 
+            "w": 58, 
+            "x": 795, 
+            "y": 599
+          }, 
+          "pic2": {
+            "h": 45, 
+            "layer": 4, 
+            "name": "ant2_2", 
+            "path": "brazil.morph/ant2_2.png", 
+            "w": 58, 
+            "x": 795, 
+            "y": 599
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 25, 
+            "layer": 4, 
+            "name": "ant1_3", 
+            "path": "brazil.morph/ant1_3.png", 
+            "w": 45, 
+            "x": 702, 
+            "y": 485
+          }, 
+          "pic2": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "ant2_3", 
+            "path": "brazil.morph/ant2_3.png", 
+            "w": 43, 
+            "x": 704, 
+            "y": 485
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "ant1_4", 
+            "path": "brazil.morph/ant1_4.png", 
+            "w": 41, 
+            "x": 249, 
+            "y": 389
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "ant2_4", 
+            "path": "brazil.morph/ant2_4.png", 
+            "w": 38, 
+            "x": 248, 
+            "y": 389
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "ant1_5_cover", 
+            "path": "brazil.morph/ant1_5_cover.png", 
+            "w": 25, 
+            "x": 253, 
+            "y": 613
+          }, 
+          "pic1": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "ant1_5", 
+            "path": "brazil.morph/ant1_5.png", 
+            "w": 57, 
+            "x": 245, 
+            "y": 614
+          }, 
+          "pic2": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "ant2_5", 
+            "path": "brazil.morph/ant2_5.png", 
+            "w": 45, 
+            "x": 253, 
+            "y": 614
+          }
+        }
+      ], 
+      "name": "ant"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "small_lamp1_1", 
+            "path": "brazil.morph/small_lamp1_1.png", 
+            "w": 68, 
+            "x": 663, 
+            "y": 617
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "small_lamp2_1", 
+            "path": "brazil.morph/small_lamp2_1.png", 
+            "w": 66, 
+            "x": 665, 
+            "y": 614
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "small_lamp1_2", 
+            "path": "brazil.morph/small_lamp1_2.png", 
+            "w": 68, 
+            "x": 903, 
+            "y": 545
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "small_lamp2_2", 
+            "path": "brazil.morph/small_lamp2_2.png", 
+            "w": 65, 
+            "x": 906, 
+            "y": 542
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "small_lamp1_3", 
+            "path": "brazil.morph/small_lamp1_3.png", 
+            "w": 51, 
+            "x": 1036, 
+            "y": 461
+          }, 
+          "pic2": {
+            "h": 26, 
+            "layer": 4, 
+            "name": "small_lamp2_3", 
+            "path": "brazil.morph/small_lamp2_3.png", 
+            "w": 49, 
+            "x": 1037, 
+            "y": 459
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "small_lamp1_4_cover", 
+            "path": "brazil.morph/small_lamp1_4_cover.png", 
+            "w": 50, 
+            "x": 699, 
+            "y": 542
+          }, 
+          "pic1": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "small_lamp1_4", 
+            "path": "brazil.morph/small_lamp1_4.png", 
+            "w": 60, 
+            "x": 686, 
+            "y": 544
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "small_lamp2_4", 
+            "path": "brazil.morph/small_lamp2_4.png", 
+            "w": 60, 
+            "x": 686, 
+            "y": 542
+          }
+        }, 
+        {
+          "cover": {
+            "h": 27, 
+            "layer": 4, 
+            "name": "small_lamp1_5_cover", 
+            "path": "brazil.morph/small_lamp1_5_cover.png", 
+            "w": 63, 
+            "x": 1136, 
+            "y": 563
+          }, 
+          "pic1": {
+            "h": 17, 
+            "layer": 4, 
+            "name": "small_lamp1_5", 
+            "path": "brazil.morph/small_lamp1_5.png", 
+            "w": 51, 
+            "x": 1144, 
+            "y": 566
+          }, 
+          "pic2": {
+            "h": 20, 
+            "layer": 4, 
+            "name": "small_lamp2_5", 
+            "path": "brazil.morph/small_lamp2_5.png", 
+            "w": 48, 
+            "x": 1145, 
+            "y": 565
+          }
+        }
+      ], 
+      "name": "small_lamp"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "flower1_1", 
+            "path": "brazil.morph/flower1_1.png", 
+            "w": 40, 
+            "x": 825, 
+            "y": 311
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "flower2_1", 
+            "path": "brazil.morph/flower2_1.png", 
+            "w": 38, 
+            "x": 826, 
+            "y": 308
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "flower1_2", 
+            "path": "brazil.morph/flower1_2.png", 
+            "w": 38, 
+            "x": 531, 
+            "y": 293
+          }, 
+          "pic2": {
+            "h": 35, 
+            "layer": 4, 
+            "name": "flower2_2", 
+            "path": "brazil.morph/flower2_2.png", 
+            "w": 36, 
+            "x": 532, 
+            "y": 290
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "flower1_3", 
+            "path": "brazil.morph/flower1_3.png", 
+            "w": 34, 
+            "x": 1204, 
+            "y": 209
+          }, 
+          "pic2": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "flower2_3", 
+            "path": "brazil.morph/flower2_3.png", 
+            "w": 32, 
+            "x": 1205, 
+            "y": 206
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "flower1_4", 
+            "path": "brazil.morph/flower1_4.png", 
+            "w": 34, 
+            "x": 595, 
+            "y": 429
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "flower2_4", 
+            "path": "brazil.morph/flower2_4.png", 
+            "w": 32, 
+            "x": 596, 
+            "y": 426
+          }
+        }, 
+        {
+          "cover": {
+            "h": 38, 
+            "layer": 4, 
+            "name": "flower1_5_cover", 
+            "path": "brazil.morph/flower1_5_cover.png", 
+            "w": 39, 
+            "x": 361, 
+            "y": 548
+          }, 
+          "pic1": {
+            "h": 28, 
+            "layer": 4, 
+            "name": "flower1_5", 
+            "path": "brazil.morph/flower1_5.png", 
+            "w": 33, 
+            "x": 362, 
+            "y": 553
+          }, 
+          "pic2": {
+            "h": 31, 
+            "layer": 4, 
+            "name": "flower2_5", 
+            "path": "brazil.morph/flower2_5.png", 
+            "w": 32, 
+            "x": 363, 
+            "y": 550
+          }
+        }
+      ], 
+      "name": "flower"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "cotton1_1", 
+            "path": "brazil.morph/cotton1_1.png", 
+            "w": 42, 
+            "x": 796, 
+            "y": 516
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "cotton2_1", 
+            "path": "brazil.morph/cotton2_1.png", 
+            "w": 42, 
+            "x": 796, 
+            "y": 521
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 42, 
+            "layer": 4, 
+            "name": "cotton1_2", 
+            "path": "brazil.morph/cotton1_2.png", 
+            "w": 23, 
+            "x": 355, 
+            "y": 320
+          }, 
+          "pic2": {
+            "h": 37, 
+            "layer": 4, 
+            "name": "cotton2_2", 
+            "path": "brazil.morph/cotton2_2.png", 
+            "w": 36, 
+            "x": 348, 
+            "y": 325
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "cotton1_3", 
+            "path": "brazil.morph/cotton1_3.png", 
+            "w": 18, 
+            "x": 474, 
+            "y": 352
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "cotton2_3", 
+            "path": "brazil.morph/cotton2_3.png", 
+            "w": 29, 
+            "x": 468, 
+            "y": 356
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "cotton1_4", 
+            "path": "brazil.morph/cotton1_4.png", 
+            "w": 35, 
+            "x": 1075, 
+            "y": 363
+          }, 
+          "pic2": {
+            "h": 36, 
+            "layer": 4, 
+            "name": "cotton2_4", 
+            "path": "brazil.morph/cotton2_4.png", 
+            "w": 35, 
+            "x": 1075, 
+            "y": 367
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "cotton1_5_cover", 
+            "path": "brazil.morph/cotton1_5_cover.png", 
+            "w": 36, 
+            "x": 420, 
+            "y": 600
+          }, 
+          "pic1": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "cotton1_5", 
+            "path": "brazil.morph/cotton1_5.png", 
+            "w": 18, 
+            "x": 428, 
+            "y": 604
+          }, 
+          "pic2": {
+            "h": 29, 
+            "layer": 4, 
+            "name": "cotton2_5", 
+            "path": "brazil.morph/cotton2_5.png", 
+            "w": 29, 
+            "x": 422, 
+            "y": 607
+          }
+        }
+      ], 
+      "name": "cotton"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "ball1_1", 
+            "path": "brazil.morph/ball1_1.png", 
+            "w": 49, 
+            "x": 1172, 
+            "y": 583
+          }, 
+          "pic2": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "ball2_1", 
+            "path": "brazil.morph/ball2_1.png", 
+            "w": 49, 
+            "x": 1172, 
+            "y": 583
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "ball1_2", 
+            "path": "brazil.morph/ball1_2.png", 
+            "w": 41, 
+            "x": 1070, 
+            "y": 471
+          }, 
+          "pic2": {
+            "h": 46, 
+            "layer": 4, 
+            "name": "ball2_2", 
+            "path": "brazil.morph/ball2_2.png", 
+            "w": 41, 
+            "x": 1070, 
+            "y": 471
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "ball1_3", 
+            "path": "brazil.morph/ball1_3.png", 
+            "w": 47, 
+            "x": 866, 
+            "y": 512
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "ball2_3", 
+            "path": "brazil.morph/ball2_3.png", 
+            "w": 47, 
+            "x": 866, 
+            "y": 512
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 33, 
+            "layer": 4, 
+            "name": "ball1_4", 
+            "path": "brazil.morph/ball1_4.png", 
+            "w": 33, 
+            "x": 804, 
+            "y": 63
+          }, 
+          "pic2": {
+            "h": 32, 
+            "layer": 4, 
+            "name": "ball2_4", 
+            "path": "brazil.morph/ball2_4.png", 
+            "w": 33, 
+            "x": 804, 
+            "y": 63
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "ball1_5_cover", 
+            "path": "brazil.morph/ball1_5_cover.png", 
+            "w": 25, 
+            "x": 560, 
+            "y": 548
+          }, 
+          "pic1": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "ball1_5", 
+            "path": "brazil.morph/ball1_5.png", 
+            "w": 50, 
+            "x": 531, 
+            "y": 550
+          }, 
+          "pic2": {
+            "h": 39, 
+            "layer": 4, 
+            "name": "ball2_5", 
+            "path": "brazil.morph/ball2_5.png", 
+            "w": 49, 
+            "x": 531, 
+            "y": 550
+          }
+        }
+      ], 
+      "name": "ball"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 8, 
+            "layer": 4, 
+            "name": "pen1_1", 
+            "path": "brazil.morph/pen1_1.png", 
+            "w": 83, 
+            "x": 633, 
+            "y": 374
+          }, 
+          "pic2": {
+            "h": 9, 
+            "layer": 4, 
+            "name": "pen2_1", 
+            "path": "brazil.morph/pen2_1.png", 
+            "w": 86, 
+            "x": 632, 
+            "y": 373
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 8, 
+            "layer": 4, 
+            "name": "pen1_2", 
+            "path": "brazil.morph/pen1_2.png", 
+            "w": 83, 
+            "x": 756, 
+            "y": 194
+          }, 
+          "pic2": {
+            "h": 7, 
+            "layer": 4, 
+            "name": "pen2_2", 
+            "path": "brazil.morph/pen2_2.png", 
+            "w": 83, 
+            "x": 757, 
+            "y": 194
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 6, 
+            "layer": 4, 
+            "name": "pen1_3", 
+            "path": "brazil.morph/pen1_3.png", 
+            "w": 69, 
+            "x": 523, 
+            "y": 210
+          }, 
+          "pic2": {
+            "h": 7, 
+            "layer": 4, 
+            "name": "pen2_3", 
+            "path": "brazil.morph/pen2_3.png", 
+            "w": 70, 
+            "x": 523, 
+            "y": 209
+          }
+        }, 
+        {
+          "cover": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "pen1_4_cover", 
+            "path": "brazil.morph/pen1_4_cover.png", 
+            "w": 13, 
+            "x": 248, 
+            "y": 375
+          }, 
+          "pic1": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "pen1_4", 
+            "path": "brazil.morph/pen1_4.png", 
+            "w": 6, 
+            "x": 250, 
+            "y": 338
+          }, 
+          "pic2": {
+            "h": 70, 
+            "layer": 4, 
+            "name": "pen2_4", 
+            "path": "brazil.morph/pen2_4.png", 
+            "w": 8, 
+            "x": 250, 
+            "y": 339
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 10, 
+            "layer": 4, 
+            "name": "pen1_5", 
+            "path": "brazil.morph/pen1_5.png", 
+            "w": 61, 
+            "x": 544, 
+            "y": 28
+          }, 
+          "pic2": {
+            "h": 10, 
+            "layer": 4, 
+            "name": "pen2_5", 
+            "path": "brazil.morph/pen2_5.png", 
+            "w": 61, 
+            "x": 543, 
+            "y": 29
+          }
+        }
+      ], 
+      "name": "pen"
+    }, 
+    {
+      "images": [
+        {
+          "pic1": {
+            "h": 72, 
+            "layer": 4, 
+            "name": "parrot1_1", 
+            "path": "brazil.morph/parrot1_1.png", 
+            "w": 73, 
+            "x": 730, 
+            "y": 591
+          }, 
+          "pic2": {
+            "h": 96, 
+            "layer": 4, 
+            "name": "parrot2_1", 
+            "path": "brazil.morph/parrot2_1.png", 
+            "w": 56, 
+            "x": 726, 
+            "y": 573
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 67, 
+            "layer": 4, 
+            "name": "parrot1_2", 
+            "path": "brazil.morph/parrot1_2.png", 
+            "w": 52, 
+            "x": 484, 
+            "y": 521
+          }, 
+          "pic2": {
+            "h": 84, 
+            "layer": 4, 
+            "name": "parrot2_2", 
+            "path": "brazil.morph/parrot2_2.png", 
+            "w": 59, 
+            "x": 473, 
+            "y": 503
+          }
+        }, 
+        {
+          "cover": {
+            "h": 30, 
+            "layer": 4, 
+            "name": "parrot1_3_cover", 
+            "path": "brazil.morph/parrot1_3_cover.png", 
+            "w": 49, 
+            "x": 515, 
+            "y": 449
+          }, 
+          "pic1": {
+            "h": 40, 
+            "layer": 4, 
+            "name": "parrot1_3", 
+            "path": "brazil.morph/parrot1_3.png", 
+            "w": 37, 
+            "x": 526, 
+            "y": 432
+          }, 
+          "pic2": {
+            "h": 53, 
+            "layer": 4, 
+            "name": "parrot2_3", 
+            "path": "brazil.morph/parrot2_3.png", 
+            "w": 37, 
+            "x": 523, 
+            "y": 418
+          }
+        }, 
+        {
+          "pic1": {
+            "h": 49, 
+            "layer": 4, 
+            "name": "parrot1_4", 
+            "path": "brazil.morph/parrot1_4.png", 
+            "w": 37, 
+            "x": 439, 
+            "y": 297
+          }, 
+          "pic2": {
+            "h": 62, 
+            "layer": 4, 
+            "name": "parrot2_4", 
+            "path": "brazil.morph/parrot2_4.png", 
+            "w": 38, 
+            "x": 435, 
+            "y": 283
+          }
+        }, 
+        {
+          "cover": {
+            "h": 51, 
+            "layer": 4, 
+            "name": "parrot1_5_cover", 
+            "path": "brazil.morph/parrot1_5_cover.png", 
+            "w": 33, 
+            "x": 639, 
+            "y": 496
+          }, 
+          "pic1": {
+            "h": 47, 
+            "layer": 4, 
+            "name": "parrot1_5", 
+            "path": "brazil.morph/parrot1_5.png", 
+            "w": 55, 
+            "x": 633, 
+            "y": 500
+          }, 
+          "pic2": {
+            "h": 58, 
+            "layer": 4, 
+            "name": "parrot2_5", 
+            "path": "brazil.morph/parrot2_5.png", 
+            "w": 55, 
+            "x": 630, 
+            "y": 486
+          }
+        }
+      ], 
+      "name": "parrot"
+    }
+  ], 
+  "part": [
+    {
+      "name": "knife_orig", 
+      "path": "brazil.part/knife_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "knife1_1", 
+                "path": "brazil.part/knife1_1.png", 
+                "w": 70, 
+                "x": 791, 
+                "y": 372
+              }
+            }, 
+            {
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "knife1_2", 
+                "path": "brazil.part/knife1_2.png", 
+                "w": 31, 
+                "x": 381, 
+                "y": 462
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "knife1_3_cover", 
+                "path": "brazil.part/knife1_3_cover.png", 
+                "w": 47, 
+                "x": 1203, 
+                "y": 498
+              }, 
+              "pic": {
+                "h": 71, 
+                "layer": 4, 
+                "name": "knife1_3", 
+                "path": "brazil.part/knife1_3.png", 
+                "w": 28, 
+                "x": 1216, 
+                "y": 477
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "knife1_4", 
+                "path": "brazil.part/knife1_4.png", 
+                "w": 18, 
+                "x": 682, 
+                "y": 472
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "knife1_5", 
+                "path": "brazil.part/knife1_5.png", 
+                "w": 20, 
+                "x": 435, 
+                "y": 306
+              }
+            }
+          ], 
+          "name": "knife1", 
+          "path": "brazil.part/knife1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 73, 
+                "layer": 4, 
+                "name": "knife2_1", 
+                "path": "brazil.part/knife2_1.png", 
+                "w": 14, 
+                "x": 1013, 
+                "y": 535
+              }
+            }, 
+            {
+              "pic": {
+                "h": 20, 
+                "layer": 4, 
+                "name": "knife2_2", 
+                "path": "brazil.part/knife2_2.png", 
+                "w": 61, 
+                "x": 801, 
+                "y": 471
+              }
+            }, 
+            {
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "knife2_3", 
+                "path": "brazil.part/knife2_3.png", 
+                "w": 64, 
+                "x": 383, 
+                "y": 232
+              }
+            }, 
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "knife2_4", 
+                "path": "brazil.part/knife2_4.png", 
+                "w": 13, 
+                "x": 887, 
+                "y": 201
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "knife2_5", 
+                "path": "brazil.part/knife2_5.png", 
+                "w": 12, 
+                "x": 1098, 
+                "y": 89
+              }
+            }
+          ], 
+          "name": "knife2", 
+          "path": "brazil.part/knife2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 16, 
+                "layer": 4, 
+                "name": "knife3_1", 
+                "path": "brazil.part/knife3_1.png", 
+                "w": 61, 
+                "x": 887, 
+                "y": 472
+              }
+            }, 
+            {
+              "pic": {
+                "h": 15, 
+                "layer": 4, 
+                "name": "knife3_2", 
+                "path": "brazil.part/knife3_2.png", 
+                "w": 59, 
+                "x": 399, 
+                "y": 587
+              }
+            }, 
+            {
+              "cover": {
+                "h": 12, 
+                "layer": 5, 
+                "name": "knife3_3_cover", 
+                "path": "brazil.part/knife3_3_cover.png", 
+                "w": 24, 
+                "x": 334, 
+                "y": 551
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "knife3_3", 
+                "path": "brazil.part/knife3_3.png", 
+                "w": 41, 
+                "x": 338, 
+                "y": 512
+              }
+            }, 
+            {
+              "cover": {
+                "h": 15, 
+                "layer": 5, 
+                "name": "knife3_4_cover", 
+                "path": "brazil.part/knife3_4_cover.png", 
+                "w": 68, 
+                "x": 607, 
+                "y": 471
+              }, 
+              "pic": {
+                "h": 13, 
+                "layer": 4, 
+                "name": "knife3_4", 
+                "path": "brazil.part/knife3_4.png", 
+                "w": 60, 
+                "x": 611, 
+                "y": 469
+              }
+            }, 
+            {
+              "pic": {
+                "h": 9, 
+                "layer": 4, 
+                "name": "knife3_5", 
+                "path": "brazil.part/knife3_5.png", 
+                "w": 59, 
+                "x": 694, 
+                "y": 193
+              }
+            }
+          ], 
+          "name": "knife3", 
+          "path": "brazil.part/knife3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "knife4_1", 
+                "path": "brazil.part/knife4_1.png", 
+                "w": 46, 
+                "x": 577, 
+                "y": 590
+              }
+            }, 
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "knife4_2", 
+                "path": "brazil.part/knife4_2.png", 
+                "w": 39, 
+                "x": 231, 
+                "y": 9
+              }
+            }, 
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "knife4_3", 
+                "path": "brazil.part/knife4_3.png", 
+                "w": 42, 
+                "x": 513, 
+                "y": 39
+              }
+            }, 
+            {
+              "cover": {
+                "h": 44, 
+                "layer": 5, 
+                "name": "knife4_4_cover", 
+                "path": "brazil.part/knife4_4_cover.png", 
+                "w": 36, 
+                "x": 973, 
+                "y": 398
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "knife4_4", 
+                "path": "brazil.part/knife4_4.png", 
+                "w": 39, 
+                "x": 978, 
+                "y": 378
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "knife4_5_cover", 
+                "path": "brazil.part/knife4_5_cover.png", 
+                "w": 41, 
+                "x": 942, 
+                "y": 266
+              }, 
+              "pic": {
+                "h": 28, 
+                "layer": 4, 
+                "name": "knife4_5", 
+                "path": "brazil.part/knife4_5.png", 
+                "w": 45, 
+                "x": 934, 
+                "y": 267
+              }
+            }
+          ], 
+          "name": "knife4", 
+          "path": "brazil.part/knife4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 22, 
+                "layer": 4, 
+                "name": "knife5_1", 
+                "path": "brazil.part/knife5_1.png", 
+                "w": 55, 
+                "x": 427, 
+                "y": 461
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "knife5_2", 
+                "path": "brazil.part/knife5_2.png", 
+                "w": 13, 
+                "x": 249, 
+                "y": 321
+              }
+            }, 
+            {
+              "pic": {
+                "h": 14, 
+                "layer": 4, 
+                "name": "knife5_3", 
+                "path": "brazil.part/knife5_3.png", 
+                "w": 57, 
+                "x": 428, 
+                "y": 8
+              }
+            }, 
+            {
+              "pic": {
+                "h": 13, 
+                "layer": 4, 
+                "name": "knife5_4", 
+                "path": "brazil.part/knife5_4.png", 
+                "w": 57, 
+                "x": 284, 
+                "y": 114
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "knife5_5_cover", 
+                "path": "brazil.part/knife5_5_cover.png", 
+                "w": 22, 
+                "x": 566, 
+                "y": 536
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "knife5_5", 
+                "path": "brazil.part/knife5_5.png", 
+                "w": 22, 
+                "x": 563, 
+                "y": 512
+              }
+            }
+          ], 
+          "name": "knife5", 
+          "path": "brazil.part/knife5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "flamingo_orig", 
+      "path": "brazil.part/flamingo_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "flamingo1_1", 
+                "path": "brazil.part/flamingo1_1.png", 
+                "w": 59, 
+                "x": 913, 
+                "y": 544
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "flamingo1_2", 
+                "path": "brazil.part/flamingo1_2.png", 
+                "w": 40, 
+                "x": 292, 
+                "y": 427
+              }
+            }, 
+            {
+              "cover": {
+                "h": 24, 
+                "layer": 5, 
+                "name": "flamingo1_3_cover", 
+                "path": "brazil.part/flamingo1_3_cover.png", 
+                "w": 19, 
+                "x": 242, 
+                "y": 104
+              }, 
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "flamingo1_3", 
+                "path": "brazil.part/flamingo1_3.png", 
+                "w": 23, 
+                "x": 238, 
+                "y": 107
+              }
+            }, 
+            {
+              "pic": {
+                "h": 24, 
+                "layer": 4, 
+                "name": "flamingo1_4", 
+                "path": "brazil.part/flamingo1_4.png", 
+                "w": 55, 
+                "x": 539, 
+                "y": 297
+              }
+            }, 
+            {
+              "cover": {
+                "h": 43, 
+                "layer": 5, 
+                "name": "flamingo1_5_cover", 
+                "path": "brazil.part/flamingo1_5_cover.png", 
+                "w": 42, 
+                "x": 1123, 
+                "y": 469
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "flamingo1_5", 
+                "path": "brazil.part/flamingo1_5.png", 
+                "w": 48, 
+                "x": 1115, 
+                "y": 459
+              }
+            }
+          ], 
+          "name": "flamingo1", 
+          "path": "brazil.part/flamingo1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "flamingo2_1", 
+                "path": "brazil.part/flamingo2_1.png", 
+                "w": 52, 
+                "x": 1108, 
+                "y": 527
+              }
+            }, 
+            {
+              "pic": {
+                "h": 70, 
+                "layer": 4, 
+                "name": "flamingo2_2", 
+                "path": "brazil.part/flamingo2_2.png", 
+                "w": 38, 
+                "x": 324, 
+                "y": 330
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "flamingo2_3_cover", 
+                "path": "brazil.part/flamingo2_3_cover.png", 
+                "w": 35, 
+                "x": 857, 
+                "y": 450
+              }, 
+              "pic": {
+                "h": 62, 
+                "layer": 4, 
+                "name": "flamingo2_3", 
+                "path": "brazil.part/flamingo2_3.png", 
+                "w": 33, 
+                "x": 852, 
+                "y": 416
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "flamingo2_4_cover", 
+                "path": "brazil.part/flamingo2_4_cover.png", 
+                "w": 62, 
+                "x": 412, 
+                "y": 201
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "flamingo2_4", 
+                "path": "brazil.part/flamingo2_4.png", 
+                "w": 70, 
+                "x": 425, 
+                "y": 203
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "flamingo2_5", 
+                "path": "brazil.part/flamingo2_5.png", 
+                "w": 52, 
+                "x": 987, 
+                "y": 264
+              }
+            }
+          ], 
+          "name": "flamingo2", 
+          "path": "brazil.part/flamingo2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 75, 
+                "layer": 4, 
+                "name": "flamingo3_1", 
+                "path": "brazil.part/flamingo3_1.png", 
+                "w": 45, 
+                "x": 660, 
+                "y": 272
+              }
+            }, 
+            {
+              "pic": {
+                "h": 77, 
+                "layer": 4, 
+                "name": "flamingo3_2", 
+                "path": "brazil.part/flamingo3_2.png", 
+                "w": 40, 
+                "x": 637, 
+                "y": 51
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "flamingo3_3", 
+                "path": "brazil.part/flamingo3_3.png", 
+                "w": 82, 
+                "x": 708, 
+                "y": 417
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "flamingo3_4", 
+                "path": "brazil.part/flamingo3_4.png", 
+                "w": 69, 
+                "x": 525, 
+                "y": 228
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "flamingo3_5_cover", 
+                "path": "brazil.part/flamingo3_5_cover.png", 
+                "w": 51, 
+                "x": 519, 
+                "y": 452
+              }, 
+              "pic": {
+                "h": 74, 
+                "layer": 4, 
+                "name": "flamingo3_5", 
+                "path": "brazil.part/flamingo3_5.png", 
+                "w": 46, 
+                "x": 522, 
+                "y": 422
+              }
+            }
+          ], 
+          "name": "flamingo3", 
+          "path": "brazil.part/flamingo3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "flamingo4_1", 
+                "path": "brazil.part/flamingo4_1.png", 
+                "w": 42, 
+                "x": 383, 
+                "y": 302
+              }
+            }, 
+            {
+              "pic": {
+                "h": 60, 
+                "layer": 4, 
+                "name": "flamingo4_2", 
+                "path": "brazil.part/flamingo4_2.png", 
+                "w": 43, 
+                "x": 710, 
+                "y": 276
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "flamingo4_3", 
+                "path": "brazil.part/flamingo4_3.png", 
+                "w": 40, 
+                "x": 491, 
+                "y": 139
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "flamingo4_4_cover", 
+                "path": "brazil.part/flamingo4_4_cover.png", 
+                "w": 33, 
+                "x": 706, 
+                "y": 467
+              }, 
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "flamingo4_4", 
+                "path": "brazil.part/flamingo4_4.png", 
+                "w": 45, 
+                "x": 694, 
+                "y": 471
+              }
+            }, 
+            {
+              "cover": {
+                "h": 51, 
+                "layer": 5, 
+                "name": "flamingo4_5_cover", 
+                "path": "brazil.part/flamingo4_5_cover.png", 
+                "w": 37, 
+                "x": 1043, 
+                "y": 201
+              }, 
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "flamingo4_5", 
+                "path": "brazil.part/flamingo4_5.png", 
+                "w": 35, 
+                "x": 1040, 
+                "y": 202
+              }
+            }
+          ], 
+          "name": "flamingo4", 
+          "path": "brazil.part/flamingo4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "flamingo5_1", 
+                "path": "brazil.part/flamingo5_1.png", 
+                "w": 66, 
+                "x": 770, 
+                "y": 600
+              }
+            }, 
+            {
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "flamingo5_2", 
+                "path": "brazil.part/flamingo5_2.png", 
+                "w": 70, 
+                "x": 961, 
+                "y": 0
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "flamingo5_3", 
+                "path": "brazil.part/flamingo5_3.png", 
+                "w": 62, 
+                "x": 579, 
+                "y": 423
+              }
+            }, 
+            {
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "flamingo5_4", 
+                "path": "brazil.part/flamingo5_4.png", 
+                "w": 59, 
+                "x": 357, 
+                "y": 363
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "flamingo5_5", 
+                "path": "brazil.part/flamingo5_5.png", 
+                "w": 49, 
+                "x": 276, 
+                "y": 155
+              }
+            }
+          ], 
+          "name": "flamingo5", 
+          "path": "brazil.part/flamingo5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "crabmen_orig", 
+      "path": "brazil.part/crabmen_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 104, 
+                "layer": 4, 
+                "name": "crabmen1_1", 
+                "path": "brazil.part/crabmen1_1.png", 
+                "w": 71, 
+                "x": 651, 
+                "y": 540
+              }
+            }, 
+            {
+              "pic": {
+                "h": 76, 
+                "layer": 4, 
+                "name": "crabmen1_2", 
+                "path": "brazil.part/crabmen1_2.png", 
+                "w": 49, 
+                "x": 310, 
+                "y": 20
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "crabmen1_3", 
+                "path": "brazil.part/crabmen1_3.png", 
+                "w": 52, 
+                "x": 1163, 
+                "y": 522
+              }
+            }, 
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "crabmen1_4", 
+                "path": "brazil.part/crabmen1_4.png", 
+                "w": 56, 
+                "x": 658, 
+                "y": 372
+              }
+            }, 
+            {
+              "cover": {
+                "h": 73, 
+                "layer": 5, 
+                "name": "crabmen1_5_cover", 
+                "path": "brazil.part/crabmen1_5_cover.png", 
+                "w": 30, 
+                "x": 249, 
+                "y": 577
+              }, 
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "crabmen1_5", 
+                "path": "brazil.part/crabmen1_5.png", 
+                "w": 45, 
+                "x": 250, 
+                "y": 585
+              }
+            }
+          ], 
+          "name": "crabmen1", 
+          "path": "brazil.part/crabmen1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "crabmen2_1", 
+                "path": "brazil.part/crabmen2_1.png", 
+                "w": 56, 
+                "x": 868, 
+                "y": 136
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "crabmen2_2", 
+                "path": "brazil.part/crabmen2_2.png", 
+                "w": 70, 
+                "x": 1026, 
+                "y": 0
+              }
+            }, 
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "crabmen2_3", 
+                "path": "brazil.part/crabmen2_3.png", 
+                "w": 64, 
+                "x": 240, 
+                "y": 266
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "crabmen2_4", 
+                "path": "brazil.part/crabmen2_4.png", 
+                "w": 69, 
+                "x": 533, 
+                "y": 143
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "crabmen2_5", 
+                "path": "brazil.part/crabmen2_5.png", 
+                "w": 49, 
+                "x": 1037, 
+                "y": 245
+              }
+            }
+          ], 
+          "name": "crabmen2", 
+          "path": "brazil.part/crabmen2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "crabmen3_1", 
+                "path": "brazil.part/crabmen3_1.png", 
+                "w": 48, 
+                "x": 614, 
+                "y": 268
+              }
+            }, 
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "crabmen3_2", 
+                "path": "brazil.part/crabmen3_2.png", 
+                "w": 63, 
+                "x": 1181, 
+                "y": 200
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "crabmen3_3_cover", 
+                "path": "brazil.part/crabmen3_3_cover.png", 
+                "w": 52, 
+                "x": 1049, 
+                "y": 548
+              }, 
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "crabmen3_3", 
+                "path": "brazil.part/crabmen3_3.png", 
+                "w": 63, 
+                "x": 1035, 
+                "y": 530
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "crabmen3_4", 
+                "path": "brazil.part/crabmen3_4.png", 
+                "w": 61, 
+                "x": 714, 
+                "y": 86
+              }
+            }, 
+            {
+              "cover": {
+                "h": 49, 
+                "layer": 5, 
+                "name": "crabmen3_5_cover", 
+                "path": "brazil.part/crabmen3_5_cover.png", 
+                "w": 66, 
+                "x": 1095, 
+                "y": 369
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "crabmen3_5", 
+                "path": "brazil.part/crabmen3_5.png", 
+                "w": 62, 
+                "x": 1094, 
+                "y": 369
+              }
+            }
+          ], 
+          "name": "crabmen3", 
+          "path": "brazil.part/crabmen3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 54, 
+                "layer": 4, 
+                "name": "crabmen4_1", 
+                "path": "brazil.part/crabmen4_1.png", 
+                "w": 59, 
+                "x": 1074, 
+                "y": 161
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "crabmen4_2", 
+                "path": "brazil.part/crabmen4_2.png", 
+                "w": 54, 
+                "x": 600, 
+                "y": 201
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "crabmen4_3", 
+                "path": "brazil.part/crabmen4_3.png", 
+                "w": 52, 
+                "x": 658, 
+                "y": 434
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "crabmen4_4_cover", 
+                "path": "brazil.part/crabmen4_4_cover.png", 
+                "w": 54, 
+                "x": 921, 
+                "y": 358
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "crabmen4_4", 
+                "path": "brazil.part/crabmen4_4.png", 
+                "w": 48, 
+                "x": 923, 
+                "y": 359
+              }
+            }, 
+            {
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "crabmen4_5", 
+                "path": "brazil.part/crabmen4_5.png", 
+                "w": 47, 
+                "x": 850, 
+                "y": 11
+              }
+            }
+          ], 
+          "name": "crabmen4", 
+          "path": "brazil.part/crabmen4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 72, 
+                "layer": 4, 
+                "name": "crabmen5_1", 
+                "path": "brazil.part/crabmen5_1.png", 
+                "w": 62, 
+                "x": 1148, 
+                "y": 592
+              }
+            }, 
+            {
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "crabmen5_2", 
+                "path": "brazil.part/crabmen5_2.png", 
+                "w": 58, 
+                "x": 403, 
+                "y": 515
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "crabmen5_3_cover", 
+                "path": "brazil.part/crabmen5_3_cover.png", 
+                "w": 45, 
+                "x": 1186, 
+                "y": 360
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "crabmen5_3", 
+                "path": "brazil.part/crabmen5_3.png", 
+                "w": 46, 
+                "x": 1183, 
+                "y": 351
+              }
+            }, 
+            {
+              "cover": {
+                "h": 56, 
+                "layer": 5, 
+                "name": "crabmen5_4_cover", 
+                "path": "brazil.part/crabmen5_4_cover.png", 
+                "w": 53, 
+                "x": 1018, 
+                "y": 354
+              }, 
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "crabmen5_4", 
+                "path": "brazil.part/crabmen5_4.png", 
+                "w": 47, 
+                "x": 1022, 
+                "y": 353
+              }
+            }, 
+            {
+              "pic": {
+                "h": 29, 
+                "layer": 4, 
+                "name": "crabmen5_5", 
+                "path": "brazil.part/crabmen5_5.png", 
+                "w": 36, 
+                "x": 613, 
+                "y": 339
+              }
+            }
+          ], 
+          "name": "crabmen5", 
+          "path": "brazil.part/crabmen5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "horse_orig", 
+      "path": "brazil.part/horse_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 91, 
+                "layer": 4, 
+                "name": "horse1_1", 
+                "path": "brazil.part/horse1_1.png", 
+                "w": 72, 
+                "x": 1073, 
+                "y": 574
+              }
+            }, 
+            {
+              "pic": {
+                "h": 79, 
+                "layer": 4, 
+                "name": "horse1_2", 
+                "path": "brazil.part/horse1_2.png", 
+                "w": 71, 
+                "x": 440, 
+                "y": 508
+              }
+            }, 
+            {
+              "cover": {
+                "h": 76, 
+                "layer": 5, 
+                "name": "horse1_3_cover", 
+                "path": "brazil.part/horse1_3_cover.png", 
+                "w": 37, 
+                "x": 752, 
+                "y": 499
+              }, 
+              "pic": {
+                "h": 80, 
+                "layer": 4, 
+                "name": "horse1_3", 
+                "path": "brazil.part/horse1_3.png", 
+                "w": 67, 
+                "x": 749, 
+                "y": 500
+              }
+            }, 
+            {
+              "pic": {
+                "h": 68, 
+                "layer": 4, 
+                "name": "horse1_4", 
+                "path": "brazil.part/horse1_4.png", 
+                "w": 46, 
+                "x": 269, 
+                "y": 458
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "horse1_5_cover", 
+                "path": "brazil.part/horse1_5_cover.png", 
+                "w": 54, 
+                "x": 637, 
+                "y": 148
+              }, 
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "horse1_5", 
+                "path": "brazil.part/horse1_5.png", 
+                "w": 59, 
+                "x": 647, 
+                "y": 149
+              }
+            }
+          ], 
+          "name": "horse1", 
+          "path": "brazil.part/horse1.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 59, 
+                "layer": 5, 
+                "name": "horse2_1_cover", 
+                "path": "brazil.part/horse2_1_cover.png", 
+                "w": 64, 
+                "x": 950, 
+                "y": 480
+              }, 
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "horse2_1", 
+                "path": "brazil.part/horse2_1.png", 
+                "w": 63, 
+                "x": 948, 
+                "y": 475
+              }
+            }, 
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "horse2_2", 
+                "path": "brazil.part/horse2_2.png", 
+                "w": 63, 
+                "x": 1125, 
+                "y": 52
+              }
+            }, 
+            {
+              "cover": {
+                "h": 61, 
+                "layer": 5, 
+                "name": "horse2_3_cover", 
+                "path": "brazil.part/horse2_3_cover.png", 
+                "w": 47, 
+                "x": 885, 
+                "y": 417
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "horse2_3", 
+                "path": "brazil.part/horse2_3.png", 
+                "w": 75, 
+                "x": 878, 
+                "y": 417
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "horse2_4", 
+                "path": "brazil.part/horse2_4.png", 
+                "w": 52, 
+                "x": 732, 
+                "y": 211
+              }
+            }, 
+            {
+              "cover": {
+                "h": 59, 
+                "layer": 5, 
+                "name": "horse2_5_cover", 
+                "path": "brazil.part/horse2_5_cover.png", 
+                "w": 60, 
+                "x": 734, 
+                "y": 348
+              }, 
+              "pic": {
+                "h": 48, 
+                "layer": 4, 
+                "name": "horse2_5", 
+                "path": "brazil.part/horse2_5.png", 
+                "w": 44, 
+                "x": 743, 
+                "y": 349
+              }
+            }
+          ], 
+          "name": "horse2", 
+          "path": "brazil.part/horse2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "horse3_1", 
+                "path": "brazil.part/horse3_1.png", 
+                "w": 51, 
+                "x": 324, 
+                "y": 555
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "horse3_2", 
+                "path": "brazil.part/horse3_2.png", 
+                "w": 51, 
+                "x": 231, 
+                "y": 172
+              }
+            }, 
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "horse3_3", 
+                "path": "brazil.part/horse3_3.png", 
+                "w": 45, 
+                "x": 849, 
+                "y": 65
+              }
+            }, 
+            {
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "horse3_4", 
+                "path": "brazil.part/horse3_4.png", 
+                "w": 44, 
+                "x": 495, 
+                "y": 326
+              }
+            }, 
+            {
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "horse3_5", 
+                "path": "brazil.part/horse3_5.png", 
+                "w": 39, 
+                "x": 502, 
+                "y": 206
+              }
+            }
+          ], 
+          "name": "horse3", 
+          "path": "brazil.part/horse3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 67, 
+                "layer": 4, 
+                "name": "horse4_1", 
+                "path": "brazil.part/horse4_1.png", 
+                "w": 64, 
+                "x": 603, 
+                "y": 470
+              }
+            }, 
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "horse4_2", 
+                "path": "brazil.part/horse4_2.png", 
+                "w": 52, 
+                "x": 1057, 
+                "y": 472
+              }
+            }, 
+            {
+              "pic": {
+                "h": 47, 
+                "layer": 4, 
+                "name": "horse4_3", 
+                "path": "brazil.part/horse4_3.png", 
+                "w": 39, 
+                "x": 1052, 
+                "y": 300
+              }
+            }, 
+            {
+              "pic": {
+                "h": 30, 
+                "layer": 4, 
+                "name": "horse4_4", 
+                "path": "brazil.part/horse4_4.png", 
+                "w": 36, 
+                "x": 379, 
+                "y": 196
+              }
+            }, 
+            {
+              "cover": {
+                "h": 47, 
+                "layer": 5, 
+                "name": "horse4_5_cover", 
+                "path": "brazil.part/horse4_5_cover.png", 
+                "w": 51, 
+                "x": 489, 
+                "y": 120
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "horse4_5", 
+                "path": "brazil.part/horse4_5.png", 
+                "w": 44, 
+                "x": 490, 
+                "y": 121
+              }
+            }
+          ], 
+          "name": "horse4", 
+          "path": "brazil.part/horse4.png"
+        }, 
+        {
+          "images": [
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "horse5_1_cover", 
+                "path": "brazil.part/horse5_1_cover.png", 
+                "w": 43, 
+                "x": 1167, 
+                "y": 447
+              }, 
+              "pic": {
+                "h": 52, 
+                "layer": 4, 
+                "name": "horse5_1", 
+                "path": "brazil.part/horse5_1.png", 
+                "w": 44, 
+                "x": 1166, 
+                "y": 423
+              }
+            }, 
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "horse5_2", 
+                "path": "brazil.part/horse5_2.png", 
+                "w": 55, 
+                "x": 456, 
+                "y": 402
+              }
+            }, 
+            {
+              "pic": {
+                "h": 55, 
+                "layer": 4, 
+                "name": "horse5_3", 
+                "path": "brazil.part/horse5_3.png", 
+                "w": 34, 
+                "x": 618, 
+                "y": 593
+              }
+            }, 
+            {
+              "cover": {
+                "h": 34, 
+                "layer": 5, 
+                "name": "horse5_4_cover", 
+                "path": "brazil.part/horse5_4_cover.png", 
+                "w": 47, 
+                "x": 230, 
+                "y": 545
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "horse5_4", 
+                "path": "brazil.part/horse5_4.png", 
+                "w": 55, 
+                "x": 232, 
+                "y": 534
+              }
+            }, 
+            {
+              "pic": {
+                "h": 32, 
+                "layer": 4, 
+                "name": "horse5_5", 
+                "path": "brazil.part/horse5_5.png", 
+                "w": 48, 
+                "x": 365, 
+                "y": 61
+              }
+            }
+          ], 
+          "name": "horse5", 
+          "path": "brazil.part/horse5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "coffee_orig", 
+      "path": "brazil.part/coffee_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "coffee1_1", 
+                "path": "brazil.part/coffee1_1.png", 
+                "w": 64, 
+                "x": 707, 
+                "y": 599
+              }
+            }, 
+            {
+              "cover": {
+                "h": 28, 
+                "layer": 5, 
+                "name": "coffee1_2_cover", 
+                "path": "brazil.part/coffee1_2_cover.png", 
+                "w": 37, 
+                "x": 454, 
+                "y": 50
+              }, 
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "coffee1_2", 
+                "path": "brazil.part/coffee1_2.png", 
+                "w": 50, 
+                "x": 456, 
+                "y": 32
+              }
+            }, 
+            {
+              "cover": {
+                "h": 27, 
+                "layer": 5, 
+                "name": "coffee1_3_cover", 
+                "path": "brazil.part/coffee1_3_cover.png", 
+                "w": 14, 
+                "x": 291, 
+                "y": 382
+              }, 
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "coffee1_3", 
+                "path": "brazil.part/coffee1_3.png", 
+                "w": 66, 
+                "x": 235, 
+                "y": 386
+              }
+            }, 
+            {
+              "pic": {
+                "h": 33, 
+                "layer": 4, 
+                "name": "coffee1_4", 
+                "path": "brazil.part/coffee1_4.png", 
+                "w": 46, 
+                "x": 538, 
+                "y": 352
+              }
+            }, 
+            {
+              "cover": {
+                "h": 41, 
+                "layer": 5, 
+                "name": "coffee1_5_cover", 
+                "path": "brazil.part/coffee1_5_cover.png", 
+                "w": 37, 
+                "x": 665, 
+                "y": 82
+              }, 
+              "pic": {
+                "h": 34, 
+                "layer": 4, 
+                "name": "coffee1_5", 
+                "path": "brazil.part/coffee1_5.png", 
+                "w": 46, 
+                "x": 670, 
+                "y": 84
+              }
+            }
+          ], 
+          "name": "coffee1", 
+          "path": "brazil.part/coffee1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "coffee2_1", 
+                "path": "brazil.part/coffee2_1.png", 
+                "w": 66, 
+                "x": 454, 
+                "y": 452
+              }
+            }, 
+            {
+              "pic": {
+                "h": 69, 
+                "layer": 4, 
+                "name": "coffee2_2", 
+                "path": "brazil.part/coffee2_2.png", 
+                "w": 81, 
+                "x": 1015, 
+                "y": 593
+              }
+            }, 
+            {
+              "cover": {
+                "h": 75, 
+                "layer": 5, 
+                "name": "coffee2_3_cover", 
+                "path": "brazil.part/coffee2_3_cover.png", 
+                "w": 52, 
+                "x": 1202, 
+                "y": 23
+              }, 
+              "pic": {
+                "h": 53, 
+                "layer": 4, 
+                "name": "coffee2_3", 
+                "path": "brazil.part/coffee2_3.png", 
+                "w": 45, 
+                "x": 1205, 
+                "y": 37
+              }
+            }, 
+            {
+              "cover": {
+                "h": 60, 
+                "layer": 5, 
+                "name": "coffee2_4_cover", 
+                "path": "brazil.part/coffee2_4_cover.png", 
+                "w": 28, 
+                "x": 1224, 
+                "y": 282
+              }, 
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "coffee2_4", 
+                "path": "brazil.part/coffee2_4.png", 
+                "w": 42, 
+                "x": 1205, 
+                "y": 281
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "coffee2_5_cover", 
+                "path": "brazil.part/coffee2_5_cover.png", 
+                "w": 49, 
+                "x": 838, 
+                "y": 481
+              }, 
+              "pic": {
+                "h": 49, 
+                "layer": 4, 
+                "name": "coffee2_5", 
+                "path": "brazil.part/coffee2_5.png", 
+                "w": 43, 
+                "x": 840, 
+                "y": 484
+              }
+            }
+          ], 
+          "name": "coffee2", 
+          "path": "brazil.part/coffee2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "coffee3_1", 
+                "path": "brazil.part/coffee3_1.png", 
+                "w": 29, 
+                "x": 835, 
+                "y": 539
+              }
+            }, 
+            {
+              "pic": {
+                "h": 66, 
+                "layer": 4, 
+                "name": "coffee3_2", 
+                "path": "brazil.part/coffee3_2.png", 
+                "w": 29, 
+                "x": 466, 
+                "y": 243
+              }
+            }, 
+            {
+              "cover": {
+                "h": 53, 
+                "layer": 5, 
+                "name": "coffee3_3_cover", 
+                "path": "brazil.part/coffee3_3_cover.png", 
+                "w": 24, 
+                "x": 565, 
+                "y": 587
+              }, 
+              "pic": {
+                "h": 63, 
+                "layer": 4, 
+                "name": "coffee3_3", 
+                "path": "brazil.part/coffee3_3.png", 
+                "w": 35, 
+                "x": 568, 
+                "y": 571
+              }
+            }, 
+            {
+              "pic": {
+                "h": 59, 
+                "layer": 4, 
+                "name": "coffee3_4", 
+                "path": "brazil.part/coffee3_4.png", 
+                "w": 26, 
+                "x": 583, 
+                "y": 323
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "coffee3_5", 
+                "path": "brazil.part/coffee3_5.png", 
+                "w": 47, 
+                "x": 265, 
+                "y": 341
+              }
+            }
+          ], 
+          "name": "coffee3", 
+          "path": "brazil.part/coffee3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 44, 
+                "layer": 4, 
+                "name": "coffee4_1", 
+                "path": "brazil.part/coffee4_1.png", 
+                "w": 73, 
+                "x": 309, 
+                "y": 612
+              }
+            }, 
+            {
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "coffee4_2", 
+                "path": "brazil.part/coffee4_2.png", 
+                "w": 48, 
+                "x": 870, 
+                "y": 328
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "coffee4_3_cover", 
+                "path": "brazil.part/coffee4_3_cover.png", 
+                "w": 80, 
+                "x": 1029, 
+                "y": 51
+              }, 
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "coffee4_3", 
+                "path": "brazil.part/coffee4_3.png", 
+                "w": 62, 
+                "x": 1044, 
+                "y": 52
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "coffee4_4_cover", 
+                "path": "brazil.part/coffee4_4_cover.png", 
+                "w": 55, 
+                "x": 341, 
+                "y": 436
+              }, 
+              "pic": {
+                "h": 31, 
+                "layer": 4, 
+                "name": "coffee4_4", 
+                "path": "brazil.part/coffee4_4.png", 
+                "w": 57, 
+                "x": 334, 
+                "y": 436
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "coffee4_5", 
+                "path": "brazil.part/coffee4_5.png", 
+                "w": 49, 
+                "x": 903, 
+                "y": 206
+              }
+            }
+          ], 
+          "name": "coffee4", 
+          "path": "brazil.part/coffee4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 19, 
+                "layer": 4, 
+                "name": "coffee5_1", 
+                "path": "brazil.part/coffee5_1.png", 
+                "w": 32, 
+                "x": 326, 
+                "y": 191
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "coffee5_2", 
+                "path": "brazil.part/coffee5_2.png", 
+                "w": 25, 
+                "x": 922, 
+                "y": 6
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "coffee5_3_cover", 
+                "path": "brazil.part/coffee5_3_cover.png", 
+                "w": 17, 
+                "x": 994, 
+                "y": 448
+              }, 
+              "pic": {
+                "h": 27, 
+                "layer": 4, 
+                "name": "coffee5_3", 
+                "path": "brazil.part/coffee5_3.png", 
+                "w": 40, 
+                "x": 968, 
+                "y": 449
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "coffee5_4_cover", 
+                "path": "brazil.part/coffee5_4_cover.png", 
+                "w": 46, 
+                "x": 924, 
+                "y": 570
+              }, 
+              "pic": {
+                "h": 25, 
+                "layer": 4, 
+                "name": "coffee5_4", 
+                "path": "brazil.part/coffee5_4.png", 
+                "w": 40, 
+                "x": 927, 
+                "y": 573
+              }
+            }, 
+            {
+              "pic": {
+                "h": 18, 
+                "layer": 4, 
+                "name": "coffee5_5", 
+                "path": "brazil.part/coffee5_5.png", 
+                "w": 29, 
+                "x": 437, 
+                "y": 277
+              }
+            }
+          ], 
+          "name": "coffee5", 
+          "path": "brazil.part/coffee5.png"
+        }
+      ]
+    }, 
+    {
+      "name": "doll_orig", 
+      "path": "brazil.part/doll_orig.png", 
+      "pieces": [
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 41, 
+                "layer": 4, 
+                "name": "doll1_1", 
+                "path": "brazil.part/doll1_1.png", 
+                "w": 44, 
+                "x": 330, 
+                "y": 470
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "doll1_2", 
+                "path": "brazil.part/doll1_2.png", 
+                "w": 47, 
+                "x": 1119, 
+                "y": 0
+              }
+            }, 
+            {
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "doll1_3", 
+                "path": "brazil.part/doll1_3.png", 
+                "w": 43, 
+                "x": 555, 
+                "y": 385
+              }
+            }, 
+            {
+              "cover": {
+                "h": 40, 
+                "layer": 5, 
+                "name": "doll1_4_cover", 
+                "path": "brazil.part/doll1_4_cover.png", 
+                "w": 34, 
+                "x": 660, 
+                "y": 212
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "doll1_4", 
+                "path": "brazil.part/doll1_4.png", 
+                "w": 44, 
+                "x": 662, 
+                "y": 212
+              }
+            }, 
+            {
+              "cover": {
+                "h": 32, 
+                "layer": 5, 
+                "name": "doll1_5_cover", 
+                "path": "brazil.part/doll1_5_cover.png", 
+                "w": 45, 
+                "x": 376, 
+                "y": 259
+              }, 
+              "pic": {
+                "h": 36, 
+                "layer": 4, 
+                "name": "doll1_5", 
+                "path": "brazil.part/doll1_5.png", 
+                "w": 44, 
+                "x": 375, 
+                "y": 248
+              }
+            }
+          ], 
+          "name": "doll1", 
+          "path": "brazil.part/doll1.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 38, 
+                "layer": 4, 
+                "name": "doll2_1", 
+                "path": "brazil.part/doll2_1.png", 
+                "w": 73, 
+                "x": 779, 
+                "y": 62
+              }
+            }, 
+            {
+              "cover": {
+                "h": 31, 
+                "layer": 5, 
+                "name": "doll2_2_cover", 
+                "path": "brazil.part/doll2_2_cover.png", 
+                "w": 75, 
+                "x": 1144, 
+                "y": 128
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "doll2_2", 
+                "path": "brazil.part/doll2_2.png", 
+                "w": 72, 
+                "x": 1147, 
+                "y": 132
+              }
+            }, 
+            {
+              "pic": {
+                "h": 37, 
+                "layer": 4, 
+                "name": "doll2_3", 
+                "path": "brazil.part/doll2_3.png", 
+                "w": 60, 
+                "x": 792, 
+                "y": 415
+              }
+            }, 
+            {
+              "cover": {
+                "h": 42, 
+                "layer": 5, 
+                "name": "doll2_4_cover", 
+                "path": "brazil.part/doll2_4_cover.png", 
+                "w": 32, 
+                "x": 385, 
+                "y": 538
+              }, 
+              "pic": {
+                "h": 40, 
+                "layer": 4, 
+                "name": "doll2_4", 
+                "path": "brazil.part/doll2_4.png", 
+                "w": 64, 
+                "x": 354, 
+                "y": 541
+              }
+            }, 
+            {
+              "cover": {
+                "h": 38, 
+                "layer": 5, 
+                "name": "doll2_5_cover", 
+                "path": "brazil.part/doll2_5_cover.png", 
+                "w": 48, 
+                "x": 1150, 
+                "y": 267
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "doll2_5", 
+                "path": "brazil.part/doll2_5.png", 
+                "w": 62, 
+                "x": 1133, 
+                "y": 263
+              }
+            }
+          ], 
+          "name": "doll2", 
+          "path": "brazil.part/doll2.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 56, 
+                "layer": 4, 
+                "name": "doll3_1", 
+                "path": "brazil.part/doll3_1.png", 
+                "w": 61, 
+                "x": 472, 
+                "y": 600
+              }
+            }, 
+            {
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "doll3_2", 
+                "path": "brazil.part/doll3_2.png", 
+                "w": 61, 
+                "x": 804, 
+                "y": 189
+              }
+            }, 
+            {
+              "cover": {
+                "h": 45, 
+                "layer": 5, 
+                "name": "doll3_3_cover", 
+                "path": "brazil.part/doll3_3_cover.png", 
+                "w": 48, 
+                "x": 902, 
+                "y": 590
+              }, 
+              "pic": {
+                "h": 42, 
+                "layer": 4, 
+                "name": "doll3_3", 
+                "path": "brazil.part/doll3_3.png", 
+                "w": 61, 
+                "x": 888, 
+                "y": 592
+              }
+            }, 
+            {
+              "cover": {
+                "h": 46, 
+                "layer": 5, 
+                "name": "doll3_4_cover", 
+                "path": "brazil.part/doll3_4_cover.png", 
+                "w": 67, 
+                "x": 912, 
+                "y": 60
+              }, 
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "doll3_4", 
+                "path": "brazil.part/doll3_4.png", 
+                "w": 60, 
+                "x": 918, 
+                "y": 63
+              }
+            }, 
+            {
+              "cover": {
+                "h": 57, 
+                "layer": 5, 
+                "name": "doll3_5_cover", 
+                "path": "brazil.part/doll3_5_cover.png", 
+                "w": 62, 
+                "x": 300, 
+                "y": 270
+              }, 
+              "pic": {
+                "h": 45, 
+                "layer": 4, 
+                "name": "doll3_5", 
+                "path": "brazil.part/doll3_5.png", 
+                "w": 62, 
+                "x": 309, 
+                "y": 271
+              }
+            }
+          ], 
+          "name": "doll3", 
+          "path": "brazil.part/doll3.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 61, 
+                "layer": 4, 
+                "name": "doll4_1", 
+                "path": "brazil.part/doll4_1.png", 
+                "w": 45, 
+                "x": 960, 
+                "y": 571
+              }
+            }, 
+            {
+              "pic": {
+                "h": 65, 
+                "layer": 4, 
+                "name": "doll4_2", 
+                "path": "brazil.part/doll4_2.png", 
+                "w": 59, 
+                "x": 386, 
+                "y": 389
+              }
+            }, 
+            {
+              "pic": {
+                "h": 43, 
+                "layer": 4, 
+                "name": "doll4_3", 
+                "path": "brazil.part/doll4_3.png", 
+                "w": 56, 
+                "x": 1195, 
+                "y": 95
+              }
+            }, 
+            {
+              "cover": {
+                "h": 65, 
+                "layer": 5, 
+                "name": "doll4_4_cover", 
+                "path": "brazil.part/doll4_4_cover.png", 
+                "w": 49, 
+                "x": 819, 
+                "y": 303
+              }, 
+              "pic": {
+                "h": 57, 
+                "layer": 4, 
+                "name": "doll4_4", 
+                "path": "brazil.part/doll4_4.png", 
+                "w": 42, 
+                "x": 822, 
+                "y": 303
+              }
+            }, 
+            {
+              "cover": {
+                "h": 64, 
+                "layer": 5, 
+                "name": "doll4_5_cover", 
+                "path": "brazil.part/doll4_5_cover.png", 
+                "w": 30, 
+                "x": 684, 
+                "y": 15
+              }, 
+              "pic": {
+                "h": 64, 
+                "layer": 4, 
+                "name": "doll4_5", 
+                "path": "brazil.part/doll4_5.png", 
+                "w": 45, 
+                "x": 684, 
+                "y": 16
+              }
+            }
+          ], 
+          "name": "doll4", 
+          "path": "brazil.part/doll4.png"
+        }, 
+        {
+          "images": [
+            {
+              "pic": {
+                "h": 58, 
+                "layer": 4, 
+                "name": "doll5_1", 
+                "path": "brazil.part/doll5_1.png", 
+                "w": 56, 
+                "x": 1136, 
+                "y": 305
+              }
+            }, 
+            {
+              "pic": {
+                "h": 51, 
+                "layer": 4, 
+                "name": "doll5_2", 
+                "path": "brazil.part/doll5_2.png", 
+                "w": 55, 
+                "x": 429, 
+                "y": 351
+              }
+            }, 
+            {
+              "cover": {
+                "h": 52, 
+                "layer": 5, 
+                "name": "doll5_3_cover", 
+                "path": "brazil.part/doll5_3_cover.png", 
+                "w": 51, 
+                "x": 605, 
+                "y": 530
+              }, 
+              "pic": {
+                "h": 46, 
+                "layer": 4, 
+                "name": "doll5_3", 
+                "path": "brazil.part/doll5_3.png", 
+                "w": 48, 
+                "x": 607, 
+                "y": 532
+              }
+            }, 
+            {
+              "cover": {
+                "h": 35, 
+                "layer": 5, 
+                "name": "doll5_4_cover", 
+                "path": "brazil.part/doll5_4_cover.png", 
+                "w": 45, 
+                "x": 1029, 
+                "y": 423
+              }, 
+              "pic": {
+                "h": 39, 
+                "layer": 4, 
+                "name": "doll5_4", 
+                "path": "brazil.part/doll5_4.png", 
+                "w": 40, 
+                "x": 1034, 
+                "y": 412
+              }
+            }, 
+            {
+              "pic": {
+                "h": 50, 
+                "layer": 4, 
+                "name": "doll5_5", 
+                "path": "brazil.part/doll5_5.png", 
+                "w": 41, 
+                "x": 350, 
+                "y": 140
+              }
+            }
+          ], 
+          "name": "doll5", 
+          "path": "brazil.part/doll5.png"
+        }
+      ]
+    }
+  ]
+}

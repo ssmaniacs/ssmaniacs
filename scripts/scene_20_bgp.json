@@ -1,0 +1,55 @@
+[
+  {
+    "layer": 1, 
+    "path": "christmas.bg/back.png", 
+    "x": 444, 
+    "y": 110
+  }, 
+  {
+    "layer": 3, 
+    "path": "christmas.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 3, 
+    "path": "christmas.bg/light1.png", 
+    "type": "effect", 
+    "x": 315, 
+    "y": 127
+  }, 
+  {
+    "layer": 3, 
+    "path": "christmas.bg/light2.png", 
+    "type": "skip", 
+    "x": 332, 
+    "y": 132
+  }, 
+  {
+    "layer": 3, 
+    "path": "christmas.bg/light3.png", 
+    "type": "skip", 
+    "x": 325, 
+    "y": 114
+  }, 
+  {
+    "ani": true, 
+    "layer": 3, 
+    "path": "christmas.bg/stove_fire_00.png", 
+    "x": 692, 
+    "y": 425
+  }, 
+  {
+    "layer": 6, 
+    "path": "christmas.bg/light1_1.png", 
+    "type": "skip", 
+    "x": 337, 
+    "y": 280
+  }, 
+  {
+    "layer": 10, 
+    "path": "christmas.bg/lamp.png", 
+    "x": 709, 
+    "y": 0
+  }
+]

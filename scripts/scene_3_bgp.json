@@ -1,0 +1,32 @@
+[
+  {
+    "layer": 0, 
+    "path": "venetia.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 1, 
+    "path": "venetia.bg/lodka1.png", 
+    "x": 354, 
+    "y": 547
+  }, 
+  {
+    "layer": 1, 
+    "path": "venetia.bg/lodka2.png", 
+    "x": 983, 
+    "y": 373
+  }, 
+  {
+    "layer": 2, 
+    "path": "venetia.bg/lodka1_cover.png", 
+    "x": 605, 
+    "y": 517
+  }, 
+  {
+    "layer": 2, 
+    "path": "venetia.bg/lodka2_cover.png", 
+    "x": 1009, 
+    "y": 364
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "layer": 2, 
+    "path": "magician_room.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/win_glow1.png", 
+    "type": "effect", 
+    "x": 889, 
+    "y": 84
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/win_glow2.png", 
+    "type": "effect", 
+    "x": 670, 
+    "y": 97
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/win_glow3.png", 
+    "type": "effect", 
+    "x": 849, 
+    "y": 123
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/glow1.png", 
+    "type": "effect", 
+    "x": 814, 
+    "y": 172
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/fire1.png", 
+    "x": 966, 
+    "y": 320
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/glow2.png", 
+    "type": "effect", 
+    "x": 578, 
+    "y": 11
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/fire2.png", 
+    "x": 667, 
+    "y": 95
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/glow3.png", 
+    "type": "effect", 
+    "x": 612, 
+    "y": -1
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/fire3.png", 
+    "x": 698, 
+    "y": 83
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/glow4.png", 
+    "type": "effect", 
+    "x": 638, 
+    "y": 16
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/fire4.png", 
+    "x": 728, 
+    "y": 100
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/glow5.png", 
+    "type": "effect", 
+    "x": 519, 
+    "y": -2
+  }, 
+  {
+    "layer": 6, 
+    "path": "magician_room.bg/fire5.png", 
+    "x": 608, 
+    "y": 82
+  }
+]

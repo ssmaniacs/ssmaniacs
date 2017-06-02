@@ -62,7 +62,7 @@ def load_textinfo(rootdir, lang):
     for line in fh:
       if line[0] in (' ', '\t'):
         text = line
-      elif ':' in line: 
+      elif ':' in line:
         (id_, text) = line.split(':', 1)
       else:
         continue
@@ -78,6 +78,10 @@ def load_textinfo(rootdir, lang):
           key1 = 'DIARY'
           key2 = 'PAGE'
           idval = int(id_.rsplit('.', 1)[-1])
+
+        elif id_ in ('IDS_COLLECTIONS', 'IDS_ARTIFACTS'):
+          info[id_] = text.decode('utf-8')
+          continue
 
         elif id_.startswith('IDS_'):
           keys = id_.split('_')
@@ -147,7 +151,7 @@ def load_textinfo(rootdir, lang):
             if keys[2] == 'NAME':
               key2 = keys[2]
               idval = int(keys[3])
-            
+
             elif keys[2] in ('BLOCK', 'BLOCKS'):
               idval = 1
               if keys[3] == 'DESCRIPTION':
@@ -196,7 +200,7 @@ def load_textinfo(rootdir, lang):
             key2 = id_
             idval = 0
 
-          elif keys[1] in ('QUEST', 'ITEM', 'SCENE', 'COLLECTIONS', 'PUZZLE'):
+          elif keys[1] in ('QUEST', 'ITEM', 'SCENE', 'COLLECTION', 'ARTIFACT', 'PUZZLE'):
             key1 = keys[1]
             try:
               key2 = keys[2]
@@ -233,6 +237,9 @@ def load_textinfo(rootdir, lang):
 
   # メンバが１個だけのlistはリストの中身を取り出す
   for k1 in info.keys():
+    if not hasattr(info[k1], 'keys'):
+      continue
+
     for k2 in info[k1].keys():
       for k3 in info[k1][k2].keys():
         if isinstance(info[k1][k2][k3], list) and not isinstance(info[k1][k2][k3], basestring):

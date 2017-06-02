@@ -1,0 +1,74 @@
+[
+  {
+    "layer": 0, 
+    "path": "plane.bg/back.png", 
+    "x": 228, 
+    "y": 0
+  }, 
+  {
+    "layer": 1, 
+    "path": "plane.bg/bg.png", 
+    "x": -5, 
+    "y": 0
+  }, 
+  {
+    "layer": 5, 
+    "path": "plane.bg/snail_02.png", 
+    "type": "skip", 
+    "x": 836, 
+    "y": 537
+  }, 
+  {
+    "layer": 6, 
+    "path": "plane.bg/cover_snail2.png", 
+    "type": "skip", 
+    "x": 733, 
+    "y": 409
+  }, 
+  {
+    "layer": 23, 
+    "path": "plane.bg/snail_01.png", 
+    "type": "skip", 
+    "x": 895, 
+    "y": 283
+  }, 
+  {
+    "layer": 401, 
+    "path": "plane.bg/cover_snail1.png", 
+    "type": "skip", 
+    "x": 880, 
+    "y": 272
+  }, 
+  {
+    "layer": 500, 
+    "path": "plane.bg/leaf1.png", 
+    "x": -155, 
+    "y": -107
+  }, 
+  {
+    "layer": 500, 
+    "path": "plane.bg/leaf2.png", 
+    "x": 1153, 
+    "y": 207
+  }, 
+  {
+    "layer": 500, 
+    "path": "plane.bg/leaf3.png", 
+    "x": 1116, 
+    "y": 297
+  }, 
+  {
+    "layer": 505, 
+    "path": "plane.bg/glow1.png", 
+    "type": "effect", 
+    "x": 1068, 
+    "y": 110
+  }, 
+  {
+    "layer": 505, 
+    "path": "plane.bg/glow2.png", 
+    "type": "effect", 
+    "x": 807, 
+    "y": 0
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "layer": 0, 
+    "path": "hangar.bg/back.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 1, 
+    "path": "hangar.bg/cloud1.png", 
+    "type": "skip", 
+    "x": 810, 
+    "y": 120
+  }, 
+  {
+    "layer": 1, 
+    "path": "hangar.bg/cloud2.png", 
+    "type": "skip", 
+    "x": 898, 
+    "y": 114
+  }, 
+  {
+    "layer": 1, 
+    "path": "hangar.bg/cloud3.png", 
+    "type": "skip", 
+    "x": 878, 
+    "y": 132
+  }, 
+  {
+    "layer": 1, 
+    "path": "hangar.bg/cloud4.png", 
+    "type": "skip", 
+    "x": 948, 
+    "y": 190
+  }, 
+  {
+    "layer": 2, 
+    "path": "hangar.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 6, 
+    "path": "hangar.bg/lamp1.png", 
+    "type": "effect", 
+    "x": 157, 
+    "y": 207
+  }, 
+  {
+    "layer": 6, 
+    "path": "hangar.bg/lamp2.png", 
+    "type": "effect", 
+    "x": 484, 
+    "y": 226
+  }
+]

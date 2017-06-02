@@ -1,0 +1,129 @@
+[
+  {
+    "layer": 1, 
+    "path": "throne.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 1, 
+    "path": "throne.bg/glow_1.png", 
+    "type": "effect", 
+    "x": 745, 
+    "y": 182
+  }, 
+  {
+    "layer": 1, 
+    "path": "throne.bg/glow_2.png", 
+    "type": "effect", 
+    "x": 1212, 
+    "y": 144
+  }, 
+  {
+    "layer": 99, 
+    "path": "throne.bg/light_glow_1_1.png", 
+    "type": "effect", 
+    "x": 463, 
+    "y": 334
+  }, 
+  {
+    "layer": 99, 
+    "path": "throne.bg/light_glow_1_2.png", 
+    "type": "effect", 
+    "x": 470, 
+    "y": 336
+  }, 
+  {
+    "layer": 99, 
+    "path": "throne.bg/light_glow_2_1.png", 
+    "type": "effect", 
+    "x": 1068, 
+    "y": 277
+  }, 
+  {
+    "layer": 99, 
+    "path": "throne.bg/light_glow_2_2.png", 
+    "type": "effect", 
+    "x": 1082, 
+    "y": 290
+  }, 
+  {
+    "layer": 99, 
+    "path": "throne.bg/light_glow_2_3.png", 
+    "type": "effect", 
+    "x": 1104, 
+    "y": 278
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_1.png", 
+    "x": 1107, 
+    "y": 286
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_2.png", 
+    "x": 1142, 
+    "y": 286
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_3.png", 
+    "x": 1123, 
+    "y": 302
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_4.png", 
+    "x": 1161, 
+    "y": 375
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_5.png", 
+    "x": 1211, 
+    "y": 371
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_6.png", 
+    "x": 492, 
+    "y": 347
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_7.png", 
+    "x": 485, 
+    "y": 348
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_8.png", 
+    "x": 1114, 
+    "y": 378
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_9.png", 
+    "x": 1085, 
+    "y": 379
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_10.png", 
+    "x": 784, 
+    "y": 375
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_11.png", 
+    "x": 794, 
+    "y": 388
+  }, 
+  {
+    "layer": 100, 
+    "path": "throne.bg/light_12.png", 
+    "x": 773, 
+    "y": 390
+  }
+]

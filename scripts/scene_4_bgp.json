@@ -1,0 +1,47 @@
+[
+  {
+    "layer": 0, 
+    "path": "maya_temple.bg/sky.png", 
+    "x": 453, 
+    "y": 100
+  }, 
+  {
+    "layer": 0, 
+    "path": "maya_temple.bg/cloud_04.png", 
+    "type": "skip", 
+    "x": 228, 
+    "y": 51
+  }, 
+  {
+    "layer": 0, 
+    "path": "maya_temple.bg/cloud_05.png", 
+    "type": "skip", 
+    "x": 128, 
+    "y": 163
+  }, 
+  {
+    "layer": 1, 
+    "path": "maya_temple.bg/bg.png", 
+    "x": 0, 
+    "y": 0
+  }, 
+  {
+    "layer": 3, 
+    "path": "maya_temple.bg/eye_light.png", 
+    "type": "effect", 
+    "x": 644, 
+    "y": 337
+  }, 
+  {
+    "layer": 9, 
+    "path": "maya_temple.bg/bush_1.png", 
+    "x": 411, 
+    "y": 0
+  }, 
+  {
+    "layer": 9, 
+    "path": "maya_temple.bg/bush_2.png", 
+    "x": 817, 
+    "y": 0
+  }
+]

@@ -56,31 +56,31 @@
   }, 
   {
     "layer": 20, 
-    "path": "theatre.bg/candle1.png", 
+    "path": "theatre.bg/light.png", 
     "x": 265, 
     "y": 220
   }, 
   {
     "layer": 20, 
-    "path": "theatre.bg/candle2.png", 
+    "path": "theatre.bg/light.png", 
     "x": 297, 
     "y": 218
   }, 
   {
     "layer": 20, 
-    "path": "theatre.bg/candle3.png", 
+    "path": "theatre.bg/light.png", 
     "x": 334, 
     "y": 224
   }, 
   {
     "layer": 20, 
-    "path": "theatre.bg/candle4.png", 
+    "path": "theatre.bg/light.png", 
     "x": 367, 
     "y": 215
   }, 
   {
     "layer": 20, 
-    "path": "theatre.bg/candle5.png", 
+    "path": "theatre.bg/light.png", 
     "x": 314, 
     "y": 169
   }

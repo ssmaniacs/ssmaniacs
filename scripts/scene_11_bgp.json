@@ -21,35 +21,35 @@
   }, 
   {
     "layer": 99, 
-    "path": "throne.bg/light_glow_1_1.png", 
+    "path": "throne.bg/light_glow_1.png", 
     "type": "effect", 
     "x": 463, 
     "y": 334
   }, 
   {
     "layer": 99, 
-    "path": "throne.bg/light_glow_1_2.png", 
+    "path": "throne.bg/light_glow_1.png", 
     "type": "effect", 
     "x": 470, 
     "y": 336
   }, 
   {
     "layer": 99, 
-    "path": "throne.bg/light_glow_2_1.png", 
+    "path": "throne.bg/light_glow_2.png", 
     "type": "effect", 
     "x": 1068, 
     "y": 277
   }, 
   {
     "layer": 99, 
-    "path": "throne.bg/light_glow_2_2.png", 
+    "path": "throne.bg/light_glow_2.png", 
     "type": "effect", 
     "x": 1082, 
     "y": 290
   }, 
   {
     "layer": 99, 
-    "path": "throne.bg/light_glow_2_3.png", 
+    "path": "throne.bg/light_glow_2.png", 
     "type": "effect", 
     "x": 1104, 
     "y": 278

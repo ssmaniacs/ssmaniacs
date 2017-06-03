@@ -3,10 +3,14 @@
 # - Foreground JPG + Mask JPG -> Transparent PNG
 # - Frames PNG -> Each Frame
 
-if [[ $1 == test ]]; then
-	TEST=echo
+while [[ $1 ]]; do
+	case $1 in
+	test)	TEST=echo;;
+	force)	FORCE=true;;
+	*)		break;;
+	esac
 	shift
-fi
+done
 
 if [[ -f $1 ]]; then
 	echo Reading conversion list from $1
@@ -17,11 +21,17 @@ fi
 
 CNT=0
 while read mode orig mask dest exist; do
-	if [[ ${exist} || -f ${dest} ]]; then
-		#echo EXIST$'\t'${dest}
+	if [[ ${mode#\#} != ${mode} ]]; then	# comment
 		continue
-	elif [[ ${mode#\#} != ${mode} ]]; then
-		continue
+	fi
+
+	if [[ -f ${dest} && ${FORCE} != true ]]; then
+		if [[ ${dest} -nt ${orig} ]]; then
+			continue
+		else
+			echo ${dest} is older
+			${TEST} mv ${dest} ${dest}.old
+		fi
 	fi
 
 	if [[ ! -d ${dest%/*} ]]; then
@@ -33,20 +43,21 @@ while read mode orig mask dest exist; do
 			echo JOIN$'\t'${dest}
 			${TEST} convert ${orig} ${mask} \( -clone 0 -alpha extract \) \
 				\( -clone 1 -clone 2 -compose multiply -composite \) \
-				-delete 1,2 -alpha off -compose copy_opacity -composite ${dest}
+				-delete 1,2 -alpha off -compose copy_opacity -composite \
+				-strip ${dest}
 
 		elif [[ ${orig##*.} == 'png' ]]; then
 			echo COPY$'\t'${dest}
-			${TEST} cp ${orig} ${dest}
+			${TEST} convert -strip ${orig} ${dest}
 
 		else
 			echo CONV$'\t'${dest}
-			${TEST} convert ${orig} ${dest}
+			${TEST} convert -strip ${orig} ${dest}
 		fi
 
 	elif [[ ${mode} == 'CROP' ]]; then
 		echo CROP$'\t'${dest}
-		${TEST} convert ${orig} -crop ${mask} ${dest}
+		${TEST} convert ${orig} -crop ${mask} -strip ${dest}
 	fi
 
 	CNT=$((CNT + 1))

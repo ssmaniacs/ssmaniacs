@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Secret Societyシーン情報</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<style type="text/css">
+/* スピナーフレーム */
+.spinner_frame {
+	width: 50%;
+	margin: 0 auto;
+	padding: 60px 0px;
+	border:2px solid #aaa;
+	background:#fff;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  right: 0;
+	z-index: 2;
+}
+
+/* ローディングスピナー */
+.spinner {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;     /* align = center */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="LevelFrame.css" />  
+<script src="scene_idx.js"></script>
+<script>
+// JSONファイルのロード
+function loadJSON(path, callback) {
+  var xobj;
+
+  try {
+    // IEではXMLHttpRequestがうまく動かない（ことがある）
+    xobj = new ActiveXObject('MSXML2.XMLHTTP.6.0');
+  }
+  catch (e) {
+    xobj = new XMLHttpRequest();
+  }
+
+  try {
+    if ('overrideMimeType' in xobj) {
+      xobj.overrideMimeType('application/json');
+    }
+
+    xobj.open('GET', path, true);
+
+    xobj.onreadystatechange = function(){
+      if (xobj.readyState == 4) {
+        if (xobj.status == '200' || (location.protocol == 'file:' && xobj.status == '0')) {
+          // ドキュメントは見当たらないが、ローカルファイルの場合成功時にstatus=0になることがある
+          // とりあえずWin版ChromeとIEではstatus=0. FireFoxではローカルでも200.
+          callback(xobj.responseText);
+        }
+        else {
+          var message;
+
+          if (xobj.status) {
+            message = xobj.status; // + ' ' + HttpStatus(xobj.status);
+          }
+
+          console.log('XMLHttpRequests.status = ' + xobj.status + ' ' + message);
+          callback(new Error(message));
+        }
+      }
+    }
+
+    xobj.send(null);
+  }
+  catch(e) {
+    console.log(e);
+    callback(e);
+  }
+}
+
+function init() {
+  // 表示範囲選択リストに項目を設定
+  var selector = document.getElementById('scene_list');
+
+  for (var idx in scene_list) {
+    var option = document.createElement('option');
+    option.setAttribute('value', idx);
+    option.innerHTML = scene_list[idx];
+    selector.appendChild(option);
+  }
+
+  selector.value = 3;
+  scene_change();
+}
+
+function scene_change() {
+  // スピナー表示
+  document.getElementById('scene_spframe').style.display = 'table-cell';
+
+  // インデックスおよびリストを削除
+  document.getElementById('text-table').innerHTML = '';
+  document.getElementById('part-table').innerHTML = '';
+  document.getElementById('morph-table').innerHTML = '';
+
+  // 指定JSONをロード
+  var path = 'scene_' + document.getElementById('scene_list').value + '_prm.json';
+  setTimeout(function(){ loadJSON(path, load_done); }, 100);
+}
+
+// JSONロード完了
+function load_done(resp) {
+  if (!resp || resp instanceof Error) {
+    alert(resp ? resp.message : 'シーン情報ロードエラー');
+    return;
+  }
+
+  update_tables(JSON.parse(resp));
+}
+
+// シーン情報テーブル更新
+function update_tables(scene) {
+  var selector = document.getElementById('scene_list');
+
+  document.getElementById('scene_name').innerText = scene['name'];
+
+  // 各種パラメータ
+  ['energy', 'charge', 'coins', 'expoints', 'progress'].forEach(function(key){
+    for (var idx in scene[key]) {
+      var val = scene[key][idx];
+      document.getElementById(key + idx).bgColor = (val == null ? 'silver' : 'white');
+      try {
+        document.getElementById(key + idx).innerHTML = val.join('<br>');
+      }
+      catch(e) {
+        document.getElementById(key + idx).innerText = (val == null ? '' : val);
+      }
+    }
+  });
+  ['text-prb', 'night-prb', 'sil-prb', 'part-prb',
+    'morph-prb', 'pair-prb', ].forEach(function(key){
+    for (var idx in scene[key]) {
+      var val = scene[key][idx];
+      document.getElementById(key + idx).bgColor = (val == null ? 'silver' : 'white');
+      document.getElementById(key + idx).innerText = (val == null ? '' : val + '%');
+    }
+  });
+  ['text-sec', 'night-sec', 'sil-sec', 'part-sec',
+    'morph-sec', 'pair-sec', 'anom-sec'].forEach(function(key){
+    for (var idx in scene[key]) {
+      var val = scene[key][idx];
+      document.getElementById(key + idx).bgColor = (val == null ? 'silver' : 'white');
+      document.getElementById(key + idx).innerText = (val == null ? '' : val + '秒');
+    }
+  });
+  ['text-obj', 'sil-obj', 'night-obj', 'part-obj',
+    'morph-obj', 'pair-obj', 'anom-obj'].forEach(function(key){
+    for (var idx in scene[key]) {
+      var val = scene[key][idx];
+      document.getElementById(key + idx).bgColor = (val == null ? 'silver' : 'white');
+      if (val != null) {
+        if (val[0]) {
+          document.getElementById(key + idx).innerText = val[0] + '組 (' + (val[0] * val[1]) + '個)';
+        }
+        else {
+          document.getElementById(key + idx).innerText = val + '個';
+        }
+      }
+    }
+  });
+
+  // ノーマルオブジェクト
+  var html = '<table border="1" cellpadding="5" bgcolor="#ffdd88">';
+  html += '<tr><th>文字</th><th>シルエット</th><th>Sample</th></tr>';
+  scene.forms.forEach(function(obj) {
+    html += '<tr><td>' + obj.name + '</td>';
+    html += '<td align="center"><img src="' + obj.sil + '"></td>';
+    html += '<td align="center"><img src="' + obj.img + '" ';
+    html += (obj.h ? ('height="' + obj.h + '"') : ('width="' + obj.w + '"'));
+    html += '></td></tr>';
+  });
+  html += '</table>';
+  document.getElementById('text-table').innerHTML = html;
+
+  var html = '<table border="1" cellpadding="5" bgcolor="#ffdd88">';
+  html += '<tr><th>ALL</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>';
+  scene.part.forEach(function(obj) {
+    html += '<tr>';
+    obj.forEach(function(img) {
+      html += '<td align="center"><img src="' + img + '"></td>';
+    });
+    html += '</tr>';
+  });
+  html += '</table>';
+  document.getElementById('part-table').innerHTML = html;
+
+  var html = '<table border="1" cellpadding="5" bgcolor="#ffdd88">';
+  html += '<tr><th>モーフ(1)</th><th>モーフ(2)</th></tr>';
+  scene.morph.forEach(function(obj) {
+    html += '<tr>';
+    obj.forEach(function(img) {
+      var size = (img.h ? ('height="' + img.h + '"') : ('width="' + img.w + '"'));
+      html += '<td align="center"><img src="' + img.img + '" ' + size + '></td>';
+    });
+    html += '</tr>';
+  });
+  html += '</table>';
+  document.getElementById('morph-table').innerHTML = html;
+
+  document.getElementById('scene_spframe').style.display = 'none';
+}
+</script>
+</head>
+
+
+<body onload="init();">
+<a href='index.html'>[HOME]</a><hr>
+<h1>Secret Society シーン情報</h1>
+<!-- リストセレクタ -->
+シーン選択：<select id="scene_list" onchange="scene_change();"></select>
+
+<!-- ローディングスピナー -->
+<div id="scene_spframe" class="spinner_frame">
+  <div id="scene_spinner" class="spinner"></div>
+</div>
+
+<!-- シーンタイトル -->
+<hr>
+<h2 id="scene_name"></h2>
+
+<table border="1" cellpadding="5"><tr>
+<th colspan="2"><br></th>
+<th class="level" id="level0" >初心者</th>
+<th class="level" id="level1">実習生</th>
+<th class="level" id="level2">探偵</th>
+<th class="level" id="level3">専門家</th>
+<th class="level" id="level4">上級探索者</th>
+<th class="level" id="level5">アカデミー会員</th>
+<th class="level" id="level6">賢者</th>
+<th class="level" id="level7">教授</th>
+<th class="level" id="level8">大いなる賢者</th>
+</tr>
+<tr>
+<td colspan="2">消費エネルギー</td>
+<td align="right" id='energy0'></td>
+<td align="right" id='energy1'></td>
+<td align="right" id='energy2'></td>
+<td align="right" id='energy3'></td>
+<td align="right" id='energy4'></td>
+<td align="right" id='energy5'></td>
+<td align="right" id='energy6'></td>
+<td align="right" id='energy7'></td>
+<td align="right" id='energy8'></td>
+</tr>
+<tr>
+<td colspan="2">消費アイテム</td>
+<td align="right" id='charge0'></td>
+<td align="right" id='charge1'></td>
+<td align="right" id='charge2'></td>
+<td align="right" id='charge3'></td>
+<td align="right" id='charge4'></td>
+<td align="right" id='charge5'></td>
+<td align="right" id='charge6'></td>
+<td align="right" id='charge7'></td>
+<td align="right" id='charge8'></td>
+</tr>
+<tr>
+<td colspan="2">獲得コイン</td>
+<td align="right" id='coins0'></td>
+<td align="right" id='coins1'></td>
+<td align="right" id='coins2'></td>
+<td align="right" id='coins3'></td>
+<td align="right" id='coins4'></td>
+<td align="right" id='coins5'></td>
+<td align="right" id='coins6'></td>
+<td align="right" id='coins7'></td>
+<td align="right" id='coins8'></td>
+</tr>
+<tr>
+<td colspan="2">獲得経験値</td>
+<td align="right" id='expoints0'></td>
+<td align="right" id='expoints1'></td>
+<td align="right" id='expoints2'></td>
+<td align="right" id='expoints3'></td>
+<td align="right" id='expoints4'></td>
+<td align="right" id='expoints5'></td>
+<td align="right" id='expoints6'></td>
+<td align="right" id='expoints7'></td>
+<td align="right" id='expoints8'></td>
+</tr>
+<tr>
+<td colspan="2">進捗%</td>
+<td align="right" id='progress0'></td>
+<td align="right" id='progress1'></td>
+<td align="right" id='progress2'></td>
+<td align="right" id='progress3'></td>
+<td align="right" id='progress4'></td>
+<td align="right" id='progress5'></td>
+<td align="right" id='progress6'></td>
+<td align="right" id='progress7'></td>
+<td align="right" id='progress8'></td>
+</tr>
+<tr>
+<th colspan="2"><br></th>
+<th class="level" id="level0" >初心者</th>
+<th class="level" id="level1">実習生</th>
+<th class="level" id="level2">探偵</th>
+<th class="level" id="level3">専門家</th>
+<th class="level" id="level4">上級探索者</th>
+<th class="level" id="level5">アカデミー会員</th>
+<th class="level" id="level6">賢者</th>
+<th class="level" id="level7">教授</th>
+<th class="level" id="level8">大いなる賢者</th>
+</tr>
+<tr>
+<td rowspan="3">文字</td>
+<td>確率</td>
+<td align="right" id='text-prb0'></td>
+<td align="right" id='text-prb1'></td>
+<td align="right" id='text-prb2'></td>
+<td align="right" id='text-prb3'></td>
+<td align="right" id='text-prb4'></td>
+<td align="right" id='text-prb5'></td>
+<td align="right" id='text-prb6'></td>
+<td align="right" id='text-prb7'></td>
+<td align="right" id='text-prb8'></td>
+</tr>
+<tr>
+<td>時間</td>
+<td align="right" id='text-sec0'></td>
+<td align="right" id='text-sec1'></td>
+<td align="right" id='text-sec2'></td>
+<td align="right" id='text-sec3'></td>
+<td align="right" id='text-sec4'></td>
+<td align="right" id='text-sec5'></td>
+<td align="right" id='text-sec6'></td>
+<td align="right" id='text-sec7'></td>
+<td align="right" id='text-sec8'></td>
+</tr>
+<tr>
+<td>探索</td>
+<td align="right" id='text-obj0'></td>
+<td align="right" id='text-obj1'></td>
+<td align="right" id='text-obj2'></td>
+<td align="right" id='text-obj3'></td>
+<td align="right" id='text-obj4'></td>
+<td align="right" id='text-obj5'></td>
+<td align="right" id='text-obj6'></td>
+<td align="right" id='text-obj7'></td>
+<td align="right" id='text-obj8'></td>
+</tr>
+<tr>
+<td rowspan="3">夜</td>
+<td>確率</td>
+<td align="right" id='night-prb0'></td>
+<td align="right" id='night-prb1'></td>
+<td align="right" id='night-prb2'></td>
+<td align="right" id='night-prb3'></td>
+<td align="right" id='night-prb4'></td>
+<td align="right" id='night-prb5'></td>
+<td align="right" id='night-prb6'></td>
+<td align="right" id='night-prb7'></td>
+<td align="right" id='night-prb8'></td>
+</tr>
+<tr>
+<td>時間</td>
+<td align="right" id='night-sec0'></td>
+<td align="right" id='night-sec1'></td>
+<td align="right" id='night-sec2'></td>
+<td align="right" id='night-sec3'></td>
+<td align="right" id='night-sec4'></td>
+<td align="right" id='night-sec5'></td>
+<td align="right" id='night-sec6'></td>
+<td align="right" id='night-sec7'></td>
+<td align="right" id='night-sec8'></td>
+</tr>
+<tr>
+<td>探索</td>
+<td align="right" id='night-obj0'></td>
+<td align="right" id='night-obj1'></td>
+<td align="right" id='night-obj2'></td>
+<td align="right" id='night-obj3'></td>
+<td align="right" id='night-obj4'></td>
+<td align="right" id='night-obj5'></td>
+<td align="right" id='night-obj6'></td>
+<td align="right" id='night-obj7'></td>
+<td align="right" id='night-obj8'></td>
+</tr>
+<tr>
+<td rowspan="3">シルエット</td>
+<td>確率</td>
+<td align="right" id='sil-prb0'></td>
+<td align="right" id='sil-prb1'></td>
+<td align="right" id='sil-prb2'></td>
+<td align="right" id='sil-prb3'></td>
+<td align="right" id='sil-prb4'></td>
+<td align="right" id='sil-prb5'></td>
+<td align="right" id='sil-prb6'></td>
+<td align="right" id='sil-prb7'></td>
+<td align="right" id='sil-prb8'></td>
+</tr>
+<tr>
+<td>時間</td>
+<td align="right" id='sil-sec0'></td>
+<td align="right" id='sil-sec1'></td>
+<td align="right" id='sil-sec2'></td>
+<td align="right" id='sil-sec3'></td>
+<td align="right" id='sil-sec4'></td>
+<td align="right" id='sil-sec5'></td>
+<td align="right" id='sil-sec6'></td>
+<td align="right" id='sil-sec7'></td>
+<td align="right" id='sil-sec8'></td>
+</tr>
+<tr>
+<td>探索</td>
+<td align="right" id='sil-obj0'></td>
+<td align="right" id='sil-obj1'></td>
+<td align="right" id='sil-obj2'></td>
+<td align="right" id='sil-obj3'></td>
+<td align="right" id='sil-obj4'></td>
+<td align="right" id='sil-obj5'></td>
+<td align="right" id='sil-obj6'></td>
+<td align="right" id='sil-obj7'></td>
+<td align="right" id='sil-obj8'></td>
+</tr>
+<tr>
+<th colspan="2"><br></th>
+<th class="level" id="level0">初心者</th>
+<th class="level" id="level1">実習生</th>
+<th class="level" id="level2">探偵</th>
+<th class="level" id="level3">専門家</th>
+<th class="level" id="level4">上級探索者</th>
+<th class="level" id="level5">アカデミー会員</th>
+<th class="level" id="level6">賢者</th>
+<th class="level" id="level7">教授</th>
+<th class="level" id="level8">大いなる賢者</th>
+</tr>
+<tr>
+<td rowspan="3">かけら</td>
+<td>確率</td>
+<td align="right" id='part-prb0'></td>
+<td align="right" id='part-prb1'></td>
+<td align="right" id='part-prb2'></td>
+<td align="right" id='part-prb3'></td>
+<td align="right" id='part-prb4'></td>
+<td align="right" id='part-prb5'></td>
+<td align="right" id='part-prb6'></td>
+<td align="right" id='part-prb7'></td>
+<td align="right" id='part-prb8'></td>
+</tr>
+<tr>
+<td>時間</td>
+<td align="right" id='part-sec0'></td>
+<td align="right" id='part-sec1'></td>
+<td align="right" id='part-sec2'></td>
+<td align="right" id='part-sec3'></td>
+<td align="right" id='part-sec4'></td>
+<td align="right" id='part-sec5'></td>
+<td align="right" id='part-sec6'></td>
+<td align="right" id='part-sec7'></td>
+<td align="right" id='part-sec8'></td>
+</tr>
+<tr>
+<td>探索</td>
+<td align="right" id='part-obj0'></td>
+<td align="right" id='part-obj1'></td>
+<td align="right" id='part-obj2'></td>
+<td align="right" id='part-obj3'></td>
+<td align="right" id='part-obj4'></td>
+<td align="right" id='part-obj5'></td>
+<td align="right" id='part-obj6'></td>
+<td align="right" id='part-obj7'></td>
+<td align="right" id='part-obj8'></td>
+</tr>
+<tr>
+<td rowspan="3">モーフ</td>
+<td>確率</td>
+<td align="right" id='morph-prb0'></td>
+<td align="right" id='morph-prb1'></td>
+<td align="right" id='morph-prb2'></td>
+<td align="right" id='morph-prb3'></td>
+<td align="right" id='morph-prb4'></td>
+<td align="right" id='morph-prb5'></td>
+<td align="right" id='morph-prb6'></td>
+<td align="right" id='morph-prb7'></td>
+<td align="right" id='morph-prb8'></td>
+</tr>
+<tr>
+<td>時間</td>
+<td align="right" id='morph-sec0'></td>
+<td align="right" id='morph-sec1'></td>
+<td align="right" id='morph-sec2'></td>
+<td align="right" id='morph-sec3'></td>
+<td align="right" id='morph-sec4'></td>
+<td align="right" id='morph-sec5'></td>
+<td align="right" id='morph-sec6'></td>
+<td align="right" id='morph-sec7'></td>
+<td align="right" id='morph-sec8'></td>
+</tr>
+<tr>
+<td>探索</td>
+<td align="right" id='morph-obj0'></td>
+<td align="right" id='morph-obj1'></td>
+<td align="right" id='morph-obj2'></td>
+<td align="right" id='morph-obj3'></td>
+<td align="right" id='morph-obj4'></td>
+<td align="right" id='morph-obj5'></td>
+<td align="right" id='morph-obj6'></td>
+<td align="right" id='morph-obj7'></td>
+<td align="right" id='morph-obj8'></td>
+</tr>
+<tr>
+<td rowspan="3">ペア</td>
+<td>確率</td>
+<td align="right" id='pair-prb0'></td>
+<td align="right" id='pair-prb1'></td>
+<td align="right" id='pair-prb2'></td>
+<td align="right" id='pair-prb3'></td>
+<td align="right" id='pair-prb4'></td>
+<td align="right" id='pair-prb5'></td>
+<td align="right" id='pair-prb6'></td>
+<td align="right" id='pair-prb7'></td>
+<td align="right" id='pair-prb8'></td>
+</tr>
+<tr>
+<td>時間</td>
+<td align="right" id='pair-sec0'></td>
+<td align="right" id='pair-sec1'></td>
+<td align="right" id='pair-sec2'></td>
+<td align="right" id='pair-sec3'></td>
+<td align="right" id='pair-sec4'></td>
+<td align="right" id='pair-sec5'></td>
+<td align="right" id='pair-sec6'></td>
+<td align="right" id='pair-sec7'></td>
+<td align="right" id='pair-sec8'></td>
+</tr>
+<tr>
+<td>探索</td>
+<td align="right" id='pair-obj0'></td>
+<td align="right" id='pair-obj1'></td>
+<td align="right" id='pair-obj2'></td>
+<td align="right" id='pair-obj3'></td>
+<td align="right" id='pair-obj4'></td>
+<td align="right" id='pair-obj5'></td>
+<td align="right" id='pair-obj6'></td>
+<td align="right" id='pair-obj7'></td>
+<td align="right" id='pair-obj8'></td>
+</tr>
+<tr>
+<td rowspan="2">異常&amp;呪い</td>
+<td>時間</td>
+<td align="right" id='anom-sec0'></td>
+<td align="right" id='anom-sec1'></td>
+<td align="right" id='anom-sec2'></td>
+<td align="right" id='anom-sec3'></td>
+<td align="right" id='anom-sec4'></td>
+<td align="right" id='anom-sec5'></td>
+<td align="right" id='anom-sec6'></td>
+<td align="right" id='anom-sec7'></td>
+<td align="right" id='anom-sec8'></td>
+</tr>
+<tr>
+<td>探索</td>
+<td align="right" id='anom-obj0'></td>
+<td align="right" id='anom-obj1'></td>
+<td align="right" id='anom-obj2'></td>
+<td align="right" id='anom-obj3'></td>
+<td align="right" id='anom-obj4'></td>
+<td align="right" id='anom-obj5'></td>
+<td align="right" id='anom-obj6'></td>
+<td align="right" id='anom-obj7'></td>
+<td align="right" id='anom-obj8'></td>
+</tr>
+</table>
+<div align="right"><a href="#">[TOP]</a></div>
+
+<hr>
+<h2>文字, 夜, シルエット, ペア</h2>
+<div id='text-table'></div>
+<div align="right"><a href="#">[TOP]</a></div>
+
+<hr>
+<h2>かけら</h2>
+<div id='part-table'></div>
+<div align="right"><a href="#">[TOP]</a></div>
+
+<hr>
+<h2>モーフ</h2>
+<div id='morph-table'></div>
+<div align="right"><a href="#">[TOP]</a></div>
+
+<hr>
+<a href="index.html">[HOME]</a>
+</body>
+</html>

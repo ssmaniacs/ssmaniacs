@@ -13,7 +13,7 @@
   }, 
   {
     "layer": 5, 
-    "path": "plane.bg/snail_02.png", 
+    "path": "plane.bg/snail2.png", 
     "type": "skip", 
     "x": 836, 
     "y": 537
@@ -27,7 +27,7 @@
   }, 
   {
     "layer": 23, 
-    "path": "plane.bg/snail_01.png", 
+    "path": "plane.bg/snail1.png", 
     "type": "skip", 
     "x": 895, 
     "y": 283

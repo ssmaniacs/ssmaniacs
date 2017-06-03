@@ -57,43 +57,43 @@
   }, 
   {
     "layer": 6, 
-    "path": "festive_dinner.bg/light1.png", 
+    "path": "festive_dinner.bg/light.png", 
     "x": 278, 
     "y": 55
   }, 
   {
     "layer": 6, 
-    "path": "festive_dinner.bg/light2.png", 
+    "path": "festive_dinner.bg/light.png", 
     "x": 315, 
     "y": 66
   }, 
   {
     "layer": 6, 
-    "path": "festive_dinner.bg/light3.png", 
+    "path": "festive_dinner.bg/light.png", 
     "x": 471, 
     "y": 80
   }, 
   {
     "layer": 6, 
-    "path": "festive_dinner.bg/light4.png", 
+    "path": "festive_dinner.bg/light.png", 
     "x": 557, 
     "y": 80
   }, 
   {
     "layer": 6, 
-    "path": "festive_dinner.bg/light5.png", 
+    "path": "festive_dinner.bg/light_big.png", 
     "x": 594, 
     "y": 314
   }, 
   {
     "layer": 6, 
-    "path": "festive_dinner.bg/light6.png", 
+    "path": "festive_dinner.bg/light_big.png", 
     "x": 639, 
     "y": 310
   }, 
   {
     "layer": 6, 
-    "path": "festive_dinner.bg/light7.png", 
+    "path": "festive_dinner.bg/light_big.png", 
     "x": 880, 
     "y": 314
   }

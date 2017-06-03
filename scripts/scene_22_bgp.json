@@ -21,49 +21,49 @@
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle1.png", 
+    "path": "tavern.bg/light2.png", 
     "x": 477, 
     "y": 166
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle2.png", 
+    "path": "tavern.bg/light2.png", 
     "x": 505, 
     "y": 174
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle3.png", 
+    "path": "tavern.bg/light1.png", 
     "x": 644, 
     "y": 40
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle4.png", 
+    "path": "tavern.bg/light1.png", 
     "x": 700, 
     "y": 2
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle5.png", 
+    "path": "tavern.bg/light1.png", 
     "x": 835, 
     "y": -10
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle6.png", 
+    "path": "tavern.bg/light1.png", 
     "x": 943, 
     "y": 21
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle7.png", 
+    "path": "tavern.bg/light1.png", 
     "x": 689, 
     "y": 450
   }, 
   {
     "layer": 20, 
-    "path": "tavern.bg/candle8.png", 
+    "path": "tavern.bg/light1.png", 
     "x": 774, 
     "y": 430
   }

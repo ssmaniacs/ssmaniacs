@@ -1,6 +1,9 @@
 #!/bin/bash
 set -eu
 
+#UNSHARP='-unsharp 12x6+0.5+0'
+UNSHARP='-unsharp 0x1'
+
 for dir in ../images/*.*; do
 	[[ -d ${dir} ]] || continue
 
@@ -10,6 +13,13 @@ for dir in ../images/*.*; do
 	[[ -d ../images.lo/${subdir} ]] || mkdir -p ../images.lo/${subdir}
 
 	for img in $(ls -1 ${dir}); do
-		[[ -f ../images.lo/${subdir}/${img} ]] || convert -unsharp 12x6+0.5+0 -resize 50% ${dir}/${img} ../images.lo/${subdir}/${img}
+		dst=../images.lo/${subdir}/${img}
+		if [[ ${dst} -nt ${dir}/${img} ]]; then
+			continue
+		elif [[ -f ${dst} ]]; then
+			echo ${dst} is older
+			mv ${dst} ${dst}.old
+		fi
+		convert -resize 50% ${UNSHARP:-} ${dir}/${img} ../images.lo/${subdir}/${img}
 	done
 done

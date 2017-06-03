@@ -11,7 +11,7 @@
       {"layer":  0, "x":   0, "y":   0, "path":"india.bg/sky.png"},
       {"layer":  0, "x": 576, "y":  54, "path":"india.bg/cloud1.png"},
       {"layer":  0, "x": 228, "y":   8, "path":"india.bg/cloud2.png"},
-      {"layer":  0, "x": -72, "y":  24, "path":"india.bg/cloud3.png"},
+      {"layer":  0, "x": -72, "y":  24, "path":"india.bg/cloud1.png"},
       {"layer":  1, "x":   0, "y":   0, "path":"india.bg/bg.png"},
       {"layer": 10, "x":1191, "y": -75, "path":"india.bg/leave3.png"},
       {"layer": 10, "x":1062, "y": -90, "path":"india.bg/leave2.png"},
@@ -96,9 +96,9 @@
     "background": [
       {"layer":  0, "x": 228, "y":   0, "path":"plane.bg/back.png"},
       {"layer":  1, "x":  -5, "y":   0, "path":"plane.bg/bg.png"},
-      {"layer":  5, "x": 836, "y": 537, "path":"plane.bg/snail_02.png",                              "type":"skip"},
+      {"layer":  5, "x": 836, "y": 537, "path":"plane.bg/snail2.png",                              "type":"skip"},
       {"layer":  6, "x": 733, "y": 409, "path":"plane.bg/cover_snail2.png",                          "type":"skip"},
-      {"layer": 23, "x": 895, "y": 283, "path":"plane.bg/snail_01.png",                              "type":"skip"},
+      {"layer": 23, "x": 895, "y": 283, "path":"plane.bg/snail1.png",                              "type":"skip"},
       {"layer":401, "x": 880, "y": 272, "path":"plane.bg/cover_snail1.png",                          "type":"skip"},
       {"layer":500, "x":-155, "y":-107, "path":"plane.bg/leaf1.png"},
       {"layer":500, "x":1153, "y": 207, "path":"plane.bg/leaf2.png"},
@@ -116,20 +116,20 @@
       {"layer":  1, "x": 633, "y":  80, "path":"london.bg/cloud_03.png"},
       {"layer":  1, "x":-291, "y":  72, "path":"london.bg/cloud_04.png"},
       {"layer":  1, "x": 810, "y":  90, "path":"london.bg/cloud_05.png"},
-      {"layer":  1, "x": 333, "y":  30, "path":"london.bg/cloud_06.png"},
-      {"layer":  1, "x":  78, "y": -10, "path":"london.bg/cloud_07.png"},
-      {"layer":  1, "x":-512, "y":  60, "path":"london.bg/cloud_08.png",                             "type":"skip"},
+      {"layer":  1, "x": 333, "y":  30, "path":"london.bg/cloud_03.png"},
+      {"layer":  1, "x":  78, "y": -10, "path":"london.bg/cloud_05.png"},
+      {"layer":  1, "x":-512, "y":  60, "path":"london.bg/cloud_02.png",                             "type":"skip"},
       {"layer":  2, "x":1304, "y":  88, "path":"london.bg/viveska.png",                              "type":"skip"},
       {"layer":  2, "x":1252, "y":  88, "path":"london.bg/plane.png",                                "type":"skip"},
       {"layer":  2, "x":   0, "y":   0, "path":"london.bg/bg.png"},
-      {"layer": 30, "x": 206, "y":   7, "path":"london.bg/balloon_01.png"},
-      {"layer": 30, "x": 577, "y": 233, "path":"london.bg/balloon_02.png"},
-      {"layer": 30, "x": 950, "y": 148, "path":"london.bg/balloon_03.png"},
-      {"layer": 30, "x":1097, "y":  53, "path":"london.bg/balloon_04.png"},
-      {"layer": 30, "x": 243, "y": 150, "path":"london.bg/balloon_01_cover.png"},
-      {"layer": 30, "x": 599, "y": 316, "path":"london.bg/balloon_02_cover.png"},
-      {"layer": 30, "x": 980, "y": 237, "path":"london.bg/balloon_03_cover.png"},
-      {"layer": 30, "x":1145, "y": 187, "path":"london.bg/balloon_04_cover.png"}
+      {"layer": 30, "x": 206, "y":   7, "path":"london.bg/balloon1.png"},
+      {"layer": 30, "x": 577, "y": 233, "path":"london.bg/balloon2.png"},
+      {"layer": 30, "x": 950, "y": 148, "path":"london.bg/balloon3.png"},
+      {"layer": 30, "x":1097, "y":  53, "path":"london.bg/balloon4.png"},
+      {"layer": 30, "x": 243, "y": 150, "path":"london.bg/balloon1_cover.png"},
+      {"layer": 30, "x": 599, "y": 316, "path":"london.bg/balloon2_cover.png"},
+      {"layer": 30, "x": 980, "y": 237, "path":"london.bg/balloon3_cover.png"},
+      {"layer": 30, "x":1145, "y": 187, "path":"london.bg/balloon4_cover.png"}
     ]
   },
   "10": {
@@ -153,11 +153,11 @@
       {"layer":  1, "x":   0, "y":   0, "path":"throne.bg/bg.png"},
       {"layer":  1, "x": 745, "y": 182, "path":"throne.bg/glow_1.png",                               "type":"effect"},
       {"layer":  1, "x":1212, "y": 144, "path":"throne.bg/glow_2.png",                               "type":"effect"},
-      {"layer": 99, "x": 463, "y": 334, "path":"throne.bg/light_glow_1_1.png",                       "type":"effect"},
-      {"layer": 99, "x": 470, "y": 336, "path":"throne.bg/light_glow_1_2.png",                       "type":"effect"},
-      {"layer": 99, "x":1068, "y": 277, "path":"throne.bg/light_glow_2_1.png",                       "type":"effect"},
-      {"layer": 99, "x":1082, "y": 290, "path":"throne.bg/light_glow_2_2.png",                       "type":"effect"},
-      {"layer": 99, "x":1104, "y": 278, "path":"throne.bg/light_glow_2_3.png",                       "type":"effect"},
+      {"layer": 99, "x": 463, "y": 334, "path":"throne.bg/light_glow_1.png",                         "type":"effect"},
+      {"layer": 99, "x": 470, "y": 336, "path":"throne.bg/light_glow_1.png",                         "type":"effect"},
+      {"layer": 99, "x":1068, "y": 277, "path":"throne.bg/light_glow_2.png",                         "type":"effect"},
+      {"layer": 99, "x":1082, "y": 290, "path":"throne.bg/light_glow_2.png",                         "type":"effect"},
+      {"layer": 99, "x":1104, "y": 278, "path":"throne.bg/light_glow_2.png",                         "type":"effect"},
       {"layer":100, "x":1107, "y": 286, "path":"throne.bg/light_1.png"},
       {"layer":100, "x":1142, "y": 286, "path":"throne.bg/light_2.png"},
       {"layer":100, "x":1123, "y": 302, "path":"throne.bg/light_3.png"},
@@ -210,21 +210,21 @@
       {"layer":  1, "x":   0, "y":   0, "path":"library.bg/bg.png"},
       {"layer":  2, "x": 735, "y": 540, "path":"library.bg/cat.png"},
       {"layer":  2, "x": 888, "y": 175, "path":"library.bg/owl.png"},
-      {"layer":  2, "x": 412, "y": 319, "path":"library.bg/light1.png"},
-      {"layer":  2, "x":1091, "y": 149, "path":"library.bg/light2.png"},
-      {"layer":  2, "x": 723, "y": -13, "path":"library.bg/light3.png"},
-      {"layer":  2, "x": 560, "y":  -5, "path":"library.bg/light4.png"},
-      {"layer":  2, "x": 692, "y":  23, "path":"library.bg/light5.png"},
-      {"layer":  2, "x": 618, "y":  26, "path":"library.bg/light6.png"},
+      {"layer":  2, "x": 412, "y": 319, "path":"library.bg/light.png"},
+      {"layer":  2, "x":1091, "y": 149, "path":"library.bg/light.png"},
+      {"layer":  2, "x": 723, "y": -13, "path":"library.bg/light.png"},
+      {"layer":  2, "x": 560, "y":  -5, "path":"library.bg/light.png"},
+      {"layer":  2, "x": 692, "y":  23, "path":"library.bg/light.png"},
+      {"layer":  2, "x": 618, "y":  26, "path":"library.bg/light.png"},
       {"layer":  6, "x": 318, "y": 193, "path":"library.bg/door_glow1.png",                          "type":"effect"},
       {"layer":  6, "x": 314, "y": 224, "path":"library.bg/door_glow2.png",                          "type":"skip"},
       {"layer":  6, "x": 900, "y": 187, "path":"library.bg/eye.png",                                 "type":"effect"},
-      {"layer":  6, "x": 259, "y": 173, "path":"library.bg/glow1.png",                               "type":"effect"},
-      {"layer":  6, "x": 945, "y":   4, "path":"library.bg/glow2.png",                               "type":"effect"},
-      {"layer":  6, "x": 407, "y":-150, "path":"library.bg/glow3.png",                               "type":"effect"},
-      {"layer":  6, "x": 466, "y":-118, "path":"library.bg/glow4.png",                               "type":"effect"},
-      {"layer":  6, "x": 536, "y":-118, "path":"library.bg/glow5.png",                               "type":"effect"},
-      {"layer":  6, "x": 568, "y":-144, "path":"library.bg/glow6.png",                               "type":"effect"},
+      {"layer":  6, "x": 259, "y": 173, "path":"library.bg/glow.png",                                "type":"effect"},
+      {"layer":  6, "x": 945, "y":   4, "path":"library.bg/glow.png",                                "type":"effect"},
+      {"layer":  6, "x": 407, "y":-150, "path":"library.bg/glow.png",                                "type":"effect"},
+      {"layer":  6, "x": 466, "y":-118, "path":"library.bg/glow.png",                                "type":"effect"},
+      {"layer":  6, "x": 536, "y":-118, "path":"library.bg/glow.png",                                "type":"effect"},
+      {"layer":  6, "x": 568, "y":-144, "path":"library.bg/glow.png",                                "type":"effect"},
       {"layer":  6, "x": 548, "y":   0, "path":"library.bg/lustre.png"}
     ]
   },
@@ -275,11 +275,11 @@
       {"layer":  5, "x": 942, "y": 508, "path":"witch_hut.bg/cellar_glow.png"},
       {"layer":  5, "x": 917, "y": 510, "path":"witch_hut.bg/cellar_smoke_image_0000__0027_floor_fog_00000.png",  "type":"effect", "ani":true},
       {"layer":  6, "x": 228, "y":   0, "path":"witch_hut.bg/win_glow.png",                          "type":"effect"},
-      {"layer": 10, "x": 126, "y":  16, "path":"witch_hut.bg/moon_glow.png",                         "type":"effect"},
+      {"layer": 10, "x": 126, "y":  16, "path":"witch_hut.bg/moon_glow1.png",                         "type":"effect"},
       {"layer": 10, "x": 826, "y": 367, "path":"witch_hut.bg/smoke_image_0000__0025_green_fog_00000.png",  "type":"effect", "ani":true},
-      {"layer": 20, "x": 778, "y": 261, "path":"witch_hut.bg/candle1.png"},
-      {"layer": 20, "x":1011, "y": 252, "path":"witch_hut.bg/candle2.png"},
-      {"layer": 20, "x": 616, "y": 402, "path":"witch_hut.bg/candle3.png"}
+      {"layer": 20, "x": 778, "y": 261, "path":"witch_hut.bg/light2.png"},
+      {"layer": 20, "x":1011, "y": 252, "path":"witch_hut.bg/light2.png"},
+      {"layer": 20, "x": 616, "y": 402, "path":"witch_hut.bg/light1.png"}
     ]
   },
   "20": {
@@ -310,14 +310,14 @@
       {"layer":  3, "x":   0, "y":   0, "path":"tavern.bg/bg.png"},
       {"layer":  3, "x":1093, "y": 385, "path":"tavern.bg/fire_anim_fire_01.png",                    "ani":true},
       {"layer":  3, "x": 985, "y": 314, "path":"tavern.bg/fire_glow.png",                            "type":"skip"},
-      {"layer": 20, "x": 477, "y": 166, "path":"tavern.bg/candle1.png"},
-      {"layer": 20, "x": 505, "y": 174, "path":"tavern.bg/candle2.png"},
-      {"layer": 20, "x": 644, "y":  40, "path":"tavern.bg/candle3.png"},
-      {"layer": 20, "x": 700, "y":   2, "path":"tavern.bg/candle4.png"},
-      {"layer": 20, "x": 835, "y": -10, "path":"tavern.bg/candle5.png"},
-      {"layer": 20, "x": 943, "y":  21, "path":"tavern.bg/candle6.png"},
-      {"layer": 20, "x": 689, "y": 450, "path":"tavern.bg/candle7.png"},
-      {"layer": 20, "x": 774, "y": 430, "path":"tavern.bg/candle8.png"}
+      {"layer": 20, "x": 477, "y": 166, "path":"tavern.bg/light2.png"},
+      {"layer": 20, "x": 505, "y": 174, "path":"tavern.bg/light2.png"},
+      {"layer": 20, "x": 644, "y":  40, "path":"tavern.bg/light1.png"},
+      {"layer": 20, "x": 700, "y":   2, "path":"tavern.bg/light1.png"},
+      {"layer": 20, "x": 835, "y": -10, "path":"tavern.bg/light1.png"},
+      {"layer": 20, "x": 943, "y":  21, "path":"tavern.bg/light1.png"},
+      {"layer": 20, "x": 689, "y": 450, "path":"tavern.bg/light1.png"},
+      {"layer": 20, "x": 774, "y": 430, "path":"tavern.bg/light1.png"}
     ]
   },
   "23": {
@@ -347,11 +347,11 @@
       {"layer":  4, "x": 683, "y": 358, "path":"theatre.bg/puppets2_cover.png",                      "type":"none"},
       {"layer":  8, "x":   0, "y":   0, "path":"theatre.bg/glow.png",                                "type":"skip"},
       {"layer": 10, "x": 228, "y": 125, "path":"theatre.bg/glow2.png",                               "type":"skip"},
-      {"layer": 20, "x": 265, "y": 220, "path":"theatre.bg/candle1.png"},
-      {"layer": 20, "x": 297, "y": 218, "path":"theatre.bg/candle2.png"},
-      {"layer": 20, "x": 334, "y": 224, "path":"theatre.bg/candle3.png"},
-      {"layer": 20, "x": 367, "y": 215, "path":"theatre.bg/candle4.png"},
-      {"layer": 20, "x": 314, "y": 169, "path":"theatre.bg/candle5.png"}
+      {"layer": 20, "x": 265, "y": 220, "path":"theatre.bg/light.png"},
+      {"layer": 20, "x": 297, "y": 218, "path":"theatre.bg/light.png"},
+      {"layer": 20, "x": 334, "y": 224, "path":"theatre.bg/light.png"},
+      {"layer": 20, "x": 367, "y": 215, "path":"theatre.bg/light.png"},
+      {"layer": 20, "x": 314, "y": 169, "path":"theatre.bg/light.png"}
     ]
   },
   "25": {
@@ -496,13 +496,13 @@
       {"layer":  2, "x":   0, "y":   0, "path":"festive_dinner.bg/bg.png"},
       {"layer":  3, "x": 357, "y": 406, "path":"festive_dinner.bg/fireplace.png",                    "type":"effect"},
       {"layer":  6, "x": 812, "y":   0, "path":"festive_dinner.bg/garlands.png"},
-      {"layer":  6, "x": 278, "y":  55, "path":"festive_dinner.bg/light1.png"},
-      {"layer":  6, "x": 315, "y":  66, "path":"festive_dinner.bg/light2.png"},
-      {"layer":  6, "x": 471, "y":  80, "path":"festive_dinner.bg/light3.png"},
-      {"layer":  6, "x": 557, "y":  80, "path":"festive_dinner.bg/light4.png"},
-      {"layer":  6, "x": 594, "y": 314, "path":"festive_dinner.bg/light5.png"},
-      {"layer":  6, "x": 639, "y": 310, "path":"festive_dinner.bg/light6.png"},
-      {"layer":  6, "x": 880, "y": 314, "path":"festive_dinner.bg/light7.png"},
+      {"layer":  6, "x": 278, "y":  55, "path":"festive_dinner.bg/light.png"},
+      {"layer":  6, "x": 315, "y":  66, "path":"festive_dinner.bg/light.png"},
+      {"layer":  6, "x": 471, "y":  80, "path":"festive_dinner.bg/light.png"},
+      {"layer":  6, "x": 557, "y":  80, "path":"festive_dinner.bg/light.png"},
+      {"layer":  6, "x": 594, "y": 314, "path":"festive_dinner.bg/light_big.png"},
+      {"layer":  6, "x": 639, "y": 310, "path":"festive_dinner.bg/light_big.png"},
+      {"layer":  6, "x": 880, "y": 314, "path":"festive_dinner.bg/light_big.png"},
       {"layer":  6, "x": 629, "y":   0, "path":"festive_dinner.bg/snowflakes_00.png",                "ani":true},
       {"layer":  6, "x": 806, "y":   0, "path":"festive_dinner.bg/garlands_flashing_01.png",         "type":"effect", "ani":true}
     ]
@@ -594,6 +594,46 @@
       {"layer":  6, "x": 830, "y": 458, "path":"alchemist_room.bg/glow_4.png",                       "type":"effect"},
       {"layer":  6, "x":  34, "y":  20, "path":"alchemist_room.bg/glow_5.png",                       "type":"effect"},
       {"layer":  8, "x":  66, "y": 196, "path":"alchemist_room.bg/aqua_light.png",                   "type":"effect"}
+    ]
+  },
+  "50": {
+    "name": "船長の船室",
+    "background": [
+      {"layer": 0, "x": 531,  "y": 160, "path": "nautilus_nemo_room.bg/back.png"},
+      {"layer": 1, "x": 228,  "y": 250, "path": "nautilus_nemo_room.bg/fishes.png",                 "type": "skip"},
+      {"layer": 1, "x": 1028, "y": 338, "path": "nautilus_nemo_room.bg/fishes_flipped.png",         "type": "skip"},
+      {"layer": 2, "x": 0,    "y":   0, "path": "nautilus_nemo_room.bg/bg.png"},
+      {"layer": 2, "x": 434,  "y": 599, "path": "nautilus_nemo_room.bg/drop.png",                   "type": "skip"},
+      {"layer": 2, "x": 527,  "y": 365, "path": "nautilus_nemo_room.bg/fan_anim_1.png",             "ani": true},
+      {"layer": 2, "x": 430,  "y": 621, "path": "nautilus_nemo_room.bg/drop_impact_1.png",          "type": "skip", "ani": true},
+      {"layer": 2, "x": 524,  "y": 360, "path": "nautilus_nemo_room.bg/fan_anim_2.png",             "type": "skip"},
+      {"layer": 3, "x": 346,  "y": 343, "path": "nautilus_nemo_room.bg/beep_1.png",                 "type": "skip"},
+      {"layer": 3, "x": 457,  "y": 346, "path": "nautilus_nemo_room.bg/beep_2.png",                 "type": "skip"},
+      {"layer": 3, "x": 455,  "y": 347, "path": "nautilus_nemo_room.bg/beep_3.png",                 "type": "skip"}
+    ]
+  },
+  "51": {
+    "name": "船のデッキ",
+    "background": [
+      {"layer": -1,"x": 0,    "y":   0, "path": "ships_deck.bg/back.png"},
+      {"layer": 0, "x": 363,  "y": 105, "path": "ships_deck.bg/cloud_3.png",                        "type": "skip"},
+      {"layer": 0, "x": 371,  "y":   0, "path": "ships_deck.bg/cloud_2.png"},
+      {"layer": 0, "x": 967,  "y":  10, "path": "ships_deck.bg/cloud_1.png"},
+      {"layer": 1, "x": 0,    "y":  24, "path": "ships_deck.bg/flag.png"},
+      {"layer": 2, "x": 0,    "y":   0, "path": "ships_deck.bg/bg.png"}
+    ]
+  },
+  "52": {
+    "name": "遊び場",
+    "background": [
+      {"layer": 0, "x": 168,  "y":   0, "path": "playground.bg/back.png"},
+      {"layer": 1, "x": 569,  "y":   0, "path": "playground.bg/cloud_1.png"},
+      {"layer": 1, "x": 454,  "y":   0, "path": "playground.bg/cloud_2.png",                        "type": "skip"},
+      {"layer": 1, "x": 668,  "y":   0, "path": "playground.bg/cloud_3.png",                        "type": "skip"},
+      {"layer": 1, "x": 634,  "y":   0, "path": "playground.bg/cloud_4.png",                        "type": "skip"},
+      {"layer": 2, "x": 0,    "y":   0, "path": "playground.bg/bg.png"},
+      {"layer": 2, "x": 383,  "y": 459, "path": "playground.bg/wheel_ship.png"},
+      {"layer": 3, "x": 430,  "y": 481, "path": "playground.bg/wheel_ship_cover.png"}
     ]
   }
 }

@@ -4152,13 +4152,13 @@
             "y": 590
           }, 
           "pic2": {
-            "h": 22, 
+            "h": 23, 
             "layer": 4, 
-            "name": "mirror_2_2", 
-            "path": "wonder_shop.morph/mirror_2_2.png", 
-            "w": 61, 
-            "x": 386, 
-            "y": 562
+            "name": "mirror_1_2", 
+            "path": "wonder_shop.morph/mirror_1_2.png", 
+            "w": 69, 
+            "x": 699, 
+            "y": 602
           }
         }, 
         {

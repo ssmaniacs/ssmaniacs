@@ -28,7 +28,7 @@
   }, 
   {
     "layer": 10, 
-    "path": "witch_hut.bg/moon_glow.png", 
+    "path": "witch_hut.bg/moon_glow1.png", 
     "type": "effect", 
     "x": 126, 
     "y": 16
@@ -43,19 +43,19 @@
   }, 
   {
     "layer": 20, 
-    "path": "witch_hut.bg/candle1.png", 
+    "path": "witch_hut.bg/light2.png", 
     "x": 778, 
     "y": 261
   }, 
   {
     "layer": 20, 
-    "path": "witch_hut.bg/candle2.png", 
+    "path": "witch_hut.bg/light2.png", 
     "x": 1011, 
     "y": 252
   }, 
   {
     "layer": 20, 
-    "path": "witch_hut.bg/candle3.png", 
+    "path": "witch_hut.bg/light1.png", 
     "x": 616, 
     "y": 402
   }

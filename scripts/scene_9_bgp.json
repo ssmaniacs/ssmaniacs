@@ -37,19 +37,19 @@
   }, 
   {
     "layer": 1, 
-    "path": "london.bg/cloud_06.png", 
+    "path": "london.bg/cloud_03.png", 
     "x": 333, 
     "y": 30
   }, 
   {
     "layer": 1, 
-    "path": "london.bg/cloud_07.png", 
+    "path": "london.bg/cloud_05.png", 
     "x": 78, 
     "y": -10
   }, 
   {
     "layer": 1, 
-    "path": "london.bg/cloud_08.png", 
+    "path": "london.bg/cloud_02.png", 
     "type": "skip", 
     "x": -512, 
     "y": 60
@@ -76,49 +76,49 @@
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_01.png", 
+    "path": "london.bg/balloon1.png", 
     "x": 206, 
     "y": 7
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_02.png", 
+    "path": "london.bg/balloon2.png", 
     "x": 577, 
     "y": 233
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_03.png", 
+    "path": "london.bg/balloon3.png", 
     "x": 950, 
     "y": 148
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_04.png", 
+    "path": "london.bg/balloon4.png", 
     "x": 1097, 
     "y": 53
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_01_cover.png", 
+    "path": "london.bg/balloon1_cover.png", 
     "x": 243, 
     "y": 150
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_02_cover.png", 
+    "path": "london.bg/balloon2_cover.png", 
     "x": 599, 
     "y": 316
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_03_cover.png", 
+    "path": "london.bg/balloon3_cover.png", 
     "x": 980, 
     "y": 237
   }, 
   {
     "layer": 30, 
-    "path": "london.bg/balloon_04_cover.png", 
+    "path": "london.bg/balloon4_cover.png", 
     "x": 1145, 
     "y": 187
   }

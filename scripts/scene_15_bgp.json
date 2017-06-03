@@ -19,37 +19,37 @@
   }, 
   {
     "layer": 2, 
-    "path": "library.bg/light1.png", 
+    "path": "library.bg/light.png", 
     "x": 412, 
     "y": 319
   }, 
   {
     "layer": 2, 
-    "path": "library.bg/light2.png", 
+    "path": "library.bg/light.png", 
     "x": 1091, 
     "y": 149
   }, 
   {
     "layer": 2, 
-    "path": "library.bg/light3.png", 
+    "path": "library.bg/light.png", 
     "x": 723, 
     "y": -13
   }, 
   {
     "layer": 2, 
-    "path": "library.bg/light4.png", 
+    "path": "library.bg/light.png", 
     "x": 560, 
     "y": -5
   }, 
   {
     "layer": 2, 
-    "path": "library.bg/light5.png", 
+    "path": "library.bg/light.png", 
     "x": 692, 
     "y": 23
   }, 
   {
     "layer": 2, 
-    "path": "library.bg/light6.png", 
+    "path": "library.bg/light.png", 
     "x": 618, 
     "y": 26
   }, 
@@ -76,42 +76,42 @@
   }, 
   {
     "layer": 6, 
-    "path": "library.bg/glow1.png", 
+    "path": "library.bg/glow.png", 
     "type": "effect", 
     "x": 259, 
     "y": 173
   }, 
   {
     "layer": 6, 
-    "path": "library.bg/glow2.png", 
+    "path": "library.bg/glow.png", 
     "type": "effect", 
     "x": 945, 
     "y": 4
   }, 
   {
     "layer": 6, 
-    "path": "library.bg/glow3.png", 
+    "path": "library.bg/glow.png", 
     "type": "effect", 
     "x": 407, 
     "y": -150
   }, 
   {
     "layer": 6, 
-    "path": "library.bg/glow4.png", 
+    "path": "library.bg/glow.png", 
     "type": "effect", 
     "x": 466, 
     "y": -118
   }, 
   {
     "layer": 6, 
-    "path": "library.bg/glow5.png", 
+    "path": "library.bg/glow.png", 
     "type": "effect", 
     "x": 536, 
     "y": -118
   }, 
   {
     "layer": 6, 
-    "path": "library.bg/glow6.png", 
+    "path": "library.bg/glow.png", 
     "type": "effect", 
     "x": 568, 
     "y": -144

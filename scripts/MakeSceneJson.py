@@ -42,6 +42,10 @@ def clickzones(scene, obj):
     image = OrderedDict()
 
     for item in zone:
+      if item.tag in image:
+        sys.stderr.write('Duplicate tag {0} in scene {1} {2}\n'.format(item.tag, scene, obj.get('name')))
+        continue
+
       try:
         for key in item.attrib.keys():
           if key not in ('name', 'texture', 'w', 'h', 'x', 'y', 'layer'):
@@ -294,27 +298,41 @@ def load_sceneinfo(xmlpath, resdir):
 
 
 def convert_image(scene, resdir, imgdir):
-  '''イメージ変換用シェルスクリプトを作成'''
+  '''イメージ変換用リストを作成(シェルスクリプトへの入力)'''
 
   def find_files(path, name):
     '''イメージファイルおよびマスクファイル実体を見つける'''
-    path = os.path.join(resdir, '1024', path)
-    for fore in glob.glob(path + '.*'):
+    exact = False
+    fullpath = os.path.join(resdir, '1024', path)
+    for fore in glob.glob(fullpath + '.*'):
       if fore[-4:] in ('.png', '.jpg'):
+        exact = True  # 一致するファイルが見つかった
         break
     else:
-      fore = None
+      # たまに微妙なスペルのブレがある（アンダーバー有無、複数形s有無など)
+      sys.stderr.write('{0}.* not found\n'.format(path))
 
-    if not fore:
-      path = path.rsplit('/', 1)[0] + '/' + name.rsplit('.', 1)[-1]
-      for fore in glob.glob(path + '.*'):
+      fullpath = fullpath.rsplit('/', 1)[0] + '/' + name.rsplit('.', 1)[-1]
+      for fore in glob.glob(fullpath + '.*'):
         if fore[-4:] in ('.png', '.jpg'):
+          sys.stderr.write('=> {0} found instead\n'.format(fore[len(resdir)+6:]))
           break
       else:
-        return (None, None)
+        if '/covers/' in path:
+          fullpath = os.path.join(resdir, '1024', path).replace('/covers/', '/cover/')
+          for fore in glob.glob(fullpath + '.*'):
+            if fore[-4:] in ('.png', '.jpg'):
+              sys.stderr.write('=> {0} found instead\n'.format(fore[len(resdir)+6:]))
+              break
+          else:
+            return (None, None)
+        else:
+          return (None, None)
 
-    for mask in glob.glob(path + '_.*'):
+    for mask in glob.glob(fore[:-4] + '_.*'):
       if mask[-4:] == fore[-4:]:
+        if not exact:
+          sys.stderr.write('=> {0} found instead\n'.format(mask[len(resdir)+6:]))
         break
     else:
       mask = None
@@ -351,7 +369,7 @@ def convert_image(scene, resdir, imgdir):
       if img['type'] == 'ani':
         (name, aname) = img['name'].split('.', 1)
       else:
-        name = img['name']
+        name = img['path'].rsplit('/', 1)[-1]
 
       if img['path'] not in combined:
         combined.add(img['path'])
@@ -480,7 +498,10 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
         dstimg['y'] = srcimg['y'] - srcimg['regy'] + YOFFSET
         dstimg['ani'] = True
       else:
-        dstimg['path'] = (scene + '.bg/' + srcimg['name'] + '.png').replace('\\', '/')
+        # dstimg['path'] = (scene + '.bg/' + srcimg['name'] + '.png').replace('\\', '/')
+        # 同じイメージファイルを異なるイメージ名で使いまわすことがあるので
+        # 元ファイル名を使用する
+        dstimg['path'] = (scene + '.bg/' + srcimg['path'].rsplit('/', 1)[-1] + '.png').replace('\\', '/')
         dstimg['x'] = srcimg['x'] - srcimg.get('centerx', 0) + XOFFSET
         dstimg['y'] = srcimg['y'] - srcimg.get('centery', 0) + YOFFSET
 
@@ -492,7 +513,7 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
       if embed:
         dstimg['data'] = encode_img(imgpath)
 
-      for tmpl in template['background']:
+      for tmpl in template.get('background', []):
         if dstimg['path'] == tmpl['path'] and dstimg['x'] == tmpl['x'] and dstimg['y'] == tmpl['y']:
           if 'type' in tmpl:
             dstimg['type'] = tmpl['type']
@@ -504,7 +525,7 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
 
       bginfo.append(dstimg)
 
-  for tmpl in template['background']:
+  for tmpl in template.get('background', []):
     if 'present' not in tmpl:
       sys.stderr.write('{0} (x:{1},y{2}) only present in template\n'.format(
         tmpl['path'], tmpl['x'], tmpl['y']))
@@ -614,11 +635,11 @@ def main():
 3. json-path コマンドでjson (イメージパス版) を出力する
    (scene_ID_bgp.json, scene_ID_objp.json)
 
-4. ObjectFinder.htmlをパス版jsonで実行 (ObjectFinder.html?img=path&test=true)
+4. ObjectFinder.htmlをパス版jsonで実行 (ObjectFinder.html?image_root=path&bg_control=true)
 
 5. scene_template.jsonを適宜修正 ("type":"skip", "type":"effect" の追記など)
 
-6. json-data コマンドでjson (イメージ埋め込み版) を出力する
+6. json-data コマンドでjson (イメージ埋め込み版) を出力する （または EmbedImageData.py)
    (scene_ID_bg.json, scene_ID_obj.json)
 '''.format(sys.argv[0]))
 
@@ -660,7 +681,7 @@ def main():
       convert_image(sceneinfo, resdir, imgdir)
 
     elif output in ('json-path', 'json-data'):
-      output_json(id, sceneinfo, imgdir, textinfo, template[str(id)], output[-4:])
+      output_json(id, sceneinfo, imgdir, textinfo, template.get(str(id), {}), output[-4:])
 
 if __name__ == '__main__':
   main()

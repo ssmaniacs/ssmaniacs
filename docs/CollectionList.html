@@ -11,7 +11,12 @@ td {
   vertical-align: middle;
 }
 
-td.item {
+td.itemtxt {
+  width: 120px;
+  text-align: center;
+}
+
+td.itemimg {
   width: 120px;
   text-align: center;
   vertical-align: top;
@@ -74,7 +79,7 @@ function click_page(event) {
     if (target.id == 'item_popup') {
       return;                 // ポップアップ内のクリック：なにもしない
     }
-    else if (target.className == 'item') {
+    else if (target.className == 'itemimg' || target.className == 'itemtxt') {
       show_iteminfo(target);  // アイテムセル内のクリック：ポップアップ表示
       return;
     }
@@ -347,9 +352,12 @@ function update_list(resp) {
       for (var item_idx in coll.items) {
         var item = coll.items[item_idx];
 
-        tables += '<td class="item" id="item-' + item.id + '">';
         if (item.data) {
+          tables += '<td class="itemimg" id="item-' + item.id + '">';
           tables += '<img src="' + item.data + '"><br>';
+        }
+        else {
+          tables += '<td class="itemtxt" id="item-' + item.id + '">';
         }
         tables += item.name + '</td>';
 

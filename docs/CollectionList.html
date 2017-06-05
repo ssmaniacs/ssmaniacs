@@ -6,34 +6,35 @@
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width,initial-scale=1'>
 <style type="text/css">
+/* テーブルセル表示スタイル */
 td {
   text.align: left;
   vertical-align: middle;
 }
 
-td.itemtxt {
-  width: 120px;
-  text-align: center;
+td.num {  /* コレクションIDフィールド */
+  text-align: right;
 }
 
-td.itemimg {
+td.itemtxt {  /* アイコンなしアイテム名フィールド */
+  width: 120px;
+}
+
+td.itemimg {  /* アイコンありアイテム名フィールド */
   width: 120px;
   text-align: center;
   vertical-align: top;
 }
 
-td.num {
-  text-align: right;
-}
-
+/* アイテム詳細ポップアップ */
 #item_popup{
-	padding: 20px;
-	border: 2px solid gray;
+  padding: 20px;
+  border: 2px solid gray;
   overflow: auto;
   text-align: center;
-	background: white;
+  background: white;
 
-	z-index: 2;
+  z-index: 2;
   position: absolute;
   display: none;
 }
@@ -42,34 +43,10 @@ td.num {
   background: #ffdd88;
   margin: 0 auto;
 }
-/* スピナーフレーム */
-.spinner_frame {
-  width: 100%;
-  /* border: 1px solid silver; */
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
-}
-
-/* ローディングスピナー */
-.spinner {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  animation: spin 2s linear infinite;
-  margin: 0 auto;     /* align = center */
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-
 </style>
+<link rel="stylesheet" type="text/css" href="SpinnerPopup.css" />  
 <script src="collections_idx.js"></script>
+<script src="LoadJson.js"></script>
 <script>
 // ページ内クリックイベント
 function click_page(event) {
@@ -116,6 +93,16 @@ function show_iteminfo(elem) {
   id_cell.innerHTML = itemid;
   desc_cell.innerHTML = item_list[itemid].desc;
 
+  try {
+    var s = item_list[itemid].desc.substr(0,5);
+  }
+  catch (e) {
+    var s = item_list[itemid].desc[0].substr(0,5);
+  }
+  if (s == 'TM?時間') {
+    desc_cell.innerHTML += '<span style="font-size:x-small;">(※ゲームプレイ時には &quot;TM?&quot;, &quot;?&quot; の部分に数値が入る)</span>';
+  }
+
   // 入手方法
   var howto = '';
   for (var idx in item_list[itemid].find) {
@@ -153,7 +140,7 @@ function show_iteminfo(elem) {
   // 表示位置を調整
   var item_table = document.getElementById('item_table');
   popup.style.width = parseInt(item_table.offsetWidth + 40) + 'px'
-//  popup.style.height = parseInt(item_table.offsetHeight + 40) + 'px'
+  //popup.style.height = parseInt(item_table.offsetHeight + 40) + 'px'
 
   // デフォルト=クリック位置
   var x = event.x;
@@ -179,8 +166,8 @@ function show_iteminfo(elem) {
     }
   }
 
-  x += window.scrollX;
-  y += window.scrollY;
+  x += window.pageXOffset;
+  y += window.pageYOffset;
 
   popup.style.left = x + 'px';
   popup.style.top = y + 'px';
@@ -191,61 +178,15 @@ function hide_iteminfo() {
   document.getElementById('item_popup').style.display = 'none';
 }
 
-// JSONファイルのロード
-function loadJSON(path, callback) {
-  var xobj;
-
-  try {
-    // IEではXMLHttpRequestがうまく動かない（ことがある）
-    xobj = new ActiveXObject('MSXML2.XMLHTTP.6.0');
-  }
-  catch (e) {
-    xobj = new XMLHttpRequest();
-  }
-
-  try {
-    if ('overrideMimeType' in xobj) {
-      xobj.overrideMimeType('application/json');
-    }
-
-    xobj.open('GET', path, true);
-
-    xobj.onreadystatechange = function(){
-      if (xobj.readyState == 4) {
-        if (xobj.status == '200' || (location.protocol == 'file:' && xobj.status == '0')) {
-          // ドキュメントは見当たらないが、ローカルファイルの場合成功時にstatus=0になることがある
-          // とりあえずWin版ChromeとIEではstatus=0. FireFoxではローカルでも200.
-          callback(xobj.responseText);
-        }
-        else {
-          var message;
-
-          if (xobj.status) {
-            message = xobj.status; // + ' ' + HttpStatus(xobj.status);
-          }
-
-          console.log('XMLHttpRequests.status = ' + xobj.status + ' ' + message);
-          callback(new Error(message));
-        }
-      }
-    }
-
-    xobj.send(null);
-  }
-  catch(e) {
-    console.log(e);
-    callback(e);
-  }
-}
-
 // JSONから読み込んだコレクション情報
 var coll_list = null;
 
 // coll_listから抽出した個別アイテム情報
 var item_list = null;
 
+// 初期設定
 function init() {
-  // 表示範囲選択リストに項目を設定
+  // リスト選択ドロップダウンに項目を設定
   var selector = document.getElementById('select_list');
 
   for (var coll in collections) {
@@ -255,9 +196,9 @@ function init() {
     selector.appendChild(option);
   }
 
+  // 初期リストを表示
   list_change();
 }
-
 
 // 表示範囲リストが選択された
 function list_change() {
@@ -344,7 +285,7 @@ function update_list(resp) {
       var coll = page.colls[coll_idx];
 
       tables += '<tr>';
-      tables += '<td class="id">' + coll.id + '</td>';
+      tables += '<td class="num">' + coll.id + '</td>';
       tables += '<td>' + coll.name + '</td>';
 
       var gift = true;
@@ -397,6 +338,8 @@ function update_list(resp) {
   }
 
   document.getElementById('item_list').innerHTML = tables;
+
+  // スピナー非表示
   document.getElementById('scene_spframe').style.display = 'none';
 }
 

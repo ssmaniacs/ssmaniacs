@@ -10,7 +10,7 @@
 INPUT:
 - 1024/properties/data_scenes.xml
     シーン内部名、パラメータXMLファイルパスなど
-    
+
 - 1024/levles/scene_<ID>.xml
     イメージ情報（内部名、イメージパス、サイズなど
 
@@ -34,6 +34,56 @@ BG_HEIGHT = 690
 XOFFSET = 228
 YOFFSET = 0
 
+
+def load_textinfo(resdir, lang):
+  '''表示用テキスト情報を読み込む'''
+  if lang == 'en':
+    filename = 'default.xml'
+  else:
+    filename = 'default_{0}.xml'.format(lang)
+
+  textinfo = {}
+  with open(os.path.join(resdir, '1024', 'properties', filename), 'r') as fh:
+    for line in fh:
+      if ':' in line:
+        (key, val) = line.split(':', 1)
+        textinfo[key] = val.strip()
+
+  return textinfo
+
+
+def load_scenelist(resdir):
+  '''シーンパラメータリストを読み込む'''
+  scenelist = {}
+
+  root = ElementTree.parse(os.path.join(resdir, '1024',
+    'properties', 'data_scenes.xml')).getroot()
+
+  for scene in root.findall('scene'):
+    id_ = int(scene.get('id'))
+    scenelist[id_] = {
+      'id': id_,
+      'xml': scene.get('xml')
+    }
+
+    lvlist = []
+    for lv in scene.findall('level'):
+      level = {}
+
+      for name in ('params', 'phenomen', 'text', 'parts',
+        'couples', 'morphs', 'allowed', 'types_chances'):
+        level[name] = lv.find(name).attrib
+
+        for k in level[name].keys():
+          level[name][k] = int(level[name][k])
+
+      lvlist.append(level)
+
+    scenelist[id_]['levels'] = lvlist
+
+  return scenelist
+
+
 def clickzones(scene, obj):
   '''クリックオブジェクト情報読み込み'''
   zonelist = []
@@ -54,10 +104,10 @@ def clickzones(scene, obj):
         attr = OrderedDict()
 
         name = item.attrib['name'].split('.')
-        
+
         if name[0] == scene:
           del name[0]
-          
+
         if name[-1] in 'pic':
           del name[-1]
 
@@ -76,23 +126,23 @@ def clickzones(scene, obj):
         raise
 
       image[item.tag] = attr
-    
+
     zonelist.append(image)
 
   return zonelist
 
 
-def load_sceneinfo(xmlpath, resdir):
+def load_sceneimg(resdir, xmlpath):
   '''シーンの画像定義を読み込む'''
-  root = ElementTree.parse(xmlpath).getroot()
+  root = ElementTree.parse(os.path.join(resdir, '1024', xmlpath)).getroot()
   info = OrderedDict()
 
   # シーン名ID
   info['name'] = root.get('name')
-  
+
   # 背景画像
   info['background'] = OrderedDict()
-  
+
   for pic in root.find('scene_pics'):
     if not pic.attrib['visible'] or not pic.attrib['texture']:
       continue  # 非描画指定およびイメージパス未指定
@@ -101,10 +151,10 @@ def load_sceneinfo(xmlpath, resdir):
     name = pic.attrib['name'].split('.')
     if name[0] == info['name']:     # 先頭部分はシーン名と同じはずなので除外
       del name[0]
-      
+
     if name[-1] in ('pic', 'ani', 'xml'):
       del name[-1]
-    
+
 
     layer = int(pic.attrib['layer'])
 
@@ -135,8 +185,8 @@ def load_sceneinfo(xmlpath, resdir):
           raise
       '''
 <animsprite>
-  <img path="images/levels/ho_chapter1/india/bg/anim/smoke/smoke"   regx="35" regy="83" name="f" w="0" h="0"/>  
-  <framelist>  
+  <img path="images/levels/ho_chapter1/india/bg/anim/smoke/smoke"   regx="35" regy="83" name="f" w="0" h="0"/>
+  <framelist>
     <frame regx="29" regy="36" name="00.png" w="58" h="73" x="233" y="240"/>
     ...
       '''
@@ -232,7 +282,7 @@ def load_sceneinfo(xmlpath, resdir):
 
       for obj in objtype.findall('gray_object'):
         objinfo = OrderedDict()
-        
+
         name = obj.get('list_name')
         if name.startswith(info['name'] + '.'):
           name = name.split('.', 1)[1]
@@ -254,15 +304,15 @@ def load_sceneinfo(xmlpath, resdir):
         objinfo['name'] = path.rsplit('/', 1)[-1] # name の明示的な定義はない
         objinfo['allpath'] = path
         objinfo['pieces'] = []
-        
+
         for obj in part.findall('gray_object'):
           partinfo = OrderedDict()
 
           name = obj.get('name').split('.')
-          
+
           if name[0] == info['name']:
             del name[0]
-            
+
           if name[-1] == 'gobj':
             del name[-1]
 
@@ -271,7 +321,7 @@ def load_sceneinfo(xmlpath, resdir):
           partinfo['images'] = clickzones(info['name'], obj)
 
           objinfo['pieces'].append(partinfo)
-        
+
         info['objects']['part'].append(objinfo)
 
     # モーフモード
@@ -280,12 +330,12 @@ def load_sceneinfo(xmlpath, resdir):
 
       for obj in objtype.findall('gray_object'):
         objinfo = OrderedDict()
-   
+
         name = obj.get('name').split('.')
-          
+
         if name[0] == info['name']:
           del name[0]
-            
+
         if name[-1] == 'gobj':
           del name[-1]
 
@@ -297,7 +347,7 @@ def load_sceneinfo(xmlpath, resdir):
   return info
 
 
-def convert_image(scene, resdir, imgdir):
+def convert_list(scene, resdir, imgdir):
   '''イメージ変換用リストを作成(シェルスクリプトへの入力)'''
 
   def find_files(path, name):
@@ -429,60 +479,20 @@ def convert_image(scene, resdir, imgdir):
           print '# {0} image not found'.format(img['path'])
 
 
-def load_scenelist(resdir):
-  '''シーンID、XMLファイルパス一覧を読み込む'''
-  root = ElementTree.parse(os.path.join(resdir, '1024',
-    'properties', 'data_scenes.xml')).getroot()
- 
-  xmllist = {}
-
-  for scene in root.findall('scene'):
-    xmllist[int(scene.get('id'))] = os.path.join(resdir, '1024', scene.get('xml'))
-
-  return xmllist
-
-
-def load_textinfo(resdir, lang):
-  '''表示用テキスト情報を読み込む'''
-  if lang == 'en':
-    filename = 'default.xml'
-  else:
-    filename = 'default_{0}.xml'.format(lang)
-
-  textinfo = {}
-  with open(os.path.join(resdir, '1024', 'properties', filename), 'r') as fh:
-    for line in fh:
-      if ':' in line:
-        (key, val) = line.split(':', 1)
-        textinfo[key] = val.strip()
-
-  return textinfo
-
-
 def encode_img(path):
   with open(path, 'rb') as fh:
     return 'data:image/png;base64,' + base64.b64encode(fh.read())
 
 
-def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
-  '''シーンイメージ情報をJSONに出力'''
-  if mode == 'path':
-    bgfile = 'scene_{0}_bgp.json'.format(id)
-    objfile = 'scene_{0}_objp.json'.format(id)
-    embed = False
-  else:
-    bgfile = 'scene_{0}_bg.json'.format(id)
-    objfile = 'scene_{0}_obj.json'.format(id)
-    embed = True
-
-  scene = sceneinfo['name']
-
-  sys.stderr.write('Generating image info for {0}\n'.format(scene))
+def output_bg(sceneid, sceneimg, imgdir, template, embed):
+  '''シーンバックグラウンド情報をJSONに出力'''
+  # シーン内部名
+  scene = sceneimg['name']
 
   # バックグラウンドイメージ情報をレイヤ順に格納
   bginfo = []
 
-  for (layer, images) in sorted(sceneinfo['background'].items()):
+  for (layer, images) in sorted(sceneimg['background'].items()):
     for srcimg in images:
       dstimg = {
         'layer': layer,
@@ -530,15 +540,20 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
       sys.stderr.write('{0} (x:{1},y{2}) only present in template\n'.format(
         tmpl['path'], tmpl['x'], tmpl['y']))
 
-  with open(bgfile, 'w') as fh:
+  with open('scene_{0}_bg.json'.format(sceneid), 'w') as fh:
     json.dump(bginfo, fh, indent=2, sort_keys=True)
 
+
+def output_obj(sceneid, sceneimg, imgdir, textinfo, embed):
+  '''シーンバックグラウンド情報をJSONに出力'''
   # オブジェクトイメージ情報を格納
   objinfo = {
     'form': [],
     'part': [],
     'morph': []
   }
+
+  scene = sceneimg['name']
 
   def adjust_path(tag, name):
     path = '/'.join([scene + '.' + tag, name + '.png'])
@@ -559,7 +574,7 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
       dst['data'] = encode_img(os.path.join(imgdir, dst['path']))
     return dst
 
-  for form in sceneinfo['objects']['form']:
+  for form in sceneimg['objects']['form']:
     obj = {}
     obj['name'] = textinfo[scene + '.' + form['name']].decode('utf-8')
     obj['path'] = adjust_path('sils', form['name'])
@@ -577,7 +592,7 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
     objinfo['form'].append(obj)
 
 
-  for part in sceneinfo['objects']['part']:
+  for part in sceneimg['objects']['part']:
     obj = {}
     obj['name'] = part['name']
     obj['path'] = adjust_path('part', part['name'])
@@ -592,7 +607,7 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
       if embed:
         obj1['data'] = encode_img(os.path.join(imgdir, obj1['path']))
       obj1['images'] = []
-      
+
       for item in piece['images']:
         obj2 = {}
         for (tag, img) in item.items():
@@ -604,7 +619,7 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
 
     objinfo['part'].append(obj)
 
-  for morph in sceneinfo['objects']['morph']:
+  for morph in sceneimg['objects']['morph']:
     obj = {}
     obj['name'] = morph['name']
     obj['images'] = []
@@ -618,21 +633,218 @@ def output_json(id, sceneinfo, imgdir, textinfo, template, mode):
 
     objinfo['morph'].append(obj)
 
-  with open(objfile, 'w') as fh:
+
+  with open('scene_{0}_obj.json'.format(sceneid), 'w') as fh:
     fh.write(json.dumps(objinfo, indent=2, sort_keys=True, ensure_ascii=False).encode('utf-8'))
+
+def output_prm(scene, sceneimg, imgdir, textinfo, embed):
+  '''シーン情報JSONを書き出す'''
+  jdata = OrderedDict()
+
+  # シーン基本情報
+  jdata['id'] = scene['id']
+  jdata['name'] = scene['name']
+
+  # 各パラメータをレベル別に
+  jdata['energy'] = []
+  jdata['charge'] = []
+  jdata['coins'] = []
+  jdata['expoints'] = []
+  jdata['progress'] = []
+  jdata['text-prb'] = []
+  jdata['text-sec'] = []
+  jdata['text-obj'] = []
+  jdata['night-prb'] = []
+  jdata['night-sec'] = []
+  jdata['night-obj'] = []
+  jdata['sil-prb'] = []
+  jdata['sil-sec'] = []
+  jdata['sil-obj'] = []
+  jdata['part-prb'] = []
+  jdata['part-sec'] = []
+  jdata['part-obj'] = []
+  jdata['morph-prb'] = []
+  jdata['morph-sec'] = []
+  jdata['morph-obj'] = []
+  jdata['pair-prb'] = []
+  jdata['pair-sec'] = []
+  jdata['pair-obj'] = []
+  jdata['anom-sec'] = []
+  jdata['anom-obj'] = []
+
+  for lv in scene['levels']:
+    p = lv['params']
+
+    jdata['energy'].append(p['energy'])
+
+    ff = p.get('firefly')
+    if ff:
+      ffname = textinfo['IDS_ITEM_NAME_{0}'.format(p['fireflyId'])].decode('utf-8')
+      jdata['charge'].append(u'{0} x{1}'.format(ffname, ff))
+    else:
+      jdata['charge'].append(None)
+
+    jdata['coins'].append(p['money'])
+    jdata['expoints'].append(p['exp'])
+    jdata['progress'].append([
+      '{0:4.2f}%'.format(100.0 / p['progress']),
+      '(100/{0})'.format(p['progress'])])
+
+    chance = lv['types_chances'].get('text')
+    if chance:
+      jdata['text-prb'].append(chance)
+      jdata['text-sec'].append(lv['text']['time'])
+      jdata['text-obj'].append(lv['text']['easy'] + lv['text']['normal'] + lv['text']['hard'])
+    else:
+      jdata['text-prb'].append(None)
+      jdata['text-sec'].append(None)
+      jdata['text-obj'].append(None)
+
+    chance = lv['types_chances'].get('text_dark')
+    if chance:
+      jdata['night-prb'].append(chance)
+      jdata['night-sec'].append(lv['text']['dark_time'])
+      jdata['night-obj'].append(jdata['text-obj'][-1])
+    else:
+      jdata['night-prb'].append(None)
+      jdata['night-sec'].append(None)
+      jdata['night-obj'].append(None)
+
+    chance = lv['types_chances'].get('siluet')
+    if chance:
+      jdata['sil-prb'].append(chance)
+      jdata['sil-sec'].append(jdata['text-sec'][-1])
+      jdata['sil-obj'].append(jdata['text-obj'][-1])
+    else:
+      jdata['sil-prb'].append(None)
+      jdata['sil-sec'].append(None)
+      jdata['sil-obj'].append(None)
+
+    chance = lv['types_chances'].get('part')
+    if chance:
+      jdata['part-prb'].append(chance)
+      jdata['part-sec'].append(lv['parts']['time'])
+      jdata['part-obj'].append([
+        lv['parts']['parts_num'],
+        lv['parts']['part_easy'] + lv['parts']['part_normal'] + lv['parts']['part_hard']
+        ])
+    else:
+      jdata['part-prb'].append(None)
+      jdata['part-sec'].append(None)
+      jdata['part-obj'].append(None)
+
+    chance = lv['types_chances'].get('morph')
+    if chance:
+      jdata['morph-prb'].append(chance)
+      jdata['morph-sec'].append(lv['morphs']['time'])
+      jdata['morph-obj'].append(lv['morphs']['morph_easy'] + lv['morphs']['morph_normal'] + lv['morphs']['morph_hard'])
+    else:
+      jdata['morph-prb'].append(None)
+      jdata['morph-sec'].append(None)
+      jdata['morph-obj'].append(None)
+
+    chance = lv['types_chances'].get('couple')
+    if chance:
+      jdata['pair-prb'].append(chance)
+      jdata['pair-sec'].append(lv['couples']['time'])
+      num = lv['couples']['couples_easy'] + lv['couples']['couples_normal'] + lv['couples']['couples_hard'] + lv['couples']['couples_very_easy'] + lv['couples']['couples_very_hard']
+      jdata['pair-obj'].append([num, 2])
+    else:
+      jdata['pair-prb'].append(None)
+      jdata['pair-sec'].append(None)
+      jdata['pair-obj'].append(None)
+
+    jdata['anom-sec'].append(lv['phenomen']['time'])
+    jdata['anom-obj'].append(jdata['text-obj'][-1])
+
+  scname = sceneimg['name']
+
+  def adjust_path(tag, objname):
+    path = '/'.join([scname + '.' + tag, objname + '.png'])
+    if not os.path.isfile(os.path.join(imgdir, path)):
+      raise RuntimeError('{0} not exists\n'.format(path))
+
+    if embed:
+      with open(os.path.join(imgdir, path), 'r') as fh:
+        return 'data:image/png;base64,' + base64.b64encode(fh.read())
+    else:
+      return path
+
+  # 通常モードオブジェクト
+  jdata['forms'] = []
+  for obj in sceneimg['objects']['form']:
+    objname = obj['name']
+
+    silimg = adjust_path('sils', objname)
+    pic = obj['images'][0]['pic']
+    normimg = adjust_path('form', pic['name'])
+    if pic['w'] > pic['h']:
+      w = 85
+      h = None
+    else:
+      h = 90
+      w = None
+
+    jdata['forms'].append({
+      'name': textinfo[scname + '.' + objname].decode('utf-8'),
+      'sil': silimg,
+      'img': normimg,
+      'w': w,
+      'h': h})
+
+  # かけらモードオブジェクト
+  jdata['part'] = []
+  for obj in sceneimg['objects']['part']:
+    parts = [adjust_path('part', obj['name'])]
+
+    for piece in obj['pieces']:
+      parts.append(adjust_path('part', piece['name']))
+
+    jdata['part'].append(parts)
+
+  # モーフモードオブジェクト
+  jdata['morph'] = []
+  for obj in sceneimg['objects']['morph']:
+    morph = []
+    img = obj['images'][0]
+    for pic in (img['pic1'], img['pic2']):
+      path = adjust_path('morph', pic['name'])
+      if pic['w'] > pic['h']:
+        w = 85
+        h = None
+      else:
+        w = None
+        h = 90
+
+      morph.append({'img': path, 'w': w, 'h': h})
+
+    jdata['morph'].append(morph)
+
+  with open('scene_{0}_prm.json'.format(scene['id']), 'w') as fh:
+    fh.write(json.dumps(jdata, indent=2, ensure_ascii=False).encode('utf-8'))
+
+
+def output_list(scenelist, targets):
+  '''シーンリストJSを出力する'''
+  sclist = dict([(id, scenelist[id]['name']) for id in targets])
+
+  with open('scene_idx.js', 'w') as fh:
+    fh.write('var scene_list =\n')
+    fh.write(json.dumps(sclist, indent=2, ensure_ascii=False).encode('utf-8'))
+    fh.write(';\n')
 
 
 def main():
   if len(sys.argv) < 5:
-    sys.stderr.write('Usage: {0} resdir imgdir lang {{dump|conv|json-path|json-data}} [xml ...]\n'.format(sys.argv[0]))
+    sys.stderr.write('Usage: {0} resdir imgdir lang {{dump|conv|list|bg|obj|prm|embed}}[...] [sceneid ...]\n'.format(sys.argv[0]))
     sys.stderr.write('''
 1. conv コマンドで変換リストを生成する
    $ ./{0} ... conv > convlist.tsv
 
 2. convert_images.sh で変換を実施
-   $ ./convert_imagges.sh convlist.tsv
+   $ ./convert_images.sh convlist.tsv
 
-3. json-path コマンドでjson (イメージパス版) を出力する
+3. obj prm bg コマンドでjson (イメージパス版) を出力する
    (scene_ID_bgp.json, scene_ID_objp.json)
 
 4. ObjectFinder.htmlをパス版jsonで実行 (ObjectFinder.html?image_root=path&bg_control=true)
@@ -645,32 +857,49 @@ def main():
 
     sys.exit(2)
 
-  (resdir, imgdir, lang, output) = sys.argv[1:5]
+  (resdir, imgdir, lang) = sys.argv[1:4]
 
-  if len(sys.argv) == 5:
-    # シーンXML一覧を読み込む
-    xmllist = load_scenelist(resdir)
-  else:
-    # 指定されたシーン定義XMLをターゲットとする
-    xmllist = {}
-    for arg in sys.argv[5:]:
-      id = int(arg.rsplit('.', 1)[0].rsplit('_', 1)[-1])
-      xmllist[id] = arg
+  embed = False
+  outputs = []
+  targets = []
+  for arg in sys.argv[4:]:
+    try:
+      targets.append(int(arg))
+    except ValueError:
+      if arg == 'embed':
+        embed = True
+      else:
+        outputs.append(arg)
 
-  if output[:4] == 'json':
-    textinfo = load_textinfo(resdir, lang);
+  # シーン一覧を読み込む
+  scenelist = load_scenelist(resdir)
+
+  if not targets:
+    # 全てのシーンをターゲットとする
+    targets = sorted(scenelist.keys())
+
+  # 表示用テキスト情報を読み込む
+  textinfo = load_textinfo(resdir, lang);
+
+  if 'bg' in outputs:
     with open('scene_template.json', 'r') as fh:
       template = json.load(fh)
 
   # 各シーンのイメージ情報を読み込む
-  for (id, xml) in sorted(xmllist.items()):
-    sys.stderr.write('Processing: {0}\n'.format(xml))
-    sceneinfo = load_sceneinfo(xml, resdir)
+  for id in targets:
+    scene = scenelist[id]
 
-    if output == 'dump':
-      print json.dumps(sceneinfo, indent=2)
+    scene['name'] = textinfo['IDS_SCENE_NAME_{0}'.format(id)].decode('utf-8')[1:-1]
 
-    elif output == 'conv':
+    sys.stderr.write('Processing: {0} ({1})\n'.format(
+      scene['xml'], scene['name'].encode('utf-8')))
+
+    sceneimg = load_sceneimg(resdir, scene['xml'])
+
+    if 'dump' in outputs:
+      print json.dumps(sceneimg, indent=2)
+
+    if 'conv' in outputs:
       # メイン画像・マスク画像合成用のリストを生成
       #   メイン.jpg<TAB>マスク.jpg<TAB>ターゲット.png
       #   メイン.png<TAB>-<TAB>ターゲット.png
@@ -678,10 +907,23 @@ def main():
       #   convert メイン マスク \( -clone 0 -alpha extract \) ￥
       #     \( -clone 1 -clone 2 -compose multiply -composite \) \
       #     -delete 1,2 -alpha off -compose copy_opacity -composite ターゲット
-      convert_image(sceneinfo, resdir, imgdir)
+      convert_list(sceneimg, resdir, imgdir)
 
-    elif output in ('json-path', 'json-data'):
-      output_json(id, sceneinfo, imgdir, textinfo, template.get(str(id), {}), output[-4:])
+    if 'bg' in outputs:
+      sys.stderr.write('Generating background info for {0}\n'.format(scene))
+      output_bg(id, sceneimg, imgdir, template.get(str(id), {}), embed)
+
+    if 'obj' in outputs:
+      sys.stderr.write('Generating object info for {0}\n'.format(scene))
+      output_obj(id, sceneimg, imgdir, textinfo, embed)
+
+    if 'prm' in outputs:
+      sys.stderr.write('Generating parameter info for {0}\n'.format(scene))
+      output_prm(scene, sceneimg, imgdir, textinfo, embed)
+
+  if 'list' in outputs:
+    output_list(scenelist, targets)
+
 
 if __name__ == '__main__':
   main()

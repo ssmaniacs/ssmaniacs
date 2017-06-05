@@ -241,7 +241,7 @@ def output_json(iteminfo, collinfo, textinfo, dstdir, imgdir):
       info['desc'] = textinfo['ITEM'][itemid]['INFO']
 
     elif isinstance(textinfo['ITEM'][itemid]['INFO'], list):
-      info['desc'] = u'?'.join(textinfo['ITEM'][itemid]['INFO']),
+      info['desc'] = u'?'.join(textinfo['ITEM'][itemid]['INFO'])
 
     if iteminfo[itemid]['type'] == 0:
       info['gift'] = False

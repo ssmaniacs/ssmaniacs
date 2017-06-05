@@ -19,20 +19,20 @@ upload() {
 	FTP
 
 	echo Comparing
-	python ${0%.sh}.py ${SRCDIR} list-local.txt ${ROOT} list-${HOST}.txt ${SYNC} > ftpcmd.tmp
+	python ${0%.sh}.py ${SRCDIR} list-local.txt ${ROOT} list-${HOST}.txt ${SYNC} > ftpcmd-${HOST}.tmp
 
-	if [[ ! -s ftpcmd.tmp ]]; then
+	if [[ ! -s ftpcmd-${HOST}.tmp ]]; then
 		echo No difference detected
 
 	elif [[ ${SYNC} == check ]]; then
-		cat ftpcmd.tmp
+		cat ftpcmd-${HOST}.tmp
 
 	else
 		CWD=$(pwd)
 
 		ftp -nvpi ${HOST} <<-FTP
 			user ${USER} ${PASS}
-			$(cat ftpcmd.tmp)
+			$(cat ftpcmd-${HOST}.tmp)
 			cd /${ROOT}
 			lcd ${CWD}
 			ls -R list-${HOST}.txt
@@ -42,7 +42,7 @@ upload() {
 		echo Re-comparing
 		python ${0%.sh}.py ${SRCDIR} list-local.txt ${ROOT} list-${HOST}.txt ${SYNC}
 	fi
-	rm ftpcmd.tmp
+	rm ftpcmd-${HOST}.tmp
 }
 
 if [[ $# -lt 1 ]]; then

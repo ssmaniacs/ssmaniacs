@@ -910,15 +910,15 @@ def main():
       convert_list(sceneimg, resdir, imgdir)
 
     if 'bg' in outputs:
-      sys.stderr.write('Generating background info for {0}\n'.format(scene))
+      sys.stderr.write('Generating background info\n')
       output_bg(id, sceneimg, imgdir, template.get(str(id), {}), embed)
 
     if 'obj' in outputs:
-      sys.stderr.write('Generating object info for {0}\n'.format(scene))
+      sys.stderr.write('Generating object info\n')
       output_obj(id, sceneimg, imgdir, textinfo, embed)
 
     if 'prm' in outputs:
-      sys.stderr.write('Generating parameter info for {0}\n'.format(scene))
+      sys.stderr.write('Generating parameter info\n')
       output_prm(scene, sceneimg, imgdir, textinfo, embed)
 
   if 'list' in outputs:

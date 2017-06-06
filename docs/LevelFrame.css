@@ -1,7 +1,7 @@
 /* パラメータテーブルのレベルヘッダ背景イメージ */
 th.level {
-  width: 10%;
-  height: 6.7vw; /* 3:2 ratio */
+  width: 8vw;
+  height: 6.6vw;
   vertical-align: middle;
   background: #ffdd88;
   background-size: cover;

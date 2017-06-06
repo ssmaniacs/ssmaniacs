@@ -57,7 +57,7 @@ function click_page(event) {
       return;                 // ポップアップ内のクリック：なにもしない
     }
     else if (target.className == 'itemimg' || target.className == 'itemtxt') {
-      show_iteminfo(target);  // アイテムセル内のクリック：ポップアップ表示
+      show_iteminfo(event, target);  // アイテムセル内のクリック：ポップアップ表示
       return;
     }
     else if (target instanceof HTMLBodyElement) {
@@ -71,7 +71,7 @@ function click_page(event) {
 }
 
 // アイテム情報ポップアップを表示
-function show_iteminfo(elem) {
+function show_iteminfo(event, elem) {
   var popup = document.getElementById('item_popup')
   popup.style.display = 'block';
 

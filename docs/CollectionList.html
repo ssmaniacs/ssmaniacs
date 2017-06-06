@@ -13,7 +13,6 @@ td {
 
 td.itemtxt {
   width: 120px;
-  text-align: center;
 }
 
 td.itemimg {
@@ -116,6 +115,16 @@ function show_iteminfo(elem) {
   id_cell.innerHTML = itemid;
   desc_cell.innerHTML = item_list[itemid].desc;
 
+  try {
+    var s = item_list[itemid].desc.substr(0,5);
+  }
+  catch (e) {
+    var s = item_list[itemid].desc[0].substr(0,5);
+  }
+  if (s == 'TM?時間') {
+    desc_cell.innerHTML += '<span style="font-size:x-small;">(※ゲームプレイ時には &quot;TM?&quot;, &quot;?&quot; の部分に数値が入る)</span>';
+  }
+
   // 入手方法
   var howto = '';
   for (var idx in item_list[itemid].find) {
@@ -179,8 +188,8 @@ function show_iteminfo(elem) {
     }
   }
 
-  x += window.scrollX;
-  y += window.scrollY;
+  x += window.pageXOffset;
+  y += window.pageYOffset;
 
   popup.style.left = x + 'px';
   popup.style.top = y + 'px';

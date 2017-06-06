@@ -5,89 +5,15 @@
 <title>Secret Societyシーン情報</title>
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width,initial-scale=1'>
-<style type="text/css">
-/* スピナーフレーム */
-.spinner_frame {
-	width: 50%;
-	margin: 0 auto;
-	padding: 60px 0px;
-	border:2px solid #aaa;
-	background:#fff;
-  position: fixed;
-  top: 30%;
-  left: 0;
-  right: 0;
-	z-index: 2;
-}
-
-/* ローディングスピナー */
-.spinner {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  animation: spin 2s linear infinite;
-  margin: 0 auto;     /* align = center */
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-</style>
-<link rel="stylesheet" type="text/css" href="LevelFrame.css" />  
+<link rel="stylesheet" type="text/css" href="SpinnerPopup.css" /><!-- ローディングスピナー -->
+<link rel="stylesheet" type="text/css" href="LevelFrame.css" /><!-- レベルフレーム画像 --->
 <script src="scene_idx.js"></script>
+<script src="LoadJson.js"></script>
 <script>
-// JSONファイルのロード
-function loadJSON(path, callback) {
-  var xobj;
 
-  try {
-    // IEではXMLHttpRequestがうまく動かない（ことがある）
-    xobj = new ActiveXObject('MSXML2.XMLHTTP.6.0');
-  }
-  catch (e) {
-    xobj = new XMLHttpRequest();
-  }
-
-  try {
-    if ('overrideMimeType' in xobj) {
-      xobj.overrideMimeType('application/json');
-    }
-
-    xobj.open('GET', path, true);
-
-    xobj.onreadystatechange = function(){
-      if (xobj.readyState == 4) {
-        if (xobj.status == '200' || (location.protocol == 'file:' && xobj.status == '0')) {
-          // ドキュメントは見当たらないが、ローカルファイルの場合成功時にstatus=0になることがある
-          // とりあえずWin版ChromeとIEではstatus=0. FireFoxではローカルでも200.
-          callback(xobj.responseText);
-        }
-        else {
-          var message;
-
-          if (xobj.status) {
-            message = xobj.status; // + ' ' + HttpStatus(xobj.status);
-          }
-
-          console.log('XMLHttpRequests.status = ' + xobj.status + ' ' + message);
-          callback(new Error(message));
-        }
-      }
-    }
-
-    xobj.send(null);
-  }
-  catch(e) {
-    console.log(e);
-    callback(e);
-  }
-}
-
+// 初期設定
 function init() {
-  // 表示範囲選択リストに項目を設定
+  // シーン選択ドロップダウンに項目を設定
   var selector = document.getElementById('scene_list');
 
   for (var idx in scene_list) {
@@ -97,15 +23,17 @@ function init() {
     selector.appendChild(option);
   }
 
+  // ベネチアを初期設定
   selector.value = 3;
   scene_change();
 }
 
+// シーン選択が変更された
 function scene_change() {
   // スピナー表示
   document.getElementById('scene_spframe').style.display = 'table-cell';
 
-  // インデックスおよびリストを削除
+  // 探索オブジェクトテーブルを削除
   document.getElementById('text-table').innerHTML = '';
   document.getElementById('part-table').innerHTML = '';
   document.getElementById('morph-table').innerHTML = '';
@@ -119,10 +47,10 @@ function scene_change() {
 function load_done(resp) {
   if (!resp || resp instanceof Error) {
     alert(resp ? resp.message : 'シーン情報ロードエラー');
-    return;
   }
-
-  update_tables(JSON.parse(resp));
+  else {
+    update_tables(JSON.parse(resp));
+  }
 }
 
 // シーン情報テーブル更新
@@ -131,7 +59,7 @@ function update_tables(scene) {
 
   document.getElementById('scene_name').innerText = scene['name'];
 
-  // 各種パラメータ
+  // 各種パラメータ設定
   ['energy', 'charge', 'coins', 'expoints', 'progress'].forEach(function(key){
     for (var idx in scene[key]) {
       var val = scene[key][idx];
@@ -189,6 +117,7 @@ function update_tables(scene) {
   html += '</table>';
   document.getElementById('text-table').innerHTML = html;
 
+  // かけらモードオブジェクト
   var html = '<table border="1" cellpadding="5" bgcolor="#ffdd88">';
   html += '<tr><th>ALL</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>';
   scene.part.forEach(function(obj) {
@@ -201,6 +130,7 @@ function update_tables(scene) {
   html += '</table>';
   document.getElementById('part-table').innerHTML = html;
 
+  // モーフモードオブジェクト
   var html = '<table border="1" cellpadding="5" bgcolor="#ffdd88">';
   html += '<tr><th>モーフ(1)</th><th>モーフ(2)</th></tr>';
   scene.morph.forEach(function(obj) {
@@ -214,6 +144,7 @@ function update_tables(scene) {
   html += '</table>';
   document.getElementById('morph-table').innerHTML = html;
 
+  // スピナー非表示
   document.getElementById('scene_spframe').style.display = 'none';
 }
 </script>

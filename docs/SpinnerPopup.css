@@ -1,0 +1,30 @@
+/* ローディングスピナー */
+/* ポップアップフレーム */
+.spinner_frame {
+  width: 50%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  border:2px solid #aaa;
+  background:#fff;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* スピナー本体 */
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

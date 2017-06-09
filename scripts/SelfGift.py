@@ -124,6 +124,18 @@ def process_method(jdata):
       print json.dumps(fakeres, indent=2)
       return json.dumps(fakeres)
 
+  elif jdata['methodName'] == 'SendGiftsToAll':
+    if jdata['parameters'][1][0][0] == GIFTER_ID:
+      fakeres['response'] = [
+        [
+          GIFTER_ID,
+          [True] * len(jdata['parameters'][1][0][1])
+        ]
+      ]
+      adjust_fakeres()
+      print json.dumps(fakeres, indent=2)
+      return json.dumps(fakeres)
+
   elif jdata['methodName'] == 'AcceptGiftList':
     with sqlite3.connect(DBNAME) as conn:
       if conn.execute('SELECT giftid FROM gifts LIMIT 1;').fetchone():

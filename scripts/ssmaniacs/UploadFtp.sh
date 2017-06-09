@@ -1,7 +1,7 @@
 #!/bin/bash
 # vim: ts=4
 
-SRCDIR=$(cd ../docs; pwd)
+SRCDIR=$(cd ../../docs; pwd)
 
 upload() {
 	HOST=$1
@@ -24,7 +24,7 @@ upload() {
 	if [[ ! -s ftpcmd-${HOST}.tmp ]]; then
 		echo No difference detected
 
-	elif [[ ${SYNC} == check ]]; then
+	elif [[ ${CHECK} ]]; then
 		cat ftpcmd-${HOST}.tmp
 
 	else
@@ -54,6 +54,7 @@ echo Generating local file list
 (cd ${SRCDIR}; find -L . -type f ! -name '*p.json' -printf "%p %s\n" | sort) > list-local.txt
 
 SYNC=nosync
+CHECK=
 
 for k in $*; do
 	case $k in
@@ -61,16 +62,18 @@ for k in $*; do
 		;;
 	nosync) SYNC=nosync
 		;;
-	check) SYNC=check
+	check) CHECK=check
+		;;
+	nocheck) CHECK=
 		;;
 	webhost)
-		upload files.000webhost.com ssmaniacs secretsanta public_html ${SYNC}
+		upload files.000webhost.com ssmaniacs secretsanta public_html ${SYNC} ${CHECK}
 		;;
 	epizy)
-		upload ftp.epizy.com epiz_20081221 secretsanta htdocs ${SYNC}
+		upload ftp.epizy.com epiz_20081221 secretsanta htdocs ${SYNC} ${CHECK}
 		;;
 	byethost)
-		upload ftp.byethost7.com b7_20081682 secretsanta htdocs ${SYNC}
+		upload ftp.byethost7.com b7_20081682 secretsanta htdocs ${SYNC} ${CHECK}
 		;;
 	*)
 		echo "Usage $0 ftp-site {webhost|epizy|byethost} [...]"

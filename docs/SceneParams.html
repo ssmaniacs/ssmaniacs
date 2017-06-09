@@ -7,19 +7,31 @@
 <meta name='viewport' content='width=device-width,initial-scale=1'>
 <link rel="stylesheet" type="text/css" href="SpinnerPopup.css" /><!-- ローディングスピナー -->
 <link rel="stylesheet" type="text/css" href="LevelFrame.css" /><!-- レベルフレーム画像 --->
-<script src="scene_idx.js"></script>
 <script src="LoadJson.js"></script>
 <script>
 
 // 初期設定
 function init() {
+  // 言語情報JSONをロード
+  loadJSON('scene_info.ja.json', load_lang_done);
+}
+
+var lang_info = null;
+
+function load_lang_done(resp) {
+  if (!resp || resp instanceof Error) {
+    alert(resp ? resp.message : 'ロードエラー');
+  }
+
+  lang_info =  JSON.parse(resp);
+
   // シーン選択ドロップダウンに項目を設定
   var selector = document.getElementById('scene_list');
 
-  for (var idx in scene_list) {
+  for (var idx in lang_info.scenes) {
     var option = document.createElement('option');
     option.setAttribute('value', idx);
-    option.innerHTML = scene_list[idx];
+    option.innerHTML = lang_info.scenes[idx];
     selector.appendChild(option);
   }
 
@@ -40,30 +52,25 @@ function scene_change() {
 
   // 指定JSONをロード
   var path = 'scene_' + document.getElementById('scene_list').value + '_prm.json';
-  setTimeout(function(){ loadJSON(path, load_done); }, 100);
+  setTimeout(function(){ loadJSON(path, load_param_done); }, 100);
 }
 
 // JSONロード完了
-function load_done(resp) {
+function load_param_done(resp) {
   if (!resp || resp instanceof Error) {
     alert(resp ? resp.message : 'シーン情報ロードエラー');
+    return;
   }
-  else {
-    update_tables(JSON.parse(resp));
-  }
-}
 
-// シーン情報テーブル更新
-function update_tables(scene) {
+  var scene = JSON.parse(resp);
   var selector = document.getElementById('scene_list');
 
-  document.getElementById('scene_name').innerText = scene['name'];
+  document.getElementById('scene_name').innerText = lang_info.scenes[scene.id];
 
   // 各種パラメータ設定
-  ['energy', 'charge', 'coins', 'expoints', 'progress'].forEach(function(key){
+  ['energy', 'coins', 'expoints', 'progress'].forEach(function(key){
     for (var idx in scene[key]) {
       var val = scene[key][idx];
-      document.getElementById(key + idx).bgColor = (val == null ? 'silver' : 'white');
       try {
         document.getElementById(key + idx).innerHTML = val.join('<br>');
       }
@@ -72,6 +79,20 @@ function update_tables(scene) {
       }
     }
   });
+
+  for (var idx in scene.charge) {
+    var val = scene.charge[idx];
+    var elem = document.getElementById('charge' + idx)
+    if (val) {
+      elem.bgColor = 'white';
+      elem.innerHTML = lang_info.items[val.item] + ' x' + val.count;
+    }
+    else {
+      elem.bgColor = 'silver';
+      elem.innerHTML = '';
+    }
+  }
+
   ['text-prb', 'night-prb', 'sil-prb', 'part-prb',
     'morph-prb', 'pair-prb', ].forEach(function(key){
     for (var idx in scene[key]) {
@@ -108,7 +129,7 @@ function update_tables(scene) {
   var html = '<table border="1" cellpadding="5" bgcolor="#ffdd88">';
   html += '<tr><th>文字</th><th>シルエット</th><th>Sample</th></tr>';
   scene.forms.forEach(function(obj) {
-    html += '<tr><td>' + obj.name + '</td>';
+    html += '<tr><td>' + lang_info.objects[scene.name + '.' + obj.name] + '</td>';
     html += '<td align="center"><img src="' + obj.sil + '"></td>';
     html += '<td align="center"><img src="' + obj.img + '" ';
     html += (obj.h ? ('height="' + obj.h + '"') : ('width="' + obj.w + '"'));

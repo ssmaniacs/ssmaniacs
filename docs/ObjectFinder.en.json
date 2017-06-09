@@ -1,0 +1,32 @@
+{
+  "controls": {
+    "picture_size": "Size",
+    "picture_smaller": "Smaller",
+    "picture_larger": "Larger",
+    
+    "effect_label": "Draw effects",
+    "lowres_label": "Low-res (quicker to load)",
+    "scene_sptext": "Cannot execute the script.<br>Please try with different browsers.",
+
+    "clear_button": "Clear All",
+    "all_button": "Draw All",
+    "bgcolor_label": "Background",
+
+    "mode_label": "Mode",
+
+    "drawobj_label": "Draw objects",
+    "topmost_label": "Draw on topmost",
+    "encircle_label": "Encircle objects",
+
+    "morph_label": "Morphs",
+    "morph0_label": "Auto (switch every 3 secs.)",
+    "morph1_label": "Shape 1",
+    "morph2_label": "Shape 2"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "error_load": "Load error",
+    "error_image": "Image load error",
+    "chrome_local": "You need the following option to access local files with Chrome"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "controls": {
+    "picture_size": "描画サイズ",
+    "picture_smaller": "小",
+    "picture_larger": "大",
+    
+    "effect_label": "エフェクト描画",
+    "lowres_label": "低解像度版（ロード時間短縮）",
+    "scene_sptext": "スクリプトが実行できません。<br>別のブラウザを使ってみてください。",
+
+    "clear_button": "クリア",
+    "all_button": "全て",
+    "bgcolor_label": "背景色",
+
+    "mode_label": "モード",
+
+    "drawobj_label": "オブジェクトを描画",
+    "topmost_label": "最前面に描画",
+    "encircle_label": "円で囲む",
+
+    "morph_label": "モーフ形状",
+    "morph0_label": "自動(3秒間隔)",
+    "morph1_label": "形状1",
+    "morph2_label": "形状2"
+  },
+  "messages": {
+    "loading": "ロード中...",
+    "error_load": "ロードエラー",
+    "error_image": "画像ロードエラー",
+    "chrome_local": "Chromeでローカルファイルにアクセスするには<br>以下のオプションをつけてChromeを起動してください"
+  }
+}

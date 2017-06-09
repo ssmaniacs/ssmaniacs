@@ -1,41 +1,9 @@
-// JSONƒtƒ@ƒCƒ‹‚Ì“®“Iƒ[ƒh
-function HttpStatus(status) {
-  switch (status) {
-  case 400: return 'Bad Request';
-  case 401: return 'Unauthorixed';
-  case 402: return 'Payment Required';
-  case 403: return 'Forbidden';
-  case 404: return 'Not Found';
-  case 405: return 'Method Not Allowed';
-  case 406: return 'Not Acceptable';
-  case 407: return 'Proxy Authentication Required';
-  case 408: return 'Request Time-out';
-  case 409: return 'Conflict';
-  case 410: return 'Gone';
-  case 411: return 'Length Required';
-  case 412: return 'Precondition Failed';
-  case 413: return 'Request Entity Too Large';
-  case 414: return 'Request-URI Too Large';
-  case 415: return 'Unsupported Media Type';
-  case 416: return 'Requested range not satisfiable';
-  case 417: return 'Expectation Failed';
-  case 500: return 'Internal Server Error';
-  case 501: return 'Not Implemented';
-  case 502: return 'Bad Gateway';
-  case 503: return 'Service Unavailable';
-  case 504: return 'Gateway Time-out';
-  case 505: return 'HTTP Version not supported';
-  default: return 'Unknown HTTP error';
-  }
-}
-
-
-// ƒCƒ[ƒWî•ñJSON‚ğ“Ç‚İ‚Ş
+// ã‚¤ãƒ¡ãƒ¼ã‚¸æƒ…å ±JSONã‚’èª­ã¿è¾¼ã‚€
 function loadJSON(path, callback) {
   var xobj;
 
   try {
-    // IE‚Å‚ÍXMLHttpRequest‚ª‚¤‚Ü‚­“®‚©‚È‚¢i‚±‚Æ‚ª‚ ‚éj
+    // IEã§ã¯XMLHttpRequestãŒã†ã¾ãå‹•ã‹ãªã„ï¼ˆã“ã¨ãŒã‚ã‚‹ï¼‰
     xobj = new ActiveXObject('MSXML2.XMLHTTP.6.0');
   }
   catch (e) {
@@ -52,18 +20,13 @@ function loadJSON(path, callback) {
     xobj.onreadystatechange = function(){
       if (xobj.readyState == 4) {
         if (xobj.status == '200' || (location.protocol == 'file:' && xobj.status == '0')) {
-          // ƒhƒLƒ…ƒƒ“ƒg‚ÍŒ©“–‚½‚ç‚È‚¢‚ªAƒ[ƒJƒ‹ƒtƒ@ƒCƒ‹‚Ìê‡¬Œ÷‚Éstatus=0‚É‚È‚é‚±‚Æ‚ª‚ ‚é
-          // ‚Æ‚è‚ ‚¦‚¸Win”ÅChrome‚ÆIE‚Å‚Ístatus=0. FireFox‚Å‚Íƒ[ƒJƒ‹‚Å‚à200.
+          // ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã¯è¦‹å½“ãŸã‚‰ãªã„ãŒã€ãƒ­ãƒ¼ã‚«ãƒ«ãƒ•ã‚¡ã‚¤ãƒ«ã®å ´åˆæˆåŠŸæ™‚ã«status=0ã«ãªã‚‹ã“ã¨ãŒã‚ã‚‹
+          // ã¨ã‚Šã‚ãˆãšWinç‰ˆChromeã¨IEã§ã¯status=0. FireFoxã§ã¯ãƒ­ãƒ¼ã‚«ãƒ«ã§ã‚‚200.
           callback(xobj.responseText);
         }
         else {
-          var message;
-
-          if (xobj.status) {
-            message = xobj.status + ' ' + HttpStatus(xobj.status);
-          }
-
-          console.log('XMLHttpRequests.status = ' + xobj.status + ' ' + message);
+          var message = xobj.status + ' ' + xobj.statusText;
+          console.log('XMLHttpRequests.status = ' + message);
           callback(new Error(message));
         }
       }
@@ -72,6 +35,8 @@ function loadJSON(path, callback) {
     xobj.send(null);
   }
   catch(e) {
+    // HTTPã‚¨ãƒ©ãƒ¼æ™‚ã«onreadystatechangeã¨ä¾‹å¤–ã®ã©ã¡ã‚‰ãŒç™ºç”Ÿã™ã‚‹ã‹ã¯ãƒ–ãƒ©ã‚¦ã‚¶ä¾å­˜
+    // ä¸¡æ–¹ç™ºç”Ÿã™ã‚‹ã‚±ãƒ¼ã‚¹ã‚‚ã‚ã‚‹
     console.log(e);
     callback(e);
   }

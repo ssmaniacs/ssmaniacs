@@ -30,6 +30,176 @@ var image_root = null;        // イメージをパスからロードする際�
 var image_scale = 1;          // ローレゾ時のイメージ倍率
 var local_mode = false;       // ローカルモード(JSONを動的ロードしない)
 
+//========================
+// Language configuration
+//========================
+var langlist = {      // supported languages
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "it": "Italiano",
+    "ja": "日本語",
+    "ko": "한국어",
+    "pt": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "ru": "Русский",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文"
+};
+var language = "en";  // current language
+
+function init_language() {
+  // initialize the language selector
+
+  // get the browser language setting
+  var br_lang =  (window.navigator.languages && window.navigator.languages[0]) ||
+    window.navigator.language ||
+    window.navigator.userLanguage ||
+    window.navigator.browserLanguage;
+
+  if (br_lang in langlist) {
+    language = br_lang;
+  }
+  else if (br_lang.split('-')[0] in langlist) {
+    language = br_lang.split('-')[0];
+  }
+  else {
+    language = 'en';  // fallback default
+  }
+
+  // setup the selector options
+  var selector = document.getElementById('select_lang');
+  for (var idx in langlist) {
+    var option = document.createElement('option');
+    option.value = idx;
+    option.innerHTML = langlist[idx];
+    selector.appendChild(option);
+    if (idx == language) {
+      option.selected = true; // initial selection
+    }
+  }
+
+  // apply the initial selection
+  change_language();
+}
+
+function change_language() {
+  // get the selected language
+  language = document.getElementById('select_lang').value;
+
+  // load language resource files
+  loadJSON('ObjectFinder.' + language + '.json', load_text_data);
+  loadJSON('scene_info.' + language + '.json', load_lang_info);
+}
+
+var lang_info;
+
+function load_lang_info(resp) {
+  if (!resp || resp instanceof Error) {
+    alert(resp ? resp.message : 'Load error');
+    return;
+  }
+
+  // parse the scene info json
+  lang_info = JSON.parse(resp);
+
+  // set up some UI text
+  document.getElementById('mode_text').innerText =
+    lang_info.modes.text + ', ' + lang_info.modes.night + ', ' +
+    lang_info.modes.silhouette + ', ' + lang_info.modes.pair;
+
+  document.getElementById('mode_part').innerText = lang_info.modes.part;
+  document.getElementById('mode_morph').innerText = lang_info.modes.morph;
+  document.getElementById('morph_label').innerText = lang_info.modes.morph;
+
+  // update the scene selector
+  var selector = document.getElementById('select_scene');
+
+  if (selector.hasChildNodes()) {    // language change
+    for (var sceneid in lang_info.scenes) {
+      var option = document.getElementById('scene-' + sceneid);
+      if (option) {
+        option.innerHTML = lang_info.scenes[sceneid];
+      }
+    }
+
+    // redraw menu
+    draw_menu();
+  }
+  else {  // initial setting
+    for (var sceneid in lang_info.scenes) {
+      var option = document.createElement('option');
+      option.value = sceneid;
+      option.id = 'scene-' + sceneid;
+      option.innerHTML = lang_info.scenes[sceneid];
+      selector.appendChild(option);
+    }
+
+    // set the initial value
+    selector.value = 3;
+    selector.disabled = false;
+
+    // load scene data
+    scene_change();
+  }
+}
+
+// User interface text
+var text_data_default = {
+  "controls": {
+    "picture_size": "Size",
+    "picture_smaller": "Smaller",
+    "picture_larger": "Larger",
+    
+    "effect_label": "Draw effects",
+    "lowres_label": "Low-Res (quicker to load)",
+    "scene_sptext": "Cannot execute the script.<br>Please try with different browsers.",
+
+    "clear_button": "Clear All",
+    "all_button": "Draw All",
+    "bgcolor_label": "Background",
+
+    "mode_label": "Mode",
+
+    "drawobj_label": "Draw objects",
+    "topmost_label": "Draw on top",
+    "encircle_label": "Encircle objects",
+
+    "morph_label": "Morphs",
+    "morph0_label": "Auto (switch every 3 secs.)",
+    "morph1_label": "Shape 1",
+    "morph2_label": "Shape 2"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "error_load": "Load error",
+    "error_image": "Image load error",
+    "chrome_local": "You need the following option to access local files with Chrome"
+  }
+};
+
+var text_data = text_data_default;
+
+function load_text_data(resp) {
+  if (!resp || resp instanceof Error) {
+    //alert(resp ? resp.message : 'Load error');
+    text_data = text_data_default;
+  }
+  else {
+    text_data = JSON.parse(resp);
+  }
+
+  for (var idx in text_data.controls) {
+    var elem = document.getElementById(idx);
+
+    if (elem) {
+      elem.innerHTML = text_data.controls[idx].replace(' ', '&nbsp;');
+    }
+  }
+}
+
+
 // 初期化
 function init(initial_scene) {
   // デバッグモードなど
@@ -69,6 +239,8 @@ function init(initial_scene) {
     });
   }
 
+  init_language();  // initialize language settings
+
   // シーン描画キャンバス、コンテキストを初期化
   scene_canvas = document.getElementById('scene_canvas');
   scene_canvas.width = BG_WIDTH / scale;
@@ -95,21 +267,6 @@ function init(initial_scene) {
   menu_canvas = document.getElementById('menu_canvas');
   menu_context = menu_canvas.getContext('2d');
 
-  // シーン選択リストに項目を設定
-  var selector = document.getElementById('select_scene');
-
-  for (var scene in scene_list) {
-    var option = document.createElement('option');
-    option.setAttribute('value', scene);
-    option.innerHTML = scene_list[scene];
-    selector.appendChild(option);
-  }
-
-  // 初期シーンを設定
-  selector.value = initial_scene;
-  selector.disabled = false;
-
-  scene_change();
 }
 
 
@@ -158,7 +315,7 @@ function scene_change() {
   }
 
   // 描画オブジェクトセレクタの初期化
-  var objlist = document.getElementById('select_object')
+  var objlist = document.getElementById('select_object');
 
   while (objlist.firstChild) {
     objlist.removeChild(objlist.firstChild);
@@ -173,24 +330,24 @@ function scene_change() {
   // シーンデータJSONロード
   var scene = document.getElementById('select_scene').value;
 
-  document.getElementById('scene_sptext').innerHTML = 'ロード中...';
+  document.getElementById('scene_sptext').innerHTML = text_data.messages.loading;
 
   var bgfile;
   var objfile;
   if (image_root) {
     // テスト用: 個々のイメージをパスからロード
-    bgfile = './scene_' + scene + '_bgp.json'
-    objfile = './scene_' + scene + '_objp.json'
+    bgfile = './scene_' + scene + '_bgp.json';
+    objfile = './scene_' + scene + '_objp.json';
   }
   else if (image_scale == 2) {
     // ローレゾ版イメージデータ埋め込み
-    bgfile = './scene_' + scene + '_bgl.json'
-    objfile = './scene_' + scene + '_objl.json'
+    bgfile = './scene_' + scene + '_bgl.json';
+    objfile = './scene_' + scene + '_objl.json';
   }
   else {
     // 通常（フルレゾ）版イメージデータ埋め込み
-    bgfile = './scene_' + scene + '_bg.json'
-    objfile = './scene_' + scene + '_obj.json'
+    bgfile = './scene_' + scene + '_bg.json';
+    objfile = './scene_' + scene + '_obj.json';
   }
 
   console.log('Loading ' + bgfile + ' and ' + objfile);
@@ -216,14 +373,11 @@ function scene_load_error(message) {
 
   // Chromeでローカルファイルの場合、エラーにならず空データが返る
   if (ua.indexOf('chrome') > -1 && proto == 'file:' && !message) {
-    message = 'Chromeでローカルファイルにアクセスするには<br>' +
-      '以下のオプションをつけてChromeを起動してください<br>' +
-      '（詳しくは自分でググって）' +
-      '<pre>--allow-file-access-from-files</pre>';
+    message = text_data.messages.chrome_local + '<pre>--allow-file-access-from-files</pre>';
   }
 
   document.getElementById('scene_sptext').innerHTML =
-    'イメージデータロードエラー' + (message ? ('<p>' + message): '');
+    text_data.messages.error_image + (message ? ('<p>' + message): '');
 }
 
 // バックグラウンド情報ロード確認
@@ -248,7 +402,7 @@ function load_scene_images() {
   var totalimages = scene_info.length;
   var loadedimages = 0;
 
-  var objlist = document.getElementById('select_object')
+  var objlist = document.getElementById('select_object');
 
   var load_failed = false;
 
@@ -298,7 +452,7 @@ function load_scene_images() {
       }
       img.image.onerror = function(){
         load_failed = true;
-        scene_load_error('画像読み込みエラー');
+        scene_load_error(text_data.messages.error_image);
       }
 
       if ('data' in img) {
@@ -323,7 +477,7 @@ function load_scene_images() {
 function object_load_error(message) {
   document.getElementById('menu_spinner').style.display = 'none';
   document.getElementById('menu_errtext').innerHTML =
-    'イメージデータロードエラー' + (message ? ('<p>' + message) : '');
+    text_data.messages.error_image + (message ? ('<p>' + message) : '');
 }
 
 // 探索オブジェクト情報ロード確認
@@ -407,7 +561,7 @@ function load_object_images() {
 
   var totalobjects = object_images.length;
   var loadedobjects = 0;
-  var load_failed = false
+  var load_failed = false;
 
   for (var idx in object_images) {
     if (load_failed) {
@@ -509,11 +663,11 @@ function drawscene() {
     // オブジェクト、カバーを描画
     if (drawobj) {
       for (var idx in imglist) {
-        var obj = imglist[idx]
+        var obj = imglist[idx];
         var pic = obj[drawtarget];
         scene_context.drawImage(object_images[pic.ref], pic.x / image_scale, pic.y / image_scale);
 
-        pic = obj['cover']
+        pic = obj.cover;
         if (!topmost && pic) {
           scene_context.drawImage(object_images[pic.ref], pic.x / image_scale, pic.y / image_scale);
         }
@@ -542,7 +696,7 @@ function drawscene() {
     scene_context.strokeStyle = '#ff0000';
 
     for (var idx in imglist) {
-      var obj = imglist[idx]
+      var obj = imglist[idx];
       for (var idx1 in obj) {
         if (idx1 == drawtarget) {
           var pic = obj[idx1];
@@ -674,16 +828,14 @@ function mode_change() {
 
   // モーフ形態選択ボタンの有効・無効切り替え
   for (var i = 0; i <= 2; i++) {
-    document.getElementById('morph' + i).disabled = (mode != 'morph');
+    var name = 'morph' + i;
+    var elem = document.getElementById(name);
+    elem.disabled = (mode != 'morph');
     document.getElementById('morph' + i + '_label').style.color = ((mode != 'morph') ? 'silver' : 'black');
   }
 
   // メニュー構造を準備
-  current_menu = {
-    'mode': mode,
-    'select': null,
-    'items': []
-  };
+  current_menu = {'mode': mode, 'select': null, 'items': []};
 
   var obj1 = object_info[mode];
 
@@ -725,8 +877,7 @@ function mode_change() {
 
 
 // オブジェクトメニューを描画する
-function draw_menu()
-{
+function draw_menu() {
   if (!object_images) {
     return;
   }
@@ -762,8 +913,7 @@ MENUICON_MAX = 100; // 最大メニューアイコンサイズ
 MENUICON_MIN = 80;  // 最小メニューアイコンサイズ
 
 // メニュー項目を描画する
-function draw_menuitem(menuitem, erasebg, selected)
-{
+function draw_menuitem(menuitem, erasebg, selected) {
   var obj = menuitem.obj;
 
   draw_menuframe(menuitem.x, menuitem.y, erasebg, selected);
@@ -778,7 +928,8 @@ function draw_menuitem(menuitem, erasebg, selected)
     menu_context.drawImage(img, menuitem.x + x, menuitem.y + y, size[0], size[1]);
 
     menu_context.fillStyle = 'black';
-    menu_context.fillText(obj.name, menuitem.x + 64, menuitem.y + 120, 128);
+
+    menu_context.fillText(lang_info.objects[obj.name], menuitem.x + 64, menuitem.y + 120, 128);
   }
   else if (current_menu.mode == 'part') {
     var img = object_images[obj.ref];
@@ -808,8 +959,7 @@ function draw_menuitem(menuitem, erasebg, selected)
 
 
 // メニュー項目の背景・選択枠を描画する
-function draw_menuframe(x, y, erasebg, selected)
-{
+function draw_menuframe(x, y, erasebg, selected) {
   if (erasebg) {
     menu_context.clearRect(x, y, 128, 128);
   }
@@ -823,8 +973,7 @@ function draw_menuframe(x, y, erasebg, selected)
 
 
 // 小さすぎ・大きすぎるアイコンイメージを拡大・縮小する
-function adjust_imgsize(w, h, maxval, minval)
-{
+function adjust_imgsize(w, h, maxval, minval) {
   //w *= image_scale;
   //h *= image_scale;
   maxval /= image_scale;

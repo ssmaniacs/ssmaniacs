@@ -4,28 +4,30 @@
 
 1. シーン・オブジェクト情報の読み込み、変換
 
-    $ ReadSceneResource.py resdir [id ...]
+    $ ReadSceneResource.py {resdir} [id ...]
         -> ./scene_{id}_data.json
 
 
 2. 多言語用JSON を生成（シーン名、オブジェクト名）
 
-	$ MakeLangJson.py resdir datadir outdir
+	$ MakeLangJson.py {resdir} {datadir} {outdir}
 		=> {outdir}/scene_info.{lang}.json
 
 
 3. シーン・オブジェクト画像の変換
 
-	$ MakeConvertList.py resdir imgdir scene_{id}_data.json [...] > convlist.txt
+	$ MakeConvertList.py {resdir} {imgdir} scene_{id}_data.json [...] > convlist.tsv
 	$ convert_images.sh convlist.tsv
 
+	$ python MakeConvertList.py ../../resources/ ../../images/ scene_{?,??}_data.json > convlist.tsv
+
     (縮小版イメージの作成)
-	$ shrink_images.sh imgdir lo-imgdir
+	$ shrink_images.sh {imgdir} {lo-imgdir}
 
 
 4. シーン情報JSON を生成 (SceneParams.htmlから参照）
 
-	$ MakeSceneJson.py resdir imgdir outdir prm [embed]
+	$ MakeSceneJson.py {imgdir} {outdir} prm [embed] scene_{id}_data.json
 		=> {outdir}/scene_{id}_prm.json
 
 	embed 未指定の場合、JSON内にはイメージパスのみ格納
@@ -33,7 +35,7 @@
 
 5. オブジェクトファインダJSONを生成 (ObjectFinder.htmlから参照）
 
-	$ MakeSceneJson.py resdir imgdir {outdir} bg obj
+	$ MakeSceneJson.py {imgdir} {outdir} bg obj scene_{id}_data.json
 		=> {outdir}/scene_{id}_bgp.json
 		=> {outdir}/scene_{id}_objp.json
 
@@ -41,13 +43,13 @@
 
 6. オブジェクトファインダをパスモードで実行
 
-	http://.../ObjectFinder.html?image_root=relpath&bg_control=true
+	http://.../ObjectFinder.html?image_root={relpath}&bg_control=true
 
 7. scene_template.jsonを適宜修正 ("type":"skip", "type":"effect" の追記など)
 
 8. オブジェクトファインダJSONイメージ埋め込み版を生成
 
-	$ MakeSceneJson.py resdir imgdir {outdir} bg obj embed
+        $ MakeSceneJson.py {imgdir} {outdir} bg obj embed scene_{id}_data.json
 		=> {outdir}/scene_{id}_bg.json
 		=> {outdir}/scene_{id}_obj.json
 
@@ -82,3 +84,4 @@
 		collections_all.json
 		collections_<n>.json
 		artifacts_<n>.json
+

@@ -23,5 +23,5 @@ fi
 mkdir -p $DSTDIR
 
 for m in $(find $SRCDIR -type f -name '[1-9]*_.jpg' -printf '%f\n' | sed -nE '/^[0-9]+_\./p' | sort -n); do
-	echo COMBINE $SRCDIR/${m%_.jpg}.jpg $SRCDIR/$m $DSTDIR/${m%_.jpg}.png
+	echo COMBINE $SRCDIR/${m%_.jpg}.jpg $m $DSTDIR/${m%_.jpg}.png
 done

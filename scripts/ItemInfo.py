@@ -166,6 +166,8 @@ def main():
       jdata['parameters'][1]['Inventory']['item_id'],
       jdata['parameters'][1]['Inventory']['item_count']))
 
+    #sys.stderr.write(json.dumps(inventory, indent=2, sort_keys=True))
+
   # print result
   line = ['id', 'type', 'combine', 'inventory']
 

@@ -5,20 +5,22 @@ declare -A items_
 
 LAST=0
 while :; do
-	PENDING=$(sqlite3 SelfGift.db "select count(*) from gifts;")
-	if [[ ${PENDING} -ne 0 ]]; then
-		sleep 10
-		continue
-	fi
-
 	UPDATE=$(date -r json/UpdateInventory.req.json +%s)
 	if [[ ${UPDATE} -gt ${LAST} ]]; then
 		echo $(date +"%Y-%m-%d %H:%M:%S"): Inventory updated
 		while read ID NUM; do
 			item_[${ID}]=${NUM}
 			echo ${ID} = ${item_[${ID}]}
-		done < <(./ItemInfo.py . json element | awk '/^[0-9]/{print $1,$3;}')
-		sqlite3 SelfGift.db "delete from gifts;"
+		done < <(./ItemInfo.py ../resources json element | awk '/^[0-9]/{print $1,$3;}')
+		sqlite3 SelfGift.db "delete from gifts; delete from inventory"
+		./ItemInfo.py ../resources json element | awk '/^[0-9]/{print $1"|"$3;}' > inventory.txt
+		sqlite3 SelfGift.db ".import 'inventory.txt' inventory"
+	fi
+
+	PENDING=$(sqlite3 SelfGift.db "select count(*) from gifts;")
+	if [[ ${PENDING} -ne 0 ]]; then
+		sleep 1
+		continue
 	fi
 
 	LAST=$(date +%s)
@@ -64,6 +66,7 @@ while :; do
 
 	./SelfGiftAdd.sh ${ARGS}
 
+	sqlite3 SelfGift.db "select itemid, count(*), stock from gifts join inventory using (itemid) group by 1, 3;"
 	LAST=$(date +%s)
-	sleep 10
+	sleep 1
 done

@@ -30,7 +30,7 @@ def output_bg(scene, imgdir, template, outdir, embed):
 
   bginfo = []
 
-  for (layer, images) in sorted(scene['images']['background'].items()):
+  for (layer, images) in sorted(scene['images']['background'].items(), key=lambda x:int(x[0])):
     for srcimg in images:
       dstimg = {
         'layer': int(layer),

@@ -72,7 +72,7 @@
       {"layer": 10, "x":1125, "y":   0, "path":"brazil.bg/lamp_left.png"},
       {"layer": 10, "x": 746, "y":   0, "path":"brazil.bg/lamp_center.png"},
       {"layer": 10, "x": 383, "y":   0, "path":"brazil.bg/lamp_right.png"},
-      {"layer": 10, "x": 489, "y": 326, "path":"brazil.bg/propeller_01.png",                            "ani":true},
+      {"layer": 10, "x": 489, "y": 326, "path":"brazil.bg/propeller_01.png",                         "ani":true},
       {"layer": 10, "x": 481, "y": 319, "path":"brazil.bg/propeller_mask.png"}
     ]
   },
@@ -96,9 +96,9 @@
     "background": [
       {"layer":  0, "x": 228, "y":   0, "path":"plane.bg/back.png"},
       {"layer":  1, "x":  -5, "y":   0, "path":"plane.bg/bg.png"},
-      {"layer":  5, "x": 836, "y": 537, "path":"plane.bg/snail2.png",                              "type":"skip"},
+      {"layer":  5, "x": 836, "y": 537, "path":"plane.bg/snail2.png",                                "type":"skip"},
       {"layer":  6, "x": 733, "y": 409, "path":"plane.bg/cover_snail2.png",                          "type":"skip"},
-      {"layer": 23, "x": 895, "y": 283, "path":"plane.bg/snail1.png",                              "type":"skip"},
+      {"layer": 23, "x": 895, "y": 283, "path":"plane.bg/snail1.png",                                "type":"skip"},
       {"layer":401, "x": 880, "y": 272, "path":"plane.bg/cover_snail1.png",                          "type":"skip"},
       {"layer":500, "x":-155, "y":-107, "path":"plane.bg/leaf1.png"},
       {"layer":500, "x":1153, "y": 207, "path":"plane.bg/leaf2.png"},
@@ -635,5 +635,60 @@
       {"layer": 2, "x": 383,  "y": 459, "path": "playground.bg/wheel_ship.png"},
       {"layer": 3, "x": 430,  "y": 481, "path": "playground.bg/wheel_ship_cover.png"}
     ]
-  }
+  },
+  "53": {
+    "name": "砂漠の中心",
+    "background": [
+      {"layer": 0,  "x": 970,  "y": 32,  "path": "arabian_tent.bg/back.png"}, 
+      {"layer": 0,  "x": 1087, "y": 73,  "path": "arabian_tent.bg/cloud_1.png"}, 
+      {"layer": 0,  "x": 1040, "y": 114, "path": "arabian_tent.bg/cloud_2.png"}, 
+      {"layer": 0,  "x": 1143, "y": 103, "path": "arabian_tent.bg/cloud_3.png"}, 
+      {"layer": 1,  "x": 998,  "y": 40,  "path": "arabian_tent.bg/palm.png"}, 
+      {"layer": 1,  "x": 1017, "y": 84,  "path": "arabian_tent.bg/palm_leave_1.png"}, 
+      {"layer": 1,  "x": 1001, "y": 128, "path": "arabian_tent.bg/palm_leave_2.png"}, 
+      {"layer": 1,  "x": 1045, "y": 100, "path": "arabian_tent.bg/palm_leave_3.png"}, 
+      {"layer": 1,  "x": 1031, "y": 130, "path": "arabian_tent.bg/palm_leave_4.png"}, 
+      {"layer": 1,  "x": 1048, "y": 175, "path": "arabian_tent.bg/palm_leave_5.png"}, 
+      {"layer": 1,  "x": 1202, "y": 209, "path": "arabian_tent.bg/palm_leave_6.png"}, 
+      {"layer": 1,  "x": 1205, "y": 153, "path": "arabian_tent.bg/palm_leave_7.png"}, 
+      {"layer": 2,  "x": 0,    "y": -3,  "path": "arabian_tent.bg/bg.png"},
+      {"layer": 10, "x": 187,  "y": 473, "path": "arabian_tent.bg/lizard_001.png",                  "type": "skip", "ani": true}
+    ]
+ },
+  "54": {
+    "name": "戦士の村",
+    "background": [
+      {"layer": 0,  "x": 0,    "y": 0,    "path": "warriors_village.bg/sky.png"}, 
+      {"layer": 0,  "x": 1059, "y": 5,    "path": "warriors_village.bg/cloud_01.png"}, 
+      {"layer": 0,  "x": 1052, "y": 113,  "path": "warriors_village.bg/cloud_02.png"}, 
+      {"layer": 0,  "x": 836,  "y": 32,   "path": "warriors_village.bg/cloud_03.png"}, 
+      {"layer": 0,  "x": 338,  "y": 15,   "path": "warriors_village.bg/cloud_04.png"}, 
+      {"layer": 0,  "x": 80,   "y": 35,   "path": "warriors_village.bg/cloud_05.png"}, 
+      {"layer": 1,  "x": 133,  "y": 14,   "path": "warriors_village.bg/mountain.png"}, 
+      {"layer": 2,  "x": 0,    "y": 0,    "path": "warriors_village.bg/bg.png"}, 
+      {"layer": 4,  "x": 734,  "y": 405,  "path": "warriors_village.bg/smoke_cover.png"},
+      {"layer": 10, "x": -322, "y": -243, "path": "warriors_village.bg/tree.png"}, 
+      {"layer": 10, "x": 314,  "y": 465,  "path": "warriors_village.bg/goat_001.png", "ani": true}, 
+      {"layer": 10, "x": 728,  "y": 387,  "path": "warriors_village.bg/smoke_001.png", "ani": true}, 
+      {"layer": 10, "x": 1202, "y": 146,  "path": "warriors_village.bg/ribbon_001.png", "ani": true}, 
+      {"layer": 10, "x": 985,  "y": 31,   "path": "warriors_village.bg/ribbon_red_001.png", "ani": true}, 
+      {"layer": 10, "x": 1349, "y": 148,  "path": "warriors_village.bg/ribbon_yellow_001.png", "ani": true}, 
+      {"layer": 11, "x": 979,  "y": 0,    "path": "warriors_village.bg/ribbon_cover.png"}
+    ]
+ },
+  "55": {
+    "name": "高い塔",
+    "background": [
+      {"layer": 1,  "x": 508,  "y": 87,  "path": "high_tower.bg/back.png"}, 
+      {"layer": 1,  "x": 492,  "y": 183, "path": "high_tower.bg/cloud_1.png"}, 
+      {"layer": 1,  "x": 628,  "y": 194, "path": "high_tower.bg/cloud_2.png",       "type": "skip"}, 
+      {"layer": 1,  "x": 632,  "y": 192, "path": "high_tower.bg/cloud_3.png",       "type": "skip"}, 
+      {"layer": 2,  "x": 0,    "y": 0,   "path": "high_tower.bg/bg.png"}, 
+      {"layer": 3,  "x": 629,  "y": 621, "path": "high_tower.bg/shadow.png",        "type": "skip"}, 
+      {"layer": 4,  "x": 623,  "y": 567, "path": "high_tower.bg/shadow_cover.png",  "type": "skip"}, 
+      {"layer": 6,  "x": 114,  "y": 98,  "path": "high_tower.bg/light_1.png",       "type": "effect"}, 
+      {"layer": 6,  "x": 430,  "y": 357, "path": "high_tower.bg/light_2.png",       "type": "effect"}, 
+      {"layer": 6,  "x": 1323, "y": 290, "path": "high_tower.bg/light_3.png",       "type": "effect"}
+    ]
+ }
 }

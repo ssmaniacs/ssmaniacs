@@ -50,10 +50,14 @@ var collections =
   }, 
   {
     "id": "collections_12", 
-    "title": "コレクション 551-591 (画像あり)"
+    "title": "コレクション 551-600 (画像あり)"
+  }, 
+  {
+    "id": "collections_13", 
+    "title": "コレクション 601-624 (画像あり)"
   }, 
   {
     "id": "artifacts_1", 
-    "title": "遺物 1-25 (画像あり)"
+    "title": "遺物 1-28 (画像あり)"
   }
 ];

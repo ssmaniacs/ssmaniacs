@@ -18,7 +18,7 @@ GIFTER_NAME = 'SecretSanta'
 
 def split_header(text):
   '''Split HTTP header into keys and values'''
-  header = {}
+  header = OrderedDict()
 
   for line in text.split('\r\n'):
     if not header:
@@ -151,6 +151,36 @@ def process_method(jdata):
       print json.dumps(fakeres, indent=2)
       return json.dumps(fakeres)
 
+  elif jdata['methodName'] == 'RestoreOrRegisterApp':
+    jdata['parameters'] = [ "6244e627cf2868f1", "6244e627cf2868f1" ]
+    return 'Forward modified'
+
+  '''
+  elif jdata['methodName'] == 'UpdateInventory':
+    items = dict(zip(
+      jdata['parameters'][1]['Inventory']['item_id'],
+      jdata['parameters'][1]['Inventory']['item_count']
+    ))
+    for itemid in (2856, 2857, 2858, 2859):
+      if itemid in items:
+        del items[itemid]
+
+    (jdata['parameters'][1]['Inventory']['item_id'], jdata['parameters'][1]['Inventory']['item_count']) = zip(
+      *(sorted(items.items())))
+    return 'Forward modified'
+    #2856  keyitem   1 "Observation Deck" fragment This is needed to complete the "Observation Deck" photo.  
+    #2857  keyitem   1 "Observation Deck" fragment This is needed to complete the "Observation Deck" photo.  
+    #2858  keyitem   1 "Observation Deck" fragment This is needed to complete the "Observation Deck" photo.  
+    #2859  keyitem   1 "Observation Deck" fragment This is needed to complete the "Observation Deck" photo.  
+
+  elif jdata['methodName'] == 'UpdateProfile':
+    if jdata['parameters'][1]['achivement_progress']['a06_puzzles_in_row'] < 4998:
+      jdata['parameters'][1]['achivement_progress']['a06_puzzles_in_row'] = 4998
+      jdata['parameters'][1]['achivement_progress']['best_puzzles_row'] = 4998
+      return 'Forward modified'
+  '''
+
+
   return None
 
 
@@ -177,18 +207,43 @@ def do_proxy(conn, jdir):
     (head, body) = request.split('\r\n\r\n', 1)
 
     header = split_header(head)
-    jdata = json.loads(body)
-
-    method = jdata['methodName']
-
-    with open(os.path.join(jdir, method + '.req.json'), 'w') as fh:
-      fh.write(body)
-
-    if header.get('request') == 'POST /hog_ios/jsonway_android.php HTTP/1.0' and header.get('content-type') == 'application/json':
-      reply = process_method(jdata)
+    if header.get('request') != 'POST /hog_ios/jsonway_android.php HTTP/1.0' or \
+      header.get('content-type') != 'application/json':
+      reply = None
 
     else:
-      reply = None
+      jdata = json.loads(body)
+
+      # Write request JSON into local file
+      method = jdata['methodName']
+      with open(os.path.join(jdir, method + '.req.json'), 'w') as fh:
+        fh.write(body)
+
+      reply = process_method(jdata)
+
+      if reply == 'Forward modified':
+        reply = None
+
+        body = json.dumps(jdata, indent=2)
+        with open(os.path.join(jdir, method + '.req.mod.json'), 'w') as fh:
+          fh.write(body)
+        
+        header['content-length'] = len(body)
+
+        head = []
+        for (k, v) in header.items():
+          if k == 'request':
+            head.append(v)
+          else:
+            head.append('{0}: {1}'.format(k, v))
+
+        head.append('\r\n')
+        head = '\r\n'.join(head)
+        with open(os.path.join(jdir, method + '.req.hdr.json'), 'w') as fh:
+          fh.write(head)
+
+        request = ''.join([head, body])
+        print '[{0}] Forwarding modified request'.format(timestamp())
 
     if reply:
       reply = '\r\n'.join([

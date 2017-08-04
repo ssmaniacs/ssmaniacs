@@ -45,14 +45,17 @@ def make_convlist(resdir, imgdir, scene):
           sys.stderr.write(' =>{0} found instead\n'.format(fore[len(resdir)+6:]))
           break
       else:
-        if '/covers/' in path:  # Playgroundのデータがおかしい
+        if 'telescope_4_2cover' in path:  # arabian_tentのデータが一個おかしい
+          fullpath = os.path.join(resdir, '1024', path).replace('telescope_4_2cover', 'telescope_4_2_cover')
+        elif '/covers/' in path:  # Playgroundのデータがおかしい
           fullpath = os.path.join(resdir, '1024', path).replace('/covers/', '/cover/')
-          for fore in glob.glob(fullpath + '.*'):
-            if fore[-4:] in ('.png', '.jpg'):
-              sys.stderr.write(' =>{0} found instead\n'.format(fore[len(resdir)+6:]))
-              break
-          else:
-            return (None, None)
+        else:
+          return (None, None)
+
+        for fore in glob.glob(fullpath + '.*'):
+          if fore[-4:] in ('.png', '.jpg'):
+            sys.stderr.write(' =>{0} found instead\n'.format(fore[len(resdir)+6:]))
+            break
         else:
           return (None, None)
 

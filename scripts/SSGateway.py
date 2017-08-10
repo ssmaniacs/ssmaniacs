@@ -127,7 +127,7 @@ def process_method(jdata):
           del items[itemid]
           fakeres['forward'] = True
 
-    if fakeres['forward']:
+    if fakeres.get('forward'):
       (
         jdata['parameters'][1]['Inventory']['item_id'],
         jdata['parameters'][1]['Inventory']['item_count']
@@ -155,14 +155,14 @@ def process_method(jdata):
   return fakeres
 
 
-def recv_http(sock):
+def recv_http(sock, timeout=5.0):
   '''Receive HTTP message (header and body)'''
   message = ''
   headers = None
   msgbody = None
 
   try:
-    sock.settimeout(1.0)
+    sock.settimeout(timeout)
 
     while True:
       data = sock.recv(4096)

@@ -4,8 +4,8 @@
 
 1. シーン・オブジェクト情報の読み込み、変換
 
-    $ ReadSceneResource.py {resdir} [id ...]
-        -> ./scene_{id}_data.json
+	$ ReadSceneResource.py {resdir} [id ...]
+		=> ./scene_{id}_data.json
 
 
 2. 多言語用JSON を生成（シーン名、オブジェクト名）

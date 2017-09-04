@@ -35,14 +35,15 @@ def fakegifts(giftlist):
   '''Generate a fake gift data'''
   gifts = []
 
-  for (giftid, itemid) in giftlist:
+  for (giftid, itemid, number) in giftlist:
     gift = OrderedDict()
-    gift['friend_uid'] = GIFTER_ID
+    #gift['friend_uid'] = GIFTER_ID
+    gift['friend_uid'] = 'suid_00000000'
     gift['item'] = OrderedDict()
-    gift['item']['colvo'] = 1
+    gift['item']['colvo'] = number
     gift['item']['item_id'] = itemid
     gift['item']['item_id_random'] = 68
-    gift['item']['picture_id'] = 1
+    gift['item']['picture_id'] = 33
     gift['item']['username'] = GIFTER_NAME
     gift['uid'] = giftid
 
@@ -63,7 +64,7 @@ def process_method(jdata):
 
   if jdata['methodName'] == 'GetGifts':
     with sqlite3.connect(DBNAME) as dbh:
-      rows = dbh.execute('SELECT giftid, itemid FROM gifts ORDER BY giftid;').fetchall()
+      rows = dbh.execute('SELECT giftid, itemid, number FROM gifts ORDER BY giftid LIMIT 300;').fetchall()
 
     if rows:
       fakeres['response'] = fakegifts(rows)
@@ -98,6 +99,7 @@ def process_method(jdata):
     if response:
       fakeres['response'] = response
 
+  '''
   elif jdata['methodName'] == 'RestoreOrRegisterApp':
     fakeres['response'] = {
       'new': False,
@@ -133,7 +135,6 @@ def process_method(jdata):
         jdata['parameters'][1]['Inventory']['item_count']
       ) = zip(*(sorted(items.items())))
 
-  '''
   elif jdata['methodName'] == 'UpdateProfile':
     # modify profile data in the SS server
     if jdata['parameters'][1]['achivement_progress']['a06_puzzles_in_row'] < 4998:
@@ -320,7 +321,8 @@ def initdb():
     dbh.execute('''
 CREATE TABLE IF NOT EXISTS gifts (
   giftid INTEGER PRIMARY KEY,
-  itemid INTEGER);''')
+  itemid INTEGER,
+  number INTEGER);''')
 
 
 def main():

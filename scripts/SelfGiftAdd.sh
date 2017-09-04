@@ -9,10 +9,7 @@ ADDITEM() {
         CNT=${1#*x}
     fi
 
-    while [[ ${CNT} -gt 0 ]]; do
-	echo "insert into gifts(itemid) values(${ITEM});"
-        CNT=$((CNT - 1))
-    done
+	echo "INSERT INTO gifts(itemid, number) values(${ITEM}, ${CNT});"
 }
 
 SUPPLY() {
@@ -63,8 +60,6 @@ EOF
 	cat <<-EOF
 		.mode tabs
 		.headers on
-		delete from gifts where giftid > 300;
-		select itemid, count(*) from gifts group by itemid union
-		select 'total', count(*) from gifts;
+		select itemid, number from gifts;
 	EOF
 } | sqlite3 SelfGift.db

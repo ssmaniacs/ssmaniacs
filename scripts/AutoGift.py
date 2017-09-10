@@ -1,4 +1,4 @@
-#!/usr/bin/python
+# /usr/bin/python
 # -*- coding: utf-8 -*-
 # vim: ts=2 et
 '''Automatically send gifts on wishlists'''
@@ -24,7 +24,7 @@ CHARGES = {
   'firefl': 847,
   'carrot': 1663,
   'arrow': 2117,
-  'ladybug': 2222,
+  'bug': 2222,
   'token': 2892,
 }
 

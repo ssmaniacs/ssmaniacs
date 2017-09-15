@@ -77,6 +77,14 @@ USE_INVITE_RESULTS = {
     5: 'already sent',
 }
 
+DECLINE_INVITE = {
+    "serviceName": "GameService",
+    "methodName": "DeclineInvite",
+    "parameters": [
+        "suid_20699361", "invitee-suid"
+    ]
+}
+
 def http_post(body, proxy=None):
     headers = {
         'Host': 'sh.g5e.com',
@@ -116,23 +124,47 @@ def add_friend(suid):
 
     return (rslt == 0)
 
+def decline_invite(suid):
+    print 'Declining {0}'.format(suid)
+    DECLINE_INVITE['parameters'][1] = suid
+    resp = http_post(json.dumps(DECLINE_INVITE))
+
+    print 'Result: {0} {1}'.format(rslt, resp['response'])
+
+    return resp['response']
+
 
 def main():
     try:
         count = int(sys.argv[1])
     except:
-        resp = http_post(json.dumps(GET_WAITINGS))
-        waiting = len(resp['response']['waiting_them'])
-        print 'Currently {0} friends in waiting'.format(waiting)
-        if waiting < 90:
-            count = 99 - waiting
-        else:
-            sys.exit(0)
+        count = -1
 
+    # Load already invited suid's
+    done = {}
     with open('AddFriends.done', 'r') as fh:
-        done = [l.strip() for l in fh]
+        for line in fh:
+            (uid, ts) = line.strip().split('\t')
+            done[uid.strip()] = int(ts.strip())
  
-    print 'Adding {0} friends'.format(count)
+    # Get current waiting list
+    resp = http_post(json.dumps(GET_WAITINGS))
+    waiting = len(resp['response']['waiting_them'])
+    print 'Currently {0} friends in waiting'.format(waiting)
+
+    # Purge stale invitations (more than 7 days old)
+    for user in resp['response']['waiting_them']:
+        suid = user['uid']
+
+        if suid in done and done[suid] < time.time() - (60 * 60 * 24 * 7):
+            decline_invite(suid)
+            waiting -= 1
+
+    count = 99 - waiting
+    if count == 0:
+        sys.exit(0)
+
+    print 'Inviting {0} friends'.format(count)
 
     with sqlite3.connect('AnonymousGift.db') as dbh:
         cur = dbh.cursor()
@@ -144,7 +176,7 @@ def main():
 
             try:
                 if add_friend(suid):
-                    done.append(suid)
+                    done[suid] = int(time.time())
                     count -= 1
                     if count == 0:
                         break
@@ -154,8 +186,9 @@ def main():
             time.sleep(5)
 
     with open('AddFriends.done', 'w') as fh:
-        done.append('')
-        fh.write('\n'.join(done))
+        for (suid, ts) in done.items():
+            fh.write('{0}\t{1}\n'.format(suid, ts))
+
 
 if __name__ == '__main__':
     main()

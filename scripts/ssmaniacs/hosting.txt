@@ -17,32 +17,18 @@ FTP server
     root: public_html
 
 
-http://ssmaniacs.epizy.com/
-
-Control Panel:
-    http://cpanel.epizy.com/index.php
-    user: epiz_20081221
-    pass: secretsanta
-
-FTP server:
-    ftp.epizy.com
-    user: epiz_20081221
-    pass: secretsanta
-
-
-http://ssmaniacs.byethost7.com/
-
-Control Panel:
-    http://panel.byethost.com/
-    user: b7_20081682
-    pass: secretsanta
-
-FTP server:
-    ftp.byethost7.com
-    user: b7_20081682
-    pass: secretsanta
-
-
 https://ssmaniacs.github.io/ssmaniacs
     url = https://ssmaniacs:ten10coro56@github.com/ssmaniacs/ssmaniacs.git
 
+
+http://ssmaniacs.php.xdomain.jp/
+
+	https://www.xdomain.ne.jp/login/member.php
+	https://secure.xdomain.ne.jp/server_php/?action_user_index=true
+	user: xd989122
+	pass: secretsanta
+
+FTP server
+	sv1.php.xdomain.ne.jp
+	user: ssmaniacs.php.xdomain.jp
+	pass: secretsanta

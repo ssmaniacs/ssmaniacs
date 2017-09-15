@@ -13,7 +13,7 @@ from collections import OrderedDict
 
 DBNAME = 'SelfGift.db'
 MYSELF_ID = 'suid_20699361'
-GIFTER_ID = 'suid_34549937'
+GIFTER_ID = 'suid_00000000' # 'suid_34549937'
 GIFTER_NAME = 'SecretSanta'
 
 
@@ -37,8 +37,7 @@ def fakegifts(giftlist):
 
   for (giftid, itemid, number) in giftlist:
     gift = OrderedDict()
-    #gift['friend_uid'] = GIFTER_ID
-    gift['friend_uid'] = 'suid_00000000'
+    gift['friend_uid'] = GIFTER_ID
     gift['item'] = OrderedDict()
     gift['item']['colvo'] = number
     gift['item']['item_id'] = itemid
@@ -56,7 +55,7 @@ def timestamp():
   return time.strftime('%Y-%m-%d %H:%M:%S')
 
 
-def process_method(jdata):
+def process_method(jdata, jdir):
   '''Process the SS API method in the request body'''
   print '[{0}] Request: {1}'.format(timestamp(), jdata['methodName'])
  
@@ -99,49 +98,51 @@ def process_method(jdata):
     if response:
       fakeres['response'] = response
 
-  '''
   elif jdata['methodName'] == 'RestoreOrRegisterApp':
     fakeres['response'] = {
       'new': False,
       'suid': MYSELF_ID,
-      'level': 256
+      'level': 260
     }
+
+    try:
+      with open(os.path.join(jdir, 'UpdateProfile.req.json'), 'r') as fh:
+        prof = json.load(fh)
+        fakeres['response']['suid'] = prof['parameters'][1]['Profile']['uid']
+        fakeres['response']['level'] = prof['parameters'][1]['Profile']['level']
+    except StandardError:
+      pass
+
     #jdata['parameters'] = [ "6244e627cf2868f1", "6244e627cf2868f1" ]
     #fakeres['forward'] = True
 
-  elif jdata['methodName'] == 'UpdateInventory':
-    # modify inventory in the SS server
-    items = dict(zip(
-      jdata['parameters'][1]['Inventory']['item_id'],
-      jdata['parameters'][1]['Inventory']['item_count']
-    ))
+  elif jdata['methodName'] == 'GetInventory':
+    try:
+      with open(os.path.join(jdir, 'UpdateInventory.req.json'), 'r') as fh:
+        inv = json.load(fh)['parameters'][1]
 
-    # get modification data from database?
-    with sqlite3.connect(DBNAME) as dbh:
-      cur = dbh.cursor()
-      cur.execute('SELECT itemid, count FROM inventory;')
+      items = dict(zip(inv['Inventory']['item_id'], inv['Inventory']['item_count']))
 
-      for (itemid, count) in cur:
-        if count:
-          items[itemid] = count
-          fakeres['forward'] = True
-        elif itemid in items:
-          del items[itemid]
-          fakeres['forward'] = True
+      # get modification data from database?
+      modify = False
+      with sqlite3.connect(DBNAME) as dbh:
+        cur = dbh.cursor()
+        cur.execute('SELECT itemid, stock FROM inventory;')
 
-    if fakeres.get('forward'):
-      (
-        jdata['parameters'][1]['Inventory']['item_id'],
-        jdata['parameters'][1]['Inventory']['item_count']
-      ) = zip(*(sorted(items.items())))
+        for (itemid, stock) in cur:
+          if stock:
+            items[itemid] = stock
+            modify = True
+          elif itemid in items:
+            del items[itemid]
+            modify = True
 
-  elif jdata['methodName'] == 'UpdateProfile':
-    # modify profile data in the SS server
-    if jdata['parameters'][1]['achivement_progress']['a06_puzzles_in_row'] < 4998:
-      jdata['parameters'][1]['achivement_progress']['a06_puzzles_in_row'] = 4998
-      jdata['parameters'][1]['achivement_progress']['best_puzzles_row'] = 4998
-      fakeres['forward'] = True
-  '''
+      if modify:
+        (inv['Inventory']['item_id'], inv['Inventory']['item_count']) = zip(*(sorted(items.items())))
+        fakeres['response'] = inv
+
+    except StandardError:
+      pass
 
   if 'response' in fakeres:
     # Add fake statistics info to the fake response
@@ -209,6 +210,27 @@ def forward(request, host, timeout=1.0):
     sock.close()
 
 
+def write_json(dirname, prefix, suffix, data):
+  '''Write JSON data to a file'''
+  seqnum = 0
+  fname = os.path.join(dirname, '{0}.{1}'.format(prefix, suffix))
+  while True:
+    try:
+      if os.path.getmtime(fname) > time.time() - 30.0:
+        seqnum += 1
+        fname = os.path.join(dirname, '{0}.{1}.{2}'.format(prefix, seqnum, suffix))
+        continue
+    except StandardError:
+      pass
+
+    break
+
+  with open(fname, 'w') as fh:
+    fh.write(data)
+
+
+
+
 def do_proxy(clt, jdir):
   '''intercept SS transmission'''
 
@@ -231,11 +253,10 @@ def do_proxy(clt, jdir):
 
       # Save request JSON into local file
       method = jdata['methodName']
-      with open(os.path.join(jdir, method + '.req.json'), 'w') as fh:
-        fh.write(reqbody)
+      write_json(jdir, method, 'req.json', reqbody)
 
       # process SS request
-      resp = process_method(jdata)
+      resp = process_method(jdata, jdir)
 
       if not resp:            # Forward unchanged
         reply = None
@@ -244,9 +265,8 @@ def do_proxy(clt, jdir):
         reply = None
 
         reqbody = json.dumps(jdata, indent=2)
-        with open(os.path.join(jdir, method + '.req.mod.json'), 'w') as fh:
-          fh.write(reqbody)
-        
+        write_json(jdir, method, 'req.mod.json', reqbody)
+
         headers['content-length'] = len(reqbody)
 
         head = []
@@ -258,8 +278,7 @@ def do_proxy(clt, jdir):
 
         head.append('')
         head = '\r\n'.join(head)
-        with open(os.path.join(jdir, method + '.req.hdr.json'), 'w') as fh:
-          fh.write(head)
+        write_json(jdir, method, 'req.hdr.json', head)
 
         request = '\r\n'.join([head, reqbody])
         print '[{0}] Forwarding modified request'.format(timestamp())
@@ -292,8 +311,7 @@ def do_proxy(clt, jdir):
         else:
           result = 'success'
 
-        with open(os.path.join(jdir, method + '.res.json'), 'w') as fh:
-          fh.write(resbody)
+        write_json(jdir, method, 'res.json', resbody)
 
       except:
         if reshead:

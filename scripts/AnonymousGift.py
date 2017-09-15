@@ -412,7 +412,7 @@ def ProxyThread(thread):
             try:
                 (suid, name) = GIFT_TASK.get(True, 1.0)
                 GIFT_TASK.task_done()
-            except Queue.Empty:
+            except (Queue.Empty, TypeError):
                 if ENDALL:
                     break
                 continue
@@ -519,18 +519,25 @@ def add_gifts(dbh, gifts, limit):
     return added
 
 
-def add_users(dbh, users, limit):
+def add_users(dbh, users, limit=0, distance=None):
     cur = dbh.cursor()
     cur.execute('BEGIN IMMEDIATE TRANSACTION;')
 
     # Select unfollowed users with the latest activity in the last 7 days
-    sql = '''
-        SELECT suid, name, distance
-        FROM users
-        WHERE followed IS NULL
-        AND updated > strftime('%s', 'now', '-7 day')
-        ORDER BY distance, updated DESC
-        {0};'''.format('LIMIT {0}'.format(limit) if limit > 0 else '')
+    sql = 'SELECT suid, name, distance FROM users '
+
+    if distance is not None:
+        sql += 'WHERE distance = {0}'.format(distance)
+    else:
+        sql += '''WHERE followed IS NULL
+            AND updated > strftime('%s', 'now', '-7 day')
+            ORDER BY distance, updated DESC
+        '''
+
+        if limit > 0:
+            sql += 'LIMIT {0}'.format(limit)
+
+    sql += ';'
 
     cur.execute(sql)
 
@@ -556,7 +563,7 @@ def add_users(dbh, users, limit):
     return added
 
 
-def process_users(dbh):
+def process_users(dbh, mode):
     # start task threads
     qthreads = []
     while len(qthreads) < 30:
@@ -567,11 +574,21 @@ def process_users(dbh):
     more_users = True
     gifts = {}
     users = {}
+    distance = 0
 
     global ENDALL
     while True:
         trace()
-        if (not ENDALL) and more_users:
+        if mode == 'users':
+            # Add myself and immediate friends to the queue
+            if (not users) and (distance in (0, 1)):
+                add_users(dbh, users, distance=distance)
+                distance += 1
+
+            # Do not add any more friends or gifts
+            more_users = False
+
+        if more_users and not ENDALL:
             # Get ungifted users from database
             if len(gifts) < 100:
                 new_gifts = add_gifts(dbh, gifts, 100)
@@ -579,7 +596,7 @@ def process_users(dbh):
                 # When not enough ungifted users in database
                 if new_gifts < 100 and len(users) < 5:
                     # Add follow user tasks
-                    add_users(dbh, users, 5)
+                    add_users(dbh, users, limit=5)
                     if not users:   # no more un-followed users
                         more_users = False
 
@@ -736,11 +753,16 @@ def database_init(dbh):
 
 
 def main():
+    try:
+        mode = sys.argv[1]
+    except:
+        mode = None
+
     signal.signal(signal.SIGINT, handler)
     try:
         with sqlite3.connect(DATABASE, timeout=30.0) as dbh:
             database_init(dbh)
-            process_users(dbh)
+            process_users(dbh, mode)
 
     except:
         traceback.print_exc()

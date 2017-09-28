@@ -179,7 +179,7 @@ def main():
     print 'Level: {0}'.format(profile_old['Profile']['level'])
     print 'Profession: {0}'.format(profession[profile_old['Profile']['profession']])
     print 'Device ID: {0}, {1}'.format(profile_old['Profile']['idForDevice_ad'], profile_old['Profile']['idForDevice_vendor'])
-    print 'Achievements: {0}'.format(len(inventory_old.get('GameCenterAchievments', 0))-1)
+#    print 'Achievements: {0}'.format(len(inventory_old.get('GameCenterAchievments', 0))-1)
     print
     print 'New user'
     print 'UID: {0}'.format(profile_new['Profile']['uid'])
@@ -187,7 +187,7 @@ def main():
     print 'Level: {0}'.format(profile_new['Profile']['level'])
     print 'Profession: {0}'.format(profession[profile_new['Profile']['profession']])
     print 'Device ID: {0}, {1}'.format(profile_new['Profile']['idForDevice_ad'], profile_new['Profile']['idForDevice_vendor'])
-    print 'Achievements: {0}'.format(len(inventory_new.get('GameCenterAchievments', 0))-1)
+#    print 'Achievements: {0}'.format(len(inventory_new.get('GameCenterAchievments', 0))-1)
     print
 
     sys.stdout.write('Clone progress? ')

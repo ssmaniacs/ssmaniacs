@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<!--
+Secret Societyのプロファイルを別IDに複製する
+//-->
+<html>
+  <head>
+    <title>Clone Secret Society Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <h1>SS進行データ複製</h1>
+    <p>旧端末のSSアカウントから新端末のSSアカウントへ<strong>友達以外の</strong>ゲーム進行データを複製します。<br>
+      データの「移行」ではなく「複製」ですので、複製完了時点で旧端末と新端末は「たまたま名前やレベル、持ち物などが同じなだけの別人」
+      となります。複製後、それぞれの端末で独立してプレイを続行することができます。
+      友達を引き継げないのは新旧端末のアカウントが実質的に「別人」であるためです。
+
+    <h2>0.条件の確認</h2>
+    <ul>
+      <li>進行データの複製はSSサーバを介して行ないます。以下の手順は全て新旧両方の端末がインターネットに接続できる状態で実施してください。</li>
+      <li>新端末では進行データの削除またはゲーム本体のアンインストール・再インストールを行ないます。機能制限されていないかどうか確認しておいてください。</li>
+      <li>複製に失敗した場合、最悪の場合は新端末のゲームが最初からやり直しになります（旧端末には影響ありません）。
+        新端末のゲームがある程度進んでしまっている人は後悔しないようによく考えて。</li>
+      <li>2017/9月時点で、Android→Android、Android→iOS で成功した実績がありますが、異なる種類のデバイス間 (Android, iOS, Mac, Windows...) 
+        での複製ではまだまだ予想外の問題が発生する可能性があります。
+        たとえばイベント期間がずれている場合などどうなるかわかりません。
+        可能であればどちらの端末でもイベントがない（または同じイベントが進行している）期間に複製するほうが安全かと思われます。
+    </ul>
+    <h2>1.新端末の準備</h2>
+    <ol>
+      <li>新端末にゲームをインストールして、起動します。</li>
+      <li>プレーヤー名を入力、少なくとも初期チュートリアルの終わりまでプレイします
+        （仏像広場を１回プレイして骨董のコインをゲットするまで）。それより先に進んでいてもOKです。</li>
+      <li>ゲームを終了します。</li>
+      <li>ゲーム進行データを削除、またはゲーム本体を一旦アンインストールしてから再インストールします。<br>
+        ※ゲーム本体をアンインストールせずに進行データのみを削除する方法は<a href='#initgame'>こちら</a>。</li>
+      <li>ゲームを起動します。</li>
+      <li>「新しいセッションが始まりましたが、以前にこのデバイスで当ゲームをプレイしたことがあるようです。
+        以前の経過を取り戻して**レベルから続けますか?」
+        というメッセージが表示されてデータ削除／アンインストール直前の状態からゲームが続行できることを確認します。
+        前記メッセージが表示されずに直接プレーヤー名入力画面になってしまった場合は、
+        残念ながらこのサイトでは進行データの複製ができません。</li>
+      <li>友達招待コードを取得、メモしておきます（「友達」→「サービス」→「招待コード」）。</li>
+      <li>現時点でのレベル、職業、名前をメモしておきます（確認用）。</li>
+      <li>もう一度ゲームを終了、進行データの削除またはゲーム本体のアンインストール・再インストールを行ないます。<br>
+        ※ゲーム本体をアンインストールせずに進行データのみを削除する方法は<a href='#initgame'>こちら</a>。<br>
+        <font color='red'>※これ以降、進行データの複製が終わるまで新端末でゲームを起動しないよう注意してください。</font></li>
+    </ol>
+    <h2>2.旧端末の準備</h2>
+    <ol>
+      <li>ゲームを起動します。</li>
+      <li>友達招待コードを取得、メモしておきます（「友達」→「サービス」→「招待コード」）。</li>
+      <li>現時点でのレベル、職業、名前などをメモしておきます（確認用）。</li>
+      <li>ゲームを終了します。<br>
+        <font color='red'>※この時点の進行データがSSサーバに保管され，そこから新端末へ複製されます。</font></li>
+    </ol>
+    <h2>3.進行データの複製</h2>
+    <ol>
+      <li>旧端末招待コード: <input id="old_code" type="text" name="old_code">（またはユーザID）<br>
+        <table>
+          <tr>
+            <td valign="top"><input type="button" value="アカウント情報確認" onClick="verify_user('old')"></td>
+            <td>
+              <table border=1 cellpadding="5">
+                <tr>
+                  <th>ユーザID</th>  
+                  <th>名前</th>  
+                  <th>職業</th>  
+                  <th>レベル</th>
+                  <th>経験値</th>
+                  <th>完了クエスト数</th>
+                  <th>デバイス(?)</th>
+                </tr>
+                <tr>
+                  <td align="center"><span id="old_uid"><br></span></td>
+                  <td align="center"><span id="old_nam"><br></span></td>
+                  <td align="center"><span id="old_job"><br></span></td>
+                  <td align="center"><span id="old_lvl"><br></span></td>
+                  <td align="center"><span id="old_exp"><br></span></td>
+                  <td align="center"><span id="old_qst"><br></span></td>
+                  <td align="center"><span id="old_dev"><br></span></td>
+                </tr>
+              </table>
+              ※デバイス種別は不正確な可能性があります。あくまで参考レベルで。
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>新端末招待コード: <input id="new_code" type="text" name="new_code">（またはユーザID）<br>
+        <table>
+          <tr>
+            <td valign="top"><input type="button" value="アカウント情報確認" onClick="verify_user('new')"></td>
+            <td>
+              <table border=1 cellpadding="5">
+                <tr>
+                  <th>ユーザID</th>  
+                  <th>名前</th>  
+                  <th>職業</th>  
+                  <th>レベル</th>
+                  <th>経験値</th>
+                  <th>完了クエスト数</th>
+                  <th>デバイス(?)</th>
+                </tr>
+                <tr>
+                  <td align="center"><span id="new_uid"><br></span></td>
+                  <td align="center"><span id="new_nam"><br></span></td>
+                  <td align="center"><span id="new_job"><br></span></td>
+                  <td align="center"><span id="new_lvl"><br></span></td>
+                  <td align="center"><span id="new_exp"><br></span></td>
+                  <td align="center"><span id="new_qst"><br></span></td>
+                  <td align="center"><span id="new_dev"><br></span></td>
+                </tr>
+              </table>
+              ※デバイス種別は不正確な可能性があります。あくまで参考レベルで。
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>旧端末、新端末のアカウント情報が正しければ→ <input type="button" value="進行データ複製" id="clone" onClick="clone_data()"><br>
+        <span id="clone_status">&nbsp;</span>
+      </li>
+    </ol>
+    <h2>4.複製の確認</h2>
+    <ol>
+      <li>新端末でゲームを起動します</li>
+      <li>「新しいセッションが始まりましたが、以前にこのデバイスで当ゲームをプレイしたことがあるようです。
+        以前の経過を取り戻して**レベルから続けますか?」
+        というメッセージが表示されて旧端末と同じ状態からゲームを続行できれば成功です。＼(＾o＾)／ オメデトウ</li>
+    </ol>
+ 
+    <hr>
+    <h2><a name='initgame'>ゲーム進行データの削除</a></h2>
+    <p>このサイトを使用して進行データを複製するには、新端末の進行データを削除する必要があります。
+      ゲーム本体をアンインストール・再インストールしてもよいのですが、
+      インストールするたびにゲーム本体をダウンロードするのに非常に時間がかかります。
+    <p>以下に、デバイスの種類別にゲーム本体をアンインストールせずに進行データのみを削除する方法を説明します。
+    <h3>Android</h3>
+    バージョンなどによって若干違いがありますが、おおむね以下の手順で削除できます。
+    <ol>
+      <li>「設定」（または「システム設定」など）アイコンをタップ
+      <li>「アプリ」（または「アプリ管理」など）をタップ
+      <li>「The Secret Society」をタップ
+      <li>ページの中ほどにある「データを消去」をタップ
+      <li>確認メッセージが表示されるので「OK」（または「はい」など）をタップ
+    </ol>
+    <h3>iOS (iPhone、 iPad、 iPod)</h3>
+    <ul>
+      <li>iOSそのものにはアプリのデータのみを削除する機能はないようです。
+        ネットで調べて見ると、サードパーティのデータ削除用アプリを使う、iCloud経由で削除するなどの方法があるようですが、
+        現時点ではゲーム本体をアンインストール・再インストールするのが（時間はかかりますが）一番簡単で確実です。
+    </ul>
+    <h3>Mac</h3>
+    <ul>
+      <li>以下のフォルダにある player.prf (および player_backup.prf、 player_backup2.prf などがあればそれも）ファイルを削除します。
+        <pre>/users/[ユーザ名]/Library/Containers/com.g5e.secretsociety.mac/Data/Library/Containers/com.g5e.secretsociety.mac/Mytona/Social Hog/</pre>
+        ※末尾の "Social Hog" は "Social(スペース)Hog" です。
+    </ul>
+    <h3>Windows</h3>
+    <ul>
+      <li>以下のフォルダにある player.prf (および player_backup.prf、 player_backup2.prf などがあればそれも）を削除します。
+        <pre>C:\Users\[ユーザ名]\AppData\Local\Packages\828B5831.TheSecretSociety-HiddenMystery_ytsefhwckbdv6\LocalState\</pre>
+        ※ "<font color="red">828B5831</font>.TheSecretSociety-HiddenMystery_<font color="red">ytsefhwckbdv6</font>"の赤字部分は環境によって異なる場合があります。
+    </ul>
+
+<script>
+var redirect_method = 0;
+var redirect_php = "./redirect.php?";
+var cors_anywhere = "http://cors-anywhere.herokuapp.com/";
+
+// Secret SocietyサーバのURL
+var g5e_url = "http://sh.g5e.com/hog_ios/jsonway_android.php";
+var url = g5e_url;
+
+// 招待コード判定用のダミーアカウント（友達のいない未使用アカウント）
+var dummy_uid = 'suid_30357589';  // Tate
+
+// 新旧端末のアカウント情報
+var userinfo = {
+  'old': {},
+  'new': {}
+};
+
+function get_jobname(job)
+{
+  if (!job) {
+    return "";
+  }
+  else if (job == 2) {
+    return "商人";
+  }
+  else if (job == 4) {
+    return "賢者";
+  }
+  else if (job == 8) {
+    return "密偵";
+  }
+  else if (job == 16) {
+    return "魔術師";
+  }
+  else {
+    return "不明(" + job + ")";
+  }
+}
+
+// ユーザアカウント情報表示
+function display_user(pfx, info)
+{
+  document.getElementById(pfx + '_uid').innerHTML = 'uid' in info ? info['uid'] : '';
+  document.getElementById(pfx + '_dev').innerHTML = 'dev' in info ? info['dev'] : '';
+  document.getElementById(pfx + '_nam').innerHTML = 'nam' in info ? info['nam'] : '';
+  document.getElementById(pfx + '_job').innerHTML = 'job' in info ? get_jobname(info['job']) : '';
+  document.getElementById(pfx + '_lvl').innerHTML = 'lvl' in info ? info['lvl'] : '';
+  document.getElementById(pfx + '_exp').innerHTML = 'exp' in info ? info['exp'] : '';
+  document.getElementById(pfx + '_qst').innerHTML = 'qst' in info ? info['qst'] : '';
+
+  document.getElementById('clone').disabled = 
+    !(userinfo['old']['uid'] && userinfo['old']['profile'] && userinfo['old']['inventory'] &&
+    userinfo['new']['uid'] && userinfo['new']['profile'] && userinfo['new']['inventory']);
+}
+
+// ユーザアカウント情報確認
+function verify_user(pfx)
+{
+  userinfo[pfx] = {};
+  var info = userinfo[pfx];
+  var code = document.getElementById(pfx + '_code').value;
+
+  if (code.length < 6) {
+    info['uid'] = '<font color="red">コードエラー</font>'
+    display_user(pfx, info);
+  }
+  else if (code.length == 6) { // assume invite code
+    // use invite code and get uid
+    use_invite(code, pfx, info);
+  }
+  else {  // assume userid
+    info['uid'] = code;
+    document.getElementById(pfx + '_uid').innerHTML = code;
+    get_profile(pfx, info);
+  }
+}
+
+// 招待コードを入力して確認ボタンが押された
+function use_invite(code, pfx, info)
+{
+  var req = {
+    "serviceName": "GameService",
+    "methodName": "UseInviteCode",
+    "parameters": [ dummy_uid, code, true, true ]
+  };
+
+  send_request(req, document.getElementById(pfx + '_uid'),
+    function (resp) { invite_done(pfx, info, resp); });
+}
+
+// UseInviteリクエスト完了時に非同期で呼ばれる
+function invite_done(pfx, info, resp)
+{
+  var stat = document.getElementById(pfx + '_uid')
+
+  if (resp['result'] != 0) {
+    stat.innerHTML = '<font color="red">コードエラー</font>';
+    return;
+  }
+
+  info['uid'] = resp['uid'];
+  display_user(pfx, info);
+
+  // リクエスト取り消し
+  decline_invite(pfx, info);
+
+  // UIDからプロファイル取得
+  get_profile(pfx, info);
+}
+
+// UseInvite成功後
+function decline_invite(pfx, info)
+{
+  var req = {
+    "serviceName": "GameService",
+    "methodName": "DeclineInvite",
+    "parameters": [ dummy_uid, info['uid'] ]
+  };
+
+  send_request(req, document.getElementById(pfx + '_uid'), null);
+}
+
+// UseInviteによるUID取得成功後、またはUIDを入力して確認ボタンが押された
+function get_profile(pfx, info)
+{
+  var req = {
+    "serviceName": "GameService",
+    "methodName": "GetProfiles",
+    "parameters": [ [ info['uid'] ], null, 53 ]
+  };
+
+  send_request(req, document.getElementById(pfx + '_nam'),
+    function(resp) { get_profile_done(pfx, info, resp); });
+}
+
+// GetProfilesリクエスト完了時に非同期で呼ばれる
+function get_profile_done(pfx, info, resp)
+{
+  var stat = document.getElementById(pfx + '_nam')
+  var profile = resp[0]['data']
+
+  if (!profile) {
+    stat.innerHTML = '<font color="red">通信エラー</font>';
+    return;
+  }
+
+  info['profile'] = profile
+  info['nam'] = profile['Profile']['username'];
+  info['job'] = profile['Profile']['profession'];
+  info['lvl'] = profile['Profile']['level'];
+  info['exp'] = profile['Profile']['experience'];
+
+  /*
+    idForDeviceからデバイス種別を推定する
+    a0d638a586c5fdf4  Android
+    C02DN3HWDDR0      Mac
+    76B5251E-7CB4-470B-A3EB-F490F3944CB7 iOS
+    11216922214024622250186              Win
+  */
+  var devid = profile['Profile']['idForDevice_vendor'];
+  if (/^[0-9a-f]{16}$/.test(devid)) {
+    info['dev'] = 'Android';
+  }
+  else if (/^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$/.test(devid)) {
+    info['dev'] = 'iOS';
+  }
+  else if (/^[0-9A-Z]{12}$/.test(devid)) {
+    info['dev'] = 'Mac';
+  }
+  else if (/^[0-9]{17,}$/.test(devid)) {
+    info['dev'] = 'Windows';
+  }
+  else {
+    info['dev'] = '不明';
+  }
+
+  display_user(pfx, info);
+  get_inventory(pfx, info);
+}
+
+// GetProfilesによるプロファイル取得が成功した
+function get_inventory(pfx, info)
+{
+  var req = {
+    "serviceName": "GameService",
+    "methodName": "GetInventory",
+    "parameters": [ info['uid'] ]
+  };
+
+  send_request(req, document.getElementById(pfx + '_qst'),
+    function(resp) { get_inventory_done(pfx, info, resp); });
+}
+
+// GetInventoryリクエスト完了時に非同期で呼ばれる
+function get_inventory_done(pfx, info, resp)
+{
+  var stat = document.getElementById(pfx + '_qst')
+
+  if (!('Inventory' in resp)) {
+    stat.innerHTML = '<font color="red">通信エラー</font>';
+    return;
+  }
+
+  info['inventory'] = resp;
+  info['qst'] = resp['completedQuests']['quest_id'].length;
+
+  display_user(pfx, info);
+}
+
+// 複製ボタンが押された
+function clone_data()
+{
+  var stat = document.getElementById('clone_status');
+
+  if (!(userinfo['old']['uid'] && userinfo['old']['profile'] && userinfo['old']['inventory'])) {
+    stat.innerHTML = '<font color="red">旧端末情報を確認してください</font>';
+    return;
+  }
+
+  if (!(userinfo['new']['uid'] && userinfo['new']['profile'] && userinfo['new']['inventory'])) {
+    stat.innerHTML = '<font color="red">新端末情報を確認してください</font>';
+    return;
+  }
+
+  var info = {};
+  info['uid']       = userinfo['new']['uid'];
+  info['profile']   = userinfo['old']['profile'];
+  info['inventory'] = userinfo['old']['inventory'];
+
+  info['profile']['Profile']['GameCurrentVersion'] = userinfo['new']['profile']['Profile']['GameCurrentVersion'];
+  info['profile']['Profile']['Version']            = userinfo['new']['profile']['Profile']['Version'];
+  info['profile']['Profile']['idForDevice_ad']     = userinfo['new']['profile']['Profile']['idForDevice_ad'];
+  info['profile']['Profile']['idForDevice_vendor'] = userinfo['new']['profile']['Profile']['idForDevice_vendor'];
+  info['profile']['Profile']['uid']                = userinfo['new']['profile']['Profile']['uid'];
+  info['profile']['Version']                       = userinfo['new']['profile']['Version'];
+  
+  update_profile(info);
+}
+
+function update_profile(info)
+{
+  var req = {
+    "serviceName": "GameService",
+    "methodName": "UpdateProfile",
+    "parameters": [ info['uid'], info['profile'] ]
+  };
+
+  send_request(req, document.getElementById('clone_status'),
+    function(resp) { update_profile_done(info, resp); });
+}
+
+function update_profile_done(info, resp)
+{
+  if (!resp) {
+    document.getElementById('clone_status').innerHTML = '<font color="red">通信エラー</font>';
+    return;
+  }
+  update_inventory(info);
+}
+
+function update_inventory(info)
+{
+  var req = {
+    "serviceName": "GameService",
+    "methodName": "UpdateInventory",
+    "parameters": [ info['uid'], info['inventory'] ]
+  };
+
+  send_request(req, document.getElementById('clone_status'),
+    function(resp) { update_inventory_done(info, resp); });
+}
+
+function update_inventory_done(info, resp)
+{
+  userinfo['new'] = {};
+  userinfo['new']['uid'] = info['uid'];
+  document.getElementById('clone_status').innerHTML = '<font color="green">データ複製完了。新端末のアカウント情報が更新されました。</font>';
+
+  get_profile('new', userinfo['new']);
+}
+
+function send_request(req, stat, done)
+{
+
+  var data = JSON.stringify(req);
+
+  stat.innerHTML = "<font color='green'>準備中...</font>";
+
+  var running = false;
+
+  var request = new XMLHttpRequest();
+  request.open('POST', url);
+  request.onreadystatechange = function () {
+    running = true;
+    if (request.readyState != 4) {
+        stat.innerHTML = "<font color='green'>通信中...</font>";
+    }
+    else if (request.status != 200) {
+        if (redirect_method == 0) {       // 直接接続失敗
+          redirect_method = 1;            // redirect.phpで試す
+          url = redirect_php + g5e_url;
+          send_request(req, stat, done);
+        }
+        else if (redirect_method == 1) {  // redirect.php失敗
+          redirect_method = 2;            // CORS-Anywhereを試す
+          url = cors_anywhere + g5e_url;
+          send_request(req, stat, done);
+        }
+        else {                            // 全部失敗
+          stat.innerHTML = "<font color='red'>通信エラー</font>";
+        }
+    }
+    else {
+      var resp = JSON.parse(request.responseText);
+
+      if (resp['error']) {
+        stat.innerHTML = "<font color='red'>サーバエラー</font>";
+      }
+      else if (done) {
+        done(resp['response']);
+      }
+    }
+  };
+  request.setRequestHeader('Content-Type', 'application/json');
+  request.send(data);
+  setTimeout(
+    function () {
+      if (!running) {
+        stat.innerHTML = "<font color='red'>タイムアウト</font>";
+      }
+    }, 60000
+  );
+}
+</script>
+  </body>
+</html>

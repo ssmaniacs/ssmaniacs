@@ -211,6 +211,7 @@ def main():
     ans = sys.stdin.readline().strip().lower()
 
     if ans != 'y':
+      print 'Cancelled'
       sys.exit(1)
 
     profile_old['Profile']['GameCurrentVersion'] = profile_new['Profile']['GameCurrentVersion']

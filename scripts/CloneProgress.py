@@ -7,9 +7,8 @@ import json
 import urllib2
 
 # UID with no friend (used to get UID from an Invitation Code)
-#DUMMY_UID = 'suid_30357589' # (Tate)
-DUMMY_UID = 'suid_48433454' # Zenfone Go
-#DUMMY_UID = 'suid_00000000' # Zenfone Go
+DUMMY_UID = 'suid_30357589' # (Tate)
+#DUMMY_UID = 'suid_48433454' # Zenfone Go
 
 # Use the invide code to know the uid
 USE_INVITE = {
@@ -188,29 +187,12 @@ def main():
 
     # Show the current information of both accounts 
     print 'Old user'
-<<<<<<< HEAD
-    print 'UID: {0}'.format(profile_old['Profile']['uid'])
-    print 'Name: {0}'.format(profile_old['Profile']['username'])
-    print 'Level: {0}'.format(profile_old['Profile']['level'])
-    print 'Profession: {0}'.format(profession[profile_old['Profile']['profession']])
-    print 'Device ID: {0}, {1}'.format(profile_old['Profile']['idForDevice_ad'], profile_old['Profile']['idForDevice_vendor'])
-#    print 'Achievements: {0}'.format(len(inventory_old.get('GameCenterAchievments', 0))-1)
-    print
-    print 'New user'
-    print 'UID: {0}'.format(profile_new['Profile']['uid'])
-    print 'Name: {0}'.format(profile_new['Profile']['username'])
-    print 'Level: {0}'.format(profile_new['Profile']['level'])
-    print 'Profession: {0}'.format(profession[profile_new['Profile']['profession']])
-    print 'Device ID: {0}, {1}'.format(profile_new['Profile']['idForDevice_ad'], profile_new['Profile']['idForDevice_vendor'])
-#    print 'Achievements: {0}'.format(len(inventory_new.get('GameCenterAchievments', 0))-1)
-=======
     print 'UID\t{0}'.format(profile_old['Profile']['uid'])
     print 'Name\t{0}'.format(profile_old['Profile']['username'])
     print 'Level\t{0}'.format(profile_old['Profile']['level'])
     print 'Prof.\t{0}'.format(PROFESSION[profile_old['Profile']['profession']])
     print 'Device\t{0}, {1}'.format(profile_old['Profile']['idForDevice_ad'],
       profile_old['Profile']['idForDevice_vendor'])
-    print 'Items\t{0} kinds'.format(len(inventory_old['Inventory']['item_id']))
     print
     print 'New user'
     print 'UID\t{0}'.format(profile_new['Profile']['uid'])
@@ -219,8 +201,6 @@ def main():
     print 'Prof.\t{0}'.format(PROFESSION[profile_new['Profile']['profession']])
     print 'Device\t{0}, {1}'.format(profile_new['Profile']['idForDevice_ad'],
       profile_new['Profile']['idForDevice_vendor'])
-    print 'Items\t{0} kinds'.format(len(inventory_new['Inventory']['item_id']))
->>>>>>> 0dc8a1ac598a27bc1fd401df3043af8ad00819d8
     print
 
     sys.stdout.write('Clone progress? ')

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clone Secret Society Progress</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <h1>Clone Secret Society Progress</h1>
+    <p>This site helps you to copy your SS progress data (<strong>except the friend list</strong>) from your old device to a new one.<br>
+      Users on both (old and new) devices after the operation are different individuals who happen to have the same name, level, belongings and so on.
+      Therefore you'll be able to continue playing independently on both devices.
+      Also this is the reason why the friend list cannot be copied to the new device.
+
+    <h2>0. Prerequisites</h2>
+    <ul>
+      <li>The progress data is copied via the SS server.  Therefore both old and new devices have to be connected to the Internet.</li>
+      <li>You'll have to delete the game data or uninstall/reinstall the game on your new device.  Make sure you have appropriate permissions.</li>
+      <li>In the worst case, your current progress on the new device would be lost if the operation failed (The old device is completely safe).
+        Please consider well if you have already played for some time on the new device.</li>
+    </ul>
+    <h2>1. Preparations on the new device</h2>
+    <ol>
+      <li>Install the game and launch it.</li>
+      <li>Enter your name, then go on to play at least up to the end of initial tutorials
+        (until you've played Buddha's Square once and got an Antique Coin).  It's OK if you've already played further.</li>
+      <li>Exit the game.</li>
+      <li>Delete the game data, or uninstall and then reinstall the game itself.<br>
+        * See <a href='#initgame'>HERE</a> for a method to delete the data without uninstalling the game itself.</li>
+      <li>Launch the game.</li>
+      <li>See if you get a message saying "A new session has been initiated, but it appears that you've played this game before on this device.
+        Do you want to recover your previous progress and continue from level *?" and you can restore the progress from
+        right before you delete the data or reinstall the game.
+        If you don't see the above message and the game asks you to enter your name, then unfortunately you can't
+        copy the progress data with this site.</li>
+      <li>Get your Invitation Code and write it down ('Friends' >> 'Add by Code' >> 'Invitation code').</li>
+      <li>Write down your current level, profession and name (for confirmation).</li>
+      <li>Exit the game again, then delete the game data or uninstall/reinstall the game.<br>
+        * See <a href='#initgame'>HERE</a> for a method to delete the data without uninstalling the game itself.<br>
+        <font color='red'>* Make sure you don't start the game on this device until the operation is completed.</font></li>
+    </ol>
+    <h2>2. Preparations on the old device</h2>
+    <ol>
+      <li>Launch the game.</li>
+      <li>Get your Invitation Code and write it down ('Friends' >> 'Add by Code' >> 'Invitation code').</li>
+      <li>Write down your current level, profession and name (for confirmation).</li>
+      <li>Exit the game.<br>
+        <font color='red'>* Your progress at this point is saved in the SS server, then copied to your new device.</font></li>
+    </ol>
+    <h2>3. Cloning data</h2>
+    <ol>
+      <li>Old Device Invitation Code: <input id="old_code" type="text" name="old_code"><br>
+        <table>
+          <tr>
+            <td valign="top"><input type="button" value="Verify" onClick="verify_user('old')"></td>
+            <td>
+              <table border=1 cellpadding="5">
+                <tr>
+                  <th>User ID</th>  
+                  <th>Name</th>  
+                  <th>Profession</th>  
+                  <th>Level</th>
+                  <th>Experience</th>
+                  <th>Completed Quests</th>
+                  <th>Device(?)</th>
+                </tr>
+                <tr>
+                  <td align="center"><span id="old_uid"><br></span></td>
+                  <td align="center"><span id="old_nam"><br></span></td>
+                  <td align="center"><span id="old_job"><br></span></td>
+                  <td align="center"><span id="old_lvl"><br></span></td>
+                  <td align="center"><span id="old_exp"><br></span></td>
+                  <td align="center"><span id="old_qst"><br></span></td>
+                  <td align="center"><span id="old_dev"><br></span></td>
+                </tr>
+              </table>
+              * Device type may not be correct. Don't worry too much if it does not match your device.
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>New Device Invitation Code: <input id="new_code" type="text" name="new_code"><br>
+        <table>
+          <tr>
+            <td valign="top"><input type="button" value="Verify" onClick="verify_user('new')"></td>
+            <td>
+              <table border=1 cellpadding="5">
+                <tr>
+                  <th>User ID</th>  
+                  <th>Name</th>  
+                  <th>Profession</th>  
+                  <th>Level</th>
+                  <th>Experience</th>
+                  <th>Completed Quests</th>
+                  <th>Device(?)</th>
+                </tr>
+                <tr>
+                  <td align="center"><span id="new_uid"><br></span></td>
+                  <td align="center"><span id="new_nam"><br></span></td>
+                  <td align="center"><span id="new_job"><br></span></td>
+                  <td align="center"><span id="new_lvl"><br></span></td>
+                  <td align="center"><span id="new_exp"><br></span></td>
+                  <td align="center"><span id="new_qst"><br></span></td>
+                  <td align="center"><span id="new_dev"><br></span></td>
+                </tr>
+              </table>
+              * Device type may not be correct. Don't worry too much if it does not match your device.
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>If these are correct >>> <input type="button" value="Clone Data" id="clone" onClick="clone_data()"><br>
+        <span id="clone_status">&nbsp;</span>
+      </li>
+    </ol>
+    <h2>4. Confirmation</h2>
+    <ol>
+      <li>Launch the game on the new device.</li>
+      <li>If you see the message saying "A new session has been initiated, but it appears that you've played this game before on this device.
+        Do you want to recover your previous progress and continue from level *?", then you are done. Congrats!</li>
+    </ol>
+ 
+    <hr>
+    <h2><a name='initgame'>Deleting the game progress data</a></h2>
+    <p>The procedure on this site requires you to delete the progress data from your new device.
+      Uninstalling/reinstalling the game is one way to achieve this, but it takes very long time
+      to download the game every time you install it.
+    <p>Methods to delete only the progress data without uninstalling the game itself are explained below:
+    <h3>Android</h3>
+    You can delete the data with the following method, though there may be slight variations according to versions and vendors:
+    <ol>
+      <li>Tap "Settings" (or "System Settings" or alike) icon.
+      <li>Tap "Apps" (or "Manage Apps" or alike).
+      <li>Tap "The Secret Society".
+      <li>Tap "Clear data" (or "Delete data" or alike) at the middle of the page.
+      <li>Tap "OK" (or "Yes" or alike) to the confirmation.
+    </ol>
+    <h3>iOS (iPhone、 iPad、 iPod)</h3>
+    <ul>
+      <li>iOS doesn't seem to have a built-in method to delete application data only.
+        You could use third-party Apps or you could do that through iCloud storage,
+        but uninstall/reinstall seems to be the most simple and reliable method for the time being.
+    </ul>
+    <h3>Mac</h3>
+    <ul>
+      <li>Delete player.prf (and player_backup.prf, player_backup2.prf if present) from the following folder:
+        <pre>/users/[username]/Library/Containers/com.g5e.secretsociety.mac/Data/Library/Containers/com.g5e.secretsociety.mac/Mytona/Social Hog/</pre>
+        * "Social Hog" at the end is "Social(space)Hog".
+    </ul>
+    <h3>Windows</h3>
+    <ul>
+      <li>Delete player.prf (and player_backup.prf, player_backup2.prf if present) from the following folder:
+        <pre>C:\Users\[username]\AppData\Local\Packages\828B5831.TheSecretSociety-HiddenMystery_ytsefhwckbdv6\LocalState\</pre>
+        * Red parts in "<font color="red">828B5831</font>.TheSecretSociety-HiddenMystery_<font color="red">ytsefhwckbdv6</font>" may differ on your computer.
+    </ul>
+
+    <script>
+      var message = {
+        'Merchant': 'Merchant',
+        'Sage': 'Sage',
+        'Sleuth': 'Sleuth',
+        'Magician': 'Magician',
+        'Unknown': 'Unknown',
+        'code_error': 'Invalid Code',
+        'net_error': 'Communication Error',
+        'need_old': 'Please enter and verify the old device Invitation Code.',
+        'need_new': 'Please enter verify the new device Invitation Code.',
+        'complete': 'Operation completed.  The progress data for the new device has been updated.',
+        'prepare': 'Preparing',
+        'request': 'Requesting',
+        'timeout': 'Timeout'
+      };
+    </script>
+    <script src='./CloneProfile.js'></script>
+  </body>
+</html>

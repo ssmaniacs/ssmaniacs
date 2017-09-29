@@ -51,7 +51,7 @@ if [[ $# -lt 1 ]]; then
 fi
 
 echo Generating local file list
-(cd ${SRCDIR}; find -L . -type f ! -name '*p.json' -printf "%p %s\n" | sort) > list-local.txt
+(cd ${SRCDIR}; find -L . -type f ! -name '*p.json' ! -name '*.zip' -printf "%p %s\n" | sort) > list-local.txt
 
 SYNC=nosync
 CHECK=
@@ -73,7 +73,7 @@ for k in $*; do
 		upload sv1.php.xdomain.ne.jp ssmaniacs.php.xdomain.jp secretsanta / ${SYNC} ${CHECK}
 		;;
 	*)
-		echo "Usage $0 ftp-site {webhost|epizy|byethost} [...]"
+		echo "Usage $0 ftp-site [{sync|nosync|check|nocheck}] {webhost|xdomain} [...]"
 		exit 2
 		;;
 	esac

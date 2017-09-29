@@ -10,6 +10,7 @@ while :; do
 	if [[ $(date +%H%M) == $1 ]]; then
 		date +"[%Y-%m-%d %H:%M] start auto gifting"
 		python ${0%.sh}.py ../resources
+		date +"[%Y-%m-%d %H:%M] finished auto gifting"
 	fi
 	sleep 30
 done

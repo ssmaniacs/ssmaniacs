@@ -129,7 +129,7 @@ def decline_invite(suid):
     DECLINE_INVITE['parameters'][1] = suid
     resp = http_post(json.dumps(DECLINE_INVITE))
 
-    print 'Result: {0} {1}'.format(rslt, resp['response'])
+    print 'Result: {0}'.format(resp['response'])
 
     return resp['response']
 

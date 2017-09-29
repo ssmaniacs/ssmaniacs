@@ -7,9 +7,8 @@ import json
 import urllib2
 
 # UID with no friend (used to get UID from an Invitation Code)
-#DUMMY_UID = 'suid_30357589' # (Tate)
-DUMMY_UID = 'suid_48433454' # Zenfone Go
-#DUMMY_UID = 'suid_00000000' # Zenfone Go
+DUMMY_UID = 'suid_30357589' # (Tate)
+#DUMMY_UID = 'suid_48433454' # Zenfone Go
 
 # Use the invide code to know the uid
 USE_INVITE = {
@@ -194,7 +193,6 @@ def main():
     print 'Prof.\t{0}'.format(PROFESSION[profile_old['Profile']['profession']])
     print 'Device\t{0}, {1}'.format(profile_old['Profile']['idForDevice_ad'],
       profile_old['Profile']['idForDevice_vendor'])
-    print 'Items\t{0} kinds'.format(len(inventory_old['Inventory']['item_id']))
     print
     print 'New user'
     print 'UID\t{0}'.format(profile_new['Profile']['uid'])
@@ -203,7 +201,6 @@ def main():
     print 'Prof.\t{0}'.format(PROFESSION[profile_new['Profile']['profession']])
     print 'Device\t{0}, {1}'.format(profile_new['Profile']['idForDevice_ad'],
       profile_new['Profile']['idForDevice_vendor'])
-    print 'Items\t{0} kinds'.format(len(inventory_new['Inventory']['item_id']))
     print
 
     sys.stdout.write('Clone progress? ')

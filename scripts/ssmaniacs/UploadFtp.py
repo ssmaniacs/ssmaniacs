@@ -18,7 +18,7 @@ def main():
 
   lroot = os.path.abspath(lroot)
 
-  if rroot[-1] == '/':
+  if rroot != '/' and rroot[-1] == '/':
     rroot = rroot[:-1]
 
   if rroot[0] != '/':

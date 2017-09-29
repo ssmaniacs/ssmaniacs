@@ -69,11 +69,8 @@ for k in $*; do
 	webhost)
 		upload files.000webhost.com ssmaniacs secretsanta public_html ${SYNC} ${CHECK}
 		;;
-	epizy)
-		upload ftp.epizy.com epiz_20081221 secretsanta htdocs ${SYNC} ${CHECK}
-		;;
-	byethost)
-		upload ftp.byethost7.com b7_20081682 secretsanta htdocs ${SYNC} ${CHECK}
+	xdomain)
+		upload sv1.php.xdomain.ne.jp ssmaniacs.php.xdomain.jp secretsanta / ${SYNC} ${CHECK}
 		;;
 	*)
 		echo "Usage $0 ftp-site {webhost|epizy|byethost} [...]"

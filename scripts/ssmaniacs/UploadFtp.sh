@@ -3,6 +3,10 @@
 
 SRCDIR=$(cd ../../docs; pwd)
 
+usage() {
+	echo "Usage $0 [{sync|nosync|check|nocheck}] {webhost|xdomain} [...]"
+}
+
 upload() {
 	HOST=$1
 	USER=$2
@@ -46,7 +50,7 @@ upload() {
 }
 
 if [[ $# -lt 1 ]]; then
-	echo "Usage $0 [sync|nosync|check] {webhost|epizy|byethost} [...]"
+	usage
 	exit 2
 fi
 
@@ -73,7 +77,7 @@ for k in $*; do
 		upload sv1.php.xdomain.ne.jp ssmaniacs.php.xdomain.jp secretsanta / ${SYNC} ${CHECK}
 		;;
 	*)
-		echo "Usage $0 ftp-site [{sync|nosync|check|nocheck}] {webhost|xdomain} [...]"
+		usage
 		exit 2
 		;;
 	esac

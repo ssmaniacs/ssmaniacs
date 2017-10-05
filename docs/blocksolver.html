@@ -115,6 +115,22 @@ var predefined = [
 		[4, 0, 2, 6, 6, 4],
 		[6, 0, 4, 2, 6, 6],
 		[2, 6, 6, 0, 0, 0]
+	],
+	[
+		[0, 0, 0, 4, 2, 6],
+		[0, 0, 4, 6, 2, 6],
+		[1, 6, 6, 4, 5, 4],
+		[4, 0, 0, 6, 6, 6],
+		[6, 3, 6, 6, 6, 4],
+		[0, 3, 6, 6, 0, 6]
+	],
+	[
+		[2, 6, 4, 2, 6, 0],
+		[5, 0, 6, 0, 5, 0],
+		[6, 1, 6, 0, 6, 4],
+		[6, 3, 6, 6, 6, 6],
+		[0, 0, 0, 4, 2, 6],
+		[0, 0, 0, 6, 0, 0]
 	]
 ];
 var current_pattern = 0;
@@ -662,7 +678,7 @@ function drawdirection() {
 			"<input type='button' value='次パターン→' onclick='clearboard(current_pattern + 1);'>&nbsp;" +
 			"<input type='button' value='空パターン' onclick='clearboard(0);'>&nbsp;" +
 			"<input type='button' value='解答' onclick='startsolve();'><br>" +
-			"（SecretSocietyの上級９パターンを登録済み）";
+			"（SecretSocietyの上級" + (predefined.length - 1) + "パターンを登録済み）";
 	}
 	else {
 		direction = "<ul>" +
@@ -675,7 +691,7 @@ function drawdirection() {
 			"<input type='button' value='Next pattern ->' onclick='clearboard(current_pattern + 1);'>&nbsp;" +
 			"<input type='button' value='Empty pattern' onclick='clearboard(0);'>&nbsp;" +
 			"<input type='button' value='Solve' onclick='startsolve();'><br>" +
-			"(9 patterns appear in Secret Society advanced levels are preset.)";
+			"(" + (predefined.length - 1) + " patterns appear in Secret Society advanced levels are preset.)";
 	}
 
 	document.getElementById("direction").innerHTML = direction;

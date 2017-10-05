@@ -10,7 +10,13 @@
 </head>
 
 <body onLoad="init(3);">
-<span style="float:right;"><select id="select_lang" onchange="change_language();"></select></span>
+<span style="float:right;">
+	Font:
+	<input type="button" value="Smaller" onclick="font_smaller();">
+	<input type="button" value="Reset" onclick="font_reset();">
+	<input type="button" value="Larger" onclick="font_larger();">
+	<select id="select_lang" onchange="change_language();"></select>
+</span>
 <h1>Hidden Object Finder</h1>
 
 <!-- シーン選択ドロップダウンリスト -->

@@ -30,6 +30,28 @@ var image_root = null;        // イメージをパスからロードする際�
 var image_scale = 1;          // ローレゾ時のイメージ倍率
 var local_mode = false;       // ローカルモード(JSONを動的ロードしない)
 
+var font_size = 100;
+function font_larger()
+{
+  if (font_size < 200) {
+    font_size *= 1.2;
+    document.body.style.fontSize = font_size + '%';
+  }
+}
+function font_smaller()
+{
+  if (font_size > 10) {
+    font_size /= 1.2;
+    document.body.style.fontSize = font_size + '%';
+  }
+}
+
+function font_reset()
+{
+  font_size = 100;
+  document.body.style.fontSize = '100%';
+}
+
 //========================
 // Language configuration
 //========================

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Peek Your Gift Box</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <h1>Peek your gift box</h1>
+    <p>This site helps you peek your SS gift box to see who gave you what.
+    <blockquote style="background-color:#F8E0E0;padding:15px 15px 15px 15px;border:1px solid #F5A9A9;">
+    With the update in October 2017, they have changed the communication protocol between user devices and the SS server.<br>
+    While the traditional protocol is still avairable as of Oct. 16, it is very likely that the old method will be discarded
+    in the near future.<br>
+    This page will stop working when that happens.</blockquote>
+
+    <p>Enter your SS User ID: <input id="userinput" type="text">
+      <input type="button" value="Verify User ID" onClick="verify_user()">
+    <table border=1 cellpadding="5">
+      <tr>
+        <th>User ID</th>  
+        <th>Name</th>  
+        <th>Profession</th>  
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td align="center"><span id="userid"><br></span></td>
+        <td align="center"><span id="username"><br></span></td>
+        <td align="center"><span id="profession"><br></span></td>
+        <td align="center"><span id="level"><br></span></td>
+      </tr>
+    </table>
+    <p>User ID is an internal ID uniquely assigned to you, not your player name.<br>
+      If you don't know your User ID (and you usually don't), enter your Invitation
+      Code instead.<br>
+      Once the User ID is retrieved, it is stored in browser cookie for later use.
+
+    <p><input type="button" value="Peek your Gift Box" id="peek" onClick="peek_giftbox()">
+    <p><span id="peek_status">&nbsp;</span>
+
+    <script>
+      var message = {
+        'Merchant': 'Merchant',
+        'Sage': 'Sage',
+        'Sleuth': 'Sleuth',
+        'Magician': 'Magician',
+        'Unknown': 'Unknown',
+        'code_error': 'Invalid Code',
+        'net_error': 'Communication Error',
+        'need_uid': 'Please enter and verify your User ID or Invitation Code.',
+        'prepare': 'Preparing',
+        'request': 'Requesting',
+        'timeout': 'Timeout'
+      };
+    </script>
+    <script src='./itemlist.en.js'></script>
+    <script src='./PeekGiftBox.js'></script>
+  </body>
+</html>

@@ -298,10 +298,14 @@ def output_json(iteminfo, collinfo, textinfo, dstdir, imgdir):
       target = artifacts
 
     if c['id'] in target:
-      sys.stderr.write('Duplicate collection/artifact ID\n')
-      sys.stderr.write(str(target[c['id']]) + '\n')
-      sys.stderr.write(str(c) + '\n')
-      raise RuntimeError('')
+      # artifact id 5 (魔女の魔よけ）はダブっている（前年のイベントと同じアイテムID）
+      sys.stderr.write('Duplicate {0} ID {1}\n'.format(c['type'], c['id']))
+      if c['type'] == 'artifact' and c['id'] == 5:
+        sys.stderr.write('Overwriting with the newer one\n')
+      else:
+        sys.stderr.write(json.dumps(target[c['id']], indent=2, sort_keys=True, ensure_ascii=False) + '\n\n')
+        sys.stderr.write(json.dumps(c, indent=2, sort_keys=True, ensure_ascii=False) + '\n\n')
+        raise RuntimeError('')
 
     target[c['id']] = {
       'id': c['id'],

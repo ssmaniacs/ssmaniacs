@@ -47,17 +47,18 @@
   "5": {
     "name": "ゴーストタウン",
     "background": [
-      {"layer":  2, "x":   0, "y":   0, "path":"ghost_city.bg/bg.png"},
-      {"layer":  2, "x": 378, "y": 292, "path":"ghost_city.bg/ghost1.png",                           "type":"effect"},
-      {"layer":  2, "x": 935, "y": 318, "path":"ghost_city.bg/ghost2.png",                           "type":"effect"},
-      {"layer":  2, "x": 345, "y": 280, "path":"ghost_city.bg/ghost1_cover.png",                     "type":"effect"},
-      {"layer":  2, "x": 733, "y": 264, "path":"ghost_city.bg/ghost2_cover.png",                     "type":"effect"},
-      {"layer":  2, "x": 696, "y": 244, "path":"ghost_city.bg/fog.png",                              "type":"effect"},
-      {"layer":  2, "x": 806, "y": 275, "path":"ghost_city.bg/glow1.png",                            "type":"effect"},
-      {"layer":  2, "x": 651, "y": 275, "path":"ghost_city.bg/glow2.png",                            "type":"effect"},
-      {"layer": 22, "x":   0, "y": 376, "path":"ghost_city.bg/smoke.png",                            "type":"effect"},
-      {"layer": 22, "x": 268, "y": 355, "path":"ghost_city.bg/smoke1.png",                           "type":"skip"},
-      {"layer": 22, "x": 676, "y": 450, "path":"ghost_city.bg/smoke2.png",                           "type":"skip"}
+      {"layer": 1,  "x": 227, "y": 0,   "path":"ghost_city.bg/sky.png"          }, 
+      {"layer": 2,  "x": 0,   "y": 0,   "path":"ghost_city.bg/bg.png"           }, 
+      {"layer": 2,  "x": 596, "y": 0,   "path":"ghost_city.bg/moon.png"         }, 
+      {"layer": 2,  "x": 392, "y": 301, "path":"ghost_city.bg/ghost1.png",       "type":"effect"}, 
+      {"layer": 2,  "x": 948, "y": 313, "path":"ghost_city.bg/ghost2.png",       "type":"effect"}, 
+      {"layer": 2,  "x": 360, "y": 280, "path":"ghost_city.bg/ghost1_cover.png", "type":"effect"}, 
+      {"layer": 2,  "x": 758, "y": 262, "path":"ghost_city.bg/ghost2_cover.png", "type":"effect"}, 
+      {"layer": 2,  "x": 841, "y": 280, "path":"ghost_city.bg/glow1.png",        "type":"effect"}, 
+      {"layer": 2,  "x": 684, "y": 280, "path":"ghost_city.bg/glow2.png",        "type":"effect"}, 
+      {"layer": 22, "x": 0,   "y": 418, "path":"ghost_city.bg/smoke.png",        "type":"effect"}, 
+      {"layer": 22, "x": 269, "y": 363, "path":"ghost_city.bg/smoke1.png",       "type":"effect"}, 
+      {"layer": 22, "x": 676, "y": 450, "path":"ghost_city.bg/smoke2.png",       "type":"effect"}
     ]
   },
   "6": {
@@ -654,9 +655,9 @@
       {"layer": 2,  "x": 0,    "y": -3,  "path": "arabian_tent.bg/bg.png"},
       {"layer": 10, "x": 187,  "y": 473, "path": "arabian_tent.bg/lizard_001.png",                  "type": "skip", "ani": true}
     ]
- },
+  },
   "54": {
-    "name": "戦士の村",
+    "name": "バイキングの村",
     "background": [
       {"layer": 0,  "x": 0,    "y": 0,    "path": "warriors_village.bg/sky.png"}, 
       {"layer": 0,  "x": 1059, "y": 5,    "path": "warriors_village.bg/cloud_01.png"}, 
@@ -675,7 +676,7 @@
       {"layer": 10, "x": 1349, "y": 148,  "path": "warriors_village.bg/ribbon_yellow_001.png", "ani": true}, 
       {"layer": 11, "x": 979,  "y": 0,    "path": "warriors_village.bg/ribbon_cover.png"}
     ]
- },
+  },
   "55": {
     "name": "高い塔",
     "background": [
@@ -690,5 +691,37 @@
       {"layer": 6,  "x": 430,  "y": 357, "path": "high_tower.bg/light_2.png",       "type": "effect"}, 
       {"layer": 6,  "x": 1323, "y": 290, "path": "high_tower.bg/light_3.png",       "type": "effect"}
     ]
- }
+  },
+  "56": {
+    "name": "撮影スタジオ", 
+    "background": [
+      {"layer": 2,  "x": 0,    "y": 0,   "path": "film_studio.bg/bg.png"              }, 
+      {"layer": 2,  "x": 1002, "y": 376, "path": "film_studio.bg/arm.png",            "type": "effect"}, 
+      {"layer": 2,  "x": 503,  "y": 153, "path": "film_studio.bg/glow.png",           "type": "effect"}, 
+      {"layer": 6,  "x": 611,  "y": 453, "path": "film_studio.bg/armchair_1.png",     "type": "effect"}, 
+      {"layer": 7,  "x": 482,  "y": 306, "path": "film_studio.bg/armchair_2.png",     "type": "effect"}, 
+      {"layer": 8,  "x": 487,  "y": 468, "path": "film_studio.bg/armchair_cover.png", "type": "effect"}, 
+      {"layer": 10, "x": 828,  "y": 326, "path": "film_studio.bg/noise_001.png",      "type": "skip", "ani": true}
+    ]
+  },
+  "57": {
+    "name": "パン屋", 
+    "background": [
+      {"layer": 1,  "x": 401,  "y": 0,   "path": "bakeshop.bg/back.png"               }, 
+      {"layer": 2,  "x": 0,    "y": 0,   "path": "bakeshop.bg/bg.png"                 }, 
+      {"layer": 6,  "x": 722,  "y": 43,  "path": "bakeshop.bg/ball_1.png"             }, 
+      {"layer": 6,  "x": 1194, "y": 66,  "path": "bakeshop.bg/ball_2.png"             }, 
+      {"layer": 7,  "x": 708,  "y": 35,  "path": "bakeshop.bg/ball_1_cover.png"       }, 
+      {"layer": 7,  "x": 1183, "y": 48,  "path": "bakeshop.bg/ball_2_cover.png"       }, 
+      {"layer": 10, "x": 98,   "y": 144, "path": "bakeshop.bg/smoke_001.png",         "type": "effect", "ani": true}
+    ]
+  },
+  "58": {
+    "name": "コスモスホール",
+    "background": [
+      {"layer": 2,  "x": 0,    "y": 0,   "path": "cosmos_hall.bg/bg.png"              }, 
+      {"layer": 6,  "x": 429,  "y": 0,   "path": "cosmos_hall.bg/anim_001.png",       "ani": true}, 
+      {"layer": 6,  "x": 629,  "y": 324, "path": "cosmos_hall.bg/siluet_001.png",     "ani": true}
+    ]
+  }
 }

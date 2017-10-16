@@ -3,6 +3,7 @@
 # vim: ts=2 et
 import sys
 import os
+import re
 import json
 
 # 人物が初登場するときのメッセージ
@@ -74,7 +75,7 @@ def load_textinfo(rootdir, lang):
       text = text.replace('&nbsp;', ' ').replace('&cr;', '\\n')
 
       try:
-        if id_.startswith('Diary.Pages.ID.'):
+        if re.match(r'Diary\.Pages\.ID\.[0-9]+:', id_):
           key1 = 'DIARY'
           key2 = 'PAGE'
           idval = int(id_.rsplit('.', 1)[-1])

@@ -2690,8 +2690,8 @@
                 "prob": "5%"
               }, 
               {
+                "puzzle": "『ジグソー』", 
                 "quest": "スピード・メタル", 
-                "scene": "「日本の家」", 
                 "prob": "20%"
               }
             ], 
@@ -3391,8 +3391,8 @@
                 "prob": "5%"
               }, 
               {
+                "puzzle": "『ジグソー』", 
                 "quest": "田園生活", 
-                "scene": "「日本の家」", 
                 "prob": "40%"
               }
             ], 
@@ -5333,9 +5333,9 @@
                 "prob": "5%"
               }, 
               {
+                "puzzle": "『ジグソー』", 
                 "quest": "コルベットのコンテスト", 
-                "scene": "「霧の中の小屋」", 
-                "prob": "12%"
+                "prob": "20%"
               }
             ], 
             "desc": "コレクション『ボトルシップ』の一品。"
@@ -5459,8 +5459,8 @@
                 "prob": "5%"
               }, 
               {
+                "puzzle": "『ジグソー』", 
                 "quest": "偉大なる緑の鉛筆", 
-                "scene": "「マヤの神殿」", 
                 "prob": "70%"
               }
             ], 
@@ -41076,7 +41076,7 @@
               }, 
               {
                 "puzzle": "『パイプ』", 
-                "quest": "フォックス家の秘密", 
+                "quest": "フォール家の秘密", 
                 "prob": "40%"
               }
             ], 
@@ -80827,7 +80827,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -80846,7 +80846,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -80866,7 +80866,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -80885,7 +80885,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -80904,7 +80904,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -80969,7 +80969,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -80988,7 +80988,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81007,7 +81007,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81027,7 +81027,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81046,7 +81046,7 @@
             "find": [
               {
                 "cond": "教授レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81110,7 +81110,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81129,7 +81129,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81149,7 +81149,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81168,7 +81168,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81187,7 +81187,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81251,7 +81251,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81271,7 +81271,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81290,7 +81290,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81309,7 +81309,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -81329,7 +81329,7 @@
             "find": [
               {
                 "cond": "大いなる賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -84494,10 +84494,15 @@
         "items": [
           {
             "name": "バホール香炉", 
-            "gift": false, 
+            "gift": true, 
             "id": 4768, 
             "icon": "images/items/4768.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "長い不在", 
                 "scene": "「砂漠の中心」", 
@@ -84508,10 +84513,15 @@
           }, 
           {
             "name": "バホール", 
-            "gift": false, 
+            "gift": true, 
             "id": 4769, 
             "icon": "images/items/4769.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "夏の静けさ", 
                 "scene": "「砂漠の中心」", 
@@ -84522,10 +84532,15 @@
           }, 
           {
             "name": "アラブのランプ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4770, 
             "icon": "images/items/4770.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "東洋の雰囲気", 
                 "scene": "「砂漠の中心」", 
@@ -84536,10 +84551,15 @@
           }, 
           {
             "name": "ラバーブ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4771, 
             "icon": "images/items/4771.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "不思議な楽器", 
                 "cond": "夜モード", 
@@ -84551,10 +84571,15 @@
           }, 
           {
             "name": "クーフィーヤ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4772, 
             "icon": "images/items/4772.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "心をかき乱す失踪", 
                 "scene": "「砂漠の中心」", 
@@ -84565,7 +84590,7 @@
           }, 
           {
             "name": "おとぎ話の本", 
-            "gift": false, 
+            "gift": true, 
             "id": 4793, 
             "icon": "images/items/4793.png", 
             "find": [
@@ -84576,9 +84601,9 @@
         ], 
         "rewards": [
           {
-            "count": 10, 
-            "id": 4974, 
-            "name": "アデニウム・オベスム"
+            "count": 2, 
+            "id": 314, 
+            "name": "魔法のランタン"
           }
         ], 
         "id": 592, 
@@ -84610,10 +84635,15 @@
         "items": [
           {
             "name": "浮遊する都市", 
-            "gift": false, 
+            "gift": true, 
             "id": 4773, 
             "icon": "images/items/4773.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "手描きの地図", 
                 "scene": "「砂漠の中心」", 
@@ -84624,10 +84654,15 @@
           }, 
           {
             "name": "謎めいた人々", 
-            "gift": false, 
+            "gift": true, 
             "id": 4774, 
             "icon": "images/items/4774.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "浮動生物", 
                 "cond": "シルエットモード", 
@@ -84639,10 +84674,15 @@
           }, 
           {
             "name": "欠けたタイル", 
-            "gift": false, 
+            "gift": true, 
             "id": 4775, 
             "icon": "images/items/4775.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "損傷したかけら", 
                 "scene": "「砂漠の中心」", 
@@ -84653,10 +84693,15 @@
           }, 
           {
             "name": "未知の鳥", 
-            "gift": false, 
+            "gift": true, 
             "id": 4776, 
             "icon": "images/items/4776.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "未知の鳥", 
                 "scene": "「砂漠の中心」", 
@@ -84667,10 +84712,15 @@
           }, 
           {
             "name": "地底世界", 
-            "gift": false, 
+            "gift": true, 
             "id": 4777, 
             "icon": "images/items/4777.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "地下王国", 
                 "cond": "文字モード", 
@@ -84682,7 +84732,7 @@
           }, 
           {
             "name": "魔法の平板", 
-            "gift": false, 
+            "gift": true, 
             "id": 4794, 
             "icon": "images/items/4794.png", 
             "find": [
@@ -84693,9 +84743,9 @@
         ], 
         "rewards": [
           {
-            "count": 15, 
-            "id": 4974, 
-            "name": "アデニウム・オベスム"
+            "count": 1, 
+            "id": 5, 
+            "name": "幸運の魔よけ"
           }
         ], 
         "id": 593, 
@@ -84727,10 +84777,15 @@
         "items": [
           {
             "name": "セージのモノグラフ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4778, 
             "icon": "images/items/4778.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "秘密の研究", 
                 "scene": "「砂漠の中心」", 
@@ -84741,10 +84796,15 @@
           }, 
           {
             "name": "古代の年代記", 
-            "gift": false, 
+            "gift": true, 
             "id": 4779, 
             "icon": "images/items/4779.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "苦境", 
                 "scene": "「砂漠の中心」", 
@@ -84755,10 +84815,15 @@
           }, 
           {
             "name": "古代の言語書", 
-            "gift": false, 
+            "gift": true, 
             "id": 4780, 
             "icon": "images/items/4780.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "美しい都市", 
                 "cond": "モーフモード", 
@@ -84770,10 +84835,15 @@
           }, 
           {
             "name": "アラビア文字", 
-            "gift": false, 
+            "gift": true, 
             "id": 4781, 
             "icon": "images/items/4781.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "スカーレットライト", 
                 "scene": "「砂漠の中心」", 
@@ -84784,10 +84854,15 @@
           }, 
           {
             "name": "太陰暦", 
-            "gift": false, 
+            "gift": true, 
             "id": 4782, 
             "icon": "images/items/4782.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "最大の謎", 
                 "scene": "「砂漠の中心」", 
@@ -84798,7 +84873,7 @@
           }, 
           {
             "name": "アラビア文書", 
-            "gift": false, 
+            "gift": true, 
             "id": 4795, 
             "icon": "images/items/4795.png", 
             "find": [
@@ -84809,9 +84884,9 @@
         ], 
         "rewards": [
           {
-            "count": 20, 
-            "id": 4974, 
-            "name": "アデニウム・オベスム"
+            "count": 2, 
+            "id": 2, 
+            "name": "古代の巻物"
           }
         ], 
         "id": 594, 
@@ -84843,10 +84918,15 @@
         "items": [
           {
             "name": "エメラルドフラワー", 
-            "gift": false, 
+            "gift": true, 
             "id": 4783, 
             "icon": "images/items/4783.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "エメラルド植物", 
                 "scene": "「砂漠の中心」", 
@@ -84857,10 +84937,15 @@
           }, 
           {
             "name": "ダイヤモンドドロップ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4784, 
             "icon": "images/items/4784.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "ダイヤモンド噴水", 
                 "cond": "ペアモード", 
@@ -84872,10 +84957,15 @@
           }, 
           {
             "name": "クリスタルの破片", 
-            "gift": false, 
+            "gift": true, 
             "id": 4785, 
             "icon": "images/items/4785.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "都市の起源", 
                 "scene": "「砂漠の中心」", 
@@ -84886,10 +84976,15 @@
           }, 
           {
             "name": "琥珀のペンダント", 
-            "gift": false, 
+            "gift": true, 
             "id": 4786, 
             "icon": "images/items/4786.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "奇妙な生き物", 
                 "scene": "「砂漠の中心」", 
@@ -84900,10 +84995,15 @@
           }, 
           {
             "name": "金色のローブ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4787, 
             "icon": "images/items/4787.png", 
             "find": [
+              {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "真っ赤な心臓", 
                 "scene": "「砂漠の中心」", 
@@ -84914,7 +85014,7 @@
           }, 
           {
             "name": "ルビーボール", 
-            "gift": false, 
+            "gift": true, 
             "id": 4796, 
             "icon": "images/items/4796.png", 
             "find": [
@@ -84925,9 +85025,9 @@
         ], 
         "rewards": [
           {
-            "count": 25, 
-            "id": 4974, 
-            "name": "アデニウム・オベスム"
+            "count": 2, 
+            "id": 3, 
+            "name": "大金の袋"
           }
         ], 
         "id": 595, 
@@ -84959,10 +85059,15 @@
         "items": [
           {
             "name": "白いモザイク作品", 
-            "gift": false, 
+            "gift": true, 
             "id": 4788, 
             "icon": "images/items/4788.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "静かな手掛かり", 
                 "cond": "シルエットモード", 
@@ -84974,10 +85079,15 @@
           }, 
           {
             "name": "青いモザイク作品", 
-            "gift": false, 
+            "gift": true, 
             "id": 4789, 
             "icon": "images/items/4789.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "秘密の知識", 
                 "scene": "「砂漠の中心」", 
@@ -84988,10 +85098,15 @@
           }, 
           {
             "name": "緑のモザイク作品", 
-            "gift": false, 
+            "gift": true, 
             "id": 4790, 
             "icon": "images/items/4790.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "砂漠の守護者", 
                 "scene": "「砂漠の中心」", 
@@ -85002,10 +85117,15 @@
           }, 
           {
             "name": "黄色のモザイク作品", 
-            "gift": false, 
+            "gift": true, 
             "id": 4791, 
             "icon": "images/items/4791.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "磁気引力", 
                 "cond": "文字モード", 
@@ -85017,10 +85137,15 @@
           }, 
           {
             "name": "赤いモザイク作品", 
-            "gift": false, 
+            "gift": true, 
             "id": 4792, 
             "icon": "images/items/4792.png", 
             "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
               {
                 "quest": "熱源", 
                 "scene": "「砂漠の中心」", 
@@ -85031,7 +85156,7 @@
           }, 
           {
             "name": "モザイク手法の絵画", 
-            "gift": false, 
+            "gift": true, 
             "id": 4797, 
             "icon": "images/items/4797.png", 
             "find": [
@@ -85042,9 +85167,9 @@
         ], 
         "rewards": [
           {
-            "count": 30, 
-            "id": 4974, 
-            "name": "アデニウム・オベスム"
+            "count": 3, 
+            "id": 19, 
+            "name": "探索者の目"
           }
         ], 
         "id": 596, 
@@ -85076,13 +85201,18 @@
         "items": [
           {
             "name": "木製ゴブレット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4802, 
             "icon": "images/items/4802.png", 
             "find": [
               {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "大騒ぎ", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85090,13 +85220,18 @@
           }, 
           {
             "name": "鉄のゴブレット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4803, 
             "icon": "images/items/4803.png", 
             "find": [
               {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "完全な無秩序", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "70%"
               }
             ], 
@@ -85104,14 +85239,19 @@
           }, 
           {
             "name": "ブロンズのゴブレット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4804, 
             "icon": "images/items/4804.png", 
             "find": [
               {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "ブロンズのゴブレット", 
                 "cond": "シルエットモード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "70%"
               }
             ], 
@@ -85119,13 +85259,18 @@
           }, 
           {
             "name": "ブリキのゴブレット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4805, 
             "icon": "images/items/4805.png", 
             "find": [
               {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "光沢のあるゴブレット", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85133,13 +85278,18 @@
           }, 
           {
             "name": "ガラスのゴブレット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4806, 
             "icon": "images/items/4806.png", 
             "find": [
               {
+                "cond": "教授レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "ガラスのゴブレット", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "70%"
               }
             ], 
@@ -85147,7 +85297,7 @@
           }, 
           {
             "name": "ホーンゴブレット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4827, 
             "icon": "images/items/4827.png", 
             "find": [
@@ -85158,9 +85308,9 @@
         ], 
         "rewards": [
           {
-            "count": 10, 
-            "id": 4979, 
-            "name": "木の盾"
+            "count": 1, 
+            "id": 4, 
+            "name": "レプラコーンの黄金の壺"
           }
         ], 
         "id": 597, 
@@ -85192,13 +85342,18 @@
         "items": [
           {
             "name": "折れた槍", 
-            "gift": false, 
+            "gift": true, 
             "id": 4807, 
             "icon": "images/items/4807.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "戦場", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "40%"
               }
             ], 
@@ -85206,13 +85361,18 @@
           }, 
           {
             "name": "さびた剣", 
-            "gift": false, 
+            "gift": true, 
             "id": 4808, 
             "icon": "images/items/4808.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "戦争の余波", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "60%"
               }
             ], 
@@ -85220,14 +85380,19 @@
           }, 
           {
             "name": "壊れた盾", 
-            "gift": false, 
+            "gift": true, 
             "id": 4809, 
             "icon": "images/items/4809.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "壊れた盾", 
                 "cond": "文字モード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "70%"
               }
             ], 
@@ -85235,13 +85400,18 @@
           }, 
           {
             "name": "折れた矢", 
-            "gift": false, 
+            "gift": true, 
             "id": 4810, 
             "icon": "images/items/4810.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "折れた矢", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85249,13 +85419,18 @@
           }, 
           {
             "name": "穴のあいたヘルメット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4811, 
             "icon": "images/items/4811.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "穴のあいたヘルメット", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "40%"
               }
             ], 
@@ -85263,7 +85438,7 @@
           }, 
           {
             "name": "壊れた角", 
-            "gift": false, 
+            "gift": true, 
             "id": 4828, 
             "icon": "images/items/4828.png", 
             "find": [
@@ -85274,9 +85449,9 @@
         ], 
         "rewards": [
           {
-            "count": 15, 
-            "id": 4979, 
-            "name": "木の盾"
+            "count": 1, 
+            "id": 43, 
+            "name": "重量ウェイト"
           }
         ], 
         "id": 598, 
@@ -85308,13 +85483,18 @@
         "items": [
           {
             "name": "すき", 
-            "gift": false, 
+            "gift": true, 
             "id": 4812, 
             "icon": "images/items/4812.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "レイブンのテスト", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "40%"
               }
             ], 
@@ -85322,14 +85502,19 @@
           }, 
           {
             "name": "籐の箱", 
-            "gift": false, 
+            "gift": true, 
             "id": 4813, 
             "icon": "images/items/4813.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "集会", 
                 "cond": "シルエットモード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "60%"
               }
             ], 
@@ -85337,13 +85522,18 @@
           }, 
           {
             "name": "伐採用の斧", 
-            "gift": false, 
+            "gift": true, 
             "id": 4814, 
             "icon": "images/items/4814.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "寒い冬", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "40%"
               }
             ], 
@@ -85351,13 +85541,18 @@
           }, 
           {
             "name": "銛", 
-            "gift": false, 
+            "gift": true, 
             "id": 4815, 
             "icon": "images/items/4815.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "豊かな川", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85365,14 +85560,19 @@
           }, 
           {
             "name": "ハンマーと鉄床", 
-            "gift": false, 
+            "gift": true, 
             "id": 4816, 
             "icon": "images/items/4816.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "ハンマーと鉄床", 
                 "cond": "ペアモード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "70%"
               }
             ], 
@@ -85380,7 +85580,7 @@
           }, 
           {
             "name": "バイキングの剣", 
-            "gift": false, 
+            "gift": true, 
             "id": 4829, 
             "icon": "images/items/4829.png", 
             "find": [
@@ -85391,9 +85591,9 @@
         ], 
         "rewards": [
           {
-            "count": 20, 
-            "id": 4979, 
-            "name": "木の盾"
+            "count": 3, 
+            "id": 34, 
+            "name": "たいまつ"
           }
         ], 
         "id": 599, 
@@ -85425,13 +85625,18 @@
         "items": [
           {
             "name": "タルハルパ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4817, 
             "icon": "images/items/4817.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "伝説の魔法", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "30%"
               }
             ], 
@@ -85439,14 +85644,19 @@
           }, 
           {
             "name": "ライアー", 
-            "gift": false, 
+            "gift": true, 
             "id": 4818, 
             "icon": "images/items/4818.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "魂のメロディー", 
                 "cond": "モーフモード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85454,13 +85664,18 @@
           }, 
           {
             "name": "クルース", 
-            "gift": false, 
+            "gift": true, 
             "id": 4819, 
             "icon": "images/items/4819.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "過ぎ去りし日々の残り香", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "30%"
               }
             ], 
@@ -85468,13 +85683,18 @@
           }, 
           {
             "name": "ブリキの笛", 
-            "gift": false, 
+            "gift": true, 
             "id": 4820, 
             "icon": "images/items/4820.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "最もシンプルな楽器", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "40%"
               }
             ], 
@@ -85482,14 +85702,19 @@
           }, 
           {
             "name": "アイリッシュハープ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4821, 
             "icon": "images/items/4821.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "ハープを弾く", 
                 "cond": "夜モード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85497,7 +85722,7 @@
           }, 
           {
             "name": "時代のサーガ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4830, 
             "icon": "images/items/4830.png", 
             "find": [
@@ -85508,9 +85733,9 @@
         ], 
         "rewards": [
           {
-            "count": 25, 
-            "id": 4979, 
-            "name": "木の盾"
+            "count": 2, 
+            "id": 27, 
+            "name": "タイムマシン"
           }
         ], 
         "id": 600, 
@@ -85548,14 +85773,19 @@
         "items": [
           {
             "name": "セイルクロスピース", 
-            "gift": false, 
+            "gift": true, 
             "id": 4822, 
             "icon": "images/items/4822.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "勇気のテスト", 
                 "cond": "シルエットモード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85563,13 +85793,18 @@
           }, 
           {
             "name": "中世のコンパス", 
-            "gift": false, 
+            "gift": true, 
             "id": 4823, 
             "icon": "images/items/4823.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "公海", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "30%"
               }
             ], 
@@ -85577,13 +85812,18 @@
           }, 
           {
             "name": "舵", 
-            "gift": false, 
+            "gift": true, 
             "id": 4824, 
             "icon": "images/items/4824.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "北に向かう", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "40%"
               }
             ], 
@@ -85591,14 +85831,19 @@
           }, 
           {
             "name": "オール", 
-            "gift": false, 
+            "gift": true, 
             "id": 4825, 
             "icon": "images/items/4825.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "細かく切られたオール", 
                 "cond": "ペアモード", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "50%"
               }
             ], 
@@ -85606,13 +85851,18 @@
           }, 
           {
             "name": "ボート", 
-            "gift": false, 
+            "gift": true, 
             "id": 4826, 
             "icon": "images/items/4826.png", 
             "find": [
               {
+                "cond": "大いなる賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
                 "quest": "保管していたボート", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "30%"
               }
             ], 
@@ -85620,7 +85870,7 @@
           }, 
           {
             "name": "ドラッカーの船首", 
-            "gift": false, 
+            "gift": true, 
             "id": 4831, 
             "icon": "images/items/4831.png", 
             "find": [
@@ -85631,9 +85881,9 @@
         ], 
         "rewards": [
           {
-            "count": 30, 
-            "id": 4979, 
-            "name": "木の盾"
+            "count": 2, 
+            "id": 23, 
+            "name": "コンパス"
           }
         ], 
         "id": 601, 
@@ -87928,7 +88178,7 @@
             "find": [
               {
                 "cond": "初心者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -87948,7 +88198,7 @@
             "find": [
               {
                 "cond": "初心者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -87967,7 +88217,7 @@
             "find": [
               {
                 "cond": "初心者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -87986,7 +88236,7 @@
             "find": [
               {
                 "cond": "初心者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88006,7 +88256,7 @@
             "find": [
               {
                 "cond": "初心者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88070,7 +88320,7 @@
             "find": [
               {
                 "cond": "実習生レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88089,7 +88339,7 @@
             "find": [
               {
                 "cond": "実習生レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88108,7 +88358,7 @@
             "find": [
               {
                 "cond": "実習生レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88127,7 +88377,7 @@
             "find": [
               {
                 "cond": "実習生レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88146,7 +88396,7 @@
             "find": [
               {
                 "cond": "実習生レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88210,7 +88460,7 @@
             "find": [
               {
                 "cond": "探偵レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88229,7 +88479,7 @@
             "find": [
               {
                 "cond": "探偵レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88248,7 +88498,7 @@
             "find": [
               {
                 "cond": "探偵レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88267,7 +88517,7 @@
             "find": [
               {
                 "cond": "探偵レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88287,7 +88537,7 @@
             "find": [
               {
                 "cond": "探偵レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88351,7 +88601,7 @@
             "find": [
               {
                 "cond": "専門家レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88370,7 +88620,7 @@
             "find": [
               {
                 "cond": "専門家レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88389,7 +88639,7 @@
             "find": [
               {
                 "cond": "専門家レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88408,7 +88658,7 @@
             "find": [
               {
                 "cond": "専門家レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88428,7 +88678,7 @@
             "find": [
               {
                 "cond": "専門家レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88492,7 +88742,7 @@
             "find": [
               {
                 "cond": "上級探索者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88511,7 +88761,7 @@
             "find": [
               {
                 "cond": "上級探索者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88530,7 +88780,7 @@
             "find": [
               {
                 "cond": "上級探索者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88549,7 +88799,7 @@
             "find": [
               {
                 "cond": "上級探索者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88569,7 +88819,7 @@
             "find": [
               {
                 "cond": "上級探索者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "5%"
               }, 
               {
@@ -88633,7 +88883,7 @@
             "find": [
               {
                 "cond": "アカデミー会員レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88652,7 +88902,7 @@
             "find": [
               {
                 "cond": "アカデミー会員レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88671,7 +88921,7 @@
             "find": [
               {
                 "cond": "アカデミー会員レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88690,7 +88940,7 @@
             "find": [
               {
                 "cond": "アカデミー会員レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88709,7 +88959,7 @@
             "find": [
               {
                 "cond": "アカデミー会員レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88774,7 +89024,7 @@
             "find": [
               {
                 "cond": "賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88793,7 +89043,7 @@
             "find": [
               {
                 "cond": "賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88813,7 +89063,7 @@
             "find": [
               {
                 "cond": "賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88832,7 +89082,7 @@
             "find": [
               {
                 "cond": "賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88852,7 +89102,7 @@
             "find": [
               {
                 "cond": "賢者レベル以上", 
-                "scene": "「戦士の村」", 
+                "scene": "「バイキングの村」", 
                 "prob": "3%"
               }, 
               {
@@ -88883,10 +89133,4273 @@
         ], 
         "id": 624, 
         "name": "色と個性"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 4, 
+            "id": 1799, 
+            "name": "ドラゴンの爪"
+          }, 
+          {
+            "count": 4, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }, 
+          {
+            "count": 5, 
+            "id": 1801, 
+            "name": "バシリスクの牙"
+          }, 
+          {
+            "count": 5, 
+            "id": 1804, 
+            "name": "ユニコーンの血"
+          }
+        ], 
+        "items": [
+          {
+            "name": "レーンオブナイトメア", 
+            "gift": false, 
+            "id": 5022, 
+            "icon": "images/items/5022.png", 
+            "find": [
+              {
+                "quest": "映画セットでの混乱", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「ホラー映画」の品"
+          }, 
+          {
+            "name": "パーセキュターインザマスク", 
+            "gift": false, 
+            "id": 5023, 
+            "icon": "images/items/5023.png", 
+            "find": [
+              {
+                "quest": "名監督", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「ホラー映画」の品"
+          }, 
+          {
+            "name": "ナイトオブゴースト", 
+            "gift": false, 
+            "id": 5024, 
+            "icon": "images/items/5024.png", 
+            "find": [
+              {
+                "quest": "幽霊の一夜", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「ホラー映画」の品"
+          }, 
+          {
+            "name": "スマイリングストレンジャー", 
+            "gift": false, 
+            "id": 5025, 
+            "icon": "images/items/5025.png", 
+            "find": [
+              {
+                "quest": "削られゆく神経", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「ホラー映画」の品"
+          }, 
+          {
+            "name": "ミッドナイトトレイン", 
+            "gift": false, 
+            "id": 5026, 
+            "icon": "images/items/5026.png", 
+            "find": [
+              {
+                "quest": "深夜の列車", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「ホラー映画」の品"
+          }, 
+          {
+            "name": "ホラー映画", 
+            "gift": false, 
+            "id": 5047, 
+            "icon": "images/items/5047.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「ホラー映画」：「ホラー映画」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 10, 
+            "id": 2533, 
+            "name": "カボチャのランタン"
+          }
+        ], 
+        "id": 625, 
+        "name": "ホラー映画コレクション"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 5, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }, 
+          {
+            "count": 5, 
+            "id": 1801, 
+            "name": "バシリスクの牙"
+          }, 
+          {
+            "count": 5, 
+            "id": 1802, 
+            "name": "サラマンダーの尻尾"
+          }, 
+          {
+            "count": 5, 
+            "id": 1803, 
+            "name": "グリフォンの羽根"
+          }
+        ], 
+        "items": [
+          {
+            "name": "小道具用の新聞", 
+            "gift": false, 
+            "id": 5027, 
+            "icon": "images/items/5027.png", 
+            "find": [
+              {
+                "quest": "映画の小道具", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「映画の小道具」の品"
+          }, 
+          {
+            "name": "空の薬きょう", 
+            "gift": false, 
+            "id": 5028, 
+            "icon": "images/items/5028.png", 
+            "find": [
+              {
+                "quest": "映画の中の銃撃戦", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「映画の小道具」の品"
+          }, 
+          {
+            "name": "モンスターのマスク", 
+            "gift": false, 
+            "id": 5029, 
+            "icon": "images/items/5029.png", 
+            "find": [
+              {
+                "quest": "恐ろしいマスク", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「映画の小道具」の品"
+          }, 
+          {
+            "name": "超常現象用のセンサー", 
+            "gift": false, 
+            "id": 5030, 
+            "icon": "images/items/5030.png", 
+            "find": [
+              {
+                "quest": "不吉な力", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「映画の小道具」の品"
+          }, 
+          {
+            "name": "不吉な本", 
+            "gift": false, 
+            "id": 5031, 
+            "icon": "images/items/5031.png", 
+            "find": [
+              {
+                "quest": "呪いの元凶", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「映画の小道具」の品"
+          }, 
+          {
+            "name": "不気味な人形", 
+            "gift": false, 
+            "id": 5048, 
+            "icon": "images/items/5048.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「不気味な人形」：「映画の小道具」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 15, 
+            "id": 2533, 
+            "name": "カボチャのランタン"
+          }
+        ], 
+        "id": 626, 
+        "name": "映画の小道具"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 1803, 
+            "name": "グリフォンの羽根"
+          }, 
+          {
+            "count": 6, 
+            "id": 1804, 
+            "name": "ユニコーンの血"
+          }, 
+          {
+            "count": 6, 
+            "id": 1799, 
+            "name": "ドラゴンの爪"
+          }, 
+          {
+            "count": 6, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }
+        ], 
+        "items": [
+          {
+            "name": "「家」の場面", 
+            "gift": false, 
+            "id": 5032, 
+            "icon": "images/items/5032.png", 
+            "find": [
+              {
+                "quest": "消えた脚本", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「脚本」の品"
+          }, 
+          {
+            "name": "「捜索」の場面", 
+            "gift": false, 
+            "id": 5033, 
+            "icon": "images/items/5033.png", 
+            "find": [
+              {
+                "quest": "地下室で見つけたもの", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「脚本」の品"
+          }, 
+          {
+            "name": "「夜」の場面", 
+            "gift": false, 
+            "id": 5034, 
+            "icon": "images/items/5034.png", 
+            "find": [
+              {
+                "quest": "とある夜の恐怖", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「脚本」の品"
+          }, 
+          {
+            "name": "「出会い」の場面", 
+            "gift": false, 
+            "id": 5035, 
+            "icon": "images/items/5035.png", 
+            "find": [
+              {
+                "quest": "音のないシーン", 
+                "cond": "ペアモード", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「脚本」の品"
+          }, 
+          {
+            "name": "「終盤」の場面", 
+            "gift": false, 
+            "id": 5036, 
+            "icon": "images/items/5036.png", 
+            "find": [
+              {
+                "quest": "見逃せないクライマックス", 
+                "cond": "シルエットモード", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「脚本」の品"
+          }, 
+          {
+            "name": "「エピローグ」の場面", 
+            "gift": false, 
+            "id": 5049, 
+            "icon": "images/items/5049.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「エピローグ」の場面：「脚本」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 20, 
+            "id": 2533, 
+            "name": "カボチャのランタン"
+          }
+        ], 
+        "id": 627, 
+        "name": "脚本"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 1799, 
+            "name": "ドラゴンの爪"
+          }, 
+          {
+            "count": 6, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }, 
+          {
+            "count": 6, 
+            "id": 1801, 
+            "name": "バシリスクの牙"
+          }, 
+          {
+            "count": 6, 
+            "id": 1802, 
+            "name": "サラマンダーの尻尾"
+          }
+        ], 
+        "items": [
+          {
+            "name": "カチンコ", 
+            "gift": false, 
+            "id": 5037, 
+            "icon": "images/items/5037.png", 
+            "find": [
+              {
+                "quest": "暗い評判", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「撮影道具」の品"
+          }, 
+          {
+            "name": "オーディオテープ", 
+            "gift": false, 
+            "id": 5038, 
+            "icon": "images/items/5038.png", 
+            "find": [
+              {
+                "quest": "オーディオテープ", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「撮影道具」の品"
+          }, 
+          {
+            "name": "撮影カメラ", 
+            "gift": false, 
+            "id": 5039, 
+            "icon": "images/items/5039.png", 
+            "find": [
+              {
+                "quest": "監督の目", 
+                "cond": "文字モード", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「撮影道具」の品"
+          }, 
+          {
+            "name": "ブームマイク", 
+            "gift": false, 
+            "id": 5040, 
+            "icon": "images/items/5040.png", 
+            "find": [
+              {
+                "quest": "ブームマイク", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「撮影道具」の品"
+          }, 
+          {
+            "name": "スポットライト", 
+            "gift": false, 
+            "id": 5041, 
+            "icon": "images/items/5041.png", 
+            "find": [
+              {
+                "quest": "闇を解き明かす", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「撮影道具」の品"
+          }, 
+          {
+            "name": "フィルムストック", 
+            "gift": false, 
+            "id": 5050, 
+            "icon": "images/items/5050.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「フィルムストック」：「撮影道具」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 25, 
+            "id": 2533, 
+            "name": "カボチャのランタン"
+          }
+        ], 
+        "id": 628, 
+        "name": "撮影道具"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 1801, 
+            "name": "バシリスクの牙"
+          }, 
+          {
+            "count": 6, 
+            "id": 1802, 
+            "name": "サラマンダーの尻尾"
+          }, 
+          {
+            "count": 6, 
+            "id": 1803, 
+            "name": "グリフォンの羽根"
+          }, 
+          {
+            "count": 6, 
+            "id": 1804, 
+            "name": "ユニコーンの血"
+          }
+        ], 
+        "items": [
+          {
+            "name": "腹話術人形", 
+            "gift": false, 
+            "id": 5042, 
+            "icon": "images/items/5042.png", 
+            "find": [
+              {
+                "quest": "まだ終わりではない", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「不思議な道具」の品"
+          }, 
+          {
+            "name": "糸の仕掛け", 
+            "gift": false, 
+            "id": 5043, 
+            "icon": "images/items/5043.png", 
+            "find": [
+              {
+                "quest": "人形師", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「不思議な道具」の品"
+          }, 
+          {
+            "name": "鉄球", 
+            "gift": false, 
+            "id": 5044, 
+            "icon": "images/items/5044.png", 
+            "find": [
+              {
+                "quest": "鉄の球", 
+                "cond": "夜モード", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「不思議な道具」の品"
+          }, 
+          {
+            "name": "機械仕掛けの猿", 
+            "gift": false, 
+            "id": 5045, 
+            "icon": "images/items/5045.png", 
+            "find": [
+              {
+                "quest": "機械の猿", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「不思議な道具」の品"
+          }, 
+          {
+            "name": "白いシーツ", 
+            "gift": false, 
+            "id": 5046, 
+            "icon": "images/items/5046.png", 
+            "find": [
+              {
+                "quest": "悪ふざけ?", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「不思議な道具」の品"
+          }, 
+          {
+            "name": "不思議な日記", 
+            "gift": false, 
+            "id": 5051, 
+            "icon": "images/items/5051.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「不思議な日記」：「不思議な道具」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 30, 
+            "id": 2533, 
+            "name": "カボチャのランタン"
+          }
+        ], 
+        "id": 629, 
+        "name": "不思議な道具"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 4, 
+            "id": 261, 
+            "name": "金のゼンマイのネジ"
+          }, 
+          {
+            "count": 4, 
+            "id": 263, 
+            "name": "鋼鉄のバネ"
+          }, 
+          {
+            "count": 5, 
+            "id": 262, 
+            "name": "バネ"
+          }, 
+          {
+            "count": 5, 
+            "id": 265, 
+            "name": "歯車"
+          }
+        ], 
+        "items": [
+          {
+            "name": "ホワイトカップケーキ", 
+            "gift": false, 
+            "id": 4988, 
+            "icon": "images/items/4988.png", 
+            "find": [
+              {
+                "quest": "一族の財産", 
+                "scene": "「パン屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「美味しい物語」の品"
+          }, 
+          {
+            "name": "コッテージチーズクッキー", 
+            "gift": false, 
+            "id": 4989, 
+            "icon": "images/items/4989.png", 
+            "find": [
+              {
+                "quest": "奇跡のクッキー", 
+                "scene": "「パン屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「美味しい物語」の品"
+          }, 
+          {
+            "name": "ラムパン", 
+            "gift": false, 
+            "id": 4990, 
+            "icon": "images/items/4990.png", 
+            "find": [
+              {
+                "quest": "地に落ちた評判", 
+                "scene": "「パン屋」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「美味しい物語」の品"
+          }, 
+          {
+            "name": "チーズボール", 
+            "gift": false, 
+            "id": 4991, 
+            "icon": "images/items/4991.png", 
+            "find": [
+              {
+                "quest": "チーズの美味しさ", 
+                "scene": "「パン屋」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「美味しい物語」の品"
+          }, 
+          {
+            "name": "クランベリーパイ", 
+            "gift": false, 
+            "id": 4992, 
+            "icon": "images/items/4992.png", 
+            "find": [
+              {
+                "quest": "最後の絶品", 
+                "scene": "「パン屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「美味しい物語」の品"
+          }, 
+          {
+            "name": "ペストリーのバスケット", 
+            "gift": false, 
+            "id": 5013, 
+            "icon": "images/items/5013.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「ペストリーのバスケット」：「美味しい物語」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 10, 
+            "id": 5191, 
+            "name": "バニラのさや"
+          }
+        ], 
+        "id": 630, 
+        "name": "美味しい物語"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 5, 
+            "id": 261, 
+            "name": "金のゼンマイのネジ"
+          }, 
+          {
+            "count": 5, 
+            "id": 262, 
+            "name": "バネ"
+          }, 
+          {
+            "count": 5, 
+            "id": 265, 
+            "name": "歯車"
+          }, 
+          {
+            "count": 5, 
+            "id": 260, 
+            "name": "銀のゼンマイのネジ"
+          }
+        ], 
+        "items": [
+          {
+            "name": "レモンゼリーのスライス", 
+            "gift": false, 
+            "id": 4993, 
+            "icon": "images/items/4993.png", 
+            "find": [
+              {
+                "quest": "お気に入りのお菓子", 
+                "scene": "「パン屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「スイーツアソート」の品"
+          }, 
+          {
+            "name": "ベリーゼリー", 
+            "gift": false, 
+            "id": 4994, 
+            "icon": "images/items/4994.png", 
+            "find": [
+              {
+                "quest": "人気の真っ只中", 
+                "scene": "「パン屋」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「スイーツアソート」の品"
+          }, 
+          {
+            "name": "チョコトリュフ", 
+            "gift": false, 
+            "id": 4995, 
+            "icon": "images/items/4995.png", 
+            "find": [
+              {
+                "quest": "困った出来事", 
+                "scene": "「パン屋」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「スイーツアソート」の品"
+          }, 
+          {
+            "name": "バニラアイス", 
+            "gift": false, 
+            "id": 4996, 
+            "icon": "images/items/4996.png", 
+            "find": [
+              {
+                "quest": "奇妙な状況", 
+                "scene": "「パン屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「スイーツアソート」の品"
+          }, 
+          {
+            "name": "フルーツタルト", 
+            "gift": false, 
+            "id": 4997, 
+            "icon": "images/items/4997.png", 
+            "find": [
+              {
+                "quest": "興味深い事実", 
+                "scene": "「パン屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「スイーツアソート」の品"
+          }, 
+          {
+            "name": "スイーツアソート", 
+            "gift": false, 
+            "id": 5014, 
+            "icon": "images/items/5014.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「スイーツアソート」：「スイーツアソート」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 15, 
+            "id": 5191, 
+            "name": "バニラのさや"
+          }
+        ], 
+        "id": 631, 
+        "name": "スイーツアソート"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 259, 
+            "name": "ゼンマイのネジ"
+          }, 
+          {
+            "count": 6, 
+            "id": 264, 
+            "name": "らせんのバネ"
+          }, 
+          {
+            "count": 6, 
+            "id": 266, 
+            "name": "青銅の歯車"
+          }, 
+          {
+            "count": 6, 
+            "id": 267, 
+            "name": "アンティキティラ島の機械"
+          }
+        ], 
+        "items": [
+          {
+            "name": "アプリコットプリン", 
+            "gift": false, 
+            "id": 4998, 
+            "icon": "images/items/4998.png", 
+            "find": [
+              {
+                "quest": "最後の会話", 
+                "scene": "「パン屋」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「上質なデザート」の品"
+          }, 
+          {
+            "name": "コーヒームース", 
+            "gift": false, 
+            "id": 4999, 
+            "icon": "images/items/4999.png", 
+            "find": [
+              {
+                "quest": "悲しい秘密", 
+                "scene": "「パン屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「上質なデザート」の品"
+          }, 
+          {
+            "name": "ハニーパフェ", 
+            "gift": false, 
+            "id": 5000, 
+            "icon": "images/items/5000.png", 
+            "find": [
+              {
+                "quest": "あいまいな答え", 
+                "cond": "モーフモード", 
+                "scene": "「パン屋」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「上質なデザート」の品"
+          }, 
+          {
+            "name": "シュトゥルーデル", 
+            "gift": false, 
+            "id": 5001, 
+            "icon": "images/items/5001.png", 
+            "find": [
+              {
+                "quest": "優しい魔女", 
+                "scene": "「パン屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「上質なデザート」の品"
+          }, 
+          {
+            "name": "メレンゲ", 
+            "gift": false, 
+            "id": 5002, 
+            "icon": "images/items/5002.png", 
+            "find": [
+              {
+                "quest": "完璧な味", 
+                "scene": "「パン屋」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「上質なデザート」の品"
+          }, 
+          {
+            "name": "デザートスタンド", 
+            "gift": false, 
+            "id": 5015, 
+            "icon": "images/items/5015.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「デザートスタンド」：「上質なデザート」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 20, 
+            "id": 5191, 
+            "name": "バニラのさや"
+          }
+        ], 
+        "id": 632, 
+        "name": "上質なデザート"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 260, 
+            "name": "銀のゼンマイのネジ"
+          }, 
+          {
+            "count": 6, 
+            "id": 259, 
+            "name": "ゼンマイのネジ"
+          }, 
+          {
+            "count": 6, 
+            "id": 266, 
+            "name": "青銅の歯車"
+          }, 
+          {
+            "count": 6, 
+            "id": 267, 
+            "name": "アンティキティラ島の機械"
+          }
+        ], 
+        "items": [
+          {
+            "name": "ケーキの型", 
+            "gift": false, 
+            "id": 5003, 
+            "icon": "images/items/5003.png", 
+            "find": [
+              {
+                "quest": "キッチンの魔法", 
+                "scene": "「パン屋」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「料理道具」の品"
+          }, 
+          {
+            "name": "スパチュラ", 
+            "gift": false, 
+            "id": 5004, 
+            "icon": "images/items/5004.png", 
+            "find": [
+              {
+                "quest": "未知の物質", 
+                "cond": "ペアモード", 
+                "scene": "「パン屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「料理道具」の品"
+          }, 
+          {
+            "name": "ラップ", 
+            "gift": false, 
+            "id": 5005, 
+            "icon": "images/items/5005.png", 
+            "find": [
+              {
+                "quest": "おいしいゼリー", 
+                "scene": "「パン屋」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「料理道具」の品"
+          }, 
+          {
+            "name": "スパイスセット", 
+            "gift": false, 
+            "id": 5006, 
+            "icon": "images/items/5006.png", 
+            "find": [
+              {
+                "quest": "香り高いスパイス", 
+                "scene": "「パン屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「料理道具」の品"
+          }, 
+          {
+            "name": "食品用ピンセット", 
+            "gift": false, 
+            "id": 5007, 
+            "icon": "images/items/5007.png", 
+            "find": [
+              {
+                "quest": "隠された記述", 
+                "scene": "「パン屋」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「料理道具」の品"
+          }, 
+          {
+            "name": "料理のハンドブック", 
+            "gift": false, 
+            "id": 5016, 
+            "icon": "images/items/5016.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「料理のハンドブック」：「料理道具」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 25, 
+            "id": 5191, 
+            "name": "バニラのさや"
+          }
+        ], 
+        "id": 633, 
+        "name": "料理道具"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 260, 
+            "name": "銀のゼンマイのネジ"
+          }, 
+          {
+            "count": 6, 
+            "id": 264, 
+            "name": "らせんのバネ"
+          }, 
+          {
+            "count": 6, 
+            "id": 259, 
+            "name": "ゼンマイのネジ"
+          }, 
+          {
+            "count": 6, 
+            "id": 266, 
+            "name": "青銅の歯車"
+          }
+        ], 
+        "items": [
+          {
+            "name": "牡丹のウェハース", 
+            "gift": false, 
+            "id": 5008, 
+            "icon": "images/items/5008.png", 
+            "find": [
+              {
+                "quest": "美味しい牡丹", 
+                "cond": "シルエットモード", 
+                "scene": "「パン屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「お菓子のデコレーション」の品"
+          }, 
+          {
+            "name": "フォンダン", 
+            "gift": false, 
+            "id": 5009, 
+            "icon": "images/items/5009.png", 
+            "find": [
+              {
+                "quest": "唯一持つ特徴", 
+                "scene": "「パン屋」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「お菓子のデコレーション」の品"
+          }, 
+          {
+            "name": "ココナッツフレーク", 
+            "gift": false, 
+            "id": 5010, 
+            "icon": "images/items/5010.png", 
+            "find": [
+              {
+                "quest": "本物の魔法", 
+                "scene": "「パン屋」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「お菓子のデコレーション」の品"
+          }, 
+          {
+            "name": "パールシュガー", 
+            "gift": false, 
+            "id": 5011, 
+            "icon": "images/items/5011.png", 
+            "find": [
+              {
+                "quest": "ある警告", 
+                "cond": "文字モード", 
+                "scene": "「パン屋」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「お菓子のデコレーション」の品"
+          }, 
+          {
+            "name": "スプリンクル", 
+            "gift": false, 
+            "id": 5012, 
+            "icon": "images/items/5012.png", 
+            "find": [
+              {
+                "quest": "珍しい植物", 
+                "scene": "「パン屋」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「お菓子のデコレーション」の品"
+          }, 
+          {
+            "name": "美味しいデコレーション", 
+            "gift": false, 
+            "id": 5017, 
+            "icon": "images/items/5017.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「美味しいデコレーション」：「お菓子のデコレーション」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 30, 
+            "id": 5191, 
+            "name": "バニラのさや"
+          }
+        ], 
+        "id": 634, 
+        "name": "お菓子のデコレーション"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 7, 
+            "id": 555, 
+            "name": "模造皮革"
+          }, 
+          {
+            "count": 7, 
+            "id": 556, 
+            "name": "バクラム"
+          }, 
+          {
+            "count": 7, 
+            "id": 559, 
+            "name": "飾り罫"
+          }, 
+          {
+            "count": 7, 
+            "id": 560, 
+            "name": "サテンのリボン"
+          }
+        ], 
+        "items": [
+          {
+            "name": "りゅう座", 
+            "gift": true, 
+            "id": 5056, 
+            "icon": "images/items/5056.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "暗闇の世界図", 
+                "scene": "「ティーコーナー」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「暗闇の世界図」の品"
+          }, 
+          {
+            "name": "カシオペア座", 
+            "gift": true, 
+            "id": 5057, 
+            "icon": "images/items/5057.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "創設当時", 
+                "scene": "「砂漠の中心」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「暗闇の世界図」の品"
+          }, 
+          {
+            "name": "双子座", 
+            "gift": true, 
+            "id": 5058, 
+            "icon": "images/items/5058.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "奇妙な世界", 
+                "cond": "神秘の煙の異常", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「暗闇の世界図」の品"
+          }, 
+          {
+            "name": "みずがめ座", 
+            "gift": true, 
+            "id": 5059, 
+            "icon": "images/items/5059.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "霊的な繋がりを辿って", 
+                "scene": "「高い塔」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「暗闇の世界図」の品"
+          }, 
+          {
+            "name": "ケンタウルス座", 
+            "gift": true, 
+            "id": 5060, 
+            "icon": "images/items/5060.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "闇へ飛び込む", 
+                "scene": "「船のデッキ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「暗闇の世界図」の品"
+          }, 
+          {
+            "name": "暗闇の世界図", 
+            "gift": true, 
+            "id": 5166, 
+            "icon": "images/items/5166.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「暗闇の世界図」：「暗闇の世界図」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 2, 
+            "name": "古代の巻物"
+          }
+        ], 
+        "id": 635, 
+        "name": "暗闇の世界図"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 543, 
+            "name": "印画紙"
+          }, 
+          {
+            "count": 6, 
+            "id": 544, 
+            "name": "現像液"
+          }, 
+          {
+            "count": 6, 
+            "id": 546, 
+            "name": "赤い電球"
+          }, 
+          {
+            "count": 6, 
+            "id": 547, 
+            "name": "レンズ"
+          }
+        ], 
+        "items": [
+          {
+            "name": "繰り出しはしご", 
+            "gift": true, 
+            "id": 5061, 
+            "icon": "images/items/5061.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "ランプに火を", 
+                "scene": "「風車小屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「最後の点灯夫」の品"
+          }, 
+          {
+            "name": "ランプオイル", 
+            "gift": true, 
+            "id": 5062, 
+            "icon": "images/items/5062.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "ランプに燃料を", 
+                "scene": "「酒場」", 
+                "prob": "20%"
+              }
+            ], 
+            "desc": "コレクション「最後の点灯夫」の品"
+          }, 
+          {
+            "name": "ろうそくの芯", 
+            "gift": true, 
+            "id": 5063, 
+            "icon": "images/items/5063.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "古い芯", 
+                "cond": "かけらモード", 
+                "scene": "「キャンプ場」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「最後の点灯夫」の品"
+          }, 
+          {
+            "name": "長いマッチ", 
+            "gift": true, 
+            "id": 5064, 
+            "icon": "images/items/5064.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "夜の点灯夫", 
+                "scene": "「森の人の住処」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「最後の点灯夫」の品"
+          }, 
+          {
+            "name": "点灯夫の時計", 
+            "gift": true, 
+            "id": 5065, 
+            "icon": "images/items/5065.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "明かりをつける時", 
+                "scene": "「珍しい品々の部屋」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「最後の点灯夫」の品"
+          }, 
+          {
+            "name": "オイルランプ", 
+            "gift": true, 
+            "id": 5167, 
+            "icon": "images/items/5167.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「オイルランプ」：「最後の点灯夫」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 2, 
+            "id": 314, 
+            "name": "魔法のランタン"
+          }
+        ], 
+        "id": 636, 
+        "name": "最後の点灯夫"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 8, 
+            "id": 2124, 
+            "name": "ハート"
+          }, 
+          {
+            "count": 8, 
+            "id": 2125, 
+            "name": "絵はがき"
+          }, 
+          {
+            "count": 8, 
+            "id": 2126, 
+            "name": "バラ"
+          }, 
+          {
+            "count": 8, 
+            "id": 2127, 
+            "name": "キャンドル"
+          }
+        ], 
+        "items": [
+          {
+            "name": "紳士の傘", 
+            "gift": true, 
+            "id": 5066, 
+            "icon": "images/items/5066.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "謎めいた発見", 
+                "scene": "「豪華急行列車」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「不思議な見つけもの」の品"
+          }, 
+          {
+            "name": "コイン", 
+            "gift": true, 
+            "id": 5067, 
+            "icon": "images/items/5067.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "もう一つの発見", 
+                "scene": "「船長の船室」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「不思議な見つけもの」の品"
+          }, 
+          {
+            "name": "ハーモニカ", 
+            "gift": true, 
+            "id": 5068, 
+            "icon": "images/items/5068.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "puzzle": "『ジグソー』", 
+                "quest": "風の音", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「不思議な見つけもの」の品"
+          }, 
+          {
+            "name": "レイピア", 
+            "gift": true, 
+            "id": 5069, 
+            "icon": "images/items/5069.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "危険の予兆", 
+                "cond": "モーフモード", 
+                "scene": "「オレンジ栽培温室」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「不思議な見つけもの」の品"
+          }, 
+          {
+            "name": "タバコケース", 
+            "gift": true, 
+            "id": 5070, 
+            "icon": "images/items/5070.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "パーティーに参加しよう", 
+                "scene": "「航空博物館」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「不思議な見つけもの」の品"
+          }, 
+          {
+            "name": "幽霊のランタン", 
+            "gift": true, 
+            "id": 5168, 
+            "icon": "images/items/5168.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「幽霊のランタン」：「不思議な見つけもの」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 3, 
+            "id": 22, 
+            "name": "ランタン"
+          }
+        ], 
+        "id": 637, 
+        "name": "不思議な見つけもの"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 5, 
+            "id": 1935, 
+            "name": "糸"
+          }, 
+          {
+            "count": 5, 
+            "id": 1936, 
+            "name": "針"
+          }, 
+          {
+            "count": 5, 
+            "id": 1937, 
+            "name": "待ち針"
+          }, 
+          {
+            "count": 5, 
+            "id": 1938, 
+            "name": "指ぬき"
+          }
+        ], 
+        "items": [
+          {
+            "name": "シャベル", 
+            "gift": true, 
+            "id": 5071, 
+            "icon": "images/items/5071.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "明かりを辿って", 
+                "scene": "「霧の中の小屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「見知らぬ者を追って」の品"
+          }, 
+          {
+            "name": "ひと巻のロープ", 
+            "gift": true, 
+            "id": 5072, 
+            "icon": "images/items/5072.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "ゴーストタウンへ", 
+                "scene": "「ゴーストタウン」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「見知らぬ者を追って」の品"
+          }, 
+          {
+            "name": "鉄の短剣", 
+            "gift": true, 
+            "id": 5073, 
+            "icon": "images/items/5073.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "短剣と王冠", 
+                "scene": "「玉座の間」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「見知らぬ者を追って」の品"
+          }, 
+          {
+            "name": "リンゴが入った袋", 
+            "gift": true, 
+            "id": 5074, 
+            "icon": "images/items/5074.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "明かりを追って", 
+                "scene": "「夜の庭」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「見知らぬ者を追って」の品"
+          }, 
+          {
+            "name": "錠前", 
+            "gift": true, 
+            "id": 5075, 
+            "icon": "images/items/5075.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "逆さまの世界", 
+                "cond": "ペアモード", 
+                "scene": "「不気味な庭」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「見知らぬ者を追って」の品"
+          }, 
+          {
+            "name": "ブリキの鍵", 
+            "gift": true, 
+            "id": 5169, 
+            "icon": "images/items/5169.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「ブリキの鍵」：「見知らぬ者を追って」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 2000, 
+            "id": 1002, 
+            "name": "コイン"
+          }
+        ], 
+        "id": 638, 
+        "name": "見知らぬ者を追って"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 10, 
+            "id": 1799, 
+            "name": "ドラゴンの爪"
+          }, 
+          {
+            "count": 10, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }, 
+          {
+            "count": 10, 
+            "id": 1803, 
+            "name": "グリフォンの羽根"
+          }, 
+          {
+            "count": 10, 
+            "id": 1804, 
+            "name": "ユニコーンの血"
+          }
+        ], 
+        "items": [
+          {
+            "name": "モデルの土台", 
+            "gift": true, 
+            "id": 5076, 
+            "icon": "images/items/5076.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "一人目の救出", 
+                "cond": "文字モード", 
+                "scene": "「コスモスホール」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「モデルづくり」の品"
+          }, 
+          {
+            "name": "1階", 
+            "gift": true, 
+            "id": 5077, 
+            "icon": "images/items/5077.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "建築家のアイデア", 
+                "scene": "「オレンジ栽培温室」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「モデルづくり」の品"
+          }, 
+          {
+            "name": "2階", 
+            "gift": true, 
+            "id": 5078, 
+            "icon": "images/items/5078.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "囚われの身", 
+                "cond": "モーフモード", 
+                "scene": "「失われた研究室」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「モデルづくり」の品"
+          }, 
+          {
+            "name": "3階", 
+            "gift": true, 
+            "id": 5079, 
+            "icon": "images/items/5079.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "上階", 
+                "scene": "「航空博物館」", 
+                "prob": "20%"
+              }
+            ], 
+            "desc": "コレクション「モデルづくり」の品"
+          }, 
+          {
+            "name": "ドーム", 
+            "gift": true, 
+            "id": 5080, 
+            "icon": "images/items/5080.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "建物の上部", 
+                "scene": "「高い塔」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「モデルづくり」の品"
+          }, 
+          {
+            "name": "不思議な建物", 
+            "gift": true, 
+            "id": 5170, 
+            "icon": "images/items/5170.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「不思議な建物」：「モデルづくり」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 2, 
+            "id": 21, 
+            "name": "ダイナマイト"
+          }
+        ], 
+        "id": 639, 
+        "name": "モデルづくり"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 5, 
+            "id": 548, 
+            "name": "「私を飲んで」のビン"
+          }, 
+          {
+            "count": 5, 
+            "id": 550, 
+            "name": "ウサギのチョッキ"
+          }, 
+          {
+            "count": 5, 
+            "id": 551, 
+            "name": "帽子屋の帽子"
+          }, 
+          {
+            "count": 5, 
+            "id": 552, 
+            "name": "小さな鍵"
+          }
+        ], 
+        "items": [
+          {
+            "name": "参照となる辞書", 
+            "gift": true, 
+            "id": 5081, 
+            "icon": "images/items/5081.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "預言の解釈", 
+                "scene": "「コスモスホール」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「知識を求めて」の品"
+          }, 
+          {
+            "name": "百科辞書", 
+            "gift": true, 
+            "id": 5082, 
+            "icon": "images/items/5082.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "知識を求めて", 
+                "scene": "「古い図書室」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「知識を求めて」の品"
+          }, 
+          {
+            "name": "類語辞典", 
+            "gift": true, 
+            "id": 5083, 
+            "icon": "images/items/5083.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "関係をめぐって", 
+                "cond": "呪いの異常", 
+                "scene": "「冬の街路」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「知識を求めて」の品"
+          }, 
+          {
+            "name": "大辞典", 
+            "gift": true, 
+            "id": 5084, 
+            "icon": "images/items/5084.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "最初の疑念", 
+                "scene": "「風車小屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「知識を求めて」の品"
+          }, 
+          {
+            "name": "歴史辞典", 
+            "gift": true, 
+            "id": 5085, 
+            "icon": "images/items/5085.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "歴史辞典", 
+                "scene": "「森の家」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「知識を求めて」の品"
+          }, 
+          {
+            "name": "記録保管係の辞典", 
+            "gift": true, 
+            "id": 5171, 
+            "icon": "images/items/5171.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「記録保管係の辞典」：「知識を求めて」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 1, 
+            "name": "巻物"
+          }
+        ], 
+        "id": 640, 
+        "name": "知識を求めて"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 7, 
+            "id": 2124, 
+            "name": "ハート"
+          }, 
+          {
+            "count": 7, 
+            "id": 2125, 
+            "name": "絵はがき"
+          }, 
+          {
+            "count": 7, 
+            "id": 2126, 
+            "name": "バラ"
+          }, 
+          {
+            "count": 7, 
+            "id": 2127, 
+            "name": "キャンドル"
+          }
+        ], 
+        "items": [
+          {
+            "name": "シルバースプール", 
+            "gift": true, 
+            "id": 5086, 
+            "icon": "images/items/5086.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "puzzle": "『記憶合わせ』", 
+                "quest": "科学者を追って", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「科学者の研究」の品"
+          }, 
+          {
+            "name": "機械のレコーダー", 
+            "gift": true, 
+            "id": 5087, 
+            "icon": "images/items/5087.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "謎のレコーダー", 
+                "scene": "「コスモスホール」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「科学者の研究」の品"
+          }, 
+          {
+            "name": "観察記録", 
+            "gift": true, 
+            "id": 5088, 
+            "icon": "images/items/5088.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "観察記録", 
+                "scene": "「キャンプ場」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「科学者の研究」の品"
+          }, 
+          {
+            "name": "異常現象用センサー", 
+            "gift": true, 
+            "id": 5089, 
+            "icon": "images/items/5089.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "異常現象用センサー", 
+                "scene": "「船長の船室」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「科学者の研究」の品"
+          }, 
+          {
+            "name": "赤いレーザー", 
+            "gift": true, 
+            "id": 5090, 
+            "icon": "images/items/5090.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「コスモスホール」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "一筋の光", 
+                "cond": "失われた時間の異常", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「科学者の研究」の品"
+          }, 
+          {
+            "name": "科学者の研究", 
+            "gift": true, 
+            "id": 5172, 
+            "icon": "images/items/5172.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「科学者の研究」：「科学者の研究」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 3, 
+            "id": 27, 
+            "name": "タイムマシン"
+          }
+        ], 
+        "id": 641, 
+        "name": "科学者の研究"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 8, 
+            "id": 1799, 
+            "name": "ドラゴンの爪"
+          }, 
+          {
+            "count": 8, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }, 
+          {
+            "count": 8, 
+            "id": 1803, 
+            "name": "グリフォンの羽根"
+          }, 
+          {
+            "count": 8, 
+            "id": 1804, 
+            "name": "ユニコーンの血"
+          }
+        ], 
+        "items": [
+          {
+            "name": "田舎の家", 
+            "gift": true, 
+            "id": 5091, 
+            "icon": "images/items/5091.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "大掛かりな救助", 
+                "scene": "「バイキングの村」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「おもちゃの街」の品"
+          }, 
+          {
+            "name": "貴族の家", 
+            "gift": true, 
+            "id": 5092, 
+            "icon": "images/items/5092.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "謎の街", 
+                "cond": "モーフモード", 
+                "scene": "「宏壮なオフィス」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「おもちゃの街」の品"
+          }, 
+          {
+            "name": "パン屋の家", 
+            "gift": true, 
+            "id": 5093, 
+            "icon": "images/items/5093.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "puzzle": "『ジグソー』", 
+                "quest": "お菓子の香り", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「おもちゃの街」の品"
+          }, 
+          {
+            "name": "おもちゃの風車", 
+            "gift": true, 
+            "id": 5094, 
+            "icon": "images/items/5094.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "本物のような風車", 
+                "scene": "「風車小屋」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「おもちゃの街」の品"
+          }, 
+          {
+            "name": "王の城", 
+            "gift": true, 
+            "id": 5095, 
+            "icon": "images/items/5095.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "王の城", 
+                "cond": "神秘の煙の異常", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「おもちゃの街」の品"
+          }, 
+          {
+            "name": "おもちゃの街", 
+            "gift": true, 
+            "id": 5173, 
+            "icon": "images/items/5173.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「おもちゃの街」：「おもちゃの街」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 3000, 
+            "id": 1002, 
+            "name": "コイン"
+          }
+        ], 
+        "id": 642, 
+        "name": "おもちゃの街"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 5, 
+            "id": 562, 
+            "name": "ヘ音記号"
+          }, 
+          {
+            "count": 5, 
+            "id": 563, 
+            "name": "ハ音記号"
+          }, 
+          {
+            "count": 5, 
+            "id": 564, 
+            "name": "シャープ"
+          }, 
+          {
+            "count": 5, 
+            "id": 565, 
+            "name": "フラット"
+          }
+        ], 
+        "items": [
+          {
+            "name": "写真の切れ端 1", 
+            "gift": true, 
+            "id": 5096, 
+            "icon": "images/items/5096.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "アリスの写真", 
+                "scene": "「玉座の間」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「アリスの写真」の品"
+          }, 
+          {
+            "name": "写真の切れ端 2", 
+            "gift": true, 
+            "id": 5097, 
+            "icon": "images/items/5097.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "最初の写真", 
+                "scene": "「コスモスホール」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「アリスの写真」の品"
+          }, 
+          {
+            "name": "写真の切れ端 3", 
+            "gift": true, 
+            "id": 5098, 
+            "icon": "images/items/5098.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "3つめの断片", 
+                "scene": "「高い塔」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「アリスの写真」の品"
+          }, 
+          {
+            "name": "写真の切れ端 4", 
+            "gift": true, 
+            "id": 5099, 
+            "icon": "images/items/5099.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "謎の写真家", 
+                "cond": "夜モード", 
+                "scene": "「宝島」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「アリスの写真」の品"
+          }, 
+          {
+            "name": "写真の切れ端 5", 
+            "gift": true, 
+            "id": 5100, 
+            "icon": "images/items/5100.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "最後の断片", 
+                "scene": "「発掘」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「アリスの写真」の品"
+          }, 
+          {
+            "name": "アリスの写真", 
+            "gift": true, 
+            "id": 5174, 
+            "icon": "images/items/5174.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「アリスの写真」：「アリスの写真」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 2, 
+            "id": 19, 
+            "name": "探索者の目"
+          }
+        ], 
+        "id": 643, 
+        "name": "アリスの写真"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 549, 
+            "name": "「私を食べて」のケーキ"
+          }, 
+          {
+            "count": 6, 
+            "id": 550, 
+            "name": "ウサギのチョッキ"
+          }, 
+          {
+            "count": 6, 
+            "id": 551, 
+            "name": "帽子屋の帽子"
+          }, 
+          {
+            "count": 6, 
+            "id": 552, 
+            "name": "小さな鍵"
+          }
+        ], 
+        "items": [
+          {
+            "name": "イングリッシュパンケーキ", 
+            "gift": true, 
+            "id": 5101, 
+            "icon": "images/items/5101.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "帰ってきたアリス", 
+                "scene": "「花屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「遅めの甘い朝食」の品"
+          }, 
+          {
+            "name": "キャラメルソース", 
+            "gift": true, 
+            "id": 5102, 
+            "icon": "images/items/5102.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "おいしいソース", 
+                "cond": "呪いの異常", 
+                "scene": "「東洋のバザール」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「遅めの甘い朝食」の品"
+          }, 
+          {
+            "name": "クオークパンケーキ", 
+            "gift": true, 
+            "id": 5103, 
+            "icon": "images/items/5103.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "空腹を満たそう", 
+                "scene": "「トロピカルイブニング」", 
+                "prob": "20%"
+              }
+            ], 
+            "desc": "コレクション「遅めの甘い朝食」の品"
+          }, 
+          {
+            "name": "ホットチョコレート", 
+            "gift": true, 
+            "id": 5104, 
+            "icon": "images/items/5104.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "温かなチョコレート", 
+                "scene": "「遊び場」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「遅めの甘い朝食」の品"
+          }, 
+          {
+            "name": "ほうれん草ボール", 
+            "gift": true, 
+            "id": 5105, 
+            "icon": "images/items/5105.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "体にいい食べ物", 
+                "scene": "「砂漠の中心」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「遅めの甘い朝食」の品"
+          }, 
+          {
+            "name": "アルフレッドのパイ", 
+            "gift": true, 
+            "id": 5175, 
+            "icon": "images/items/5175.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「アルフレッドのパイ」：「遅めの甘い朝食」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 35, 
+            "name": "カプチーノ"
+          }
+        ], 
+        "id": 644, 
+        "name": "遅めの甘い朝食"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 7, 
+            "id": 544, 
+            "name": "現像液"
+          }, 
+          {
+            "count": 7, 
+            "id": 545, 
+            "name": "木の洗濯ばさみ"
+          }, 
+          {
+            "count": 7, 
+            "id": 546, 
+            "name": "赤い電球"
+          }, 
+          {
+            "count": 7, 
+            "id": 547, 
+            "name": "レンズ"
+          }
+        ], 
+        "items": [
+          {
+            "name": "玄関の箱", 
+            "gift": true, 
+            "id": 5106, 
+            "icon": "images/items/5106.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "かくれんぼ", 
+                "cond": "かけらモード", 
+                "scene": "「珍しい品々の部屋」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「かくれんぼ」の品"
+          }, 
+          {
+            "name": "ワードローブ", 
+            "gift": true, 
+            "id": 5107, 
+            "icon": "images/items/5107.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "人形がいない遊び", 
+                "scene": "「コスモスホール」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「かくれんぼ」の品"
+          }, 
+          {
+            "name": "ついたて", 
+            "gift": true, 
+            "id": 5108, 
+            "icon": "images/items/5108.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "アリスはどこに?", 
+                "scene": "「バイキングの村」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「かくれんぼ」の品"
+          }, 
+          {
+            "name": "応接間のベッド", 
+            "gift": true, 
+            "id": 5109, 
+            "icon": "images/items/5109.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "ベッドの下に", 
+                "scene": "「森の人の住処」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「かくれんぼ」の品"
+          }, 
+          {
+            "name": "庭の草木", 
+            "gift": true, 
+            "id": 5110, 
+            "icon": "images/items/5110.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "不公平なゲーム", 
+                "scene": "「夜の庭」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「かくれんぼ」の品"
+          }, 
+          {
+            "name": "見えないマント", 
+            "gift": true, 
+            "id": 5176, 
+            "icon": "images/items/5176.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「見えないマント」：「かくれんぼ」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 312, 
+            "name": "神秘の鏡"
+          }
+        ], 
+        "id": 645, 
+        "name": "かくれんぼ"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 1939, 
+            "name": "ナット"
+          }, 
+          {
+            "count": 6, 
+            "id": 1940, 
+            "name": "小さいネジ"
+          }, 
+          {
+            "count": 6, 
+            "id": 1941, 
+            "name": "ワッシャー"
+          }, 
+          {
+            "count": 6, 
+            "id": 1942, 
+            "name": "ばね座金"
+          }
+        ], 
+        "items": [
+          {
+            "name": "太陽の巻物", 
+            "gift": true, 
+            "id": 5111, 
+            "icon": "images/items/5111.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "不可解な創作物", 
+                "scene": "「ウィグワム」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の秘密」の品"
+          }, 
+          {
+            "name": "輝きのパピルス", 
+            "gift": true, 
+            "id": 5112, 
+            "icon": "images/items/5112.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "消えた断片", 
+                "scene": "「珍しい品々の部屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の秘密」の品"
+          }, 
+          {
+            "name": "栄誉の羊皮紙", 
+            "gift": true, 
+            "id": 5113, 
+            "icon": "images/items/5113.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "puzzle": "『ブロック』", 
+                "quest": "長きに渡る捜索", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の秘密」の品"
+          }, 
+          {
+            "name": "古代の手紙", 
+            "gift": true, 
+            "id": 5114, 
+            "icon": "images/items/5114.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "古代の手紙", 
+                "scene": "「発掘」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の秘密」の品"
+          }, 
+          {
+            "name": "希望の写本", 
+            "gift": true, 
+            "id": 5115, 
+            "icon": "images/items/5115.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "傷んだ写本", 
+                "cond": "巻物食らいの異常", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の秘密」の品"
+          }, 
+          {
+            "name": "知られざる原理", 
+            "gift": true, 
+            "id": 5177, 
+            "icon": "images/items/5177.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「知られざる原理」：「錬金術師の秘密」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 3500, 
+            "id": 1002, 
+            "name": "コイン"
+          }
+        ], 
+        "id": 646, 
+        "name": "錬金術師の秘密"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 8, 
+            "id": 555, 
+            "name": "模造皮革"
+          }, 
+          {
+            "count": 8, 
+            "id": 556, 
+            "name": "バクラム"
+          }, 
+          {
+            "count": 8, 
+            "id": 559, 
+            "name": "飾り罫"
+          }, 
+          {
+            "count": 8, 
+            "id": 560, 
+            "name": "サテンのリボン"
+          }
+        ], 
+        "items": [
+          {
+            "name": "炎の油", 
+            "gift": true, 
+            "id": 5116, 
+            "icon": "images/items/5116.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "特別な物質", 
+                "scene": "「失われた研究室」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の成果物」の品"
+          }, 
+          {
+            "name": "奇跡の水", 
+            "gift": true, 
+            "id": 5117, 
+            "icon": "images/items/5117.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "奇跡の実体化", 
+                "scene": "「ヴェネツィア」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の成果物」の品"
+          }, 
+          {
+            "name": "金色のエーテル", 
+            "gift": true, 
+            "id": 5118, 
+            "icon": "images/items/5118.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "黄金色の秘密", 
+                "cond": "呪いの異常", 
+                "scene": "「マヤの神殿」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の成果物」の品"
+          }, 
+          {
+            "name": "闇のエリクサー", 
+            "gift": true, 
+            "id": 5119, 
+            "icon": "images/items/5119.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "恐ろしい仮定", 
+                "scene": "「高い塔」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の成果物」の品"
+          }, 
+          {
+            "name": "忘却の薬", 
+            "gift": true, 
+            "id": 5120, 
+            "icon": "images/items/5120.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "ある問題点", 
+                "scene": "「呪われたアトラクション」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「錬金術師の成果物」の品"
+          }, 
+          {
+            "name": "5つの物質", 
+            "gift": true, 
+            "id": 5178, 
+            "icon": "images/items/5178.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「5つの物質」：「錬金術師の成果物」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 313, 
+            "name": "聖水"
+          }
+        ], 
+        "id": 647, 
+        "name": "錬金術師の成果物"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 5, 
+            "id": 1799, 
+            "name": "ドラゴンの爪"
+          }, 
+          {
+            "count": 5, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }, 
+          {
+            "count": 5, 
+            "id": 1803, 
+            "name": "グリフォンの羽根"
+          }, 
+          {
+            "count": 5, 
+            "id": 1804, 
+            "name": "ユニコーンの血"
+          }
+        ], 
+        "items": [
+          {
+            "name": "割れた鏡", 
+            "gift": true, 
+            "id": 5121, 
+            "icon": "images/items/5121.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "puzzle": "『パイプ』", 
+                "quest": "鏡の向こう側", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「小さな不思議」の品"
+          }, 
+          {
+            "name": "擦り切れたブーツ", 
+            "gift": true, 
+            "id": 5122, 
+            "icon": "images/items/5122.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "合わない理屈", 
+                "scene": "「奇術師の部屋」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「小さな不思議」の品"
+          }, 
+          {
+            "name": "いたずら書きがあるテーブル", 
+            "gift": true, 
+            "id": 5123, 
+            "icon": "images/items/5123.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "おもちゃのテーブル", 
+                "scene": "「遊び場」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「小さな不思議」の品"
+          }, 
+          {
+            "name": "食器", 
+            "gift": true, 
+            "id": 5124, 
+            "icon": "images/items/5124.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "困惑", 
+                "cond": "かけらモード", 
+                "scene": "「宴の広間」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「小さな不思議」の品"
+          }, 
+          {
+            "name": "小さな小銭入れ", 
+            "gift": true, 
+            "id": 5125, 
+            "icon": "images/items/5125.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「撮影スタジオ」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "誤魔化せない恐ろしさ", 
+                "scene": "「酒場」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「小さな不思議」の品"
+          }, 
+          {
+            "name": "小さなメダリオン", 
+            "gift": true, 
+            "id": 5179, 
+            "icon": "images/items/5179.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「小さなメダリオン」：「小さな不思議」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 5, 
+            "name": "幸運の魔よけ"
+          }
+        ], 
+        "id": 648, 
+        "name": "小さな不思議"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 10, 
+            "id": 549, 
+            "name": "「私を食べて」のケーキ"
+          }, 
+          {
+            "count": 10, 
+            "id": 550, 
+            "name": "ウサギのチョッキ"
+          }, 
+          {
+            "count": 10, 
+            "id": 551, 
+            "name": "帽子屋の帽子"
+          }, 
+          {
+            "count": 10, 
+            "id": 552, 
+            "name": "小さな鍵"
+          }
+        ], 
+        "items": [
+          {
+            "name": "従業員の肖像画", 
+            "gift": true, 
+            "id": 5126, 
+            "icon": "images/items/5126.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "不思議な肖像画", 
+                "cond": "夜モード", 
+                "scene": "「豪華急行列車」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「キーサイン」の品"
+          }, 
+          {
+            "name": "仕事用のスケッチ", 
+            "gift": true, 
+            "id": 5127, 
+            "icon": "images/items/5127.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "暗き場所", 
+                "scene": "「コスモスホール」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「キーサイン」の品"
+          }, 
+          {
+            "name": "人形師の道具", 
+            "gift": true, 
+            "id": 5128, 
+            "icon": "images/items/5128.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "金属の音", 
+                "scene": "「高い塔」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「キーサイン」の品"
+          }, 
+          {
+            "name": "人形の塗料", 
+            "gift": true, 
+            "id": 5129, 
+            "icon": "images/items/5129.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "耐えられない悪臭", 
+                "scene": "「遊び場」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「キーサイン」の品"
+          }, 
+          {
+            "name": "作業服", 
+            "gift": true, 
+            "id": 5130, 
+            "icon": "images/items/5130.png", 
+            "find": [
+              {
+                "cond": "初心者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "聞き覚えのあるバッジ", 
+                "cond": "ペアモード", 
+                "scene": "「酒場」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「キーサイン」の品"
+          }, 
+          {
+            "name": "黄金のバッジ", 
+            "gift": true, 
+            "id": 5180, 
+            "icon": "images/items/5180.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「黄金のバッジ」：「キーサイン」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 3, 
+            "name": "大金の袋"
+          }
+        ], 
+        "id": 649, 
+        "name": "キーサイン"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 7, 
+            "id": 1935, 
+            "name": "糸"
+          }, 
+          {
+            "count": 7, 
+            "id": 1936, 
+            "name": "針"
+          }, 
+          {
+            "count": 7, 
+            "id": 1937, 
+            "name": "待ち針"
+          }, 
+          {
+            "count": 7, 
+            "id": 1938, 
+            "name": "指ぬき"
+          }
+        ], 
+        "items": [
+          {
+            "name": "高性能探知機", 
+            "gift": true, 
+            "id": 5131, 
+            "icon": "images/items/5131.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "厄介な障害物", 
+                "scene": "「船のデッキ」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「トレジャーハンター」の品"
+          }, 
+          {
+            "name": "探知機", 
+            "gift": true, 
+            "id": 5132, 
+            "icon": "images/items/5132.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "古代の遺物", 
+                "scene": "「展望台」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「トレジャーハンター」の品"
+          }, 
+          {
+            "name": "ビデオグラス", 
+            "gift": true, 
+            "id": 5133, 
+            "icon": "images/items/5133.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "潜在意識の分析", 
+                "cond": "かけらモード", 
+                "scene": "「山のリゾート地」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「トレジャーハンター」の品"
+          }, 
+          {
+            "name": "地下探査レーダー", 
+            "gift": true, 
+            "id": 5134, 
+            "icon": "images/items/5134.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "暗号を持つ箱", 
+                "scene": "「コスモスホール」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「トレジャーハンター」の品"
+          }, 
+          {
+            "name": "地下スキャナー", 
+            "gift": true, 
+            "id": 5135, 
+            "icon": "images/items/5135.png", 
+            "find": [
+              {
+                "cond": "実習生レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "特別な装置", 
+                "scene": "「森の人の住処」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「トレジャーハンター」の品"
+          }, 
+          {
+            "name": "ハードケース", 
+            "gift": true, 
+            "id": 5181, 
+            "icon": "images/items/5181.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「ハードケース」：「トレジャーハンター」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 4000, 
+            "id": 1002, 
+            "name": "コイン"
+          }
+        ], 
+        "id": 650, 
+        "name": "トレジャーハンター"
       }
     ], 
     "id": "collections_13", 
-    "title": "コレクション 601-624"
+    "title": "コレクション 601-650"
+  }, 
+  {
+    "colls": [
+      {
+        "charges": [
+          {
+            "count": 8, 
+            "id": 1939, 
+            "name": "ナット"
+          }, 
+          {
+            "count": 8, 
+            "id": 1940, 
+            "name": "小さいネジ"
+          }, 
+          {
+            "count": 8, 
+            "id": 1941, 
+            "name": "ワッシャー"
+          }, 
+          {
+            "count": 8, 
+            "id": 1942, 
+            "name": "ばね座金"
+          }
+        ], 
+        "items": [
+          {
+            "name": "催眠用振り子", 
+            "gift": true, 
+            "id": 5136, 
+            "icon": "images/items/5136.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "疑問が残る質問", 
+                "scene": "「呪われたアトラクション」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「催眠の技術」の品"
+          }, 
+          {
+            "name": "電子催眠装置", 
+            "gift": true, 
+            "id": 5137, 
+            "icon": "images/items/5137.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "puzzle": "『ブロック』", 
+                "quest": "おかしな装置", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「催眠の技術」の品"
+          }, 
+          {
+            "name": "メトロノーム", 
+            "gift": true, 
+            "id": 5138, 
+            "icon": "images/items/5138.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "聞き入る音", 
+                "scene": "「農園」", 
+                "prob": "30%"
+              }
+            ], 
+            "desc": "コレクション「催眠の技術」の品"
+          }, 
+          {
+            "name": "催眠術師のレコーダー", 
+            "gift": true, 
+            "id": 5139, 
+            "icon": "images/items/5139.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "聞こえない警告", 
+                "cond": "ペアモード", 
+                "scene": "「珍しい品々の部屋」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「催眠の技術」の品"
+          }, 
+          {
+            "name": "ストロボスコープ", 
+            "gift": true, 
+            "id": 5140, 
+            "icon": "images/items/5140.png", 
+            "find": [
+              {
+                "cond": "探偵レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "予期せぬ人物", 
+                "scene": "「コスモスホール」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「催眠の技術」の品"
+          }, 
+          {
+            "name": "催眠道具", 
+            "gift": true, 
+            "id": 5182, 
+            "icon": "images/items/5182.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「催眠道具」：「催眠の技術」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 3, 
+            "id": 34, 
+            "name": "たいまつ"
+          }
+        ], 
+        "id": 651, 
+        "name": "催眠の技術"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 5, 
+            "id": 562, 
+            "name": "ヘ音記号"
+          }, 
+          {
+            "count": 5, 
+            "id": 563, 
+            "name": "ハ音記号"
+          }, 
+          {
+            "count": 5, 
+            "id": 564, 
+            "name": "シャープ"
+          }, 
+          {
+            "count": 5, 
+            "id": 565, 
+            "name": "フラット"
+          }
+        ], 
+        "items": [
+          {
+            "name": "ハンカチ", 
+            "gift": true, 
+            "id": 5141, 
+            "icon": "images/items/5141.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "幸せな記憶", 
+                "scene": "「ティーコーナー」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「大事なアクセサリー」の品"
+          }, 
+          {
+            "name": "サテンのリボン", 
+            "gift": true, 
+            "id": 5142, 
+            "icon": "images/items/5142.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "手に入れられない光", 
+                "scene": "「デートの木」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「大事なアクセサリー」の品"
+          }, 
+          {
+            "name": "赤い紐のブレスレット", 
+            "gift": true, 
+            "id": 5143, 
+            "icon": "images/items/5143.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "過去の少女", 
+                "scene": "「ウィグワム」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「大事なアクセサリー」の品"
+          }, 
+          {
+            "name": "シルクのスカーフ", 
+            "gift": true, 
+            "id": 5144, 
+            "icon": "images/items/5144.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "崩れる夢", 
+                "cond": "幽霊の鏡の異常", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「大事なアクセサリー」の品"
+          }, 
+          {
+            "name": "刺しゅうされたハンカチ", 
+            "gift": true, 
+            "id": 5145, 
+            "icon": "images/items/5145.png", 
+            "find": [
+              {
+                "cond": "専門家レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "花の香り", 
+                "scene": "「砂漠の中心」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「大事なアクセサリー」の品"
+          }, 
+          {
+            "name": "高価なアクセサリー", 
+            "gift": true, 
+            "id": 5183, 
+            "icon": "images/items/5183.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「高価なアクセサリー」：「大事なアクセサリー」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 311, 
+            "name": "扇子"
+          }
+        ], 
+        "id": 652, 
+        "name": "大事なアクセサリー"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 6, 
+            "id": 543, 
+            "name": "印画紙"
+          }, 
+          {
+            "count": 6, 
+            "id": 545, 
+            "name": "木の洗濯ばさみ"
+          }, 
+          {
+            "count": 6, 
+            "id": 546, 
+            "name": "赤い電球"
+          }, 
+          {
+            "count": 6, 
+            "id": 547, 
+            "name": "レンズ"
+          }
+        ], 
+        "items": [
+          {
+            "name": "密約", 
+            "gift": true, 
+            "id": 5146, 
+            "icon": "images/items/5146.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "無法者の子分", 
+                "scene": "「失われた研究室」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「機密資料」の品"
+          }, 
+          {
+            "name": "秘密の地図", 
+            "gift": true, 
+            "id": 5147, 
+            "icon": "images/items/5147.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "特別な秘密", 
+                "scene": "「高い塔」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「機密資料」の品"
+          }, 
+          {
+            "name": "燃やした書類", 
+            "gift": true, 
+            "id": 5148, 
+            "icon": "images/items/5148.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "puzzle": "『ブロック』", 
+                "quest": "裏があるビジネス", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「機密資料」の品"
+          }, 
+          {
+            "name": "調査書類", 
+            "gift": true, 
+            "id": 5149, 
+            "icon": "images/items/5149.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "正体不明の客", 
+                "scene": "「酒場」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「機密資料」の品"
+          }, 
+          {
+            "name": "極秘資料", 
+            "gift": true, 
+            "id": 5150, 
+            "icon": "images/items/5150.png", 
+            "find": [
+              {
+                "cond": "上級探索者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "5%"
+              }, 
+              {
+                "quest": "失敗に終わる罠", 
+                "scene": "「コスモスホール」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「機密資料」の品"
+          }, 
+          {
+            "name": "小型金庫", 
+            "gift": true, 
+            "id": 5184, 
+            "icon": "images/items/5184.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「小型金庫」：「機密資料」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 4, 
+            "name": "レプラコーンの黄金の壺"
+          }
+        ], 
+        "id": 653, 
+        "name": "機密資料"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 8, 
+            "id": 2124, 
+            "name": "ハート"
+          }, 
+          {
+            "count": 8, 
+            "id": 2125, 
+            "name": "絵はがき"
+          }, 
+          {
+            "count": 8, 
+            "id": 2126, 
+            "name": "バラ"
+          }, 
+          {
+            "count": 8, 
+            "id": 2127, 
+            "name": "キャンドル"
+          }
+        ], 
+        "items": [
+          {
+            "name": "盗聴器", 
+            "gift": true, 
+            "id": 5151, 
+            "icon": "images/items/5151.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "気になる理由", 
+                "scene": "「ウィグワム」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「スパイのやり方」の品"
+          }, 
+          {
+            "name": "追跡装置", 
+            "gift": true, 
+            "id": 5152, 
+            "icon": "images/items/5152.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "ほんの遊び心", 
+                "cond": "文字モード", 
+                "scene": "「船長の船室」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「スパイのやり方」の品"
+          }, 
+          {
+            "name": "変声器", 
+            "gift": true, 
+            "id": 5153, 
+            "icon": "images/items/5153.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "言葉の悪ふざけ", 
+                "scene": "「ロックステージ」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「スパイのやり方」の品"
+          }, 
+          {
+            "name": "小型カメラ", 
+            "gift": true, 
+            "id": 5154, 
+            "icon": "images/items/5154.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "互いの良い関係", 
+                "scene": "「コスモスホール」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「スパイのやり方」の品"
+          }, 
+          {
+            "name": "モーションセンサー", 
+            "gift": true, 
+            "id": 5155, 
+            "icon": "images/items/5155.png", 
+            "find": [
+              {
+                "cond": "アカデミー会員レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "安全対策", 
+                "scene": "「呪われたアトラクション」", 
+                "prob": "40%"
+              }
+            ], 
+            "desc": "コレクション「スパイのやり方」の品"
+          }, 
+          {
+            "name": "スパイのケース", 
+            "gift": true, 
+            "id": 5185, 
+            "icon": "images/items/5185.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「スパイのケース」：「スパイのやり方」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 5000, 
+            "id": 1002, 
+            "name": "コイン"
+          }
+        ], 
+        "id": 654, 
+        "name": "スパイのやり方"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 7, 
+            "id": 555, 
+            "name": "模造皮革"
+          }, 
+          {
+            "count": 7, 
+            "id": 556, 
+            "name": "バクラム"
+          }, 
+          {
+            "count": 7, 
+            "id": 559, 
+            "name": "飾り罫"
+          }, 
+          {
+            "count": 7, 
+            "id": 560, 
+            "name": "サテンのリボン"
+          }
+        ], 
+        "items": [
+          {
+            "name": "鉄の箱", 
+            "gift": true, 
+            "id": 5156, 
+            "icon": "images/items/5156.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "ついてない日", 
+                "scene": "「奇術師の部屋」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「自己防衛の道具」の品"
+          }, 
+          {
+            "name": "女性用ハンドガン", 
+            "gift": true, 
+            "id": 5157, 
+            "icon": "images/items/5157.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "ある買い物", 
+                "cond": "かけらモード", 
+                "scene": "「劇場」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「自己防衛の道具」の品"
+          }, 
+          {
+            "name": "多機能ペン", 
+            "gift": true, 
+            "id": 5158, 
+            "icon": "images/items/5158.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "隠れた護身道具", 
+                "scene": "「コスモスホール」", 
+                "prob": "70%"
+              }
+            ], 
+            "desc": "コレクション「自己防衛の道具」の品"
+          }, 
+          {
+            "name": "ペッパースプレーのカートリッジ", 
+            "gift": true, 
+            "id": 5159, 
+            "icon": "images/items/5159.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "面白い探し物", 
+                "scene": "「船のデッキ」", 
+                "prob": "50%"
+              }
+            ], 
+            "desc": "コレクション「自己防衛の道具」の品"
+          }, 
+          {
+            "name": "ポケットアラーム", 
+            "gift": true, 
+            "id": 5160, 
+            "icon": "images/items/5160.png", 
+            "find": [
+              {
+                "cond": "賢者レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "一抹の希望", 
+                "cond": "巻物食らいの異常", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「自己防衛の道具」の品"
+          }, 
+          {
+            "name": "セキュリティボックス", 
+            "gift": true, 
+            "id": 5186, 
+            "icon": "images/items/5186.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「セキュリティボックス」：「自己防衛の道具」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 42, 
+            "name": "標準ウェイト"
+          }
+        ], 
+        "id": 655, 
+        "name": "自己防衛の道具"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 10, 
+            "id": 1799, 
+            "name": "ドラゴンの爪"
+          }, 
+          {
+            "count": 10, 
+            "id": 1800, 
+            "name": "人魚の鱗"
+          }, 
+          {
+            "count": 10, 
+            "id": 1803, 
+            "name": "グリフォンの羽根"
+          }, 
+          {
+            "count": 10, 
+            "id": 1804, 
+            "name": "ユニコーンの血"
+          }
+        ], 
+        "items": [
+          {
+            "name": "ミニステーション", 
+            "gift": true, 
+            "id": 5161, 
+            "icon": "images/items/5161.png", 
+            "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "思わぬ受信", 
+                "scene": "「オレンジ栽培温室」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「追跡システム」の品"
+          }, 
+          {
+            "name": "信号受信機", 
+            "gift": true, 
+            "id": 5162, 
+            "icon": "images/items/5162.png", 
+            "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "探偵に聞こう", 
+                "scene": "「ティーコーナー」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「追跡システム」の品"
+          }, 
+          {
+            "name": "誘導センサー", 
+            "gift": true, 
+            "id": 5163, 
+            "icon": "images/items/5163.png", 
+            "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "puzzle": "『記憶合わせ』", 
+                "quest": "気持ちを切り替えて", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「追跡システム」の品"
+          }, 
+          {
+            "name": "マイクロチップ", 
+            "gift": true, 
+            "id": 5164, 
+            "icon": "images/items/5164.png", 
+            "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "昔の装置", 
+                "cond": "モーフモード", 
+                "scene": "「航空博物館」", 
+                "prob": "80%"
+              }
+            ], 
+            "desc": "コレクション「追跡システム」の品"
+          }, 
+          {
+            "name": "ケーブル", 
+            "gift": true, 
+            "id": 5165, 
+            "icon": "images/items/5165.png", 
+            "find": [
+              {
+                "cond": "教授レベル以上", 
+                "scene": "「パン屋」", 
+                "prob": "3%"
+              }, 
+              {
+                "quest": "安い買い物", 
+                "scene": "「コスモスホール」", 
+                "prob": "60%"
+              }
+            ], 
+            "desc": "コレクション「追跡システム」の品"
+          }, 
+          {
+            "name": "逆探知システム", 
+            "gift": true, 
+            "id": 5187, 
+            "icon": "images/items/5187.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「逆探知システム」：「追跡システム」のコレクション"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 1, 
+            "id": 23, 
+            "name": "コンパス"
+          }
+        ], 
+        "id": 656, 
+        "name": "追跡システム"
+      }
+    ], 
+    "id": "collections_14", 
+    "title": "コレクション 651-656"
   }, 
   {
     "colls": [
@@ -89275,54 +93788,54 @@
         ], 
         "items": [
           {
-            "name": "カボチャのランタンクッキー", 
-            "gift": true, 
-            "id": 3899, 
-            "icon": "images/items/3899.png", 
+            "name": "ホラー映画", 
+            "gift": false, 
+            "id": 5047, 
+            "icon": "images/items/5047.png", 
             "find": [
               "コレクションを組み合わせる"
             ], 
-            "desc": "「カボチャのランタンクッキー」：「手の込んだお菓子」のコレクション"
+            "desc": "「ホラー映画」：「ホラー映画」のコレクション"
           }, 
           {
-            "name": "幽霊屋敷", 
-            "gift": true, 
-            "id": 3900, 
-            "icon": "images/items/3900.png", 
+            "name": "不気味な人形", 
+            "gift": false, 
+            "id": 5048, 
+            "icon": "images/items/5048.png", 
             "find": [
               "コレクションを組み合わせる"
             ], 
-            "desc": "「幽霊屋敷」：「廃墟の遊園地」のコレクション"
+            "desc": "「不気味な人形」：「映画の小道具」のコレクション"
           }, 
           {
-            "name": "現像したフィルム", 
-            "gift": true, 
-            "id": 3901, 
-            "icon": "images/items/3901.png", 
+            "name": "「エピローグ」の場面", 
+            "gift": false, 
+            "id": 5049, 
+            "icon": "images/items/5049.png", 
             "find": [
               "コレクションを組み合わせる"
             ], 
-            "desc": "「現像済みフィルム」：「歴史の謎」のコレクション"
+            "desc": "「エピローグ」の場面：「脚本」のコレクション"
           }, 
           {
-            "name": "幽霊たちの回転木馬", 
-            "gift": true, 
-            "id": 3902, 
-            "icon": "images/items/3902.png", 
+            "name": "フィルムストック", 
+            "gift": false, 
+            "id": 5050, 
+            "icon": "images/items/5050.png", 
             "find": [
               "コレクションを組み合わせる"
             ], 
-            "desc": "「幽霊たちの回転木馬」：「幽霊の回転木馬」のコレクション"
+            "desc": "「フィルムストック」：「撮影道具」のコレクション"
           }, 
           {
-            "name": "邪悪な幽霊たちのカーニバル", 
-            "gift": true, 
-            "id": 3903, 
-            "icon": "images/items/3903.png", 
+            "name": "不思議な日記", 
+            "gift": false, 
+            "id": 5051, 
+            "icon": "images/items/5051.png", 
             "find": [
               "コレクションを組み合わせる"
             ], 
-            "desc": "「邪悪な幽霊たちのカーニバル」：「カーニバルのコスチューム」のコレクション"
+            "desc": "「不思議な日記」：「不思議な道具」のコレクション"
           }, 
           {
             "name": "魔女の魔よけ", 
@@ -91236,7 +95749,7 @@
         "items": [
           {
             "name": "おとぎ話の本", 
-            "gift": false, 
+            "gift": true, 
             "id": 4793, 
             "icon": "images/items/4793.png", 
             "find": [
@@ -91246,7 +95759,7 @@
           }, 
           {
             "name": "魔法の平板", 
-            "gift": false, 
+            "gift": true, 
             "id": 4794, 
             "icon": "images/items/4794.png", 
             "find": [
@@ -91256,7 +95769,7 @@
           }, 
           {
             "name": "アラビア文書", 
-            "gift": false, 
+            "gift": true, 
             "id": 4795, 
             "icon": "images/items/4795.png", 
             "find": [
@@ -91266,7 +95779,7 @@
           }, 
           {
             "name": "ルビーボール", 
-            "gift": false, 
+            "gift": true, 
             "id": 4796, 
             "icon": "images/items/4796.png", 
             "find": [
@@ -91276,7 +95789,7 @@
           }, 
           {
             "name": "モザイク手法の絵画", 
-            "gift": false, 
+            "gift": true, 
             "id": 4797, 
             "icon": "images/items/4797.png", 
             "find": [
@@ -91331,7 +95844,7 @@
         "items": [
           {
             "name": "ホーンゴブレット", 
-            "gift": false, 
+            "gift": true, 
             "id": 4827, 
             "icon": "images/items/4827.png", 
             "find": [
@@ -91341,7 +95854,7 @@
           }, 
           {
             "name": "壊れた角", 
-            "gift": false, 
+            "gift": true, 
             "id": 4828, 
             "icon": "images/items/4828.png", 
             "find": [
@@ -91351,7 +95864,7 @@
           }, 
           {
             "name": "バイキングの剣", 
-            "gift": false, 
+            "gift": true, 
             "id": 4829, 
             "icon": "images/items/4829.png", 
             "find": [
@@ -91361,7 +95874,7 @@
           }, 
           {
             "name": "時代のサーガ", 
-            "gift": false, 
+            "gift": true, 
             "id": 4830, 
             "icon": "images/items/4830.png", 
             "find": [
@@ -91371,7 +95884,7 @@
           }, 
           {
             "name": "ドラッカーの船首", 
-            "gift": false, 
+            "gift": true, 
             "id": 4831, 
             "icon": "images/items/4831.png", 
             "find": [
@@ -91489,9 +96002,194 @@
         ], 
         "id": 28, 
         "name": "神聖な鳥の予言"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 20, 
+            "id": 566, 
+            "name": "秒針"
+          }, 
+          {
+            "count": 20, 
+            "id": 567, 
+            "name": "長針"
+          }, 
+          {
+            "count": 20, 
+            "id": 568, 
+            "name": "短針"
+          }, 
+          {
+            "count": 20, 
+            "id": 569, 
+            "name": "文字盤"
+          }
+        ], 
+        "items": [
+          {
+            "name": "ペストリーのバスケット", 
+            "gift": false, 
+            "id": 5013, 
+            "icon": "images/items/5013.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「ペストリーのバスケット」：「美味しい物語」のコレクション"
+          }, 
+          {
+            "name": "スイーツアソート", 
+            "gift": false, 
+            "id": 5014, 
+            "icon": "images/items/5014.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「スイーツアソート」：「スイーツアソート」のコレクション"
+          }, 
+          {
+            "name": "デザートスタンド", 
+            "gift": false, 
+            "id": 5015, 
+            "icon": "images/items/5015.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「デザートスタンド」：「上質なデザート」のコレクション"
+          }, 
+          {
+            "name": "料理のハンドブック", 
+            "gift": false, 
+            "id": 5016, 
+            "icon": "images/items/5016.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「料理のハンドブック」：「料理道具」のコレクション"
+          }, 
+          {
+            "name": "美味しいデコレーション", 
+            "gift": false, 
+            "id": 5017, 
+            "icon": "images/items/5017.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「美味しいデコレーション」：「お菓子のデコレーション」のコレクション"
+          }, 
+          {
+            "name": "秋のアミュレット", 
+            "gift": false, 
+            "id": 5194, 
+            "icon": "images/items/5194.png", 
+            "find": [
+              "遺物を組み合わせる"
+            ], 
+            "desc": "48時間の間、「夜」モードから守ります。"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 100, 
+            "id": 1002, 
+            "name": "コイン"
+          }
+        ], 
+        "id": 29, 
+        "name": "秋のアミュレット"
+      }, 
+      {
+        "charges": [
+          {
+            "count": 8, 
+            "id": 566, 
+            "name": "秒針"
+          }, 
+          {
+            "count": 8, 
+            "id": 567, 
+            "name": "長針"
+          }, 
+          {
+            "count": 8, 
+            "id": 568, 
+            "name": "短針"
+          }
+        ], 
+        "items": [
+          {
+            "name": "暗闇の世界図", 
+            "gift": true, 
+            "id": 5166, 
+            "icon": "images/items/5166.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「暗闇の世界図」：「暗闇の世界図」のコレクション"
+          }, 
+          {
+            "name": "不思議な建物", 
+            "gift": true, 
+            "id": 5170, 
+            "icon": "images/items/5170.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「不思議な建物」：「モデルづくり」のコレクション"
+          }, 
+          {
+            "name": "科学者の研究", 
+            "gift": true, 
+            "id": 5172, 
+            "icon": "images/items/5172.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「科学者の研究」：「科学者の研究」のコレクション"
+          }, 
+          {
+            "name": "おもちゃの街", 
+            "gift": true, 
+            "id": 5173, 
+            "icon": "images/items/5173.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「おもちゃの街」：「おもちゃの街」のコレクション"
+          }, 
+          {
+            "name": "5つの物質", 
+            "gift": true, 
+            "id": 5178, 
+            "icon": "images/items/5178.png", 
+            "find": [
+              "コレクションを組み合わせる"
+            ], 
+            "desc": "「5つの物質」：「錬金術師の成果物」のコレクション"
+          }, 
+          {
+            "name": "クリエイターのお守り", 
+            "gift": false, 
+            "id": 5195, 
+            "icon": "images/items/5195.png", 
+            "find": [
+              "遺物を組み合わせる"
+            ], 
+            "desc": "24時間の間、場面の調査やパズルにおけるエネルギー消費が10%減少します。"
+          }
+        ], 
+        "rewards": [
+          {
+            "count": 100, 
+            "id": 1002, 
+            "name": "コイン"
+          }
+        ], 
+        "id": 30, 
+        "name": "クリエイターのお守り"
       }
     ], 
     "id": "artifacts_1", 
-    "title": "遺物 1-28"
+    "title": "遺物 1-30"
   }
 ]

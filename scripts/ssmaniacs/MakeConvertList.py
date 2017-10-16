@@ -9,6 +9,7 @@
 
 import sys
 import os
+import re
 import glob
 import json
 import base64
@@ -45,10 +46,14 @@ def make_convlist(resdir, imgdir, scene):
           sys.stderr.write(' =>{0} found instead\n'.format(fore[len(resdir)+6:]))
           break
       else:
-        if 'telescope_4_2cover' in path:  # arabian_tentのデータが一個おかしい
+        if '/arabian_tent/' in path and '/telescope_4_2cover' in path:  # arabian_tentのデータが一個おかしい
           fullpath = os.path.join(resdir, '1024', path).replace('telescope_4_2cover', 'telescope_4_2_cover')
-        elif '/covers/' in path:  # Playgroundのデータがおかしい
+        elif '/playground/covers/' in path:       # Playgroundのデータがおかしい
           fullpath = os.path.join(resdir, '1024', path).replace('/covers/', '/cover/')
+        elif '/ghost_city/covers/part/' in path:  # Ghost City (2017-10-15) のデータがおかしい
+          # objname_X_X_cover* => objnameX_X_cover*
+          fullpath = os.path.join(resdir, '1024',
+            re.sub(r'(/part/[^_]+)_([0-9]_[0-9]_cover)', r'\1\2', path))
         else:
           return (None, None)
 

@@ -52,16 +52,23 @@ PROXIES = [
     '104.225.155.247:8080',
     '107.170.214.74:80',
     '109.232.107.150:8080',
+    '109.88.40.240:80',
     '110.170.189.9:80',
     '110.171.228.21:3128',
+    '114.112.252.245:80',
     '114.215.102.168:8081',
     '114.215.103.121:8081',
+    '115.124.70.137:52305',
     '115.127.68.210:65103',
     '115.85.86.162:65103',
     '117.135.198.11:80',
+    '117.135.198.9:80',
+    '117.2.128.168:8888',
     '118.151.209.114:80',
     '118.151.209.114:9090',
+    '118.69.61.57:8888',
     '118.70.124.34:65103',
+    '118.97.129.219:8080',
     '120.199.64.163:8081',
     '120.24.208.42:9999',
     '120.25.211.80:9999',
@@ -77,23 +84,34 @@ PROXIES = [
     '125.16.128.118:3128',
     '125.162.156.181:80',
     '128.199.169.17:80',
+    '128.199.192.236:80',
+    '138.197.114.250:80',
     '138.197.154.98:80',
     '139.0.26.118:3128',
     '139.162.34.201:8080',
+    '139.162.69.213:8081',
     '139.196.104.28:9000',
     '139.196.170.172:8090',
     '14.141.216.6:3128',
+    '14.203.99.67:8080',
     '142.4.214.9:88',
+    '143.0.188.26:80',
     '143.0.188.39:80',
     '143.0.189.82:80',
     '149.202.195.236:443',
+    '163.121.188.2:8080',
+    '163.121.188.3:8080',
+    '163.172.59.200:8080',
+    '165.227.144.174:80',
     '167.114.196.153:80',
     '168.128.29.75:80',
     '168.234.75.142:80',
     '170.82.228.42:8080',
     '171.101.236.116:3128',
+    '173.212.243.187:80',
     '175.111.131.136:65103',
     '175.194.16.26:80',
+    '176.31.174.1:9999',
     '177.207.234.14:80',
     '177.4.173.242:80',
     '178.27.197.105:80',
@@ -107,11 +125,19 @@ PROXIES = [
     '185.44.69.44:3128',
     '185.61.190.178:8080',
     '186.103.239.190:80',
+    '186.178.10.78:65103',
+    '186.46.156.202:65309',
+    '186.46.90.50:53281',
     '186.67.90.12:65103',
+    '186.68.85.26:53281',
     '188.0.138.147:8080',
     '188.192.37.202:80',
+    '189.206.107.6:8080',
+    '190.11.26.58:52305',
+    '190.117.115.150:65103',
     '190.152.150.62:65309',
     '190.153.210.237:80',
+    '190.44.84.131:53281',
     '191.253.67.206:8080',
     '192.117.146.110:80',
     '193.108.38.23:80',
@@ -119,13 +145,17 @@ PROXIES = [
     '193.70.3.144:80',
     '194.44.176.116:8080',
     '195.14.242.39:80',
+    '197.254.29.250:65205',
     '197.254.96.42:53281',
     '200.199.23.220:80',
     '200.229.202.72:3128',
     '200.229.202.72:80',
     '200.229.202.72:8080',
     '200.42.45.211:80',
+    '201.184.250.170:3128',
     '201.21.45.182:80',
+    '201.245.190.38:65301',
+    '202.138.127.66:80',
     '202.154.182.42:65301',
     '202.159.36.70:80',
     '202.159.36.70:8080',
@@ -133,6 +163,9 @@ PROXIES = [
     '202.169.41.186:8080',
     '202.78.227.33:80',
     '202.79.36.119:8080',
+    '203.146.82.253:3128',
+    '203.146.82.253:80',
+    '203.58.117.34:80',
     '203.74.4.0:80',
     '203.74.4.1:80',
     '203.74.4.2:80',
@@ -142,25 +175,33 @@ PROXIES = [
     '203.74.4.6:80',
     '203.74.4.7:80',
     '204.11.159.178:53281',
+    '205.139.16.179:80',
     '208.83.106.105:9999',
     '209.141.61.84:80',
     '209.159.156.199:80',
     '209.198.197.165:80',
     '211.24.107.188:65301',
     '212.1.100.118:53281',
+    '212.110.20.141:88',
     '212.126.107.182:65103',
     '212.184.12.11:80',
     '212.192.120.42:8080',
     '212.3.173.22:53281',
+    '212.49.84.71:65301',
     '212.83.164.85:80',
     '213.108.201.82:80',
+    '213.134.60.20:80',
     '213.149.105.12:80',
     '213.168.210.76:80',
+    '217.115.115.249:80',
     '218.15.25.153:808',
     '218.32.94.77:8080',
     '218.50.2.102:8080',
     '219.91.255.179:80',
     '220.244.27.138:3128',
+    '222.97.48.191:80',
+    '24.38.71.43:80',
+    '24.42.167.242:3128',
     '27.131.51.67:443',
     '31.14.40.113:3128',
     '31.42.118.216:53281',
@@ -169,19 +210,25 @@ PROXIES = [
     '35.199.36.250:3128',
     '36.66.59.229:65309',
     '36.67.42.123:65103',
+    '36.67.48.11:65103',
     '36.67.78.53:53281',
     '36.85.246.175:80',
     '37.59.36.212:88',
     '40.114.14.173:80',
+    '41.185.29.39:3128',
     '41.242.90.74:65301',
     '41.78.25.185:3128',
     '41.78.25.186:3128',
+    '42.115.88.12:65103',
+    '46.218.73.162:80',
     '46.38.52.36:8081',
     '47.74.134.234:80',
     '47.90.87.225:88',
     '50.203.117.22:80',
     '51.254.127.194:8080',
     '51.254.127.194:8081',
+    '52.170.210.78:1080',
+    '52.170.27.141:1080',
     '52.41.94.5:80',
     '52.50.247.10:80',
     '52.65.157.207:80',
@@ -191,19 +238,24 @@ PROXIES = [
     '61.135.155.82:443',
     '61.153.108.142:80',
     '61.153.67.110:9999',
+    '61.187.251.235:80',
     '61.5.207.102:80',
+    '61.91.235.226:8080',
     '62.210.249.233:80',
     '62.210.51.150:80',
     '62.99.77.124:65103',
     '64.237.61.242:80',
     '64.34.21.84:80',
     '66.70.191.5:3128',
+    '69.73.167.76:80',
     '72.163.218.146:80',
     '74.118.245.70:80',
     '74.121.141.63:80',
     '78.134.212.173:80',
     '80.1.116.80:80',
     '81.36.128.171:8080',
+    '81.88.198.162:53281',
+    '81.89.60.26:53281',
     '82.165.151.230:80',
     '82.224.48.173:80',
     '82.67.68.28:80',
@@ -215,9 +267,11 @@ PROXIES = [
     '91.197.220.51:3128',
     '91.223.12.207:80',
     '92.38.47.226:80',
+    '92.38.47.239:80',
     '93.170.108.22:3128',
     '93.188.161.129:80',
     '94.153.172.75:80',
+    '94.23.56.95:8080',
     '95.110.189.185:80',
     '95.180.225.7:8080',
     '95.189.123.74:8080',
@@ -227,7 +281,13 @@ PROXIES = [
 def update_proxy(thread, proxy, close=False, assign=False):
     with sqlite3.connect(DATABASE, timeout=30.0) as dbh:
         cur = dbh.cursor()
-        cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+
+        while True:
+            try:
+                cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+                break
+            except sqlite3.OperationalError, e:
+                sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
 
         if proxy:
             cur.execute('''
@@ -253,7 +313,8 @@ def update_proxy(thread, proxy, close=False, assign=False):
                 row = cur.execute('''
                     SELECT address, success, errors FROM proxy
                     WHERE thread IS NULL AND (success + errors) >= 10 AND success > errors
-                    ORDER BY (CAST(errors AS REAL)/success), errors, elapse, success DESC
+                    /* ORDER BY (CAST(errors AS REAL)/success), errors, elapse, success DESC */
+                    ORDER BY success DESC, errors
                     LIMIT 1;''').fetchone()
 
             result = {
@@ -325,8 +386,6 @@ def ProxyThread(thread):
       ]
     }
 
-    #XXX dummy request for testing
-    '''
     gbody = {
       "serviceName": "GameService",
       "methodName": "SendGift",
@@ -349,9 +408,12 @@ def ProxyThread(thread):
       "methodName": "GetClientVersion",
       "parameters": [ None ]
     }
+    #XXX dummy request for testing
+    '''
 
     # Get a unused proxy with least errors
     proxy = update_proxy(thread, None, assign=True)
+
     print 'T-{0:02d}: now using {1}'.format(thread, proxy['address'])
 
     recent = []     # result of recent 5 requests
@@ -422,8 +484,8 @@ def ProxyThread(thread):
 
             try:
                 #print '{0}: Sending gift to {1} ({2})'.format(proxy, name, suid)
-                #XXX gbody['parameters'][1] = suid
-                #XXX gbody['parameters'][3] = int(time.time())
+                gbody['parameters'][1] = suid
+                gbody['parameters'][3] = int(time.time())
 
                 start_time = time.time()
                 resp = http_post(json.dumps(gbody), proxy['address'])
@@ -484,7 +546,12 @@ def ProxyThread(thread):
 
 def add_gifts(dbh, gifts, limit):
     cur = dbh.cursor()
-    cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+    while True:
+        try:
+            cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+            break
+        except sqlite3.OperationalError, e:
+            sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
 
     # Select ungifted users with the latest activity in the last 7 days
     sql = '''
@@ -521,7 +588,12 @@ def add_gifts(dbh, gifts, limit):
 
 def add_users(dbh, users, limit=0, distance=None):
     cur = dbh.cursor()
-    cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+    while True:
+        try:
+            cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+            break
+        except sqlite3.OperationalError, e:
+            sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
 
     # Select unfollowed users with the latest activity in the last 7 days
     sql = 'SELECT suid, name, distance FROM users '
@@ -597,6 +669,7 @@ def process_users(dbh, mode):
                 if new_gifts < 100 and len(users) < 5:
                     # Add follow user tasks
                     add_users(dbh, users, limit=5)
+
                     if not users:   # no more un-followed users
                         more_users = False
 
@@ -620,7 +693,12 @@ def process_users(dbh, mode):
 
             # update database
             cur = dbh.cursor()
-            cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+            while True:
+                try:
+                    cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+                    break
+                except sqlite3.OperationalError, e:
+                    sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
 
             trace()
             for friend in result:
@@ -673,7 +751,13 @@ def process_users(dbh, mode):
             trace()
             if result == True:
                 cur = dbh.cursor()
-                cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+                while True:
+                    try:
+                        cur.execute('BEGIN IMMEDIATE TRANSACTION;')
+                        break
+                    except sqlite3.OperationalError, e:
+                        sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
+
                 cur.execute('''
                     UPDATE users SET gifted = 1 WHERE suid = :suid;
                 ''', {'suid': suid})
@@ -775,3 +859,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+

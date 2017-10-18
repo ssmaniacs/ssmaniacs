@@ -180,7 +180,7 @@ def main():
                     count -= 1
                     if count == 0:
                         break
-            except Exception, e:
+            except (socket.error, Exception), e:
                 print '{0} {1}'.format(e.__class__.__name__, str(e)) 
     
             time.sleep(5)

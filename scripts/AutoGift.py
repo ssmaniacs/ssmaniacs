@@ -18,7 +18,7 @@ ELEMENTS = [
   547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559,
   560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 1799, 1800, 1801,
   1802, 1803, 1804, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942,
-  1982, 1983, 1984, 1985, 2124, 2125, 2126, 2127, ] 
+  1982, 1983, 1984, 1985, 2124, 2125, 2126, 2127, ]
 
 CHARGES = {
   'firefl': 847,
@@ -57,9 +57,18 @@ def sendreq(body):
     body
   ])
 
-  sock = socket.create_connection(('68.168.210.28', 80))
-  sock.settimeout(10)
-  sock.sendall(req)
+  retry = 0
+  while True:
+    try:
+      sock = socket.create_connection(('68.168.210.28', 80))
+      sock.settimeout(30)
+      sock.sendall(req)
+      break
+
+    except:
+      retry += 1
+      if retry == 5:
+        raise
 
   res = []
   try:
@@ -137,15 +146,15 @@ def main():
     "parameters": [
       GIFTER_ID,
       [
-        "Profile.profession",
-        "Profile.level",
-        "Profile.experience",
+        #"Profile.profession",
+        #"Profile.level",
+        #"Profile.experience",
         "Profile.username",
         "Wishes"
       ],
       5000,
       0,
-      46
+      53
     ]
   }
 
@@ -169,6 +178,7 @@ def main():
       # 4 = Sage 賢者
       # 8 = Sleuth 密偵
       # 16 = Magician 魔術師
+      '''
       job = f['data']['Profile']['profession']
       if job == 2:
         jobname = 'Merchant'
@@ -187,6 +197,7 @@ def main():
       #print 'exp:    {0}'.format(f['data']['Profile']['experience'])
       #print 'level:  {0}'.format(f['data']['Profile']['level'])
       #print 'wishes: {0}'.format(wishes)
+      '''
 
       uid = f['uid']
       if len(uid) > 13:

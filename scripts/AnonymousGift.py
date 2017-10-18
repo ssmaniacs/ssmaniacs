@@ -12,6 +12,16 @@ import Queue
 import signal
 import httplib
 import traceback
+import collections
+
+from logging import getLogger, StreamHandler, DEBUG, INFO
+loglevel = INFO
+logger = getLogger(__name__)
+handler = StreamHandler()
+handler.setLevel(loglevel)
+logger.setLevel(loglevel)
+logger.addHandler(handler)
+logger.propagate = False
 
 
 import inspect
@@ -23,6 +33,7 @@ def trace(msg=''):
 DATABASE = 'AnonymousGift.db'
 START_SUID = 'suid_20699361' # ken
 START_NAME = 'ken'
+
 
 GIFTER_SUID = 'suid_00000000'
 
@@ -37,14 +48,14 @@ GIFT_ID = 1797  # Basket of sweets
 GIFT_COUNT = 10
 
 # Thread control objects
-GIFT_TASK = Queue.Queue()
-USER_TASK = Queue.Queue()
+REQUEST_QUEUE = Queue.PriorityQueue()
 RESULT_QUEUE = Queue.Queue()
 ENDALL = False
 
 # list of known open proxies
+PROXY_LOCK = threading.Lock()
+PROXY_LIST = collections.OrderedDict()
 PROXIES = [
-#    None,
     '101.53.101.172:9999',
     '103.15.251.75:80',
     '104.155.189.170:80',
@@ -278,68 +289,67 @@ PROXIES = [
 ]
 
 
-def update_proxy(thread, proxy, close=False, assign=False):
-    with sqlite3.connect(DATABASE, timeout=30.0) as dbh:
-        cur = dbh.cursor()
+def proxy_sort(p):
+    errors = len([x for x in p['results'] if x != 'OK'])
+    success = len([x for x in p['results'] if x == 'OK'])
+    elapsed = sum(p['elapsed'])
+    return (int(errors / 5), elapsed, -success)
 
-        while True:
-            try:
-                cur.execute('BEGIN IMMEDIATE TRANSACTION;')
-                break
-            except sqlite3.OperationalError, e:
-                sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
 
-        if proxy:
-            cur.execute('''
-                UPDATE proxy
-                SET success = :success, errors = :errors, elapse = :elapse, thread = :thread
-                WHERE address = :address;
-            ''', {
-                'address': proxy['address'],
-                'success': proxy['success'],
-                'errors': proxy['errors'],
-                'elapse': proxy['elapse'],
-                'thread': None if close else thread
-            })
+def load_proxy():
+    try:
+        with open('proxy-list.txt', 'r') as fh:
+            proxy_temp = json.load(fh)
+    except:
+        proxy_temp = []
 
-        if assign:
-            row = cur.execute('''
-                SELECT address, success, errors FROM proxy
-                WHERE thread IS NULL AND (success + errors) < 10
-                LIMIT 1;
-            ''').fetchone()
+    for proxy in proxy_temp:
+        PROXY_LIST[proxy['address']] = proxy
 
-            if not row:
-                row = cur.execute('''
-                    SELECT address, success, errors FROM proxy
-                    WHERE thread IS NULL AND (success + errors) >= 10 AND success > errors
-                    /* ORDER BY (CAST(errors AS REAL)/success), errors, elapse, success DESC */
-                    ORDER BY success DESC, errors
-                    LIMIT 1;''').fetchone()
-
-            result = {
-                'address': row[0],
-                'success': row[1],
-                'errors': row[2],
+    for addr in PROXIES:
+        if addr not in PROXY_LIST:
+            PROXY_LIST[addr] = {
+                'address': addr,
+                'thread': None,
+                'results': [],
+                'elapsed': [],
             }
 
-            cur.execute('''
-                UPDATE proxy
-                SET thread = :thread
-                WHERE address = :address;''',
-                {'address': result['address'], 'thread': thread})
-        else:
-            result = None
 
-        dbh.commit()
+def drop_proxy(proxy):
+    '''Stop using a proxy'''
+    with PROXY_LOCK:
+        logger.debug('T-{0:02d}: stop using {1}'.format(
+            proxy['thread'], proxy['address']))
 
-    return result
+        proxy['thread'] = None
+
+        with open('proxy-list.txt', 'w') as fh:
+            json.dump(sorted(PROXY_LIST.values(), key=proxy_sort), fh, indent=2)
 
 
-def handler(signum, frame):
+def get_proxy(thread):
+    '''Get the first unused proxy'''
+    with PROXY_LOCK:
+        for proxy in sorted(PROXY_LIST.values(), key=proxy_sort):
+            if proxy['thread'] is None and len([x for x in proxy['results'] if x != 'OK']) < 10:
+                proxy['thread'] = thread
+                logger.info('T-{0:02d}: now using {1}'.format(
+                    thread, proxy['address']))
+
+                with open('proxy-list.txt', 'w') as fh:
+                    json.dump(sorted(PROXY_LIST.values(), key=proxy_sort), fh, indent=2)
+
+                return proxy
+
+    return None
+
+
+
+def sigint_handler(signum, frame):
     global ENDALL
     ENDALL = True
-    print 'Ctrl+C'
+    logger.info('Ctrl+C')
 
 
 def http_post(body, proxy):
@@ -353,45 +363,87 @@ def http_post(body, proxy):
         'Accept-Encoding': 'identity, gzip',
     }
 
-    req = urllib2.Request(
-        url='http://sh.g5e.com/hog_ios/jsonway_android.php',
-        data=body, headers=headers)
+    try:
+        req = urllib2.Request(
+            url='http://sh.g5e.com/hog_ios/jsonway_android.php',
+            data=body, headers=headers)
 
-    if proxy:
-        req.set_proxy(proxy, 'http')
+        if proxy:
+            req.set_proxy(proxy['address'], 'http')
 
-    fh = urllib2.urlopen(req, timeout=30.0)
+        fh = urllib2.urlopen(req, timeout=30.0)
 
-    res = fh.read()
+        res = fh.read()
 
-    return json.loads(res)
+    except (StandardError, httplib.HTTPException), e:
+        status = '{0}: {1}'.format(e.__class__.__name__, str(e))
+        logger.error('T-{0:02d}: {1}'.format(proxy['thread'], status))
+        proxy['results'] = (proxy['results'] + [status])[-10:]
+        return None
+
+    try:
+        return json.loads(res)
+    except:
+        return {}
 
 
-def ProxyThread(thread):
-    print 'T-{0:02d}: start'.format(thread)
+def get_friends(suid, name, proxy):
+    logger.debug('T-{0:02d}: Querying friends of {1} ({2})'.format(
+        proxy['thread'], name, suid))
 
     qbody = {
       "serviceName": "GameService",
       "methodName": "GetFriends",
       "parameters": [
-        None,   # suid
-        [
-#          "Profile.profession",
-#          "Profile.level",
-          "Profile.username"
-        ],
-        1000,   # maximum number to get
+        suid,
+        [ "Profile.username" ],
+        1000,   # maximum number of friends to get
         0,      # start index
-        50      # client program version
+        53      # client program version
       ]
     }
 
+    friends = []
+    while True:
+        # get the list of friends via the assigned proxy
+        start_time = time.time()
+        resp = http_post(json.dumps(qbody), proxy)
+        end_time = time.time()
+
+        if resp is None:    # Communication error
+            return False
+
+        proxy['results'] = (proxy['results'] + ['OK'])[-10:]
+        proxy['elapsed'] = (proxy['elapsed'] + [end_time - start_time])[-10:]
+
+        if not resp.get('response'):
+            break   # no more friends -- next user
+
+        friends += resp['response']
+
+        if len(resp['response']) < 1000:
+            break   # no more friends -- next user
+
+        # get the next 1000 friends
+        qbody['parameters'][3] += 1000
+
+    logger.debug('T-{0:02d}: Queried friends of {1} ({2}) => {3}'.format(
+        proxy['thread'], name, suid, len(friends)))
+
+    RESULT_QUEUE.put((suid, friends), True)
+
+    return True
+
+
+def send_gifts(suid, name, proxy):
+    #XXX dummy request for testing
+    '''
     gbody = {
       "serviceName": "GameService",
       "methodName": "SendGift",
       "parameters": [
         GIFTER_SUID,
-        None,   # Giftee SUID 
+        suid,
         {
           "colvo": GIFT_COUNT,
           "item_id": GIFT_ID,
@@ -399,7 +451,7 @@ def ProxyThread(thread):
           "picture_id": GIFTER_PIC,
           "username": GIFTER_NAME
         },
-        None    # timestamp
+        int(time.time())
       ]
     }
     '''
@@ -408,129 +460,72 @@ def ProxyThread(thread):
       "methodName": "GetClientVersion",
       "parameters": [ None ]
     }
-    #XXX dummy request for testing
-    '''
 
-    # Get a unused proxy with least errors
-    proxy = update_proxy(thread, None, assign=True)
+    logger.debug('T-{0:02d}: Sending gift to {1} ({2})'.format(
+        proxy['thread'], name, suid))
 
-    print 'T-{0:02d}: now using {1}'.format(thread, proxy['address'])
+    start_time = time.time()
+    resp = http_post(json.dumps(gbody), proxy)
+    # {"response":18, "error":false, "profiler":{...}, "version":0, "time":...}
+    end_time = time.time()
 
-    recent = []     # result of recent 5 requests
-    elapse = []     # elapsed time of recent 10 successful requests
-    trial = (proxy['success'] + proxy['errors'] < 10)
+    if resp is None:
+        return False
+
+    proxy['results'] = (proxy['results'] + ['OK'])[-10:]
+    proxy['elapsed'] = (proxy['elapsed'] + [end_time - start_time])[-10:]
+
+    result = (resp.get('response', False) != False)
+
+    logger.debug('T-{0:02d}: Sent gift to {1} ({2}) => {3}'.format(
+        proxy['thread'], name, suid, result))
+
+    RESULT_QUEUE.put((suid, result), True)
+
+    return True
+
+
+def ProxyThread(thread):
+    logger.info('T-{0:02d}: start'.format(thread))
+
+    # Get the first unused proxy in the list
+    proxy = get_proxy(thread)
+
+    if not proxy:
+        logger.error('T-{0:02d}: No reliable proxy avairable'.format(thread))
+        return
+
+    proxy['results'] = []       # result of recent 10 requests
+    proxy['elapsed'] = []       # elapsed time of recent 10 successful requests
 
     while not ENDALL:
         try:
-            #print '{0}: Retrieving task from user queue'.format(proxy)
-            (suid, name) = USER_TASK.get(False)
-            USER_TASK.task_done()
-
-            try:
-                #print '{0}: Querying friends of {1} ({2})'.format(proxy, name, suid)
-                qbody['parameters'][0] = suid
-                qbody['parameters'][3] = 0  # start index
-
-                friends = []
-                while True:
-                    # get the list of friends via the assigned proxy
-                    start_time = time.time()
-                    resp = http_post(json.dumps(qbody), proxy['address'])
-                    end_time = time.time()
-
-                    proxy['success'] += 1
-                    recent = (recent + [True])[-5:]
-                    elapse = (elapse + [end_time - start_time])[-10:]
-
-
-                    if resp['error']:
-                        raise RuntimeError('SS server error')
-
-                    if not resp['response']:
-                        break   # no more friends -- next user
-
-                    friends += resp['response']
-
-                    if len(resp['response']) < 1000:
-                        break   # no more friends -- next user
-
-                    # get the next 1000 friends
-                    qbody['parameters'][3] += 1000
-
-                #print '{0}: Querying friends of {1} ({2}) {3}'.format(proxy, name, suid, len(friends))
-                RESULT_QUEUE.put((suid, friends), True)
-                #print 'queued'
-
-            except (StandardError, httplib.HTTPException), e:
-                print 'T-{0:02d}: {1} {2}'.format(thread, e.__class__.__name__, str(e))
-                USER_TASK.put((suid, name), True)
-
-                if not isinstance(e, RuntimeError):
-                    proxy['errors'] += 1
-                    recent = (recent + [False])[-5:]
-
+            req = REQUEST_QUEUE.get(True)
+            REQUEST_QUEUE.task_done()
         except Queue.Empty:
-            #print '{0}: Retrieving task from gift queue'.format(proxy)
-            try:
-                (suid, name) = GIFT_TASK.get(True, 1.0)
-                GIFT_TASK.task_done()
-            except (Queue.Empty, TypeError):
-                if ENDALL:
-                    break
-                continue
+            continue
 
-            if suid is None:
-                break
+        try:
+            (prio, suid, name) = req
+        except (TypeError, ValueError):
+            continue
 
-            try:
-                #print '{0}: Sending gift to {1} ({2})'.format(proxy, name, suid)
-                gbody['parameters'][1] = suid
-                gbody['parameters'][3] = int(time.time())
+        if prio in (0, 1):      # GetFriends request
+            if not get_friends(suid, name, proxy):
+                REQUEST_QUEUE.put((0, suid, name), True)
 
-                start_time = time.time()
-                resp = http_post(json.dumps(gbody), proxy['address'])
-                # {"response":18, "error":false, "profiler":{...}, "version":0, "time":...}
-                end_time = time.time()
+        elif prio in (2, 3):    # SendGift request
+            if not send_gifts(suid, name, proxy):
+                REQUEST_QUEUE.put((2, suid, name), True)
 
-                proxy['success'] += 1
-                recent = (recent + [True])[-5:]
-                elapse = (elapse + [end_time - start_time])[-10:]
-
-                if resp['error']:
-                    raise RuntimeError('SS server error')
-
-                result = (resp.get('response', False) != False)
-                #print '{0}: Sending gift to {1} ({2}) {3}'.format(proxy, name, suid, result)
-                RESULT_QUEUE.put((suid, result), True)
-                #print 'queued'
-
-            except (StandardError, httplib.HTTPException), e:
-                print 'T-{0:02d}: {1} {2}'.format(thread, e.__class__.__name__, str(e))
-                GIFT_TASK.put((suid, name), True)
-
-                if not isinstance(e, RuntimeError):
-                    proxy['errors'] += 1
-                    recent = (recent + [False])[-5:]
-
-        if proxy['success'] + proxy['errors'] >= 10:
-            if (trial or
-                (len(recent) == 5 and len([x for x in recent if not x]) >= 3) or
-                (proxy['success'] + proxy['errors'] >= 30 and
-                proxy['errors'] > proxy['success'] // 10)):
-                # 3 failures in the recent 5 requests
-                # or more than 10% failure rate
-                proxy['elapse'] = (sum(elapse)/len(elapse)) if elapse else None
-
-                proxy = update_proxy(thread, proxy, close=True, assign=True)
-                print 'T-{0:02d}: now using {1}'.format(thread, proxy['address'])
-                recent = []
-                elapse = []
-                trial = (proxy['success'] + proxy['errors'] < 10)
-                continue
-
-            if proxy['success'] % 10 == 0:
-                proxy['elapse'] = (sum(elapse)/len(elapse)) if elapse else None
-                update_proxy(thread, proxy, close=False, assign=False)
+        if (len(proxy['results']) >= 10 and \
+            len([x for x in proxy['results'] if x != 'OK']) > 5) or \
+            sum(proxy['elapsed']) > 100:
+            drop_proxy(proxy)
+            proxy = get_proxy(thread)
+            if not proxy:
+                logger.error('T-{0:02d}: No reliable proxy avairable'.format(thread))
+                return
 
         interval = 10
         for i in range(interval):
@@ -539,19 +534,13 @@ def ProxyThread(thread):
 
             time.sleep(1.0)
 
-    proxy['elapse'] = (sum(elapse)/len(elapse)) if elapse else None
-    update_proxy(thread, proxy, close=True, assign=False)
-    print '{0}: done'.format(thread)
+    drop_proxy(proxy)
+    logger.info('T-{0:02}: done'.format(thread))
 
 
 def add_gifts(dbh, gifts, limit):
     cur = dbh.cursor()
-    while True:
-        try:
-            cur.execute('BEGIN IMMEDIATE TRANSACTION;')
-            break
-        except sqlite3.OperationalError, e:
-            sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
+    cur.execute('BEGIN IMMEDIATE TRANSACTION;')
 
     # Select ungifted users with the latest activity in the last 7 days
     sql = '''
@@ -568,7 +557,7 @@ def add_gifts(dbh, gifts, limit):
     for (suid, name) in cur.fetchall():
         try:
             if suid not in gifts:
-                GIFT_TASK.put((suid, name), False)
+                REQUEST_QUEUE.put((3, suid, name), False)
                 cur.execute('''
                     UPDATE users SET gifted = 0 WHERE suid = :suid;
                 ''', {'suid': suid})
@@ -576,24 +565,19 @@ def add_gifts(dbh, gifts, limit):
                 added += 1
 
         except Queue.Full:
-            print 'Gift task queue full'
+            logger.warning('MAIN: task queue full')
             break
 
     dbh.commit()
 
-    print 'Added {0} gift tasks'.format(added)
+    logger.info('MAIN: Added {0} gift tasks'.format(added))
 
     return added
 
 
 def add_users(dbh, users, limit=0, distance=None):
     cur = dbh.cursor()
-    while True:
-        try:
-            cur.execute('BEGIN IMMEDIATE TRANSACTION;')
-            break
-        except sqlite3.OperationalError, e:
-            sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
+    cur.execute('BEGIN IMMEDIATE TRANSACTION;')
 
     # Select unfollowed users with the latest activity in the last 7 days
     sql = 'SELECT suid, name, distance FROM users '
@@ -617,7 +601,7 @@ def add_users(dbh, users, limit=0, distance=None):
     for (suid, name, distance) in cur.fetchall():
         try:
             if suid not in users:
-                USER_TASK.put((suid, name), False)
+                REQUEST_QUEUE.put((1, suid, name), False)
                 cur.execute('''
                     UPDATE users SET followed = 0 WHERE suid = :suid;
                 ''', {'suid': suid})
@@ -625,12 +609,12 @@ def add_users(dbh, users, limit=0, distance=None):
                 added += 1
 
         except Queue.Full:
-            print 'User task queue full'
+            logger.warning('MAIN: task queue full')
             break
 
     dbh.commit()
 
-    print 'Added {0} follow tasks'.format(added)
+    logger.info('MAIN: Added {0} follow tasks'.format(added))
 
     return added
 
@@ -675,7 +659,6 @@ def process_users(dbh, mode):
 
         trace()
         if not gifts and not users:
-            #print 'Exitting main thread'
             break
 
         trace()
@@ -693,12 +676,7 @@ def process_users(dbh, mode):
 
             # update database
             cur = dbh.cursor()
-            while True:
-                try:
-                    cur.execute('BEGIN IMMEDIATE TRANSACTION;')
-                    break
-                except sqlite3.OperationalError, e:
-                    sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
+            cur.execute('BEGIN IMMEDIATE TRANSACTION;')
 
             trace()
             for friend in result:
@@ -742,8 +720,8 @@ def process_users(dbh, mode):
             trace()
             dbh.commit()
 
-            print '\t\t{0} ({1}) has {2} friends, {3} new, {4} updated'.format(
-                users[suid][0], suid, len(result), added, updated)
+            logger.info('MAIN: {0} ({1}) has {2} friends, {3} new, {4} updated'.format(
+                users[suid][0], suid, len(result), added, updated))
 
             del users[suid]
 
@@ -751,30 +729,25 @@ def process_users(dbh, mode):
             trace()
             if result == True:
                 cur = dbh.cursor()
-                while True:
-                    try:
-                        cur.execute('BEGIN IMMEDIATE TRANSACTION;')
-                        break
-                    except sqlite3.OperationalError, e:
-                        sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
+                cur.execute('BEGIN IMMEDIATE TRANSACTION;')
 
                 cur.execute('''
                     UPDATE users SET gifted = 1 WHERE suid = :suid;
                 ''', {'suid': suid})
                 dbh.commit()
 
-                print '\t\t{0} ({1}) has received the gift'.format(
-                    gifts[suid], suid)
+                logger.info('MAIN: {0} ({1}) has received the gift'.format(
+                    gifts[suid], suid))
 
             del gifts[suid]
 
 
     # stop worker threads
-    print 'Stopping all threads'
+    logger.info('Stopping all threads')
     ENDALL = True
 
     for t in qthreads:
-        GIFT_TASK.put(None)
+        REQUEST_QUEUE.put(None)
 
     for t in qthreads:
         t.join()
@@ -818,6 +791,7 @@ def database_init(dbh):
     # reset gifted flag of users whose gifting did not complete
     dbh.execute('''UPDATE users SET gifted = NULL WHERE gifted = 0;''')
 
+    """
     # proxy management table
     dbh.execute('''CREATE TABLE IF NOT EXISTS proxy (
         address TEXT PRIMARY KEY NOT NULL,
@@ -832,6 +806,7 @@ def database_init(dbh):
         ''', {'address': proxy})
 
     dbh.execute('''UPDATE proxy SET thread = NULL WHERE thread IS NOT NULL;''')
+    """
 
     dbh.commit()
 
@@ -842,7 +817,9 @@ def main():
     except:
         mode = None
 
-    signal.signal(signal.SIGINT, handler)
+    load_proxy()
+
+    signal.signal(signal.SIGINT, sigint_handler)
     try:
         with sqlite3.connect(DATABASE, timeout=30.0) as dbh:
             database_init(dbh)

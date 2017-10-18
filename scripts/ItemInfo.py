@@ -31,7 +31,9 @@ def load_itemdata(resdir, langs):
 
   # items.xml: アイテム種別情報
   with open(os.path.join(resdir, '1024', 'properties', 'items.xml'), 'r') as fh:
-    root = ElementTree.parse(fh).getroot()
+    #root = ElementTree.parse(fh).getroot()
+    root = ElementTree.fromstring(fh.read().replace('/ >', ' />'))
+
 
   for i in root:
     id_ = None
@@ -121,20 +123,19 @@ SPECIAL = [
 
 
 def main():
-  if len(sys.argv) < 3:
-    sys.stderr.write('Usage: {0} resdir jsondir [lang|inventory|type|itemid [...]]\n'.format(sys.argv[0]))
+  if len(sys.argv) < 2:
+    sys.stderr.write('Usage: {0} resdir [lang|inventory|type|itemid [...]]\n'.format(sys.argv[0]))
     sys.stderr.write('type: ' + ' '.join(sorted(ITEMTYPE.keys())) + '\n')
     sys.exit(2)
 
   resdir = sys.argv[1]
-  jsondir = sys.argv[2]
 
   langs = []
   items = []
   types = []
   ownedonly = False
 
-  for a in sys.argv[3:]:
+  for a in sys.argv[2:]:
     if re.match('^[a-z]{2}$', a):
       langs.append(a)
 
@@ -159,6 +160,7 @@ def main():
 
   iteminfo = load_itemdata(resdir, langs)
 
+  '''
   with open(os.path.join(jsondir, 'UpdateInventory.req.json'), 'r') as fh:
     jdata = json.load(fh)
 
@@ -167,6 +169,8 @@ def main():
       jdata['parameters'][1]['Inventory']['item_count']))
 
     #sys.stderr.write(json.dumps(inventory, indent=2, sort_keys=True))
+  '''
+  inventory = {}
 
   # print result
   line = ['id', 'type', 'combine', 'inventory']

@@ -5,14 +5,54 @@
 import sys
 import os
 import json
+import urllib2
 from xml.etree import ElementTree
+
+SELF_UID = 'suid_20699361'
+
+def http_post(body, proxy):
+  headers = {
+    'Host': 'sh.g5e.com',
+    'X-mytona-fix': '1',
+    'Content-Type': 'application/json',
+    'Accept': 'application/json',
+    'Content-Length': '{0}'.format(len(body)),
+    'Accept-Encoding': 'identity, gzip',
+  }
+
+  req = urllib2.Request(
+    url='http://sh.g5e.com/hog_ios/jsonway_android.php',
+    data=body, headers=headers)
+
+  if proxy:
+    req.set_proxy(proxy, 'http')
+
+  fh = urllib2.urlopen(req, timeout=30.0)
+
+  res = fh.read()
+
+  return json.loads(res)
+
+
+def get_profile():
+  body = {
+    "serviceName": "GameService",
+    "methodName": "GetProfiles",
+    "parameters": [
+      [ SELF_UID ],
+      None,
+      53
+    ]
+  }
+
+  return http_post(json.dumps(body, indent=2), None)
 
 
 def main():
   try:
-    (resdir, jsondir) = sys.argv[1:]
+    resdir = sys.argv[1]
   except StandardError:
-    sys.stderr.write('Usage: {0} resdir jsondir\n'.format(sys.argv[0]))
+    sys.stderr.write('Usage: {0} resdir\n'.format(sys.argv[0]))
     sys.exit(2)
 
   scenes = {}
@@ -63,8 +103,8 @@ def main():
       })
 
   # Load progress profiles
-  with open(os.path.join(jsondir, 'UpdateProfile.req.json'), 'r') as fh:
-    param = json.load(fh)['parameters'][1]
+  profile = get_profile()
+  param = profile['response'][0]['data']
 
   # match profiles
   for (id_, val) in zip(param['scenelevel']['scene_id'], param['scenelevel']['level']):

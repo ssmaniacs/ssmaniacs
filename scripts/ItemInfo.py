@@ -25,6 +25,34 @@ ITEMTYPE = {
   'special':  99,
 }
 
+
+NONAME = {
+  350:  "firewater",                # Огненная вода
+  351:  "cornucopia",               # Рог изобилия
+  352:  "ambrosia",                 # Пища богов
+  353:  "manna",                    # Манна небесная
+  354:  "water of life",            # Живая вода
+  593:  "venetia",                  # venetia
+  594:  "venetia",                  # venetia
+  595:  "venetia",                  # venetia
+  611:  "throne room",              # тронный зал
+  612:  "throne room",              # тронный зал
+  858:  "philosopher's stone",      # филосовский кристалл
+  1000: "experience",               # Опыт
+  1001: "energy",                   # Энергия
+  1003: "reputation",               # Репутация
+  1005: "power",                    # Сила
+  2020: "number of gifts",          # кол-во подарков
+  2364: "fifth element",            # пятый элемент
+  3635: "magic box",                # Волшебная шкатулка
+  3863: "letter in expanded form",  # Письмо в развернутом виде
+  3864: "chest of fireflies",       # Сундучок со Светлячками
+  3865: "chest of ladybugs",        # Сундучок с Божьими коровками
+  3866: "chest of carrots",         # Сундучок с Морковками
+  3867: "chest of arrows",          # Сундучок со Стрелами Амура
+  3868: "chest of tokens",          # Сундучок с Жетонами
+}
+
 def load_itemdata(resdir, langs):
   '''read item info from the game resource file'''
   items = {}
@@ -69,6 +97,7 @@ def load_itemdata(resdir, langs):
 
       items[sub]['COMBINE'] = i['main_item_id']
 
+
   # 言語ごとのテキストを読み込む
   for lang in langs:
     if lang in (None, '', 'en'):
@@ -78,26 +107,16 @@ def load_itemdata(resdir, langs):
 
     with open(path, 'r') as fh:
       for line in fh:
-        if not (line.startswith('IDS_ITEM_INFO_') or line.startswith('IDS_ITEM_NAME_')):
+        m = re.match(r'IDS_ITEM_(?P<type>INFO|NAME)_(?P<id>[0-9]+):\s*(?P<text>.+)', line)
+
+        if not m:
           continue
 
-        line = line.strip()
+        infotype = m.group('type')
+        itemid = int(m.group('id'))
+        text = m.group('text').strip()
 
-        key, val = line.split(':', 1)
-        keys = key.split('_')
-
-        try:
-          infotype = keys[2]
-          itemid = int(keys[3])
-          if len(keys) > 4:
-            subid = int(keys[4])
-          else:
-            subid = 0
-
-        except:
-          continue
-
-        val = val.replace('&nbsp;', ' ').replace('&cr;', ' ')
+        text = text.replace('&nbsp;', ' ').replace('&cr;', ' ')
 
         if itemid not in items:
           items[itemid] = {}
@@ -106,12 +125,9 @@ def load_itemdata(resdir, langs):
           items[itemid][lang] = {}
 
         if infotype not in items[itemid][lang]:
-          items[itemid][lang][infotype] = [val]
+          items[itemid][lang][infotype] = [text]
         else:
-          if subid > 0:
-            items[itemid][lang][infotype][-1] += '<>' + val
-          elif val not in items[itemid][lang][infotype]:
-            items[itemid][lang][infotype].append(val)
+          items[itemid][lang][infotype].append(text)
 
   return items
 
@@ -124,7 +140,7 @@ SPECIAL = [
 
 def main():
   if len(sys.argv) < 2:
-    sys.stderr.write('Usage: {0} resdir [lang|inventory|type|itemid [...]]\n'.format(sys.argv[0]))
+    sys.stderr.write('Usage: {0} resdir [lang|type|itemid [...]]\n'.format(sys.argv[0]))
     sys.stderr.write('type: ' + ' '.join(sorted(ITEMTYPE.keys())) + '\n')
     sys.exit(2)
 
@@ -133,15 +149,10 @@ def main():
   langs = []
   items = []
   types = []
-  ownedonly = False
 
   for a in sys.argv[2:]:
     if re.match('^[a-z]{2}$', a):
       langs.append(a)
-
-    elif a == 'inventory':
-      # 持っているアイテムのみ
-      ownedonly = True
 
     elif a in ITEMTYPE:
       # タイプに該当するアイテムのみ
@@ -185,44 +196,46 @@ def main():
 
   typename = dict([(v, k) for (k, v) in ITEMTYPE.items()])
 
-  for itemid, item in sorted(iteminfo.items()):
-    if ownedonly and itemid not in inventory:
-      continue
+  for itemid, iteminfo in sorted(iteminfo.items()):
 
-    if types and item.get('TYPE') not in types and itemid not in items:
+    if types and iteminfo.get('TYPE') not in types and itemid not in items:
       # 明示TYPEに含まれていなければ, 明示ITEMに含まれなければならない
       continue
 
-    if items and itemid not in items and item.get('TYPE') not in types:
+    if items and itemid not in items and iteminfo.get('TYPE') not in types:
       # 明示ITEMに含まれていなければ, 明示TYPEに含まれなければならない
       continue
 
-    combine = item.get('COMBINE')
+
+    combine = iteminfo.get('COMBINE')
     line = [
       str(itemid),
-      typename.get(item.get('TYPE'), 'unknown'),
+      typename.get(iteminfo.get('TYPE'), 'unknown'),
       str(combine) if combine else '',
       str(inventory.get(itemid, 0)),
     ]
     remark = ''
 
+    '''
     if line[1] == 'oneshot' and itemid in SPECIAL:
-      if ITEMTYPE['special'] in types:
+      if ITEMTYPE['special'] in types or not types:
         line[1] = 'special'
       else:
+        sys.stderr.write('SKIP: {0}\t{1}\n'.format(itemid, iteminfo.get('en', {}).get('NAME')))
         continue
+    '''
 
     for l in langs:
-      if l in item:
-        name = item[l]['NAME']
-        info = item[l].get('INFO', [])
+      if l in iteminfo:
+        name = iteminfo[l]['NAME']
+        info = iteminfo[l].get('INFO', [])
         if len(name) > 1 or len(info) > 1:
           remark = 'conflict'
 
         line.append('\\n'.join(name))
         line.append('\\n'.join(info))
       else:
-        line.append('')
+        line.append('NONAME:' + NONAME.get(int(line[0]), ''))
         line.append('')
 
     line.append(remark)

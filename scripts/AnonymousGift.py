@@ -15,7 +15,7 @@ import traceback
 import collections
 
 from logging import getLogger, StreamHandler, DEBUG, INFO
-loglevel = INFO
+loglevel = DEBUG #INFO
 logger = getLogger(__name__)
 handler = StreamHandler()
 handler.setLevel(loglevel)
@@ -304,6 +304,7 @@ def load_proxy():
         proxy_temp = []
 
     for proxy in proxy_temp:
+        proxy['thread'] = None
         PROXY_LIST[proxy['address']] = proxy
 
     for addr in PROXIES:
@@ -633,7 +634,7 @@ def process_users(dbh, mode):
     distance = 0
 
     global ENDALL
-    while True:
+    while not ENDALL:
         trace()
         if mode == 'users':
             # Add myself and immediate friends to the queue
@@ -650,9 +651,9 @@ def process_users(dbh, mode):
                 new_gifts = add_gifts(dbh, gifts, 100)
 
                 # When not enough ungifted users in database
-                if new_gifts < 100 and len(users) < 5:
+                if new_gifts < 100 and len(users) < 30:
                     # Add follow user tasks
-                    add_users(dbh, users, limit=5)
+                    add_users(dbh, users, limit=30)
 
                     if not users:   # no more un-followed users
                         more_users = False
@@ -661,12 +662,14 @@ def process_users(dbh, mode):
         if not gifts and not users:
             break
 
-        trace()
-        try:
-            (suid, result) = RESULT_QUEUE.get(True, 60)
-            RESULT_QUEUE.task_done()
-        except Queue.Empty:
-            trace()
+        while not ENDALL:
+            try:
+                (suid, result) = RESULT_QUEUE.get(True, 10)
+                RESULT_QUEUE.task_done()
+                break
+            except Queue.Empty:
+                pass
+        else:
             break
 
         if isinstance(result, list):
@@ -709,6 +712,16 @@ def process_users(dbh, mode):
                     trace()
 
                     updated += cur.rowcount
+
+                except StandardError:
+                    traceback.print_exc()
+                    print json.dumps(friend, indent=2)
+                    print json.dumps(users[suid], indent=2)
+                    ENTDALL = True
+                    break
+
+            if ENDALL:
+                break
 
             trace()
             cur.execute('''

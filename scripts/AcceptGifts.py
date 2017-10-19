@@ -11,6 +11,7 @@ from ItemList import *
 
 SELF_UID = "suid_20699361"
 SELF_NAME = "ken"
+SELF_PIC = 1
 
 PROXIES = {
   "66.70.191.5:3128",
@@ -82,7 +83,7 @@ def main():
   print '{0} gifts in the gift box'.format(len(resp['response']))
 
   accepts = []
-  thanks = []
+  thanks = {}
   for gift in resp['response']:
     itemid = gift['item']['item_id']
 
@@ -111,17 +112,20 @@ def main():
       action = 'ignore'
 
     if action != 'accept':
-      print '{0}\t{1} from {2}'.format(action, itemname, gift['item']['username'])
+      print '{0}\t{1} from {2}'.format(
+        action, itemname, gift['item']['username'])
 
     if action == 'accept':
       accepts.append(gift['uid'])
 
     elif action == 'thank':
       accepts.append(gift['uid'])
-      thanks.append(gift['friend_uid'])
+      if gift['friend_uid'] not in thanks:
+        thanks[gift['friend_uid']] = 1
+      else:
+        thanks[gift['friend_uid']] += 1
 
-  print '{0} thank-you gifts'.format(len(accepts) - len(thanks))
-  print '{0} gifts to accept'.format(len(accepts) - (len(accepts) - len(thanks)))
+  print '{0} gifts to accept'.format(len(accepts))
   if not accepts:
     sys.exit(0)
 
@@ -148,10 +152,56 @@ def main():
   except StandardError:
     traceback.print_exc()
 
-  print '{0} gifts to thank'.format(len(thanks))
+  print '{0} users to thank'.format(len(thanks))
   if not thanks:
     sys.exit(0)
 
+  body = {
+    "serviceName": "GameService",
+    "methodName": "SendGiftsToAll",
+    "parameters": [
+      SELF_UID,
+      [
+      #[
+      #   "suid_10251407",
+      #   [
+      #      {
+      #         "colvo" : 1,
+      #         "item_id" : 318,
+      #         "picture_id" : 1,
+      #         "username" : "ken"
+      #      }
+      #   ]
+      #],
+      ]
+    ]
+  }
+
+  gift = {
+    "colvo": 1,
+    "item_id": 318,
+    "picture_id": SELF_PIC,
+    "username": SELF_NAME
+  }
+
+  for (peer, count) in thanks.items():
+    body['parameters'][1].append([peer, [gift] * count])
+
+  #print json.dumps(body, indent=2)
+
+  resp = http_post(json.dumps(body))
+
+  #print json.dumps(resp, indent=2)
+
+  friends = 0
+  gifts = 0
+  for res in resp['response']:
+    friends += 1
+    gifts += len([x for x in res[1] if x])
+
+  print 'Sent {0} thank-yous to {1} friends'.format(gifts, friends)
+
+  '''
   for peer in thanks:
     body = {
       "serviceName": "GameService",
@@ -173,6 +223,7 @@ def main():
     #print json.dumps(body, indent=2)
     #resp = {}
     print 'Sent thank-you to {0}'.format(peer)
+  '''
 
 
 if __name__ == '__main__':

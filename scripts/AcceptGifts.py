@@ -14,18 +14,18 @@ SELF_NAME = "ken"
 SELF_PIC = 1
 
 PROXIES = {
-  "66.70.191.5:3128",
-  "47.90.87.225:88",
-  "165.227.144.174:80",
-  "24.38.71.43:80",
-  "203.58.117.34:80",
-  "120.199.64.163:8081",
-  "183.240.87.229:8080",
-  "143.0.189.82:80",
-  "202.159.36.70:80",
-  "120.77.255.133:8088",
-  "120.24.208.42:9999",
-  "203.146.82.253:80",
+  "66.70.191.5:3128": 0,
+  "47.90.87.225:88": 0,
+  "165.227.144.174:80": 0,
+  "24.38.71.43:80": 0,
+  "203.58.117.34:80": 0,
+  "120.199.64.163:8081": 0,
+  "183.240.87.229:8080": 0,
+  "143.0.189.82:80": 0,
+  "202.159.36.70:80": 0,
+  "120.77.255.133:8088": 0,
+  "120.24.208.42:9999": 0,
+  "203.146.82.253:80": 0,
 }
 
 def http_post(body, proto='http'):
@@ -42,7 +42,7 @@ def http_post(body, proto='http'):
       url='{0}://sh.g5e.com/hog_ios/jsonway_android.php'.format(proto),
       data=body, headers=headers)
 
-    for proxy in PROXIES:
+    for proxy in sorted(PROXIES, key=lambda x: x[1]):
       req.set_proxy(proxy, 'http')
 
       try:
@@ -50,12 +50,13 @@ def http_post(body, proto='http'):
         res = fh.read()
         break
       except (StandardError, urllib2.URLError), e:
-        sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
+        sys.stderr.write('{0}: {1}: {2}\n'.format(proxy, e.__class__.__name__, str(e)))
+        PROXIES[proxy] += 1
 
     return json.loads(res)
 
 
-def main():
+def accept_gifts():
 
   print 'Peeking the gift box'
   body = {
@@ -127,13 +128,7 @@ def main():
 
   print '{0} gifts to accept'.format(len(accepts))
   if not accepts:
-    sys.exit(0)
-
-  try:
-    if sys.argv[1] == 'peek':
-      sys.exit(0)
-  except IndexError:
-    pass
+    return
 
   body = {
     "serviceName": "GameService",
@@ -154,7 +149,7 @@ def main():
 
   print '{0} users to thank'.format(len(thanks))
   if not thanks:
-    sys.exit(0)
+    return
 
   body = {
     "serviceName": "GameService",
@@ -201,29 +196,30 @@ def main():
 
   print 'Sent {0} thank-yous to {1} friends'.format(gifts, friends)
 
-  '''
-  for peer in thanks:
-    body = {
-      "serviceName": "GameService",
-      "methodName": "SendGift",
-      "parameters": [
-        SELF_UID,
-        peer,
-        {
-          "colvo" : 1,
-          "item_id" : 318,
-          "item_id_random" : 68,
-          "picture_id" : 1,
-          "username" : SELF_NAME
-        },
-        int(time.time())
-      ]
-    }
-    resp = http_post(json.dumps(body))
-    #print json.dumps(body, indent=2)
-    #resp = {}
-    print 'Sent thank-you to {0}'.format(peer)
-  '''
+
+def main():
+  if len(sys.argv) > 1:
+    try:
+      interval = int(sys.argv[1])
+    except:
+      sys.stderr.write('Usage: {0} [interval]\n'.format(sys.argv[0]))
+      sys.exit(2)
+
+  else:
+    interval = -1
+
+  while True:
+    accept_gifts()
+    print time.strftime('%Y-%m-%d %H:%M:%D')
+
+    if interval > 0:
+      print 'Sleeping {0} seconds'.format(interval)
+      time.sleep(interval)
+
+    else:
+      break
+
+  sys.exit(0)
 
 
 if __name__ == '__main__':

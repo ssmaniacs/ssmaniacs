@@ -190,9 +190,9 @@ function peek_giftbox_done(resp)
 
   var text = '<table border="1" cellpadding="3">' +
     '<tr>' +
-    '<th>Nr.</th>' +
-    '<th>Name</th>' +
-    '<th>Item</th>' +
+    '<th>' + message['th_num'] + '</th>' +
+    '<th>' + message['th_name'] + '</th>' +
+    '<th>' + message['th_item'] + '</th>' +
     '</tr>';
 
   if (resp.length == 0) {

@@ -9,23 +9,22 @@ from xml.etree import ElementTree
 
 
 ITEMTYPE = {
-  'talisman': 0,
-  'amulet':   1,
-  'energy':   2,
-  'power':    3,
-  'keyitem':  4,
-  'element':  5,
-  'banish':   6,
-  'collitem': 7,
+  'talisman':   0,
+  'amulet':     1,
+  'energy':     2,
+  'power':      3,
+  'keyitem':    4,
+  'element':    5,
+  'banish':     6,
+  'collitem':   7,
   'collection': 8,
-  'oneshot':  9,
-  'tool':     10,
-  'chest':    11,
-  'artifact': 98,
-  'special':  99,
+  'oneshot':    9,
+  'tool':       10,
+  'chest':      11,
+  'artifact':   99
 }
 
-
+# 削除済みアイテム？名称が定義されていない
 NONAME = {
   350:  "firewater",                # Огненная вода
   351:  "cornucopia",               # Рог изобилия
@@ -107,16 +106,18 @@ def load_itemdata(resdir, langs):
 
     with open(path, 'r') as fh:
       for line in fh:
-        m = re.match(r'IDS_ITEM_(?P<type>INFO|NAME)_(?P<id>[0-9]+):\s*(?P<text>.+)', line)
+        m = re.match(r'IDS_ITEM_(?P<type>INFO|NAME)_(?P<id>[0-9]+)(?:_(?P<subid>[0-9]+))?:\s*(?P<text>.+)', line)
 
         if not m:
           continue
 
         infotype = m.group('type')
         itemid = int(m.group('id'))
-        text = m.group('text').strip()
-
-        text = text.replace('&nbsp;', ' ').replace('&cr;', ' ')
+        text = m.group('text').strip().replace('&nbsp;', ' ').replace('&cr;', ' ')
+        try:
+          subid = int(m.group('subid'))
+        except StandardError:
+          subid = 0
 
         if itemid not in items:
           items[itemid] = {}
@@ -126,16 +127,13 @@ def load_itemdata(resdir, langs):
 
         if infotype not in items[itemid][lang]:
           items[itemid][lang][infotype] = [text]
-        else:
-          items[itemid][lang][infotype].append(text)
+        elif text not in items[itemid][lang][infotype]:
+          if subid:
+            items[itemid][lang][infotype][-1] += ('<>' + text)
+          else: 
+            items[itemid][lang][infotype].append(text)
 
   return items
-
-
-SPECIAL = [
-  318, 847, 1000, 1001, 1002, 1003, 1004, 1005, 1010, 1011, 1012, 1013, 1020,
-  1021, 1022, 1663, 1669, 1943, 1986, 2117, 2222, 2395, 2533, 2651, 2892, 2995,
-  3072, 3311, 3419, 3636, 3640, 3852, 3856, 4304, 4308, 4535, 4540]
 
 
 def main():
@@ -158,9 +156,6 @@ def main():
       # タイプに該当するアイテムのみ
       types.append(ITEMTYPE[a])
 
-      if a == 'special':
-        items += SPECIAL
-
     else:
       # 指定IDのアイテムのみ
       try:
@@ -171,20 +166,8 @@ def main():
 
   iteminfo = load_itemdata(resdir, langs)
 
-  '''
-  with open(os.path.join(jsondir, 'UpdateInventory.req.json'), 'r') as fh:
-    jdata = json.load(fh)
-
-    inventory = dict(zip(
-      jdata['parameters'][1]['Inventory']['item_id'],
-      jdata['parameters'][1]['Inventory']['item_count']))
-
-    #sys.stderr.write(json.dumps(inventory, indent=2, sort_keys=True))
-  '''
-  inventory = {}
-
   # print result
-  line = ['id', 'type', 'combine', 'inventory']
+  line = ['id', 'type', 'combine']
 
   for l in langs:
     line.append('name({0})'.format(l))
@@ -212,18 +195,8 @@ def main():
       str(itemid),
       typename.get(iteminfo.get('TYPE'), 'unknown'),
       str(combine) if combine else '',
-      str(inventory.get(itemid, 0)),
     ]
     remark = ''
-
-    '''
-    if line[1] == 'oneshot' and itemid in SPECIAL:
-      if ITEMTYPE['special'] in types or not types:
-        line[1] = 'special'
-      else:
-        sys.stderr.write('SKIP: {0}\t{1}\n'.format(itemid, iteminfo.get('en', {}).get('NAME')))
-        continue
-    '''
 
     for l in langs:
       if l in iteminfo:

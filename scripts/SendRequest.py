@@ -22,7 +22,7 @@ PROXIES = [
   None
 ]
 
-SELF_UID = '"suid_20699361"'
+SELF_UID = 'suid_20699361'
 
 def http_post(body, proto='http', use_proxy=True):
   '''可能であればプロキシ経由でSSリクエストを送る'''
@@ -99,7 +99,7 @@ def main():
   "serviceName": "GameService",
   "methodName": "{method}",
   "parameters": [{params}]
-}}'''.format(method=method, params=arg.replace('self', SELF_UID))
+}}'''.format(method=method, params=arg.replace('self', '"' + SELF_UID + '"'))
 
       json.dump(json.loads(body), sys.stdout, indent=2)
       sys.stdout.write('\n')

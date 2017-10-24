@@ -101,8 +101,13 @@ def main():
   "parameters": [{params}]
 }}'''.format(method=method, params=arg.replace('self', '"' + SELF_UID + '"'))
 
-      json.dump(json.loads(body), sys.stdout, indent=2)
-      sys.stdout.write('\n')
+      try:
+        json.dump(json.loads(body), sys.stdout, indent=2)
+        sys.stdout.write('\n')
+      except StandardError, e:
+        sys.stderr.write('{0}: {1}\n'.format(e.__class__.__name__, str(e)))
+        sys.stderr.write('{0}\n'.format(body))
+        sys.exit(1)
 
       resp = http_post(body, proto)
 

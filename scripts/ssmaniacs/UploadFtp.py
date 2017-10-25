@@ -13,16 +13,16 @@ def main():
     sys.stderr.write('Usage: {0} local-root local-list remote-root remote-list {{sync|nosync}}\n'.format(sys.argv[0]))
     sys.exit(2)
 
-  if lroot.endswith('/'):
-    lroot = lroot[:-1]
-
-  lroot = os.path.abspath(lroot)
-
-  if rroot != '/' and rroot[-1] == '/':
-    rroot = rroot[:-1]
+  lroot = os.path.normpath(os.path.abspath(lroot)) + '/'
+  while '//' in lroot:
+    lroot = lroot.replace('//', '/')
 
   if rroot[0] != '/':
     rroot = '/' + rroot
+
+  rroot = os.path.normpath(rroot + '/')
+  while '//' in rroot:
+    rroot = rroot.replace('//', '/')
 
   lfiles = {}
   with open(llist, 'r') as fh:
@@ -46,6 +46,11 @@ def main():
 
       if line.startswith('./') and line.endswith(':'):
         cwd = line[2:-1]
+        rdirs.append(cwd)
+        cwd += '/'
+
+      elif line.endswith(':'):
+        cwd = line[:-1]
         rdirs.append(cwd)
         cwd += '/'
 
@@ -85,10 +90,10 @@ def main():
   for (key, val) in sorted(diffs.items()):
     #sys.stderr.write('{0}\n'.format(key))
     if key not in rdirs:
-      print 'mkdir {0}'.format(rroot + '/' + key)
+      print 'mkdir {0}'.format(rroot + key)
 
-    print 'cd {0}'.format(rroot + '/' + key)
-    print 'lcd {0}'.format(lroot + '/' + key)
+    print 'cd {0}'.format(rroot + key)
+    print 'lcd {0}'.format(lroot + key)
     print '\n'.join(sorted(val))
 
 

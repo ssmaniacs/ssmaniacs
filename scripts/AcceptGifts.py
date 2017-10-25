@@ -3,15 +3,20 @@
 # vim: ts=2 et
 import sys
 import json
+import httplib
 import urllib2
 import time
 import traceback
 
-from ItemList import *
+from ItemList import ITEMS
 
 SELF_UID = "suid_20699361"
 SELF_NAME = "ken"
 SELF_PIC = 1
+
+ACCEPT_USERS = [
+    "suid_34549937", "suid_00000000"
+]
 
 PROXIES = {
   "66.70.191.5:3128": 0,
@@ -49,7 +54,14 @@ def http_post(body, proto='http'):
         fh = urllib2.urlopen(req, timeout=30.0)
         res = fh.read()
         break
-      except (StandardError, urllib2.URLError), e:
+
+      except urllib2.HTTPError, e:
+        sys.stderr.write('{0}: {1}: {2}\n'.format(proxy, e.__class__.__name__, str(e)))
+        if e.code == 400:
+          res = e.read()
+          break
+
+      except (StandardError, urllib2.URLError, httplib.HTTPException), e:
         sys.stderr.write('{0}: {1}: {2}\n'.format(proxy, e.__class__.__name__, str(e)))
         PROXIES[proxy] += 1
 
@@ -87,29 +99,16 @@ def accept_gifts():
   thanks = {}
   for gift in resp['response']:
     itemid = gift['item']['item_id']
+    itemname = ITEMS.get(itemid, 'item:{0}'.format(itemid))
 
     if itemid == 318: 
-      itemname = 'Thank-you'
-      action = 'accept'
-
-    elif itemid in COLLECT:    
-      itemname = COLLECT[itemid]
-      action = 'thank'
-
-    elif itemid in COLLNEW:
-      itemname = COLLNEW[itemid]
+      #action = 'accept'
       action = 'ignore'
 
-    elif itemid in ELEMENT:
-      itemname = ELEMENT[itemid]
-      action = 'thank'
-
-    elif itemid in SPECIAL:
-      itemname = SPECIAL[itemid]
+    elif gift['friend_uid'] not in ACCEPT_USERS:
       action = 'thank'
 
     else:
-      itemname = 'item:{0}'.format(itemid)
       action = 'ignore'
 
     if action != 'accept':
@@ -210,7 +209,7 @@ def main():
 
   while True:
     accept_gifts()
-    print time.strftime('%Y-%m-%d %H:%M:%D')
+    print time.strftime('%Y-%m-%d %H:%M:%S')
 
     if interval > 0:
       print 'Sleeping {0} seconds'.format(interval)

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Viewer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <h1>Profile Viewer</h1>
+    <p>This page shows you various SS profile information.
+    <blockquote style="background-color:#F8E0E0;padding:15px 15px 15px 15px;border:1px solid #F5A9A9;">
+    With the update in October 2017, they have changed the communication protocol between user devices and the SS server.<br>
+    While the traditional protocol is still avairable as of Oct. 16, it is quite possible that the old method will be discarded
+    in the near future.<br>
+    This page may stop working when that happens.</blockquote>
+
+    <p>Enter your SS User ID: <input id="userinput" type="text">
+      <input type="button" value="Verify User ID" onClick="verify_user()">
+    <table border=1 cellpadding="5">
+      <tr>
+        <th>User ID</th>  
+        <th>Name</th>  
+        <th>Profession</th>  
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td align="center"><span id="userid"><br></span></td>
+        <td align="center"><span id="username"><br></span></td>
+        <td align="center"><span id="profession"><br></span></td>
+        <td align="center"><span id="level"><br></span></td>
+      </tr>
+    </table>
+    <p>User ID is an internal ID uniquely assigned to you, not your player name.<br>
+      If you don't know your User ID (and you usually don't), enter your Invitation
+      Code instead.<br>
+      Once the User ID is retrieved, it is stored in browser cookie for later use.
+
+    <p><input type="button" value="Gift Box" id="peek" onClick="peek_giftbox()">
+    <input type="button" value="Friend List" id="friends" onClick="get_friends(0);">
+    <input type="button" value="Inventory" id="inventory" onClick="get_inventory();">
+    <input type="button" value="Progress" id="progress" onClick="get_progress();">
+    <span id="comm_status">&nbsp;</span>
+    <p id="result">
+    <script>
+      var message = {
+        'Merchant': 'Merchant',
+        'Sage': 'Sage',
+        'Sleuth': 'Sleuth',
+        'Magician': 'Magician',
+        'Unknown': 'Unknown',
+        'code_error': 'Invalid Code',
+        'net_error': 'Communication Error',
+        'need_uid': 'Please enter and verify your User ID or Invitation Code.',
+        'prepare': 'Preparing',
+        'request': 'Requesting',
+        'timeout': 'Timeout',
+        'gifts_1': 'You have ',
+        'gifts_2': ' gifts.',
+        'friends_1': 'You have ',
+        'friends_2': ' friends.',
+        'generating': 'Generating a table...',
+      };
+      var gifts_header = ['Nr.', 'Avatar', 'Name', 'Item'];
+      var friends_header = ['Nr.', 'Avatar', 'Name', 'Facebook Name', 'Profession', 'Level', 'Experience', 'Friends', 'Reputation', 'Last Update'];
+      var inventory_header = ['Item ID', 'Item Name', 'Count'];
+      var scene_info = './scene_info.en.json';
+      var progress_header = ['Scene ID', 'Scene Name', 'Level', 'Mode', 'Progress'];
+      var phenom_text = {
+        1: 'Lost Time',
+        2: 'Ghostly Mirror',
+        3: 'Scroll Eater',
+        4: 'Mystic Smoke',
+        5: 'Torn Picture',
+        10: 'Curse'
+      };
+      var mode_text = {
+        0: 'Text',
+        1: 'Night',
+        2: 'Silhouette',
+        3: 'Silhouette Night',
+        4: 'Anagram',
+        5: 'Anagram Night',
+        6: 'Pieces',
+        7: 'Pieces Night',
+        8: 'Morphs',
+        9: 'Morphs Night',
+        10: 'Pairs',
+        11: 'Pairs Night',
+      };
+    </script>
+    <script src='./itemlist.en.js'></script>
+    <script src='./loadJson.js'></script>
+    <script src='./ProfileViewer.js'></script>
+  </body>
+</html>

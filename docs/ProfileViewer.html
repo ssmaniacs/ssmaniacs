@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>プロファイルビューア</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <h1>プロファイルビューア</h1>
+    <p>SSサーバ上の様々な自分のプロファイルを参照することができます。
+    <blockquote style="background-color:#F8E0E0;padding:15px 15px 15px 15px;border:1px solid #F5A9A9;">
+    2017年10月のアップデート（ハロウィンイベント）から、端末とSSサーバ間の通信方法が変更されました<br>
+    2017年10月16日時点では従来の通信方法も利用できていますが、近い将来（アップデートが行き渡ったぐらい？）
+    従来の通信方法が使用できなくなることが予想されます。<br>
+    従来方式の通信ができなくなった時点でこのページは利用できなくなる可能性がありますので、
+    あらかじめご了承ください。<div align="center">m(_ _)m</div></blockquote>
+
+    <p>SSユーザID: <input id="userinput" type="text">
+      <input type="button" value="ユーザID確認" onClick="verify_user()">
+    <table border=1 cellpadding="5">
+      <tr>
+        <th>ユーザID</th>  
+        <th>名前</th>  
+        <th>職業</th>  
+        <th>レベル</th>
+      </tr>
+      <tr>
+        <td align="center"><span id="userid"><br></span></td>
+        <td align="center"><span id="username"><br></span></td>
+        <td align="center"><span id="profession"><br></span></td>
+        <td align="center"><span id="level"><br></span></td>
+      </tr>
+    </table>
+    <p>ユーザIDとはSSゲーム内部で使用されるIDのことで、自分で決めたユーザ名とは異なります。<br>
+      自分のユーザIDを知らない場合（普通は知りません）、代わりに招待コードを入力してください。<br>
+      入力または招待コードを元に取得されたユーザIDはブラウザのクッキーに保存されます。
+
+    <p><input type="button" value="ギフトボックス" id="peek" onClick="peek_giftbox();">
+    <input type="button" value="友達リスト" id="friends" onClick="get_friends(0);">
+    <input type="button" value="所持品リスト" id="inventory" onClick="get_inventory();">
+    <input type="button" value="進行状況" id="progress" onClick="get_progress();">
+    <span id="comm_status">&nbsp;</span>
+    <p id="result">
+    <script>
+      var message = {
+        'Merchant': '商人',
+        'Sage': '賢者',
+        'Sleuth': '探偵',
+        'Magician': '魔術師',
+        'Unknown': '不明',
+        'code_error': 'コード不正',
+        'net_error': '通信エラー',
+        'need_uid': 'ユーザIDまたは招待コードを入力、確認してください',
+        'prepare': '準備中...',
+        'request': '通信中...',
+        'timeout': 'タイムアウト',
+        'gifts_1': '',
+        'gifts_2': ' 件のギフトがあります',
+        'friends_1': '',
+        'friends_2': ' 人の友達がいます',
+        'generating': 'テーブルを作成しています',
+      };
+      var gifts_header = ['No.', 'アバター', '名前', 'アイテム'];
+      var friends_header = ['No.', 'アバター', '名前', 'Facebook名', '職業', 'レベル', '経験', '友達', '評判', '最終更新'];
+      var inventory_header = ['アイテムID', 'アイテム名', '所持数'];
+      var scene_info = './scene_info.ja.json';
+      var progress_header = ['シーンID', 'シーン名', 'レベル', 'モード', '進行状況'];
+      var phenom_text = {
+        1: '失われた時間',
+        2: '幽霊の鏡',
+        3: '巻物食らい',
+        4: '神秘の煙',
+        5: '破れた写真',
+        10: '呪い'
+      };
+      var mode_text = {
+        0: '文字',
+        1: '夜',
+        2: 'シルエット',
+        3: 'シルエット 夜',
+        4: '文字替え',
+        5: '文字替え 夜',
+        6: 'かけら',
+        7: 'かけら 夜',
+        8: 'モーフ',
+        9: 'モーフ 夜',
+        10: 'ペア',
+        11: 'ペア 夜',
+      };
+    </script>
+    <script src='./itemlist.js'></script>
+    <script src='./LoadJson.js'></script>
+    <script src='./ProfileViewer.js'></script>
+  </body>
+</html>

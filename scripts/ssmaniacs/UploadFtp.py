@@ -90,10 +90,10 @@ def main():
   for (key, val) in sorted(diffs.items()):
     #sys.stderr.write('{0}\n'.format(key))
     if key not in rdirs:
-      print 'mkdir {0}'.format(rroot + key)
+      print 'mkdir {0}'.format(rroot + '/' + key)
 
-    print 'cd {0}'.format(rroot + key)
-    print 'lcd {0}'.format(lroot + key)
+    print 'cd {0}'.format(rroot + '/' + key)
+    print 'lcd {0}'.format(lroot + '/' + key)
     print '\n'.join(sorted(val))
 
 

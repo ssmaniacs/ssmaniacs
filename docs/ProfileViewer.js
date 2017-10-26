@@ -344,7 +344,10 @@ function select_image(imgurl)
   }
 
   // イメージオブジェクトを作成
-  var img = new Image(50, 50);
+  // Imageコンストラクタのサイズ指定だとMac Safariがサイズ変更してくれない
+  var img = new Image();
+  img.width = 50;
+  img.height = 50;
 
   // ロードエラー時に次の候補URLで試行
   img.onerror = function() {

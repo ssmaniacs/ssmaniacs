@@ -164,21 +164,24 @@
 
     <script>
       var message = {
-        'Merchant': 'Merchant',
-        'Sage': 'Sage',
-        'Sleuth': 'Sleuth',
-        'Magician': 'Magician',
         'Unknown': 'Unknown',
-        'code_error': 'Invalid Code',
-        'net_error': 'Communication Error',
         'need_old': 'Please enter and verify the old device Invitation Code.',
         'need_new': 'Please enter verify the new device Invitation Code.',
         'complete': 'Operation completed.  The progress data for the new device has been updated.',
+        'code_error': 'Invalid Code',
+        'net_error': 'Communication Error',
         'prepare': 'Preparing',
         'request': 'Requesting',
         'timeout': 'Timeout'
       };
+      var jobname_text = {
+        2: 'Merchant',
+        4: 'Sage',
+        8: 'Sleuth',
+        16: 'Magician',
+      };
     </script>
+    <script src='./PostRequest.js'></script>
     <script src='./CloneProfile.js'></script>
   </body>
 </html>

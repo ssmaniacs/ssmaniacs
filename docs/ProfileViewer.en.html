@@ -43,14 +43,10 @@
     <p id="result">
     <script>
       var message = {
-        'Merchant': 'Merchant',
-        'Sage': 'Sage',
-        'Sleuth': 'Sleuth',
-        'Magician': 'Magician',
         'Unknown': 'Unknown',
+        'need_uid': 'Please enter and verify your User ID or Invitation Code.',
         'code_error': 'Invalid Code',
         'net_error': 'Communication Error',
-        'need_uid': 'Please enter and verify your User ID or Invitation Code.',
         'prepare': 'Preparing',
         'request': 'Requesting',
         'timeout': 'Timeout',
@@ -60,10 +56,15 @@
         'friends_2': ' friends.',
         'generating': 'Generating a table...',
       };
+      var jobname_text = {
+        2: 'Merchant',
+        4: 'Sage',
+        8: 'Sleuth',
+        16: 'Magician',
+      };
       var gifts_header = ['Nr.', 'Avatar', 'Name', 'Item'];
       var friends_header = ['Nr.', 'Avatar', 'Name', 'Facebook Name', 'Profession', 'Level', 'Experience', 'Friends', 'Reputation', 'Last Update'];
       var inventory_header = ['Item ID', 'Item Name', 'Count'];
-      var scene_info = './scene_info.en.json';
       var progress_header = ['Scene ID', 'Scene Name', 'Level', 'Mode', 'Progress'];
       var phenom_text = {
         1: 'Lost Time',
@@ -87,9 +88,11 @@
         10: 'Pairs',
         11: 'Pairs Night',
       };
+      var scene_info = './scene_info.en.json';
     </script>
     <script src='./itemlist.en.js'></script>
     <script src='./LoadJson.js'></script>
+    <script src='./PostRequest.js'></script>
     <script src='./ProfileViewer.js'></script>
   </body>
 </html>

@@ -19,9 +19,9 @@
       <input type="button" value="ユーザID確認" onClick="verify_user()">
     <table border=1 cellpadding="5">
       <tr>
-        <th>ユーザID</th>  
-        <th>名前</th>  
-        <th>職業</th>  
+        <th>ユーザID</th>
+        <th>名前</th>
+        <th>職業</th>
         <th>レベル</th>
       </tr>
       <tr>
@@ -43,14 +43,10 @@
     <p id="result">
     <script>
       var message = {
-        'Merchant': '商人',
-        'Sage': '賢者',
-        'Sleuth': '探偵',
-        'Magician': '魔術師',
         'Unknown': '不明',
+        'need_uid': 'ユーザIDまたは招待コードを入力、確認してください',
         'code_error': 'コード不正',
         'net_error': '通信エラー',
-        'need_uid': 'ユーザIDまたは招待コードを入力、確認してください',
         'prepare': '準備中...',
         'request': '通信中...',
         'timeout': 'タイムアウト',
@@ -63,8 +59,13 @@
       var gifts_header = ['No.', 'アバター', '名前', 'アイテム'];
       var friends_header = ['No.', 'アバター', '名前', 'Facebook名', '職業', 'レベル', '経験', '友達', '評判', '最終更新'];
       var inventory_header = ['アイテムID', 'アイテム名', '所持数'];
-      var scene_info = './scene_info.ja.json';
       var progress_header = ['シーンID', 'シーン名', 'レベル', 'モード', '進行状況'];
+      var jobname_text = {
+        2: '商人',
+        4: '賢者',
+        8: '探偵',
+        16: '魔術師',
+      };
       var phenom_text = {
         1: '失われた時間',
         2: '幽霊の鏡',
@@ -87,9 +88,11 @@
         10: 'ペア',
         11: 'ペア 夜',
       };
+      var scene_info = './scene_info.ja.json';
     </script>
     <script src='./itemlist.js'></script>
     <script src='./LoadJson.js'></script>
+    <script src='./PostRequest.js'></script>
     <script src='./ProfileViewer.js'></script>
   </body>
 </html>

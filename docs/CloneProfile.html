@@ -166,21 +166,24 @@
 
     <script>
       var message = {
-        'Merchant': '商人',
-        'Sage': '賢者',
-        'Sleuth': '密偵',
-        'Magician': '魔術師',
         'Unknown': '不明',
-        'code_error': 'コードエラー',
-        'net_error': '通信エラー',
         'need_old': '旧端末情報を確認してください',
         'need_new': '新端末情報を確認してください',
         'complete': 'データ複製完了。新端末のアカウント情報が更新されました。',
+        'code_error': 'コードエラー',
+        'net_error': '通信エラー',
         'prepare': '準備中',
         'request': '通信中',
         'timeout': 'タイムアウト'
       };
+      var jobname_text = {
+        2: '商人',
+        4: '賢者',
+        8: '探偵',
+        16: '魔術師',
+      };
     </script>
+    <script src='./PostRequest.js'></script>
     <script src='./CloneProfile.js'></script>
   </body>
 </html>

@@ -8,11 +8,17 @@ var ss_client_version = 54;
 // CORS回避用リダイレクトオプション
 var redirect_method = 0;
 var redirect_prefix = [
-  "",                 // 直接アクセス
   "./redirect.php?",  // 独自PHP経由
   (('https:' == document.location.protocol) ? 'https' : 'http') +
     "://cors-anywhere.herokuapp.com/"  // CORS-Anywhere
 ];
+
+if (document.location.protocol == 'file:') {
+  redirect_prefix.unshift("");	// 直接アクセスを先頭に
+}
+else {
+  redirect_prefix.push("");	// 直接アクセスを末尾に
+}
 
 // Secret SocietyサーバのURL
 var g5e_url = "https://sh.g5e.com/hog_ios/jsonway_ios.php";

@@ -22,7 +22,9 @@ else {
 
 // Secret SocietyサーバのURL
 var g5e_url = "https://sh.g5e.com/hog_ios/jsonway_ios.php";
-//var g5e_url = "http://sh.g5e.com/hog_ios/jsonway_android.php";
+//"http://sh.g5e.com/hog_ios/jsonway_android.php"
+//"http://sh.g5e.com/hog_ios/jsonway_mac.php"
+//"http://sh.g5e.com/hog_ios/jsonway_win.php"
 var url = redirect_prefix[0] + g5e_url;
 
 /*

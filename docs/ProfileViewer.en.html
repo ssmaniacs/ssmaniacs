@@ -18,13 +18,15 @@
       <input type="button" value="Verify User ID" onClick="verify_user()">
     <table border=1 cellpadding="5">
       <tr>
-        <th>User ID</th>  
-        <th>Name</th>  
-        <th>Profession</th>  
+        <th>User ID</th>
+        <th>Avatar</th>
+        <th>Name</th>
+        <th>Profession</th>
         <th>Level</th>
       </tr>
       <tr>
         <td align="center"><span id="userid"><br></span></td>
+        <td align="center"><span id="avatar"><br></span></td>
         <td align="center"><span id="username"><br></span></td>
         <td align="center"><span id="profession"><br></span></td>
         <td align="center"><span id="level"><br></span></td>
@@ -33,7 +35,11 @@
     <p>User ID is an internal ID uniquely assigned to you, not your player name.<br>
       If you don't know your User ID (and you usually don't), enter your Invitation
       Code instead.<br>
-      Once the User ID is retrieved, it is stored in browser cookie for later use.
+      Once the User ID is retrieved, it is stored in browser cookie for later use.<br>
+      When you enter an Invitation Code, make sure a &quot;SecretSanta&quot; is not among
+      your friends or waitings list.  If it is, remove it from your friends/waitings list.
+      An Invitation Code from a SecretSanta's friend cannot be accepted.
+
 
     <p><input type="button" value="Gift Box" id="peek" onClick="peek_giftbox()">
     <input type="button" value="Friend List" id="friends" onClick="get_friends(0);">
@@ -55,6 +61,10 @@
         'friends_1': 'You have ',
         'friends_2': ' friends.',
         'generating': 'Generating a table...',
+        'code_expired': 'Invalid code. Enter the newest invitation code.',
+        'code_format': 'Invalid code. Enter a code with 6 alphanumerical letters.',
+        'code_waiting': 'Already invited or befriended. Remove friendship first.',
+        'code_invite': 'Invitation error.'
       };
       var jobname_text = {
         2: 'Merchant',

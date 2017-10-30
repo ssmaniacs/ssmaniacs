@@ -20,12 +20,14 @@
     <table border=1 cellpadding="5">
       <tr>
         <th>ユーザID</th>
+        <th>アバター</th>
         <th>名前</th>
         <th>職業</th>
         <th>レベル</th>
       </tr>
       <tr>
         <td align="center"><span id="userid"><br></span></td>
+        <td align="center"><span id="avatar"><br></span></td>
         <td align="center"><span id="username"><br></span></td>
         <td align="center"><span id="profession"><br></span></td>
         <td align="center"><span id="level"><br></span></td>
@@ -33,7 +35,10 @@
     </table>
     <p>ユーザIDとはSSゲーム内部で使用されるIDのことで、自分で決めたユーザ名とは異なります。<br>
       自分のユーザIDを知らない場合（普通は知りません）、代わりに招待コードを入力してください。<br>
-      入力または招待コードを元に取得されたユーザIDはブラウザのクッキーに保存されます。
+      入力または招待コードを元に取得されたユーザIDはブラウザのクッキーに保存されます。<br>
+      招待コードを入力する場合、自分の端末の友達リストまたは待機中リストに&quot;SecretSanta&quot;
+      がいたら事前に削除しておいてください。
+      友達申請済みあるいは既に友達となっているユーザの招待コードは受け付けられません。
 
     <p><input type="button" value="ギフトボックス" id="peek" onClick="peek_giftbox();">
     <input type="button" value="友達リスト" id="friends" onClick="get_friends(0);">
@@ -55,6 +60,10 @@
         'friends_1': '',
         'friends_2': ' 人の友達がいます',
         'generating': 'テーブルを作成しています',
+        'code_expired': '招待コード不正。最新の招待コードを入力してください。',
+        'code_format': '招待コード不正。英数字６文字で入力してください。',
+        'code_waiting': '友達申請済み。解除してから再試行してください。',
+        'code_invite': '友達申請エラー'
       };
       var gifts_header = ['No.', 'アバター', '名前', 'アイテム'];
       var friends_header = ['No.', 'アバター', '名前', 'Facebook名', '職業', 'レベル', '経験', '友達', '評判', '最終更新'];

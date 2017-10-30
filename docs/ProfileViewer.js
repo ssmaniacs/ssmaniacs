@@ -1,7 +1,4 @@
 
-// 招待コード判定用のダミーアカウント（友達のいない未使用アカウント）
-var dummy_uid = 'suid_30357589';  // Tate
-
 // アカウント情報
 var userinfo = {};
 
@@ -47,6 +44,17 @@ function display_user()
   document.getElementById('username'  ).innerHTML = 'username'   in userinfo ? userinfo['username'] : '';
   document.getElementById('profession').innerHTML = 'profession' in userinfo ? get_jobname(userinfo['profession']) : '';
   document.getElementById('level'     ).innerHTML = 'level'      in userinfo ? userinfo['level'] : '';
+
+  var imgtag = '';
+
+  if (userinfo['fbavatar']) {
+    imgtag = '<img witdh=50 height=50 src="' + userinfo['fbavatar'] + '" onerror="this.src=\'' + userinfo['avatar'] + '\'" />';
+  }
+  else if (userinfo['avatar']) {
+    imgtag = '<img witdh=50 height=50 src="' + userinfo['avatar'] + '" />';
+  }
+
+  document.getElementById('avatar').innerHTML = imgtag;
 }
 
 
@@ -57,6 +65,7 @@ function verify_user()
   var code = document.getElementById('userinput').value;
 
   document.getElementById('userid'    ).innerHTML = '';
+  document.getElementById('avatar'    ).innerHTML = '';
   document.getElementById('username'  ).innerHTML = '';
   document.getElementById('profession').innerHTML = '';
   document.getElementById('level'     ).innerHTML = '';
@@ -67,7 +76,7 @@ function verify_user()
     display_user();
   }
   else if (code.length == 6) {  // assume invite code
-    use_invite(code);           // use invite code and get uid
+    verify_invite(code);        // use invite code and get uid
   }
   else {  // assume userid
     userinfo['userid'] = code;
@@ -77,46 +86,18 @@ function verify_user()
 }
 
 // 招待コードを入力して確認ボタンが押された
-function use_invite(code)
+function verify_invite(code)
 {
-  var req = {
-    "serviceName": "GameService",
-    "methodName": "UseInviteCode",
-    "parameters": [ dummy_uid, code, true, true ]
-  };
-
-  post_request(req, document.getElementById('userid'),
-    function (resp) { invite_done(resp); });
+  get_uid_from_invite(code, document.getElementById('userid'),
+    function(uid) { verify_invite_done(uid); });
 }
 
-// UseInviteリクエスト完了時に非同期で呼ばれる
-function invite_done(resp)
+function verify_invite_done(uid)
 {
-  var stat = document.getElementById('userid')
-
-  if (resp['result'] != 0) {
-    stat.innerHTML = '<font color="red">' + message['code_error'] + '</font>';
-    return;
-  }
-
-  userinfo['userid'] = resp['uid'];
-  document.getElementById('userinput').value = resp['uid'];
-
-  // 招待リクエスト取り消し
-  decline_invite();
-}
-
-// UseInvite成功後
-function decline_invite()
-{
-  var req = {
-    "serviceName": "GameService",
-    "methodName": "DeclineInvite",
-    "parameters": [ dummy_uid, userinfo['userid'] ]
-  };
-
-  post_request(req, document.getElementById('userid'),
-    function(resp) { get_profile(); });
+  userinfo['userid'] = uid;
+  document.getElementById('userinput').value = uid;
+  document.getElementById('userid').innerHTML = uid;
+  get_profile();
 }
 
 // UseInviteによるUID取得成功後、またはUIDを入力して確認ボタンが押された
@@ -125,9 +106,13 @@ function get_profile()
   var req = {
     "serviceName": "GameService",
     "methodName": "GetProfiles",
-    "parameters": [ [ userinfo['userid'] ], [ "Profile" ], ss_client_version ]
+    "parameters": [
+      [ userinfo['userid'] ],
+      [ "Profile", "FB_pic" ],
+      ss_client_version
+    ]
   };
-
+  console.log('GetProfiles');
   post_request(req, document.getElementById('username'),
     function(resp) { get_profile_done(resp); });
 }
@@ -135,12 +120,21 @@ function get_profile()
 // GetProfilesリクエスト完了時に非同期で呼ばれる
 function get_profile_done(resp)
 {
-  var stat = document.getElementById('username')
+  var status = document.getElementById('username')
   var profile = resp[0]['data']
 
   if (!profile) {
-    stat.innerHTML = '<font color="red">' + message['net_error'] + '</font>';
+    status.innerHTML = '<font color="red">' + message['net_error'] + '</font>';
     return;
+  }
+
+  userinfo['fbavatar'] = profile['FB_pic'];
+
+  if (parseInt(profile['Profile']['picture_id']) > 0) {
+    userinfo['avatar'] = './img/pic_' + profile['Profile']['picture_id'] + '.jpg';
+  }
+  else {
+    userinfo['avatar'] = './img/pic_1.jpg';
   }
 
   userinfo['username'] = profile['Profile']['username'];
@@ -165,6 +159,7 @@ function peek_giftbox()
 
   document.getElementById('result').innerHTML = '';
 
+  console.log('GetGifts');
   post_request(req, document.getElementById('comm_status'),
     function(resp) { peek_giftbox_done(resp); });
 }
@@ -211,6 +206,7 @@ function get_friends(start)
     ]
   };
 
+  console.log('GetFriends');
   post_request(req, document.getElementById('comm_status'),
     function(resp) { get_friends_done(resp); });
 }
@@ -266,6 +262,7 @@ function get_inventory()
 
   document.getElementById('result').innerHTML = '';
 
+  console.log('GetInventory');
   post_request(req, document.getElementById('comm_status'),
     function(resp) { get_inventory_done(resp); });
 }
@@ -302,6 +299,7 @@ function get_progress()
 
   document.getElementById('result').innerHTML = '';
 
+  console.log('GetProfiles');
   post_request(req, document.getElementById('comm_status'),
     function(resp) { get_progress_done(resp); });
 }

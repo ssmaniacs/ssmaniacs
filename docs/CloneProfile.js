@@ -1,9 +1,6 @@
 /*
   プロファイルおよびインベントリを別IDのユーザにコピーする
 */
-// 招待コード判定用のダミーアカウント（友達のいない未使用アカウント）
-var dummy_uid = 'suid_30357589';  // Tate
-
 // 新旧端末のアカウント情報
 var userinfo = {
   'old': {},
@@ -54,7 +51,7 @@ function verify_user(pfx)
   }
   else if (code.length == 6) { // assume invite code
     // use invite code and get uid
-    use_invite(code, pfx, info);
+    verify_invite(code, pfx, info);
   }
   else {  // assume userid
     info['uid'] = code;
@@ -64,48 +61,17 @@ function verify_user(pfx)
 }
 
 // 招待コードを入力して確認ボタンが押された
-function use_invite(code, pfx, info)
+function verify_invite(code, pfx, info)
 {
-  var req = {
-    "serviceName": "GameService",
-    "methodName": "UseInviteCode",
-    "parameters": [ dummy_uid, code, true, true ]
-  };
-
-  post_request(req, document.getElementById(pfx + '_uid'),
-    function (resp) { invite_done(pfx, info, resp); });
+  get_uid_from_invite(code, document.getElementById(pfx + '_uid'),
+    function(uid) { verify_invite_done(uid, pfx, info); });
 }
 
-// UseInviteリクエスト完了時に非同期で呼ばれる
-function invite_done(pfx, info, resp)
+function verify_invite_done(uid, pfx, info)
 {
-  var stat = document.getElementById(pfx + '_uid')
-
-  if (resp['result'] != 0) {
-    stat.innerHTML = '<font color="red">' + message['code_error'] + '</font>';
-    return;
-  }
-
-  info['uid'] = resp['uid'];
+  info['uid'] = uid;
   display_user(pfx, info);
-
-  // リクエスト取り消し
-  decline_invite(pfx, info);
-
-  // UIDからプロファイル取得
   get_profile(pfx, info);
-}
-
-// UseInvite成功後
-function decline_invite(pfx, info)
-{
-  var req = {
-    "serviceName": "GameService",
-    "methodName": "DeclineInvite",
-    "parameters": [ dummy_uid, info['uid'] ]
-  };
-
-  post_request(req, document.getElementById(pfx + '_uid'), null);
 }
 
 // UseInviteによるUID取得成功後、またはUIDを入力して確認ボタンが押された
@@ -124,11 +90,15 @@ function get_profile(pfx, info)
 // GetProfilesリクエスト完了時に非同期で呼ばれる
 function get_profile_done(pfx, info, resp)
 {
-  var stat = document.getElementById(pfx + '_nam')
-  var profile = resp[0]['data']
+  var status = document.getElementById(pfx + '_nam')
+  var profile = null;
+  try {
+    profile = resp[0]['data'];
+  }
+  catch (e) {}
 
   if (!profile) {
-    stat.innerHTML = '<font color="red">' + message['net_error'] + '</font>';
+    status.innerHTML = '<font color="red">' + message['code_error'] + '</font>';
     return;
   }
 
@@ -182,10 +152,10 @@ function get_inventory(pfx, info)
 // GetInventoryリクエスト完了時に非同期で呼ばれる
 function get_inventory_done(pfx, info, resp)
 {
-  var stat = document.getElementById(pfx + '_qst')
+  var status = document.getElementById(pfx + '_qst')
 
   if (!('Inventory' in resp)) {
-    stat.innerHTML = '<font color="red">' + message['net_error'] + '</font>';
+    status.innerHTML = '<font color="red">' + message['net_error'] + '</font>';
     return;
   }
 
@@ -198,15 +168,15 @@ function get_inventory_done(pfx, info, resp)
 // 複製ボタンが押された
 function clone_data()
 {
-  var stat = document.getElementById('clone_status');
+  var status = document.getElementById('clone_status');
 
   if (!(userinfo['old']['uid'] && userinfo['old']['profile'] && userinfo['old']['inventory'])) {
-    stat.innerHTML = '<font color="red">' + message['need_old'] + '</font>';
+    status.innerHTML = '<font color="red">' + message['need_old'] + '</font>';
     return;
   }
 
   if (!(userinfo['new']['uid'] && userinfo['new']['profile'] && userinfo['new']['inventory'])) {
-    stat.innerHTML = '<font color="red">' + message['need_new'] + '</font>';
+    status.innerHTML = '<font color="red">' + message['need_new'] + '</font>';
     return;
   }
 

@@ -121,10 +121,14 @@ function get_profile()
 function get_profile_done(resp)
 {
   var status = document.getElementById('username')
-  var profile = resp[0]['data']
+  var profile = null;
+  try {
+    profile = resp[0]['data'];
+  }
+  catch (e) {}
 
   if (!profile) {
-    status.innerHTML = '<font color="red">' + message['net_error'] + '</font>';
+    status.innerHTML = '<font color="red">' + message['code_error'] + '</font>';
     return;
   }
 

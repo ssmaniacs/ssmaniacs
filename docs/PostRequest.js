@@ -267,7 +267,7 @@ function invite_done(resp)
 {
   if (resp['result'] != 0) {
     var msg;
-    if (resp['result'] == 3) {
+    if (resp['result'] == 3 || resp['result'] == 2) {
       msg = message['code_expired'];  // 招待コードが間違ってるって。古いのかも？
     }
     else if (resp['result'] == 4) {
@@ -277,7 +277,7 @@ function invite_done(resp)
       msg = message['code_waiting'];  // 友達申請済みか、もう友達かも。待機中のリストに" + gifter_name + "がいたら承認して。再登録するならいったん友達削除して。
     }
     else {
-      msg = mesasge['code_invite'] + ' (' + resp['result'] + ')';   // 友達申請エラー
+      msg = message['code_invite'] + ' (' + resp['result'] + ')';   // 友達申請エラー
     }
     status_field.innerHTML = '<font color="red">' + msg + '</font>';
     return;

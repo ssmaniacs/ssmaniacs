@@ -15,7 +15,7 @@ upload() {
 	SYNC=$5
 
 	echo Retrieving remote list at ${HOST}
-	ftp -npi ${HOST} <<-FTP
+	timeout 30 ftp -npi ${HOST} <<-FTP || { echo Timeout; return; }
 		user ${USER} ${PASS}
 		cd /${ROOT}
 		ls -R list-${HOST}.txt
@@ -69,9 +69,6 @@ for k in $*; do
 	check) CHECK=check
 		;;
 	nocheck) CHECK=
-		;;
-	webhost)
-		upload files.000webhost.com ssmaniacs secretsanta public_html ${SYNC} ${CHECK}
 		;;
 	xdomain)
 		upload sv1.php.xdomain.ne.jp ssmaniacs.php.xdomain.jp secretsanta / ${SYNC} ${CHECK}

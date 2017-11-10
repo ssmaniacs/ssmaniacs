@@ -4,6 +4,7 @@
 import sys
 import os
 import json
+import httplib
 import urllib2
 
 PROXIES = [
@@ -59,7 +60,7 @@ def http_post(body, proto='http', use_proxy=True):
         res = e.read()
         break
 
-    except (StandardError, urllib2.URLError), e:
+    except (StandardError, httplib.HTTPException, urllib2.URLError), e:
       sys.stderr.write('{0}: {1}: {2}\n'.format(proxy, e.__class__.__name__, str(e)))
 
   else:

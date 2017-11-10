@@ -3,6 +3,7 @@
 # vim: ts=2 et
 import json
 from SendRequest import http_post, SELF_UID
+from TidyList import TIDY
 
 REMOVE = [
   1, 2, 3, 4, 5, 6, # Weak talismans
@@ -310,9 +311,18 @@ def main():
     data['Inventory']['item_count']
   ))
 
+  for (itemid, count) in TIDY.items():
+    if count == 0:
+      if itemid in items:
+        del items[itemid]
+    elif count > 0:
+      items[itemid] = count
+
+  '''
   for delid in REMOVE:
     if delid in items:
       del items[delid]
+  '''
 
   (
     data['Inventory']['item_id'],
@@ -328,6 +338,7 @@ def main():
     ]
   }
 
+  #print json.dumps(body, indent=2)
   resp = http_post(json.dumps(body))
   print json.dumps(resp, indent=2)
 

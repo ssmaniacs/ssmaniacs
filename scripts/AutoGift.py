@@ -7,6 +7,8 @@ import os
 import socket
 import json
 import time
+from SendRequest import http_post, SELF_UID
+
 
 #GIFTER_ID = 'suid_34549937'
 #GIFTER_NAME = 'SecretSanta'
@@ -58,6 +60,7 @@ def sendreq(body):
   ])
 
   retry = 0
+  res = []
   while True:
     try:
       sock = socket.create_connection(('68.168.210.28', 80))
@@ -70,17 +73,28 @@ def sendreq(body):
       if retry == 5:
         raise
 
-  res = []
-  try:
-    while True:
-      data = sock.recv(65536)
-      if not data:
-        break
-      res.append(data)
-  except socket.timeout:
-    pass
+      continue
 
-  sock.close()
+    res = []
+    try:
+      while True:
+        data = sock.recv(65536)
+        if not data:
+          break
+        res.append(data)
+
+    except socket.timeout:
+      pass
+
+    except:
+      retry += 1
+      if retry == 5:
+        raise
+
+      continue
+
+    sock.close()
+    break
 
   if res:
     (head, body) = ''.join(res).split('\r\n\r\n', 1)
@@ -110,7 +124,7 @@ def sendgifts(uid, name, items):
       ]
     }
 
-    (status, resbody) = sendreq(json.dumps(reqbody))
+    resbody = http_post(json.dumps(reqbody))
     #status = 'SUPPRESSED'
     #resbody = {'error': True}
 
@@ -122,8 +136,8 @@ def sendgifts(uid, name, items):
       else:
         res = 'fail'
 
-      print '{item:4d} {name}\tHTTP:{stat} result:{res}'.format(
-        name=name, item=item, stat=status, res=res)
+      print '{item:4d} {name}\tresult:{res}'.format(
+        name=name, item=item, res=res)
     except:
       pass
 
@@ -158,7 +172,7 @@ def main():
     ]
   }
 
-  (status, friends) = sendreq(json.dumps(reqbody))
+  friends = http_post(json.dumps(reqbody))
 
   if friends['error']:
     print json.dumps(friends, indent=2)

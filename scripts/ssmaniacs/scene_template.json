@@ -723,5 +723,43 @@
       {"layer": 6,  "x": 429,  "y": 0,   "path": "cosmos_hall.bg/anim_001.png",       "ani": true}, 
       {"layer": 6,  "x": 629,  "y": 324, "path": "cosmos_hall.bg/siluet_001.png",     "ani": true}
     ]
+  },
+  "59": {
+    "name": "秘密の郵便室",
+    "background": [
+      {"layer": 0,  "x": 0,    "y": 0,   "path": "secret_mailroom.bg/back.png"        },
+      {"layer": 0,  "x": 0,    "y": 0,   "path": "secret_mailroom.bg/snow.png"        },
+      {"layer": 1,  "x": 204,  "y": 59,  "path": "secret_mailroom.bg/garland_1.png",  "type": "effect"},
+      {"layer": 1,  "x": 204,  "y": 59,  "path": "secret_mailroom.bg/garland_2.png",  "type": "effect"},
+      {"layer": 2,  "x": 0,    "y": 0,   "path": "secret_mailroom.bg/bg.png"          },
+      {"layer": 8,  "x": 1094, "y": 120, "path": "secret_mailroom.bg/lamp.png",       "type": "effect"},
+      {"layer": 8,  "x": 146,  "y": 101, "path": "secret_mailroom.bg/truck_light_1.png", "type": "effect", "ani": true}
+    ]
+  },
+  "60": {
+    "name": "女優の部屋",
+    "background": [
+      {"layer": 1,  "x": 209,  "y": 66,   "path": "actress_room.bg/phon.png"           },
+      {"layer": 2,  "x": 0,    "y": 0,    "path": "actress_room.bg/bg.png"             },
+      {"layer": 6,  "x": 251,  "y": 439,  "path": "actress_room.bg/cat_001.png",       "ani": true},
+      {"layer": 6,  "x": 1163, "y": 332,  "path": "actress_room.bg/rose_001.png",      "ani": true}
+    ]
+  },
+  "61": {
+    "name": "幼稚園",
+    "background": [
+      {"layer": 0,  "x": 228,  "y": 138,  "path": "nursery.bg/back.png"               }, 
+      {"layer": 1,  "x": 293,  "y": 213,  "path": "nursery.bg/cloud_1.png",           "type": "skip"}, 
+      {"layer": 1,  "x": 316,  "y": 190,  "path": "nursery.bg/cloud_2.png",           "type": "skip"}, 
+      {"layer": 1,  "x": 239,  "y": 211,  "path": "nursery.bg/cloud_3.png"            }, 
+      {"layer": 1,  "x": 274,  "y": 222,  "path": "nursery.bg/cloud_4.png",           "type": "skip"}, 
+      {"layer": 2,  "x": 467,  "y": 257,  "path": "nursery.bg/tree_1.png"             }, 
+      {"layer": 2,  "x": 433,  "y": 251,  "path": "nursery.bg/tree_2.png"             }, 
+      {"layer": 2,  "x": 354,  "y": 308,  "path": "nursery.bg/tree_3.png"             }, 
+      {"layer": 2,  "x": 388,  "y": 290,  "path": "nursery.bg/tree_4.png"             }, 
+      {"layer": 2,  "x": 0,    "y": 0,    "path": "nursery.bg/bg.png"                 }, 
+      {"layer": 8,  "x": 636,  "y": 230,  "path": "nursery.bg/toys_1.png", "ani": true}, 
+      {"layer": 9,  "x": 753,  "y": 239,  "path": "nursery.bg/toys_cover.png"         }
+    ]
   }
 }

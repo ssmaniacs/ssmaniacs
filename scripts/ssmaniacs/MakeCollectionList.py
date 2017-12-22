@@ -51,7 +51,15 @@ def load_iteminfo(resdir):
   items = {}
 
   # アイテム基本情報 (ID, 種別)
-  root = ElementTree.parse(os.path.join(resdir, '1024', 'properties', 'items.xml')).getroot()
+
+  #root = ElementTree.parse(os.path.join(resdir, '1024', 'properties', 'items.xml')).getroot()
+  # ElementTreeが読み込めない記述エラーがある
+  lines = []
+  with open(os.path.join(resdir, '1024', 'properties', 'items.xml'), 'r') as fh:
+    for line in fh:
+      lines.append(line.replace('/ >', ' />'))
+
+  root = ElementTree.fromstringlist(lines)
   for item in root:
     id_ = int(item.get('id'))
     sectype = item.get('secType')
@@ -299,8 +307,9 @@ def output_json(iteminfo, collinfo, textinfo, dstdir, imgdir):
 
     if c['id'] in target:
       # artifact id 5 (魔女の魔よけ）はダブっている（前年のイベントと同じアイテムID）
+      # artifact id 6 (サンタの魔よけ）はダブっている（前年のイベントと同じアイテムID）
       sys.stderr.write('Duplicate {0} ID {1}\n'.format(c['type'], c['id']))
-      if c['type'] == 'artifact' and c['id'] == 5:
+      if c['type'] == 'artifact' and c['id'] in (5, 6):
         sys.stderr.write('Overwriting with the newer one\n')
       else:
         sys.stderr.write(json.dumps(target[c['id']], indent=2, sort_keys=True, ensure_ascii=False) + '\n\n')

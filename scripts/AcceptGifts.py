@@ -102,10 +102,13 @@ def accept_gifts():
     itemname = ITEMS.get(itemid, 'item:{0}'.format(itemid))
 
     if itemid == 318: 
-      #action = 'accept'
-      action = 'ignore'
+      action = 'accept'
+      #action = 'ignore'
 
-    elif gift['friend_uid'] not in ACCEPT_USERS:
+    #elif gift['friend_uid'] not in ACCEPT_USERS:
+    #  action = 'thank'
+
+    elif itemid <= 5000:
       action = 'thank'
 
     else:
